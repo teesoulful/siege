@@ -8,7 +8,7 @@ no accounts, no backend, data lives in `data/` as JSON and gets bundled into
 ## Layout
 
 ```
-squad_ops_prototype_v4.html   the app (single HTML file, vanilla JS)
+index.html                    the app (single HTML file, vanilla JS)
 build_data.py                 combines data/*.json -> dist/data.js
 scripts/fetch_transcripts.py  yt-dlp + VTT-to-clean-text pipeline for new videos
 data/
@@ -113,9 +113,16 @@ dist/data.js                  generated — do not edit by hand
 ```
 python3 -m http.server 8642 --directory "/Users/tee/Documents/SIEGE"
 ```
-then open `http://localhost:8642/squad_ops_prototype_v4.html`. Opening the HTML
-file directly (`file://`) also works since data loads via a `<script src>` tag,
-not `fetch()`.
+then open `http://localhost:8642/`. Opening the HTML file directly
+(`file://`) also works since data loads via a `<script src>` tag, not
+`fetch()`.
+
+## Deployment
+
+Deployed as a static site (Vercel) from this repo's `main` branch —
+`index.html` + `dist/data.js` is all that's served, no build step. See
+`/Users/tee/.claude/plans/sparkling-gliding-hollerith.md` for the full
+plan covering the Supabase accounts/realtime-sync layer.
 
 ## Current coverage
 

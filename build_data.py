@@ -4,9 +4,9 @@ Builds dist/data.js from the source-of-truth JSON files in data/.
 
 Run this after editing anything under data/ (new transcript parsed into
 data/strategies/<map>.json, wiki updates to data/operators.json, etc.)
-and then just refresh the browser tab — squad_ops_prototype_v4.html loads
-dist/data.js as a plain <script> tag so it works over file:// with no
-local server required.
+and then just refresh the browser tab — index.html loads dist/data.js as
+a plain <script> tag so it works over file:// with no local server
+required.
 
 Usage: python3 build_data.py
 """
