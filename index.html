@@ -88,6 +88,8 @@
   .taskchip.mine{border-color:var(--amber);background:rgba(232,161,60,.14);color:var(--amber);font-weight:600;}
   .taskchip.open{white-space:normal;max-width:100%;}
   .taskchip.generated{border-style:dashed;}
+  .taskchip.extra-toggle{color:var(--text-dim);border-style:dotted;}
+  .taskchip.extra-toggle:hover{color:var(--text);}
   .taskdetail{font-size:12px;color:var(--text-dim);line-height:1.5;margin-top:4px;padding-top:4px;border-top:1px dashed var(--line);}
   .taskdetail .ts{color:var(--text-faint);margin-left:4px;}
   .instr{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1.5px solid var(--amber-dim);border-radius:14px;padding:24px 20px;margin-bottom:16px;}
@@ -1083,6 +1085,47 @@ function renderInstructions(){
     panel.appendChild(g);
   }
 
+  // Attack operators often carry many gadgetPlacements across a whole round
+  // (breach, cameras, punch holes, backup kit) with no equivalent of
+  // Defense's squad-wide distribution to thin them out — left unchecked
+  // that's 6+ chips on one card, each needing a tap to read. Cap the
+  // default view to the essentials: keyword-flagged backup/optional/
+  // situational items are demoted first, then anything past the cap is
+  // demoted too (oldest-priority-first, i.e. later in the transcript).
+  // The rest sits behind one "+N more" toggle instead of cluttering the
+  // main view.
+  const EXTRA_SIGNAL = /\b(backup|optional|alternative|if needed|in case|situational|only if|5th player|swap|can also|not essential)\b/i;
+  function splitEssentialExtra(items, cap){
+    const flagged = items.filter(i => EXTRA_SIGNAL.test(i.note || ''));
+    let essential = items.filter(i => !EXTRA_SIGNAL.test(i.note || ''));
+    let extra = flagged;
+    if(essential.length > cap){
+      extra = [...essential.slice(cap), ...extra];
+      essential = essential.slice(0, cap);
+    }
+    return {essential, extra};
+  }
+  function cappedField(label, items, cap, chipFn, extraToggleId){
+    if(!items || !items.length) return;
+    const {essential, extra} = splitEssentialExtra(items, cap);
+    const g = el('div', 'setupgroup');
+    g.appendChild(el('div', 'label', label));
+    const row = el('div', 'taskrow');
+    essential.forEach((item, i) => row.appendChild(chipFn(item, i)));
+    if(extra.length){
+      const open = state.expandedTasks.has(extraToggleId);
+      if(open){
+        extra.forEach((item, i) => row.appendChild(chipFn(item, 'extra' + i)));
+      } else {
+        const toggle = el('div', 'taskchip extra-toggle', `+${extra.length} more`);
+        toggle.onclick = () => { state.expandedTasks.add(extraToggleId); renderAll(); };
+        row.appendChild(toggle);
+      }
+    }
+    g.appendChild(row);
+    panel.appendChild(g);
+  }
+
   if(!setup){
     panel.appendChild(el('div', 'job empty', `No verified ${state.side.toLowerCase()} setup data yet for this site — add a transcript to data/strategies and re-run build_data.py.`));
     if(state.side === 'Attack' && window.SIEGE_GENERAL_PRINCIPLES && window.SIEGE_GENERAL_PRINCIPLES.length){
@@ -1147,8 +1190,9 @@ function renderInstructions(){
   if(utilInfo && typeof utilInfo.count === 'number' && myGadgets.length > utilInfo.count){
     utilItems = myGadgets.slice(0, utilInfo.count);
   }
-  field('Utilities', utilItems, (i, idx) =>
-    taskChip(`${idBase}|util|${idx}`, i.location, i.note, i.timestamp, true, utilGenerated));
+  cappedField('Utilities', utilItems, 4, (i, idx) =>
+    taskChip(`${idBase}|util|${idx}`, i.location, i.note, i.timestamp, true, utilGenerated),
+    `${idBase}|util-extra`);
   if(utilInfo && typeof utilInfo.count === 'number' && myGadgets.length > utilInfo.count){
     panel.appendChild(el('div', 'setupempty', `Only ${utilInfo.count}× ${utilInfo.gadget} — ${myGadgets.length - utilInfo.count} more spot(s) need a teammate or a plain reinforcement instead.`));
   }
