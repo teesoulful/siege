@@ -269,7 +269,7 @@ let state = {
   activeSquad: new Set(['tee','tamiym','stefan','eman']),
   viewingAs: 'tee',
   map: 'Bank',
-  site: 'CEO Office / Meeting Room',
+  site: (STRATEGY_BANK.Bank && STRATEGY_BANK.Bank.sites[0]) || '', // derived, not hardcoded — site display names include a build-time floor prefix (e.g. "2F ...") that can change
   siteExpanded: true,
   side: 'Defense',
   round: 1,
