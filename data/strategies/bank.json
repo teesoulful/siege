@@ -18,13 +18,13 @@
         {"location": "Wall Between CEO Office and Janitor", "note": "Play Janitor tied to this door; hold into Stock through it.", "timestamp": "02:32"},
         {"location": "East Wall of Kanto Wall Corridor, x2 (near Trump/Stock)", "note": "Bring a Bandit — the batteries are awkward for attackers to reach with EMP from this angle. Skip Thatcher, his EMP doesn't detonate on impact here.", "timestamp": "08:18"},
         {"location": "North Wall of Trump Room", "note": "Watch the west repel spot outside these windows.", "timestamp": "04:23"},
-        {"location": "Meeting Room Wall (facing Stock)", "note": "Pair with a head hole into the same wall.", "timestamp": "06:37"}
+        {"location": "Meeting Room Wall, Desks Side (facing Square)", "note": "Protects the Azami/Frost desks room setup from Square.", "timestamp": "06:50"}
       ],
       "headHoles": [
         {"location": "West Wall of CEO Office, Right Side", "note": "Keep this side soft — head holes onto Janitor only. Don't reinforce it, or Square opens up completely.", "timestamp": "02:06"},
         {"location": "Wall at Back of CEO Office (into Square)", "note": "Best used with a DMR or ACOG.", "timestamp": "06:07"},
         {"location": "West Wall of CEO Office (facing the 4 windows)", "note": "Don't make this the first thing you do in a round — play Janitor early instead.", "timestamp": "03:10"},
-        {"location": "Meeting Room Wall (facing Stock)", "note": "Same wall as the reinforcement — gives sightline into Stock.", "timestamp": "06:37"}
+        {"location": "Meeting Room Wall into Stock", "note": "Gives sightline into Stock from Meeting.", "timestamp": "06:37"}
       ],
       "rotates": [
         {"location": "Wall near Trump/Stock stairs", "note": "Make the rotate hole on the LEFT side, not the right — right side exposes you to the top of the spiral/banana stairs.", "timestamp": "05:08"}
@@ -52,14 +52,12 @@
       "callouts": ["Server Room", "Dirt", "Blue Stairs", "CCTV / Security", "Red Hall", "Gold", "Garage", "Lockers", "Elevator", "Vault", "Bolt Hatch", "Main Stairs"],
       "reinforcements": [
         {"location": "Server Room hatch", "note": "Only reinforce if dedicating a player to permanently hold Server. Otherwise leave it soft.", "timestamp": "12:00"},
-        {"location": "North wall of CCTV/Security (facing Server)", "note": "Always reinforce this one.", "timestamp": "14:09"},
-        {"location": "CCTV/Security second wall (optional)", "note": "Optional — make feet holes here instead if you'd rather see feet at the back of Server from the rotate spot.", "timestamp": "14:23"},
-        {"location": "Wall near Red Hall default plant", "note": "Prefer head holes over reinforcing here.", "timestamp": "16:18"},
-        {"location": "South wall of Garage", "note": "Either reinforce it fully or make head holes — don't do both, and don't head-hole the entire wall.", "timestamp": "16:53"}
+        {"location": "North Wall of CCTV/Security (facing Server)", "note": "Always reinforce this one.", "timestamp": "14:09"}
       ],
       "headHoles": [
-        {"location": "Wall near Red Hall/plant spot", "note": "Two head holes covering the default plant from different angles, plus a wider DMR swing that also covers the side door.", "timestamp": "17:42"},
-        {"location": "South wall of Garage", "note": "Pair with a DMR-capable defender (e.g. Aruni) or ACOG loadout.", "timestamp": "17:31"},
+        {"location": "Second Wall of CCTV/Security, Feet Holes", "note": "See feet at the back of Server from the rotate spot. Risk: attackers can wall-bang through it if they know you're there.", "timestamp": "14:23"},
+        {"location": "Wall near Red Hall/Default Plant Spot", "note": "Two head holes covering the default plant from different angles, plus a wider DMR swing that also covers the side door. Don't head-hole the entire wall — leave a section you can safely stand behind.", "timestamp": "17:42"},
+        {"location": "South Wall of Garage", "note": "Head holes only, not the full wall — leave a safe standing section. Pair with a DMR-capable defender (e.g. Aruni) or ACOG loadout.", "timestamp": "17:31"},
         {"location": "Lockers, slightly raised", "note": "Higher than a normal head hole — smokes thrown from deep Lockers can reach the Server door/plant spot; a C4 lobbed from close also lands roughly on the plant.", "timestamp": "18:02"}
       ],
       "rotates": [

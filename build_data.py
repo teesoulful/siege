@@ -78,6 +78,33 @@ def floor_prefix(map_floors, raw_floor_text):
     return ""
 
 
+def check_no_reinforce_headhole_conflict(strategies):
+    # A wall segment is either reinforced (fully hard — no bullets, no holes
+    # of any kind) or left soft with head/feet holes cut into it. It can
+    # never be both at once. The one thing that IS legal in-game is
+    # reinforcing one section of a described wall while head-holing a
+    # different section (e.g. "West Wall, Left Side" reinforced / "West
+    # Wall, Right Side" head-holed) — that's two distinct sections, not a
+    # conflict. This check only catches the literal-duplicate case: the
+    # exact same location string appearing in both reinforcements/hatches
+    # and headHoles/rotates for one site, which is a real rule violation
+    # every time it happens (it means the data claims one specific spot is
+    # simultaneously hard and soft).
+    errors = []
+    for map_name, sides in strategies.items():
+        for side, side_data in sides.items():
+            for site in side_data.get("sites", []):
+                hard = {i["location"].strip().lower() for i in site.get("reinforcements", []) + site.get("hatches", [])}
+                soft = {i["location"].strip().lower() for i in site.get("headHoles", []) + site.get("rotates", [])}
+                overlap = hard & soft
+                if overlap:
+                    errors.append(f"{map_name}/{side}/{site.get('id', site.get('workingName'))}: "
+                                  f"same location in both reinforcements and headHoles/rotates: {overlap}")
+    if errors:
+        raise SystemExit("Reinforce/head-hole conflict — a wall can't be both hard and soft at the same spot:\n"
+                          + "\n".join(f"  - {e}" for e in errors))
+
+
 def build():
     operators = load_json(DATA / "operators.json")
 
@@ -94,6 +121,8 @@ def build():
             general_principles.append(s)
             continue
         strategies.setdefault(s["map"], {})[s["side"]] = s
+
+    check_no_reinforce_headhole_conflict(strategies)
 
     # Legacy STRATEGY_BANK[map][side][site_name][operator] = {role, job, synergy}
     # generated from the richer site-setup data so the existing per-operator

@@ -787,6 +787,37 @@ function distributeSiteTasks(setup, playerOps){
   return result;
 }
 
+// Orders a player's Site Setup items so reinforcements come first, each
+// immediately followed by any head hole/rotate that shares a room/callout
+// keyword with it (the "connected" tasks for that wall — e.g. the West Wall
+// of CEO Office's Left Side reinforcement followed directly by its Right
+// Side head holes), then whatever reinforcements and head holes/rotates
+// don't share a keyword with anything else, standalone, at the end.
+function groupSiteSetupItems(items){
+  const reinforceItems = items.filter(i => i.action === 'Reinforce' || i.action === 'Hatch');
+  const otherItems = items.filter(i => i.action !== 'Reinforce' && i.action !== 'Hatch');
+  const claimed = new Set();
+  const grouped = [];
+  const standaloneReinforce = [];
+
+  reinforceItems.forEach(r => {
+    const rKws = locationKeywords(r.location);
+    const matches = [];
+    otherItems.forEach((o, idx) => {
+      if(claimed.has(idx)) return;
+      const oKws = locationKeywords(o.location);
+      let overlap = false;
+      rKws.forEach(k => { if(oKws.has(k)) overlap = true; });
+      if(overlap){ matches.push(o); claimed.add(idx); }
+    });
+    if(matches.length){ grouped.push(r, ...matches); }
+    else standaloneReinforce.push(r);
+  });
+
+  const standaloneOther = otherItems.filter((o, idx) => !claimed.has(idx));
+  return [...grouped, ...standaloneReinforce, ...standaloneOther];
+}
+
 function runDefenseDraft(){
   const siteData = (STRATEGY_BANK[state.map].Defense || {})[state.site] || {};
   const sitePool = Object.entries(siteData)
@@ -928,12 +959,19 @@ function renderInstructions(){
   // 1. Operator name
   panel.appendChild(el('div', 'opline', yourOp));
 
-  // 2. Switch chips — directly under the name, no label above them
-  const matches = getRecommended(you.id);
-  const visible = matches.slice(0, 3);
+  // 2. Switch chips — directly under the name, no label above them. Pulled
+  // straight from this site's own recommended-operator list (already split
+  // from combined "X or Y" names at build time), not from getRecommended()'s
+  // independent role-matching search. getRecommended() can rank a completely
+  // different operator pool than whichever slot the draft actually assigned
+  // this player to — so switching once could knock the real site option
+  // (e.g. Azami) out of the list for good. The site's own list always keeps
+  // every unbanned, unclaimed-by-a-teammate named operator pickable.
+  const siteOpPool = Object.keys((STRATEGY_BANK[state.map]?.[state.side] || {})[state.site] || {});
+  const visible = siteOpPool.filter(op => !state.banned.has(op) && !pickedElsewhere(op, you.id));
   if(visible.length > 1){
     const row = el('div', 'switchrow');
-    visible.forEach(([op]) => {
+    visible.forEach(op => {
       const chip = el('div', 'switchchip' + (op === yourOp ? ' active' : ''), op);
       chip.onclick = () => { state.picks[you.id] = op; state.manualPickOpen = false; renderAll(); };
       row.appendChild(chip);
@@ -970,16 +1008,16 @@ function renderInstructions(){
   // contradictory (e.g. a wall filed under "Reinforce" whose detail says not
   // to reinforce it). Team-wide, but split geographically across the squad
   // (distributeSiteTasks) rather than dumping the whole site's list on every
-  // player. Sorted by location text so paired items on the same wall (one
-  // reinforce entry, one head-hole entry) land next to each other.
+  // player. Reinforcements lead, each followed by its connected head
+  // hole/rotate (groupSiteSetupItems); anything with no connection follows
+  // as its own standalone line.
   const activePicks = {};
   activeRoster().forEach(p => { if(state.picks[p.id]) activePicks[p.id] = state.picks[p.id]; });
   const myShare = (state.side === 'Defense')
     ? distributeSiteTasks(setup, activePicks)[you.id] || {reinforce: [], rotate: []}
     : {reinforce: [], rotate: []}; // attack has no reinforce/rotate concept
 
-  const siteSetupItems = [...myShare.reinforce, ...myShare.rotate]
-    .sort((a, b) => a.location.localeCompare(b.location));
+  const siteSetupItems = groupSiteSetupItems([...myShare.reinforce, ...myShare.rotate]);
 
   field('Site Setup', siteSetupItems, (i, idx) =>
     taskChip(`${idBase}|setup|${idx}|${i.location}`, `${i.action}: ${i.location}`, i.note, i.timestamp, false));

@@ -20,10 +20,10 @@
         {"location": "Electrical window wall (both panes)", "note": "Reinforce both; attackers (e.g. Ash) will try to open the window and destroy nearby Bandit batteries, so electrify this too.", "timestamp": "03:06"},
         {"location": "Command Center left wall", "note": "Reinforce; pair with head holes on the right wall.", "timestamp": "04:30"},
         {"location": "Command Center triple wall (behind pillar, back of site)", "note": "Reinforced; head holes line up cleanly across it. Creator deliberately does NOT do the 'reinforce left, reinforce right, rotate middle' pro-league version of this wall — says that gets you domed from the door outside unless you're at a high rank; recommends head holes across the whole thing instead for generic ranked play.", "timestamp": "04:51"},
-        {"location": "Command Center right wall", "note": "Reinforce; pair with feet holes.", "timestamp": "06:15"}
+        {"location": "Command Center right wall (main section)", "note": "Reinforce; pair with feet holes.", "timestamp": "06:15"}
       ],
       "headHoles": [
-        {"location": "Command Center right wall", "note": "See the breach and Connector through these if needed.", "timestamp": "04:30"},
+        {"location": "Command Center right wall (paired with left wall reinforcement)", "note": "See the breach and Connector through these if needed.", "timestamp": "04:30"},
         {"location": "Command Center triple wall (behind pillar)", "note": "Lined up across the reinforced triple wall instead of a middle rotate hole — the generic-rank recommendation instead of the pro-league rotate version.", "timestamp": "04:51"},
         {"location": "Command Center right wall (near door to top of stairs)", "note": "Don't stand right up against this reinforcement or you'll get domed from the door or elsewhere — hang back a little.", "timestamp": "05:53"}
       ],

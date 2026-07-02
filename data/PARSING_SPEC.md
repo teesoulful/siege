@@ -78,6 +78,26 @@ Defense side) and your output must match its exact shape and field names:
    summary (map, side, site count, item count, any operator-side ambiguities
    you flagged) — not the full JSON content.
 
+7. **A wall segment is either reinforced or head-holed — never both.**
+   Reinforcing a wall makes it fully hard: no bullets, no holes of any kind
+   go through it. Head holes / feet holes only exist on soft (unreinforced)
+   walls. So the exact same `location` string must never appear in both
+   `reinforcements`/`hatches` and `headHoles`/`rotates` for one site —
+   `build_data.py` now fails the build if it finds this (see
+   `check_no_reinforce_headhole_conflict`).
+   - If a transcript describes reinforcing part of a wall and head-holing a
+     *different* part of the same described wall (a real, common technique —
+     e.g. reinforce the left panel, head-hole the right panel), give the two
+     actions clearly distinct `location` strings ("...Left Side" /
+     "...Right Side", or name the two sub-features separately) so it's
+     obvious they're different physical spots, not a contradiction.
+   - If the creator presents reinforcing vs. head-holing as alternative
+     *choices* for the same spot ("you can either reinforce this or make
+     head holes — I prefer X"), that is ONE entry, not two — pick whichever
+     the creator actually recommends (or the one played most often) and put
+     it under the correct single category. Don't duplicate the same spot
+     into both arrays just because the transcript mentions both options.
+
 ## Output location
 
 Write to `data/strategies/<map-slug>_<side-lowercase>.json`, e.g.
