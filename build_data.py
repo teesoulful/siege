@@ -10,6 +10,7 @@ required.
 
 Usage: python3 build_data.py
 """
+import copy
 import json
 import pathlib
 import re
@@ -28,6 +29,34 @@ OPERATOR_ALIASES = {
     "Jager": "Jäger", "Fuse": "Fuze", "Monty": "Montagne",
     "Capitao": "Capitão", "Nokk": "Nøkk", "Tubarao": "Tubarão",
 }
+
+
+def canonicalize_operator_text(text):
+    """split_operator_names() canonicalizes names for the pick-list
+    (STRATEGY_BANK), but SITE_SETUPS keeps each item's raw 'operator' field
+    text as-is for display, and the app matches a viewer's current pick
+    against that raw text with a plain substring check (operator.includes
+    (yourOp)). If the raw text still says the pre-alias spelling ('Fuse')
+    while the canonical pick is 'Fuze', that substring check silently never
+    matches — real gadget placements/holds for that operator would never
+    surface for whoever actually has them picked. Apply the same alias
+    table here, as a whole-word find/replace, so both sides of every match
+    use the same canonical spelling."""
+    for wrong, right in OPERATOR_ALIASES.items():
+        text = re.sub(rf"\b{re.escape(wrong)}\b", right, text)
+    return text
+
+
+def canonicalize_site_operators(site):
+    """Deep-copies a site dict, rewriting every 'operator' field
+    (gadgetPlacements, operatorRecommendations) through
+    canonicalize_operator_text so SITE_SETUPS and STRATEGY_BANK agree."""
+    site = copy.deepcopy(site)
+    for key in ("gadgetPlacements", "operatorRecommendations"):
+        for item in site.get(key, []):
+            if item.get("operator"):
+                item["operator"] = canonicalize_operator_text(item["operator"])
+    return site
 
 
 def split_operator_names(raw, known_sides):
@@ -172,7 +201,7 @@ def build():
             site_setups[map_name].setdefault(side, {})
             for site in side_data["sites"]:
                 display = display_names[map_name][site["workingName"]]
-                site_setups[map_name][side][display] = site
+                site_setups[map_name][side][display] = canonicalize_site_operators(site)
 
     DIST.mkdir(exist_ok=True)
     out = DIST / "data.js"

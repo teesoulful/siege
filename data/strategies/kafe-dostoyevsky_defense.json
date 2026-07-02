@@ -5,7 +5,7 @@
     "title": "New Cafe Setup for 2025 (Y10S2 rework) - How To Defend Cafe Dostoyevsky ALL Sites - Rainbow Six Siege",
     "type": "youtube_transcript",
     "file": "data/raw_transcripts/Kafe_Dostoyevsky_Defense_1m1M_DE5xkM.txt",
-    "notes": "Auto-generated captions (ASR), presenter has a heavy cold/hay fever which adds noise. Generic ranked setups, not pro-league lineups, per the creator's own framing. Room/callout names are the creator's informal terms. A few operator names are garbled by the ASR and are flagged inline below rather than guessed as a specific real operator: 'zombie' (used 3x for a shield-carrying anchor, e.g. 'a zombie shield here and here'), 'as army'/'as aramis', and 'a bulletproof with sentry'. 'Keepa barrier' is treated as a likely reference to Kapkan's EDD given the trap/denial context, but flagged for verification."
+    "notes": "Auto-generated captions (ASR), presenter has a heavy cold/hay fever which adds noise. Generic ranked setups, not pro-league lineups, per the creator's own framing. Room/callout names are the creator's informal terms. A few operator names are garbled by the ASR and are flagged inline below rather than guessed as a specific real operator: 'zombie' (used 3x for a shield-carrying anchor, e.g. 'a zombie shield here and here'), 'as army'/'as aramis', and 'a bulletproof with sentry'. 'Keepa barrier' is treated as a likely reference to Kapkan's EDD given the trap/denial context, but flagged for verification. Compass grounding: Ubisoft's official blueprint zip for this map (same source used for Bank) contains only unlabeled, low-resolution floor overlays with no compass rose or room labels legible at the available resolution, so compass directions could not be reliably assigned for this file — locations below are room/feature names only."
   },
   "sites": [
     {
@@ -14,45 +14,45 @@
       "floor": "Top Floor",
       "callouts": ["Red Hatch", "New Hatch", "Top Red", "Piano", "Stage", "Pixel", "Bathroom", "Cigar Double Door", "Freezer", "Bar Storage / Storage / Back Store", "Top White", "Cocktail", "Trash", "Long Bar"],
       "reinforcements": [
-        {"location": "Two walls at top red (near Piano)", "note": "Reinforce both. Arguably the most important part of the map on this site. Awkward spot for wall denial (EMPs) — few attackers bring it, so it's worth prioritizing denial gadgets here if you can.", "timestamp": "02:02"},
-        {"location": "Bathroom wall (facing windows/cigar double door)", "note": "Trade-off wall: reinforcing THIS side (with head holes on the far side) lets you hold both windows plus the cigar double door and still escape safely back into bathroom. Presenter's preference is to play this side and treat the pixel holder as someone who 'plays the life' with no escape.", "timestamp": "04:29"},
-        {"location": "Freezer walls (both)", "note": "Always reinforce unless running a mirror setup (see creator's separate mirror video). Freezer is a sanctuary room to hold from all round.", "timestamp": "05:54"},
-        {"location": "Wall facing new hatch area (optional, paired with freezer walls)", "note": "Reinforcing this too means anyone swinging out from new hatch isn't shooting straight through the walls — extra cover, not done every game.", "timestamp": "06:14"},
-        {"location": "Cocktail wall, left-hand side", "note": "Reinforced; paired with a rotate on the right-hand side of the same wall so you can move to cocktail without going through the door that gets held from the far side.", "timestamp": "07:39"}
+        {"location": "Two walls at top red (near Piano)", "note": "Reinforce both. Prioritize denial gadgets here — few attackers bring EMP for this spot.", "timestamp": "02:02"},
+        {"location": "Bathroom Wall, Windows Side", "note": "Reinforce this side, head holes on the far side. Holds both windows plus the cigar double door with a safe escape back into bathroom.", "timestamp": "04:29"},
+        {"location": "Freezer walls (both)", "note": "Always reinforce unless running a mirror setup.", "timestamp": "05:54"},
+        {"location": "Wall facing new hatch area (optional, paired with freezer walls)", "note": "Blocks anyone swinging out from new hatch from shooting straight through.", "timestamp": "06:14"},
+        {"location": "Cocktail Wall, Left Side", "note": "Reinforce; pair with a rotate on the right side of the same wall.", "timestamp": "07:39"}
       ],
       "headHoles": [
         {"location": "Piano, first punch hole", "note": "Kill hole for anyone crossing the punch-hole sightline.", "timestamp": "03:06"},
-        {"location": "Piano, second punch hole (always make it, don't stand in it)", "note": "Make a second hole next to the first but don't peek from it — attackers shoot the first hole they see, so you hide in the unused second one for a safer trade.", "timestamp": "03:06"},
-        {"location": "Bathroom wall (alternate side to the reinforcement)", "note": "If you instead reinforce the far side of the bathroom wall and put head holes here, you can peek both windows plus toward the reinforcement side, but you must cross the head holes to retreat into bathroom — riskier escape.", "timestamp": "04:29"},
-        {"location": "Cocktail desk/bar, standing head hole", "note": "For standing on the desk/bar; lets you see toward the cigar shop double door. Paired with a punch hole for the same sightline — a bit cheesy/ratty but picks off people who aren't expecting it.", "timestamp": "07:17"},
-        {"location": "Cocktail bar, punch hole through the bar/door", "note": "Punch (don't shotgun, too loud) all the way through to hold that door too. It's a fairly obvious hole, so be careful.", "timestamp": "08:43"}
+        {"location": "Piano, second punch hole", "note": "Make a second hole next to the first but don't peek from it — hide in the unused one for a safer trade.", "timestamp": "03:06"},
+        {"location": "Bathroom Wall, Far Side", "note": "Alternate setup: reinforce the windows side instead and head-hole here. Peeks both windows plus toward the reinforced side; retreat into bathroom crosses the head holes.", "timestamp": "04:29"},
+        {"location": "Cocktail desk/bar, standing head hole", "note": "Stand on the desk/bar to see toward the cigar shop double door. Pair with a punch hole for the same sightline.", "timestamp": "07:17"},
+        {"location": "Cocktail bar, punch hole through the bar/door", "note": "Punch (don't shotgun, too loud) all the way through to hold that door too.", "timestamp": "08:43"}
       ],
       "rotates": [
-        {"location": "Top White wall, LEFT-hand side (as viewed from the room)", "note": "Do not put the rotate on the right side — it gets peeked from the skylight. Left side lets you pass through unseen from the skylight.", "timestamp": "06:56"},
-        {"location": "Cocktail wall, right-hand side", "note": "Paired with the left-side reinforcement; lets you sneak crouched into cocktail and hide behind the bar instead of walking through the door that's held from outside.", "timestamp": "07:39"}
+        {"location": "Top White wall, LEFT side (as viewed from the room)", "note": "Left side only — right side gets peeked from the skylight.", "timestamp": "06:56"},
+        {"location": "Cocktail Wall, Right Side", "note": "Pairs with the left-side reinforcement; sneak crouched into cocktail behind the bar instead of using the door.", "timestamp": "07:39"}
       ],
       "hatches": [
-        {"location": "Red Hatch and New Hatch", "note": "Listen at round start for how attackers open these — DMR/hard breach/shotgun/battering ram means no action needed, but a breaching charge or sledge means you can run to the second hatch and throw a (proximity alarm treated as) C4 for a frequent free kill the moment they open it. Gets cut off quickly once attackers control the windows/skylight, so don't overcommit past the first ~90 seconds.", "timestamp": "01:01"},
-        {"location": "Bathroom-area hatch", "note": "Be careful of it; probably reinforce if you're anchoring in this room (operator unconfirmed — see source notes on 'keepa barrier').", "timestamp": "02:46"}
+        {"location": "Red Hatch and New Hatch", "note": "Listen at round start for how attackers open these. DMR/hard breach/shotgun/battering ram: no action needed. Breaching charge or sledge: run to the second hatch and throw C4 for a free kill the moment they open it. Don't overcommit past the first ~90 seconds.", "timestamp": "01:01"},
+        {"location": "Bathroom-area hatch", "note": "Reinforce if anchoring in this room (operator unconfirmed — see source notes on 'keepa barrier').", "timestamp": "02:46"}
       ],
       "gadgetPlacements": [
-        {"location": "Top red drone hole / jammer spots", "operator": "Mute", "note": "Excellent option to jam the drone hole into piano/top red; multiple good jammer spots in this area. A mute jammer or Bandit battery on 'cade' (Kaid) is also called out as super useful nearby.", "timestamp": "02:02"},
-        {"location": "Window/stage protection near cocktail", "operator": "Unconfirmed (source audio: 'keepa barrier')", "note": "A barrier-type gadget placed here plus one on the side of the stage protects from the windows and lets you peek out onto top red. Phonetically closest to Kapkan's EDD given the trap/denial framing, but not confirmed — verify against the video before relying on this.", "timestamp": "02:24"},
-        {"location": "Shield anchor behind the sofa/seat, near the windows", "note": "One of the strongest holds on the site; couple of ADS shots behind the sofa doesn't miss. Presenter notes this used to be a common shield-operator spot.", "timestamp": "04:08"},
-        {"location": "Bar/cocktail area camera", "operator": "Valkyrie", "note": "Stick a camera in the bright spot near the bar (hidden well); catches attackers walking through after opening the red wall and pushing toward pixel/bathroom.", "timestamp": "10:51"},
-        {"location": "Floor beneath cupboard / small angle nook near cocktail", "operator": "Valkyrie", "note": "Second camera spot; floor here is soft (C4-from-below territory) all the way to the marble, so expect and use frags from below for near-guaranteed kills.", "timestamp": "11:12"},
-        {"location": "Trash feet holes (bottom of the wall near the bin bags)", "note": "Reveal anyone dropping new hatch and moving to plant behind trash, behind the long bar, or at the default spot — see them before they see you. Never reinforce these walls instead.", "timestamp": "09:45"}
+        {"location": "Top red drone hole / jammer spots", "operator": "Mute", "note": "Jam the drone hole into piano/top red; multiple good jammer spots in this area.", "timestamp": "02:02"},
+        {"location": "Window/stage protection near cocktail", "operator": "Unconfirmed (source audio: 'keepa barrier')", "note": "Place a barrier-type gadget here plus one on the side of the stage — covers the windows, lets you peek out onto top red. Verify against the video before relying on this.", "timestamp": "02:24"},
+        {"location": "Shield anchor behind the sofa/seat, near the windows", "note": "Couple of ADS shots behind the sofa doesn't miss.", "timestamp": "04:08"},
+        {"location": "Bar/cocktail area camera", "operator": "Valkyrie", "note": "Hide a camera in the bright spot near the bar — catches attackers pushing toward pixel/bathroom after opening the red wall.", "timestamp": "10:51"},
+        {"location": "Floor beneath cupboard / small angle nook near cocktail", "operator": "Valkyrie", "note": "Second camera spot. Floor here is soft to the marble — expect and use frags from below.", "timestamp": "11:12"},
+        {"location": "Trash feet holes (bottom of the wall near the bin bags)", "note": "Reveals anyone dropping new hatch and moving to plant behind trash, behind the long bar, or at the default spot. Never reinforce these walls instead.", "timestamp": "09:45"}
       ],
       "operatorRecommendations": [
-        {"operator": "Mute", "role": "Anchor / jammer", "note": "Strong pick for the top red drone hole and general jamming around piano/cocktail."},
-        {"operator": "Valkyrie", "role": "Intel/Anchor", "note": "Recommended to play this site 'all the time' alongside the shield-anchor pick; runs both cams and gets frequent free C4-from-below kills on the soft floor."},
-        {"operator": "Unconfirmed shield operator (source audio: 'zombie')", "role": "Anchor", "note": "Presenter repeatedly recommends 'a zombie [shield]' behind the sofa/seat near the windows and again later for the same top-floor position. This does not match a real operator name — treat as an unconfirmed shield-carrying anchor (context suggests something like Azami given her Kiba Barrier, but this is a guess, not a transcript-confirmed name) until verified against the video."}
+        {"operator": "Mute", "role": "Anchor / jammer", "holdLocation": "Top Red / Piano", "note": "Jams the top red drone hole and general area around piano/cocktail."},
+        {"operator": "Valkyrie", "role": "Intel/Anchor", "holdLocation": "Cocktail Bar", "note": "Runs both cams; gets frequent C4-from-below kills on the soft floor near cocktail."},
+        {"operator": "Unconfirmed shield operator (source audio: 'zombie')", "role": "Anchor", "holdLocation": "Behind the Sofa, Near the Windows", "note": "Does not match a real operator name — treat as unconfirmed shield-carrying anchor (context suggests something like Azami given her Kiba Barrier, but this is a guess) until verified against the video."}
       ],
       "generalTips": [
-        {"note": "Shoot both the speakers and the clock at round start — you need to destroy both to stop the map's ambient sound cues.", "timestamp": "00:41"},
-        {"note": "Always shoot the glass out of the windows even if you leave the barricade — glass blocks sound significantly on this map, so clearing it lets you hear repels much more clearly.", "timestamp": "03:26"},
-        {"note": "Cafe top floor's recurring theme is 'be careful of this window' — extremely window-dense site, watch every one.", "timestamp": "03:47"},
-        {"note": "Bring an extended barrel on the MPX (or similar) — the base gun is described as underpowered for this playstyle.", "timestamp": "11:34"}
+        {"note": "Shoot both the speakers and the clock at round start to stop the map's ambient sound cues.", "timestamp": "00:41"},
+        {"note": "Shoot the glass out of the windows even if you leave the barricade — clears sound so you can hear repels.", "timestamp": "03:26"},
+        {"note": "Watch every window on this floor — extremely window-dense site.", "timestamp": "03:47"},
+        {"note": "Bring an extended barrel on the MPX (or similar).", "timestamp": "11:34"}
       ]
     },
     {
@@ -61,40 +61,38 @@
       "floor": "Ground Floor",
       "callouts": ["Bakery", "Prep", "Small Bake (aka Christmas)", "K1", "K2", "Bottom Red", "Coat Check", "Long Bar", "Bottom White", "Coffee", "Dishes", "Train (window)"],
       "reinforcements": [
-        {"location": "Right-hand side of Prep", "note": "Reinforce; paired with feet holes across the bottom so a window-holder sees anyone entering the door before being seen themselves.", "timestamp": "11:55"},
-        {"location": "Single wall at Small Bake (aka 'Christmas')", "note": "Reinforce — attackers can throw a hard breach charge from the window onto this wall otherwise, opening a sightline that exposes anyone behind the bakery counter or in this room.", "timestamp": "12:35"},
+        {"location": "Right-hand side of Prep", "note": "Reinforce; pair with feet holes across the bottom.", "timestamp": "11:55"},
+        {"location": "Single wall at Small Bake (aka 'Christmas')", "note": "Reinforce — otherwise attackers throw a hard breach charge from the window onto this wall.", "timestamp": "12:35"},
         {"location": "Two doors/walls toward bakery from the K1/K2 island area", "note": "Reinforce both.", "timestamp": "14:40"},
-        {"location": "Bottom red wall, left-hand side", "note": "Always reinforce this side.", "timestamp": "15:01"},
-        {"location": "Bottom red wall, right-hand side", "note": "Modern meta: leave this side open/soft with head holes instead of reinforcing, PROVIDED a defender is dedicated to holding coat check (shoot the radio, play from there). Without someone in coat check, an attacker walking through the front door sees straight into site for free — reinforce it instead if you can't commit a player there.", "timestamp": "15:22"},
+        {"location": "Bottom Red Wall, Left Side", "note": "Always reinforce this side.", "timestamp": "15:01"},
         {"location": "Hatch above bottom white + two walls for bottom white", "note": "Reinforce the hatch and both walls.", "timestamp": "19:18"}
       ],
       "headHoles": [
-        {"location": "Bottom red wall, right side (paired with keeping it open)", "note": "Only viable if coat check is manned — see reinforcement note.", "timestamp": "15:22"},
+        {"location": "Bottom Red Wall, Right Side", "note": "Leave soft with head holes only if coat check is manned (shoot the radio, play from there). If coat check isn't manned, reinforce this side instead.", "timestamp": "15:22"},
         {"location": "Wall across the top of the far kitchen half", "note": "For throwing C4s/smokes to the other side of the site and peeking toward prep/behind the bomb.", "timestamp": "17:30"}
       ],
       "rotates": [
-        {"location": "Small rotate near the bakery counter (optional)", "note": "Lets a bakery-counter defender get back across site; presenter isn't a big fan of relying on this — situational for strong players/higher ranks.", "timestamp": "14:40"}
+        {"location": "Small rotate near the bakery counter (optional)", "note": "Lets a bakery-counter defender get back across site. Situational.", "timestamp": "14:40"}
       ],
       "hatches": [],
       "gadgetPlacements": [
-        {"location": "Prep window / feet holes across the bottom", "note": "See attackers entering the bakery door before they see you. Peeking the bakery door itself is described as 'quite often a death wish' due to attacker cover outside (van, car, bakery counter angle).", "timestamp": "12:15"},
-        {"location": "Feet holes behind coat check / long bar area — TWO shots' worth only", "note": "Deliberately keep these short (about two shotgun blasts long). Making them longer than that only benefits attackers, who can then prone at the double door and see three-quarters of the site plus prep window.", "timestamp": "17:51"},
-        {"location": "Shotgun hole under the train window", "note": "Small hole for holding the jump-in spot from underneath when attackers repel/jump through the train window above.", "timestamp": "19:38"}
+        {"location": "Prep window / feet holes across the bottom", "note": "See attackers entering the bakery door before they see you. Avoid peeking the bakery door itself — heavy attacker cover outside (van, car, bakery counter angle).", "timestamp": "12:15"},
+        {"location": "Feet holes behind coat check / long bar area — TWO shots' worth only", "note": "Keep these short (about two shotgun blasts). Longer lets attackers prone at the double door and see three-quarters of the site plus prep window.", "timestamp": "17:51"},
+        {"location": "Shotgun hole under the train window", "note": "Holds the jump-in spot from underneath when attackers repel/jump through the train window above.", "timestamp": "19:38"}
       ],
       "operatorRecommendations": [
-        {"operator": "Mute", "role": "Anchor (coat check)", "note": "'A muter here is wonderful' — jammers behind the door and around coat check are described as working 'an absolute treat' if committing to hold that room with the bottom-red wall left open."}
+        {"operator": "Mute", "role": "Anchor (coat check)", "holdLocation": "Coat Check", "note": "Jammers behind the door and around coat check; commit to holding this room with the bottom-red wall left open."}
       ],
       "generalTips": [
         {"note": "Two main attacker approaches into this site: bakery and the bottom-right side.", "timestamp": "11:34"},
-        {"note": "K1 and K2 are the callouts for the two kitchen islands/units — K1 is the first one you reach coming through prep, K2 is the second.", "timestamp": "14:19"},
-        {"note": "The default plant spot when attackers push bakery is tucked behind the bomb near coat check — very hard to stop unless someone is holding from the coat check side specifically.", "timestamp": "16:47"},
-        {"note": "Don't peek toward long bar too much — many different angles attackers could be holding from (door, behind the bar/half wall, by the tables).", "timestamp": "16:05"},
-        {"note": "A Castle barricade on the long bar approach is not recommended — it gives attackers free roam on the other side of it.", "timestamp": "16:05"},
-        {"note": "This half of the site (bottom white) has a fully soft ceiling and floor — you must roam/hold above (train museum/fireplace) or attackers will open the floor and it becomes very hard to defend.", "timestamp": "19:18"},
-        {"note": "Attackers can get an upside-down repel angle on the train window that sees a long row of the site — be aware of it when holding the shotgun hole underneath.", "timestamp": "20:00"},
+        {"note": "K1 is the first kitchen island reached coming through prep, K2 is the second.", "timestamp": "14:19"},
+        {"note": "Default plant spot when attackers push bakery is tucked behind the bomb near coat check — hold from the coat check side to contest it.", "timestamp": "16:47"},
+        {"note": "Don't peek toward long bar too much — multiple angles attackers could be holding from (door, behind the bar/half wall, by the tables).", "timestamp": "16:05"},
+        {"note": "Don't Castle-barricade the long bar approach — gives attackers free roam on the other side.", "timestamp": "16:05"},
+        {"note": "Bottom white has a fully soft ceiling and floor — roam/hold above from train museum/fireplace or attackers open the floor.", "timestamp": "19:18"},
+        {"note": "Watch for an upside-down repel angle on the train window that sees a long row of the site.", "timestamp": "20:00"},
         {"note": "Holding coat check is mandatory if the bottom-red-right head holes plan is used.", "timestamp": "20:20"},
-        {"note": "Roaming presence upstairs (piano/cocktail) is essential — you cannot let attackers have train museum/fireplace uncontested from the start, even a minute or two of drone kills and repositioning helps.", "timestamp": "21:01"},
-        {"note": "Presenter personally likes playing Castle upstairs (see separate Castle setup video) whenever defending this kitchen site downstairs.", "timestamp": "21:44"}
+        {"note": "Keep a roaming presence upstairs (piano/cocktail) — don't cede train museum/fireplace uncontested from the start.", "timestamp": "21:01"}
       ]
     },
     {
@@ -103,33 +101,32 @@
       "floor": "Ground Floor",
       "callouts": ["Reading Room", "Pillar", "Laundry", "Laundry Hatch", "Fireplace", "White Stairs", "Cocktail (upstairs)", "Freezer (upstairs)"],
       "reinforcements": [
-        {"location": "Two walls facing pillar", "note": "Reinforce both, BUT you can leave one side (left or right, presenter's choice) soft for the first ~30-50 seconds to contest pillar for drone kills before reinforcing it later in the round ('Oregon elbow' style delay).", "timestamp": "22:27"},
-        {"location": "Single cocktail wall (upstairs, x2 walls)", "note": "Both reinforced; presenter leaves rotates out and prefers reinforcing fully rather than making a rotate here, since a rotate makes it easier for attackers to push through.", "timestamp": "23:50"}
+        {"location": "Two walls facing pillar", "note": "Reinforce both. Optionally leave one side soft for the first ~30-50 seconds to contest pillar for drone kills, then reinforce it.", "timestamp": "22:27"},
+        {"location": "Single cocktail wall (upstairs, x2 walls)", "note": "Reinforce both fully — no rotate here.", "timestamp": "23:50"}
       ],
       "headHoles": [
-        {"location": "Fireplace, top wall near the hatch (into white stairs)", "note": "Lets you see the fireplace from white stairs — covers anyone entering via the door or the fireplace itself.", "timestamp": "23:29"},
-        {"location": "Extra hole right next to the hatch", "note": "Covers attackers who repel into the fireplace window and tuck into the corner to plant; lets you walk down the stairs and peek that corner safely.", "timestamp": "23:29"}
+        {"location": "Fireplace, top wall near the hatch (into white stairs)", "note": "Covers anyone entering via the door or the fireplace itself, seen from white stairs.", "timestamp": "23:29"},
+        {"location": "Extra hole right next to the hatch", "note": "Covers attackers who repel into the fireplace window and tuck into the corner to plant; walk down the stairs and peek that corner safely.", "timestamp": "23:29"}
       ],
       "rotates": [
-        {"location": "Reading room, into laundry", "note": "Rotate toward laundry; laundry hatch is left open since this plan plays upstairs.", "timestamp": "22:06"},
-        {"location": "Fireplace, left-hand side", "note": "Lets you pass in and out without being seen from the window.", "timestamp": "22:48"}
+        {"location": "Reading room, into laundry", "note": "Rotate toward laundry; keep laundry hatch open.", "timestamp": "22:06"},
+        {"location": "Fireplace, left-hand side", "note": "Pass in and out without being seen from the window.", "timestamp": "22:48"}
       ],
       "hatches": [
-        {"location": "Laundry hatch", "note": "Left open — needed for the upstairs vertical plan (see below).", "timestamp": "22:06"}
+        {"location": "Laundry hatch", "note": "Leave open for the upstairs vertical plan.", "timestamp": "22:06"}
       ],
       "gadgetPlacements": [
-        {"location": "Reading room door", "operator": "Castle (if available)", "note": "Barricade at round start; also wants a proximity/trap gadget around this door.", "timestamp": "22:06"},
-        {"location": "Fireplace, all along the bottom of the room", "note": "Feet holes along the entire bottom wall — no one plays inside fireplace itself (unsafe due to the window), so these exist purely so a defender in reading can see through into fireplace.", "timestamp": "22:48"},
-        {"location": "Reading room floor, vertical angles into reading/laundry/pillar below", "operator": "Castle", "note": "Full castle setup (from creator's separate castle video): barricade this door, the reading door below, and the piano/pixel door. Reinforce everything else off, hold upstairs, and make vertical (floor) holes down into the reading door, laundry door, and over the laundry wall into pillar below. Losing this vertical control makes the site very difficult to win.", "timestamp": "24:32"}
+        {"location": "Reading room door", "operator": "Castle (if available)", "note": "Barricade at round start; add a proximity/trap gadget around this door.", "timestamp": "22:06"},
+        {"location": "Fireplace, all along the bottom of the room", "note": "Feet holes along the entire bottom wall so a defender in reading can see through into fireplace.", "timestamp": "22:48"},
+        {"location": "Reading room floor, vertical angles into reading/laundry/pillar below", "operator": "Castle", "note": "Barricade this door, the reading door below, and the piano/pixel door. Reinforce everything else off, hold upstairs. Make vertical floor holes down into the reading door, laundry door, and over the laundry wall into pillar below.", "timestamp": "24:32"}
       ],
       "operatorRecommendations": [
-        {"operator": "Castle", "role": "Upstairs anchor / vertical denial", "note": "Central to this site's strongest plan — full castle setup upstairs denying doors below plus vertical floor holes, described by the presenter as possibly stronger than the kitchen site overall."}
+        {"operator": "Castle", "role": "Upstairs anchor / vertical denial", "holdLocation": "Reading Room (Upstairs)", "note": "Full castle setup upstairs denying doors below plus vertical floor holes."}
       ],
       "generalTips": [
-        {"note": "Presenter plays Tachanka on this site specifically because of the number of feet holes required — easier to make them with his kit than with Smoke's loadout.", "timestamp": "22:06"},
-        {"note": "The upstairs floor here is a near carbon-copy of the floor below (soft in the same places), all above hard floor — so you don't have to worry about being shot from below while holding upstairs.", "timestamp": "25:14"},
-        {"note": "If attackers get a player to drop through the vertical/floor holes and plant behind the bookcase near the reading room door, the ideal defense is two players alive — one watching the rotate, one watching the site door — while staying aware of a flank from behind.", "timestamp": "25:34"},
-        {"note": "Presenter rates this the strongest site on the map when played with the Castle upstairs setup, ahead of the kitchen site, due to more defensive options.", "timestamp": "26:16"}
+        {"note": "Feet holes needed across this site — Tachanka's kit makes them easier than Smoke's.", "timestamp": "22:06"},
+        {"note": "Upstairs floor is soft in the same places as the floor below, over hard floor beneath that — no risk of being shot from below while holding upstairs.", "timestamp": "25:14"},
+        {"note": "If attackers drop through the vertical/floor holes and plant behind the bookcase near the reading room door, hold with two players — one watching the rotate, one watching the site door — while watching for a flank from behind.", "timestamp": "25:34"}
       ]
     },
     {
@@ -139,36 +136,36 @@
       "callouts": ["Piano (upstairs)", "Top Red", "Cocktail (upstairs)", "Cocktail Hatch", "Pixel Door", "White Stairs", "Train Museum", "Fireplace", "Red Carpet Area"],
       "reinforcements": [
         {"location": "Two red walls at top of red (upstairs, near piano)", "note": "Reinforce both — same top red walls used in the Top Four site plan.", "timestamp": "27:20"},
-        {"location": "Wall behind the pixel-door hold (opposite pattern to the Top Four site)", "note": "This time it's reinforced with head holes on the far side (the reverse of the Top Four site setup), because you don't need to hold freezer/skylight here and will lose it quickly anyway. Lets you fall back down white protected the whole way.", "timestamp": "27:41"},
-        {"location": "Wall near white stairs corridor (fireplace/downstairs)", "note": "Reinforced — this is the wall most attackers fire through when dropping red or new hatch to get a sightline across.", "timestamp": "28:02"}
+        {"location": "Pixel Door Wall, Behind Hold Side", "note": "Reinforce this side, head holes on the far side — reverse of the Top Four site setup. Falls back down white protected the whole way.", "timestamp": "27:41"},
+        {"location": "Wall near white stairs corridor (fireplace/downstairs)", "note": "Reinforce — this is the wall most attackers fire through when dropping red or new hatch.", "timestamp": "28:02"}
       ],
       "headHoles": [
-        {"location": "Down white, same head holes as the Fireplace/Reading site", "note": "Reused head holes covering fireplace plus the plant-corner angle.", "timestamp": "28:02"},
-        {"location": "Pixel-door far side (reverse of Top Four setup)", "note": "Lets you peek around the door side and fall back down white behind the reinforcement.", "timestamp": "27:41"}
+        {"location": "Down white, same head holes as the Fireplace/Reading site", "note": "Covers fireplace plus the plant-corner angle.", "timestamp": "28:02"},
+        {"location": "Pixel Door Wall, Far Side", "note": "Peek around the door side, fall back down white behind the reinforcement.", "timestamp": "27:41"}
       ],
       "rotates": [
-        {"location": "Downstairs site, tight to the left of a wall", "note": "Lets you peek onto the nearby window and retreat.", "timestamp": "28:43"},
+        {"location": "Downstairs site, tight to the left of a wall", "note": "Peek onto the nearby window and retreat.", "timestamp": "28:43"},
         {"location": "Fireplace rotate (reused from the Fireplace/Reading site)", "note": "Same rotate spot as the other site.", "timestamp": "30:07"}
       ],
       "hatches": [
-        {"location": "Upstairs hatch (piano/red)", "note": "Left OPEN this time (opposite of Top Four site) — needed so a defender can drop into the site and help defend if the downstairs fight is lost.", "timestamp": "27:20"},
-        {"location": "Cocktail hatch", "note": "Opened as an escape route from the top floor if needed.", "timestamp": "28:02"}
+        {"location": "Upstairs hatch (piano/red)", "note": "Leave OPEN this time (opposite of Top Four site) — lets a defender drop into the site to help if the downstairs fight is lost.", "timestamp": "27:20"},
+        {"location": "Cocktail hatch", "note": "Open as an escape route from the top floor if needed.", "timestamp": "28:02"}
       ],
       "gadgetPlacements": [
-        {"location": "Piano, x2 shield-anchor spots", "note": "Same 'zombie' shield anchor setup referenced for the Top Four site — one shield-carrying defender on each of two spots in piano; source audio unclear on exact operator name (self-corrects mid-sentence: 'one, not two, as aramis'), so treat as unconfirmed. Piano needs to be held here more than cocktail, since most of the site sits under piano.", "timestamp": "27:20"},
-        {"location": "Downstairs site, two walls with feet holes", "note": "Reinforce both walls and add feet holes so you can see anyone entering train through the double door (or prone to see the far door), covering the train museum approach.", "timestamp": "29:03"},
-        {"location": "Fireplace, one wall's worth of feet holes", "note": "Lighter than the dedicated Fireplace/Reading site — presenter expects to lose this side of the map fairly quickly, so feet holes here are mainly to catch a late plant/rotate rather than to hold long-term.", "timestamp": "30:07"},
-        {"location": "Downstairs soft floor areas", "operator": "Valkyrie (camera) + unconfirmed 'bulletproof' operator", "note": "Floor is soft in specific spots (not everywhere) — good for C4-from-below. Presenter mentions playing 'a Valkair or a bulletproof with sentry' with a C4 + sentry combo; the second operator name is not clearly transcribed and doesn't match a known real operator cleanly — treat as unconfirmed until checked against the video.", "timestamp": "30:28"}
+        {"location": "Piano, x2 shield-anchor spots", "note": "Same unconfirmed shield-anchor setup referenced for the Top Four site — one shield-carrying defender on each of two spots in piano; source audio unclear on exact operator name. Hold piano over cocktail — most of the site sits under piano.", "timestamp": "27:20"},
+        {"location": "Downstairs site, two walls with feet holes", "note": "Reinforce both walls and add feet holes to see anyone entering train through the double door, or prone to see the far door.", "timestamp": "29:03"},
+        {"location": "Fireplace, one wall's worth of feet holes", "note": "Lighter than the dedicated Fireplace/Reading site — mainly to catch a late plant/rotate.", "timestamp": "30:07"},
+        {"location": "Downstairs soft floor areas", "operator": "Valkyrie (camera) + unconfirmed 'bulletproof' operator", "note": "Floor is soft in specific spots — good for C4-from-below. Second operator name unclear in source audio ('a Valkair or a bulletproof with sentry') — treat as unconfirmed until checked against the video.", "timestamp": "30:28"}
       ],
       "operatorRecommendations": [
-        {"operator": "Valkyrie", "role": "Intel / C4-from-below", "note": "Recommended again on this site for cameras and exploiting the soft floor sections downstairs."}
+        {"operator": "Valkyrie", "role": "Intel / C4-from-below", "holdLocation": "Downstairs Soft Floor Areas", "note": "Cameras plus exploiting the soft floor sections downstairs."}
       ],
       "generalTips": [
-        {"note": "Considered the weakest of the four sites overall ('not a terrible site... but the first three are definitely better'), though still playable — better than most maps' fourth sites.", "timestamp": "26:38"},
+        {"note": "Considered the weakest of the four sites, still playable.", "timestamp": "26:38"},
         {"note": "Requires a hybrid approach: part upstairs piano/cocktail defense, part downstairs fireplace/train museum defense.", "timestamp": "26:58"},
-        {"note": "Holding piano upstairs has gotten harder since the CX update's repel changes — attackers can dart between repel spots at the corner in about 5 seconds.", "timestamp": "28:22"},
-        {"note": "Use furniture/exhibits in train museum as cover; shoot exhibits that make ambient noise to stop them giving away nothing useful (silences false audio cues), and use the train carriages as cover too.", "timestamp": "29:46"},
-        {"note": "No one plays inside fireplace itself on this site either — unsafe due to the window, same as the Fireplace/Reading site.", "timestamp": "30:28"}
+        {"note": "Attackers can dart between repel spots at the corner in about 5 seconds since the repel changes.", "timestamp": "28:22"},
+        {"note": "Use furniture/exhibits and train carriages in train museum as cover; shoot noisy exhibits to silence false audio cues.", "timestamp": "29:46"},
+        {"note": "No one plays inside fireplace itself on this site either — unsafe due to the window.", "timestamp": "30:28"}
       ]
     }
   ]

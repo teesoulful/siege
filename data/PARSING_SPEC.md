@@ -103,3 +103,83 @@ Defense side) and your output must match its exact shape and field names:
 Write to `data/strategies/<map-slug>_<side-lowercase>.json`, e.g.
 `data/strategies/calypso_defense.json`. Map slug = lowercase, spaces to
 hyphens (e.g. "Kafe Dostoyevsky" → `kafe-dostoyevsky`).
+
+## Rewrite pass — bringing an existing file up to the Bank standard
+
+Bank went through several rounds of live-testing feedback that produced rules
+beyond the base parsing spec above. When asked to bring another map's
+already-parsed file up to the same standard, apply all of these. Read the
+CURRENT `data/strategies/bank.json` and `bank_attack.json` as the worked
+example — they already reflect every rule below.
+
+8. **Locations are compass direction + room**, e.g. "South Wall of Garage",
+   "West Wall of CEO Office, Left Side". Standard top-down map convention:
+   north is up on the map, no explicit compass rose needed (confirmed
+   sufficient grounding by the app's owner). To assign compass directions
+   accurately, get a real top-down blueprint image for the map — the same
+   Ubisoft source used for Bank's blueprints — and reason from the actual
+   floor plan, not from guessing. **If you cannot get reliable spatial
+   grounding for a given site (no usable blueprint, transcript too vague
+   about orientation), do NOT invent a compass direction** — leave the
+   location as the room/feature name only (no compass prefix) rather than
+   fabricate one. A missing compass prefix is honest; a wrong one is worse
+   than useless in a live callout.
+
+9. **No reasoning or hedging in notes — bare actions plus short tactical
+   cues only.** Cut "why it matters," "this is important because," "lets you
+   hold X because Y" style justification entirely. Keep: the action itself
+   ("Shoot the top of the wall and C4 over it"), and short in-the-moment
+   warnings ("Watch the west repel spot outside these windows") — those are
+   operational, not explanatory. Test: if a sentence explains WHY a spot
+   matters rather than WHAT to do or watch for, cut it.
+   - Bad: "Reinforcing both this wall and the CEO wall lets attackers walk
+     straight into Square unopposed — head holes onto Janitor are the only
+     remaining angle, which is why they matter."
+   - Good: "Don't reinforce this and the CEO wall both — leaves Square wide
+     open. Keep head holes onto Janitor."
+
+10. **`operatorRecommendations` entries need a `holdLocation` field** — a
+    short, real room/spot name (e.g. "Meeting Room Desks", "Kanto Wall
+    Corridor"), not the abstract `role` word ("Anchor"). The app displays
+    `holdLocation` as the primary label for the Defend section so a player
+    can read it and know exactly where to stand without opening the detail.
+
+11. **Same-wall reinforce + head-hole/rotate pairs need matching, distinct
+    names** so the app's automatic pairing (which keeps them on one
+    player's card) can find them: strip to the same base name before any
+    qualifier, e.g. `"West Wall of CEO Office, Left Side"` (reinforce) /
+    `"West Wall of CEO Office, Right Side"` (head hole) — the app matches on
+    everything before the first comma, case-insensitively. Don't reuse the
+    literal identical string for both (that's the rule-8-in-the-old-spec
+    conflict) and don't let two genuinely different walls share a base name
+    just because they're in the same room (that forces them onto one
+    player's card incorrectly — see rule 7 above and the "Wall at Back of
+    CEO Office" vs "West Wall of CEO Office" distinction in bank.json).
+
+12. **After rewriting, validate your own file only** — don't run
+    `python3 build_data.py` yourself. It rebuilds `dist/data.js` from every
+    strategy file in the project at once and other maps' rewrite passes are
+    likely running concurrently, so invoking the shared build script mid-way
+    risks reading another file while it's still being edited. Instead:
+    - `python3 -c "import json; json.load(open('data/strategies/<your file>'))"`
+      for syntax.
+    - Self-check the reinforce/head-hole rule (item 7) on your own file with:
+      ```python
+      import json
+      s = json.load(open('data/strategies/<your file>'))
+      for site in s['sites']:
+          hard = {i['location'].strip().lower() for i in site.get('reinforcements', []) + site.get('hatches', [])}
+          soft = {i['location'].strip().lower() for i in site.get('headHoles', []) + site.get('rotates', [])}
+          overlap = hard & soft
+          if overlap: print(site['id'], overlap)
+      ```
+      Fix anything it prints before reporting done. The project owner runs
+      the full `build_data.py` once after all rewrite passes finish.
+
+13. **New operators not yet in `data/operator_gadgets.json`**: if a site's
+    `operatorRecommendations` names an operator not already present in that
+    file (it currently covers Bank's 24), do NOT edit that file yourself —
+    it's shared across every map's rewrite pass running at the same time and
+    concurrent edits will clobber each other. Just list the new operator
+    names in your final report; gadget research for them happens in one
+    consolidated pass afterward.

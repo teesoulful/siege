@@ -5,7 +5,7 @@
     "title": "Calypso Casino first-look map tour (roof to basement walkthrough)",
     "type": "youtube_transcript",
     "file": "data/raw_transcripts/Calypso_Attack_k1S5BGxqrzA.txt",
-    "notes": "IMPORTANT: this is NOT a structured attack setup guide — it is a casual first-look walkthrough of the map (spawns on the roof, breaks soft walls with a hammer/shotgun while narrating layout and room names) recorded before the creator had played real rounds on it. He explicitly says a proper setup-guide video with attack strategies will come later once he has more experience on the map. As a result there is very little breach-plan, drone-path, or operator-recommendation content — most of what's extractable is layout/connectivity, external breach locations, rappel points, and drone vent locations, which is what this file focuses on. There are almost no named operators anywhere in this transcript (only Sledge is mentioned, as the operator the creator is running for the tour, not as a strategic recommendation) so operatorRecommendations is sparse/empty by design, not omission. Room names are the creator's own best-guess callouts, several of which he explicitly says he's unsure of or contradicts himself on mid-video (e.g. 'gambling' vs 'betting', 'humidor' vs 'cigar shop'). Treat site boundaries here as inferred from the Defense-side companion video (Calypso_Defense_qf3AthSTIDQ.txt), since this attack tour does not clearly declare bomb sites itself."
+    "notes": "NOT a structured attack setup guide — a casual first-look walkthrough (spawns on the roof, breaks soft walls with a hammer/shotgun while narrating layout and room names) recorded before the creator had played real rounds on it. A proper setup-guide video with attack strategies was planned for later. Very little breach-plan, drone-path, or operator-recommendation content exists as a result — most of what's extractable is layout/connectivity, external breach locations, rappel points, and drone vent locations. Only Sledge is mentioned (the operator the creator is running for the tour, not a strategic recommendation), so operatorRecommendations is sparse/empty by design, not omission. Room names are the creator's own best-guess callouts, several of which he's unsure of or contradicts mid-video (e.g. 'gambling' vs 'betting', 'humidor' vs 'cigar shop'). Site boundaries are inferred from the Defense-side companion video (Calypso_Defense_qf3AthSTIDQ.txt), since this attack tour does not clearly declare bomb sites itself. Rewrite pass: could not obtain reliable compass-orientation grounding for this map (official Ubisoft blueprint PNGs contain no room labels or north indicator, and no third-party callout map with confirmed orientation exists yet for this newly-released map) — locations below are left as room/feature names only, without compass prefixes, per spec rule 8."
   },
   "sites": [
     {
@@ -17,19 +17,19 @@
       "headHoles": [],
       "rotates": [],
       "hatches": [
-        {"location": "Humidor / connector room near the aquarium", "note": "Small square connector room off the aquarium area has a hatch in it.", "timestamp": "03:10"}
+        {"location": "Humidor Connector Room Near Aquarium", "note": "Small square connector room off the aquarium area has a hatch.", "timestamp": "03:10"}
       ],
       "gadgetPlacements": [
-        {"location": "Roof, pool side spawn", "operator": null, "note": "Attackers can spawn on the roof on the pool side; lots of roof space up there with a sub-roof level above the main roof.", "timestamp": "00:22"},
-        {"location": "Roof rappel points (multiple)", "operator": null, "note": "Several rappel-down points from the roof, including one that goes all the way down into Main Lobby, and one reachable only via a 'rappel swift' move down the side to a breach that's otherwise very hard to reach.", "timestamp": "01:04"},
-        {"location": "Barista/Kitchen soft wall separating Kitchen from Barista", "note": "Soft wall here connects Kitchen straight into Barista.", "timestamp": "04:13"},
-        {"location": "Barista window facing outside (Tequila Bar side)", "operator": null, "note": "Soft wall/window here looks into the back of the Tequila Bar; flagged as a notable connector between outside and the Barista interior.", "timestamp": "04:34"},
-        {"location": "Jukebox / speakers near South Mezzanine and Main Lobby", "operator": null, "note": "Speakers here can be shot out for a sound cue removal, same as noted on defense.", "timestamp": "05:16"}
+        {"location": "Roof, Pool Side Spawn", "operator": null, "note": "Attacker spawn point on the roof pool side; sub-roof level above the main roof.", "timestamp": "00:22"},
+        {"location": "Roof Rappel Points", "operator": null, "note": "Several rappel-down points, including one straight into Main Lobby and one reachable only via a rappel-swift move to a hard-to-reach breach.", "timestamp": "01:04"},
+        {"location": "Kitchen/Barista Soft Wall", "operator": null, "note": "Connects Kitchen straight into Barista.", "timestamp": "04:13"},
+        {"location": "Barista Window Facing Tequila Bar", "operator": null, "note": "Soft wall/window looks into the back of the Tequila Bar.", "timestamp": "04:34"},
+        {"location": "Jukebox and Speakers Near South Mezzanine/Main Lobby", "operator": null, "note": "Shoot out for a sound cue removal.", "timestamp": "05:16"}
       ],
       "operatorRecommendations": [],
       "generalTips": [
-        {"note": "The whole top floor forms a ring with no middle: Barista connects to Kitchen, to Humidor/Cigar, to Fish Stairs, and back around — you cannot cut straight across the top of Main Lobby, only go around the outside or down/up through it.", "timestamp": "05:37"},
-        {"note": "There's a lot of soft-wall density in this area (Kitchen/Cigar/Humidor cluster) — creator notes it feels intricate with many breakable walls, though acknowledges he may be misjudging this on a first look.", "timestamp": "03:52"}
+        {"note": "Top floor forms a ring with no middle: Barista to Kitchen to Humidor/Cigar to Fish Stairs and back around. No direct cut across the top of Main Lobby — go around the outside or through it.", "timestamp": "05:37"},
+        {"note": "High soft-wall density in the Kitchen/Cigar/Humidor cluster.", "timestamp": "03:52"}
       ]
     },
     {
@@ -41,19 +41,19 @@
       "headHoles": [],
       "rotates": [],
       "hatches": [
-        {"location": "Server/Vault area lift hatch", "note": "A hatch to drop down is present near the server/vault ventilation area.", "timestamp": "17:15"}
+        {"location": "Server/Vault Lift Hatch", "note": "Drop point near the server/vault ventilation area.", "timestamp": "17:15"}
       ],
       "gadgetPlacements": [
-        {"location": "Managers, external wall", "operator": null, "note": "External breach here — drones can be sent in through it from outside before attackers commit.", "timestamp": "14:50"},
-        {"location": "Weapon Cache into CCTV", "operator": null, "note": "Two soft walls in this room, both breakable, connecting further into CCTV.", "timestamp": "15:31"},
-        {"location": "CCTV toward Server", "operator": null, "note": "Soft wall connection; creator ran out of hammer charges here and had to shotgun through.", "timestamp": "15:52"},
-        {"location": "Server area, fully external breach", "operator": null, "note": "This wall opens directly to outside the building, with a rappel drop right there — flagged as a distinctive, possibly reinforced-in-practice wall worth knowing about for external entry.", "timestamp": "16:13"},
-        {"location": "Server/Vault area ventilation duct", "operator": null, "note": "Ducts present in this area — noted but not fully explored on this pass.", "timestamp": "16:13"},
-        {"location": "Outside wall beyond Vault Checkpoint", "note": "Soft wall leads to an unfinished/'secret area' looking floor with a ladder, which itself connects back outside — effectively a second, less obvious external access point into the Vault/Server area.", "timestamp": "16:55"}
+        {"location": "Managers External Wall", "operator": null, "note": "External breach — drone in from outside before committing.", "timestamp": "14:50"},
+        {"location": "Weapon Cache Into CCTV", "operator": null, "note": "Two breakable soft walls, connecting further into CCTV.", "timestamp": "15:31"},
+        {"location": "CCTV Toward Server", "operator": null, "note": "Soft wall connection.", "timestamp": "15:52"},
+        {"location": "Server External Wall", "operator": null, "note": "Opens directly to outside the building, with a rappel drop right there.", "timestamp": "16:13"},
+        {"location": "Server/Vault Ventilation Duct", "operator": null, "note": "Ducts present in this area.", "timestamp": "16:13"},
+        {"location": "Wall Beyond Vault Checkpoint", "operator": null, "note": "Leads to an unfinished floor with a ladder that connects back outside — a second external access point into Vault/Server.", "timestamp": "16:55"}
       ],
       "operatorRecommendations": [],
       "generalTips": [
-        {"note": "This whole basement area (Managers, Weapon Cache, CCTV, Server, Vault Checkpoint) has more external breach points than any other part of the map found on this pass, including at least two ways to enter from completely outside the building.", "timestamp": "16:13"}
+        {"note": "This basement area (Managers, Weapon Cache, CCTV, Server, Vault Checkpoint) has more external breach points than any other part of the map, including at least two full-outside entries.", "timestamp": "16:13"}
       ]
     },
     {
@@ -65,17 +65,17 @@
       "headHoles": [],
       "rotates": [],
       "hatches": [
-        {"location": "Bathroom into Blackjack/Poker hatch", "note": "Hatch present on the connector between Bathroom and the Blackjack/Poker/Roulette cluster.", "timestamp": "10:16"}
+        {"location": "Bathroom Into Blackjack/Poker Hatch", "note": "On the connector between Bathroom and the Blackjack/Poker/Roulette cluster.", "timestamp": "10:16"}
       ],
       "gadgetPlacements": [
-        {"location": "Blackjack, external wall", "operator": null, "note": "Blackjack has an external soft-wall breach (does not connect Poker/Blackjack directly — that connecting wall is NOT breakable). The external breach gives an angle described as similar to the outside angle on Consulate... [note: creator actually compares it to 'the angle on layer outside operational'] — worth scouting before committing, attackers can be shot rappelling on it.", "timestamp": "07:46"},
-        {"location": "Secret room window", "operator": null, "note": "Secret is a dead-end room with no interior route in — the only way in is vaulting through the window, since the soft wall there realistically wouldn't be breached (creator's in-game observation, not a real strategic recommendation).", "timestamp": "08:31"},
-        {"location": "Registration, external wall", "operator": null, "note": "Registration is another dead-end-style room with a soft wall leading outside.", "timestamp": "09:34"}
+        {"location": "Blackjack External Wall", "operator": null, "note": "External soft-wall breach. Does not connect Poker/Blackjack directly — that wall is not breakable. Scout before committing; attackers can be shot rappelling here.", "timestamp": "07:46"},
+        {"location": "Secret Room Window", "operator": null, "note": "Secret is a dead end with no interior route in — only entry is vaulting the window.", "timestamp": "08:31"},
+        {"location": "Registration External Wall", "operator": null, "note": "Dead-end-style room with a soft wall leading outside.", "timestamp": "09:34"}
       ],
       "operatorRecommendations": [],
       "generalTips": [
-        {"note": "Poker, Blackjack, Roulette, and Betting are the four 'gambling rooms' clustered together — creator flags Blackjack/Poker as the room pairing most likely to be an actual bomb site given the layout (consistent with the companion Defense video, which confirms this).", "timestamp": "07:46"},
-        {"note": "Blackjack/Poker external breach angle is highlighted as a notable defender sightline to be cautious of when rappelling or pushing that side.", "timestamp": "08:09"}
+        {"note": "Poker, Blackjack, Roulette, and Betting are the four clustered gambling rooms. Blackjack/Poker is the most likely bomb site pairing, consistent with the companion Defense video.", "timestamp": "07:46"},
+        {"note": "Blackjack/Poker external breach angle is a notable defender sightline — be cautious rappelling or pushing that side.", "timestamp": "08:09"}
       ]
     },
     {
@@ -87,17 +87,17 @@
       "headHoles": [],
       "rotates": [],
       "hatches": [
-        {"location": "Bar, near the stairs down to Managers", "note": "Hatch present near the bar stairwell leading down toward the basement Managers area.", "timestamp": "12:02"}
+        {"location": "Bar Hatch Near Stairs to Managers", "note": "Near the bar stairwell leading down toward the basement Managers area.", "timestamp": "12:02"}
       ],
       "gadgetPlacements": [
-        {"location": "Above Bar Hallway, drone vent", "operator": null, "note": "A drone-accessible vent was found here that drops a drone down into the map from above — flagged as a very hard-to-spot pre-placed drone spot for attackers to exploit, and a correspondingly hard angle for defenders to watch. Creator suggests a Keeper-style barrier could shut it down, though notes that may be an inefficient use of the gadget.", "timestamp": "19:40"},
-        {"location": "Bar Hallway into Wine Stock", "operator": null, "note": "Soft wall connector leading to another set of stairs and back around into Bar/Janitor.", "timestamp": "12:02"},
-        {"location": "Janitor into Bar / open Lobby", "operator": null, "note": "Connects back around to the roof rappel-down point the creator used at the start of the tour, confirming this loop connects all the way up to the roof.", "timestamp": "12:23"}
+        {"location": "Bar Hallway Drone Vent", "operator": null, "note": "Drone-accessible vent drops a drone down into the map from above — hard to spot, hard for defenders to watch. A Keeper-style barrier can shut it down.", "timestamp": "19:40"},
+        {"location": "Bar Hallway Into Wine Stock", "operator": null, "note": "Soft wall connector leading to another stairwell and back around into Bar/Janitor.", "timestamp": "12:02"},
+        {"location": "Janitor Into Bar/Open Lobby", "operator": null, "note": "Connects back around to the roof rappel-down point, linking all the way up to the roof.", "timestamp": "12:23"}
       ],
       "operatorRecommendations": [],
       "generalTips": [
-        {"note": "This whole side of the map (Bar/Betting/Wine Stock/Janitor/Tequila Stairs) is described as noticeably bigger than the opposite (Blackjack/Poker/Secret/Registration) side, with more depth and rotational options.", "timestamp": "12:45"},
-        {"note": "Tequila Stairs connects up to the Tequila Bar seen from outside near the top-floor Barista window — confirms a vertical link between this ground-floor area and the top floor.", "timestamp": "10:57"}
+        {"note": "This side of the map (Bar/Betting/Wine Stock/Janitor/Tequila Stairs) is noticeably bigger than the Blackjack/Poker/Secret/Registration side, with more depth and rotational options.", "timestamp": "12:45"},
+        {"note": "Tequila Stairs connects up to the Tequila Bar seen from outside near the top-floor Barista window — vertical link between ground floor and top floor.", "timestamp": "10:57"}
       ]
     }
   ]

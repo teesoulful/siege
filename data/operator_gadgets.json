@@ -1,6 +1,6 @@
 {
   "verified": true,
-  "verificationNote": "Sourced from individual Ubisoft official operator pages (game-info/operators/<slug>), one fetch per operator, 2026-07-02.",
+  "verificationNote": "Sourced from individual Ubisoft official operator pages (game-info/operators/<slug>), one fetch per operator, 2026-07-02. Second pass: 24 additional operators (Amaru, Buck, Capitão, Castle, Clash, Doc, Dokkaebi, Echo, Fenrir, Fuse, Gridlock, Jäger, Lion, Maestro, Monty, Nokk, Nomad, Sens, Sledge, Solid Snake, Solis, Vigil, Wamai, Warden) verified via individual Ubisoft official operator pages (game-info/operators/<slug>), 2026-07-02. Note: Ubisoft's URL slugs for Fuse and Monty are 'fuze' and 'montagne' respectively.",
   "gadgets": {
     "Bandit": {
       "side": "Defense",
@@ -169,6 +169,174 @@
       "description": "Striker has no distinctive signature gadget; the official page states he is the Attack operator with access to all secondary gadgets for Attack operators (e.g. Breach Charge, Claymore, Frag Grenade, Hard Breach Charge, Smoke Grenade, Stun Grenade, Impact EMP Grenade).",
       "count": null,
       "usageNote": "Loadout flexibility is the value here; choose secondary gadgets to fill whatever gap the rest of the attacking team's kit leaves open."
+    },
+    "Amaru": {
+      "side": "Attack",
+      "gadgetName": "Garra Hook",
+      "description": "A grappling hook device that lets Amaru quickly ascend to ledges and windows, launching herself upward with a special entry.",
+      "count": null,
+      "usageNote": "Use to open unconventional vertical entry points onto the objective floor, catching defenders off guard from unexpected angles."
+    },
+    "Buck": {
+      "side": "Attack",
+      "gadgetName": "Skeleton Key",
+      "description": "An under-barrel mounted 12-gauge shotgun attachment with a four round capacity, used alongside his primary assault rifle to punch holes through soft surfaces.",
+      "count": 4,
+      "usageNote": "Use to create small murder holes or sightlines into the objective from unreinforced walls and floors/ceilings."
+    },
+    "Capitão": {
+      "side": "Attack",
+      "gadgetName": "Tactical Crossbow",
+      "description": "A crossbow that fires glass bolts which shatter on impact, releasing a gas that ignites the surrounding air to deny an area or damage defenders.",
+      "count": null,
+      "usageNote": "Fire through soft surfaces or into rooms to deny defender positions or set up follow-up pushes without exposing yourself directly."
+    },
+    "Castle": {
+      "side": "Defense",
+      "gadgetName": "Armor Panel (UTP1-Universal Tactical Panel)",
+      "description": "Reinforced barricades that Castle can deploy over doors and windows to block off entry points more durably than standard barricades.",
+      "count": null,
+      "usageNote": "Use on secondary entry points to fully seal off flanks, forcing attackers toward chokepoints the defending team can cover."
+    },
+    "Clash": {
+      "side": "Defense",
+      "gadgetName": "CCE Shield MK2",
+      "description": "A riot shield that can anchor to the ground and remotely taser nearby enemies to slow their movement while Clash roams freely to reposition.",
+      "count": null,
+      "usageNote": "Use to hold and slow down a push at a chokepoint while buying time for teammates to rotate or reinforce elsewhere."
+    },
+    "Doc": {
+      "side": "Defense",
+      "gadgetName": "Stim Pistol",
+      "description": "A handheld, trigger-operated pistol that delivers a dose of epinephrine in saline solution, healing and reviving allies or self-healing.",
+      "count": null,
+      "usageNote": "Keep it available to heal teammates without needing them to retreat, or to self-heal while holding an anchor position."
+    },
+    "Dokkaebi": {
+      "side": "Attack",
+      "gadgetName": "Jegeo Payload (Logic Bomb)",
+      "description": "Malware uploaded to enemy phones that blocks their observation tools and can be detonated to damage the carrying defender and nearby operators with fire.",
+      "count": null,
+      "usageNote": "Use after defender phones are hacked to deny re-use of cameras and gadgets, ideally timed with a coordinated push."
+    },
+    "Echo": {
+      "side": "Defense",
+      "gadgetName": "Yokai",
+      "description": "A signature drone equipped with an acoustic hailing device that fires ultrasonic bursts to disorient any attackers within its effect radius.",
+      "count": null,
+      "usageNote": "Fly to intel positions or chokepoints to disrupt pushes and gather information, retreating to safety before it can be destroyed."
+    },
+    "Fenrir": {
+      "side": "Defense",
+      "gadgetName": "F-NATT Dread Mine",
+      "description": "Throwable mines that stick to walls and, when triggered, afflict nearby attackers with a fear effect that distorts their vision and audio.",
+      "count": 5,
+      "usageNote": "Place in likely attacker approach paths near the objective to disorient pushes before they can clear the site."
+    },
+    "Gridlock": {
+      "side": "Attack",
+      "gadgetName": "Trax Stingers",
+      "description": "A deployable device that releases a hexagonal cluster of caltrop-like spikes covering the ground, which can replicate and spread over a wider area.",
+      "count": null,
+      "usageNote": "Deploy behind you to deny flank routes and rotations after pushing into the objective, slowing down defender counter-attacks."
+    },
+    "Jäger": {
+      "side": "Defense",
+      "gadgetName": "Active Defense System (ADS)",
+      "description": "A automated unit that detects and destroys incoming projectiles, such as grenades, within its line of sight before they can land.",
+      "count": 3,
+      "usageNote": "Place facing common grenade-throw angles into the objective to protect the site from thrown attacker utility."
+    },
+    "Lion": {
+      "side": "Attack",
+      "gadgetName": "EE-ONE-D",
+      "description": "A drone that scans an area to detect any movement, briefly revealing the location of moving defenders across the map during its scan.",
+      "count": null,
+      "usageNote": "Time the scan with a coordinated team push so defenders are forced to choose between standing still or being revealed."
+    },
+    "Maestro": {
+      "side": "Defense",
+      "gadgetName": "Evil Eye",
+      "description": "A remote-controlled, bulletproof turret that fires a high-energy laser and provides overwatch through a camera, retaining vision even through smoke.",
+      "count": null,
+      "usageNote": "Place with an angle on a key approach or hallway, since the turret is only vulnerable while its shutter is open to fire."
+    },
+    "Nøkk": {
+      "side": "Attack",
+      "gadgetName": "HEL Presence Reduction",
+      "description": "A glove attachment that, when activated, reduces her ambient noise output and hides her from enemy observation tools like cameras and drones.",
+      "count": null,
+      "usageNote": "Use to flank quietly or approach cameras and drones undetected, then use the window for a surprise entry or gadget disable."
+    },
+    "Nomad": {
+      "side": "Attack",
+      "gadgetName": "Airjab Launcher",
+      "description": "A rifle attachment that launches Airjab grenades which stick to a surface and detonate a repulsion blast to knock back and disorient enemies in range.",
+      "count": 3,
+      "usageNote": "Use to deny a window or door defenders might use to counter-push, or to push back a defender aggressively holding an angle."
+    },
+    "Sens": {
+      "side": "Attack",
+      "gadgetName": "R.O.U. Projector System",
+      "description": "A throwable device that rolls along the ground and drops small projectors, creating a visual screen along its path that blocks lines of sight while still allowing physical passage.",
+      "count": null,
+      "usageNote": "Use to cut off a defender's sightline into a room or lane so the team can cross or push through safely."
+    },
+    "Sledge": {
+      "side": "Attack",
+      "gadgetName": "Breaching Hammer (Caber)",
+      "description": "A tactical hammer that lets Sledge quickly smash through non-reinforced walls, floors, and ceilings to create openings or sightlines.",
+      "count": null,
+      "usageNote": "Use to make fast, quiet-ish openings into soft walls for surprise angles or entry points the defense may not expect."
+    },
+    "Solid Snake": {
+      "side": "Attack",
+      "gadgetName": "Soliton Radar Mk. III",
+      "description": "A handheld device with a minimap that marks nearby hostiles, including a precision mode to pinpoint threats at the cost of alerting them that they've been detected.",
+      "count": null,
+      "usageNote": "Use to check nearby corners and rooms for enemy presence before pushing, being mindful that precision mode can give away your own position."
+    },
+    "Solis": {
+      "side": "Defense",
+      "gadgetName": "SPEC-IO Electro-Sensor",
+      "description": "A detection apparatus that lets Solis mark and ping the location of opponents' electronic devices, revealing gadgets and nearby attackers through walls.",
+      "count": null,
+      "usageNote": "Use to scan likely gadget-heavy approach routes and reveal attacker positions before they reach the objective."
+    },
+    "Vigil": {
+      "side": "Defense",
+      "gadgetName": "ERC-7 (Electronic Rendering Cloak)",
+      "description": "A backpack device using Diminished Reality technology that scans surrounding electronic devices and removes Vigil's image from any cameras and drones in view.",
+      "count": null,
+      "usageNote": "Activate before crossing drone or camera sightlines while roaming or repositioning to avoid revealing your location to attackers."
+    },
+    "Wamai": {
+      "side": "Defense",
+      "gadgetName": "Mag-NET System",
+      "description": "A thrown, adhesive gadget that sticks to a surface and attracts nearby enemy projectiles to its position, self-destructing to detonate them harmlessly.",
+      "count": null,
+      "usageNote": "Place near likely grenade or gadget throw angles into the objective to neutralize incoming projectile utility before it lands."
+    },
+    "Warden": {
+      "side": "Defense",
+      "gadgetName": "Glance Smart Glasses",
+      "description": "Smart glasses that grant thermal vision to see through smoke while stationary, and can also prevent or cleanse flash-grenade blindness.",
+      "count": null,
+      "usageNote": "Activate while holding an angle through smoke-filled areas, but be aware the thermal effect only works while standing still."
+    },
+    "Fuze": {
+      "side": "Attack",
+      "gadgetName": "Cluster Charge (APM-6)",
+      "description": "A charge that propels a group of explosive cluster grenades through a soft breach surface, dispersing across a targeted area to damage enemies and destroy gadgets.",
+      "count": null,
+      "usageNote": "Fire into rooms with likely defender anchors or gadget clusters to clear the space before the team pushes in."
+    },
+    "Montagne": {
+      "side": "Attack",
+      "gadgetName": "Le Roc Shield",
+      "description": "A reinforced alloy and Kevlar riot shield that protects against small-arms fire and close-quarters attacks, and can collapse to half its size for increased mobility.",
+      "count": null,
+      "usageNote": "Lead a push through an exposed lane or doorway to soak fire and create safe cover for teammates following behind."
     }
   }
 }

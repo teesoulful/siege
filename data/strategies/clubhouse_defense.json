@@ -5,7 +5,7 @@
     "title": "Clubhouse Map Setup Guide (Siege X) - How To Setup and Defend ALL Sites",
     "type": "youtube_transcript",
     "file": "data/raw_transcripts/Clubhouse_Defense_m3LDBYn8LAI.txt",
-    "notes": "Recorded on Siege X (post-rework Clubhouse). Generic ranked setups from creator 'Littleton', not pro-league lineups. Auto-generated captions have several garbled operator names — flagged inline where the transcript audio was ambiguous. Room/callout names are the creator's informal callouts."
+    "notes": "Recorded on Siege X (post-rework Clubhouse). Generic ranked setups from creator 'Littleton', not pro-league lineups. Auto-generated captions have several garbled operator names — flagged inline where the transcript audio was ambiguous. Room/callout names are the creator's informal callouts. Compass directions added from R6 Trainer's labeled floor-plan blueprints (r6trainer.com), cross-referenced against the game's own compass-based room callouts; north is up on the map."
   },
   "sites": [
     {
@@ -14,52 +14,52 @@
       "floor": "Basement",
       "callouts": ["Dirt Tunnel", "Kitchen", "Kitchen Hatch", "Church", "Moto", "Moto Hatch / Church Hatch", "Blue", "Blue Hatch", "Armory", "Main Stairs", "AKs Cabinet", "Box One/Two/Three", "Freezer", "Kitchen Hallway", "Kitchen Corridor", "Logi", "Oil Pit"],
       "reinforcements": [
-        {"location": "Dirt Tunnel walls", "note": "Reinforce these regardless of whether you barricade the tunnel door. When repelling/holding early, check the angle where your feet could be shot from the drone so you can stand safely.", "timestamp": "00:41"},
-        {"location": "Rotate wall between Armory side and Church (double wall)", "note": "Some setups (especially pro-influenced ranked lobbies) reinforce this wall so attackers can't open the hatch and get an angle on the Church double wall. Creator disagrees with reinforcing it — prefers to keep it soft so defenders can hold the hatch drop angle from here instead.", "timestamp": "02:49"},
-        {"location": "Church, two reinforcements (left and right of the church double-wall, middle left soft)", "note": "Reinforce left and right, leave the middle soft (especially if a mirror is played there) so you can head-hole the middle to fight onto Main Stairs.", "timestamp": "05:55"},
-        {"location": "Moto hatch reinforcement", "note": "Keeping this hatch closed is the single biggest factor in winning basement — described as the easiest of the four sites if this stays shut.", "timestamp": "06:57"},
-        {"location": "Blue, middle wall", "note": "Reinforce the middle wall in Blue (creator's non-standard preference is to also put the rotate in the middle rather than bottom-left — see rotates).", "timestamp": "07:19"}
+        {"location": "North Wall of Dirt Tunnel", "note": "Reinforce regardless of whether the tunnel door is barricaded. Check the angle where your feet could be shot from the drone before standing to repel/hold.", "timestamp": "00:41"},
+        {"location": "Rotate Wall Between Armory and Church (double wall)", "note": "Some setups reinforce this. Creator prefers to keep it soft so defenders can hold the hatch drop angle from here instead.", "timestamp": "02:49"},
+        {"location": "Church Double Wall, Left Side", "note": "Reinforce left and right, leave middle-left soft (especially if a mirror is played there) to head-hole the middle onto Main Stairs.", "timestamp": "05:55"},
+        {"location": "Church Double Wall, Right Side", "note": "Reinforce left and right, leave middle-left soft.", "timestamp": "05:55"},
+        {"location": "Moto Hatch", "note": "Keeping this closed is the single biggest factor in winning basement.", "timestamp": "06:57"},
+        {"location": "Middle Wall of Blue", "note": "Creator's non-standard preference: put the rotate in the middle rather than bottom-left — see rotates.", "timestamp": "07:19"}
       ],
       "headHoles": [
-        {"location": "Church wall (left/right reinforced, middle left soft)", "note": "Leave head holes here to fight onto Main Stairs — without this, attackers pushing down Main Stairs only have to worry about two angles before walking out freely; this adds a third angle and more peek opportunities for defense. Top of this wall is soft and can be shot over toward bottom of Main Stairs.", "timestamp": "06:17"},
-        {"location": "Back Armory, small floor hole", "note": "Kept deliberately short (not a long sightline) so it only reveals attacker ankles running toward Moto without giving attackers a reciprocal prone sightline down the corridor from bottom Main Stairs.", "timestamp": "05:12"},
-        {"location": "Back Armory, box line of sight", "note": "Standing on the box here lets you see Four and bottom Main Stairs — only relevant while the kitchen hatch stays closed. Also usable at round start to catch a Banshee/Fenrir repelling upside down onto the hatch for a free kill before hatches open.", "timestamp": "04:32"}
+        {"location": "Church Double Wall, Middle-Left", "note": "Head holes here to fight onto Main Stairs. Top of this section is soft and can be shot over toward bottom of Main Stairs.", "timestamp": "06:17"},
+        {"location": "Armory Floor Hole (small, toward Moto)", "note": "Kept short so it only reveals attacker ankles running toward Moto without giving a reciprocal prone sightline down the corridor from bottom Main Stairs.", "timestamp": "05:12"},
+        {"location": "Armory Box Sightline (toward Four/Main Stairs)", "note": "Standing on the box here sees Four and bottom Main Stairs — only relevant while the Kitchen hatch stays closed. Also watch for a Banshee/Fenrir repelling upside-down onto the hatch at round start.", "timestamp": "04:32"}
       ],
       "rotates": [
-        {"location": "Armory/Church rotate (kept soft, not reinforced)", "note": "Connects Armory side to Church, holds the hatch drop angle, and lets you rotate to Blue from back here if the kitchen hatch is closed.", "timestamp": "02:49"},
-        {"location": "Small mini rotate, right-hand side near Armory", "note": "Lets you fight onto Main Stairs from here and gives a quick out if attackers start fusing/hard-breaching Kitchen, or a fast dart to rotate up into Kitchen once that hatch opens.", "timestamp": "04:11"},
-        {"location": "Blue rotate, MIDDLE of the wall (non-standard)", "note": "Creator's contentious pick: most setups reinforce the middle/right wall and put the rotate bottom-left, but he puts the rotate in the middle instead. Reasoning: if attackers pop a mirror on the standard wall, they can shoot the top of that wall from the platform and see all the way back to the mirror; a middle rotate can't be seen from the hatch at all (the air conditioning unit blocks it), whereas the bottom-left rotate can be seen from the hatch. Trade-off: the middle rotate gives attackers a slightly wider view into Church.", "timestamp": "07:19"},
-        {"location": "Blue → Church, imaginary boundary at the air conditioning unit", "note": "If the Blue hatch is opened, do not go past an imaginary line around the AC unit or you'll be visible from the hatch.", "timestamp": "09:02"}
+        {"location": "Armory/Church Rotate (kept soft)", "note": "Connects Armory side to Church, holds the hatch drop angle, lets you rotate to Blue from back here if the Kitchen hatch is closed.", "timestamp": "02:49"},
+        {"location": "Small Rotate, Right Side Near Armory", "note": "Fight onto Main Stairs from here; quick out if attackers fuse/hard-breach Kitchen, or a fast dart to rotate up into Kitchen once that hatch opens.", "timestamp": "04:11"},
+        {"location": "Middle Wall of Blue, Rotate", "note": "Non-standard: most setups reinforce the middle/right wall and put the rotate bottom-left; this puts the rotate in the middle instead. A middle rotate can't be seen from the hatch (blocked by the AC unit); the bottom-left rotate can. Trade-off: gives attackers a slightly wider view into Church.", "timestamp": "07:19"},
+        {"location": "Blue-to-Church Boundary (AC Unit)", "note": "If the Blue hatch is open, don't go past the AC unit line or you'll be visible from the hatch.", "timestamp": "09:02"}
       ],
       "hatches": [
-        {"location": "Kitchen Hatch", "note": "One of the three basement hatches, discussed together with Moto/Church hatch and Blue hatch.", "timestamp": "02:49"},
-        {"location": "Moto Hatch / Church Hatch", "note": "Keeping this closed makes the whole basement site significantly easier to defend; once open, holding becomes much harder even though the surrounding area is a strong stronghold.", "timestamp": "06:57"},
-        {"location": "Blue Hatch", "note": "Cannot be seen from the middle rotate position (creator's preferred setup) due to the AC unit blocking the sightline; can be seen from the standard bottom-left rotate position instead.", "timestamp": "02:49"}
+        {"location": "Kitchen Hatch", "note": "One of the three basement hatches.", "timestamp": "02:49"},
+        {"location": "Moto Hatch / Church Hatch", "note": "Keeping this closed makes the basement significantly easier to defend.", "timestamp": "06:57"},
+        {"location": "Blue Hatch", "note": "Not visible from the middle rotate position (AC unit blocks it); visible from the standard bottom-left rotate position.", "timestamp": "02:49"}
       ],
       "gadgetPlacements": [
-        {"location": "Either of the two Dirt Tunnel walls", "operator": "Kaid", "note": "Wait until you hear attackers placing hard breach charges (thermite/Ace-style) on the walls, then throw an electroclaw for a quick trick during roughly the first 30 seconds. Afterward, relocate the claw to cover the Kitchen hatch and Moto hatch instead — you won't hold Dirt forever, but stealing a hard breach charge's value is worth it.", "timestamp": "01:03"},
-        {"location": "Dirt Tunnel, hidden behind wooden barriers/corners", "operator": "unspecified (proximity/trap gadget)", "note": "Hide proxy-style gadgets behind corners using the wooden barriers for concealment, so attackers coming down don't spot them — gives early warning someone's there.", "timestamp": "01:24"},
-        {"location": "Dirt Tunnel (info play)", "operator": "Melusi (Banshee) or Fenrir", "note": "Source audio said 'a banshee, a fen rear' — this maps to Melusi's Banshee sonic device and/or Fenrir's dread mine, both viable info/trap tools here. Goo mines (Lesion) are called out as not reliable enough for this specific job; prox mines are called 'probably okay' but some kind of info gadget is considered mandatory in Dirt regardless of whether the tunnel is barricaded.", "timestamp": "02:06"},
-        {"location": "Back Armory box (K-trick spot)", "note": "Stand on the box using the red numbers as a placement guide to hit a cage/gadget trick — usable at start of round.", "timestamp": "04:32"},
-        {"location": "Blue, on the step near the platform and up on the oil pit steps", "operator": "Lesion", "note": "Source audio said 'legion' with 'goo mines' — resolved to Lesion (Defense-side, Gu mines are her signature gadget; 'Legion' isn't a real operator). Tuck goo mines on the step so they're hidden, mirrors the same play up on the oil pit steps. Pair with a bulletproof camera/mirror on the wall and peek down each side while the mines work.", "timestamp": "09:02"},
-        {"location": "Blue wall", "operator": "unspecified (mirror)", "note": "Always place the mirror at CROUCH height on this wall, not standing height — a standing-height mirror cannot see up into the hatch, but a crouch-height one can.", "timestamp": "11:30"},
-        {"location": "Anchor pocket near Blue/Dirt/Kitchen hatch overlap", "note": "A very strong anchor point — holds Dirt, has arguably the best angle onto the Kitchen hatch on the whole site (you see attackers before they see you nearly every time), and also holds into Blue.", "timestamp": "11:30"},
-        {"location": "Logi (upstairs, above Kitchen)", "note": "Play upstairs in Logi to create a vertical line of sight down into the Freezer door — catches attackers dropping the kitchen hatch from above. A second angle from the same area covers the hatch itself if attackers approach via the window instead of the door. Be aware attackers can open the Logi hatch at any time.", "timestamp": "12:32"},
-        {"location": "Upstairs, angle onto Main Stairs", "note": "A specific upstairs angle (demonstrated with an SMG-11) lets you hold Kitchen from above and also see down Main Stairs and Kitchen Corridor.", "timestamp": "13:16"},
-        {"location": "Main Stairs gas canister map ingredient", "note": "The environmental gas pipe near the top of Main Stairs can be shot to fully block the stairwell for several seconds (burns briefly at the end) — use it to cover a retreat when overwhelmed. A second one exists near the bottom, into Moto.", "timestamp": "14:20"}
+        {"location": "Either Wall of North Dirt Tunnel", "operator": "Kaid", "note": "Wait for attackers placing hard breach charges, then throw an electroclaw during roughly the first 30 seconds. Afterward relocate the claw to cover the Kitchen hatch and Moto hatch.", "timestamp": "01:03"},
+        {"location": "Dirt Tunnel, Behind Wooden Barriers", "operator": "unspecified (proximity/trap gadget)", "note": "Hide behind corners using the wooden barriers for concealment.", "timestamp": "01:24"},
+        {"location": "Dirt Tunnel", "operator": "Melusi or Fenrir", "note": "Source audio said 'a banshee, a fen rear' — maps to Melusi's Banshee and/or Fenrir's dread mine. Goo mines (Lesion) called out as not reliable enough here; prox mines 'probably okay.' Some info gadget considered mandatory regardless of barricade status.", "timestamp": "02:06"},
+        {"location": "Armory Box (K-trick spot)", "note": "Stand on the box using the red numbers as a placement guide for a cage/gadget trick — usable at round start.", "timestamp": "04:32"},
+        {"location": "Blue, Platform Step and Oil Pit Steps", "operator": "Lesion", "note": "Tuck goo mines on the platform step, hidden; mirror the play on the oil pit steps. Pair with a bulletproof camera/mirror on the wall and peek down each side while mines work.", "timestamp": "09:02"},
+        {"location": "Wall of Blue", "operator": "unspecified (mirror)", "note": "Place the mirror at crouch height, not standing — standing height can't see up into the hatch, crouch height can.", "timestamp": "11:30"},
+        {"location": "Anchor Pocket Near Blue/Dirt/Kitchen Hatch Overlap", "note": "Holds Dirt, one of the best angles onto the Kitchen hatch on the site, and also holds into Blue.", "timestamp": "11:30"},
+        {"location": "Logi (Upstairs, Above Kitchen)", "note": "Creates a vertical sightline down into the Freezer door, catching attackers dropping the Kitchen hatch. A second angle from the same spot covers the hatch if attackers approach via the window instead. Attackers can open the Logi hatch at any time.", "timestamp": "12:32"},
+        {"location": "Upstairs Angle onto Main Stairs", "note": "SMG-11 angle holds Kitchen from above and also sees down Main Stairs and Kitchen Corridor.", "timestamp": "13:16"},
+        {"location": "Gas Canister, Top of Main Stairs", "note": "Shoot to fully block the stairwell for several seconds (brief burn at the end) — use to cover a retreat. A second canister exists near the bottom, into Moto.", "timestamp": "14:20"}
       ],
       "operatorRecommendations": [
-        {"operator": "Kaid", "role": "Dirt Tunnel early trick / anchor", "note": "Uses electroclaw to punish early hard breach attempts on the Dirt Tunnel walls, then relocates to cover the Kitchen and Moto hatches."},
-        {"operator": "Melusi or Fenrir", "role": "Dirt Tunnel info", "note": "Mandatory info presence in Dirt Tunnel whether or not it's barricaded — source audio ambiguous between these two, both plausible given the gadget description ('a banshee, a fen rear')."},
-        {"operator": "Lesion", "role": "Blue anchor", "note": "Plays goo mines on the platform step and oil pit steps, pairs with a crouch-height mirror on the Blue wall. Source audio said 'Lesion' but the gadget described (goo mines) belongs to Lesion, a real defender — corrected."}
+        {"operator": "Kaid", "role": "Dirt Tunnel early trick / anchor", "holdLocation": "Dirt Tunnel", "note": "Electroclaw punishes early hard breach attempts on the Dirt Tunnel walls, then relocates to cover the Kitchen and Moto hatches."},
+        {"operator": "Melusi or Fenrir", "role": "Dirt Tunnel info", "holdLocation": "Dirt Tunnel", "note": "Mandatory info presence in Dirt Tunnel whether or not it's barricaded — source audio ambiguous between these two."},
+        {"operator": "Lesion", "role": "Blue anchor", "holdLocation": "Blue", "note": "Goo mines on the platform step and oil pit steps, paired with a crouch-height mirror on the Blue wall."}
       ],
       "generalTips": [
-        {"note": "Contentious call #1: should Dirt Tunnel be barricaded? Creator says no (changed his mind from previously saying yes) — barricading it means the team stops playing info there, and attackers can walk all the way to the barricade for free, drone under the door, and frag defenders who have no idea what's happening on the other side.", "timestamp": "01:45"},
-        {"note": "These setups are pitched as generic rank setups that work from copper to champ, not pro-level lineups — at the top level, some of the choices here (e.g. reinforcing the Armory/Church rotate wall) would change.", "timestamp": "03:09"},
-        {"note": "Feet holes: natural instinct is to shoot what you see, but if you see feet through a feet hole, aim at head/chest height, not the feet themselves — especially relevant post-update where limb damage is reduced.", "timestamp": "09:46"},
-        {"note": "Shoot the jukebox and radio at round start — referenced as a running habit, not tied to a specific mechanical benefit beyond removing distracting audio/visual clutter.", "timestamp": "12:32"},
-        {"note": "AKs Cabinet callout — a storage cabinet used purely as a map callout reference, no longer standable-on for verticality since a past patch.", "timestamp": "11:09"},
-        {"note": "One of the creator's favourite sites to defend on the whole map.", "timestamp": "16:04"}
+        {"note": "Barricading Dirt Tunnel stops the team playing info there and lets attackers walk to the barricade for free, drone under the door, and frag defenders blind. Creator recommends leaving it open.", "timestamp": "01:45"},
+        {"note": "These are generic rank setups, copper to champ — not pro-level lineups.", "timestamp": "03:09"},
+        {"note": "On feet holes: aim at head/chest height, not the feet themselves.", "timestamp": "09:46"},
+        {"note": "Shoot the jukebox and radio at round start.", "timestamp": "12:32"},
+        {"note": "AKs Cabinet is a callout reference only — no longer standable-on since a past patch.", "timestamp": "11:09"}
       ]
     },
     {
@@ -68,45 +68,44 @@
       "floor": "Top Floor",
       "callouts": ["CC (CCTV-adjacent room, gym side)", "Gym", "Gym Window", "Master", "Master Window", "Construction", "Logi", "Bathroom", "Jacuzzi", "Red Stairs", "Highway", "Condor", "Top Red"],
       "reinforcements": [
-        {"location": "CC: two external walls", "note": "Mirrors a standard CC-defense-style setup, adapted for this site.", "timestamp": "16:48"},
-        {"location": "CC: two walls inside cache", "note": "Part of the same CC-style setup.", "timestamp": "16:48"},
-        {"location": "CC: one wall, top red", "note": "Reinforced as part of the CC-style setup, though the creator later suggests you could skip this one and reinforce the Gym window wall instead if reinforcements are tight.", "timestamp": "16:48"},
-        {"location": "Construction, single wall", "note": "Reinforce this wall and try to get at least some denial (Mute jammer if a battery is spare) — once this wall opens, the whole other half of the map (playing in Construction) is cut off, so keeping it closed as long as possible is valuable.", "timestamp": "19:12"},
-        {"location": "Bathroom, right-hand side", "note": "Reinforced.", "timestamp": "20:15"},
-        {"location": "Bathroom, both jacuzzi walls", "note": "Fully reinforce both.", "timestamp": "20:15"},
-        {"location": "Master/Gym window wall (alternative pick)", "note": "Creator reconsiders mid-video: could skip the top red reinforcement and instead reinforce this wall, since attackers can otherwise tank bullets through the soft wall to shut down all of Master and deny the strong Master/gym-window/Condor anchor point.", "timestamp": "22:24"}
+        {"location": "Two Exterior Walls of CC", "note": "Mirrors a standard CC-defense-style setup, adapted for this site.", "timestamp": "16:48"},
+        {"location": "Two Walls Inside CC Cache", "note": "Part of the same CC-style setup.", "timestamp": "16:48"},
+        {"location": "Wall of Top Red", "note": "Reinforced as part of the CC-style setup, though the creator later suggests skipping this in favor of the Master/Gym window wall instead if reinforcements are tight.", "timestamp": "16:48"},
+        {"location": "East Wall of Construction", "note": "Reinforce and try to get at least some denial (Mute jammer if a battery is spare) — once this wall opens, the whole other half of the map is cut off.", "timestamp": "19:12"},
+        {"location": "East Wall of Bathroom", "note": "Reinforced.", "timestamp": "20:15"},
+        {"location": "Both Jacuzzi Walls", "note": "Fully reinforce both.", "timestamp": "20:15"},
+        {"location": "West Wall of Master (Gym Window Wall, alternative pick)", "note": "Creator reconsiders mid-video: skip the Top Red reinforcement and reinforce this wall instead, since attackers can otherwise tank bullets through the soft wall to shut down all of Master and deny the Master/gym-window/Condor anchor point.", "timestamp": "22:24"}
       ],
       "headHoles": [
-        {"location": "CC anchor wall (covers Gym window, Master window, and a third window)", "note": "A line of three windows can be watched from one spot via these head holes — described as a huge anchor point, but needs something covering Red Stairs so no one can creep up on it.", "timestamp": "18:30"}
+        {"location": "CC Anchor Wall (Covers Gym Window, Master Window, Third Window)", "note": "A line of three windows watched from one spot. Needs something covering Red Stairs so no one creeps up on it.", "timestamp": "18:30"}
       ],
       "rotates": [
-        {"location": "CC rotate, opposite side from a standard CC defense", "note": "Placed on the closer side (unlike a normal CC-style defense) purely to shave time rotating back to peek the breach or Garage — roughly 2 seconds faster than going the long way, and lets you peek multiple angles faster.", "timestamp": "16:48"},
-        {"location": "Master rotate, always on this specific side of the wall", "note": "Placed so the rotate is hidden by a mattress from the Master window — if placed on the other side, an attacker on Master window could sit and kill anyone using the rotate the instant they come through. With the mattress-covered side, you can't be seen at all coming through.", "timestamp": "19:34"}
+        {"location": "CC Rotate, Near Side", "note": "Placed on the closer side (unlike a normal CC-style defense) to shave time rotating back to peek the breach or Garage — roughly 2 seconds faster.", "timestamp": "16:48"},
+        {"location": "Master Rotate, Mattress Side", "note": "Always place on this side of the wall so the mattress hides it from the Master window — the other side gets you killed the instant someone comes through.", "timestamp": "19:34"}
       ],
       "hatches": [
-        {"location": "Logi hatch", "note": "Not reinforced. Standing near it once it's open is not automatically safe — attackers can see you from the roof drop-down angle. Once open, retreat to a specific covering position and wait for the drop, or hold the drop from a different spot if the breach wall is still closed.", "timestamp": "19:34"},
-        {"location": "Billiard/Gym hatch (upstairs, near billiard window)", "note": "Can hold the billiard window from this hatch — but only until attackers open the window itself, at which point the hatch position is no longer safe (classic Siege trade-off / phantom pressure concept).", "timestamp": "38:53"}
+        {"location": "Logi Hatch", "note": "Not reinforced. Standing near it once open is not automatically safe — attackers can see you from the roof drop-down angle. Retreat to a covering position and wait for the drop, or hold the drop from elsewhere if the breach wall is still closed.", "timestamp": "19:34"},
+        {"location": "Billiard/Gym Hatch (Upstairs, Near Billiard Window)", "note": "Holds the billiard window from this hatch — only until attackers open the window itself, after which the position is no longer safe.", "timestamp": "38:53"}
       ],
       "gadgetPlacements": [
-        {"location": "CC/Gym wall (round start)", "operator": "Bandit", "note": "Play Bandit off the gym wall with two spare batteries so you can trick a Thermite/Ace charge on the CC wall (typically the first wall attackers try to open) and then run to the jacuzzi breach to trick again there.", "timestamp": "17:49"},
-        {"location": "Highway-facing window (CC)", "note": "Punch this window open at least once early, even without planning to peek it — 'phantom pressure' that makes attackers think twice about standing on Highway.", "timestamp": "17:49"},
-        {"location": "Red Stairs (leading up to CC anchor)", "note": "Needs some kind of info gadget so attackers can't crouch-walk up undetected (specifically flags an Ash-style crouch walk as the threat to watch for). Suggested options: Melusi (Banshee), proximity mines, or even barbed wire.", "timestamp": "18:30"},
-        {"location": "Master (top red reinforcement alternative)", "operator": "Wamai", "note": "If playing Cache/Master solo and can coordinate with a teammate, put a Wamai Mag-NET here plus hold to Top Red to help a teammate out — a Mag-NET can't be played if the wall it's on gets opened first, so attackers should prioritize hard-breaching this wall early.", "timestamp": "23:07"},
-        {"location": "Main Stairs (gym site)", "note": "Difficult to prox-mine effectively here — stair geometry means attackers can crouch under the mine's trigger range without setting it off. A Melusi Banshee is a better pick; barbed wire further down the stairs also works.", "timestamp": "23:50"}
+        {"location": "Wall of CC/Gym (round start)", "operator": "Bandit", "note": "Two spare batteries to trick a Thermite/Ace charge on the CC wall, then run to the jacuzzi breach to trick again there.", "timestamp": "17:49"},
+        {"location": "Highway-Facing Window of CC", "note": "Punch open at least once early, even without planning to peek it — pressures attackers on Highway.", "timestamp": "17:49"},
+        {"location": "Red Stairs (Leading to CC Anchor)", "note": "Needs an info gadget so attackers can't crouch-walk up undetected. Suggested: Melusi (Banshee), proximity mines, or barbed wire.", "timestamp": "18:30"},
+        {"location": "Master", "operator": "Wamai", "note": "If playing Cache/Master solo with a coordinating teammate, put a Mag-NET here plus hold Top Red — a Mag-NET can't be played if the wall it's on opens first.", "timestamp": "23:07"},
+        {"location": "Main Stairs (Gym Site)", "note": "Hard to prox-mine effectively — stair geometry lets attackers crouch under the trigger range. A Melusi Banshee is a better pick; barbed wire further down the stairs also works.", "timestamp": "23:50"}
       ],
       "operatorRecommendations": [
-        {"operator": "Bandit", "role": "CC/Gym early trick + roam to jacuzzi breach", "note": "Runs both the CC wall and jacuzzi breach batteries early in the round."},
-        {"operator": "Wamai", "role": "Master anchor", "note": "Plays Master with Mag-NET support if the top red reinforcement is skipped in favour of the Master/Gym window wall."},
-        {"operator": "Melusi", "role": "Red Stairs / Main Stairs info", "note": "Banshee recommended for both Red Stairs (CC side) and Main Stairs (gym site) to prevent crouch-walking pushes."}
+        {"operator": "Bandit", "role": "CC/Gym early trick + roam to jacuzzi breach", "holdLocation": "CC", "note": "Runs both the CC wall and jacuzzi breach batteries early in the round."},
+        {"operator": "Wamai", "role": "Master anchor", "holdLocation": "Master", "note": "Mag-NET support if the Top Red reinforcement is skipped in favour of the Master/Gym window wall."},
+        {"operator": "Melusi", "role": "Red Stairs / Main Stairs info", "holdLocation": "Red Stairs", "note": "Banshee for both Red Stairs (CC side) and Main Stairs (gym site) to prevent crouch-walking pushes."}
       ],
       "generalTips": [
-        {"note": "This is the east side of the map. Below platinum rank you can probably get away with under-defending this side, but platinum and above, it must be set up properly.", "timestamp": "16:25"},
-        {"note": "CC is not where you want to spend much time — grab a drone or two then fall back into the Cache stronghold.", "timestamp": "18:10"},
-        {"note": "Logi and Construction are both difficult to hold for more than the first minute or two before the relevant hatch/wall opens; the plan is to delay, gather info, then retreat.", "timestamp": "19:12"},
-        {"note": "Castle barricade math: a barricade breaks after 9 hits; pre-hitting it 8 times means a single punch during the round finishes it off, useful for last-second denial of a plant.", "timestamp": "20:38"},
-        {"note": "Environmental gas pipes on this site do damage (up to ~50) if you shoot them at the right angle to direct the spray toward attackers — the shot angle determines the spray direction.", "timestamp": "20:59"},
-        {"note": "Preferred over CCTV — described as miles better than the CCTV/Cash site and one the creator explicitly tells viewers to play/practice before CCTV.", "timestamp": "24:33"},
-        {"note": "Multiple environmental map-ingredient gas pipes/canisters exist across this site (main stairs, fire extinguisher) that both attackers and defenders can exploit for cover or area denial.", "timestamp": "24:54"}
+        {"note": "This is the east side of the map. Below platinum you can get away with under-defending it; platinum and above, set it up properly.", "timestamp": "16:25"},
+        {"note": "CC is not a place to spend much time — grab a drone or two then fall back into the Cache stronghold.", "timestamp": "18:10"},
+        {"note": "Logi and Construction are both hard to hold past the first minute or two — delay, gather info, then retreat.", "timestamp": "19:12"},
+        {"note": "Castle barricade math: breaks after 9 hits; pre-hit it 8 times so a single punch during the round finishes it off.", "timestamp": "20:38"},
+        {"note": "Gas pipes on this site do damage (up to ~50) if shot at the right angle to direct spray toward attackers.", "timestamp": "20:59"},
+        {"note": "Preferred over CCTV/Cash — play/practice this site before that one.", "timestamp": "24:33"}
       ]
     },
     {
@@ -115,41 +114,41 @@
       "floor": "Top Floor",
       "callouts": ["Garage", "Rafters", "Garage Window", "Cash", "Cash Door", "Top Red", "Red Stairs", "Construction", "CC Window", "Main Breach", "Panel One / Panel Two / Panel Three", "Stock", "Blue"],
       "reinforcements": [
-        {"location": "Garage, all four bottom walls", "note": "Genuinely imperative to win this site. Combine with cage tricks (the '1' and '2' markers indicate the middle of the doors below each wall) to punish early hard breach attempts on both sets of walls.", "timestamp": "25:57"},
-        {"location": "Cash, single wall", "note": "Reinforced.", "timestamp": "28:27"},
-        {"location": "Cash, top middle wall (of three on Red)", "note": "Reinforced.", "timestamp": "28:27"},
-        {"location": "Main breach, two reinforcements", "note": "Reinforced with two, but this wall is expected to open almost inevitably unless your team has an exceptional Bandit tricker — once open, attackers can shoot through the (now soft on one side) wall to threaten the Rafters player.", "timestamp": "27:43"},
-        {"location": "Top Red, middle of the wall", "note": "Reinforced so a defender pushed from the Construction door has somewhere to take cover.", "timestamp": "30:13"},
-        {"location": "Construction, single wall", "note": "Reinforced (this is the 10th and final reinforcement of the 10 available across the whole map setup on this site).", "timestamp": "31:37"}
+        {"location": "South Walls of Garage (all four)", "note": "Imperative to win this site. Combine with cage tricks (the '1' and '2' markers indicate the middle of the doors below each wall) to punish early hard breach attempts on both sets of walls.", "timestamp": "25:57"},
+        {"location": "Wall of Cash", "note": "Reinforced.", "timestamp": "28:27"},
+        {"location": "Top-Middle Wall of Cash (of three on Red)", "note": "Reinforced.", "timestamp": "28:27"},
+        {"location": "Main Breach Wall", "note": "Reinforced with two, but expected to open eventually unless your team has an exceptional Bandit tricker — once open, attackers can shoot through the softened side to threaten the Rafters player.", "timestamp": "27:43"},
+        {"location": "Middle Wall of Top Red", "note": "Reinforced so a defender pushed from the Construction door has cover.", "timestamp": "30:13"},
+        {"location": "Wall of Construction", "note": "The 10th and final reinforcement of the 10 available across the whole map setup.", "timestamp": "31:37"}
       ],
       "headHoles": [
-        {"location": "Garage bottom walls (NOT a rotate — head holes only)", "note": "Deliberately head holes rather than a rotate. If the Rafters player dies, a rotate here would let any random attacker walk straight up; head holes instead force attackers to be a Sledge/Ash/Buck-type with a breaching tool (or hard breach the wall) to reach Rafters, channelling them through the Garage window instead — which can be held from the top of Red Stairs.", "timestamp": "26:40"},
-        {"location": "Top Red, tiny head hole", "note": "Small head hole to peek the Construction door from both sides.", "timestamp": "30:13"},
-        {"location": "Above the Cash rotate hole", "note": "A couple of extra holes at the top, useful for throwing C4s and smokes over the wall toward the breach/default plant area.", "timestamp": "29:53"}
+        {"location": "South Walls of Garage (Head Holes, Not a Rotate)", "note": "Deliberately head holes rather than a rotate. If the Rafters player dies, a rotate would let any attacker walk straight up; head holes force a Sledge/Ash/Buck-type breach or hard breach, channelling attackers through the Garage window instead, which can be held from the top of Red Stairs.", "timestamp": "26:40"},
+        {"location": "Top Red, Tiny Head Hole", "note": "Peeks the Construction door from both sides.", "timestamp": "30:13"},
+        {"location": "Above the Cash Rotate Hole", "note": "Extra holes at the top, useful for throwing C4s and smokes over the wall toward the breach/default plant area.", "timestamp": "29:53"}
       ],
       "rotates": [
-        {"location": "Cash rotate (up high, vault-only when standing)", "note": "Attackers can't pull through it from their side. Lets a defender stuck in Cash vault through unseen to flank a planter or the attacker holding Cash door, or throw smokes toward the breach/default plant. Must check the breach angle first before using it, since it's common for attackers to hold that angle.", "timestamp": "28:48"},
-        {"location": "Top Red rotate, far right-hand side of the wall", "note": "Kept clean/flush with the edge of the reinforcement so you can peek both sides of the Construction door from it.", "timestamp": "30:13"}
+        {"location": "Cash Rotate (Up High, Vault-Only When Standing)", "note": "Attackers can't pull through it from their side. Lets a defender in Cash vault flank a planter or the Cash-door holder unseen, or throw smokes toward the breach/plant. Check the breach angle before using it.", "timestamp": "28:48"},
+        {"location": "Top Red Rotate, Right Side of the Wall", "note": "Kept flush with the edge of the reinforcement to peek both sides of the Construction door from it.", "timestamp": "30:13"}
       ],
       "hatches": [
-        {"location": "Logi hatch drop (feet holes in Construction watch this)", "note": "Feet holes placed to see attackers' feet as they drop the hatch onto the floor, without them seeing you.", "timestamp": "31:17"},
-        {"location": "Hatch above Cash (near Stock)", "note": "Opened deliberately so defenders can hold the Stock door area and drop down if pressured.", "timestamp": "31:57"}
+        {"location": "Logi Hatch Drop", "note": "Feet holes in Construction watch this — placed to see attackers' feet as they drop onto the floor, without them seeing you.", "timestamp": "31:17"},
+        {"location": "Hatch Above Cash (Near Stock)", "note": "Opened deliberately so defenders can hold the Stock door area and drop down if pressured.", "timestamp": "31:57"}
       ],
       "gadgetPlacements": [
-        {"location": "Garage rafters", "operator": "Wamai", "note": "Ideally have a Wamai here (referred to phonetically as 'aammy'/'a wii' in the transcript, matched to Wamai given the described Mag-NET play) placing magnets along the doors below — one over the door, one on the next level along, spaced apart so a single grenade can't destroy multiple magnets at once.", "timestamp": "26:18"},
-        {"location": "Garage rafters (cage trick spot)", "note": "Use the '1' and '2' door-center markers to line up a cage/gadget trick that covers both walls below simultaneously.", "timestamp": "26:18"},
-        {"location": "Construction door (anchor)", "note": "Behind the green desk is a common anchor point — covers Condor, CC window, and the breach, plus a nasty prone angle on anyone coming up Red Stairs.", "timestamp": "30:35"},
-        {"location": "Stock area (verticality)", "note": "Opening the hatch here lets you watch the walk-in from Stock and see the Stock door/anyone exiting it; also covers the most common below-bomb C4 spot for the default plant.", "timestamp": "31:57"}
+        {"location": "Garage Rafters", "operator": "Wamai", "note": "Source audio rendered the name phonetically as 'aammy'/'a wii' — matched to Wamai given the described Mag-NET play. Place magnets along the doors below, one over the door and one on the next level along, spaced so a single grenade can't destroy multiple magnets at once.", "timestamp": "26:18"},
+        {"location": "Garage Rafters (cage trick spot)", "note": "Use the '1' and '2' door-center markers to line up a cage/gadget trick covering both walls below simultaneously.", "timestamp": "26:18"},
+        {"location": "Construction Door (anchor, behind the green desk)", "note": "Covers Condor, CC window, and the breach, plus a prone angle on anyone coming up Red Stairs.", "timestamp": "30:35"},
+        {"location": "Stock Area", "note": "Opening the hatch lets you watch the walk-in from Stock and see the Stock door/anyone exiting it; also covers the most common below-bomb C4 spot for the default plant.", "timestamp": "31:57"}
       ],
       "operatorRecommendations": [
-        {"operator": "Wamai", "role": "Rafters anchor", "note": "Source audio rendered the name phonetically as 'aammy'/'a wii' — matched to Wamai based on the described Mag-NET/magnet gadget play; treat as reasonably confident given the gadget match, but the name itself was garbled in the transcript."}
+        {"operator": "Wamai", "role": "Rafters anchor", "holdLocation": "Garage Rafters", "note": "Source audio rendered the name phonetically as 'aammy'/'a wii' — matched to Wamai based on the described Mag-NET/magnet gadget play."}
       ],
       "generalTips": [
-        {"note": "If you lose Rafters, this site becomes difficult to win — attackers get direct access into Cash. Losing rafters is the single biggest turning point on this site.", "timestamp": "26:40"},
-        {"note": "The Rafters player must know exactly how far left/right they can stand without being seen through the breach or the CC window — referred to via 'panel one/two/three' callouts; Panel Two is the safest spot, though attackers know this and will target it with fire bolts.", "timestamp": "28:05"},
-        {"note": "Once the CC/main breach wall opens, defenders playing Top Red must be positioned behind the reinforcement — standing exposed near the edge risks getting feet shot from the Construction door.", "timestamp": "31:17"},
-        {"note": "Pushing the CCTV breach is considered much easier for attackers than pushing the Jacuzzi breach on the Gym/Bedroom site, due to the Gym site's reinforcement + rotate combo — so in ranked play, attackers tend to favour this site more (though pro play tends to open the Gym/Jacuzzi wall more often).", "timestamp": "32:39"},
-        {"note": "Considered the creator's least favourite site on the map — frequently over-picked by players who assume it's the strongest, when Gym and Basement are rated as stronger sites.", "timestamp": "33:40"}
+        {"note": "Losing Rafters is the single biggest turning point on this site — attackers get direct access into Cash.", "timestamp": "26:40"},
+        {"note": "The Rafters player must know exactly how far left/right they can stand without being seen through the breach or CC window ('panel one/two/three'). Panel Two is safest, but attackers know this and target it with fire bolts.", "timestamp": "28:05"},
+        {"note": "Once the CC/main breach wall opens, defenders on Top Red must stay behind the reinforcement — standing exposed near the edge risks getting feet shot from the Construction door.", "timestamp": "31:17"},
+        {"note": "Pushing CCTV is easier for attackers than pushing Jacuzzi on the Gym/Bedroom site, due to Gym's reinforcement + rotate combo — ranked attackers tend to favour this site more, though pro play opens Gym/Jacuzzi more often.", "timestamp": "32:39"},
+        {"note": "Frequently over-picked by players who assume it's the strongest site — Gym and Basement are rated stronger.", "timestamp": "33:40"}
       ]
     },
     {
@@ -158,42 +157,42 @@
       "floor": "Top Floor",
       "callouts": ["Bar", "Stage", "Kitchen Corridor", "Billiard", "Billiard Window", "Gym Window (upstairs)", "Jacuzzi", "Bathroom", "Logi", "Construction", "Strip", "Stock", "Vending Machine"],
       "reinforcements": [
-        {"location": "Two jacuzzi walls (upstairs)", "note": "Same setup pattern as defending the Gym/Bedroom site.", "timestamp": "34:21"},
-        {"location": "Bathroom wall (upstairs)", "note": "Reinforced, mirroring the Gym/Bedroom setup.", "timestamp": "34:21"},
-        {"location": "Construction wall (near bar/stage)", "note": "Reinforced.", "timestamp": "35:03"},
-        {"location": "Construction, single wall to the external breach", "note": "Reinforced.", "timestamp": "35:03"},
-        {"location": "Wall into Cash (shared boundary)", "note": "Reinforced.", "timestamp": "35:03"},
-        {"location": "One spare reinforcement (flex pick, one of four walls near Bar)", "note": "Not committed to a specific wall — the creator suggests using it on whichever of four candidate walls near the bar gives an anchor player cover to hold the corridor and Kitchen approach while staying tucked in.", "timestamp": "40:15"}
+        {"location": "Two Jacuzzi Walls (Upstairs)", "note": "Same setup pattern as defending the Gym/Bedroom site.", "timestamp": "34:21"},
+        {"location": "Wall of Bathroom (Upstairs)", "note": "Reinforced, mirroring the Gym/Bedroom setup.", "timestamp": "34:21"},
+        {"location": "Wall of Construction (Near Bar/Stage)", "note": "Reinforced.", "timestamp": "35:03"},
+        {"location": "Wall of Construction (External Breach Side)", "note": "Reinforced.", "timestamp": "35:03"},
+        {"location": "Wall Into Cash (Shared Boundary)", "note": "Reinforced.", "timestamp": "35:03"},
+        {"location": "Flex Wall Near Bar (one of four candidates)", "note": "Not committed to a specific wall — use it on whichever of four candidate walls near the bar gives an anchor player cover to hold the corridor and Kitchen approach while staying tucked in.", "timestamp": "40:15"}
       ],
       "headHoles": [
-        {"location": "Bar wall, top only (not fully destructible lower section)", "note": "Peeking over the top of the bar wall gives a useful sightline straight down to outside the bar door — a busy approach area.", "timestamp": "36:48"},
-        {"location": "Long line of sight across the cabinet area up toward Construction door (from upstairs)", "note": "Covers both the most common plant spot (behind/near the vending machine) and the second most common plant spot (tucked in the jukebox or on the far side of a nearby wall).", "timestamp": "35:24"},
-        {"location": "Second, shorter line of sight (upstairs)", "note": "A second, tighter line of sight — deliberately not extended too far across.", "timestamp": "37:08"}
+        {"location": "Top of Bar Wall (Not Fully Destructible Lower Section)", "note": "Sightline straight down to outside the bar door — a busy approach area.", "timestamp": "36:48"},
+        {"location": "Cabinet Sightline Toward Construction Door (from upstairs)", "note": "Covers the most common plant spot (behind/near the vending machine) and the second most common plant spot (tucked in the jukebox or far side of a nearby wall).", "timestamp": "35:24"},
+        {"location": "Second Upstairs Sightline (shorter)", "note": "A tighter line of sight, deliberately not extended too far across.", "timestamp": "37:08"}
       ],
       "rotates": [
-        {"location": "Long wall rotate (upstairs, over the feet holes)", "note": "Same setup as the Gym/Bedroom site — rotate on this wall, feet holes underneath.", "timestamp": "34:41"},
-        {"location": "Logi rotate, specific side of the wall", "note": "Placed so the mattress on that side shields you from the Master/Gym window when using it — do not put it on the exposed side.", "timestamp": "36:05"}
+        {"location": "Long Wall Rotate (Upstairs, Over the Feet Holes)", "note": "Same setup as the Gym/Bedroom site — rotate on this wall, feet holes underneath.", "timestamp": "34:41"},
+        {"location": "Logi Rotate, Mattress Side", "note": "Placed so the mattress shields you from the Master/Gym window when using it — do not place on the exposed side.", "timestamp": "36:05"}
       ],
       "hatches": [
-        {"location": "Stock-area hatch", "note": "Deliberately opened so defenders can stop attackers coming through the stock walls; attackers will typically instead push through the Stock door.", "timestamp": "35:03"},
-        {"location": "Hatch used as an escape route back into the site from Main Stairs", "note": "If sight control on the upper lines of sight is lost, this hatch lets you pop down, use Main Stairs, and reclaim sight into the site without forcing a door entry — try to pick off attackers through the head holes on the way back in.", "timestamp": "37:28"},
-        {"location": "Billiard-area hatch (holds the billiard window from above)", "note": "Only viable while the billiard window itself stays closed — once attackers open the window, holding this hatch position becomes unsafe (classic phantom-pressure trade-off).", "timestamp": "38:53"},
-        {"location": "Hatches at both ends of the site", "note": "Both ends of the site have a hatch, giving a drop-back escape option from either side if defenders are pushed off site.", "timestamp": "40:36"}
+        {"location": "Stock-Area Hatch", "note": "Deliberately opened so defenders can stop attackers coming through the stock walls; attackers will typically push through the Stock door instead.", "timestamp": "35:03"},
+        {"location": "Escape Hatch to Main Stairs", "note": "If sight control on the upper lines of sight is lost, drop down, use Main Stairs, and reclaim sight into the site without forcing a door entry — pick off attackers through the head holes on the way back in.", "timestamp": "37:28"},
+        {"location": "Billiard-Area Hatch (holds the billiard window from above)", "note": "Only viable while the billiard window stays closed — once attackers open it, holding this hatch position becomes unsafe.", "timestamp": "38:53"},
+        {"location": "Hatches at Both Ends of the Site", "note": "Both ends have a hatch, giving a drop-back escape option from either side if defenders are pushed off site.", "timestamp": "40:36"}
       ],
       "gadgetPlacements": [
-        {"location": "Logi (no reinforcement here — deliberate choice)", "note": "Head holes only, no reinforcement — the creator explicitly calls a reinforcement here wasted value, since defenders won't hold this spot for long given the pressure from the Cash-side approach.", "timestamp": "36:27"},
-        {"location": "Strip (long line of sight to the stock double door)", "operator": "Echo or Maestro", "note": "A good spot to hold with an ACOG-style scope — Echo and Maestro (using the ACS12 shotgun) both suggested; a DMR operator (e.g. Rooney/Thunderbird-type pick) could also work.", "timestamp": "38:10"},
-        {"location": "Billiard window area (Castle play)", "note": "Castle", "note2": "Use the steps to peek under a Castle barricade and spot attacker toes; playing further back or behind the bar is safer than right up against the barricade, since your head lines up with where attackers shoot through the bottom of the door.", "timestamp": "39:33"}
+        {"location": "Logi (no reinforcement here — deliberate choice)", "note": "Head holes only, no reinforcement — a reinforcement here is wasted value since defenders won't hold this spot for long against Cash-side pressure.", "timestamp": "36:27"},
+        {"location": "Strip (Long Sightline to the Stock Double Door)", "operator": "Echo or Maestro", "note": "Hold with an ACOG-style scope; a DMR operator (e.g. Rooney/Thunderbird-type pick) could also work.", "timestamp": "38:10"},
+        {"location": "Billiard Window Area (Castle Play)", "operator": "Castle", "note": "Use the steps to peek under a Castle barricade and spot attacker toes; play further back or behind the bar rather than right up against the barricade — up close your head lines up with where attackers shoot through the bottom of the door.", "timestamp": "39:33"}
       ],
       "operatorRecommendations": [
-        {"operator": "Echo or Maestro", "role": "Strip anchor", "note": "Holds the long line of sight to the stock double door with an ACOG/ACS12 scope; a DMR operator is a viable alternative."},
-        {"operator": "Castle", "role": "Billiard window anchor", "note": "Uses a barricade at the billiard steps to safely spot attacker feet before they can push in."}
+        {"operator": "Echo or Maestro", "role": "Strip anchor", "holdLocation": "Strip", "note": "Holds the long sightline to the stock double door with an ACOG/ACS12 scope; a DMR operator is a viable alternative."},
+        {"operator": "Castle", "role": "Billiard window anchor", "holdLocation": "Billiard Window Steps", "note": "Barricade at the billiard steps to safely spot attacker feet before they can push in."}
       ],
       "generalTips": [
         {"note": "Considered the worst site on the map, but can be strong with a fully coordinated 5-stack, mainly because most attackers don't know how to approach it well.", "timestamp": "34:01"},
-        {"note": "Defending upstairs is absolutely imperative on this site — losing the upper lines of sight makes the site very hard to hold.", "timestamp": "34:21"},
-        {"note": "Playing directly on-site as a static anchor is discouraged — the site is very exposed from multiple angles; better to hold from range using the upstairs lines of sight and drop back in via the hatches when needed.", "timestamp": "40:36"},
-        {"note": "Feet-hole reminder repeated from the Basement site: if you see toes through a feet hole, shoot at head height, not the toes themselves.", "timestamp": "39:55"}
+        {"note": "Defending upstairs is imperative — losing the upper lines of sight makes the site very hard to hold.", "timestamp": "34:21"},
+        {"note": "Playing directly on-site as a static anchor is exposed from multiple angles; hold from range using the upstairs lines of sight and drop back in via the hatches when needed.", "timestamp": "40:36"},
+        {"note": "Feet-hole reminder: if you see toes through a feet hole, shoot at head height, not the toes.", "timestamp": "39:55"}
       ]
     }
   ]

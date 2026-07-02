@@ -5,7 +5,7 @@
     "title": "Theme Park setup and defend guide (all four sites) - Littleton",
     "type": "youtube_transcript",
     "file": "data/raw_transcripts/Theme_Park_Defense_Vmxlp9Z0T5o.txt",
-    "notes": "Auto-generated YouTube captions (creator refers to himself as 'Littleton'/'Litton'). Ranked-focused generic setups, not pro-league lineups. No corresponding Attack-side transcript was available for this map, so this file is Defense-only. Room/callout names are the creator's informal callouts, not verified wiki callouts. Two operator mentions in the Bunk/Daycare and Initiation/Office sections were ambiguous in the ASR text and are flagged in-line rather than guessed."
+    "notes": "Auto-generated YouTube captions (creator refers to himself as 'Littleton'/'Litton'). Ranked-focused generic setups, not pro-league lineups. No corresponding Attack-side transcript was available for this map, so this file is Defense-only. Room/callout names are the creator's informal callouts, not verified wiki callouts. No usable top-down blueprint image could be sourced for this rewrite pass, so locations are room/feature names only, without compass-direction prefixes (see rule 8). Two operator mentions in the Bunk/Daycare and Initiation/Office sections were ambiguous in the ASR text and are flagged in-line rather than guessed."
   },
   "sites": [
     {
@@ -14,33 +14,33 @@
       "floor": "Top Floor",
       "callouts": ["Throne", "Maintenance", "Barrels", "Armory", "Bottom Yellow Stairs", "Split", "Back Furnace", "Dragon", "Gong", "Lab/Drug corridor"],
       "reinforcements": [
-        {"location": "Back Throne wall into Maintenance (x2)", "note": "Part of the standard 7-reinforcement setup for this site.", "timestamp": "00:20"},
-        {"location": "Back Throne wall into Barrels (x2)", "note": "Part of the standard 7-reinforcement setup for this site.", "timestamp": "00:20"},
-        {"location": "Armory wall onto bottom yellow stairs area (x2)", "note": "Part of the standard 7-reinforcement setup for this site.", "timestamp": "00:20"},
-        {"location": "Split hatch", "note": "The 7th and final reinforcement. 'Split' is the area just inside the site where you can go left or right.", "timestamp": "00:41"}
+        {"location": "Throne Wall into Maintenance (x2)", "note": "Part of the standard 7-reinforcement setup.", "timestamp": "00:20"},
+        {"location": "Throne Wall into Barrels (x2)", "note": "Part of the standard 7-reinforcement setup.", "timestamp": "00:20"},
+        {"location": "Armory Wall onto Bottom Yellow Stairs (x2)", "note": "Part of the standard 7-reinforcement setup.", "timestamp": "00:20"},
+        {"location": "Split Hatch", "note": "7th and final reinforcement.", "timestamp": "00:41"}
       ],
       "headHoles": [
-        {"location": "Feet holes along the wall near the anchor point, HALF the wall only", "note": "Only feet-hole roughly halfway along this wall, stopping before the far end. Lets you see ankles and shoot heads on anyone walking in from a strong, safe anchor spot (this side of the site is soft; the Throne/back side is fully hard). Attackers peeking from prone here only see a pillar.", "timestamp": "01:01"},
-        {"location": "Same wall, full length (DO NOT do this)", "note": "Common mistake: feet-holing the entire wall gains nothing extra for the defender (you already see ankles/shoot heads with the half-length version) but gives attackers a long prone sightline all the way back into Back Furnace, which punishes whoever is playing near Furnace. Stop at roughly the halfway point.", "timestamp": "02:26"},
-        {"location": "C4 hole above the yellow wall (near default plant), first spot", "note": "If the yellow wall opens, the default plant is tucked behind a pillar (or the boxes) that's otherwise nearly impossible to stop. This hole lets you throw C4 over onto the plant spot to deny it.", "timestamp": "03:27"},
-        {"location": "C4 hole above the yellow wall, second spot", "note": "Paired with the first C4 hole for the same default-plant denial purpose.", "timestamp": "03:27"},
-        {"location": "Holes above each reinforced wall, for impact-tricking thermite", "note": "Cut a small hole above each wall so you can throw an impact grenade onto a thermite charge placed on the far side (splash damage destroys the thermite charge). Works the same for Kaid's or Ace's charges. With Ace charges you can throw the impact from much further away; thermite has to be placed low on the wall or the impact won't reach it, so listen for the placement sound before throwing.", "timestamp": "04:30"},
-        {"location": "Head hole overlooking the door from Gong", "note": "Strong late-round kill angle — attackers running from Gong almost never check this angle. Best played in the first 20-30 seconds of the round while waiting for an early rusher.", "timestamp": "05:35"},
-        {"location": "Feet holes at the long corner near Split, facing Drug/Lab corridor", "note": "Sometimes worth making. Don't go prone behind them (prone exposes you to headshots) — hold the angle standing/crouched so you see feet first. Covers anyone coming through Drug into Lab and eventually toward Split door.", "timestamp": "06:17"}
+        {"location": "Anchor Wall, Feet Holes, Half Length Only", "note": "Feet-hole only halfway along this wall, stop before the far end. Shoot ankles/heads from the anchor spot. Don't extend the full length — see generalTips.", "timestamp": "01:01"},
+        {"location": "Yellow Wall, C4 Hole, First Spot", "note": "Throw C4 over the yellow wall onto the default plant spot behind the pillar/boxes.", "timestamp": "03:27"},
+        {"location": "Yellow Wall, C4 Hole, Second Spot", "note": "Paired with the first C4 hole for the same plant-denial purpose.", "timestamp": "03:27"},
+        {"location": "Reinforced Walls, Impact-Trick Holes", "note": "Small hole above each reinforced wall to throw an impact grenade onto a thermite/Kaid/Ace charge on the far side. Listen for the placement sound first — thermite has to be low on the wall or the impact won't reach it.", "timestamp": "04:30"},
+        {"location": "Door from Gong, Head Hole", "note": "Kill angle attackers rarely check. Play it in the first 20-30 seconds for an early rusher.", "timestamp": "05:35"},
+        {"location": "Split Corner, Feet Holes, Facing Drug/Lab Corridor", "note": "Hold standing/crouched, not prone. Covers Drug into Lab and toward Split door.", "timestamp": "06:17"}
       ],
       "rotates": [],
       "hatches": [
-        {"location": "Split hatch", "note": "Reinforced as the 7th reinforcement (see reinforcements list).", "timestamp": "00:41"}
+        {"location": "Split Hatch", "note": "Reinforced (see reinforcements).", "timestamp": "00:41"}
       ],
       "gadgetPlacements": [],
       "operatorRecommendations": [
-        {"operator": "Any DMR/ACOG-capable defender", "role": "Upstairs holder", "note": "You need at least one, ideally two players upstairs — attackers can reach this area within about 30 seconds if it's left completely open, and the balcony gives a strong angle onto Dragon late in the round."}
+        {"operator": "Any DMR/ACOG-capable defender", "role": "Upstairs holder", "holdLocation": "Balcony", "note": "Play at least one, ideally two players upstairs — attackers can reach it within about 30 seconds if left open. Balcony gives a strong angle onto Dragon late round."}
       ],
       "generalTips": [
-        {"note": "Considered by the creator the strongest and easiest site to defend on the map, and the hardest for attackers to take — site setup itself is simple.", "timestamp": "00:20"},
-        {"note": "The anchor-point side of the site is soft, but everything on the Throne side (the far side) is hard/non-soft.", "timestamp": "01:22"},
-        {"note": "Only about half of the floor near Barrels/Throne is C4-able — the wood-panel flooring marks where it becomes cable-able (i.e., breachable from below); the rest, including all of Daycare's floor above, is soft from below too.", "timestamp": "10:52"},
-        {"note": "There are banners around the site useful for aim warm-up before the round.", "timestamp": "07:00"}
+        {"note": "Strongest and easiest site to defend on the map.", "timestamp": "00:20"},
+        {"note": "Anchor side of the site is soft; Throne side is fully hard.", "timestamp": "01:22"},
+        {"note": "Don't feet-hole the full length of the anchor wall — gains nothing extra but gives attackers a prone sightline into Back Furnace.", "timestamp": "02:26"},
+        {"note": "Only about half the floor near Barrels/Throne is breachable from below; the rest, including all of Daycare's floor above, is also soft from below.", "timestamp": "10:52"},
+        {"note": "Banners around the site are useful for aim warm-up before the round.", "timestamp": "07:00"}
       ]
     },
     {
@@ -49,35 +49,39 @@
       "floor": "Top Floor",
       "callouts": ["Bunk", "Daycare", "Break Room", "Initiation", "Waiting Room", "Office", "Cafe", "Upper Arcade", "Bottom Arcade", "Barrels", "Vault", "Cash", "Dragon", "Security Hatch", "Yellow Stairs"],
       "reinforcements": [
-        {"location": "Bunk wall into Initiation (x2)", "note": "Part of the 8-reinforcement setup for this site.", "timestamp": "07:42"},
-        {"location": "Left-hand side of Bunk wall into Break Room", "note": "Part of the 8-reinforcement setup.", "timestamp": "07:42"},
-        {"location": "Right-hand side of the Waiting Room double wall, through to Office", "note": "It's a double wall but only the right-hand side is reinforced; the other side is left soft.", "timestamp": "07:42"},
-        {"location": "Two Daycare walls at the bottom, into Cafe", "note": "Both the left and right-hand sides reinforced.", "timestamp": "07:42"},
-        {"location": "Two walls from Office/Daycare area into top yellow stairs", "note": "Both reinforced.", "timestamp": "07:42"},
-        {"location": "Wall from Bunk area into the room that lets attackers cut off most of Bunks (left soft = bad)", "note": "If left soft, attackers can open a line of sight there that cuts off most of Bunks. Recommended to reinforce it — costs a reinforcement but denies that angle entirely (they can still hard-breach if they choose).", "timestamp": "11:35"},
-        {"location": "Soft wall from Cafe area into Vault", "note": "Recommended reinforce. Without it, attackers can soft-breach and hold a long angle down the corridor from a bookshelf spot, or cut around into site.", "timestamp": "12:38"},
-        {"location": "Cafe wall near the Cafe-side corridor", "note": "Reinforced for the same reason as the Vault-side wall — denies the long corridor angle.", "timestamp": "12:38"}
+        {"location": "Bunk Wall into Initiation (x2)", "note": "Part of the 8-reinforcement setup.", "timestamp": "07:42"},
+        {"location": "Bunk Wall into Break Room, Left Side", "note": "Part of the 8-reinforcement setup.", "timestamp": "07:42"},
+        {"location": "Waiting Room Double Wall into Office, Right Side", "note": "Double wall — only the right side is reinforced, left side stays soft.", "timestamp": "07:42"},
+        {"location": "Daycare Wall into Cafe, Left Side", "note": "Part of the 8-reinforcement setup.", "timestamp": "07:42"},
+        {"location": "Daycare Wall into Cafe, Right Side", "note": "Part of the 8-reinforcement setup.", "timestamp": "07:42"},
+        {"location": "Office/Daycare Wall into Top Yellow Stairs, First", "note": "Both reinforced.", "timestamp": "07:42"},
+        {"location": "Office/Daycare Wall into Top Yellow Stairs, Second", "note": "Both reinforced.", "timestamp": "07:42"},
+        {"location": "Bunk Wall, Cutoff Angle", "note": "If left soft, attackers open a sightline that cuts off most of Bunks. Reinforce to deny the angle (hard-breach still possible).", "timestamp": "11:35"},
+        {"location": "Cafe Wall into Vault", "note": "Without this, attackers soft-breach and hold a long angle down the corridor from a bookshelf spot, or cut into site.", "timestamp": "12:38"},
+        {"location": "Cafe Corridor Wall", "note": "Denies the same long corridor angle as the Vault-side wall.", "timestamp": "12:38"}
       ],
       "headHoles": [
-        {"location": "Feet holes on either side of the wall near Cafe", "note": "Cafe double and Waiting double are the two main push points for this site. These feet holes let a defender playing behind the bomb shoot ankles as attackers exit Cafe in either direction, instead of letting them walk out freely if all four walls at the bottom were reinforced.", "timestamp": "09:05"},
-        {"location": "Line of sight near Initiation extension (if extending there)", "note": "Only relevant if choosing the extend-to-Initiation option — cut a line of sight to help hold the hatch. Creator prefers NOT to extend to Initiation.", "timestamp": "14:04"},
-        {"location": "Ratty punch hole low in the wall, near where the other hole is", "note": "Go prone and make a very low, hard-to-spot punch hole here — lets you hold the yellow stairs in relative safety. Attackers dropping the security hatch and looking this way notice the bigger hole in the wall first and get killed from the punch hole before spotting it.", "timestamp": "14:46"}
+        {"location": "Cafe Wall, Feet Holes Both Sides", "note": "Shoot ankles as attackers exit Cafe in either direction from behind the bomb.", "timestamp": "09:05"},
+        {"location": "Initiation Extension, Line of Sight", "note": "Only relevant if extending to Initiation — cut a line of sight to help hold the hatch. Creator prefers not extending.", "timestamp": "14:04"},
+        {"location": "Yellow Stairs Wall, Low Punch Hole", "note": "Go prone, make the hole low and hard to spot, near the existing bigger hole. Holds yellow stairs — attackers dropping the security hatch look at the bigger hole first and get killed from the punch hole.", "timestamp": "14:46"}
       ],
       "rotates": [
-        {"location": "Back of Break Room, toward Upper Arcade", "note": "Essential rotate. If you're in Break Room and attackers repel the nearby windows, this door is your only other way out. Also gives an angle toward Waiting Room, letting you fight from a different position if pushed instead of being stuck with one exposed exit.", "timestamp": "07:42"},
-        {"location": "Rotate hole in Daycare (exact spot flexible, avoid the window)", "note": "Position doesn't matter much except don't put it in line with the nearby window, or attackers can pick off anyone using the rotate from there. Can be placed more to the left if preferred.", "timestamp": "08:45"},
-        {"location": "Rotate(s) toward Initiation (optional)", "note": "Optional extension: castle the door off, make a line of sight, reinforce a wall, and make a line of sight to hold the hatch. Creator isn't a fan of this option and prefers a simpler reinforce-and-fall-back plan instead.", "timestamp": "14:04"}
+        {"location": "Break Room, Back Toward Upper Arcade", "note": "Only other way out if attackers repel the nearby windows. Also gives an angle toward Waiting Room.", "timestamp": "07:42"},
+        {"location": "Daycare Rotate Hole", "note": "Position flexible — keep it out of line with the nearby window or attackers can pick off anyone using it.", "timestamp": "08:45"},
+        {"location": "Initiation Rotate (optional)", "note": "Optional extension: castle the door, cut a line of sight, reinforce a wall, cut a line of sight to hold the hatch. Creator prefers the simpler reinforce-and-fall-back plan instead.", "timestamp": "14:04"}
       ],
       "hatches": [
-        {"location": "Hatch above Barrels/window", "note": "Always open (not reinforced) — lets you hold down into the Barrels window, a common rush point via bottom Arcade window or around from Barrels. Also allows dropping C4 later in the round if pushed.", "timestamp": "10:31"}
+        {"location": "Barrels/Window Hatch", "note": "Always leave open. Holds down into the Barrels window against the bottom Arcade window rush. Also lets you drop C4 late round.", "timestamp": "10:31"}
       ],
       "gadgetPlacements": [],
-      "operatorRecommendations": [],
+      "operatorRecommendations": [
+        {"operator": "Ram-style operator", "role": "Off-site anchor", "holdLocation": "Cash / Waiting Room Approach", "note": "Start in Cash, kill drones through the Cash door or Dragon, get drones off the security hatch, then fall back into site. Watch Office and Cash door on the way back."}
+      ],
       "generalTips": [
-        {"note": "Creator's second-favourite site on the map (behind Throne Room), ahead of Initiation/Office in his ranking, though he says that's personal preference.", "timestamp": "07:20"},
-        {"note": "Someone needs to hold the far side of the map near Waiting Room — start in Cash, kill a couple of drones coming through the Cash door or Dragon, maybe get drones off the security hatch, then fall back into site rather than holding that area long-term.", "timestamp": "13:43"},
-        {"note": "Preferred plan for the off-site area: reinforce, play a slow anchor there (e.g. with a Ram-style operator) to get intel/kills off a couple of drones, force attackers to burn flashbangs or a fear charge, then fall back — watching out for Office and Cash door on the way.", "timestamp": "14:25"},
-        {"note": "Late round, attackers who've run out of ideas from Waiting Room will bait the hole-in-the-wall angle near the punch hole and wait for defenders to run out toward it — a dangerous open area with peeks from everywhere.", "timestamp": "15:07"}
+        {"note": "Creator's second-favourite site, ahead of Initiation/Office in his ranking.", "timestamp": "07:20"},
+        {"note": "Someone needs to hold the far side near Waiting Room rather than long-term — get intel/kills off drones, then fall back.", "timestamp": "13:43"},
+        {"note": "Reinforce the off-site area, play a slow anchor for intel/kills off drones, force flashbangs or a fear charge, then fall back.", "timestamp": "14:25"},
+        {"note": "Late round, attackers out of ideas from Waiting Room will bait the hole-in-the-wall angle near the punch hole — watch that open area, peeks from everywhere.", "timestamp": "15:07"}
       ]
     },
     {
@@ -86,38 +90,40 @@
       "floor": "Top Floor",
       "callouts": ["Office", "Initiation", "Top Yellow", "Waiting Room", "Cash", "Security", "Dragon", "Bunks", "Cafe", "Vault", "Top Dragon"],
       "reinforcements": [
-        {"location": "Two walls from Office out into the top yellow area", "note": "Part of the 10-reinforcement setup for this site.", "timestamp": "15:49"},
-        {"location": "Left-hand side Office wall out into Waiting", "note": "Reinforced.", "timestamp": "15:49"},
-        {"location": "Left-hand side Office wall out into Cash, toward Initiation", "note": "Reinforced.", "timestamp": "15:49"},
-        {"location": "Left-hand side wall from Initiation out into Security", "note": "Reinforced.", "timestamp": "15:49"},
-        {"location": "Two walls from Initiation out into Bunks", "note": "Both reinforced.", "timestamp": "15:49"},
-        {"location": "Two walls in Cafe (above this site)", "note": "Reinforced for the same reason as on the Bunk/Daycare site — denies the long corridor angle and stops attackers walking straight across the gangway into Vault/site.", "timestamp": "19:43"},
-        {"location": "Cafe wall (the one kept soft elsewhere, reinforced here to stop the gangway walk-across)", "note": "If this is left soft, attackers can soft-breach it and walk straight across the gangway into Vault and into site — reinforce it. They rarely bother opening it since it's a loud soft breach, but don't risk it.", "timestamp": "21:27"},
-        {"location": "Wall next to the reinforced wall near the repel/thermite-bait spot", "note": "Deliberately opened (not left soft, not reinforced) as a preventative measure — see general tips for the thermite-blast-through trick this counters.", "timestamp": "18:42"}
+        {"location": "Office Wall into Top Yellow, First", "note": "Part of the 10-reinforcement setup.", "timestamp": "15:49"},
+        {"location": "Office Wall into Top Yellow, Second", "note": "Part of the 10-reinforcement setup.", "timestamp": "15:49"},
+        {"location": "Office Wall into Waiting, Left Side", "note": "Reinforced.", "timestamp": "15:49"},
+        {"location": "Office Wall into Cash, Left Side, Toward Initiation", "note": "Reinforced.", "timestamp": "15:49"},
+        {"location": "Initiation Wall into Security, Left Side", "note": "Reinforced.", "timestamp": "15:49"},
+        {"location": "Initiation Wall into Bunks, First", "note": "Both reinforced.", "timestamp": "15:49"},
+        {"location": "Initiation Wall into Bunks, Second", "note": "Both reinforced.", "timestamp": "15:49"},
+        {"location": "Cafe Wall, First (above site)", "note": "Denies the long corridor angle and stops attackers walking straight across the gangway into Vault/site.", "timestamp": "19:43"},
+        {"location": "Cafe Wall, Second (above site)", "note": "Denies the long corridor angle and stops attackers walking straight across the gangway into Vault/site.", "timestamp": "19:43"},
+        {"location": "Cafe Gangway Wall", "note": "If left soft, attackers soft-breach and walk straight across the gangway into Vault and site. Reinforce it — they rarely bother opening it since it's a loud soft breach, but don't risk it.", "timestamp": "21:27"}
       ],
       "headHoles": [
-        {"location": "Head hole(s) from Office into Cash", "note": "Lets you peek from here and hold Dragon. If both nearby walls are reinforced, attackers only need to worry about one peek angle from behind the boxes — this head hole forces them to respect a second angle even if you rarely use it.", "timestamp": "16:33"},
-        {"location": "Head hole on the Security wall", "note": "Considered more important than the Office/Cash one — Security is one of the most popular ways in via the hatch, plus the window and the door to top Dragon. Lets you peek from an unpredictable side instead of only holding the door, which a single well-placed Kali/Ela-style flush grenade through the door can otherwise clear entirely.", "timestamp": "16:54"},
-        {"location": "Line of sight down toward back of Cash", "note": "This is the creator's normal playing spot on this site (with an ACOG-class weapon) — lets you hold Waiting Room double door, adding one more angle (on top of the door, rotate, and Dragon long angle) attackers already have to worry about there. Source audio named the operator here phonetically as 'one I' and, in an alternate mention, 'Maloy' — neither matches a real Defense operator with confidence; treat the operator ID as unconfirmed, but the ACOG line-of-sight placement itself is clearly described.", "timestamp": "22:08"},
-        {"location": "Hole plus a low ratty punch hole in the same wall near Break Room (mirrors the Bunk/Daycare trick)", "note": "Same trick as used on the Bunk/Daycare site: cut a visible hole plus a much harder-to-spot low punch hole. Lets you hold Security door and Top Dragon — attackers dropping the security hatch notice the big hole first and are dead from the punch hole before spotting it.", "timestamp": "22:51"}
+        {"location": "Office Wall into Cash, Head Hole", "note": "Peek from here toward Dragon. Forces attackers to respect a second angle beyond the boxes peek.", "timestamp": "16:33"},
+        {"location": "Security Wall, Head Hole", "note": "Security is a popular entry via the hatch, window, and door to Top Dragon. Peek from an unpredictable side instead of only holding the door, which a single flush grenade through the door can otherwise clear.", "timestamp": "16:54"},
+        {"location": "Back of Cash, Line of Sight", "note": "ACOG line of sight holding the Waiting Room double door, adding an angle on top of the door, rotate, and Dragon long angle. Source audio named the operator here phonetically as 'one I' and, in an alternate mention, 'Maloy' — neither matches a real Defense operator with confidence; operator ID unconfirmed.", "timestamp": "22:08"},
+        {"location": "Break Room Wall, Hole Plus Low Punch Hole", "note": "Same trick as Bunk/Daycare: a visible hole plus a much harder-to-spot low punch hole. Holds Security door and Top Dragon.", "timestamp": "22:51"}
       ],
       "rotates": [
-        {"location": "Main rotate near Office/Waiting", "note": "Lets you get out of Office and attack the Waiting door from a different angle. Without it, the only way out of Office is through the one door attackers can hold from the double door in Waiting — this rotate forces them to worry about more than one angle.", "timestamp": "16:12"},
-        {"location": "Small rotate at the back of the site, near the shrine", "note": "Gives access into Initiation if attackers are holding behind the shrine at the back of the site — without it, the only way in is through the one door they're already watching.", "timestamp": "17:59"},
-        {"location": "Rotate near Break Room (same as Bunk/Daycare site)", "note": "Same setup as the Bunk/Daycare rotate: run out, peek Upper Arcade, come back in, peek Waiting if needed.", "timestamp": "19:43"},
-        {"location": "Additional rotate near the same Break Room area", "note": "Also usable to hold the stairs and to hold anyone coming out of Cafe from the other side, instead of only worrying about the Waiting double door.", "timestamp": "21:06"}
+        {"location": "Office/Waiting Main Rotate", "note": "Gets you out of Office to attack the Waiting door from a different angle instead of the one door attackers already watch from the Waiting double door.", "timestamp": "16:12"},
+        {"location": "Back of Site Rotate, Near Shrine", "note": "Gives access into Initiation if attackers hold behind the shrine, instead of only the one watched door.", "timestamp": "17:59"},
+        {"location": "Break Room Rotate", "note": "Same setup as Bunk/Daycare: run out, peek Upper Arcade, come back in, peek Waiting if needed.", "timestamp": "19:43"},
+        {"location": "Break Room Rotate, Additional", "note": "Also holds the stairs and anyone coming out of Cafe from the other side.", "timestamp": "21:06"}
       ],
       "hatches": [],
       "gadgetPlacements": [
-        {"location": "Wall next to the main reinforcement, deliberately opened", "note": "If a thermite charge is placed right up against the solid reinforced wall next to it, the explosion blows a hole through the reinforcement too. Pre-emptively destroying this soft wall yourself denies attackers that trick for almost no cost — you can then Bandit or Kaid (source audio said 'Cade') the reinforced wall to stop thermite entirely.", "operator": "Bandit or Kaid", "note_extra": null, "timestamp": "18:42"}
+        {"location": "Wall Next to Main Reinforcement, Deliberately Opened", "operator": "Bandit or Kaid", "note": "Pre-emptively break this soft wall yourself so a thermite charge placed against the adjacent reinforced wall can't blast through it too. Electrify the reinforced wall (source audio said 'Cade' for Kaid) to stop thermite on it entirely.", "timestamp": "18:42"}
       ],
       "operatorRecommendations": [
-        {"operator": "Bandit or Kaid", "role": "Anti-hardbreach (Office reinforcement)", "note": "Electrify the reinforced wall next to the deliberately-opened soft wall so thermite placed there can't take it even via the blast-through trick."}
+        {"operator": "Bandit or Kaid", "role": "Anti-hardbreach", "holdLocation": "Office Reinforced Wall", "note": "Electrify the reinforced wall next to the deliberately-opened soft wall to deny the thermite blast-through trick."}
       ],
       "generalTips": [
-        {"note": "Creator's favourite of the four sites alongside Bunk/Daycare, but the most setup-intensive — around 10 reinforcements and 5 rotates plus several lines of sight, so the whole team needs to know the plan.", "timestamp": "23:11"},
-        {"note": "When deciding whether to cut a head hole, also consider what the attacker gains from the opposite side — several of these head holes give attackers nothing useful to look at, so there's little downside to making them.", "timestamp": "17:59"},
-        {"note": "Someone needs to hold the far side of the map (Waiting/Cafe/Security) just like on Bunk/Daycare — if nobody holds that side, attackers can walk freely from Cafe to a single door, thermite one wall and Ace-charge the other, and be in.", "timestamp": "20:24"}
+        {"note": "Creator's favourite site alongside Bunk/Daycare, but the most setup-intensive — around 10 reinforcements and 5 rotates plus several lines of sight.", "timestamp": "23:11"},
+        {"note": "Several head holes here give attackers nothing useful to look at from the other side — little downside to making them.", "timestamp": "17:59"},
+        {"note": "Someone needs to hold the far side (Waiting/Cafe/Security) — without it, attackers walk freely from Cafe to a single door, thermite one wall and Ace-charge the other.", "timestamp": "20:24"}
       ]
     },
     {
@@ -126,36 +132,36 @@
       "floor": "Ground Floor",
       "callouts": ["Storage", "Lab", "Drug", "Barrels", "Split", "Bathroom", "Window", "Toilet Area", "Cafe Balcony (soft wall above)"],
       "reinforcements": [
-        {"location": "Two walls into Barrels, from the corridor outside Lab double", "note": "Considered absolutely imperative reinforcements. Part of the 6-reinforcement setup.", "timestamp": "23:53"},
-        {"location": "Right-hand side wall looking out from Lab into the corridor", "note": "Reinforced.", "timestamp": "23:53"},
-        {"location": "Three walls on the left-hand side of Lab out to the corridor", "note": "Only the right-hand side of this section is left soft.", "timestamp": "23:53"},
-        {"location": "No reinforcements around the toilet/bathroom area", "note": "No soft walls there worth reinforcing.", "timestamp": "24:14"}
+        {"location": "Lab Double Corridor Wall into Barrels, First", "note": "Imperative reinforcement. Part of the 6-reinforcement setup.", "timestamp": "23:53"},
+        {"location": "Lab Double Corridor Wall into Barrels, Second", "note": "Imperative reinforcement. Part of the 6-reinforcement setup.", "timestamp": "23:53"},
+        {"location": "Lab Wall into Corridor, Right Side", "note": "Reinforced.", "timestamp": "23:53"},
+        {"location": "Lab Wall into Corridor, Left Side (x3, only far right kept soft)", "note": "Reinforce three sections; leave the right-hand section of this group soft.", "timestamp": "23:53"}
       ],
       "headHoles": [
-        {"location": "Rotate/peek hole between sites, tight to the wall", "note": "Needs to be cut really tight to the wall to work. Lets you peek onto the window from here without directly holding the window itself.", "timestamp": "24:35"},
-        {"location": "Feet holes, same style as Throne Room (kept low, not head-height)", "note": "Make sure these are genuinely feet holes, not waist-height — aim the shotgun closer to the floor than feels natural. Play from behind the bomb; anyone pushing from Split/Throne or down the corridor gets shot in the feet as they come out.", "timestamp": "25:19"},
-        {"location": "Feet holes near the bathroom approach", "note": "Covers anyone walking through from the bathroom direction — attackers coming this way won't be looking at these holes, giving a free angle. Don't overdo the number of feet holes here since attackers can also hold the area from the window.", "timestamp": "26:02"}
+        {"location": "Between-Sites Peek Hole, Tight to Wall", "note": "Cut tight to the wall. Peeks the window without holding it directly.", "timestamp": "24:35"},
+        {"location": "Bomb Position, Feet Holes", "note": "Keep these genuinely low, not waist-height. Play from behind the bomb — shoots feet of anyone pushing from Split/Throne or the corridor.", "timestamp": "25:19"},
+        {"location": "Bathroom Approach, Feet Holes", "note": "Covers the bathroom approach from an angle attackers won't be watching. Don't overdo the count — attackers can also hold from the window.", "timestamp": "26:02"}
       ],
       "rotates": [
-        {"location": "Rotate between sites (same hole used for the window peek)", "note": "Doesn't need to be used for peeking the window if you'd rather not — every good player will camp that window baiting peeks — but the hole itself also gives another route back into the site, improving maneuverability. Attackers get nothing from this angle; the geometry outside is too tight for them to hold it.", "timestamp": "24:35"}
+        {"location": "Between-Sites Rotate Hole", "note": "Same hole as the window peek — doesn't have to be used for peeking. Gives another route back into the site.", "timestamp": "24:35"}
       ],
       "hatches": [],
       "gadgetPlacements": [
-        {"location": "Window (Lab side)", "note": "If this wall/window area opens up, you can stand there to hold the window, and launch C4 through it at anyone jumping in.", "timestamp": "26:02"},
-        {"location": "Any wall where the top can be shotgunned open (applies map-wide)", "note": "If a hard breach starts on such a wall, impact-trick the ceiling/top above it the same way as on Throne Room — destroys the hard breach charge on the other side.", "timestamp": "26:43"},
-        {"location": "Anchor spot near Split", "note": "One of the best anchor points on this site — no soft wall here, so it's safe to hold.", "timestamp": "27:04"},
-        {"location": "Far back of Storage", "note": "Good spot to place a shield — you're pinned into a corner but very secure. The Cafe balcony soft wall above doesn't start until further along, so this exact spot is safe from above. Vulnerable to grenades thrown from the window, which force you toward the window or further into the room.", "operator": "Clash (not specified by name in source — Clash is the only Defense-side shield operator, so this is the confident inference)", "timestamp": "27:04"},
-        {"location": "Near the window", "note": "Attackers often jump straight through this window — place a proximity/notification-style gadget (source audio suggested 'goo mine' [Lesion] or an 'Al mine' which is unclear/possibly Alibi's Prisma gadget) here as an early warning. Treat the specific operator as unconfirmed; the placement concept (early-warning gadget covering the window jump-in) is clear.", "timestamp": "27:45"}
+        {"location": "Lab Window", "note": "If this wall/window opens, hold it and launch C4 through at anyone jumping in.", "timestamp": "26:02"},
+        {"location": "Any Shotgunnable Wall Top (map-wide)", "note": "Impact-trick the ceiling/top above a hard breach the same way as Throne Room to destroy the charge.", "timestamp": "26:43"},
+        {"location": "Split Anchor Spot", "note": "No soft wall here — safe to hold.", "timestamp": "27:04"},
+        {"location": "Back of Storage", "operator": "Clash", "note": "Good shield spot, pinned in a corner but secure. Safe from above — the Cafe balcony soft wall doesn't start until further along. Vulnerable to grenades thrown from the window.", "timestamp": "27:04"},
+        {"location": "Near the Window", "note": "Attackers often jump straight through this window — place an early-warning gadget here. Source audio suggested 'goo mine' (Lesion) or an 'Al mine' possibly Alibi's Prisma — operator unconfirmed, placement concept clear.", "timestamp": "27:45"}
       ],
       "operatorRecommendations": [
-        {"operator": "Lesion (unconfirmed — 'goo mine' referenced)", "role": "Early warning (window)", "note": "Source audio referenced a 'goo mine' near the window jump-in spot, consistent with Lesion's Gu mines, but no operator name was stated outright — treat as unconfirmed."}
+        {"operator": "Lesion (unconfirmed)", "role": "Early warning", "holdLocation": "Window", "note": "Source audio referenced a 'goo mine' near the window jump-in spot, consistent with Lesion's Gu mines — no operator name stated outright, treat as unconfirmed."}
       ],
       "generalTips": [
-        {"note": "Creator's least favourite of the four sites, though not 'horrendous' — the other three are simply considered stronger.", "timestamp": "28:26"},
-        {"note": "This site used to be popular in pro league when Theme Park was in the competitive map pool; it isn't anymore, and what works in competitive doesn't necessarily translate to ranked.", "timestamp": "28:06"},
-        {"note": "Site is tough to hold solo-mentality — needs all five players understanding their job, since there are many easy entry points (window, back door, etc.).", "timestamp": "28:06"},
-        {"note": "Must reinforce the double doors here — if left soft, attackers can open them and see straight through the whole site due to how open/expansive it is.", "timestamp": "28:26"},
-        {"note": "Watch out for the hatch above in case attackers drop in from there while you're holding this site.", "timestamp": "28:46"}
+        {"note": "Creator's least favourite of the four sites, not because it's bad — the other three are simply stronger.", "timestamp": "28:26"},
+        {"note": "Was popular in pro league when Theme Park was in the competitive pool; not anymore, and competitive setups don't necessarily translate to ranked.", "timestamp": "28:06"},
+        {"note": "Tough to hold solo-mentality — needs all five players on the plan given the many entry points (window, back door, etc.).", "timestamp": "28:06"},
+        {"note": "Must reinforce the double doors here — left soft, attackers see straight through the whole site.", "timestamp": "28:26"},
+        {"note": "Watch the hatch above for attackers dropping in while holding this site.", "timestamp": "28:46"}
       ]
     }
   ]

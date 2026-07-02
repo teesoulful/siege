@@ -5,7 +5,7 @@
     "title": "How To Setup and Defend Kanal (All Sites) - Rainbow Six Siege",
     "type": "youtube_transcript",
     "file": "data/raw_transcripts/Kanal_Defense_TIIUUKPZfUA.txt",
-    "notes": "Creator (aLittleTon) walks through all four Kanal defense sites: Server/Control (Top Floor), Basement, Maps/Security, and Coast Guard/Gym (in-game called 'Lounge'). Generic ranked setups, not pro-league lineups. No corresponding Attack transcript was available for this map, so this file is Defense-only. Room/callout names are the creator's informal spoken callouts (e.g. 'printer' / 'New Bridge', 'Kayaks', 'Old Bridge') and need reconciling against data/maps/kanal.json once wiki callouts are confirmed. ASR is generally clean on operator names for this transcript, with a couple of exceptions noted inline on the relevant items."
+    "notes": "Creator (aLittleTon) walks through all four Kanal defense sites: Server/Control (Top Floor), Basement, Maps/Security, and Coast Guard/Gym (in-game called 'Lounge'). Generic ranked setups, not pro-league lineups. No corresponding Attack transcript was available for this map, so this file is Defense-only. Room/callout names are the creator's informal spoken callouts (e.g. 'printer' / 'New Bridge', 'Kayaks', 'Old Bridge') and need reconciling against data/maps/kanal.json once wiki callouts are confirmed. Compass directions could not be reliably grounded against a real Kanal blueprint (no accessible top-down source found — see report), so locations are room/feature names only, without compass prefixes. ASR is generally clean on operator names for this transcript, with a couple of exceptions noted inline on the relevant items."
   },
   "sites": [
     {
@@ -14,43 +14,42 @@
       "floor": "Top Floor",
       "callouts": ["Server", "Control", "Printer", "New Bridge / Printer Bridge", "Top Red Stairs", "Top Green Stairs", "Green Stairs", "Main Breach"],
       "reinforcements": [
-        {"location": "Corner of Server (x4)", "note": "The first four reinforcements — described as 'dead easy', the default corner stack.", "timestamp": "00:43"},
+        {"location": "Corner of Server (x4)", "note": "Default corner stack.", "timestamp": "00:43"},
         {"location": "Far left-hand side of the back Server wall", "note": "Fifth reinforcement.", "timestamp": "00:43"},
-        {"location": "Main breach (x2)", "note": "Sixth and seventh reinforcements, on the main breach into the site.", "timestamp": "00:43"},
-        {"location": "Wall near the door out toward Printer (the feet-hole wall)", "note": "Eighth/optional reinforcement. Alternative to leaving this wall soft with feet holes cut all the way across — reinforcing gives a Kaid/Bandit-tricked wall a bit more protection and cover to play behind, while you can still peek the door angle from the side of the hole.", "timestamp": "02:47"}
+        {"location": "Main Breach (x2)", "note": "Sixth and seventh reinforcements, on the main breach into the site.", "timestamp": "00:43"}
       ],
       "headHoles": [
-        {"location": "Wall facing New Bridge/Printer (never reinforce)", "note": "Never reinforce this wall — attackers coming down Printer/New Bridge lose sight of a defender playing around here once they close the distance, so a Bandit or teammate can see their feet and shoot up into the body/head. Also a solid peek onto the breach; holds Printer or New Bridge from here.", "timestamp": "01:04"},
-        {"location": "High head hole near the desk (top red side)", "note": "Stops the C4 plant that goes on at the far end of the desk.", "timestamp": "04:52"},
-        {"location": "Head hole onto top red, over the desk", "note": "Holds top red, sees anyone walking in, and can also hold the breach and the plant. Very well-known angle — attackers in higher ELO will pre-fire it, so treat it as a late-round surprise rather than a spot to sit in openly.", "timestamp": "04:52"},
-        {"location": "Small punch hole on the floor near top green", "note": "Lets you hold Printer Bridge/New Bridge from a spot attackers never expect to be checked — described as a reliable one-tap spot, especially strong now ACOGs are back in the game.", "timestamp": "05:33"}
+        {"location": "Wall Facing New Bridge/Printer", "note": "Never reinforce. Watch feet as attackers close the distance from Printer/New Bridge. Also peeks the breach; holds Printer or New Bridge from here.", "timestamp": "01:04"},
+        {"location": "Door Wall Toward Printer, Feet Holes", "note": "Cut feet holes all the way across instead of reinforcing. Play prone/crouched further back to catch feet without exposing your head. Still peek the door angle from the side of the hole.", "timestamp": "01:46"},
+        {"location": "High Head Hole Near Desk, Top Red Side", "note": "Stops the C4 plant on the far end of the desk.", "timestamp": "04:52"},
+        {"location": "Head Hole Onto Top Red, Over Desk", "note": "Holds top red, sees anyone walking in, also covers breach and plant. Well-known angle — treat as a late-round surprise rather than sitting in it openly.", "timestamp": "04:52"},
+        {"location": "Small Punch Hole on Floor Near Top Green", "note": "Holds Printer Bridge/New Bridge from a spot attackers don't expect checked. Reliable one-tap with ACOG.", "timestamp": "05:33"}
       ],
       "rotates": [
-        {"location": "Rotate near the desk (paired with the high head hole)", "note": "Needed alongside the high head hole to stop the far-desk C4 plant.", "timestamp": "04:52"}
+        {"location": "Rotate Near Desk", "note": "Pair with the high head hole to stop the far-desk C4 plant.", "timestamp": "04:52"}
       ],
       "hatches": [
-        {"location": "Hatch near the default plant spot (this side of the green wall)", "note": "Left open. Lets a Bandit-type player drop below to hold the breach from underneath. Ask a teammate to open it if it isn't already — useful once the breach itself is opened.", "timestamp": "07:38"}
+        {"location": "Hatch Near Default Plant Spot (this side of the green wall)", "note": "Leave open. Lets a Bandit-type player drop below to hold the breach from underneath. Ask a teammate to open it if it isn't already.", "timestamp": "07:38"}
       ],
       "gadgetPlacements": [
-        {"location": "Feet-hole wall near the door out toward Printer", "note": "Alternative to reinforcing: cut feet holes all the way across so a prone/crouched defender further back can see feet the moment an attacker enters, without exposing their own head.", "timestamp": "01:46"},
-        {"location": "Top red stairs, top red window, and the corridor window", "operator": "Mute", "note": "Three Mute jammers: one on top red stairs, one on the corridor window, one tight on the nearby window — blocks drones coming down the whole corridor so a shotgun-holder in that spot can't be scouted before attackers commit.", "timestamp": "06:16"},
-        {"location": "Printer / New Bridge one-way angle, using signage and the Unistrut grid", "operator": "Kaido (source audio: 'Kayo')", "note": "Source audio consistently says 'Kayo' and refers to 'Kayo barriers' with a 5-barrier loadout — this does not match any real Kanal defender; the closest real operator with a barrier-style deployable is Kaid (Electroclaw, not a see-through barrier) or Melusi. Given the described item is a set of 5 deployable one-way barriers thrown to build a hard cover wall, this is most likely a misheard/placeholder name for a barrier-type gadget the creator is demonstrating — treat the operator identity here as unconfirmed and verify against the video directly before relying on it. Setup: throw two barriers stacked near the 'Westwing' sign or on the bottom row of the Unistrut grid (not the middle, or the barrier drops inside it) to build a one-way wall covering Printer while staying hidden; a third barrier goes on the bomb to block the breach angle.", "timestamp": "08:20"},
-        {"location": "Downstairs in Pipes (Basement), seen from Control/Server via the hatch", "operator": "Valkyrie", "note": "Camera placed to watch Pipes below and time a C4 kill through the floor — see the matching Basement site entry for the full setup.", "timestamp": "15:43"}
+        {"location": "Top Red Stairs, Top Red Window, Corridor Window", "operator": "Mute", "note": "Place three jammers: top red stairs, corridor window, and tight on the nearby window. Blocks drones down the whole corridor so a shotgun-holder there can't be scouted before you commit.", "timestamp": "06:16"},
+        {"location": "Printer / New Bridge One-Way Angle, Signage and Unistrut Grid", "operator": "Kaido (source audio: 'Kayo')", "note": "Source audio says 'Kayo' and 'Kayo barriers' with a 5-barrier loadout — does not match any real Kanal defender. Closest real candidates are Kaid (Electroclaw, not a see-through barrier) or Melusi; treat operator identity as unconfirmed. Setup: throw two barriers stacked near the 'Westwing' sign or on the bottom row of the Unistrut grid (not the middle) to build a one-way wall covering Printer while staying hidden; third barrier on the bomb to block the breach angle.", "timestamp": "08:20"},
+        {"location": "Pipes (Basement), viewed via hatch from Control/Server", "operator": "Valkyrie", "note": "Camera watches Pipes below to time a C4 kill through the floor — see Basement site entry for full setup.", "timestamp": "15:43"}
       ],
       "operatorRecommendations": [
-        {"operator": "Bandit", "role": "Anchor / feet-watch", "note": "Plays around the never-reinforce wall near New Bridge/Printer to catch attackers' feet as they close in; can also drop through the plant-side hatch to hold the breach from below."},
-        {"operator": "Kaid", "role": "Anchor", "note": "Referred to as 'Cade' in source audio — Kaid- or Bandit-tricking the reinforced door wall lets a defender play behind it feeling safer/more protected."},
-        {"operator": "Mute", "role": "Corridor anchor", "note": "Runs three jammers across top red stairs and the corridor windows, then holds a shotgun angle in the corridor completely safe from drones."}
+        {"operator": "Bandit", "role": "Anchor / feet-watch", "holdLocation": "Door Wall Toward Printer", "note": "Plays the never-reinforce wall near New Bridge/Printer catching feet as attackers close in. Can drop through the plant-side hatch to hold the breach from below."},
+        {"operator": "Kaid", "role": "Anchor", "holdLocation": "Main Breach", "note": "Referred to as 'Cade' in source audio. Electroclaws the reinforced breach wall for a safer, more protected hold."},
+        {"operator": "Mute", "role": "Corridor anchor", "holdLocation": "Corridor Near Top Red Stairs", "note": "Runs three jammers across top red stairs and the corridor windows, then holds a shotgun angle in the corridor safe from drones."}
       ],
       "generalTips": [
-        {"note": "Considered a really solid site to defend overall; the top-red head hole and the feet-hole wall together force attackers to worry about multiple angles at once instead of clearing one at a time.", "timestamp": "03:29"},
-        {"note": "If both this site's feet-hole wall and the neighbouring wall end up reinforced, attackers only need to worry about the door — leaving the feet-hole wall soft is what keeps them nervous the whole way in.", "timestamp": "03:49"},
-        {"note": "After a plant, most attackers expect defenders to come back up red stairs through the obvious door. Coming up an alternate route and going prone gives an angle on the planter behind the desk that they won't expect.", "timestamp": "03:49"},
-        {"note": "If the feet-hole wall can't be pushed through directly, running around and re-entering via the (open) breach can net a free kill on the planter, since you won't have been outside long enough to be spotted — strong in 1v1/1v2 retake scenarios.", "timestamp": "04:10"},
+        {"note": "Top-red head hole and the feet-hole wall together force attackers to worry about multiple angles at once instead of clearing one at a time.", "timestamp": "03:29"},
+        {"note": "Don't reinforce both the feet-hole wall and the neighbouring wall — leaves attackers with only the door to worry about. Keep the feet-hole wall soft.", "timestamp": "03:49"},
+        {"note": "After a plant, come up an alternate route (not the obvious red stairs door) and go prone for an unexpected angle on the planter behind the desk.", "timestamp": "03:49"},
+        {"note": "If the feet-hole wall can't be pushed through directly, loop around and re-enter via the open breach for a free kill on the planter — strong in 1v1/1v2 retakes.", "timestamp": "04:10"},
         {"note": "Use the Aim Labs range on Kanal to warm up before the round starts.", "timestamp": "04:30"},
         {"note": "Top green is a really important anchor spot — holds green stairs and two windows.", "timestamp": "05:33"},
-        {"note": "The corridor position near the Mute jammers is a fun, busy spot to play — you're not truly 'safe' since a lot happens there, but you're guaranteed safe from being droned; treat it like an Oregon-style trade spot where you probably die but take a kill or two and burn attacker drone economy first.", "timestamp": "06:56"},
-        {"note": "The default C4 plant spot is on this side of the green wall near the already-open hatch — which side of the wall you throw C4 from barely matters.", "timestamp": "07:38"}
+        {"note": "The corridor position near the Mute jammers is busy, not fully safe — but guaranteed safe from being droned. Trade there and burn attacker drone economy first.", "timestamp": "06:56"},
+        {"note": "The default C4 plant spot is on this side of the green wall near the open hatch.", "timestamp": "07:38"}
       ]
     },
     {
@@ -59,34 +58,33 @@
       "floor": "Basement",
       "callouts": ["Pipes", "Trench Door", "Supply Room", "Kayaks", "Coast Guard (upstairs)", "Gym (upstairs)", "Main Stairs", "Yellow Stairs", "Shower Corridor", "Lockers", "Gym Window / Lock Window"],
       "reinforcements": [
-        {"location": "Pipes wall", "note": "Reinforced rather than feet-holed. Feet holes here were tried but a wall this close to an external door is too easy for an Ash charge or Zofia impact (source audio: 'zapir') to blow open from outside without being seen, turning the feet-hole plan into a liability.", "timestamp": "11:12"},
-        {"location": "Left-hand side of Supply Room", "note": "Reinforced; right side deliberately left soft (see line-of-sight notes).", "timestamp": "12:14"},
-        {"location": "Left-hand side of the Kayaks wall", "note": "Reinforced; right side deliberately left soft.", "timestamp": "12:14"},
-        {"location": "Site hatch upstairs in Coast Guard", "note": "Reinforced.", "timestamp": "12:35"},
-        {"location": "Wall used to make the Main Stairs hole", "note": "Left soft deliberately so a hole can be cut toward Main Stairs instead — see rotates.", "timestamp": "14:59"}
+        {"location": "Pipes Wall", "note": "Reinforce rather than feet-hole. This wall sits too close to an external door — Ash charges or Zofia impacts (source audio: 'zapir') can blow it from outside unseen.", "timestamp": "11:12"},
+        {"location": "Supply Room, Left Side", "note": "Reinforce; leave right side soft.", "timestamp": "12:14"},
+        {"location": "Kayaks Wall, Left Side", "note": "Reinforce; leave right side soft.", "timestamp": "12:14"},
+        {"location": "Site Hatch Upstairs in Coast Guard", "note": "Reinforce.", "timestamp": "12:35"}
       ],
       "headHoles": [],
       "rotates": [
-        {"location": "Wall near the trench-door approach (left soft, not reinforced)", "note": "Leaving this wall un-reinforced and cutting a line of sight here, plus a second line of sight nearby, means a defender can cover both the angle and the door with one position. If instead this wall were reinforced, attackers only need to clear one angle then hold the door — much easier for them. Leaving it soft forces them to worry about two separate angles at the critical point before entering.", "timestamp": "13:59"},
-        {"location": "Hole toward Main Stairs (from the back of the site)", "note": "Cut into the wall left soft near Supply/Kayaks. Lets you hold Main Stairs from the back of site and see the default plant through it; as soon as an attacker turns the corner from Main Stairs they can be caught here.", "timestamp": "14:59"}
+        {"location": "Trench-Door Approach Wall", "note": "Leave soft. Cut a line of sight here plus a second one nearby so a defender covers both the angle and the door from one position.", "timestamp": "13:59"},
+        {"location": "Supply Room, Right Side — Hole Toward Main Stairs", "note": "Cut into the soft right side of the Supply/Kayaks wall. Holds Main Stairs from the back of site and sees the default plant through it; catches attackers turning the corner from Main Stairs.", "timestamp": "14:59"}
       ],
       "hatches": [
-        {"location": "Coast Guard hatch (upstairs)", "note": "Reinforced.", "timestamp": "12:35"},
-        {"location": "Gym hatch (upstairs)", "note": "Deliberately left open/soft, not reinforced — controversial choice. Opening it doesn't give attackers much extra advantage, but it gives a roamer (e.g. Lesion or Alibi) stuck above a real chance to drop back into the fight rather than being forced down Main Stairs or Yellow Stairs, or through the harder side-hatch drop. Also lets you hold Gym/Lock window from above. Only two angles need covering if someone drops through it (down Shower Corridor, or into site).", "timestamp": "12:55"}
+        {"location": "Coast Guard Hatch (upstairs)", "note": "Reinforce.", "timestamp": "12:35"},
+        {"location": "Gym Hatch (upstairs)", "note": "Leave open/soft, not reinforced. Gives a roamer stuck above (e.g. Lesion or Alibi) a way back into the fight instead of being forced down Main/Yellow Stairs or the harder side-hatch drop. Also lets you hold Gym/Lock window from above. Only two angles to cover if someone drops through: down Shower Corridor, or into site.", "timestamp": "12:55"}
       ],
       "gadgetPlacements": [
-        {"location": "Pipes, downstairs from Server/Control", "operator": "Valkyrie", "note": "Camera placed in Pipes; a C4 is dropped in the same spot. Sit on the camera, wait for someone to walk past, then blow the C4 for a very high (creator claims ~90%) kill rate. Get rid of nearby breakables first so you can see through the cabinet gap.", "timestamp": "15:43"},
-        {"location": "Anchor spot with no vertical above it, near the trench-door angle", "operator": "Jäger", "note": "Solid anchor point with a couple of ADS; also a good spot to drop C4 into site if needed.", "timestamp": "17:49"}
+        {"location": "Pipes, downstairs from Server/Control", "operator": "Valkyrie", "note": "Place camera in Pipes; drop a C4 in the same spot. Sit on the camera, wait for someone to walk past, blow the C4. Clear nearby breakables first so you can see through the cabinet gap.", "timestamp": "15:43"},
+        {"location": "Anchor Spot Near Trench-Door Angle (no vertical above it)", "operator": "Jäger", "note": "Hold with a couple of ADS deployed. Also a good spot to drop C4 into site if needed.", "timestamp": "17:49"}
       ],
       "operatorRecommendations": [
-        {"operator": "Valkyrie", "role": "Intel/Trap", "note": "Runs the Pipes camera + C4 combo for a near-automatic kill most rounds."},
-        {"operator": "Jäger", "role": "Anchor", "note": "Holds the no-vertical anchor spot near the trench door with ADS support."},
-        {"operator": "Lesion or Alibi", "role": "Roamer (above, Coast Guard/Gym)", "note": "Benefits most from the open Gym hatch, giving a route back down into the fight if caught upstairs."}
+        {"operator": "Valkyrie", "role": "Intel/Trap", "holdLocation": "Pipes", "note": "Runs the Pipes camera + C4 combo for a near-automatic kill most rounds."},
+        {"operator": "Jäger", "role": "Anchor", "holdLocation": "Trench-Door Angle", "note": "Holds the no-vertical anchor spot near the trench door with ADS support."},
+        {"operator": "Lesion or Alibi", "role": "Roamer (above, Coast Guard/Gym)", "holdLocation": "Coast Guard / Gym (upstairs)", "note": "Benefits from the open Gym hatch as a route back down into the fight if caught upstairs."}
       ],
       "generalTips": [
-        {"note": "Probably the second-strongest site on the map behind Server/Control, in the creator's opinion, though most Kanal sites are considered solid.", "timestamp": "11:12"},
-        {"note": "If a defender ends up upstairs at this site, they should actively cause delay rather than sit passive, and always have a retreat plan down the stairs.", "timestamp": "12:35"},
-        {"note": "The reasoning for which walls get left soft matters as much as which get reinforced — the goal is to always leave attackers with at least two angles to worry about simultaneously rather than one clearable angle plus a door.", "timestamp": "12:14"}
+        {"note": "Second-strongest site on the map behind Server/Control, though most Kanal sites are solid.", "timestamp": "11:12"},
+        {"note": "A defender upstairs at this site should actively cause delay, not sit passive, and always have a retreat plan down the stairs.", "timestamp": "12:35"},
+        {"note": "Leave attackers with at least two angles to worry about at the critical entry point rather than one clearable angle plus a door.", "timestamp": "12:14"}
       ]
     },
     {
@@ -95,36 +93,36 @@
       "floor": "Ground Floor",
       "callouts": ["Maps Room", "Security Room (CCTV)", "Kitchen", "Museum", "Old Bridge", "Green Stairs", "Red Stairs", "Radar Room"],
       "reinforcements": [
-        {"location": "Wall under the vestibule/CCTV area (called Security Room in-game, 'CCTV' colloquially), facing outside", "note": "First reinforcement.", "timestamp": "18:52"},
-        {"location": "Wall into Kitchen", "note": "Second reinforcement.", "timestamp": "18:52"},
-        {"location": "Three further walls (unspecified exact spots)", "note": "Reinforcements three through five, described in sequence but not individually detailed.", "timestamp": "18:52"},
-        {"location": "Two walls near the retake fallback area", "note": "Recommended as two of the remaining reinforcements once you're set up — mentioned as an addition the creator says he 'should have said earlier'.", "timestamp": "22:03"},
-        {"location": "Hatch in the Box", "note": "One of the two upstairs hatches that need reinforcing.", "timestamp": "19:13"},
-        {"location": "Hatch by the radar equipment", "note": "Second upstairs hatch that needs reinforcing.", "timestamp": "19:13"}
+        {"location": "Security Room Wall, Facing Outside", "note": "First reinforcement.", "timestamp": "18:52"},
+        {"location": "Wall Into Kitchen", "note": "Second reinforcement.", "timestamp": "18:52"},
+        {"location": "Three Further Walls (unspecified exact spots)", "note": "Reinforcements three through five.", "timestamp": "18:52"},
+        {"location": "Two Walls Near Retake Fallback Area", "note": "Two of the remaining reinforcements once set up.", "timestamp": "22:03"},
+        {"location": "Hatch in the Box", "note": "Reinforce.", "timestamp": "19:13"},
+        {"location": "Hatch by the Radar Equipment", "note": "Reinforce.", "timestamp": "19:13"}
       ],
       "headHoles": [
-        {"location": "Low head hole near the hatch/Old Bridge area (kept below head height deliberately)", "note": "Made deliberately low, not head-height-visible, so it isn't obvious. Lets a defender playing above (in what the creator calls 'a model'/vestibule area) punish anyone dropping the nearby hatch, or keep firing into that area even if the drop shot is missed.", "timestamp": "21:00"}
+        {"location": "Low Head Hole Near Hatch/Old Bridge Area", "note": "Keep deliberately below head height so it isn't obvious. Punishes anyone dropping the nearby hatch from above (vestibule area), or keep firing into that area even if the drop shot is missed.", "timestamp": "21:00"}
       ],
       "rotates": [
-        {"location": "Bottom-right corner of the wall near Kitchen (small rotate)", "note": "An uncommon but valuable rotate — uses the wall's concrete as cover. Without it, Kitchen can only be held from one door (or the hatch, if open); with it, there are multiple angles to peek Kitchen from and a quick way back into site.", "timestamp": "19:55"},
-        {"location": "Wall using the impacts for a rotate, plus a second nearby rotate", "note": "Two more standard rotates between the site and the corridor, nothing unusual.", "timestamp": "21:00"},
-        {"location": "Rotate to bypass the Kitchen door", "note": "Lets a defender come through Security and hold onto the Kitchen door without going through the door itself.", "timestamp": "21:21"}
+        {"location": "Kitchen Wall, Bottom-Right Corner (small rotate)", "note": "Uses the wall's concrete as cover. Without it, Kitchen can only be held from one door or the hatch; with it, multiple angles to peek Kitchen plus a quick way back into site.", "timestamp": "19:55"},
+        {"location": "Impact Wall Rotate Plus Second Nearby Rotate", "note": "Two standard rotates between site and the corridor.", "timestamp": "21:00"},
+        {"location": "Kitchen Door Bypass Rotate", "note": "Lets a defender come through Security and hold the Kitchen door without going through the door itself.", "timestamp": "21:21"}
       ],
       "hatches": [
-        {"location": "Hatch above this site (near the Box)", "note": "Can be reinforced or left open — the creator leaves it open by default. Attackers don't gain much from it being open beyond an angle from directly above; mainly useful for a stuck roamer to drop back into the fight via Red or Green stairs / Old Bridge. Reinforcing it instead is also fine if no one is playing above.", "timestamp": "19:34"}
+        {"location": "Hatch Above Site (near the Box)", "note": "Leave open by default — mainly useful for a stuck roamer to drop back via Red or Green Stairs / Old Bridge. Reinforcing instead is fine if no one is playing above.", "timestamp": "19:34"}
       ],
       "gadgetPlacements": [
-        {"location": "Radio Room shelf", "note": "Shoot the radio (routine call-out, not gadget-specific).", "timestamp": "19:13"},
-        {"location": "Corridor leading into the site (covers Red, Green stairs/Museum, Old Bridge, and Kitchen approaches)", "operator": "Maestro", "note": "Three Evil Eye cameras placed to catch nearly every drone entering the site, since almost all approaches funnel down this one corridor. Cameras also give plant/security audio intel even where they can't see directly. Use them for intel/drone destruction only — using the laser to fight players burns the camera for very little (5) damage and loses valuable information.", "timestamp": "23:04"},
-        {"location": "Door at the end of the corridor (Old Bridge side)", "operator": "Any (barricade + double-punch trick)", "note": "Barricade this door and punch through it twice at the base. Attackers won't be able to tell it's already been punched twice. If a roamer is caught on the wrong side of the bridge, they can punch through fully and get back quickly, and the extra punch gives useful sound/timing intel on approaching attackers.", "timestamp": "24:11"}
+        {"location": "Radio Room Shelf", "note": "Shoot the radio.", "timestamp": "19:13"},
+        {"location": "Corridor Into Site (covers Red, Green stairs/Museum, Old Bridge, Kitchen approaches)", "operator": "Maestro", "note": "Place three Evil Eye cameras to catch nearly every drone entering the site — almost all approaches funnel through this corridor. Cameras also give plant/security audio intel where they can't see directly. Use for intel/drone destruction only — fighting players with the laser burns the camera for minimal damage and loses information.", "timestamp": "23:04"},
+        {"location": "Door at End of Corridor (Old Bridge side)", "operator": "Any (barricade + double-punch trick)", "note": "Barricade this door and punch through it twice at the base — attackers can't tell it's already been punched. A roamer caught on the wrong side of the bridge can punch through fully and get back quickly; the extra punch also gives sound/timing intel on approaching attackers.", "timestamp": "24:11"}
       ],
       "operatorRecommendations": [
-        {"operator": "Maestro", "role": "Intel/Anchor", "note": "Whole site setup is built around a 3-camera Evil Eye web covering the single main corridor into the site; sits on the crouch/table-cover angle watching both hatch-drop spots and Old Bridge."}
+        {"operator": "Maestro", "role": "Intel/Anchor", "holdLocation": "Corridor Into Site", "note": "Site setup built around a 3-camera Evil Eye web covering the single main corridor into the site; sits on the crouch/table-cover angle watching both hatch-drop spots and Old Bridge."}
       ],
       "generalTips": [
-        {"note": "If defense loses map control above this site, attackers can open the entire floor and defenders below have nowhere to hide — always keep someone playing above, even if it's just to delay.", "timestamp": "22:24"},
+        {"note": "Always keep someone playing above, even just to delay — if defense loses map control above this site, attackers can open the entire floor and defenders below have nowhere to hide.", "timestamp": "22:24"},
         {"note": "All of the floor across this site and into Security is soft — assume it's fully frag/breach-able from below/above.", "timestamp": "22:24"},
-        {"note": "Nearly every drone into the site funnels down one corridor (via Red, Green stairs/Museum, or Old Bridge), which is why the 3-camera Maestro web is so effective here.", "timestamp": "23:27"}
+        {"note": "Nearly every drone into the site funnels down one corridor (via Red, Green stairs/Museum, or Old Bridge), which is why the 3-camera Maestro web is effective here.", "timestamp": "23:27"}
       ]
     },
     {
@@ -133,37 +131,37 @@
       "floor": "Ground Floor",
       "callouts": ["Coast Guard", "Gym", "Lounge (in-game map label)", "Radio Room", "Printer", "Main Stairs", "Yellow Stairs"],
       "reinforcements": [
-        {"location": "Left side of Coast Guard", "note": "First reinforcement.", "timestamp": "27:17"},
-        {"location": "Right side of Coast Guard", "note": "Second reinforcement.", "timestamp": "27:17"},
-        {"location": "Right side of the Gym wall", "note": "Third reinforcement.", "timestamp": "27:17"},
-        {"location": "Two further reinforcements in/around Radio", "note": "Fourth and fifth reinforcements.", "timestamp": "27:17"},
+        {"location": "Coast Guard, Left Side", "note": "First reinforcement.", "timestamp": "27:17"},
+        {"location": "Coast Guard, Right Side", "note": "Second reinforcement.", "timestamp": "27:17"},
+        {"location": "Gym Wall, Right Side", "note": "Third reinforcement.", "timestamp": "27:17"},
+        {"location": "Two Further Reinforcements In/Around Radio", "note": "Fourth and fifth reinforcements.", "timestamp": "27:17"},
         {"location": "Back of Gym", "note": "Sixth reinforcement.", "timestamp": "27:17"}
       ],
       "headHoles": [
-        {"location": "First of two head holes near the printer-facing side door", "note": "Lets a defender come out of the door and hold toward Printer and the side door, then C4 the plant from behind the bomb if attackers control Printer.", "timestamp": "30:29"},
-        {"location": "Second head hole (same reasoning as the first)", "note": "Extends the coverage from Gym with an ACOG/DMR-friendly long angle onto the Printer door.", "timestamp": "30:29"},
-        {"location": "Angle onto Main Stairs and down the corridor", "note": "Bonus angle available from the same head-hole position.", "timestamp": "30:29"}
+        {"location": "Printer-Facing Side Door, First Head Hole", "note": "Come out of the door and hold toward Printer and the side door, then C4 the plant from behind the bomb if attackers control Printer.", "timestamp": "30:29"},
+        {"location": "Printer-Facing Side Door, Second Head Hole", "note": "Extends coverage from Gym with an ACOG/DMR-friendly long angle onto the Printer door.", "timestamp": "30:29"},
+        {"location": "Angle Onto Main Stairs and Down the Corridor", "note": "Bonus angle available from the same head-hole position.", "timestamp": "30:29"}
       ],
       "rotates": [
-        {"location": "Out the back of Gym, as far to the right side of the wall as possible", "note": "Not everyone likes this rotate, but if a defender's only way out of Gym is this rotate or the hatch, being able to fight into the corridor from here is very valuable.", "timestamp": "29:27"}
+        {"location": "Back of Gym Rotate, Far Right Side of Wall", "note": "Not everyone likes this rotate, but if the only way out of Gym is this rotate or the hatch, being able to fight into the corridor from here is valuable.", "timestamp": "29:27"}
       ],
       "hatches": [
-        {"location": "Gym hatch", "note": "Deliberately left open (controversial, mirrors the same hatch discussed in the Basement site above). Always keep it open so there's an escape route out of Gym if pushed.", "timestamp": "18:32"}
+        {"location": "Gym Hatch", "note": "Leave open (mirrors the same hatch discussed in the Basement site). Keep it open for an escape route out of Gym if pushed.", "timestamp": "18:32"}
       ],
       "gadgetPlacements": [
-        {"location": "Downstairs in Pipes (Basement), viewed via camera from this site's rotate)", "operator": "Valkyrie", "note": "Same trick as Server/Control and Basement: camera plus a C4 dropped in Pipes for a near-guaranteed kill.", "timestamp": "28:24"},
-        {"location": "Top of the stairs, side of the stairs (Coast Guard/Gym approach)", "operator": "Melusi (source audio: 'maloi')", "note": "Source audio says 'maloi'/'M' phonetically, which best matches Melusi (Defense) given the described Banshee-style trap placed on the stairs to give an audio warning before attackers arrive from behind. Note: the transcript also describes running her 'with an ACOG', which does not match Melusi's real in-game loadout (no ACOG access) — treat the loadout detail as unconfirmed/likely creator imprecision rather than fact.", "timestamp": "31:31"}
+        {"location": "Pipes (Basement), viewed via camera from this site's rotate", "operator": "Valkyrie", "note": "Same camera + C4 combo used at Server/Control and Basement, visible from this site's back rotate.", "timestamp": "28:24"},
+        {"location": "Top of Stairs, Side of Stairs (Coast Guard/Gym approach)", "operator": "Melusi (source audio: 'maloi')", "note": "Source audio says 'maloi'/'M' phonetically, best matching Melusi given the described Banshee-style trap on the stairs for an audio warning before attackers arrive from behind. Transcript also describes her running 'with an ACOG', which doesn't match Melusi's real loadout — treat as unconfirmed/likely creator imprecision.", "timestamp": "31:31"}
       ],
       "operatorRecommendations": [
-        {"operator": "Melusi (source audio: 'maloi')", "role": "Anchor (long angles)", "note": "Best played with a DMR-capable loadout to hold two long angles from Gym (toward the printer door and down the corridor); places her Banshee trap on the stairs so she knows if she's about to be flanked from behind."},
-        {"operator": "Valkyrie", "role": "Intel/Trap", "note": "Runs the same Pipes camera + C4 combo used on the other sites, visible from this site's back rotate."}
+        {"operator": "Melusi (source audio: 'maloi')", "role": "Anchor (long angles)", "holdLocation": "Gym", "note": "Best played with a DMR-capable loadout to hold two long angles from Gym (toward the printer door and down the corridor); places her Banshee trap on the stairs for a flank warning."},
+        {"operator": "Valkyrie", "role": "Intel/Trap", "holdLocation": "Pipes (via back rotate camera)", "note": "Runs the same Pipes camera + C4 combo used on the other sites, visible from this site's back rotate."}
       ],
       "generalTips": [
-        {"note": "This is a tertiary site — very strong when played by an organized/coordinated squad (a duo the creator plays with reportedly wins ~80-90% of rounds here), but difficult to defend without coordination since it's rarely practiced. Fun to learn precisely because it's played so rarely.", "timestamp": "26:13"},
-        {"note": "Never let the feet-hole wall near Main Stairs go fully soft as a straight wall-bang — an attacker can grenade a defender playing tucked behind it and force them out, handing over Printer.", "timestamp": "28:02"},
-        {"note": "Always keep an escape route open from this site (e.g. the open Gym hatch) — if pushed by three attackers, drop down and rotate back up Main Stairs instead of getting trapped.", "timestamp": "28:45"},
-        {"note": "A basement player watching Main Stairs from below covers this site's vertical threat — attackers commonly push through Trench and straight up the stairs unexpectedly.", "timestamp": "29:06"},
-        {"note": "The feet holes near Main Stairs let a defender standing here see feet of anyone crossing into Gym or Coast Guard — desks partially block sightlines into the site itself, so don't rely on seeing everything through them.", "timestamp": "28:45"}
+        {"note": "Tertiary site — very strong with an organized/coordinated squad, difficult to defend without coordination since it's rarely practiced.", "timestamp": "26:13"},
+        {"note": "Never let the feet-hole wall near Main Stairs go fully soft as a straight wall-bang — an attacker can grenade a defender tucked behind it and force them out, handing over Printer.", "timestamp": "28:02"},
+        {"note": "Keep an escape route open (e.g. the open Gym hatch) — if pushed by three attackers, drop down and rotate back up Main Stairs instead of getting trapped.", "timestamp": "28:45"},
+        {"note": "A basement player watching Main Stairs from below covers this site's vertical threat — attackers commonly push through Trench and straight up the stairs.", "timestamp": "29:06"},
+        {"note": "Feet holes near Main Stairs let a defender see feet of anyone crossing into Gym or Coast Guard — desks partially block sightlines into the site itself, so don't rely on seeing everything through them.", "timestamp": "28:45"}
       ]
     }
   ]

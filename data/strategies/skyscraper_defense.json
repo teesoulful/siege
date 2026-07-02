@@ -5,7 +5,8 @@
     "title": "Skyscraper Setup Guide (Full Defense Walkthrough, All Sites)",
     "type": "youtube_transcript",
     "file": "data/raw_transcripts/Skyscraper_Defense__5SRuXkYjI8.txt",
-    "notes": "Auto-generated YouTube captions (ASR) — expect garbled operator names and jargon. Only bracketed [MM:SS] markers exist in the source; item timestamps below are anchored to the nearest preceding bracketed marker, not exact utterance times. Creator explicitly frames Skyscraper as one of the most defender-sided maps in the ranked pool, but says it must be set up correctly to hold that advantage. Several operator names are ASR-garbled — see notes on individual items: 'K cause' (likely Kaid, medium confidence), 'Musi' (ambiguous between Melusi and Mozzie), and 'Roma' (not a real operator — almost certainly a mistranscription of 'roamer', a playstyle term, not a name). No attack-side transcript was available for this map."
+    "notes": "Auto-generated YouTube captions (ASR) — expect garbled operator names and jargon. Only bracketed [MM:SS] markers exist in the source; item timestamps below are anchored to the nearest preceding bracketed marker, not exact utterance times. Creator explicitly frames Skyscraper as one of the most defender-sided maps in the ranked pool, but says it must be set up correctly to hold that advantage. Several operator names are ASR-garbled — see notes on individual items: 'K cause' (likely Kaid, medium confidence), 'Musi' (ambiguous between Melusi and Mozzie), and 'Roma' (not a real operator — almost certainly a mistranscription of 'roamer', a playstyle term, not a name). No attack-side transcript was available for this map. Compass grounding: the official Ubisoft top-down blueprint for this map carries no room-name labels or compass rose, and the transcript itself never uses compass words (only relative terms like 'this side', 'left', 'right'). Per rule 8, no compass prefixes have been added to individual locations — only the two top-floor site clusters could be confidently oriented relative to each other (T/Karaoke/Geisha sits toward the map's west/helipad end, Office/Exhibition/Dragon-Shrine toward the east end), which is noted at the site level, not per-wall.",
+    "notesCompassGrounding": "Attempted: downloaded official Ubisoft blueprint zip (static2.cdn.ubi.com .../r6-maps-skyscraper-blueprints.zip) and inspected all 3 images directly. They show the top floor only, with no text labels and no compass rose, matching the format of Bank's official blueprints. Individual room identities within each site cluster could not be confirmed with certainty from decor alone, so no per-wall compass prefixes were added anywhere in this file."
   },
   "sites": [
     {
@@ -14,37 +15,37 @@
       "floor": "Top Floor",
       "callouts": ["T", "Karaoke", "Geisha", "Top Black Stairs", "Drum", "Restaurant Stairs", "Kitchen Window (below)", "Bathroom Window (below)"],
       "reinforcements": [
-        {"location": "Geisha wall (facing black stairs door)", "note": "Reinforced as part of the standard setup.", "timestamp": "02:27"},
-        {"location": "Black-stairs-side door wall (optional)", "note": "Argument for reinforcing: if left soft, an attacker on the door can shoot through it and cut off both exits for whoever is holding that area. Creator personally doesn't like doing it, but calls it out as a valid option.", "timestamp": "02:06"}
+        {"location": "Geisha Wall, Door Side (facing black stairs door)", "note": "Standard setup.", "timestamp": "02:27"},
+        {"location": "Black-Stairs-Side Door Wall (optional)", "note": "If left soft, an attacker on the door can shoot through it and cut off both exits for whoever is holding that area. Optional, creator's personal preference is against it.", "timestamp": "02:06"}
       ],
       "headHoles": [
-        {"location": "Wall dividing T and Karaoke (multiple, 'all the way across')", "note": "Twofold purpose: from Karaoke you can hold the drum door to T and further back into T if the breach opens there; from top black stairs you can hold the karaoke window and see into T. Creator makes these across the whole wall but stresses only make as many as your team will actually understand and use.", "timestamp": "03:29"},
-        {"location": "Wall dividing T and Karaoke (continued)", "note": "Lets you hold a passive angle into the middle of the room from T; also lets you hold karaoke window from a jump-in-adjacent spot if made.", "timestamp": "04:12"},
-        {"location": "Geisha wall, toward top black stairs", "note": "If playing Geisha, lets you hold the cross from top black or the walk-up from top black stairs.", "timestamp": "06:20"}
+        {"location": "T/Karaoke Dividing Wall (multiple, all the way across)", "note": "From Karaoke, holds the drum door to T and further into T if the breach opens there. From top black stairs, holds the karaoke window and sees into T. Only make as many as your team will actually use.", "timestamp": "03:29"},
+        {"location": "T/Karaoke Dividing Wall (continued)", "note": "Holds a passive angle into the middle of the room from T. Also holds karaoke window from a jump-in-adjacent spot if made.", "timestamp": "04:12"},
+        {"location": "Geisha Wall, Stairs Side (toward top black stairs)", "note": "If playing Geisha, holds the cross from top black or the walk-up from top black stairs.", "timestamp": "06:20"}
       ],
       "rotates": [
-        {"location": "Karaoke to top black stairs", "note": "One of the only safe places to hold the black-stairs-side door from. Also gives easy in/out mobility early in the round without using either main door.", "timestamp": "01:45"},
-        {"location": "Karaoke to Geisha (mirrors the black-stairs rotate, opposite side)", "note": "Same purpose as the black-stairs rotate, but toward Geisha.", "timestamp": "02:27"},
-        {"location": "Drum, near restaurant stairs", "note": "Nice to reinforce later in the round if you fall back. Lets you dip in and out of drum without using either of the two main doors, which are both easily cut off. Not a fan of feet holes along here since a restaurant-stairs push can cut off all of T, but the rotate itself is valuable.", "timestamp": "07:04"}
+        {"location": "Karaoke to Top Black Stairs", "note": "One of the only safe places to hold the black-stairs-side door from. Gives in/out mobility early in the round without using either main door.", "timestamp": "01:45"},
+        {"location": "Karaoke to Geisha", "note": "Mirrors the black-stairs rotate on the opposite side.", "timestamp": "02:27"},
+        {"location": "Drum, near Restaurant Stairs", "note": "Reinforce later in the round if falling back. Lets you move in/out of Drum without using either main door. Skip feet holes here — a restaurant-stairs push can cut off all of T.", "timestamp": "07:04"}
       ],
       "hatches": [],
       "gadgetPlacements": [
-        {"location": "Vertical hole in Geisha, looking down at kitchen window", "note": "Covers attackers who skip droning and just run straight through the kitchen window below while you're defending Geisha. Described as a 'freebie' kill.", "timestamp": "02:27"},
-        {"location": "Vert hole in the corner of Karaoke, over the bathroom window", "note": "Attackers often drone the room via a nearby drone hole but don't check this vert before jumping the bathroom window below — another freebie angle.", "timestamp": "02:47"},
-        {"location": "Feet holes toward Drum", "note": "Works both ways: watch anyone jumping the Geisha window, or hold anyone walking in once the breach opens. Recommends a decent SMG or AR here rather than an SMG-11 given the range.", "timestamp": "05:38"},
-        {"location": "Small feet hole near top black stairs", "note": "Watches the stairs for anyone coming up that way.", "timestamp": "06:20"}
+        {"location": "Vertical hole in Geisha, over kitchen window", "note": "Watches attackers running straight through the kitchen window below without droning. Freebie kill.", "timestamp": "02:27"},
+        {"location": "Vert hole in the corner of Karaoke, over bathroom window", "note": "Attackers often drone the room via a nearby drone hole but skip this vert before jumping the bathroom window below. Freebie angle.", "timestamp": "02:47"},
+        {"location": "Feet holes toward Drum", "note": "Watches anyone jumping the Geisha window, or anyone walking in once the breach opens. Use a decent SMG or AR here over an SMG-11.", "timestamp": "05:38"},
+        {"location": "Small feet hole near Top Black Stairs", "note": "Watches the stairs.", "timestamp": "06:20"}
       ],
       "operatorRecommendations": [
-        {"operator": "Solis", "role": "Utility check", "note": "Source audio said 'solish', read with high confidence as Solis. Use before jumping out the Geisha window to check for a claymore, which is commonly placed there — alternative to relying on a Mute jammer in your pocket.", "timestamp": "11:40"}
+        {"operator": "Solis", "role": "Utility check", "holdLocation": "Geisha Window", "note": "Source audio said 'solish', read with high confidence as Solis. Check for a claymore before jumping the Geisha window — commonly placed there. Alternative to a Mute jammer in pocket.", "timestamp": "11:40"}
       ],
       "generalTips": [
-        {"note": "Only make the head holes that fit your team's plan — making every possible hole across this wall is useless (or actively harmful) if your teammates don't know the lines of sight exist and get caught out by them.", "timestamp": "01:24"},
-        {"note": "This site is one of the hardest to predict — unlike sites on other maps where the attack direction is fairly reliable, Skyscraper's T/Karaoke attack could come from almost anywhere.", "timestamp": "01:02"},
-        {"note": "The karaoke window is a very safe spot for attackers now that mid-air ADS on run-outs isn't possible, so someone is usually sitting on it, effectively splitting the site in two.", "timestamp": "03:29"},
-        {"note": "The only genuinely safe spots to stand in T/Karaoke are tucked behind the two half-walls — even then there are verts underneath to watch for.", "timestamp": "04:54"},
-        {"note": "Higher-ELO attackers tend to take 'office across' (take Office first, then push across) rather than a direct Geisha/Black Stairs push that's more common at lower ELO.", "timestamp": "10:37"},
-        {"note": "If holding office/this end early, have at least two defenders present: shoot drones coming through the drone hole and up house stairs, then slowly give up space as pressure builds rather than all at once. Don't die needlessly, but offer resistance.", "timestamp": "11:19"},
-        {"note": "There is very likely a claymore on the Geisha window most rounds — check or jam before jumping out.", "timestamp": "11:40"}
+        {"note": "Only make the head holes that fit your team's plan.", "timestamp": "01:24"},
+        {"note": "Attack direction on this site is unpredictable compared to other maps' sites.", "timestamp": "01:02"},
+        {"note": "The karaoke window is a safe spot for attackers post mid-air-ADS removal — expect someone sitting on it, splitting the site in two.", "timestamp": "03:29"},
+        {"note": "The only safe standing spots in T/Karaoke are tucked behind the two half-walls — watch for verts underneath even there.", "timestamp": "04:54"},
+        {"note": "Higher-ELO attackers tend to take office first then push across, rather than a direct Geisha/Black Stairs push (more common at lower ELO).", "timestamp": "10:37"},
+        {"note": "If holding office/this end early, keep at least two defenders present: shoot drones through the drone hole and up house stairs, then give up space slowly as pressure builds. Offer resistance, don't die needlessly.", "timestamp": "11:19"},
+        {"note": "Check or jam the Geisha window before jumping out — likely claymore most rounds.", "timestamp": "11:40"}
       ]
     },
     {
@@ -53,42 +54,42 @@
       "floor": "Top Floor",
       "callouts": ["Office", "Exhibition", "Terrace", "Dragon", "Shrine", "Mini Bar", "Samurai Window", "Closet / Side Entrance", "House Stairs", "VIP"],
       "reinforcements": [
-        {"location": "Both Office/Exhibition dividing walls", "note": "If the breach between Office and Exhibition is opened and left soft, attackers can just fire straight through into Exhibition, which is an important room to hold. Reinforced on both.", "timestamp": "13:03"},
-        {"location": "VIP single wall", "note": "Reinforced as part of the standard setup on this side of the map.", "timestamp": "07:47"},
-        {"location": "Office breach wall", "note": "The single most important reinforcement on this side of the map — do not let attackers open this for free at the start of the round, or the room becomes very hard to hold and you're forced back to the exhibition exit.", "timestamp": "08:29"},
-        {"location": "Terrace door single wall", "note": "Reinforced, paired with the office/mini-bar rotate.", "timestamp": "07:47"},
-        {"location": "Wall between Exhibition and the samurai-window area (optional)", "note": "Trade-off: if reinforced, it stops attackers opening it from an angle near the breach, but it also creates an easy tuck-in plant spot with only two doors left for attackers to watch, making the plant slightly easier. Creator doesn't always reinforce this one.", "timestamp": "13:45"}
+        {"location": "Office/Exhibition Dividing Wall (both)", "note": "If left soft and the breach between Office and Exhibition opens, attackers fire straight through into Exhibition. Reinforce both.", "timestamp": "13:03"},
+        {"location": "VIP Wall", "note": "Standard setup.", "timestamp": "07:47"},
+        {"location": "Office Breach Wall", "note": "Single most important reinforcement on this side of the map. Do not let attackers open this for free at round start — the room becomes very hard to hold otherwise.", "timestamp": "08:29"},
+        {"location": "Terrace Door Wall", "note": "Reinforced, paired with the office/mini-bar rotate.", "timestamp": "07:47"},
+        {"location": "Exhibition/Samurai-Window Wall (optional)", "note": "Stops attackers opening it from an angle near the breach, but creates an easy tuck-in plant spot with only two doors left to watch. Not always reinforced.", "timestamp": "13:45"}
       ],
       "headHoles": [
-        {"location": "Same wall as terrace hole, watching samurai window", "note": "Lets you hold the samurai window from here by standing on the table.", "timestamp": "13:24"},
-        {"location": "Wall facing terrace door/window", "note": "Lets you hold anyone jumping the terrace window or coming through the terrace door.", "timestamp": "13:24"}
+        {"location": "Terrace Wall, Samurai-Window Side", "note": "Holds the samurai window from here while standing on the table.", "timestamp": "13:24"},
+        {"location": "Terrace Wall, Door/Window Side", "note": "Holds anyone jumping the terrace window or coming through the terrace door.", "timestamp": "13:24"}
       ],
       "rotates": [
-        {"location": "Office to Mini Bar", "note": "Avoids having to go through the door between Office and Mini Bar, which can be cut off.", "timestamp": "07:47"},
-        {"location": "Exhibition to Terrace", "note": "Necessary so you don't give up this side of the map too easily — lets you fight back into the area rather than surrendering it once pressured.", "timestamp": "14:28"},
-        {"location": "Exhibition to Dragon/Shrine", "note": "Considered more important than the terrace rotate. Without it, attackers can freely swell up in the Dragon/Shrine area if that wall is reinforced; the rotate lets you contest both sides of the relevant door.", "timestamp": "14:48"},
-        {"location": "Left-hand rotate near the breach (easy to miss)", "note": "Creator flags this as something they forgot to mention earlier in the video for this site: a sneaky rotate that lets you crouch-walk toward the breach without being seen from it (unless attackers are on repel outside). Lets a defender contest space near the breach and often causes attacker C4 thrown for a table-plant to sail over the planter's head harmlessly.", "timestamp": "35:10"}
+        {"location": "Office to Mini Bar", "note": "Avoids the Office/Mini Bar door, which can be cut off.", "timestamp": "07:47"},
+        {"location": "Exhibition to Terrace", "note": "Lets you fight back into the area instead of surrendering it under pressure.", "timestamp": "14:28"},
+        {"location": "Exhibition to Dragon/Shrine", "note": "Higher priority than the terrace rotate. Without it, attackers can freely stack in Dragon/Shrine if that wall is reinforced; the rotate contests both sides of the door.", "timestamp": "14:48"},
+        {"location": "Left-Hand Rotate near the Breach", "note": "Lets a defender crouch-walk toward the breach without being seen from it (unless attackers are on repel outside). Contests space near the breach; often makes attacker C4 thrown for a table-plant sail over the planter's head harmlessly.", "timestamp": "35:10"}
       ],
       "hatches": [],
       "gadgetPlacements": [
-        {"location": "Closet/side-entrance vert, looking down at the door", "note": "Watches anyone pushing up house stairs through the closet/side-entrance door — a free kill if they don't check it. Same vert reused when defending Barbecue/Kitchen below.", "timestamp": "10:16"},
-        {"location": "Angle near the samurai window, tucked away from Terrace", "note": "A popular attacker push spot. Place a proximity-style area-denial gadget here — source audio names the operator phonetically as 'Fenry or Musi'. 'Fenry' is read with high confidence as Fenrir (Defense, F-NATT Dread Mine trap gadget, fits a proximity-trap role well). 'Musi' is ambiguous between Melusi and Mozzie (both Defense) — Melusi's Banshee sonic device is a slightly better contextual fit for a trap that reveals/slows pushers, but treat this specific name as unconfirmed.", "timestamp": "10:37"},
-        {"location": "Office breach wall", "note": "Recommends a Mute jammer, Bandit batteries, or (per garbled audio 'K cause') possibly Kaid electroclaw to stop attackers opening this wall for free early in the round. Mute and Bandit are confirmed Defense picks; the 'Kaid' read is medium-confidence only — could be ASR noise rather than a third named operator.", "timestamp": "08:29"},
-        {"location": "Samurai window", "note": "Recommends 'chucking a Kaid magnet' (electroclaw) on this window — there is very likely a claymore or similar trap there most rounds.", "timestamp": "11:40"}
+        {"location": "Closet/Side-Entrance vert, over the door", "note": "Watches anyone pushing up house stairs through the closet/side-entrance door. Free kill if unchecked. Same vert reused when defending Barbecue/Kitchen below.", "timestamp": "10:16"},
+        {"location": "Angle near Samurai Window, tucked from Terrace", "note": "Popular attacker push spot. Place a proximity-style area-denial gadget here — source audio names the operator phonetically as 'Fenry or Musi'. 'Fenry' read with high confidence as Fenrir. 'Musi' is ambiguous between Melusi and Mozzie — treat as unconfirmed.", "timestamp": "10:37"},
+        {"location": "Office Breach Wall", "note": "Mute jammer, Bandit batteries, or (per garbled audio 'K cause') possibly Kaid electroclaw to stop attackers opening this wall for free early. Mute/Bandit confirmed; the 'Kaid' read is medium-confidence only.", "timestamp": "08:29"},
+        {"location": "Samurai Window", "note": "Kaid electroclaw on this window — likely claymore or similar trap there most rounds.", "timestamp": "11:40"}
       ],
       "operatorRecommendations": [
-        {"operator": "Mute", "role": "Anchor (Office breach wall)", "note": "Jams the office breach wall to deny a free early-round hard breach."},
-        {"operator": "Bandit", "role": "Anchor (Office breach wall)", "note": "Electrifies the office breach wall's battery spot alongside/alternative to Mute."},
-        {"operator": "Fenrir", "role": "Trap/Area denial", "note": "Places a proximity trap near the samurai-window push angle. ('Fenry' in source audio — high confidence.)"}
+        {"operator": "Mute", "role": "Anchor (Office breach wall)", "holdLocation": "Office Breach Wall", "note": "Jams the office breach wall to deny a free early-round hard breach."},
+        {"operator": "Bandit", "role": "Anchor (Office breach wall)", "holdLocation": "Office Breach Wall", "note": "Electrifies the office breach wall's battery spot alongside/alternative to Mute."},
+        {"operator": "Fenrir", "role": "Trap/Area denial", "holdLocation": "Samurai Window Angle", "note": "Places a proximity trap near the samurai-window push angle. ('Fenry' in source audio — high confidence.)"}
       ],
       "generalTips": [
-        {"note": "This area is the creator's favourite to play and, apart from a direct Geisha/Black-Stairs take, the single most important area to hold on the map. You really need a way to stop the breach wall being opened for free at round start.", "timestamp": "08:29"},
-        {"note": "You can pre-fire the crouch angle attackers commonly hold near the window by learning where the window frame edge sits relative to the barricade tape — the edge is a pixel or two past the tape, and every barricade shares this trick.", "timestamp": "09:34"},
-        {"note": "Always prep the run-out window (hit it twice at the bottom) at the start of the round.", "timestamp": "12:01"},
-        {"note": "Considered easier to defend than T/Karaoke since the attack here is more predictable (usually a direct push on the breach).", "timestamp": "18:58"},
-        {"note": "As you fall back from Terrace/this area under pressure, make sure you're not cut off from the terrace door and terrace window.", "timestamp": "11:40"},
-        {"note": "Terrace is not a place to hold long-term — the door and window both get opened eventually and you'll likely get pushed from that side. Use it to absorb a drone or two of utility, then fall back.", "timestamp": "18:18"},
-        {"note": "Making holes along this wall also allows using it for smoke/C4 plays on the breach — mentioned again for Office/Exhibition specifically near the end of the video.", "timestamp": "39:43"}
+        {"note": "Apart from a direct Geisha/Black-Stairs take, the most important area to hold on the map. Stop the breach wall being opened for free at round start.", "timestamp": "08:29"},
+        {"note": "The crouch angle attackers commonly hold near the window sits a pixel or two past the barricade tape edge — every barricade shares this.", "timestamp": "09:34"},
+        {"note": "Prep the run-out window (hit it twice at the bottom) at round start.", "timestamp": "12:01"},
+        {"note": "Easier to defend than T/Karaoke — attack here is usually a direct push on the breach.", "timestamp": "18:58"},
+        {"note": "When falling back from Terrace/this area under pressure, don't get cut off from the terrace door and terrace window.", "timestamp": "11:40"},
+        {"note": "Terrace is not a long-term hold — the door and window both get opened eventually. Use it to absorb a drone or two of utility, then fall back.", "timestamp": "18:18"},
+        {"note": "Holes along this wall also allow smoke/C4 plays on the breach.", "timestamp": "39:43"}
       ]
     },
     {
@@ -97,36 +98,36 @@
       "floor": "Ground Floor",
       "callouts": ["Barbecue", "Kitchen", "Pantry", "Delivery", "Restaurant", "Bathroom Window (kitchen side)", "Sushi Bar / Long Bar", "Geisha (above)", "Drum (above)"],
       "reinforcements": [
-        {"location": "Pantry, left side", "note": "Reinforced, paired with head holes on the right side of pantry to watch toward delivery.", "timestamp": "19:40"},
-        {"location": "Pantry to Delivery wall (optional)", "note": "Only worth reinforcing if you plan to play aggressively in pantry toward delivery — gives a safe haven from being shot out of restaurant. Not necessary otherwise.", "timestamp": "21:06"},
-        {"location": "Geisha single wall (upstairs, above this site)", "note": "Reinforced as part of the upstairs hold for this site.", "timestamp": "24:56"},
-        {"location": "Drum wall (upstairs, above this site)", "note": "Reinforced — same as the geisha reinforcement, both needed since this floor and the Geisha floor above are otherwise soft.", "timestamp": "24:56"}
+        {"location": "Pantry, Left Side", "note": "Paired with head holes on the right side of pantry watching toward delivery.", "timestamp": "19:40"},
+        {"location": "Pantry to Delivery Wall (optional)", "note": "Only worth it if playing aggressively in pantry toward delivery — gives a safe haven from being shot out of restaurant. Skip otherwise.", "timestamp": "21:06"},
+        {"location": "Geisha Wall (upstairs, above this site)", "note": "Part of the upstairs hold for this site.", "timestamp": "24:56"},
+        {"location": "Drum Wall (upstairs, above this site)", "note": "Both this and the Geisha wall are needed since this floor and the floor above are otherwise soft.", "timestamp": "24:56"}
       ],
       "headHoles": [
-        {"location": "Pantry, right side", "note": "Left soft with head holes instead of a full reinforcement, so attackers can't get free reign up to the side door unchallenged. Creates an angle attackers must worry about.", "timestamp": "19:40"}
+        {"location": "Pantry, Right Side", "note": "Left soft with head holes instead of a full reinforcement, so attackers can't get free reign up to the side door unchallenged.", "timestamp": "19:40"}
       ],
       "rotates": [
-        {"location": "Kitchen to Barbecue, left-hand side", "note": "Can be made, but gives a long angle for attackers to see all the way through if you do.", "timestamp": "22:08"},
-        {"location": "Kitchen to Barbecue, second rotate", "note": "Important because there was previously only one connecting door — this stops attackers advertising for that single door and cutting the site room in half. Downside: attackers on repel at the nearby window can hold a tight angle across the site through it.", "timestamp": "22:29"},
-        {"location": "Triple wall toward Sushi/Long Bar", "note": "Two reinforcements made on this wall so you can get in/out of site without using the main door — crouch through it (don't stand) for cover behind the bar. Strong holding position with no vert to worry about above.", "timestamp": "22:50"}
+        {"location": "Kitchen to Barbecue, Left-Hand Side", "note": "Gives a long angle for attackers to see all the way through if made.", "timestamp": "22:08"},
+        {"location": "Kitchen to Barbecue, Second Rotate", "note": "Stops attackers holding the single connecting door and cutting the site room in half. Attackers on repel at the nearby window can hold a tight angle across the site through it.", "timestamp": "22:29"},
+        {"location": "Triple Wall toward Sushi/Long Bar", "note": "Two reinforcements on this wall for in/out access without the main door — crouch through it (don't stand) for cover behind the bar. No vert to worry about above.", "timestamp": "22:50"}
       ],
       "hatches": [
-        {"location": "Hatch above this site (upstairs)", "note": "Opened, not reinforced, so a pressured defender upstairs can drop down for a last-minute exit — mirrors the Office/Exhibition hatch treatment.", "timestamp": "24:56"}
+        {"location": "Hatch above this site (upstairs)", "note": "Open, not reinforced, so a pressured defender upstairs can drop down for a last-minute exit.", "timestamp": "24:56"}
       ],
       "gadgetPlacements": [
-        {"location": "Kitchen window vert", "note": "Important vert hole allowing you to hold the kitchen window from above.", "timestamp": "25:38"},
-        {"location": "Bathroom window vert (kitchen side)", "note": "Just as important as the kitchen window vert — right in the corner. Lets you hold the jump-in from above.", "timestamp": "26:20"},
-        {"location": "Vert over the popular corner plant spot", "note": "A very popular plant spot in this corner along the reinforced line — make vert here to watch it from above.", "timestamp": "27:01"},
-        {"location": "Vert over the site door window", "note": "Lets you see both the site door and the rotate made bottom black stairs from above.", "timestamp": "27:23"}
+        {"location": "Kitchen Window vert", "note": "Holds the kitchen window from above.", "timestamp": "25:38"},
+        {"location": "Bathroom Window vert (kitchen side)", "note": "Holds the jump-in from above.", "timestamp": "26:20"},
+        {"location": "Vert over the popular corner plant spot", "note": "Watches a very popular plant spot in this corner along the reinforced line.", "timestamp": "27:01"},
+        {"location": "Vert over the site door window", "note": "Sees both the site door and the rotate made at bottom black stairs from above.", "timestamp": "27:23"}
       ],
       "operatorRecommendations": [],
       "generalTips": [
-        {"note": "This site is very flexible — several optional walls (e.g. the wall into the bathroom) are deliberately left as a judgment call rather than a fixed recommendation.", "timestamp": "19:20"},
-        {"note": "You can't defend below, above, AND the far side of the map on this site — pick your priorities or you'll be spread too thin. Creator draws a line across the map at the wall going across drum and cedes anything beyond it, barricading (not reinforcing) the drum door and the door toward shrine.", "timestamp": "25:17"},
-        {"note": "Watch for attackers repelling at the window near drum and holding a head-glitch angle on the door back to site — quick-peek that angle before running back through, don't just run through blind.", "timestamp": "16:53"},
-        {"note": "This floor's ceiling is soft almost everywhere, giving attackers easy, fast vertical access — holding upstairs (Geisha/Drum above) is mandatory or you'll likely lose the site once they get vert.", "timestamp": "27:23"},
-        {"note": "Common attacker vertical strategy: gain the vert above, use an area-denial gadget (e.g. Ying/Zofia-type flush) to force the anchor off the site-door window angle, then drop and plant in the popular corner spot. Defending the vert directly counters this.", "timestamp": "27:43"},
-        {"note": "Considered the creator's favourite site on the map — hectic but more predictable to defend than T/Karaoke since attackers usually push this breach directly."}
+        {"note": "Several optional walls (e.g. into the bathroom) are a judgment call rather than a fixed recommendation.", "timestamp": "19:20"},
+        {"note": "Can't defend below, above, and the far side of the map at once — pick priorities. Draw a line across the map at the wall going across drum, cede anything beyond it, and barricade (don't reinforce) the drum door and the door toward shrine.", "timestamp": "25:17"},
+        {"note": "Watch for attackers repelling at the window near drum and holding a head-glitch angle on the door back to site — quick-peek before running back through.", "timestamp": "16:53"},
+        {"note": "This floor's ceiling is soft almost everywhere — hold upstairs (Geisha/Drum above) or you'll likely lose the site once attackers get vert.", "timestamp": "27:23"},
+        {"note": "Common attacker vertical play: gain vert above, use an area-denial gadget (e.g. Ying/Zofia-type) to force the anchor off the site-door window angle, then drop and plant in the popular corner spot. Defend the vert to counter it.", "timestamp": "27:43"},
+        {"note": "Creator's favourite site on the map — hectic but more predictable to defend than T/Karaoke since attackers usually push this breach directly."}
       ]
     },
     {
@@ -135,43 +136,43 @@
       "floor": "Ground Floor",
       "callouts": ["Bathroom", "Bedroom", "Closet / Side Entrance", "Delivery", "Office (upstairs)", "Exhibition (upstairs)", "Mini Bar (upstairs)", "Terrace (upstairs)"],
       "reinforcements": [
-        {"location": "Bedroom, right side", "note": "Reinforced so attackers can't open the window there and shoot straight through the site.", "timestamp": "31:59"},
-        {"location": "Closet/side-entrance, left side", "note": "Reinforced, paired with head holes on the right side. If both walls here are left soft, attackers get free reign up to this door.", "timestamp": "33:01"},
-        {"location": "Delivery, left side", "note": "Reinforced — same reasoning as the equivalent wall on the Barbecue/Kitchen site.", "timestamp": "34:07"},
-        {"location": "Office single wall (upstairs)", "note": "Reinforced, mirroring the Office/Exhibition setup on the other site.", "timestamp": "35:10"},
-        {"location": "Terrace exit single wall (upstairs)", "note": "Reinforced, mirroring the Office/Exhibition setup.", "timestamp": "35:10"},
-        {"location": "Both Office walls (upstairs)", "note": "Reinforced.", "timestamp": "35:10"},
-        {"location": "Office/Exhibition middle wall (upstairs)", "note": "Reinforced.", "timestamp": "35:10"}
+        {"location": "Bedroom, Right Side", "note": "Stops attackers opening the window there and shooting straight through the site.", "timestamp": "31:59"},
+        {"location": "Closet/Side-Entrance, Left Side", "note": "Paired with head holes on the right side. If both walls here are left soft, attackers get free reign up to this door.", "timestamp": "33:01"},
+        {"location": "Delivery, Left Side", "note": "Same reasoning as the equivalent wall on the Barbecue/Kitchen site.", "timestamp": "34:07"},
+        {"location": "Office Wall (upstairs)", "note": "Mirrors the Office/Exhibition setup on the other site.", "timestamp": "35:10"},
+        {"location": "Terrace Exit Wall (upstairs)", "note": "Mirrors the Office/Exhibition setup.", "timestamp": "35:10"},
+        {"location": "Office Walls, Both Sides (upstairs)", "note": "Standard setup.", "timestamp": "35:10"},
+        {"location": "Office/Exhibition Middle Wall (upstairs)", "note": "Standard setup.", "timestamp": "35:10"}
       ],
       "headHoles": [
-        {"location": "Closet/side-entrance, right side", "note": "Left soft with head holes rather than fully reinforced, to give defenders an angle while still forcing attackers through a watched doorway.", "timestamp": "33:01"},
-        {"location": "Upstairs, samurai window angle", "note": "Same head holes as made for the Office/Exhibition site.", "timestamp": "35:10"},
-        {"location": "Upstairs, terrace door angle", "note": "Same head holes as made for the Office/Exhibition site.", "timestamp": "35:10"}
+        {"location": "Closet/Side-Entrance, Right Side", "note": "Left soft with head holes instead of a full reinforcement — gives defenders an angle while still forcing attackers through a watched doorway.", "timestamp": "33:01"},
+        {"location": "Terrace Wall, Samurai-Window Side (upstairs)", "note": "Same head holes as made for the Office/Exhibition site.", "timestamp": "35:10"},
+        {"location": "Terrace Wall, Door Side (upstairs)", "note": "Same head holes as made for the Office/Exhibition site.", "timestamp": "35:10"}
       ],
       "rotates": [
-        {"location": "Bedroom, bottom-left, into Bathroom", "note": "Gives a couple of different angles through the door rather than relying on just one. Preferred over reinforcing the equivalent wall, though creator says reinforcing it instead would also be reasonable.", "timestamp": "31:59"},
-        {"location": "Upstairs, left-hand rotate (Office/Exhibition side)", "note": "The same easy-to-miss sneaky rotate mentioned for the Office/Exhibition site — reused here since the upstairs layout is shared.", "timestamp": "35:10"},
-        {"location": "Upstairs, toward Mini Bar", "note": "Extra rotate the creator would add between here and mini bar — lets you hold anyone walking in the breach from here or fall back to play mini bar instead.", "timestamp": "37:14"}
+        {"location": "Bedroom, Bottom-Left, into Bathroom", "note": "Gives a couple of different angles through the door instead of relying on one. Preferred over reinforcing the equivalent wall, though reinforcing instead is also reasonable.", "timestamp": "31:59"},
+        {"location": "Left-Hand Rotate near the Breach (upstairs)", "note": "The same rotate made for the Office/Exhibition site, reused since the upstairs layout is shared.", "timestamp": "35:10"},
+        {"location": "Upstairs, toward Mini Bar", "note": "Extra rotate between here and mini bar — holds anyone walking in the breach from here, or falls back to play mini bar.", "timestamp": "37:14"}
       ],
       "hatches": [
-        {"location": "Hatch above this site (upstairs)", "note": "Kept open as a last-minute exit if you hear a plant below and can't see it from above. You'll be seen dropping through the nearby window, and the hatch's corner position makes it hard to get any useful angle from it while going down.", "timestamp": "36:32"}
+        {"location": "Hatch above this site (upstairs)", "note": "Kept open as a last-minute exit if you hear a plant below and can't see it from above. You'll be seen dropping through the nearby window; the hatch's corner position makes it hard to get a useful angle going down.", "timestamp": "36:32"}
       ],
       "gadgetPlacements": [
-        {"location": "Closet/side-entrance, watching house stairs", "note": "Same vert used on the Office/Exhibition site, watching anyone pushing up house stairs through the closet door.", "timestamp": "36:12"},
-        {"location": "Closet/side-entrance wall", "note": "Recommends 'eye magnets' (read as Kaid electroclaw) here, since Ace commonly throws S.E.L.M.A. charges on this wall — electrifying it denies the hard breach. Ace is correctly identified as an Attack-side operator being countered, not a defender pick.", "timestamp": "33:22"},
-        {"location": "Closet/side-entrance", "note": "Suggests playing Warden here with a shield across the opening, combined with the head holes. Warden confirmed Defense; the 'shield' referenced is generic deployable cover, not one of Warden's own gadgets (his kit is the Glance smart glasses).", "timestamp": "33:22"},
-        {"location": "Delivery wall", "note": "Recommends a proximity alarm / early-warning gadget on this wall so a defender playing off it gets notice when attackers walk in.", "timestamp": "34:28"}
+        {"location": "Closet/Side-Entrance vert, watching house stairs", "note": "Same vert used on the Office/Exhibition site, watching anyone pushing up house stairs through the closet door.", "timestamp": "36:12"},
+        {"location": "Closet/Side-Entrance Wall", "note": "Kaid electroclaw here — Ace commonly throws S.E.L.M.A. charges on this wall, so electrifying it denies the hard breach.", "timestamp": "33:22"},
+        {"location": "Closet/Side-Entrance", "note": "Warden with a deployable shield across the opening, combined with the head holes.", "timestamp": "33:22"},
+        {"location": "Delivery Wall", "note": "Proximity alarm / early-warning gadget on this wall so a defender playing off it gets notice when attackers walk in.", "timestamp": "34:28"}
       ],
       "operatorRecommendations": [
-        {"operator": "Kaid", "role": "Anti-hard-breach (Closet/side-entrance)", "note": "Electrifies the closet/side-entrance wall to deny Ace's S.E.L.M.A. charges commonly thrown there."},
-        {"operator": "Warden", "role": "Anchor (Closet/side-entrance)", "note": "Plays behind a deployable shield combined with the head holes on this wall."}
+        {"operator": "Kaid", "role": "Anti-hard-breach (Closet/side-entrance)", "holdLocation": "Closet/Side-Entrance Wall", "note": "Electrifies the closet/side-entrance wall to deny Ace's S.E.L.M.A. charges commonly thrown there."},
+        {"operator": "Warden", "role": "Anchor (Closet/side-entrance)", "holdLocation": "Closet/Side-Entrance", "note": "Plays behind a deployable shield combined with the head holes on this wall."}
       ],
       "generalTips": [
-        {"note": "Explicitly called the worst site on the map by the creator — not easy to defend, and the other three sites are considered far superior. Even so, playing this site occasionally can work in your favour since attackers won't know how to approach it.", "timestamp": "31:59"},
-        {"note": "You must hold upstairs on this site (same as Office/Exhibition below it) — the floor is soft almost everywhere, giving attackers fast, easy vertical access.", "timestamp": "36:32"},
-        {"note": "As with Barbecue/Kitchen, you can't defend below, above, and the far side of the map simultaneously — draw a line and cede the far side rather than spreading too thin.", "timestamp": "39:21"},
-        {"note": "Delivery is a dangerous place to sit on this site — the wall/window there will get opened and you can get cut off from another window too; there's no great escape route if pushed.", "timestamp": "34:28"},
-        {"note": "Don't lose your life to an attacker who hasn't even entered the map by peeking outside carelessly from delivery — considered a poor death for a defender.", "timestamp": "34:07"},
+        {"note": "Worst site on the map — the other three are far superior. Playing it occasionally can work in your favour since attackers won't know how to approach it.", "timestamp": "31:59"},
+        {"note": "Hold upstairs on this site (same as Office/Exhibition below it) — the floor is soft almost everywhere, giving attackers fast, easy vertical access.", "timestamp": "36:32"},
+        {"note": "As with Barbecue/Kitchen, you can't defend below, above, and the far side simultaneously — draw a line and cede the far side.", "timestamp": "39:21"},
+        {"note": "Delivery is a dangerous spot to sit — the wall/window there will get opened and you can get cut off from another window too, with no great escape route if pushed.", "timestamp": "34:28"},
+        {"note": "Don't peek outside carelessly from delivery.", "timestamp": "34:07"},
         {"note": "You can hide in the bath, though it's much less commonly used here than on Chalet or Villa."}
       ]
     }

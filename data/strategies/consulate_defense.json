@@ -5,7 +5,7 @@
     "title": "Consulate defensive setups across all four sites (CEO/Meeting, Basement/Security, Piano/Expo, Servers/Tellers)",
     "type": "youtube_transcript",
     "file": "data/raw_transcripts/Consulate_Defense_bCwBtQxq3qg.txt",
-    "notes": "Auto-generated captions with typical ASR noise (e.g. 'console office' for 'consulate office', 'Habana' for Hibana, 'Roto'/'Rotator' for rotate, 'H' for 'hard' etc. in a few spots). Creator uses a lot of informal/old-map callouts (e.g. 'Visa' vs 'Admin', 'Benches' vs 'West Corridor', 'Baguette' vs 'Secretary', 'Connector' vs 'Meeting Window') and flags his own confusion between some of them live in the video — both old and new names are kept in callouts where he uses both. One short aside (~12:35-14:00) covers attacking tips (opening caded hatches with Thermite/Hibana/Ace) which is explicitly NOT defense advice and has been excluded from this file's defense-focused arrays. Ash is mentioned once only as a description of common attacker behaviour (jumping through a window), not as a defense recommendation, and is excluded from operatorRecommendations/gadgetPlacements accordingly."
+    "notes": "Auto-generated captions with typical ASR noise (e.g. 'console office' for 'consulate office', 'Habana' for Hibana, 'Roto'/'Rotator' for rotate, 'H' for 'hard' etc. in a few spots). Creator uses a lot of informal/old-map callouts (e.g. 'Visa' vs 'Admin', 'Benches' vs 'West Corridor', 'Baguette' vs 'Secretary', 'Connector' vs 'Meeting Window') and flags his own confusion between some of them live in the video — both old and new names are kept in callouts where he uses both. One short aside (~12:35-14:00) covers attacking tips (opening caded hatches with Thermite/Hibana/Ace) which is explicitly NOT defense advice and has been excluded from this file's defense-focused arrays. Ash is mentioned once only as a description of common attacker behaviour (jumping through a window), not as a defense recommendation, and is excluded from operatorRecommendations/gadgetPlacements accordingly. Rewrite pass: no reliable top-down blueprint could be sourced for this rewrite (Chrome browser tooling for viewing the Ubisoft blueprint images was unavailable), so compass directions have been deliberately omitted from all location strings rather than guessed — locations use room/feature names only."
   },
   "sites": [
     {
@@ -14,42 +14,42 @@
       "floor": "Top Floor",
       "callouts": ["Console/Consulate Office (CEO)", "Bathroom", "Meeting", "Connector Window", "Yellow", "Top Yellow", "Hallway", "Break Room", "Managers", "Admin (a.k.a. Visa upstairs)", "Long Desk", "Piano (small box drop)"],
       "reinforcements": [
-        {"location": "Right-hand side of the bathroom wall (as viewed from outside)", "note": "Part of the seven reinforcements used on this site.", "timestamp": "00:41"},
-        {"location": "Right-hand side wall of Consulate Office into Meeting", "note": "Covers the connector window as viewed from this side (left-hand side from the other side).", "timestamp": "00:41"},
-        {"location": "Right-hand side of the four-meeting wall", "note": "Reinforced; reasoning discussed alongside the outside breach wall.", "timestamp": "01:02"},
-        {"location": "Outside breach wall", "note": "One of the seven reinforcements.", "timestamp": "01:02"},
-        {"location": "Single wall from Hallway into Break Room", "note": "One of the seven reinforcements on this site.", "timestamp": "01:02"},
-        {"location": "Right-hand side wall from Break Room into Managers", "note": "One of the seven reinforcements.", "timestamp": "01:02"},
-        {"location": "Middle wall from Break Room into Admin", "note": "One of the seven reinforcements.", "timestamp": "01:02"}
+        {"location": "Bathroom Wall, Right Side", "note": "One of seven reinforcements on this site.", "timestamp": "00:41"},
+        {"location": "Consulate Office Wall into Meeting, Right Side", "note": "Covers the connector window as viewed from this side.", "timestamp": "00:41"},
+        {"location": "Four-Meeting Wall, Right Side", "note": "One of seven reinforcements on this site.", "timestamp": "01:02"},
+        {"location": "Outside Breach Wall", "note": "One of seven reinforcements on this site.", "timestamp": "01:02"},
+        {"location": "Hallway Wall into Break Room", "note": "One of seven reinforcements on this site.", "timestamp": "01:02"},
+        {"location": "Break Room Wall into Managers, Right Side", "note": "One of seven reinforcements on this site.", "timestamp": "01:02"},
+        {"location": "Break Room Wall into Admin, Middle", "note": "One of seven reinforcements on this site.", "timestamp": "01:02"}
       ],
       "headHoles": [
-        {"location": "Bathroom door area", "note": "Watches bathroom from the door; be careful of Yellow. Can also hold from another spot for a second angle.", "timestamp": "01:44"},
-        {"location": "Same bathroom door head holes", "note": "Giving an attacker two angles to be shot from is intentional — if they jump into this pocket they gain nothing since defenders don't usually play that area anyway, so it isn't considered a risky head hole to make.", "timestamp": "02:05"},
-        {"location": "Left-hand hatch (not the middle one) above the small box that drops into Piano", "note": "Shoot the hatch on the very left so it doesn't break but still creates a line of sight down onto the door below. Attackers (context suggests Ash-type rushers) commonly jump through the window here and run through this door; you can hold it from below without giving up the option to fully break the hatch later.", "timestamp": "02:48"},
-        {"location": "Vertical line of sight onto the CEO window plant spot", "note": "Doesn't need to be a big hole — just enough to see someone planting behind the boot case from below. An impact grenade makes a cleaner hole here than a shotgun.", "timestamp": "03:29"},
-        {"location": "Wall facing old Connector Window / Meeting", "note": "Lets you hold far into Meeting/old Connector Window, hold the breach door, hold Bathroom, hold the door to Long Desk, and even hold Top Yellow from the same position. Described as one of the strongest (maybe second-strongest) power positions on this site — has a nearby cover spot, but exposes you if bathroom window/this door/Top Yellow are all contested at once.", "timestamp": "03:50"},
-        {"location": "Head holes into the door from Break Room (feeding off the position above)", "note": "Holds anyone coming out of Printer into Break Room; can also fall back further onto a second set of head holes for a longer ACOG-range angle covering the same door (SMG11 is too inaccurate at this range).", "timestamp": "05:13"},
-        {"location": "Small box holes on the reinforced side (right/left depending which side you reinforce)", "note": "Lets you additionally hold into Admin from the small box for anyone pushing through that door.", "timestamp": "08:45"},
-        {"location": "Soft wall near the breach, into top of spiral", "note": "No reason not to head-hole this — gives an angle onto top of spiral. Better suited to an ACOG/Scope than an SMG11 given the range.", "timestamp": "10:07"},
-        {"location": "Hole above the breach", "note": "Lets you see through the breach opening to catch anyone tucking in close to it.", "timestamp": "09:46"}
+        {"location": "Bathroom Door, Angle One", "note": "Watches Bathroom from the door. Watch for Yellow.", "timestamp": "01:44"},
+        {"location": "Bathroom Door, Angle Two", "note": "Second angle from the same door area.", "timestamp": "02:05"},
+        {"location": "Left Hatch Above Small Box (into Piano)", "note": "Shoot the left hatch only, not the middle one, so it doesn't break but still gives a line of sight down onto the door below. Hold it from below without fully breaking the hatch.", "timestamp": "02:48"},
+        {"location": "Vertical Line onto CEO Window Plant Spot", "note": "Small hole is enough to see someone planting behind the boot case. Use an impact grenade for a cleaner hole than a shotgun.", "timestamp": "03:29"},
+        {"location": "Wall facing Connector Window / Meeting", "note": "Holds Meeting/Connector Window, the breach door, Bathroom, the door to Long Desk, and Top Yellow from one position. Has a nearby cover spot.", "timestamp": "03:50"},
+        {"location": "Break Room Door Head Holes", "note": "Holds anyone coming out of Printer into Break Room. Fall back to a second set of head holes for a longer ACOG-range angle on the same door — SMG11 too inaccurate at this range.", "timestamp": "05:13"},
+        {"location": "Small Box Holes, Reinforced Side", "note": "Holds into Admin from the small box for anyone pushing through that door.", "timestamp": "08:45"},
+        {"location": "Soft Wall near Breach, into Top of Spiral", "note": "Gives an angle onto top of spiral. Better with an ACOG/Scope than an SMG11 at this range.", "timestamp": "10:07"},
+        {"location": "Hole Above the Breach", "note": "Lets you see through the breach opening to catch anyone tucking in close to it.", "timestamp": "09:46"}
       ],
       "rotates": [],
       "hatches": [],
       "gadgetPlacements": [
-        {"location": "Repel area outside the strong Connector Window position", "operator": "Smoke", "note": "Smoke this area to deny the window repel.", "timestamp": "04:11"},
-        {"location": "In front of the breach doorway, C4 launched over the top", "note": "Falls near the default plant spot to deny it. (No specific operator named — any C4 carrier.)", "timestamp": "09:26"}
+        {"location": "Repel Area outside Connector Window Position", "operator": "Smoke", "note": "Smoke this area to deny the window repel.", "timestamp": "04:11"},
+        {"location": "Breach Doorway, C4 Launched Over the Top", "note": "Lands near the default plant spot to deny it. Any C4 carrier.", "timestamp": "09:26"}
       ],
       "operatorRecommendations": [],
       "generalTips": [
-        {"note": "Presenter frequently confuses the 'Admin' (downstairs) and 'Visa' (upstairs) callouts and flags this explicitly in the video.", "timestamp": "01:23"},
-        {"note": "High-ELO attackers will generally push from Admin, taking control of Admin, Break Room and Printer, then plant in the strong Connector Window position while holding across from two spots — so this area of the map must be held or contested.", "timestamp": "05:35"},
-        {"note": "The room behind Break Room/Printer has no soft walls; if you hear a repel on the Printer/Copy window, retreat immediately or you'll be trapped with no escape route.", "timestamp": "06:38"},
-        {"note": "Of the two Admin-facing windows, one has an angle cutting through Break Room; the other is largely blocked by the reinforcement made on this side. Some players choose to also reinforce the right side of Break for a peekable angle from both sides.", "timestamp": "07:21"},
-        {"note": "This area of the map isn't meant to be held all round — soak utility and kill drones for the first minute to minute-and-a-half, then fall back, making sure you're not cut off from the stairs or already flanked through Managers.", "timestamp": "07:41"},
-        {"location": null, "note": "The Break Room machine/vending-style cover spot is a well-known anchor position at higher ELO — hard to dislodge without utility. Expect a shield plus ADS/gadgets soaking utility here.", "timestamp": "08:24"},
-        {"note": "When holding the small-box/Admin reinforcement position, play further back rather than right against the wall so you can fall back if pressured — use the reinforcement as cover, hold briefly, then disengage rather than fighting to the death in the corner.", "timestamp": "08:45"},
-        {"note": "A common hiding spot: after a breach opens, attackers usually drone left through it out of habit — hopping onto the nearby table and tucking in near the breach catches people who only check left.", "timestamp": "09:46"},
-        {"note": "From the top of the spiral stairs, attackers get sightlines toward Long Desk, Vending, and into Baguette (now officially 'Secretary', but still commonly called Baguette).", "timestamp": "10:28"}
+        {"note": "Presenter frequently confuses the 'Admin' (downstairs) and 'Visa' (upstairs) callouts.", "timestamp": "01:23"},
+        {"note": "High-ELO attackers generally push from Admin, take Admin/Break Room/Printer, then plant at the Connector Window position while holding across from two spots — hold or contest this area.", "timestamp": "05:35"},
+        {"note": "The room behind Break Room/Printer has no soft walls — if you hear a repel on the Printer/Copy window, retreat immediately.", "timestamp": "06:38"},
+        {"note": "Of the two Admin-facing windows, one angles through Break Room; the other is largely blocked by the reinforcement on this side. Some also reinforce the right side of Break for a peekable angle from both sides.", "timestamp": "07:21"},
+        {"note": "Don't hold this area all round — soak utility and kill drones for the first 60-90 seconds, then fall back without getting cut off from the stairs or flanked through Managers.", "timestamp": "07:41"},
+        {"location": null, "note": "The Break Room machine/vending cover spot is a known anchor position at higher ELO — hard to dislodge without utility. Expect a shield plus ADS/gadgets soaking utility here.", "timestamp": "08:24"},
+        {"note": "When holding the small-box/Admin reinforcement position, play further back rather than against the wall — use the reinforcement as cover, hold briefly, then disengage.", "timestamp": "08:45"},
+        {"note": "After a breach opens, attackers usually drone left through it out of habit — hop onto the nearby table and tuck in near the breach to catch people who only check left.", "timestamp": "09:46"},
+        {"note": "From the top of the spiral stairs, attackers get sightlines toward Long Desk, Vending, and into Baguette (now officially Secretary).", "timestamp": "10:28"}
       ]
     },
     {
@@ -58,38 +58,38 @@
       "floor": "Basement",
       "callouts": ["Cafe (inside/outside)", "Security", "Pillar", "Storage", "Secret / Top Electrical", "Piano vertical", "Exposition (Expo)", "Spiral Stairs", "Yellow Door", "Radio"],
       "reinforcements": [
-        {"location": "Two main breach walls", "note": "First two of the site's reinforcements; discussed from inside Cafe.", "timestamp": "11:32"},
-        {"location": "Left-hand side of two adjacent walls", "note": "Third reinforcement.", "timestamp": "11:32"},
-        {"location": "Left-hand side of the Security walls", "note": "Fourth reinforcement.", "timestamp": "11:32"},
-        {"location": "Single wall from Storage into outside Cafe", "note": "Fifth reinforcement.", "timestamp": "11:53"},
-        {"location": "Single wall at Secret / Top Electrical", "note": "Sixth reinforcement.", "timestamp": "12:14"},
-        {"location": "Hatch near Piano (reinforced)", "note": "Seventh reinforcement — reinforced but note the attacking tip that a caded hatch can still be opened via Thermite charge placed on the far side of the adjoining wall (Hibana/Ace variants unverified by the creator, flagged as needing testing).", "timestamp": "12:35"},
-        {"location": "Pillar side of the long-corridor wall (Option A)", "note": "Eighth reinforcement — one of two mutually exclusive choices for this wall. Reinforcing this side lets you play Pillar and the long corridor from full cover, peeking the breach and corridor; a strong position, but you can't hold the breach from the security-hall side and get trapped if you go the wrong way (exposed to head holes from the breach).", "timestamp": "15:02"},
-        {"location": "Security-hall side of the long-corridor wall (Option B, creator's preference)", "note": "Alternative eighth reinforcement — pairs with head holes on this side, letting you hold the breach and Yellow door from behind cover on the Security Hall side. Downside: this long hallway now has an angle into the anchor spot near Pillar if left soft. Creator considers this the better overall choice since playing Pillar leaves you susceptible to being pushed from behind/spiral.", "timestamp": "15:46"},
-        {"location": "Wall protecting the Cafe-to-Security rotate (chosen side)", "note": "Ninth reinforcement. Reinforcing this side (rather than making head holes straight through) protects the rotate itself — the alternative (reinforce the other side + head holes) lets magnified-scope attackers see and lock down the rotate entirely, so the creator prefers protecting the rotate and holding the security door from the head hole side instead.", "timestamp": "17:33"}
+        {"location": "Two Main Breach Walls", "note": "First two reinforcements on this site.", "timestamp": "11:32"},
+        {"location": "Two Adjacent Walls, Left Side", "note": "Third reinforcement.", "timestamp": "11:32"},
+        {"location": "Security Walls, Left Side", "note": "Fourth reinforcement.", "timestamp": "11:32"},
+        {"location": "Storage Wall into Outside Cafe", "note": "Fifth reinforcement.", "timestamp": "11:53"},
+        {"location": "Secret / Top Electrical Wall", "note": "Sixth reinforcement.", "timestamp": "12:14"},
+        {"location": "Hatch near Piano", "note": "Seventh reinforcement.", "timestamp": "12:35"},
+        {"location": "Long-Corridor Wall, Pillar Side", "note": "Eighth reinforcement — Option A. Lets you play Pillar and the long corridor from full cover, peeking the breach and corridor. Can't hold the breach from the Security Hall side; exposed to head holes from the breach if you go the wrong way.", "timestamp": "15:02"},
+        {"location": "Long-Corridor Wall, Security-Hall Side", "note": "Alternative eighth reinforcement — Option B, creator's preference. Pairs with head holes on this side; holds the breach and Yellow door from cover on the Security Hall side. Leaves an angle into the Pillar anchor spot if the hallway is left soft.", "timestamp": "15:46"},
+        {"location": "Cafe-to-Security Rotate Wall", "note": "Ninth reinforcement. Protects the rotate itself and holds the security door from the head hole side.", "timestamp": "17:33"}
       ],
       "headHoles": [
-        {"location": "Long-corridor wall (paired with whichever side is left soft, see reinforcements)", "note": "Depends which side of the Pillar/Security wall you reinforce — see the two reinforcement options above.", "timestamp": "15:02"},
-        {"location": "Head holes protecting the rotate side", "note": "Lets you hold the security door; only downside is you've only got a small bit of cover here plus the door itself to watch, but still a nice angle to hold.", "timestamp": "17:53"},
-        {"location": "Cafe-into-Security rotate head holes", "note": "Second rotate on this site — get across between Cafe and Security with head holes covering the angle. Can hold Yellow door, the breach, and peek from Security Hallway.", "timestamp": "18:34"}
+        {"location": "Long-Corridor Wall, Soft Side", "note": "Paired with whichever side of the Pillar/Security wall is left soft.", "timestamp": "15:02"},
+        {"location": "Rotate-Side Head Holes", "note": "Holds the security door. Small bit of cover plus the door to watch.", "timestamp": "17:53"},
+        {"location": "Cafe-into-Security Rotate Head Holes", "note": "Get across between Cafe and Security with head holes covering the angle. Holds Yellow door, the breach, and peeks from Security Hallway.", "timestamp": "18:34"}
       ],
       "rotates": [
-        {"location": "End of Cafe", "note": "One of the very few rotates on this site.", "timestamp": "17:11"},
-        {"location": "Cafe into Security", "note": "Second rotate; pair with head holes to be able to get across and hold both sides.", "timestamp": "18:34"}
+        {"location": "End of Cafe", "note": "One of the few rotates on this site.", "timestamp": "17:11"},
+        {"location": "Cafe into Security", "note": "Pair with head holes to get across and hold both sides.", "timestamp": "18:34"}
       ],
       "hatches": [],
       "gadgetPlacements": [
-        {"location": "Default camera spot upstairs, corner of the hatch", "operator": null, "note": "Attackers commonly drone Visa, walk in and shoot the default cam right away. Place a C4 in the corner near the hatch covering the default cam spot — when they crouch to shoot the cam, detonate the C4 on them. Works roughly 3 rounds out of 5 according to the creator.", "timestamp": "19:37"},
-        {"location": "Above Security Hallway, book/high ground angle", "operator": null, "note": "An attacking-tip aside shown for context: attackers can stand on a book to hold both the security hallway rotate and reinforced wall from one spot, denying defenders any safe path back through the rotate or security door once the breach plant starts.", "timestamp": "21:01"}
+        {"location": "Default Camera Spot Upstairs, Corner of the Hatch", "operator": null, "note": "Attackers commonly drone Visa, walk in and shoot the default cam right away. Place C4 in the corner near the hatch covering the default cam spot; detonate when they crouch to shoot the cam.", "timestamp": "19:37"},
+        {"location": "Above Security Hallway, Book/High Ground", "operator": null, "note": "Attackers can stand on a book here to hold both the security hallway rotate and reinforced wall from one spot.", "timestamp": "21:01"}
       ],
       "operatorRecommendations": [],
       "generalTips": [
-        {"note": "Shoot the basement radio — purely a quality-of-life tip, has no gameplay effect but the creator strongly dislikes the tune.", "timestamp": "11:10"},
-        {"note": "The main attacker win condition on this site is taking the Piano/Exposition vertical — if they don't take it, winning the site downstairs is very difficult for them.", "timestamp": "13:18"},
-        {"note": "Because attackers will eventually win the vertical fight (defenders can usually only spare 1-2 players up there against 3-4 attackers), leaving the three walls near the hatch/vertical soft lets defenders impact/shotgun them later in the round to create surprise angles the vertical-holding attacker doesn't expect.", "timestamp": "13:40"},
-        {"note": "As a defender upstairs near the vertical, don't overstay — kill a few drones then get out; you can be cut off from Visa-side windows if you linger too long.", "timestamp": "14:21"},
-        {"note": "If you're stuck below during a piano-side plant with no defenders left near the door, there's not much you can do except challenge the vertical directly.", "timestamp": "22:49"},
-        {"note": "Treat sites as layers — hold each room until pushed back rather than hunkering at the very back of site from the start; you want first contact with drones/utility to happen further out, not right on the plant spot.", "timestamp": "39:38"}
+        {"note": "Shoot the basement radio.", "timestamp": "11:10"},
+        {"note": "The main attacker win condition on this site is taking the Piano/Exposition vertical.", "timestamp": "13:18"},
+        {"note": "Leave the three walls near the hatch/vertical soft so they can be impacted/shotgunned later for surprise angles.", "timestamp": "13:40"},
+        {"note": "As a defender upstairs near the vertical, kill a few drones then get out — don't linger or you can be cut off from Visa-side windows.", "timestamp": "14:21"},
+        {"note": "If stuck below during a piano-side plant with no defenders left near the door, challenge the vertical directly.", "timestamp": "22:49"},
+        {"note": "Hold each room until pushed back rather than hunkering at the very back of site from the start.", "timestamp": "39:38"}
       ]
     },
     {
@@ -98,43 +98,42 @@
       "floor": "Top Floor",
       "callouts": ["Piano", "Top Yellow", "Small Box", "Exposition (Expo)", "Lounge", "Visa / Tellers", "Benches (now West Corridor)", "Main Breach / Balcony", "CEO through to Meeting", "Front Door", "Yellow Stairs Window", "Spiral"],
       "reinforcements": [
-        {"location": "Piano out to the top-yellow area", "note": "First of nine reinforcements used on this site (a 10th is optional, discussed separately).", "timestamp": "23:11"},
-        {"location": "Right-hand side wall of the small box area outside Piano", "note": "Second reinforcement.", "timestamp": "23:31"},
-        {"location": "Double wall from Expo into Lounge", "note": "Third/fourth reinforcement (double wall).", "timestamp": "23:31"},
-        {"location": "Double wall from Lounge into Visa/Tellers", "note": "Fifth/sixth reinforcement (double wall).", "timestamp": "23:31"},
-        {"location": "Left-hand side wall of Expo out to the Benches (West Corridor) window", "note": "Optional/seventh reinforcement — creator flags they may or may not use this one.", "timestamp": "23:51"},
-        {"location": "Main breach wall, out onto the balcony", "note": "Upstairs reinforcement.", "timestamp": "24:13"},
-        {"location": "Right-hand side of CEO through to Meeting", "note": "Upstairs reinforcement, mirrors the CEO/Meeting site's own setup.", "timestamp": "24:13"},
-        {"location": "Long-corridor wall near the piano window rotate", "note": "Optional/interesting reinforcement — creator would potentially reinforce it against a coordinated team, but prefers to leave it soft for maneuverability (see rotates/generalTips).", "timestamp": "27:22"},
-        {"location": "Wall protecting the front-door/small-box position", "note": "Reinforced to give a line of sight for small box (covering jump-ins) and cover for later-round pushes through this door.", "timestamp": "28:47"}
+        {"location": "Piano out to Top-Yellow", "note": "First of nine reinforcements on this site (a tenth is optional).", "timestamp": "23:11"},
+        {"location": "Small Box Wall, Right Side", "note": "Second reinforcement.", "timestamp": "23:31"},
+        {"location": "Expo into Lounge, Double Wall", "note": "Third/fourth reinforcement.", "timestamp": "23:31"},
+        {"location": "Lounge into Visa/Tellers, Double Wall", "note": "Fifth/sixth reinforcement.", "timestamp": "23:31"},
+        {"location": "Expo Wall out to Benches (West Corridor) Window, Left Side", "note": "Optional/seventh reinforcement.", "timestamp": "23:51"},
+        {"location": "Main Breach Wall, out onto Balcony", "note": "Upstairs reinforcement.", "timestamp": "24:13"},
+        {"location": "CEO through to Meeting, Right Side", "note": "Upstairs reinforcement, mirrors the CEO/Meeting site's own setup.", "timestamp": "24:13"},
+        {"location": "Long-Corridor Wall near Piano Window Rotate", "note": "Optional reinforcement against a coordinated team; otherwise left soft for maneuverability.", "timestamp": "27:22"},
+        {"location": "Front-Door / Small-Box Wall", "note": "Gives a line of sight for small box covering jump-ins, and cover for later-round pushes through this door.", "timestamp": "28:47"}
       ],
       "headHoles": [
-        {"location": "Long-corridor angle near the piano-window rotate (if left soft)", "note": "Optional head holes for a long angle out onto mid/bottom-top spiral.", "timestamp": "29:07"}
+        {"location": "Long-Corridor Angle near Piano-Window Rotate", "note": "Optional, if the wall is left soft — long angle out onto mid/bottom-top spiral.", "timestamp": "29:07"}
       ],
       "rotates": [
-        {"location": "Downstairs rotate near the piano/lounge window", "note": "Can open the hatch alongside it if desired, but you lose the rotate if you do.", "timestamp": "27:22"},
-        {"location": "Piano window rotate (kept soft, not reinforced)", "note": "Creator's preference — lets you come out of either of two doors instead of getting trapped in a 1v2, and gives maneuverability around to the piano window or into Lounge/Spiral. Acknowledges reinforcing it is also a valid, less generous-to-attackers choice.", "timestamp": "27:44"}
+        {"location": "Downstairs Rotate near Piano/Lounge Window", "note": "Can open the hatch alongside it, but you lose the rotate if you do.", "timestamp": "27:22"},
+        {"location": "Piano Window Rotate", "note": "Kept soft — lets you come out of either of two doors instead of getting trapped in a 1v2, and gives maneuverability to the piano window or into Lounge/Spiral.", "timestamp": "27:44"}
       ],
       "hatches": [],
       "gadgetPlacements": [
-        {"location": "Whole top floor (Meeting double, Meeting single, Top Yellow door, spiral-side door)", "operator": "Castle", "note": "Barricade these spots when holding above a floor — cuts off multiple entry points and any barricade being broken alerts you. Leave the hatch on your own side of the Castle barricade. Alternative targets if not the yellow door: Connector Window or CEO Window.", "timestamp": "25:17"},
-        {"location": "Connector/Meeting Window vertical", "note": "Line down onto the breach that goes to Lounge — a common push and plant corner. Making the hole closer to the breach makes it harder for a runner to get the angle as they cross.", "timestamp": "25:58"},
-        {"location": "Front door and Lounge vertical", "note": "Standard vertical to watch pushes through the front door.", "timestamp": "26:39"},
-        {"location": "Closet / small box jump-in vertical", "note": "Hold the window from above without standing directly over it.", "timestamp": "27:00"},
-        {"location": "Yellow stairs window vertical", "note": "Additional vertical hold point.", "timestamp": "27:00"}
+        {"location": "Meeting Double, Meeting Single, Top Yellow Door, Spiral-Side Door", "operator": "Castle", "note": "Barricade these spots when holding above a floor — cuts off multiple entry points, and any barricade being broken alerts you. Leave the hatch on your own side of the barricade. Alternative targets: Connector Window or CEO Window.", "timestamp": "25:17"},
+        {"location": "Connector/Meeting Window Vertical", "note": "Line down onto the breach that goes to Lounge — a common push and plant corner. Make the hole closer to the breach to deny the angle to a crossing runner.", "timestamp": "25:58"},
+        {"location": "Front Door and Lounge Vertical", "note": "Watches pushes through the front door.", "timestamp": "26:39"},
+        {"location": "Closet / Small Box Jump-In Vertical", "note": "Hold the window from above without standing directly over it.", "timestamp": "27:00"},
+        {"location": "Yellow Stairs Window Vertical", "note": "Additional vertical hold point.", "timestamp": "27:00"}
       ],
       "operatorRecommendations": [
-        {"operator": "Castle", "role": "Upstairs anchor/utility", "note": "Barricades multiple top-floor entries when holding above a floor — recommended as a strong general pick for any map's upper-floor holds, not just this site."}
+        {"operator": "Castle", "role": "Upstairs anchor/utility", "holdLocation": "Top Floor Entries", "note": "Barricades multiple top-floor entries when holding above a floor."}
       ],
       "generalTips": [
-        {"note": "Considered underrated by the creator — thinks it's a better site than people give it credit for.", "timestamp": "23:11"},
-        {"note": "'Benches' is the old callout for what's officially West Corridor — two benches used to be there on old Consulate; most players still say Benches.", "timestamp": "23:51"},
-        {"note": "You likely want two players upstairs — any decent attacking team will contest the vertical, and without denying it they can do whatever they want.", "timestamp": "27:00"},
-        {"note": "If trapped in a 1v2 downstairs with both attackers pushing Piano, you have no choice but to hold this angle or the alternate one — it's fairly predictable because you're boxed in.", "timestamp": "27:44"},
-        {"note": "Because the front-door position is reinforced, you don't need to also reinforce the rotate wall into Lounge — you can play this room and challenge onto the front door, optionally with a deployable shield.", "timestamp": "29:07"},
-        {"note": "A good team will come upstairs and flush you out of the front-door hold, but you can burn 3-4 of their drones first — don't get overly aggressive on the door.", "timestamp": "29:28"},
-        {"note": "Be careful peeking the front door if the barricade is still closed — you'll need to pre-fire since it's not an easy peek otherwise.", "timestamp": "29:50"},
-        {"note": "The hatch on this site works in the defender's favor if used for mobility alongside the rotates.", "timestamp": "30:10"}
+        {"note": "'Benches' is the old callout for what's officially West Corridor.", "timestamp": "23:51"},
+        {"note": "Run two players upstairs — any decent attacking team will contest the vertical.", "timestamp": "27:00"},
+        {"note": "If trapped in a 1v2 downstairs with both attackers pushing Piano, hold this angle or the alternate one.", "timestamp": "27:44"},
+        {"note": "Because the front-door position is reinforced, you don't need to also reinforce the rotate wall into Lounge — play this room and challenge onto the front door, optionally with a deployable shield.", "timestamp": "29:07"},
+        {"note": "A good team will come upstairs and flush you out of the front-door hold — burn 3-4 of their drones first, don't get overly aggressive on the door.", "timestamp": "29:28"},
+        {"note": "Pre-fire when peeking the front door if the barricade is still closed.", "timestamp": "29:50"},
+        {"note": "Use the hatch on this site for mobility alongside the rotates.", "timestamp": "30:10"}
       ]
     },
     {
@@ -143,46 +142,46 @@
       "floor": "Basement / Top Floor (split site)",
       "callouts": ["Servers", "Tellers", "Secret", "Construction", "Cafe Hall", "Server Stairs", "Towers", "Lounge", "Visa hatch corner", "Break Room (upstairs)", "Spiral", "Garage Breach"],
       "reinforcements": [
-        {"location": "Secret, single wall", "note": "First reinforcement on this site.", "timestamp": "31:12"},
-        {"location": "Two end walls from Construction into Cafe", "note": "Second/third reinforcement.", "timestamp": "31:12"},
-        {"location": "Single wall from Storage into Cafe Hall (viewed from inside Server)", "note": "Fourth reinforcement.", "timestamp": "31:33"},
-        {"location": "Wall at the top of Server Stairs", "note": "Fifth reinforcement.", "timestamp": "31:33"},
-        {"location": "Two walls at the back of Towers, through to Lounge", "note": "Sixth/seventh reinforcement.", "timestamp": "31:33"},
-        {"location": "Hatch in the corner of Visa, opposite the door", "note": "Reinforced — this is one of two hatches upstairs; the other is left soft (see hatches).", "timestamp": "31:56"}
+        {"location": "Secret, Single Wall", "note": "First reinforcement on this site.", "timestamp": "31:12"},
+        {"location": "Construction into Cafe, Two End Walls", "note": "Second/third reinforcement.", "timestamp": "31:12"},
+        {"location": "Storage into Cafe Hall Wall", "note": "Fourth reinforcement.", "timestamp": "31:33"},
+        {"location": "Top of Server Stairs Wall", "note": "Fifth reinforcement.", "timestamp": "31:33"},
+        {"location": "Back of Towers through to Lounge, Two Walls", "note": "Sixth/seventh reinforcement.", "timestamp": "31:33"},
+        {"location": "Visa Corner Hatch, Opposite the Door", "note": "One of two hatches upstairs; the other is left soft.", "timestamp": "31:56"}
       ],
       "headHoles": [
-        {"location": "Entry into Tellers, on the Teller's door", "note": "Since the site plays below with C4 denial above, make holes at the door so you can hold it from below.", "timestamp": "34:21"},
-        {"location": "Teller's window", "note": "The only other way into Tellers besides the door — holes here let you hold the window from below too, so in theory nobody can get in if held well.", "timestamp": "34:21"},
-        {"location": "Either side of the desk in Tellers", "note": "Vertical holes either side of the desk (creator prefers standing on the desk to make them) — lets you see anyone crouched on top of the desk, a common plant spot chosen because C4 alone won't kill someone standing there.", "timestamp": "34:41"},
-        {"location": "Double-door watch hole", "note": "Watch anyone coming through the double door; find the hatch, go left, and that's where the door is — can be watched from below.", "timestamp": "37:51"}
+        {"location": "Tellers Door Entry", "note": "Site plays below with C4 denial above — hole at the door to hold it from below.", "timestamp": "34:21"},
+        {"location": "Tellers Window", "note": "Only other way into Tellers besides the door — holds the window from below too.", "timestamp": "34:21"},
+        {"location": "Tellers Desk, Either Side", "note": "Vertical holes either side of the desk (stand on the desk to make them) — sees anyone crouched on top, a common plant spot since C4 alone won't kill someone standing there.", "timestamp": "34:41"},
+        {"location": "Double-Door Watch Hole", "note": "Watch anyone coming through the double door; find the hatch, go left to locate the door.", "timestamp": "37:51"}
       ],
       "rotates": [
-        {"location": "Bottom of the stairs", "note": "No specific line of sight — purely for maneuverability around the site; without it you have to loop all the way around through the bottom of spiral.", "timestamp": "32:37"},
-        {"location": "Servers into Storage", "note": "Lets you hold Servers and move around to hold the other side, and vice versa.", "timestamp": "32:58"},
-        {"location": "Secret", "note": "Want a rotate here — if the adjoining single wall gets opened it becomes much harder to manage without it; single wall (vs double) also limits how attackers can hard-breach it, making a Mute deployment here effective.", "timestamp": "36:26"}
+        {"location": "Bottom of the Stairs", "note": "No line of sight — for maneuverability around the site; without it you loop all the way around through the bottom of spiral.", "timestamp": "32:37"},
+        {"location": "Servers into Storage", "note": "Holds Servers and lets you move around to hold the other side.", "timestamp": "32:58"},
+        {"location": "Secret", "note": "Single wall (vs double) limits how attackers can hard-breach it, making a Mute deployment effective here.", "timestamp": "36:26"}
       ],
       "hatches": [
-        {"location": "Hatch in the corner of Visa, opposite the door", "note": "Reinforced.", "timestamp": "31:56"},
-        {"location": "Break Room hatch (upstairs)", "note": "Left soft/open — opening it lets you drop down instead of running the stairs.", "timestamp": "31:56"},
-        {"location": "Second Visa-side hatch", "note": "Left soft — the reason only one of the two upstairs hatches was reinforced is to give a gunner-type player near the door/window/spiral push a fast way to drop to safety after soaking utility, rather than being fully sealed in.", "timestamp": "33:39"}
+        {"location": "Visa Corner Hatch, Opposite the Door", "note": "Reinforced.", "timestamp": "31:56"},
+        {"location": "Break Room Hatch (Upstairs)", "note": "Left soft — opening it lets you drop down instead of running the stairs.", "timestamp": "31:56"},
+        {"location": "Second Visa-Side Hatch", "note": "Left soft — gives a gunner-type player near the door/window/spiral a fast drop to safety after soaking utility.", "timestamp": "33:39"}
       ],
       "gadgetPlacements": [
-        {"location": "Wall near bottom of spiral", "note": "Creator sees little purpose in reinforcing this wall — doesn't gain much even with a line of sight through it, so it's deliberately left alone entirely.", "timestamp": "33:19"},
-        {"location": "Tellers, high up (not the back wall facing Visa)", "operator": "Valkyrie", "note": "Cam placement is close to essential on this site — avoid the back wall (gets destroyed from Visa); try a side wall, a dark corner, on top of the clock, or even on the floor (rarely checked). Higher placement is generally better. Plant timer here is only 7 seconds, so early warning from the cam (or an Echo drone/intel) is critical to react in time.", "timestamp": "35:24"},
-        {"location": "Visa window overlooking the Secret bridge/breach", "note": "Can shoot an Ace charge off if someone starts placing one on the breach visible from this window.", "timestamp": "37:07"}
+        {"location": "Wall near Bottom of Spiral", "note": "Deliberately left soft — not worth reinforcing.", "timestamp": "33:19"},
+        {"location": "Tellers, High Up (not the back wall facing Visa)", "operator": "Valkyrie", "note": "Avoid the back wall — it gets destroyed from Visa. Try a side wall, a dark corner, on top of the clock, or on the floor. Higher placement is better. Plant timer here is only 7 seconds.", "timestamp": "35:24"},
+        {"location": "Visa Window overlooking Secret Bridge/Breach", "note": "Shoot an Ace charge off if someone starts placing one on the breach visible from this window.", "timestamp": "37:07"}
       ],
       "operatorRecommendations": [
-        {"operator": "Mute", "role": "Secret wall / Anchor", "note": "Effective at the Secret single wall — a single Jammer meaningfully denies it since (unlike a double wall) Thermite can't reopen it from just one side."},
-        {"operator": "Valkyrie", "role": "Intel", "note": "Near-essential cam pickup in Tellers to see the plant given the short 7-second plant timer; an Echo drone/intel is offered as an alternative source of the same information."}
+        {"operator": "Mute", "role": "Secret wall / Anchor", "holdLocation": "Secret", "note": "A single Jammer denies the Secret single wall — Thermite can't reopen it from just one side."},
+        {"operator": "Valkyrie", "role": "Intel", "holdLocation": "Tellers", "note": "Near-essential cam pickup in Tellers to see the plant given the short 7-second plant timer. Echo drone/intel is an alternative source of the same information."}
       ],
       "generalTips": [
-        {"note": "One of the only sites in the ranked map pool where the bomb can be planted across two separate floors (Servers below, Tellers above) — requires full 5-stack coordination; a disorganized random stack has little chance of holding it.", "timestamp": "30:52"},
-        {"note": "Definitely worth holding Top Yellow and playing in the Break Room upstairs; you can hold the window and any vertical made against you from there too.", "timestamp": "31:56"},
-        {"note": "Playing upstairs near the door/window/spiral is meant for a gunner-type player who soaks 2-4 drones and some flashes/nades, then drops down to the safety of Servers below via the soft hatch — absolutely avoid dying up there.", "timestamp": "33:39"},
-        {"note": "Don't forget to shoot the basement radio — same running joke as the other basement site.", "timestamp": "38:56"},
-        {"note": "If the two upstairs reinforcements aren't used there, they can instead go on the breach or along the Cafe walls; soak utility on 2-3 drones pushing Cafe, then fall back behind those reinforcements.", "timestamp": "39:17"},
-        {"note": "Treat the whole map like layers — defend each room until pushed back rather than hunkering directly on the plant spot from round start; you want first drone/utility contact to happen further out.", "timestamp": "39:38"},
-        {"note": "Goal is to burn the attackers' drones and utility before they can execute — if they're forced to execute blind without either, defenders win the overwhelming majority of those rounds.", "timestamp": "40:19"}
+        {"note": "One of the only sites where the bomb can be planted across two separate floors (Servers below, Tellers above) — requires full 5-stack coordination.", "timestamp": "30:52"},
+        {"note": "Worth holding Top Yellow and playing in the Break Room upstairs — holds the window and any vertical made against you from there too.", "timestamp": "31:56"},
+        {"note": "Playing upstairs near the door/window/spiral is for a gunner-type player who soaks 2-4 drones and some flashes/nades, then drops down to Servers via the soft hatch — avoid dying up there.", "timestamp": "33:39"},
+        {"note": "Shoot the basement radio.", "timestamp": "38:56"},
+        {"note": "If the two upstairs reinforcements aren't used there, put them on the breach or along the Cafe walls; soak utility on 2-3 drones pushing Cafe, then fall back behind those reinforcements.", "timestamp": "39:17"},
+        {"note": "Defend each room until pushed back rather than hunkering directly on the plant spot from round start.", "timestamp": "39:38"},
+        {"note": "Burn attackers' drones and utility before they can execute.", "timestamp": "40:19"}
       ]
     }
   ]
