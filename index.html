@@ -1,4 +1,7 @@
 <meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <style>
   :root{
     --bg:#0b0d0c; --panel:#141715; --panel2:#1b1f1c; --line:#2a2f2b;
@@ -837,6 +840,16 @@ function runAttackAssignment(){
 // deterministic pass rather than order-dependent leftovers from whoever
 // happened to auto-pick first.
 function refreshAllPicks(){
+  // Clear picks BEFORE drafting, not after. getRecommended()/pickedElsewhere()
+  // read the live state.picks to avoid double-assigning an operator — but
+  // both draft functions only write state.picks at the very end, so without
+  // this clear, a mid-draft fallback lookup sees stale picks from whatever
+  // site/side was active a moment ago. Concretely: switching sites used to
+  // silently "keep" your old operator whenever it happened to still look
+  // unclaimed under the stale data — same operator, no visible change, no
+  // error, just wrong. Starting from a clean slate every time removes that
+  // whole class of bug.
+  activeRoster().forEach(p => { state.picks[p.id] = ''; });
   if(state.side === 'Defense'){
     runDefenseDraft();
   } else {
