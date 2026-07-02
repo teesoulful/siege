@@ -149,18 +149,24 @@
   <h1 id="pageTitle">Ops board</h1>
   <p class="sub" id="pageSub">Sample data for Bank, Chalet, Clubhouse — swap in the full bank once the flow feels right.</p>
 
+  <!-- SCREEN 0: LOGIN -->
+  <div class="screen on" id="screenLogin">
+    <div class="card">
+      <h2>Sign in</h2>
+      <label class="field">Email
+        <input type="email" id="loginEmail" placeholder="you@example.com" autocomplete="email">
+      </label>
+      <button class="primary" id="sendMagicLinkBtn">Send magic link</button>
+      <p class="sub" id="loginStatus" style="display:none;margin:12px 0 0;"></p>
+    </div>
+  </div>
+
   <!-- SCREEN 1: SETUP -->
-  <div class="screen on" id="screenSetup">
+  <div class="screen" id="screenSetup">
     <div class="card">
       <h2>Who's playing tonight</h2>
       <div class="squadgrid" id="squadGrid"></div>
       <div class="squadwarn" id="squadWarn" style="display:none;">Need at least 2 to run a session.</div>
-    </div>
-    <div class="card">
-      <h2>Who are you</h2>
-      <label class="field">
-        <select id="viewAs"></select>
-      </label>
     </div>
     <button class="primary" id="toMatchBtn">Continue to map</button>
   </div>
@@ -216,11 +222,17 @@
     </div>
   </div>
 
-  <p class="footer-note">Prototype only — data lives in this browser tab and resets on reload.<br>Next step: real accounts, real sync, full strategy bank.</p>
+  <p class="footer-note">Shared with the squad — map/side/bans/picks sync live. Each player's own alive/dead status is the only thing only they can set.</p>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <script>document.write('<script src="dist/data.js?v=' + Date.now() + '"><\/script>');</script>
 <script>
+const SUPABASE_URL = 'https://jhfumchrfylgfoflslgh.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpoZnVtY2hyZnlsZ2ZvZmxzbGdoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODMwMDUyOTMsImV4cCI6MjA5ODU4MTI5M30.6jw9CcR4Ilc5qOY530BjsCH5EJvhi5l5cJ_JmGrbmMQ';
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+let myPlayerId = null; // set once on login — this replaces the old "who are you" dropdown entirely
+
 // defenseComfort: how comfortable each player is being "out" (perimeter,
 // roaming, gunfights) vs. "in" (tucked, passive anchor). Lower = more
 // comfortable out, drafts first for the more exposed defense slots at a
@@ -265,6 +277,10 @@ function renderMap(){
   }
 }
 
+// Defaults below are only what's shown before Supabase's real match_state
+// row loads after login — loadInitialState() overwrites the shared fields
+// (map/side/site/round/overtime/activeSquad/banned/banHistory/picks)
+// immediately after sign-in, and viewingAs is fixed to whoever logged in.
 let state = {
   activeSquad: new Set(['tee','tamiym','stefan','eman']),
   viewingAs: 'tee',
@@ -301,6 +317,143 @@ function flashDeath(name){
   if(navigator.vibrate) navigator.vibrate([80,40,80]);
 }
 
+// ---- AUTH ----
+// Identity comes entirely from login now — whichever squad email you sign
+// in with resolves to a fixed myPlayerId via the players table, replacing
+// the old "who are you" dropdown. Map/side/site/bans/picks/round/overtime/
+// activeSquad are shared match state; alive/dead is the one thing each
+// player can only set for themselves (enforced server-side by RLS, not
+// just hidden client-side).
+async function initAuth(){
+  const { data: { session } } = await sb.auth.getSession();
+  if(session){
+    await onAuthed(session);
+  } else {
+    showScreen('screenLogin');
+  }
+  sb.auth.onAuthStateChange((event, session) => {
+    if(event === 'SIGNED_IN' && session && !myPlayerId){
+      onAuthed(session);
+    }
+  });
+}
+
+async function onAuthed(session){
+  const email = session.user.email;
+  const { data: player } = await sb.from('players').select('*').eq('email', email).maybeSingle();
+  const statusEl = document.getElementById('loginStatus');
+  if(!player){
+    statusEl.style.display = 'block';
+    statusEl.textContent = `Signed in as ${email}, but that email isn't registered for this squad — ask Tee to add it.`;
+    showScreen('screenLogin');
+    return;
+  }
+  myPlayerId = player.id;
+  state.viewingAs = player.id;
+  await loadInitialState();
+  subscribeRealtime();
+  showScreen('screenSetup');
+  renderAll();
+}
+
+document.getElementById('sendMagicLinkBtn').addEventListener('click', async () => {
+  const email = document.getElementById('loginEmail').value.trim();
+  const statusEl = document.getElementById('loginStatus');
+  if(!email) return;
+  statusEl.style.display = 'block';
+  statusEl.textContent = 'Sending link...';
+  const { error } = await sb.auth.signInWithOtp({ email, options: { emailRedirectTo: window.location.origin } });
+  statusEl.textContent = error ? `Error: ${error.message}` : `Check ${email} for a login link, then open it on this device.`;
+});
+
+// ---- SHARED STATE SYNC (match_state + player_status) ----
+async function loadInitialState(){
+  const { data: ms } = await sb.from('match_state').select('*').eq('id', 1).single();
+  if(ms) applyRemoteMatchState(ms, {render: false});
+  const { data: statuses } = await sb.from('player_status').select('*');
+  if(statuses) statuses.forEach(s => { state.alive[s.player_id] = s.alive; });
+}
+
+function applyRemoteMatchState(row, opts){
+  state.map = row.map;
+  state.side = row.side;
+  state.site = row.site;
+  state.round = row.round;
+  state.overtime = row.overtime;
+  state.activeSquad = new Set(row.active_squad || []);
+  state.banned = new Set(row.banned || []);
+  state.banHistory = {
+    Defense: new Set((row.ban_history || {}).Defense || []),
+    Attack: new Set((row.ban_history || {}).Attack || []),
+  };
+  state.picks = row.picks || {tee:'', tamiym:'', stefan:'', eman:''};
+  lastSyncedSnapshot = sharedStateSnapshot(); // this came FROM the server — don't echo it straight back
+  if(!opts || opts.render !== false) renderAll();
+}
+
+let lastSyncedSnapshot = null;
+function sharedStateSnapshot(){
+  return JSON.stringify({
+    map: state.map, side: state.side, site: state.site, round: state.round,
+    overtime: state.overtime,
+    activeSquad: Array.from(state.activeSquad).sort(),
+    banned: Array.from(state.banned).sort(),
+    banHistory: {
+      Defense: Array.from(state.banHistory.Defense).sort(),
+      Attack: Array.from(state.banHistory.Attack).sort(),
+    },
+    picks: state.picks,
+  });
+}
+// Called at the end of every renderAll() — diffs against the last-synced
+// snapshot so only real changes get pushed, and pushes just once per
+// change regardless of how many render paths touched it.
+function maybeSyncState(){
+  if(!myPlayerId) return;
+  const snap = sharedStateSnapshot();
+  if(snap === lastSyncedSnapshot) return;
+  lastSyncedSnapshot = snap;
+  sb.from('match_state').update({
+    map: state.map, side: state.side, site: state.site, round: state.round,
+    overtime: state.overtime,
+    active_squad: Array.from(state.activeSquad),
+    banned: Array.from(state.banned),
+    ban_history: {
+      Defense: Array.from(state.banHistory.Defense),
+      Attack: Array.from(state.banHistory.Attack),
+    },
+    picks: state.picks,
+  }).eq('id', 1).then(({error}) => { if(error) console.error('match_state sync failed:', error); });
+}
+
+function setMyAlive(value){
+  sb.from('player_status').update({alive: value}).eq('player_id', myPlayerId)
+    .then(({error}) => { if(error) console.error('player_status sync failed:', error); });
+}
+
+function subscribeRealtime(){
+  sb.channel('match_state_changes')
+    .on('postgres_changes', {event: 'UPDATE', schema: 'public', table: 'match_state'}, payload => {
+      console.log('[realtime] match_state update received', payload.new);
+      applyRemoteMatchState(payload.new);
+    })
+    .subscribe(status => console.log('[realtime] match_state channel status:', status));
+
+  sb.channel('player_status_changes')
+    .on('postgres_changes', {event: 'UPDATE', schema: 'public', table: 'player_status'}, payload => {
+      console.log('[realtime] player_status update received', payload.new);
+      const pid = payload.new.player_id;
+      const wasAlive = state.alive[pid];
+      state.alive[pid] = payload.new.alive;
+      if(wasAlive && !payload.new.alive){
+        const p = ROSTER.find(r => r.id === pid);
+        if(p) flashDeath(p.name);
+      }
+      renderAll();
+    })
+    .subscribe(status => console.log('[realtime] player_status channel status:', status));
+}
+
 // ---- SCREEN NAV ----
 function showScreen(id){
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('on'));
@@ -319,7 +472,8 @@ function updateHeader(id){
   titleEl.classList.remove('centered');
   subEl.style.display = 'block';
   const titles = {
-    screenSetup: ["Who's in", "Pick your squad for tonight, then who you are."],
+    screenLogin: ["Squad Ops", "Sign in to sync with the squad."],
+    screenSetup: ["Who's in", "Pick who's playing tonight — you're already in, you're signed in."],
     screenMatch: ["Map & side", "Set once — you'll come back here every game, that's fine."],
   };
   titleEl.textContent = titles[id][0];
@@ -335,30 +489,19 @@ function renderSquadPicker(){
     chip.appendChild(el('span','dot'));
     chip.appendChild(el('span','', p.name));
     chip.onclick = () => {
+      if(p.id === myPlayerId) return; // you can't toggle yourself out — you're clearly here
       if(state.activeSquad.has(p.id)){
         if(state.activeSquad.size <= 2) return;
         state.activeSquad.delete(p.id);
-        if(state.viewingAs === p.id){
-          state.viewingAs = activeRoster()[0].id;
-        }
-        refreshAllPicks();
       } else {
         state.activeSquad.add(p.id);
-        refreshAllPicks();
       }
+      refreshAllPicks();
       renderAll();
     };
     grid.appendChild(chip);
   });
   document.getElementById('squadWarn').style.display = state.activeSquad.size <= 2 ? 'block' : 'none';
-
-  const viewSel = document.getElementById('viewAs');
-  viewSel.innerHTML = '';
-  activeRoster().forEach(p => {
-    const o = el('option'); o.value = p.id; o.textContent = p.name;
-    if(p.id === state.viewingAs) o.selected = true;
-    viewSel.appendChild(o);
-  });
 }
 
 // ---- MATCH SCREEN ----
@@ -871,6 +1014,7 @@ function renderAll(){
   renderAliveBtn();
   renderSquadStrip();
   renderInstructions();
+  maybeSyncState();
 }
 
 // ---- EVENTS ----
@@ -883,13 +1027,6 @@ document.getElementById('toLiveBtn').addEventListener('click', () => {
 document.getElementById('editMatchBtn').addEventListener('click', () => showScreen('screenMatch'));
 document.getElementById('changeSquadBtn').addEventListener('click', () => showScreen('screenSetup'));
 
-document.getElementById('viewAs').addEventListener('change', e => {
-  // switching who YOU are viewing never redrafts — everyone's pick was
-  // already assigned together; this just changes whose card you're looking at.
-  state.viewingAs = e.target.value;
-  state.manualPickOpen = !state.picks[state.viewingAs];
-  renderAll();
-});
 document.getElementById('mapSelect').addEventListener('change', e => {
   state.map = e.target.value;
   state.site = STRATEGY_BANK[state.map].sites[0];
@@ -917,13 +1054,16 @@ document.getElementById('yourOpSelect').addEventListener('change', e => {
 });
 
 document.getElementById('aliveBtn').addEventListener('click', () => {
-  const you = state.viewingAs;
-  const wasAlive = state.alive[you];
-  state.alive[you] = !state.alive[you];
-  if(wasAlive && !state.alive[you]){
-    flashDeath(ROSTER.find(p => p.id === you).name);
-  }
-  renderAll();
+  // Optimistic local flip for instant button feedback — the actual flash
+  // fires from the realtime echo (subscribeRealtime), not from here, so it
+  // fires consistently on every open device including this one, matching
+  // "Stefan's own phone reporting his death is what triggers the flash on
+  // everyone else's screen" from the design doc.
+  const newAlive = !state.alive[myPlayerId];
+  state.alive[myPlayerId] = newAlive;
+  renderAliveBtn();
+  renderSquadStrip();
+  setMyAlive(newAlive);
 });
 document.getElementById('nextRoundBtn').addEventListener('click', () => {
   state.round += 1;
@@ -932,7 +1072,5 @@ document.getElementById('nextRoundBtn').addEventListener('click', () => {
   renderAll();
 });
 
-refreshAllPicks();
-renderAll();
-showScreen('screenSetup');
+initAuth();
 </script>
