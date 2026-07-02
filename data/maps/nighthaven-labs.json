@@ -1,0 +1,18 @@
+{
+  "map": "Nighthaven Labs",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Nighthaven_Labs/siege), fetched 2026-07-02.",
+  "floors": ["Basement", "1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "command-server", "name": "Command / Server", "floor": "2nd Floor"},
+    {"id": "control-storage", "name": "Control / Storage", "floor": "1st Floor"},
+    {"id": "kitchen-cafeteria", "name": "Kitchen / Cafeteria", "floor": "1st Floor"},
+    {"id": "tank-assembly", "name": "Tank / Assembly", "floor": "Basement"}
+  ],
+  "callouts": {
+    "Basement": ["Tank", "Assembly", "Nano"],
+    "1st Floor": ["Control", "Storage", "Kitchen", "Cafeteria", "Gaming", "Cargo", "Vending Stair", "Lobby"],
+    "2nd Floor": ["Command", "Server"],
+    "Exterior": ["Park", "Generator", "Helipad"]
+  }
+}

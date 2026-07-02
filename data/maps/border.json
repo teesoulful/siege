@@ -1,0 +1,16 @@
+{
+  "map": "Border",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Border/siege), fetched 2026-07-02. Exterior/roof callouts included in 1st Floor list for simplicity; may need a dedicated 'Exterior' floor bucket if the app requires it.",
+  "floors": ["1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "supply-customs", "name": "Supply Room / Customs Inspection", "floor": "1st Floor"},
+    {"id": "workshop-ventilation", "name": "Workshop / Ventilation Room", "floor": "1st Floor"},
+    {"id": "bathroom-tellers", "name": "Bathroom / Tellers", "floor": "1st Floor"},
+    {"id": "armory-archives", "name": "Armory Lockers / Archives", "floor": "2nd Floor"}
+  ],
+  "callouts": {
+    "1st Floor": ["Supply Room", "Customs Inspection", "Workshop", "Ventilation Room", "Bathroom", "Tellers", "Server Room", "Detention", "Waiting Room", "Main Stairs", "Main Lobby", "Passport Check", "East Stairs", "East Vehicle Entrance", "Valley", "West Vehicle Exit", "Pedestrian Customs", "Crash Scene", "Parking Lot Alley", "South Balcony", "Roof", "Watch Tower", "West Road"],
+    "2nd Floor": ["Armory Lockers", "Archives", "Offices", "Security Room", "Break Room", "Main Hallway", "Fountain Room"]
+  }
+}

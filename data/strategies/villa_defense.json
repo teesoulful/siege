@@ -1,0 +1,175 @@
+{
+  "map": "Villa",
+  "side": "Defense",
+  "source": {
+    "title": "How To Setup and Defend Villa ALL SITES - Rainbow Six Siege",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Villa_Defense_Ts95moV8NZw.txt",
+    "notes": "Creator (Littleton) walks all four Villa bombsites for Defense only — no matching Attack transcript is available for this map, so this file is Defense-only. Auto-generated captions are frequently garbled on operator names and jargon (e.g. 'mro cam' = Maestro's Evil Eye camera, 'zombie/bike storage/Tetris/China/pig or wolf' are the creator's own informal room nicknames, not official callouts). Two spots in the transcript name an operator as sounding like 'leion'/'legion' recommending 'goo mines' for intel around the North/Aviator side and again near Living Room's Mud Room window — 'Legion' is not a real R6 Siege operator (it doesn't exist), and this is a known recurring ASR mishearing of Lesion, who is Defense-side and whose signature gadget is literally Gu (goo) mines, so this has been resolved to Lesion rather than left unconfirmed (see notes on the relevant sites). A second garbled list ('a prox mine a leion mine all Mali banshe fenri') naming several intel/trap gadgets near Living Room is also too corrupted to confidently map beyond that same Lesion identification and is flagged rather than resolved further."
+  },
+  "sites": [
+    {
+      "id": "aviator-games",
+      "workingName": "Aviator / Games Room",
+      "floor": "Ground Floor",
+      "callouts": ["Aviator", "Games Room", "Top Main", "Study", "Study Door", "Study Window", "Vault", "Bar", "Zombie Door", "90", "North Side", "Pig or Wolf (Wolf Window)", "Top Red"],
+      "reinforcements": [
+        {"location": "Games left-hand wall (Games → Top Main)", "note": "First of the four reinforcements at this site.", "timestamp": "00:20"},
+        {"location": "Double wall into Study", "note": "Two of the four reinforcements — both walls of the double wall into Study.", "timestamp": "00:20"},
+        {"location": "Vault wall", "note": "Fourth of the four core reinforcements at this site.", "timestamp": "00:20"},
+        {"location": "Wall on the left-hand side from Aviators into Study", "note": "A point of contention among players whether to reinforce this — creator does reinforce it and pairs it with feet holes along the rest of the wall instead of head holes, so attackers can't hide their feet behind head holes and shoot through the soft wall at the bar angle.", "timestamp": "02:23"}
+      ],
+      "headHoles": [
+        {"location": "Wall toward Study (near Aviator)", "note": "Lets you hold the Study door from here. Without this line of sight, anyone entering Study only has to worry about two doors instead of three, making the room much easier for attackers to take for free.", "timestamp": "01:21"},
+        {"location": "Slightly further over on the same wall", "note": "Lets you hold the Study door from a second angle as well.", "timestamp": "02:03"},
+        {"location": "Same wall, adjusted angle", "note": "Also covers the Study window — this is the only spot on the map (besides Top Main) that can see the Study window from outside.", "timestamp": "02:03"},
+        {"location": "Feet holes along the Aviators/Study wall", "note": "Run feet holes the length of this wall so a defender behind the bar sees attacker feet dropping from 90/Top Main before being seen themselves. Aim head/chest height, not at the ankles, for damage.", "timestamp": "02:43"},
+        {"location": "Feet holes covering Top Main push", "note": "Catches attackers pushing Top Main long before they reach the door — shots come from behind the bar.", "timestamp": "03:04"}
+      ],
+      "rotates": [
+        {"location": "Rotate near the Aviators/Study line of sight", "note": "Standard rotate for this side of the site, paired with the line-of-sight setup.", "timestamp": "00:41"}
+      ],
+      "hatches": [
+        {"location": "Hatch at 90 (near the Maestro cam)", "note": "Get rid of the hatch (remove it) after placing the camera nearby so attackers can't knife out the camera through it.", "timestamp": "03:44"},
+        {"location": "Hatch in Study", "note": "Same treatment as the 90 hatch — place a Maestro cam in the corner first, then remove the hatch.", "timestamp": "04:47"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Behind the bar / open angle", "operator": "Any C4 operator", "note": "Play behind the bar with C4 ready — the usual plant spot is behind the Vault door, so a C4 that can reach that general area denies the plant.", "timestamp": "03:24"},
+        {"location": "Edge of the window near 90, above the hatch", "operator": "Maestro", "note": "Evil Eye camera placement — put it on the edge of the window, not along the back wall of the hatch (creator notes doing the latter was a mistake on camera, since attackers can walk along the back of the hatch and knife it). Correct placement stops attackers running up and knifing it, and racks up value against the heavy drone traffic that funnels through the North door toward 90 and Zombie door.", "timestamp": "04:06"},
+        {"location": "Corner of Study, near the hatch", "operator": "Maestro", "note": "Second Evil Eye camera, tucked in the corner before removing the Study hatch. Covers drones entering Study, drones heading from Study down to 90, and drones from Top Main and Top Red — effectively a perimeter camera for the whole site.", "timestamp": "04:47"},
+        {"location": "Just before the Study hatch", "operator": "Maestro", "note": "Optional Observation Blocker placement (using Maestro's bulletproof camera cover) right before the hatch so a drone entering can't immediately spot the Evil Eye cam. Can also be done at the 90 hatch.", "timestamp": "05:07"},
+        {"location": "Door, bathroom door, and stairs on the North side", "operator": "Lesion", "note": "Recommends holding the North side with Gu mine traps on the door, bathroom door, and stairs, playing around Master and Bathroom. Source audio rendered the name as 'leion'/'legion' — 'Legion' isn't a real R6 operator, and 'goo mine' is literally Lesion's signature Defense-side gadget, so this is resolved with high confidence to Lesion.", "timestamp": "05:49"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Maestro", "role": "Anchor / Intel", "note": "Core pick for this site — Evil Eye cameras at 90 and Study give perimeter drone denial and force attackers to burn hard-breach charges (Ash, Zero, Osa/Gonne-6 style tools) just to clear utility instead of pushing."},
+        {"operator": "Lesion", "role": "North side trap/anchor", "note": "Recommended to hold the North side (Master/Bathroom) with Gu mine traps on approach doors. Source audio rendered the name as 'leion'/'legion'; resolved to Lesion (Defense-side, Gu mines are her signature gadget)."}
+      ],
+      "generalTips": [
+        {"note": "You must dedicate at least one, ideally two defenders to the North side — giving it away for free lets attackers walk up unchallenged.", "timestamp": "05:49"},
+        {"note": "If pressured, you can fall back into Pig or Wolf (the room with a pig and a wolf decoration, commonly just called 'Wolf' — 'Wolf window' is this room's window) or back off down other approaches to Master/90, just trying to waste attacker time.", "timestamp": "06:30"},
+        {"note": "Higher ELO lobbies tend to push this site from the North side; lower ELO lobbies tend to push from the Study/Balcony side.", "timestamp": "06:51"},
+        {"note": "Creator's opinion: this is the most popular site to play but Statue/Trophy is actually the stronger site overall.", "timestamp": "06:51"}
+      ]
+    },
+    {
+      "id": "statue-trophy",
+      "workingName": "Statue / Trophy",
+      "floor": "Ground Floor",
+      "callouts": ["Statue", "Trophy", "Astro", "Astro Stairs", "Closet", "Closet Window", "Master", "Master Window", "Master Balcony", "Red Stairs", "Memo", "Dining Door", "Bathroom", "Bathroom Stairs", "Kitchen Door", "Bikes / Bike Storage", "Mud Room"],
+      "reinforcements": [
+        {"location": "Two right-side Statue walls", "note": "Two of the four reinforcements used at this site — left side of Statue is deliberately left soft.", "timestamp": "07:33"},
+        {"location": "Middle Bathroom wall", "note": "Third reinforcement.", "timestamp": "07:33"},
+        {"location": "Middle Trophy wall (Astronomy wall)", "note": "Fourth and final reinforcement — only four total are used at this site.", "timestamp": "07:33"}
+      ],
+      "headHoles": [
+        {"location": "Bottom-right of the reinforced wall", "note": "Lets you hold the bottom of Red Stairs.", "timestamp": "07:55"},
+        {"location": "Same wall, second angle", "note": "Lets you hold anyone coming out of Memo through the Dining door.", "timestamp": "07:55"},
+        {"location": "Left side of the wall into Astro", "note": "Standard line of sight into Astro, paired with the rotate.", "timestamp": "08:17"},
+        {"location": "Wall toward Closet", "note": "Covers the Closet window — added because a plain rotate hole here gives an awkward angle, so this line of sight is used instead. This is a relatively recent addition to standard setups (a few years old) but now considered standard.", "timestamp": "08:17"},
+        {"location": "Same area, additional angle", "note": "Also covers the Master window from an extra spot, not just the usual door, letting you challenge the Study window from another angle so attackers can't jump in for free.", "timestamp": "08:39"},
+        {"location": "Feet holes near the Closet/Study window angle", "note": "Lets you hold the angle onto that window/Study, or stand further back to catch feet as soon as someone jumps in.", "timestamp": "09:00"},
+        {"location": "Same line of sight, extended", "note": "Also gives a nice angle onto the window in Master — be careful of the drone hole here, your ankles can get shot off if you stand too long.", "timestamp": "09:21"},
+        {"location": "Back of Astro", "note": "Line of sight out toward Kitchen door and through to Bikes/Bike storage/Mud Room — anyone coming from those rooms toward Astro can be smoked from here.", "timestamp": "10:05"},
+        {"location": "Behind the flight case, corner of Astro (bottom of Astro stairs)", "note": "A safer angle to hold Astro from than the more common spot nearby, since attackers rarely check this specific corner.", "timestamp": "10:27"},
+        {"location": "Bottom-right punch hole on the barricade reinforcement facing Trophy door", "note": "Ratty trick — attackers fixate on the large barricade hole and don't notice this small punch hole, letting you hold Trophy from an unexpected angle. Expect to get caught out sometimes but it also nets surprise kills.", "timestamp": "11:08"},
+        {"location": "Wall to peek onto the Study door", "note": "Reinforce this wall so you can peek the Study door from two spots; leaving it soft makes it hard to play around this area since you have no protection. Recommendation: play here briefly, kill a few drones, then disengage.", "timestamp": "11:50"},
+        {"location": "Classic line of sight over onto Balcony", "note": "Covers Master Balcony, a common attacker staging area.", "timestamp": "12:11"}
+      ],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Behind the hard-breach wall near Bathroom", "operator": "Maestro", "note": "'Cheeky camera' placement to watch for hard breaches (Ace charges, Nomad/Thermite-style hard breach charges) — pull the Evil Eye back off the wall once breaching starts. Also gives info on Bathroom pushes and can deny the hard breach outright.", "timestamp": "12:11"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Maestro", "role": "Anchor / Intel", "note": "Same Evil Eye playstyle as Aviator/Games — one extra 'cheeky' camera placement here specifically to watch and deny a common hard-breach spot near Bathroom."}
+      ],
+      "generalTips": [
+        {"note": "Creator's personal favourite site on the map over Aviator/Games — feels easier and more flexible to defend, largely because Study isn't directly outside it (Master Balcony is the main worry instead, and it's considered a harder push than Study).", "timestamp": "12:33"}
+      ]
+    },
+    {
+      "id": "dining-kitchen",
+      "workingName": "Dining Room / Kitchen",
+      "floor": "Ground Floor (with upstairs presence required)",
+      "callouts": ["Dining Room", "Kitchen", "Memo", "China", "Mudroom / Laundry", "Pantry", "Pantry Window", "Pantry Stairs", "Basement Stairs", "Top Four", "Tetris", "Bike Storage", "Master"],
+      "reinforcements": [
+        {"location": "Upstairs — middle wall, Astro to Trophy", "note": "Same reinforcement pattern reused from the Statue/Trophy setup, since this site requires holding upstairs too.", "timestamp": "13:15"},
+        {"location": "Upstairs — two right-hand Statue walls out into Master", "note": "Same as the Statue/Trophy site's setup.", "timestamp": "13:15"},
+        {"location": "Downstairs — two walls closest to the Dining/Memo door (left and right)", "note": "Two of the six downstairs reinforcements.", "timestamp": "14:40"},
+        {"location": "Downstairs — right side of Dining into Mudroom/Laundry", "note": "Third downstairs reinforcement.", "timestamp": "14:40"},
+        {"location": "Downstairs — middle of Dining room through into China", "note": "Fourth downstairs reinforcement.", "timestamp": "14:40"},
+        {"location": "Downstairs — Kitchen wall through into Pantry", "note": "Fifth downstairs reinforcement.", "timestamp": "14:40"},
+        {"location": "Small wall leading down to the basement stairs", "note": "Sixth downstairs reinforcement — important. If left soft, attackers can sneak up the basement stairs and bring a hard-breach charge to open a long sightline through to the back of Kitchen, letting them hold the whole area from below with minimal effort.", "timestamp": "14:40"}
+      ],
+      "headHoles": [
+        {"location": "Upstairs line of sight (same as Statue/Trophy)", "note": "Covers the Study window and holds the Master window, reused from the Statue/Trophy setup.", "timestamp": "13:36"},
+        {"location": "Upstairs line of sight for bottom of Red Stairs", "note": "Same rotate/line-of-sight structure as Statue/Trophy, reused here.", "timestamp": "13:57"},
+        {"location": "Upstairs line of sight toward Memo", "note": "Be careful — if attackers control Top Four, they can hold this angle back on you. Don't walk through this door if Top Four control is lost.", "timestamp": "13:57"},
+        {"location": "Feet holes along the wall near Dining/laundry", "note": "Several feet holes here — described as really important. Takes noticeably longer to make with Mute's shotgun compared to other breaching tools.", "timestamp": "15:25"},
+        {"location": "Line of sight over the top of Pantry", "note": "Lets you drop C4 onto the Pantry stairs if you hear/feel someone coming up, or wait for the vault-window sound cue and punish it with C4.", "timestamp": "16:07"},
+        {"location": "Feet holes near the rotate toward Memo", "note": "Lets you see into Bike storage from a bit further back.", "timestamp": "16:27"},
+        {"location": "Feet holes near laundry/Tetris", "note": "Mega important — without these, attackers can take this whole area (next to the site) for free by frag/flash/Ying-ing the one remaining door, forcing you to move, then plant here. You can stand and hold this area without exposing feet once the holes are made.", "timestamp": "17:31"}
+      ],
+      "rotates": [
+        {"location": "Rotate on either side of the middle Dining/laundry wall", "note": "Most players put it on one particular side; creator doesn't think there's a major difference between the two options.", "timestamp": "15:45"},
+        {"location": "Rotate near the wall to Memo", "note": "Lets you reach Memo without using the door, dodging the line of sight above it, and lets you flank around the corner if someone is holding that door.", "timestamp": "16:27"},
+        {"location": "Painting wall (soft wall) near Memo", "note": "This painting is actually a soft wall — you can rotate through it. Useful late-round retake option to come at Memo/site from a different angle than attackers expect; creator tends to make this specific rotate late in the round with an impact grenade rather than upfront.", "timestamp": "19:15"}
+      ],
+      "hatches": [
+        {"location": "Hatch above Pantry", "note": "Don't fully open it — instead take out just the corner to make a cheap line of sight that lets you hold the door below without opening the whole hatch. Also lets you punish attackers on Pantry window by running downstairs and taking the angle the other way, since nobody expects fire through this corner.", "timestamp": "18:12"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Laundry area", "operator": "Any C4 operator", "note": "C4 holes available here and in a couple of other spots nearby to punish attackers holding laundry.", "timestamp": "19:15"},
+        {"location": "Laundry (behind cover)", "operator": "Wamai", "note": "Creator plays a Mag-NET disc around here — a good spot for it.", "timestamp": "19:58"},
+        {"location": "Pantry / Pantry window area", "operator": "Wamai", "note": "Second Mag-NET disc placement around Pantry/Pantry window. Playing Pantry early is important because Ace or Thermite-style hard breachers will otherwise open this window into a season-long camping sightline through Kitchen — shoot the charge off the wall if you catch it in time. You can also pass through the door here without ever being seen through the Pantry window.", "timestamp": "19:58"},
+        {"location": "Wall by Pantry, not currently reinforced by the creator", "note": "Creator recommends reinforcing this wall if you have a spare reinforcement and plan to play around Pantry — a hard breach through it opens a free angle otherwise.", "timestamp": "18:33"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Wamai", "role": "Anchor (Laundry/Pantry)", "note": "Runs Mag-NET discs around Laundry and Pantry/Pantry window to punish hard-breach attempts and control both approaches."},
+        {"operator": "Mute", "role": "Reinforcer note", "note": "Mentioned specifically because his shotgun reinforcement animation takes noticeably longer than other operators' — factor this into setup time when using him at this site."}
+      ],
+      "generalTips": [
+        {"note": "You must hold upstairs — the entire ceiling above Dining/Kitchen is soft, so losing upstairs control downstairs becomes a serious problem.", "timestamp": "13:15"},
+        {"note": "Take drones with you when contesting Top Four upstairs (expect Fuze, Ram, Sledge-style pushes) — even one or two kills there is valuable before falling back to site.", "timestamp": "14:18"},
+        {"note": "If you don't reinforce the small basement-stairs wall, attackers commonly bring a hard-breach charge through it once, opening a sightline nearly to the back of Kitchen — an easy, repeatable attacker play if left soft.", "timestamp": "14:40"},
+        {"note": "Room naming correction from the creator mid-video: the room near Dining is 'Bike Storage', and the room referred to as 'bikes' during the Aviator/Games section was actually Mud Room.", "timestamp": "16:49"},
+        {"note": "Reinforcing both walls around the laundry/Tetris area (instead of using the feet holes) makes defending this site significantly harder — feet holes are the preferred option there.", "timestamp": "17:52"},
+        {"note": "Creator's opinion: this is a fun, strong site — they'd rank it above Aviator/Games and would play Statue/Trophy first, then this site, then Aviator/Games.", "timestamp": "21:01"}
+      ]
+    },
+    {
+      "id": "livingroom-library",
+      "workingName": "Living Room / Library",
+      "floor": "Ground Floor (with soft ceiling from Games/Aviator above)",
+      "callouts": ["Living Room", "Library", "Art", "Gallery", "Red Corridor", "Piano", "Vault", "Main", "Main Stairs", "Clock Area", "Bottom Astro", "Bathroom", "Fireplace", "Mud Room", "Basement", "Basement Stairs"],
+      "reinforcements": [
+        {"location": "Two walls at the top end of Library, out toward Art", "note": "First two reinforcements.", "timestamp": "21:44"},
+        {"location": "Left side wall of the Gallery, out into Red Corridor", "note": "Third reinforcement.", "timestamp": "21:44"},
+        {"location": "Triple wall by the arch", "note": "All three walls of this triple wall are reinforced.", "timestamp": "21:44"},
+        {"location": "Two single walls at the bottom of Living Room, toward the clock area/bottom Astro", "note": "Final two reinforcements.", "timestamp": "21:44"}
+      ],
+      "headHoles": [
+        {"location": "Rotate/window holding into Bathroom", "note": "A nice spot for attackers to jump in since it's rarely held — worth covering. Opening this also avoids having to path through a specific door that becomes a liability if attackers plant nearby and hold it.", "timestamp": "23:12"}
+      ],
+      "rotates": [
+        {"location": "Living Room into Vault/Gallery", "note": "Only needs to be small, just to peek out and hold the corridor. Without it, if you're pinned in the corner behind the reinforced walls with attackers holding any of several angles, you have no way out except through one of two doors — the rotate gives an escape route into Red Stairs, toward Piano/Art, or back around toward Main to flank.", "timestamp": "22:06"},
+        {"location": "Window/rotate into Bathroom", "note": "Lets you avoid using the main door as your only path through; useful if attackers plant at the bottom and camp that door. Note: opening this does give attackers some sightline into part of the site in return.", "timestamp": "23:12"}
+      ],
+      "hatches": [
+        {"location": "Hatch to basement", "note": "Easy to forget this exists. Drops into the basement, giving a useful extra way out — you can drop down and come back up via the basement stairs.", "timestamp": "24:13"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Mud Room window area", "operator": "Kapkan, Lesion, Melusi, or Fenrir", "note": "Recommends bringing intel/trap-style gadgets to cover the Mud Room window, a common entry point, plus a suggestion to use a Clash-style shield low as a peek shield over the window. Source audio was garbled as 'a prox mine a leion mine all Mali banshe fenri' — decoded as a list of Defense-side trap/intel gadgets: a proximity mine (Kapkan), a Lesion Gu mine, Melusi's Banshee, and Fenrir's dread mine, all of which are real Defense operators and fit the 'watch this window' context. Still treat the exact operator-to-spot mapping as a best-effort reconstruction, not a literal transcript quote.", "timestamp": "24:13"}
+      ],
+      "operatorRecommendations": [],
+      "generalTips": [
+        {"note": "Creator's opinion: not a great site to play unless your team has a specific strategy for it — of the four sites, this is the one they'd play least, and it's ranked last in overall site strength (Statue/Trophy, then Dining/Kitchen, then Aviator/Games, then this site).", "timestamp": "21:01"},
+        {"note": "Good attacking teams run a Castle extension here — Castling both key doors and rotating through, giving them access all the way across into Piano. Worth countering with your own setup awareness even if not covered in detail in this video.", "timestamp": "21:01"},
+        {"note": "There are easy, early plant spots if walls aren't reinforced — e.g. behind a wall tucked into the fireplace — that can be smoked or sensor-denied.", "timestamp": "21:44"},
+        {"note": "The floor above (around Games/Aviator) is very soft, so a defender presence upstairs is required here too, same as at Dining/Kitchen.", "timestamp": "24:35"},
+        {"note": "Upside: attacker approach patterns to this site (vertical vs. not) are less predictable/known compared to the other three sites.", "timestamp": "24:35"},
+        {"note": "Map trivia, not a strategy point: shooting or punching the cement/plaster block near this area reveals a hidden Easter egg statue.", "timestamp": "24:57"}
+      ]
+    }
+  ]
+}

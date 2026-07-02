@@ -1,0 +1,59 @@
+{
+  "map": "Border",
+  "side": "Attack",
+  "source": {
+    "title": "Attack video on Border — Bathroom/Tellers site via top-floor hatch drop",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Border_Attack_LJuBBBbleO8.txt",
+    "notes": "Single-site walkthrough covering the Bathroom/Tellers site (same site as border_defense.json's 'bathroom-tellers'), attacked entirely from the top floor by taking Armory/Archives/Office, dropping the hatch above the bathroom shower stall, and planting from above. The creator plays 'Book' in the in-game footage purely for map-manipulation convenience, not as a strategy pick — Book is not listed as an operator recommendation below. Auto-generated captions: 'Candala'/'candela' = Ying's Candela; 'Kore'/'Kclaw'/'Cade claw' = Kaid's K-EMP hard-electrified hatch/claw (Kaid himself is referenced only as a defender the attackers may ban or need EMP against, never as an attack pick); 'hive canister' = Grim's Hard Breach Grenade / Kawan Hive launcher call-out; 'air jab'/'air jabs' = Nomad's Airjab Launcher. Ground-floor rooms (Ventilation/Workshop, Customs/Supply) are explicitly described by the creator as irrelevant to this attack and are not detailed here."
+  },
+  "sites": [
+    {
+      "id": "bathroom-tellers",
+      "workingName": "Bathroom / Tellers",
+      "floor": "Top Floor / Ground Floor",
+      "callouts": ["Armory", "Archives", "Office", "Fountain", "90 Hallway", "Half Wall", "Small Office", "Bathroom", "Bathroom Shower Stall", "Tellers", "Workshop", "Talis", "Customs", "CCTV", "Break Room", "Balcony", "Top Metal Stairs", "Top East Stairs"],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [
+        {"location": "Hatch above the bathroom shower stall (reached via Armory/Archives/Office top-floor area)", "note": "Primary objective of the whole attack — drop this hatch to plant in the shower stall below. Everything on the ground floor other than the drop-and-plant itself can be ignored.", "timestamp": "00:43"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Hatch above bathroom shower stall", "operator": "Grim, Ying, or Fuse", "note": "Any of the three can carry the hard-breach charge to open the hatch — the roles are interchangeable. If the hatch is electrified, bring EMPs on Grim (or ban Kaid pre-round) since a thrown Thatcher charge won't reliably detonate it here.", "timestamp": "08:08"},
+        {"location": "Angled line along the floor near the hatch", "operator": "Fuse", "note": "Fuse Cluster Charges thrown at an angle bounce underneath the hatch and generally destroy a Kaid K-EMP claw on the hatch if present; not 100% reliable since puck bounce direction depends on what they hit, but the creator says it almost always works for him.", "timestamp": "08:31"},
+        {"location": "Armory half wall", "operator": "Grim or Ying", "note": "Drone defenders out of half wall; use a Grim canister (hard breach grenade / hive launcher) or Ying Candela to flush anyone holding there once spotted.", "timestamp": "12:01"},
+        {"location": "Wall above half wall (Armory)", "operator": "Ying or Grim", "note": "Make a higher hole in the wall to get a line on half wall instead of only opening the door.", "timestamp": "12:22"},
+        {"location": "Small Office soft wall", "operator": "Attacker (any)", "note": "If a defender retreats from half wall into Small Office, use the soft wall here to keep pressure on and cut them off.", "timestamp": "12:42"},
+        {"location": "Archives door", "operator": "Nomad", "note": "Drone in through the Archives door and clear that side while Ying covers the other flank; can also be walked through as a human drone by a fifth player on Monty.", "timestamp": "03:54"},
+        {"location": "Back Archives soft wall", "operator": "Attacker (any)", "note": "If defenders fall back into back Archives, make a soft-wall hole here as another cutoff toward Office.", "timestamp": "14:28"},
+        {"location": "Triple soft wall near Office", "operator": "Attacker (any)", "note": "Fully soft and can be manipulated as needed to gain final control of Office.", "timestamp": "14:28"},
+        {"location": "90 Hallway (under the default camera)", "operator": "Nomad (or Zero as a 5th-player swap)", "note": "Drop and continuously replace a drone here for the entire setup phase — it watches both the top of Metal Stairs and the top of East Stairs simultaneously, denying both flanks. Considered mandatory; if the drone is shot, immediately place another. A Zero cam from a 5th player can substitute for one of Grim/Ying/Monty in this watching role.", "timestamp": "06:44"},
+        {"location": "Top Metal Stairs", "operator": "Nomad", "note": "Place an Airjab Launcher here to deny the rotate; not fully reliable since it only triggers on line of sight and can be shot or avoided by a defender who knows the angle, but the 90 drone backs it up.", "timestamp": "07:05"},
+        {"location": "Top East Stairs", "operator": "Nomad", "note": "Second Airjab Launcher placement covering the other stairwell flank, same reliability caveats as the Metal Stairs placement.", "timestamp": "07:05"},
+        {"location": "Wall overlooking the bathroom door/corridor (near the plant)", "operator": "Fuse", "note": "Fuse Cluster Charges thrown through this wall send pellets through the bathroom door and destroy any utility/shields set up on the other side before the plant goes down.", "timestamp": "17:16"},
+        {"location": "Sight rotate (workshop rotate hole)", "operator": "Attacker (any)", "note": "Make a rotate hole here after the hatch is open to get a line of sight down onto the plant area/feet of anyone pushing the workshop rotate; going prone lets you see feet even if the direct angle looks blocked.", "timestamp": "14:50"},
+        {"location": "Sight door angle", "operator": "Attacker (any, ideally shotgun-equipped)", "note": "Shoot or make a second line of sight here to cover the site door rotate; a shotgun operator makes carving two lines of sight faster.", "timestamp": "14:50"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Grim", "role": "Roam clear / hard breach", "note": "Interchangeable with Ying and Fuse for opening the hatch; hive canister/hard-breach grenade used to flush defenders from half wall and other holds. Can be dropped if only running a 3-stack."},
+        {"operator": "Ying", "role": "Roam clear / hard breach", "note": "Candela flushes contested rooms (half wall, Small Office); also carries hard-breach charges as an alternative to Grim/Fuse for the hatch."},
+        {"operator": "Fuse", "role": "Hard breach / utility denial", "note": "Creator's personal main for this site. Opens the hatch and, angled correctly, clears a Kaid K-EMP claw off it via cluster charge bounce. Also fuses the bathroom-door wall pre-plant to destroy defender utility and pre-clear the bathroom below."},
+        {"operator": "Nomad", "role": "Flank denial / intel", "note": "Places the 90 Hallway drone (must be watched and replaced continuously) and both Airjab Launchers on Top Metal and Top East Stairs to lock down both rotate flanks while the site is being taken and held."},
+        {"operator": "Monty (optional 5th)", "role": "Human drone / shield entry", "note": "If running a 5-stack, Monty can walk through the Archives door as a human drone and clear Armory or push into Office; enter through the doorway rather than a window since a shield is vulnerable jumping through windows.", "timestamp": "02:27"},
+        {"operator": "Zero (optional swap)", "role": "Intel", "note": "Can substitute for Grim, Ying, or Monty in a 5-stack; places a camera to help hold the 90 Hallway watch duty.", "timestamp": "07:05"}
+      ],
+      "generalTips": [
+        {"note": "Minimum of 3 operators needed (drop Grim or Ying if only 3), ideal is 4 (Grim, Ying, Fuse, Nomad), and a 5th (Monty or Zero) makes the roam clear easier. With 3, you can only actively watch 2 of the 3 post-plant angles.", "timestamp": "02:06"},
+        {"note": "Strategy hinges on cutting the top floor of the map in half: only Armory, Archives, and Office need to be taken/cleared — Balcony, Break Room, CCTV, and most of 90 Hallway can be completely ignored regardless of who is holding them, since a single 90 drone denies both flanking stairs.", "timestamp": "01:44"},
+        {"note": "The only angle worth caring about from the ignored side of the map is a sightline from Balcony into the Office double door — everything else over there is irrelevant to this attack.", "timestamp": "04:39"},
+        {"note": "Two players push Armory (Fuse + Grim/Ying), two push Archives/Office (Nomad + Ying/Grim) — drone each other in, flush contested rooms with Grim canisters/Ying Candela, and use the windows/doors as cutoffs so defenders pushed out of one room get killed trying to cross to the other.", "timestamp": "02:49"},
+        {"note": "Once Armory, Archives, Fountain, and Office are cleared and the 90 drone is set up (with someone dedicated to watching it at all times until Nomad's Airjabs are placed), the hatch execute is considered close to guaranteed — creator claims roughly an 80-85% win rate on this site.", "timestamp": "21:08"},
+        {"note": "After dropping and planting, one attacker is on the plant while the remaining three hold three angles: the sight rotate (workshop rotate), the sight door, and the drone hole itself (going prone reveals defenders' feet through the drone hole even on angles that look blocked). With only 3 total, you can cover just the rotate and the sight door and must listen for footsteps to catch the third.", "timestamp": "17:58"},
+        {"note": "Almost every operator role is interchangeable in this strat outside of the hard-breach-and-declaw duty — contrasted by the creator against the Bank Thermite/Osa attack where losing Thermite breaks the whole plan.", "timestamp": "21:08"},
+        {"note": "Once the plant is down with three attackers still alive above, the round is considered essentially won: watch the diffuser, keep someone on the 90 drone/cams to prevent a retake pushing up Metal or East, and don't hesitate to throw remaining Grim/Ying utility to protect the plant.", "timestamp": "22:11"},
+        {"note": "Defender counterplay noted by the creator (useful to anticipate): playing from Talis behind feet holes to deny both corner plant spots in Tellers; a smoke thrown precisely through the drone hole shuts down the main plant spot; C4 through the drone hole is less reliable since the hole absorbs part of the blast depending on exact plant position.", "timestamp": "19:01"}
+      ]
+    }
+  ]
+}

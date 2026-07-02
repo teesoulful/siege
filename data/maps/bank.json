@@ -1,0 +1,17 @@
+{
+  "map": "Bank",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Bank/siege), fetched 2026-07-02. Room lists condensed to major named callouts; some minor sub-callouts may be missing.",
+  "floors": ["Basement", "1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "ceo-lounge", "name": "CEO Office / Executive Lounge", "floor": "2nd Floor"},
+    {"id": "openarea-staff", "name": "Open Area / Staff Room", "floor": "1st Floor"},
+    {"id": "tellers-archives", "name": "Tellers' Office / Archives", "floor": "1st Floor"},
+    {"id": "cctv-lockers", "name": "CCTV Room / Lockers", "floor": "Basement"}
+  ],
+  "callouts": {
+    "Basement": ["CCTV Room", "Lockers", "Vault", "Secure Hallway", "Server Room", "Main Stairway", "Gold Vault"],
+    "1st Floor": ["Lobby", "Open Area", "Staff Room", "Tellers' Office", "Archives", "Admin Office", "Loan Office", "Electrical Room", "Office Hallway", "Skylight Stairwell", "ATMs"],
+    "2nd Floor": ["CEO Office", "Executive Lounge", "Conference Room", "Stock Trading Room", "Elevator Shaft", "Elevators", "Executive Hallway", "Skylight Stairwell", "Janitor's Closet"]
+  }
+}

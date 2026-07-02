@@ -1,0 +1,17 @@
+{
+  "map": "Outback",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Outback) plus web search corroboration for 1st Floor sites (Kitchen/Mechanic Shop, Red Bedroom/Green Bedroom), fetched 2026-07-02. Uses current High Calibre-era room names (post-rework), not the 2019 release names.",
+  "floors": ["1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "laundry-piano", "name": "Laundry Room / Piano Room", "floor": "2nd Floor"},
+    {"id": "party-office", "name": "Party Room / Office", "floor": "2nd Floor"},
+    {"id": "kitchen-mechanicshop", "name": "Kitchen / Mechanic Shop", "floor": "1st Floor"},
+    {"id": "redbedroom-greenbedroom", "name": "Red Bedroom / Green Bedroom", "floor": "1st Floor"}
+  ],
+  "callouts": {
+    "1st Floor": ["Green Bedroom", "Red Bedroom", "Mechanic Shop", "Kitchen", "Nature Room", "Bushranger Room", "Compressor Room", "Gear Store", "Bike Repair", "Restaurant", "Shark", "Bathroom"],
+    "2nd Floor": ["Laundry Room", "Piano Room", "Party Room", "Office", "Mezzanine", "Covered Terrace", "Office Supply"],
+    "Exterior": ["Fuel Pump", "Storage Yard", "Camping", "Motel Walkway", "Motel Parking Lot", "Garage Balcony", "Terrace Balcony", "Picnic Area"]
+  }
+}

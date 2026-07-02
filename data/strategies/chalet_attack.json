@@ -1,0 +1,54 @@
+{
+  "map": "Chalet",
+  "side": "Attack",
+  "source": {
+    "title": "How to attack Chalet top floor via Solar/Master (not the Library/Mezzanine/Bar side)",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Chalet_Attack_RP5wiovuM30.txt",
+    "notes": "Single-site walkthrough for the Solar/Master site (same site as chalet_defense.json's 'salarium-master'), deliberately attacking from the normally-ignored east/Solar side of the map instead of Library/Mezzanine/Bar. Auto-generated captions: 'Habana'/'a banner' = Hibana (hard breacher, interchangeable with Ace); 'doabe'/'do could be' = Dokkaebi (confirmed by context — Logic Bomb 'calls', SMG-11 loadout, holding a flank window; ASR mangled her name throughout, corrected here); 'cap'/'capal'/'capow'/'Capital' = Capitao (fire turret area denial); 'buck'/'bucking' = the operator 'Book' (Blitz is NOT meant — this is the creator's in-game handle/operator choice for the roaming hard-breach-adjacent player who shotguns/mouseholes floors; confirmed by context of shooting through floors and ceilings with a shotgun, i.e. Buck). Where the transcript says 'Book' below it refers to the operator Buck. 'gridlock'/'noad'/'Nomad' both named as interchangeable picks for the Airjab/rotate-hold role. Ground-floor/other-site rooms (Library, Mezzanine, Bar, Gaming, Fireplace) are explicitly stated by the creator as not attacked in this strat and are omitted."
+  },
+  "sites": [
+    {
+      "id": "salarium-master",
+      "workingName": "Salarium / Master Bedroom",
+      "floor": "Top Floor (via Basement/Trophy Room approach)",
+      "callouts": ["Solar", "Solar Stairs", "Master Bedroom", "Piano Room", "Bathroom", "Ivy Window", "Highway", "Closet", "West Main Stairs", "Trench", "Big Garage", "Front Door", "Trophy Room", "Bed Head"],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [
+        {"location": "Basement hatch beneath Solar (near Trophy floor)", "note": "Buck can shoot out this hatch to open a hole through to the top floor, but doing so lets the defending team drop through it too — a deliberate trade-off, not required if not playing Buck.", "timestamp": "13:17"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Solar Stairs wall from Solar repel windows", "operator": "Capitao or Grim", "note": "If a defender holds an unshootable angle on the stairs, open the windows and use Capitao's fire turret (preferred — forces movement) or Grim's canister to flush them down the stairs into Buck, who is clearing below. Grim doesn't guarantee movement — a defender can choose to sit in the gas/bees.", "timestamp": "22:46"},
+        {"location": "Pipe store / soft wall around the corner from Solar", "operator": "Capitao (or Ace, using his own charges)", "note": "One Claymore on the pipe store, a second placed around the corner of the soft wall (not side-on, so an impact grenade destroying the wall doesn't also destroy the claymore) to punish attackers running out to flank via an impact hole.", "timestamp": "22:03"},
+        {"location": "Solar wall (breach target)", "operator": "Hibana or Ace", "note": "Primary hard breach into Master/Solar corner; must breach at range. Wait until Buck has cleared the room behind the wall or the hard-breach charge will just get shot off. Head holes are usually on this side of the wall and only one side is reinforced (rare for it to be the opposite way).", "timestamp": "03:07"},
+        {"location": "Basement, big garage entry, booking through the Trophy floor up into Solar", "operator": "Buck (referred to in transcript as 'Book')", "note": "Comes in through Big Garage, drones down to Trench, then fires shotgun rounds up through the floor in line with the van/Trophy Room marker to blow holes through Trophy floor and up into Solar — denies anyone standing in that spot on the top floor and lets the repel players push in safely. Only do this once the repel players are ready to push, not before.", "timestamp": "11:52"},
+        {"location": "Basement hatch corner (angled shot)", "operator": "Buck", "note": "From the back corner of the basement hatch, shoot up at an angle to destroy the default Solar camera through the ceiling — a learnable lineup; non-Buck players can walk up and destroy the same camera manually instead.", "timestamp": "13:39"},
+        {"location": "Prep-phase drone #1 — Big Garage", "operator": "Attacker (any)", "note": "Climb the white bucket/ladder near Big Garage and place a drone to check if Big Garage is clear and to watch whether the Trophy hatch gets opened.", "timestamp": "09:04"},
+        {"location": "Prep-phase drone #2 — Solar rafters", "operator": "Attacker (any)", "note": "Up Solar Stairs, onto the planter, then onto the wooden beam in the rafters — works roughly 4 out of 5 tries and is very hard for defenders to spot from below; gives strong early information on the Solar/Master side.", "timestamp": "10:08"},
+        {"location": "Ivy Window drone", "operator": "Attacker (any)", "note": "Usually placed action-phase rather than prep-phase; positioned on a plant then a beam near Ivy window to watch for anyone peeking or playing Highway outside, effectively replacing the default camera there.", "timestamp": "10:49"},
+        {"location": "Front Door and Trench Door", "operator": "Nomad or Gridlock", "note": "Airjab Launcher off both doors to stop defenders running out and flanking the repel players; must be conscious of whichever door isn't covered (e.g. stick a drone there instead) since covering all exits with 2 charges isn't always possible.", "timestamp": "19:35"},
+        {"location": "Master door / rotate into Piano", "operator": "Nomad or Gridlock", "note": "Takes up the rotate position defenders would normally hold (not repelling in). Places an Airjab above the Master door into Piano only once Master is confirmed clear — placing it early gets it shot off. Can play the angle high or low; holds the cutoff into Piano and Bathroom for the whole round.", "timestamp": "20:17"},
+        {"location": "West Main Stairs window (either of two windows)", "operator": "Dokkaebi or Lion", "note": "Holds a West Main Stairs window (the one giving an angle onto the double door is preferred) to catch the roughly 60-second window where defenders from Library/Mezzanine realize the push is on Solar and rotate across through Kitchen/West Main/Trophy Stairs — described as a near-guaranteed free kill. Shoot only the bottom of the window out to stay inconspicuous rather than fully opening the barricade; remember to crouch to avoid a head-glitch giveaway.", "timestamp": "06:16"},
+        {"location": "Highway / Bathroom window (post-plant repositioning)", "operator": "Dokkaebi or Lion", "note": "After the plant or once no more flank traffic is expected, repel up to Highway and hold the Bathroom window (the main threat angle, covered by the earlier Ivy-window drone) — Buck's floor damage below discourages defenders from holding this spot.", "timestamp": "16:46"},
+        {"location": "Master window / repel", "operator": "Hibana or Ace (hard breacher)", "note": "Repels in and plants in the corner to the right of the closet door once the wall is open; plays passively post-breach — doesn't need to peek even under pressure, since defenders can't jump out through these windows to flank.", "timestamp": "24:31"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Hibana or Ace", "role": "Hard breach / plant", "note": "Breaches the Master/Solar wall at range, repels in, and plants in the corner by the closet door. Must wait for the room to be cleared (by Buck) before breaching or the charge gets shot off the wall. Ace can also carry his own Claymores if Hibana is picked and someone else needs to cover Claymore duty."},
+        {"operator": "Buck", "role": "Roam clear / mouseholes (called 'Book' in the transcript)", "note": "Enters via Big Garage in the basement, drones through, then shotguns holes through the Trophy floor into Solar to deny that anchor spot; can also destroy the default Solar camera through the hatch/ceiling with a learned lineup. After the plant, rotates up West Main Stairs to help hold or push."},
+        {"operator": "Nomad or Gridlock", "role": "Rotate/flank denial", "note": "Airjabs the Front Door and Trench Door, then holds the rotate position into Piano/Bathroom for most of the round, denying that whole side of cutoffs."},
+        {"operator": "Dokkaebi or Lion", "role": "Flank kill / secondary window", "note": "Holds a West Main Stairs window pre-plant to punish defenders rotating from Library/Mezzanine, then repositions to Highway/Bathroom window post-plant."},
+        {"operator": "Capitao or Grim", "role": "Area denial", "note": "Fire turret (preferred) or canister to flush an unshootable Solar Stairs angle down into Buck; also places Claymores around the pipe store and soft-wall corner."}
+      ],
+      "generalTips": [
+        {"note": "The whole strat deliberately ignores the south side of the map (Library, Mezzanine, Bar, Gaming, Fireplace) — defenders place most of their setup utility (Frost mats, Bandit batteries, Aruni barriers, mirrors, ADS) over there expecting the push, leaving the Solar/east side comparatively bare (maybe a Frost mat, Goyo, or Melusi at most).", "timestamp": "02:05"},
+        {"note": "Coordination between Buck (clearing below) and Capitao/Grim (flushing the Solar Stairs) is essential — don't flame the stairs before Buck is ready below, or the flushed defender simply runs away safely and the utility is wasted.", "timestamp": "27:38"},
+        {"note": "Roughly the first 60 seconds after defenders realize the real push is on Solar is when flank traffic from the south side arrives via Kitchen/West Main/Trophy Stairs — the West Main Stairs window hold is timed around catching this rotation.", "timestamp": "06:16"},
+        {"note": "Minimum viable is 3 players: hard breacher (who can self-supply Claymores if playing Ace), the area-clear operator, and Buck; the West Main Stairs window player is useful but not essential with only 3. Works with 3, easier with 4, easiest with 5.", "timestamp": "27:59"},
+        {"note": "Post-plant, as long as Nomad/Gridlock stays alive holding the Piano/Bathroom rotate, defenders cannot approach from that side at all — the defending team's only routes in are up the stairs (denied by Buck), through the Master door (airjabbed/held), or the West Main/Highway side (held by Dokkaebi/Lion).", "timestamp": "26:55"},
+        {"note": "Considered an easier attack than the standard south-side push specifically because defenders don't expect it and lose their strong Solar anchor position quickly once Buck starts damaging the floor beneath it.", "timestamp": "28:20"}
+      ]
+    }
+  ]
+}

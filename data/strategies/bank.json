@@ -1,0 +1,172 @@
+{
+  "map": "Bank",
+  "side": "Defense",
+  "source": {
+    "title": "*NEW FOR 2025* How To Setup and Defend Bank ALL Sites - Rainbow Six Siege",
+    "type": "youtube_transcript",
+    "file": "BANK/_NEW FOR 2025_ How To Setup and Defend Bank ALL Sites - Rainbow Six Siege.txt",
+    "notes": "Recorded on the CX/PTS test server ahead of the June 10 Bank rework. Generic ranked setups, not pro-league lineups. Room names below are the creator's informal callouts and need reconciling against data/maps/bank.json once wiki callouts are confirmed."
+  },
+  "sites": [
+    {
+      "id": "ceo-meeting",
+      "workingName": "CEO Office / Meeting Room",
+      "floor": "Top Floor",
+      "callouts": ["CEO Office", "Square", "Janitor", "Trump Room", "Meeting Room", "Stock Room", "Kanto Wall Corridor", "Elevator"],
+      "reinforcements": [
+        {"location": "CEO left-hand wall (x2)", "note": "Two reinforcements here hold the door into Square. Can also shoot the top of the wall and C4 over it instead of a straight wall-bang.", "timestamp": "01:55"},
+        {"location": "CEO left wall / right-side head holes", "note": "Holds the door into Square. If you reinforce both this wall and the CEO wall, attackers can walk straight into Square unopposed — the only remaining angle is onto Janitor, which is why the head holes matter.", "timestamp": "02:06"},
+        {"location": "Wall between CEO and Janitor", "note": "Reinforce so you can play Janitor tied to this door and also hold into Stock through it.", "timestamp": "02:32"},
+        {"location": "Kanto Wall (x2, near Trump/Stock)", "note": "The two most important reinforcements on the site. Attackers repel the nearby window and hard-breach this wall — once it's open they control the whole corridor and you can't rotate through it or peek Stock safely. Bring a Bandit here too; the wall's position makes it awkward for attackers to reach the batteries with EMP (Thatcher is a bad pick for this specifically since his EMP doesn't detonate on impact and just drops to the floor).", "timestamp": "08:18"},
+        {"location": "Trump Room wall", "note": "Reinforced for the same reason as the CEO windows wall — lets you hide behind it and play the windows. Watch the west repel spot outside these windows.", "timestamp": "04:23"},
+        {"location": "Meeting wall (facing Stock)", "note": "Recommended reinforcement, paired with a head hole into Stock.", "timestamp": "06:37"}
+      ],
+      "headHoles": [
+        {"location": "Wall at back of CEO (into Square)", "note": "Best used with a DMR or ACOG. Lets you hold the Square head holes all the way from back of CEO.", "timestamp": "06:07"},
+        {"location": "Wall facing the 4 CEO windows", "note": "If attackers control the 4 windows on repel, a head hole here lets you fire back onto the windows from back Janitor instead of losing the room entirely. Don't make this the very first thing you do in a round — you want to play Janitor early.", "timestamp": "03:10"},
+        {"location": "Meeting wall into Stock", "note": "Lets you see into Stock from Meeting.", "timestamp": "06:37"}
+      ],
+      "rotates": [
+        {"location": "Wall near Trump/Stock stairs", "note": "Make the rotate hole on the LEFT side of the wall, not the right — the right side gives attackers an angle from the top of the spiral/banana stairs. Lets you peek Main Stairs without walking all the way around, and lets you re-enter site from an unpredictable angle when attackers expect you back through the obvious door.", "timestamp": "05:08"}
+      ],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Corridor corner near Stock", "operator": "Valkyrie", "note": "Shoot the ceiling and place a camera so it covers both sides of the corridor into Stock. A little obvious once attackers start droning, but effective.", "timestamp": "10:36"},
+        {"location": "Square and Stock floors", "note": "Both rooms are fully C4-able from the open area below — assume attackers can frag through the floor.", "timestamp": "10:04"},
+        {"location": "Meeting desks room", "operator": "Azami or Frost", "note": "Frost mats under each window; play behind the desks (clear the monitor for sightline first). Shield covers the angle toward Square so you can stay crouched with protection while peeking. Busy gunfight room — needs a confident gunner and ideally a way (Kaid magnetized wall / Jäger ADS-style denial) to stop things being thrown in.", "timestamp": "06:50"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Bandit", "role": "Anchor", "note": "Protect the Kanto Wall batteries — hard for attackers to reach with EMP from this angle."},
+        {"operator": "Valkyrie", "role": "Intel/Anchor", "note": "Preferred pick to run this site most rounds; sets up the corridor camera."},
+        {"operator": "Azami or Frost", "role": "Anchor", "note": "Runs the Meeting desks room with mats/Kiba barriers on the window angles."}
+      ],
+      "generalTips": [
+        {"note": "Don't reinforce every CEO/window-facing wall — if you do, attackers who control the 4 windows can repel in completely unopposed. Leave at least one angle to shoot back from.", "timestamp": "03:18"},
+        {"note": "2025 map additions: fire extinguishers scattered around can be popped to dash/stun-and-run past a defender holding a doorway (e.g. past Janitor, or from back of CEO past the two windows).", "timestamp": "11:08"}
+      ]
+    },
+    {
+      "id": "server-lockers",
+      "workingName": "Server Room / Locker Room",
+      "floor": "Basement",
+      "callouts": ["Server Room", "Dirt", "Blue Stairs", "CCTV / Security", "Red Hall", "Gold", "Garage", "Lockers", "Elevator", "Vault", "Bolt Hatch", "Main Stairs"],
+      "reinforcements": [
+        {"location": "Server hatch", "note": "Only reinforce if you're dedicating a player to permanently hold and defend Server. If you're just planning to delay attackers briefly (light resistance through Dirt) and then fall back to site, leave it soft instead — a common mistake is leaving it open too early and letting an Ash-style rush reach Middle Square before you're ready.", "timestamp": "12:00"},
+        {"location": "CCTV/Security wall facing Server", "note": "Always reinforce this one.", "timestamp": "14:09"},
+        {"location": "CCTV/Security second wall (optional)", "note": "Up to you — make feet holes here instead if you'd rather see feet at the back of Server from the rotate spot (a mirror is the common alternative if you skip the feet holes).", "timestamp": "14:23"},
+        {"location": "Wall near Red Hall default plant", "note": "Prefer head holes over reinforcing here to hold toward the door/plant spot. If both this and the neighbouring wall are reinforced, only the rotate hole or the door can stop the default plant.", "timestamp": "16:18"},
+        {"location": "Garage wall", "note": "Either reinforce it fully OR make head holes for Garage — don't do both, and don't head-hole the entire wall (defenders then can't stand safely without being wall-banged, even though it's soft).", "timestamp": "16:53"}
+      ],
+      "headHoles": [
+        {"location": "Wall near Red Hall/plant spot", "note": "Two head holes covering the default plant location from different angles, plus a wider DMR swing that also covers the side door.", "timestamp": "17:42"},
+        {"location": "Garage wall", "note": "Pairs with a DMR-capable defender (e.g. Aruni) or an ACOG loadout to shut down the Garage push and cover the default plant spot plus the side door.", "timestamp": "17:31"},
+        {"location": "Lockers, slightly raised", "note": "Higher than a normal head hole so smokes can be thrown from deep in Lockers toward the Server door and land near the default plant spot — the throw angle needs to be right. A C4 lobbed from close to this spot lands roughly on the plant location too.", "timestamp": "18:02"}
+      ],
+      "rotates": [
+        {"location": "Back of Lockers, left side", "note": "Make the rotate on the LEFT side of the wall, not the right — if Server's back wall gets opened, the right side gets you spotted going through. Use the bomb chassis as cover while moving through.", "timestamp": "18:35"}
+      ],
+      "hatches": [
+        {"location": "Security/CCTV hatch", "note": "Reinforced.", "timestamp": "15:45"},
+        {"location": "Red Hall hatch", "note": "Reinforced. Downside: attackers can drop it and instantly look down Red Hall, making Red a tricky (but important) anchor spot.", "timestamp": "15:45"},
+        {"location": "Elevator hatch", "note": "Reinforced. It's a big room — a poorly aimed smoke through it leaves plenty of safe space, so don't assume one smoke clears it. Good camera spot nearby to track which hatches are open.", "timestamp": "15:45"},
+        {"location": "Vault hatch", "note": "Reinforced.", "timestamp": "15:45"},
+        {"location": "Bolt Hatch (drop spot)", "note": "Left open. Attackers dropping in are penned in geographically, so a defender nearby can hold them off. Smoke is effective at flushing them out.", "timestamp": "18:55"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Dirt (thrown IN, not from the doorway)", "operator": "Smoke", "note": "Prox mine thrown properly into Dirt gives an early warning alert the moment attackers enter.", "timestamp": "13:24"},
+        {"location": "Top of stairs behind the sofa", "operator": "Smoke", "note": "Second prox mine placement — rarely found by attackers. Combined with the Dirt mine, lets you play both the Dirt and Blue approaches from the stairs and fall back once you know where the pressure is coming from.", "timestamp": "13:24"},
+        {"location": "Behind the bomb, facing the hatch", "operator": "Kaid (Electroclaw)", "note": "Crouch and throw the electroclaw from directly behind the bomb — not from an exposed angle, or you'll get domed from Server. Stand back up to retrieve it if needed. Keeping this hatch closed all round is a strong sign of a good defensive hold.", "timestamp": "20:52"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Smoke", "role": "Anchor", "note": "Reinforces and plays the Server hatch when dedicated to holding it; runs both prox mines."},
+        {"operator": "Kaid", "role": "Anchor", "note": "Keeps the hatch near the bomb closed with electroclaw from a safe crouch angle."},
+        {"operator": "DMR/ACOG operator (e.g. Aruni)", "role": "Garage watch", "note": "Stops the Garage push and covers the default plant + side door through the Garage head holes."}
+      ],
+      "generalTips": [
+        {"note": "Gold doesn't hold much on its own — it's mainly a safe rotate path (used by camera-shy operators like Echo/Maestro) toward the hatch-drop area.", "timestamp": "16:02"},
+        {"note": "Red Hall's constant sprinkler/fireball hazard is a fixed environmental annoyance with no counter — there are no breakable glass panels nearby to stop it.", "timestamp": "15:01"},
+        {"note": "If a defender is upstairs at this site, they should actively cause delays rather than sit passive — they can always retreat down Main Stairs. Shooting out parts of the steps and crouch-crouch-running down is faster than the long way around.", "timestamp": "19:46"},
+        {"note": "If this wall near Vault gets opened, attackers can crouch in backwards so their back is protected by the wall — meaning a defender can be in the room and still not stop the plant unless they're on one of the specific head-hole angles that see the plant spot directly.", "timestamp": "21:18"}
+      ]
+    },
+    {
+      "id": "openarea-kitchen",
+      "workingName": "Open Area / Kitchen",
+      "floor": "Ground Floor",
+      "callouts": ["Electrical", "Open Area", "Small Office", "Talis Door", "Kitchen", "Kitchen Door", "Walk-in", "Lone", "Back Open Area", "Main Stairs"],
+      "reinforcements": [
+        {"location": "Electrical wall (optional)", "note": "Paired with feet holes along the wall. Stops an attacker who's gone prone at one specific spot from seeing far down the side — the feet holes reveal them the moment they reach that point.", "timestamp": "22:44"},
+        {"location": "Wall near Open Area/Vault side", "note": "Optional. Without it, attackers can fire through the wall at an angle into the room. Trade-off: reinforcing it means leaving at least one basement hatch soft instead. Creator ultimately reinforces this one.", "timestamp": "23:37"},
+        {"location": "Both sides of the Small Office → Talis rotate", "note": "Reinforce BOTH sides of this rotate hole. A rotate on only one side gives attackers a long, exposed sightline down the whole office. Middle placement is the creator's preference — it also lets you hold toward the Talis door.", "timestamp": "24:35"},
+        {"location": "Wall near Small Office (extra, budget permitting)", "note": "Extra protection from people shooting up through the wall from Main Stairs.", "timestamp": "25:54"},
+        {"location": "Wall near Kitchen door", "note": "Paired with a rotate/head holes there. Specifically stops a wall-bang angle into the room and lets you hold Kitchen door from both sides.", "timestamp": "28:46"}
+      ],
+      "headHoles": [
+        {"location": "Small Office, watching the Open Area feet holes", "note": "Tighter angle to watch the feet holes from cover instead of standing exposed in the open.", "timestamp": "24:23"}
+      ],
+      "rotates": [
+        {"location": "Small Office → Talis (middle of wall preferred)", "note": "See reinforcement note — middle is preferred over either side.", "timestamp": "24:35"},
+        {"location": "Small Office / Kitchen door shortcut", "note": "Needed so you don't have to loop all the way around via Kitchen door to move between the two halves of the site.", "timestamp": "25:25"}
+      ],
+      "hatches": [
+        {"location": "Both hatches above this site (Stock hatch + Janitor-side hatch)", "note": "Leave soft/open, don't reinforce. If forced to reinforce one, pick the Stock hatch — it's harder to hold otherwise. Opening the basement hatches (rather than reinforcing) lets a pressured defender drop down and immediately rotate back up Main Stairs or flank up Blue.", "timestamp": "26:07"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Open Area window", "note": "Feet holes for watching jump-ins; pair with proxy mines or a defender's alarm/trap gadget (source audio was unclear on which operator — verify in-game before relying on this).", "timestamp": "23:25"},
+        {"location": "Stock-equivalent room upstairs", "operator": "Frost or Clash", "note": "Same top-down hold technique as the CEO/Meeting site: hold Stock from above behind a shield (Clash) or with Welcome Mats covering the approach (Frost), soak time, then fall back through the hatch once pressure builds.", "timestamp": "26:26"},
+        {"location": "Janitor-adjacent pocket upstairs", "operator": "Lesion", "note": "Leave the Janitor-side hatch open, add a small rotate nearby (watch the skylight — don't use this rotate in roughly the first 90 seconds, an attacker often camps it early). Lesion's goo mines on the rotate approach give an early warning if someone's coming without you seeing them.", "timestamp": "26:40"},
+        {"location": "Same upstairs pocket", "operator": "Alibi", "note": "Alternative pick — Prisma projectors near the rotate work similarly to an early-warning trap.", "timestamp": "27:32"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Lesion or Alibi", "role": "Upstairs roamer", "note": "Holds the Janitor-adjacent pocket above this site with trap/intel gadgets and a rotate back to CEO."},
+        {"operator": "Mute", "role": "Anchor (Kitchen)", "note": "Common pick to hold Kitchen with a shotgun once the wall there gets opened, or against anyone entering through the door."}
+      ],
+      "generalTips": [
+        {"note": "Very little verticality at this site — the only vert is the Stock Room footprint directly above Kitchen (visible through a hole in the ceiling); everywhere else here is effectively outside the building's interior footprint.", "timestamp": "22:11"},
+        {"note": "If you're holding Stock upstairs, you must reinforce the wall facing Square-equivalent room or you'll get shot through it.", "timestamp": "27:40"},
+        {"note": "Never peek the long Back Open Area window toward the street/cars — it's a guaranteed free kill for attackers camped there.", "timestamp": "28:00"},
+        {"note": "Watch for a prone punch-hole angle attackers make on the left wall of Lone — it gives a long sightline across Open Area as far as Kitchen door.", "timestamp": "28:20"},
+        {"note": "Considered one of the strongest sites on the map (arguably rivaled only by the basement site), but it's deceptively hard to execute well. A team that doesn't know the callouts and angles cold gives away reads very easily to attackers who do.", "timestamp": "29:09"},
+        {"note": "Always fire your weapon while dropping through a hatch so the drop noise is masked as a gunshot — otherwise a defender on Kitchen door will know exactly when you've flanked up Blue.", "timestamp": "30:02"},
+        {"note": "Kitchen chairs are wall-bangable (not breakable by melee/punching) — factor that into cover choices.", "timestamp": "30:32"},
+        {"note": "Roughly 14 useful reinforcement spots exist across this single site, but you only have 10 total for the whole map — prioritize.", "timestamp": "31:16"}
+      ]
+    },
+    {
+      "id": "tellers-archives",
+      "workingName": "Teller's / Archives",
+      "floor": "Top Floor",
+      "callouts": ["Teller's", "Archives", "Front Desk", "Main Lobby", "Talis", "Electrical (upper)", "Open Area (upper)"],
+      "reinforcements": [
+        {"location": "Mirrors CEO/Meeting site layout", "note": "Same reinforcement pattern as the CEO Office/Meeting Room site: the two key walls, the head-hole-into-Square-equivalent combo, and the head holes into the Stock-equivalent room.", "timestamp": "31:41"},
+        {"location": "Site boundary ('off') wall", "note": "Optional. Reinforcing it shrinks the area you have to defend so you don't also need to worry about the Square-equivalent room spilling over — reasonable if you'd rather trade a reinforcement for a tighter perimeter.", "timestamp": "32:59"},
+        {"location": "Two Main Lobby walls", "note": "Reinforce both.", "timestamp": "34:50"},
+        {"location": "Extra Lobby wall (budget permitting)", "note": "Stops attackers standing at the bottom of Main Stairs and shooting straight through into Lobby.", "timestamp": "35:01"},
+        {"location": "Optional extra wall for Open Area (upper)", "note": "Makes holding the upper Open Area equivalent room easier from below.", "timestamp": "33:33"}
+      ],
+      "headHoles": [
+        {"location": "Electrical (upper), through a shelf/plant", "note": "Shoot the top off the plant on the shelf, tuck behind the shelf, then shoot out a stack of paper — opens a long sightline down Electrical. Works for defending this site or the CEO/Meeting site, since attackers frequently rush that corridor.", "timestamp": "35:18"}
+      ],
+      "rotates": [
+        {"location": "Same rotate structure as CEO/Meeting site", "note": "Same Janitor-equivalent rotate reused.", "timestamp": "32:09"},
+        {"location": "Rotate on one end of a specific Lobby-adjacent wall", "note": "Be careful using this one — it looks straight into Main Lobby, so West repels are a risk here.", "timestamp": "34:08"}
+      ],
+      "hatches": [
+        {"location": "Hatch above Open Area (upper)", "note": "Keep OPEN, not reinforced, so a pressured defender upstairs can drop and reconnect to site via the established rotate. Don't drop it carelessly early — attackers commonly push the upper Open Area room through its window, so opening it too soon can hand them a free path in.", "timestamp": "33:13"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Desks/windows room (mirrors Meeting room)", "operator": "Azami or Frost", "note": "Same shield + mats setup as the CEO/Meeting site's desks room.", "timestamp": "32:25"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Ela, Lesion, or another trap-style defender (e.g. Kapkan, Melusi)", "role": "Downstairs anchor", "note": "Downstairs has two side approaches that need covering; a trap operator is preferred because they have up to three retreat routes back toward Main Lobby if the team starts losing map control. Source audio named a defender phonetically as 'a fener', which doesn't match any real operator on this side — treat as Ela/Lesion until verified against the video directly."},
+        {"operator": "Caveira", "role": "Downstairs anchor (situational)", "note": "Usable but considered a well-known/obvious angle by good attacking teams these days."}
+      ],
+      "generalTips": [
+        {"note": "Recommended 3-player upstairs split: one on Front Desk, one in Talis (holds pushes from Blue or into Electrical), one in the upper Open Area room.", "timestamp": "35:18"},
+        {"note": "Front Desk needs at least light coverage — attackers can't be allowed to wander freely into Front Lobby.", "timestamp": "35:01"},
+        {"note": "If defense loses the upstairs fight, this site becomes very weak — almost everything upstairs is soft with verticality everywhere and nowhere to hide.", "timestamp": "34:08"},
+        {"note": "Considered the weakest site on the map — there's no strong reason to prefer defending it over Open Area/Kitchen. It's easier to execute (the setup is essentially copy-paste from the CEO/Meeting site) but the payoff is much lower, since the map geometry here hands attackers a lot of free verticality that the Open Area/Kitchen site denies them.", "timestamp": "35:42"}
+      ]
+    }
+  ]
+}

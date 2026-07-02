@@ -1,0 +1,196 @@
+{
+  "map": "Border",
+  "side": "Defense",
+  "source": {
+    "title": "Border defense setup guide (Littleton) — merged from two uploads",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Border_Defense_F6kIn15m1-A.txt + data/raw_transcripts/Border_Defense_v2_ppWvSNEl9f0.txt",
+    "notes": "Two transcripts from the same creator (Littleton) covering the same four sites (Top Floor Armory/Archives/Office, Bathroom/Tellers, Ventilation/Workshop, Customs/Supply) were merged into this single file. v1 (F6kIn15m1-A) is explicitly billed '...for 2025' and is the more free-form walkthrough. v2 (ppWvSNEl9f0) doesn't state a date but references 'since border got reworked' as a past event and 'now that grenading from below is no longer a thing' (a post-nerf balance change), and gives a tighter, numbered reinforcement count per site — internal evidence points to v2 being the later/updated video, so v2 was treated as primary for anything the two disagree on, with v1 used to fill in detail v2 skips (e.g. downstairs vert/C4 lineups, punch-hole notes, some hatch-drop specifics). Both are auto-generated YouTube captions — expect ASR errors, especially on operator names and jargon ('a Littleton' = the creator's channel name/intro line, not an operator). Room names are the creator's own informal callouts, not verified wiki callouts."
+  },
+  "sites": [
+    {
+      "id": "armory-archives-office",
+      "workingName": "Armory / Archives / Office (Top Floor)",
+      "floor": "Top Floor",
+      "callouts": ["Armory", "Half Wall", "Archives", "Office", "Small Office", "Fountain", "Brazil (CCTV)", "Break Room", "Balcony", "90 Hallway", "Top East", "Lockers", "Bathroom (vert below)", "Workshop (vert below)"],
+      "reinforcements": [
+        {"location": "Two main Armory walls", "note": "Can reinforce just the left-hand side and leave the right side soft to play a deployable shield and be aggressive onto the walkway — needs a confident, careful player (DMR recommended) since repel angles stack up on top of the wall angles. Reinforcing both is the safer default.", "timestamp": "01:22 / v1"},
+        {"location": "Wall between Half Wall room and the door into Fountain/office area (the door-side wall)", "note": "Do NOT reinforce this one. Both creators are emphatic: reinforcing it lets attackers plant safely right on the door with no angle to challenge except from all the way around, by which time you're dead to the breach. Leave it soft and make feet holes instead so you can hold anyone walking through the door.", "timestamp": "02:26 / v1; confirmed again in v2 at 01:03 ('don't reinforce this wall, please don't')"},
+        {"location": "Wall between Archives/Lockers area and Office", "note": "Head holes here instead of a straight reinforcement — paired with the east-plant/east-rush being very common. Holes kept low at the base of the wall for throwing C4 over the top (a C4 arc clears the ceiling gap; a smoke thrown the same way hits the ceiling first).", "timestamp": "03:09 / v1"},
+        {"location": "Back-right wall and rear wall of Archives", "note": "Both reinforced.", "timestamp": "04:30 / v1"},
+        {"location": "Single wall in Office", "note": "Reinforced.", "timestamp": "05:13 / v1; also v2 00:41 ('single wall here in office')"},
+        {"location": "Triple wall in Office", "note": "Reinforced by default, but v2 flags this is ELO-dependent: at higher ELO, attackers throw an ACE charge on the triple wall itself, so v2 recommends leaving feet holes there instead so an impact grenade can be thrown through to destroy the ACE charges from the other side. At lower ELO, where people don't bother opening the triple wall, just reinforce it normally.", "timestamp": "05:13 / v1; ELO caveat from v2 04:34"},
+        {"location": "Right-hand walls near Break Room (two walls)", "note": "Reinforced — lets you hold toward Break Room.", "timestamp": "v2 00:41"},
+        {"location": "Wall near the Talis-side window (shoot the top-right corner as a line of sight, not a full reinforce)", "note": "v2 treats this as mainly a line-of-sight/hole rather than a full reinforcement — good for catching an attacker who jumps the window unspotted early round.", "timestamp": "v2 05:15"},
+        {"location": "Wall giving an angle onto the balcony / near the rotate into Fountain-Brazil", "note": "v2 recommends NOT reinforcing this one — leaving it lets you get an angle onto the balcony and hold the door from a different position. There is a counter-argument (v2 mentions) that with East Side attacks (Gridlock/Ying/Monty into Archives) becoming more common, a rotate here instead of a full reinforce/soft choice can help you get out rather than being forced out the one door — the creator says he'd personally still reinforce it, so treat this spot as a judgment call.", "timestamp": "v2 03:53"}
+      ],
+      "headHoles": [
+        {"location": "Hole watching anyone jumping the vents window (start of round)", "note": "Made toward the start of the round to catch an early jumper; used to be more relevant when a nade-from-below tech existed underneath, which v2 confirms is no longer possible post-patch.", "timestamp": "02:04 / v1"},
+        {"location": "Wall between Lockers/Africa and Archives", "note": "Watches the east plant/rush. Keep the holes low — v1 flags a mistake of making a line that comes down too far and gives attackers an angle back at you.", "timestamp": "03:09 / v1"},
+        {"location": "Barricade at the front door — second panel (not the first)", "note": "Shoot out the second panel of the barricade, not the first. Attackers commonly spawn-peek here and shoot the default cam while the barricade looks closed; this hole lets you spawn-peek them back while they're focused on the cam.", "timestamp": "v2 08:47"},
+        {"location": "Wall/carpet giving an angle on the office window from Talis side", "note": "Lets you hold anyone hopping into the office window; the carpet decoration doesn't destroy easily so it takes an extra shot to clear.", "timestamp": "v2 13:20 (this is actually documented under the Bathroom/Tellers site in v2 but the window referenced is the office window on this site's boundary)"}
+      ],
+      "rotates": [
+        {"location": "Rotate from Half Wall/behind-bomb area through to the door", "note": "If attackers plant Armory and hold you behind the bomb, this rotate is your only way to approach from a different angle (crouched, using it as cover) instead of walking straight through the obvious door into a stacked set of angles.", "timestamp": "03:50 / v1; also v2 03:10 ('gives you a different way of coming through')"},
+        {"location": "Rotate near Fountain/Brazil (CCTV room)", "note": "Creator's favorite spot on the map to defend from. Lets you watch CC window, CC door, hold Break Room door, hold Break Balcony, and reposition unpredictably. Team needs to know this rotate exists before you use it — don't make it in anything smaller than a 2-3 stack unless everyone's briefed.", "timestamp": "05:34 / v1; also v2 05:58 ('really strong place to hold')"},
+        {"location": "Same Fountain/Brazil rotate — safety note", "note": "Always go prone before opening this rotate hole, not standing — standing risks shooting down through the wall and accidentally opening the hatch below into Small Office, which makes the area below trickier to hold (not fatal, but adds another angle to watch).", "timestamp": "07:18 / v1"},
+        {"location": "Rotate near the triple-wall side, toward top east", "note": "Lets you aggress onto Top East or fight onto the Break door and return.", "timestamp": "06:15 / v1"}
+      ],
+      "hatches": [
+        {"location": "Office hatch (drops to Small Office below)", "note": "v1 opens this hatch and makes one shotgun hole to catch early window-jumpers into Talis — playing it from above nets an easy free pick and gives an escape route if pushed hard through the double door. v2 instead reinforces this hatch as a default, treating it as a 'strong anchor point' for below (see Customs/Supply site) — the two transcripts differ here; v2's reasoning (protects the anchor below) sounds like the more deliberate, current call, but v1's 'leave it open for a free pick + escape' is a valid alternative playstyle. Noted as a discrepancy — decide based on whether you have a player planning to hold below.", "timestamp": "05:13 / v1 vs v2 19:34 area (hatches discussion under Customs/Supply)"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Behind the mute jammer spot near the door (Half Wall area)", "note": "Really good Mute jammer position — covers the door and can't be shot from the door itself. Anyone planting on the door can be shot from here; you can also hold the window from this position.", "operator": "Mute", "timestamp": "v2 01:46"},
+        {"location": "Fountain/Brazil rotate area", "operator": "Lesion or Melusi", "note": "Goo mines on the window, the door, and the Break Balcony window/door give an audio alert if someone approaches; both have shotguns too. Be careful opening the rotate here regardless.", "timestamp": "07:18 / v1"},
+        {"location": "This site (general) — office desks room", "operator": "Mute", "note": "Great spot to mute off the double door while also watching the office window.", "timestamp": "05:13 / v1"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Mute", "role": "Anchor", "note": "Jammer near the door covers the plant and can't be shot back at from the door itself; also a strong pick for the desks room watching the double door and office window."},
+        {"operator": "Lesion or Melusi", "role": "Roamer/trap", "note": "Goo mines around the Fountain/Brazil rotate give early warning; both carry shotguns for close fights in that room."},
+        {"operator": "DMR-capable defender", "role": "Armory anchor", "note": "If playing the soft right-hand side of Armory aggressively with a shield, a DMR is recommended for holding tight angles against repel spots."}
+      ],
+      "generalTips": [
+        {"note": "This site is genuinely tough to defend — both the east push (Archives) and west push (Armory) are considered equally valid by attackers, and the creator personally considers Border an attacker-sided map overall.", "timestamp": "09:23 / v1"},
+        {"note": "Border's walls are already a sandy/brown texture, which makes punch holes look less obvious than on other maps — a crouched punch hole into Armory from Archives is a sneaky (if slightly cheeky) option.", "timestamp": "14:15 / v1"},
+        {"note": "Vertical C4 lineup: on the default plant spot on the door, the floor below is soft — a C4 dropped from above lands there. There's also a soft floor angle onto the vents-below window through the carpet in Workshop below.", "timestamp": "08:20 / v1"},
+        {"note": "There's a second soft-floor vert spot behind where the bomb typically sits if planted in Archives — it drops into Bathroom below. People forget this one and often C4 the wrong spot (a prox mine, not the plant) by mistake.", "timestamp": "09:03 / v1"},
+        {"note": "The office window (drop-in point to Talis below) can also be watched/shotgunned from below.", "timestamp": "09:23 / v1"},
+        {"note": "You can shoot the 90 cam from this wall near the rotate if it isn't reinforced — useful to know both offensively and defensively (as a defender, know that attackers can deny your cam from here).", "timestamp": "v2 07:02"},
+        {"note": "Half Wall is now a genuinely strong anchor position since the under-hatch grenade tech was patched out — previously attackers could cook a grenade from the vents window below to clear Half Wall easily; that's no longer possible.", "timestamp": "v2 09:09"},
+        {"note": "You'll want at least one player roaming underneath (Bathroom/Workshop side) in addition to the top floor hold.", "timestamp": "v2 08:27"}
+      ]
+    },
+    {
+      "id": "bathroom-tellers",
+      "workingName": "Bathroom / Tellers",
+      "floor": "Ground Floor",
+      "callouts": ["Bathroom", "Tellers", "Workshop", "Stool", "Drone Hole", "Lobby", "Site Window"],
+      "reinforcements": [
+        {"location": "Two walls next to the Tellers windows", "note": "Reinforced. Do not reinforce between the sides.", "timestamp": "v2 09:53"},
+        {"location": "Two walls from Bathroom into the back of Workshop", "note": "Reinforced — this is the strategy of extending the effective site boundary from Bathroom out into the back of Workshop rather than treating Bathroom itself as the last line.", "timestamp": "10:04 / v1; v2 09:53"},
+        {"location": "All four walls at the back/bottom of Workshop", "note": "Reinforced (this uses most of the site's allotment — v2 counts 10 total reinforcements for this site: 2 near Tellers windows, 2 into back of Workshop, then these 4 at the bottom of Workshop, plus 2 more listed separately).", "timestamp": "v2 09:53"},
+        {"location": "Wall from Bathroom giving an angle if unreinforced (attacker line-of-sight risk)", "note": "If left soft, attackers get a long line of sight from outside all the way through Bathroom to near the Workshop area — but leaving it soft also lets a defender hold the Tellers window and anyone entering Tellers, plus make a raised hole to lineup a C4 onto the default plant spot. Judgment call between denying the attacker sightline (reinforce) and keeping defensive flexibility (leave soft with holes).", "timestamp": "v2 12:58"},
+        {"location": "Window-side wall above Small Office (shared boundary with Office upstairs)", "note": "Also mentioned as a hold point — lets you catch anyone hopping into the office window from below; the carpet decoration takes an extra shot to clear.", "timestamp": "v2 13:40"}
+      ],
+      "headHoles": [
+        {"location": "All along the Tellers floor/feet-hole line", "note": "Feet holes for the default plant — lets you see attackers planting in the default corners even from a retake, since a lot of this site's defense happens away from site and returns late.", "timestamp": "12:52 / v1; v2 11:16"},
+        {"location": "Head holes watching the side window jump-ins of Talis", "note": "Important — this is a very common early jump-in spot.", "timestamp": "11:07 / v1"},
+        {"location": "Head holes watching into Lobby", "note": "Important.", "timestamp": "11:28 / v1"},
+        {"location": "Drone hole near the hatch drop spot", "note": "Easy to forget about — if attackers drop the hatch and start planting, you should be able to see their ankles through this hole. Move it back to reposition if needed; set this up at the start of the round.", "timestamp": "10:46 / v1"}
+      ],
+      "rotates": [
+        {"location": "Rotate between the two sides of Bathroom (near the stool)", "note": "If caught on the wrong side of the stool when a window gets opened and shot through, you can't get around to challenge without this rotate — lets you challenge from a much better angle than exposing yourself wide.", "timestamp": "10:04 / v1"},
+        {"location": "Rotate into Workshop", "note": "Reinforced pairing walls optional here — head holes also placed to see the side window and window jump-ins of Talis.", "timestamp": "11:07 / v1; v2 09:53 ('first one goes here between workshop and bathroom')"},
+        {"location": "Rotate inside site (careful of wall side)", "note": "Make sure the rotate hole is cut on the correct side of the wall — cutting it on the wrong side gives attackers a line of sight all the way through the site.", "timestamp": "v2 10:34"},
+        {"location": "Extra rotate to avoid crossing an exposed window between Bathroom sub-areas", "note": "Without this, moving between the two halves of Bathroom means crossing an exposed area; with it, you can tuck up and use it for cover instead.", "timestamp": "v2 10:55"}
+      ],
+      "hatches": [
+        {"location": "Tellers/site hatch", "note": "v1 and v2 both lean toward leaving this soft/open rather than reinforcing, PREFERRING to have two players roaming upstairs with the option to drop late — attackers are usually bringing hard breach anyway, and reinforcing costs a wall better used elsewhere. If nobody is playing upstairs, reinforce it and pull a reinforcement off one of the back Workshop walls instead. v1 frames this as workshop-dependent ('if you're playing workshop, I would probably say yes... reinforce this hatch') — the two lean different directions depending on whether the team commits to holding upstairs; default to open with upstairs roamers per v2's more deliberate framing.", "timestamp": "16:05 / v1 vs v2 12:16"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Bathroom sub-room, back-left", "operator": "Wamai or Maestro (ACOG-capable defender)", "note": "From deep at the back of Bathroom you can hold the gap where someone jumps the vents window — not reliably with an SMG, but doable with an ACOG.", "timestamp": "v2 16:48"},
+        {"location": "Upstairs (Office/Archives) roamer position covering this site's approach", "operator": "Mute, Castle, Wamai, or Lesion", "note": "A trap or intel operator upstairs (mentioned across both videos) gives info on the approach into this site from above.", "timestamp": "11:50 / v1"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Wamai or Maestro", "role": "Back-Bathroom anchor", "note": "ACOG needed to hold the vents-window gap reliably from the back corner."},
+        {"operator": "Lesion or Mute", "role": "Upstairs roamer", "note": "Covers the site from above; considered near-mandatory since this site depends heavily on holding upstairs."}
+      ],
+      "generalTips": [
+        {"note": "A lot of defending this site happens away from the site itself — an 'onion' style defense with layers outside, since spending prolonged time directly in Bathroom/Tellers is not the main plan. Most of this setup exists to support a late retake.", "timestamp": "09:43 / v1"},
+        {"note": "v2 rates this as probably the second-best site on the map, and personally ranks it above the old #1 (Ventilation) since the border rework — arguably even stronger than the Top Floor Armory site. Holding the Workshop room and having someone roaming above are both described as absolutely key.", "timestamp": "v2 14:20"},
+        {"note": "v1 rates this as one of the easier sites to attack overall, despite the strong setup, if not defended carefully away from the site itself.", "timestamp": "09:43 / v1"},
+        {"note": "You definitely need someone with an ACOG watching one direction and someone else watching the other — most of your time on this site is spent around Workshop.", "timestamp": "12:11 / v1"}
+      ]
+    },
+    {
+      "id": "ventilation-workshop",
+      "workingName": "Ventilation (Server Room) / Workshop",
+      "floor": "Ground Floor",
+      "callouts": ["Vents", "Server Room", "Supply", "Blue", "Jail (nearby)", "Front Door", "Workshop", "Bottom Metal", "Bathroom (adjacent)"],
+      "reinforcements": [
+        {"location": "One wall in Vents (attacker window-spray wall)", "note": "Reinforced — attackers commonly stand outside the window and spray through this wall, which can cut off a lot of sightlines. Creator only reinforces one wall here and leaves the other soft to keep feet holes watching anyone walking in.", "timestamp": "17:09 / v1"},
+        {"location": "Server hatch area walls (back of Workshop, four walls)", "note": "All four reinforced — bring a prox mine or similar on this side too.", "timestamp": "12:11 / v1; v2 'three at the back of workshop... 1 2 3'"},
+        {"location": "Two walls into Bathroom (back)", "note": "Reinforced — extends Workshop's effective boundary into Bathroom rather than stopping at Workshop's own wall.", "timestamp": "17:52 / v1; v2 confirms 'we also would reinforce if you do extend into bathroom, reinforce these two walls here at the back of bathroom'"},
+        {"location": "Two walls into Blue", "note": "Reinforced.", "timestamp": "17:52 / v1"},
+        {"location": "Wall from Supply side", "note": "Reinforced — same reasoning as the Vents window wall: if soft, someone in Supply can cut a sightline all the way back through Workshop, badly compromising the whole site.", "timestamp": "18:34 / v1"},
+        {"location": "Two Armory walls (upstairs) and the wall at the back of Office (upstairs, shared with this site's airspace)", "note": "Reinforced upstairs — stops attackers spraying through from the office-side window and splitting the top floor in half.", "timestamp": "19:16 / v1"},
+        {"location": "Top wall on the main Armory breach (upstairs)", "note": "Reinforced — v2 counts this as the 7th/8th reinforcement for this site.", "timestamp": "v2 14:41 ('reinforce the top wall on the main armory breach')"},
+        {"location": "Second wall in from the right-hand side of Workshop", "note": "Reinforced (v2's count, listed as the 6th reinforcement).", "timestamp": "v2 14:41"},
+        {"location": "Jail walls (optional alternate use of reinforcements)", "note": "Optional — can jiggle reinforcements to cover Jail instead, since it's an easy no-door entry point for attackers with a hard breach. Recommended especially at higher ELO.", "timestamp": "18:55 / v1"}
+      ],
+      "headHoles": [
+        {"location": "Line of sight onto the Vents window from below/above", "note": "Lets you hold the Vents window.", "timestamp": "19:37 / v1; v2 15:24"},
+        {"location": "Line of sight covering the Vents door", "note": "Lets you hold anyone entering the door as well as the window from the same rough area.", "timestamp": "v2 15:24"},
+        {"location": "Line of sight to the back corner where attackers commonly plant if they get the window", "note": "If you don't kill them coming through the window, this covers the back-corner plant spot they retreat to.", "timestamp": "v2 15:45"},
+        {"location": "Hole to watch the bathroom-side rotate (either from this side or the other)", "note": "Also doubles as a generic line of sight onto a common late-round plant spot at the back corner of Workshop.", "timestamp": "21:22 / v1"}
+      ],
+      "rotates": [
+        {"location": "Rotate in the corner near Vents, plus a hole further right", "note": "Both made — the corner rotate and a separate hole.", "timestamp": "17:09 / v1"},
+        {"location": "Rotate into Bathroom (back of Workshop)", "note": "Standard extension rotate.", "timestamp": "18:13 / v1"},
+        {"location": "Rotate on the far-right wall (upstairs side)", "note": "Make it as tight to the wall as possible — these walls aren't nice to cut rotates out of. Lets you hold the front door and the Vents window from a different angle.", "timestamp": "v2 15:45"},
+        {"location": "Rotate at the very back of Bathroom", "note": "Being all the way back here lets you hold a line of sight through the gap if someone jumps the Vents window (ACOG-dependent), and lets you push into Blue or toward the bottom of Metal Stairs. Also your only way out if trapped in the back of Workshop, useful in 2v3/2v4/3v5 comeback scenarios.", "timestamp": "v2 16:27"}
+      ],
+      "hatches": [
+        {"location": "Server hatch (upstairs, above Armory)", "note": "Always leave open — attackers get very little from it (can't see much even after dropping), and it's better for you to force them into a choke point you can hold. Both transcripts agree on this.", "timestamp": "19:37 / v1; v2 15:03"},
+        {"location": "Workshop hatch", "note": "v1: prefers open because defending from above is stronger overall, but flags an ELO split — reinforce it in lower ranks (bronze through gold) since you can't rely on the team holding above; consider opening it from Plat and up. v2: also defaults to open IF you have roamers upstairs (gives them a way down), but reinforces it if nobody's playing upstairs, and would rather pull a reinforcement off one of the back Workshop/Bathroom walls to afford it. Both agree the decision hinges on whether your team commits to holding upstairs.", "timestamp": "20:18 / v1 vs v2 17:51"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Back corner of Workshop / near common late plant spot", "operator": "Wamai or Maestro (ACOG)", "note": "Covers the gap if someone jumps the Vents window; also useful for watching the common late-round plant spot in this corner.", "timestamp": "21:22 / v1; v2 16:48"},
+        {"location": "Upstairs Armory/Office area", "operator": "Mute, Castle, Wamai, or Lesion", "note": "Same upstairs-hold requirement as other sites; Lesion's trap works well here too.", "timestamp": "v2 15:45 ('use a mute castle or some kind of setup up here... Maloy works well, Lesion works well')"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Wamai or Maestro", "role": "ACOG anchor", "note": "Ideally the player watching the Vents/Workshop direction runs an ACOG-capable loadout."},
+        {"operator": "Mute or Lesion", "role": "Upstairs roamer", "note": "This site relies heavily on defending the Armory/Office area above it, same as Bathroom/Tellers."}
+      ],
+      "generalTips": [
+        {"note": "This site's effective boundary is drawn down the hallway — everything on the far side (toward Bathroom/Tellers) doesn't need active defending from this site's players.", "timestamp": "22:05 / v1"},
+        {"note": "Attack-side tip flagged for awareness: if the wall near the back of the bomb and the hatch are both soft/open, attackers can get a very strong angle from behind — watch for this as a defender.", "timestamp": "22:47 / v1"},
+        {"note": "Common plant spots to watch: behind a specific table (two sides of it), and the back corner of Workshop.", "timestamp": "23:07 / v1"},
+        {"note": "v1 rates this site as worse than Bathroom/Tellers but better than Customs/Supply.", "timestamp": "23:49 / v1"},
+        {"note": "v2 rates this site fairly positively — used to be considered the best site on the map before the rework (now considered second to Bathroom), and reiterates the key to the site is holding above and holding upstairs.", "timestamp": "v2 19:14"}
+      ]
+    },
+    {
+      "id": "customs-supply",
+      "workingName": "Customs / Supply",
+      "floor": "Ground Floor",
+      "callouts": ["Jail", "Supply", "Small Office (Customs Desk)", "Passport", "Waiting", "Lobby", "Blue"],
+      "reinforcements": [
+        {"location": "Two Jail walls", "note": "Reinforced — but this area is soft above, so keeping it fully closed all round is tough (attackers can open the ceiling and nade over the top). Watch for repel players (Blue Book/Sledge) who make a hole and camp a repel angle looking in.", "timestamp": "23:49 / v1; v2 19:34 ('two on the jail wall')"},
+        {"location": "Two walls on the Customs side facing Passport", "note": "Reinforced (v2's count, first pair listed).", "timestamp": "v2 19:34"},
+        {"location": "Small Office (Customs Desk) — right side and back wall", "note": "Both reinforced. This is a key room to hold; also has a window peek toward Waiting and a view toward Passport's reinforced walls (commonly opened by attackers).", "timestamp": "25:13 / v1; v2 19:34 ('one on the left hand side of the office... five')"},
+        {"location": "Wall from Small Office looking out toward Blue", "note": "Reinforced (v2's 6th reinforcement).", "timestamp": "v2 19:34"},
+        {"location": "Two hatches upstairs (above Small Office / Customs)", "note": "v2 reinforces BOTH by default — v1 only reinforces the Small Office hatch. v2's reasoning: the hatch above Small Office especially is a strong anchor point worth protecting; the other hatch could instead be used as a late drop-in for defenders if left soft, but v2 leans toward reinforcing it too unless the ELO/read calls for a drop option. v1 doesn't reinforce the second hatch at all. Treated as a discrepancy — v2's explicit reasoning (documented, deliberate) is preferred here as the more current call, but note v1's simpler open approach as a valid alternative.", "timestamp": "25:13 / v1 vs v2 19:34-20:38"}
+      ],
+      "headHoles": [
+        {"location": "Wall toward Jail from Small Office", "note": "Head holes to watch anyone entering via Jail — covers the window and the door.", "timestamp": "25:34 / v1"},
+        {"location": "Feet holes across the wall facing the Supply window", "note": "v1: doesn't bother reinforcing here since you can't get a great angle from that window as a defender and you're unlikely to be holding this room directly if pushed back this far, the site's probably already lost — feet holes only, for info. v2 corroborates: describes Supply as 'mainly just going to be for retaking,' with feet holes across the wall for the same reason.", "timestamp": "24:32 / v1; v2 21:19"},
+        {"location": "Feet holes for the Passport walk-in", "note": "Gives info if anyone jumps in early — a common early-round move by attackers.", "timestamp": "26:37 / v1; v2 18:53 (vent equivalent) and v2 20:58 area for passport specifically"},
+        {"location": "Feet holes watching the Supply window jump-in", "note": "One of the best angles to stop attackers jumping this very common entry window; a higher hole variant lets you hold the window from above if the upstairs area is clear.", "timestamp": "25:56 / v1"}
+      ],
+      "rotates": [
+        {"location": "Rotate near Small Office, closer to the door", "note": "Saves having to walk all the way around to get in and out; lets you bob around and hold feet holes toward the double door.", "timestamp": "25:13 / v1"},
+        {"location": "Same rotates as used on the Top Floor site (reused pattern upstairs here)", "note": "Lets you defend the upstairs portion of this site for a while and fall back.", "timestamp": "27:39 / v1"},
+        {"location": "Rotate near Supply, closer to the door", "note": "Avoids crossing the exposed Supply window when moving between areas; without it, your only path back is through two doors and across the window.", "timestamp": "v2 22:01"}
+      ],
+      "hatches": [
+        {"location": "Hatch above Small Office", "note": "Reinforced by v2 as a strong anchor point (see reinforcements above); v1 also reinforces this one and plans to talk about it upstairs.", "timestamp": "25:13 / v1; v2 19:34"},
+        {"location": "Second upstairs hatch", "note": "See reinforcements discrepancy note above — v1 leaves this open, v2 leans toward reinforcing it too, or using it as a late drop-in point if left soft.", "timestamp": "v2 20:16"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Upstairs (Security/CCTV room area)", "note": "Recommend starting at least one or two players up here early — good info room, people don't tend to drone it since attackers usually drone in from Break Room instead. Downside: if you do get droned, you're somewhat pinched with fewer outs.", "timestamp": "28:00 / v1"},
+        {"location": "Supply room", "operator": "Prox-mine or goo-mine operator (e.g. Kapkan/Melusi/Frost-adjacent trap user)", "note": "Since Supply is essentially never actively held, put an intel/trap gadget in the room to get notified the moment someone jumps the window.", "timestamp": "v2 22:22"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Trap/intel operator", "role": "Supply info", "note": "Supply itself isn't held directly — a trap or camera there just buys warning time for a retake."},
+        {"operator": "Roamer for Security/CCTV area upstairs", "role": "Early-round roamer", "note": "Good hiding/info spot since attackers rarely drone it directly; be aware you're somewhat trapped if they do."}
+      ],
+      "generalTips": [
+        {"note": "Both transcripts explicitly say they dislike this site and don't recommend playing it if you have a choice — v1 calls it one of the least fun sides to defend, v2 says it's 'not particularly hard to defend but very easy to attack' and would always prioritize the other three sites first.", "timestamp": "29:27 / v1; v2 23:03"},
+        {"note": "The entire ceiling here is soft — a ram lets attackers open a large section and plant/drop utility from directly above almost anywhere in the room.", "timestamp": "29:27 / v1"},
+        {"note": "Attacker tech to be aware of: a Thermite charge placed on the left side of the barricade opens a Thermite-sized hole rather than the full barricade, which attackers then smoke/run through — know this so you can anticipate the entry point.", "timestamp": "v2 23:14"},
+        {"note": "Suggested starting split: one player floating Jail/Supply early (grab drone kills, then fall back — don't stay), one or two in Customs, roughly two upstairs, one in Workshop/Vents-adjacent area.", "timestamp": "29:05 / v1"}
+      ]
+    }
+  ]
+}

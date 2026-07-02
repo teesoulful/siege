@@ -1,0 +1,52 @@
+{
+  "map": "Clubhouse",
+  "side": "Attack",
+  "source": {
+    "title": "How to attack CCTV/Cash on Clubhouse via Rafters",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Clubhouse_Attack_dgRssgNFTVY.txt",
+    "notes": "Single-site walkthrough for the CCTV/Cash / Rafters site (same site as clubhouse_defense.json's 'cctv-cash'), built around clearing Rafters as the key to the whole site. Auto-generated captions: 'cap'/'capal'/'capow'/'Capital'/'Cap Tower' = Capitao throughout (fire turret area denial, punch-hole cash-door watch); 'oser'/'OA'/'Osa' = Osa (EMP + shields); 'aomi'/'a one ey'/'army' = the defender being flushed off Rafters, described as usually Amaru, sometimes Oryx or Jager — this is a Defense-side operator referenced only as the opponent being cleared, not an Attack pick, and is not listed in operatorRecommendations below. The 5th 'window/Claymore' player and the 'stock' player (suggested as 'a sledge or a gridlock') are described somewhat generically by role rather than a single fixed operator — flagged as flexible picks rather than hard-confirmed single operators."
+  },
+  "sites": [
+    {
+      "id": "cctv-cash",
+      "workingName": "CCTV / Cash (Garage / Cash / Construction / Top Red)",
+      "floor": "Top Floor",
+      "callouts": ["Rafters", "CC Window", "CC Door", "Bottom Garage", "Garage Stairs", "Top Red", "Stock", "Lobby", "Cash", "Construction", "Bar", "Blue", "Bottom Red", "Green Box", "Panel 1", "Panel 2", "Drone Hole"],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Bottom Garage wall — top right area (CC window side)", "operator": "Capitao", "note": "First hard-breach charge, placed here before the bottom-left charge — doing this one first avoids a cheeky defender popping out to frag the attacker while they're mid-plant on the other charge (defenders can't get out the other side).", "timestamp": "10:55"},
+        {"location": "Bottom Garage wall — bottom left area", "operator": "Capitao", "note": "Second hard-breach charge, used as the walk-in entrance to Bottom Garage. Watch for Wamai on this wall (rare) — if present, use a different player to clear it instead of walking straight in.", "timestamp": "02:06"},
+        {"location": "Garage default camera", "operator": "Capitao", "note": "Destroy the default camera in garage once the breaches are placed.", "timestamp": "11:37"},
+        {"location": "Main breach wall (platform side)", "operator": "Thermite", "note": "Opens the main breach into the site; also makes shotgun head holes on this wall (the side that isn't reinforced) to cover both the Rafters angle and, if needed, fire through the window onto the other side.", "timestamp": "02:49"},
+        {"location": "Behind Panel 2 on Rafters (fire underneath)", "operator": "Capitao", "note": "Walks into Bottom Garage once it's confirmed clear (via the prep-phase drone), gets underneath Rafters where the Rafters player can't see or kill him, and fires a Firebolt just past Panel 2 aimed above the pipe/bolt — forces the Rafters defender to move toward Thermite's angle or toward the 90 side, where Thermite gets the kill. Considered the single easiest, most reliable way to clear Rafters; going in via Garage Door directly (instead of underneath) is called out as the wrong way to do it.", "timestamp": "05:18"},
+        {"location": "Platform — two shield placements", "operator": "Osa", "note": "One shield placed to cover one angle, a second on another angle; Osa plays behind both to stop anyone peeking Thermite while he holds the breach.", "timestamp": "12:18"},
+        {"location": "Main breach wall", "operator": "Osa", "note": "Throws an EMP at the wall pre-breach to counter any Bandit trick/denial before Thermite opens it.", "timestamp": "18:42"},
+        {"location": "Drone hole toward Top Red", "operator": "Thermite", "note": "Smoke grenade fired through the drone hole to cut off the crossfire angle from Top Red (a common tight-angle shotgun hold, e.g. Mute or Smoke) before crossing to plant. Wait for the defender to burn a magazine into the smoke before crossing rather than rushing immediately.", "timestamp": "19:04"},
+        {"location": "Stock entry / Lobby", "operator": "Sledge, Gridlock, or similar flex operator", "note": "Enters via Stock using the prep-phase vending-machine drone, holds Lobby all round to deny the C4-from-below run, and grenades/shoots through the Cash floor near the green-box corner (using the soft-wall seam as a reference point) as the Capitao push up Garage Stairs begins. Avoid nading directly above the door being held from below (own position) to prevent being killed back through the ceiling.", "timestamp": "07:45"},
+        {"location": "Cash-door punch hole (after Rafters is taken)", "operator": "Capitao", "note": "Once Rafters is cleared and taken, go prone at the head-hole wall and make a punch hole to hold anyone entering from Construction or the Cash door with a low prone angle.", "timestamp": "20:07"},
+        {"location": "Window platform (opposite side from the Thermite/Osa platform)", "operator": "Claymore-equipped operator (unspecified — 5th player)", "note": "Place one Claymore on each of the two windows here, angled so a defender jumping out is initially facing away from the attacker holding the position — forces an awkward 180 turn even if they survive/shoot the Claymore. Stay tucked at the back of the platform out of line of sight from Construction/the window rather than right up against it.", "timestamp": "21:09"},
+        {"location": "Prep-phase drone — Rafters/Top Red/Bottom Garage route", "operator": "Attacker (any)", "note": "Risky but high-value drone route through the back of garage, up the stairs, across pipes near the duct, over a large pipe, and dropped near Top Red/Rafters — gives vision of Top Red, Bottom Garage, and Rafters simultaneously. Roughly a 7-in-10 success rate; defenders sometimes jump through a window to contest bottom garage early and can catch the drone.", "timestamp": "09:07"},
+        {"location": "Prep-phase drone — Stock vending machine", "operator": "Attacker entering Stock (Sledge/Gridlock)", "note": "Drone hidden inside the vending machine near Stock gives intel on Bottom Red and Bar door and partial audio on Blue; doubles as a useful post-plant drone to watch for anyone going up Red Stairs.", "timestamp": "09:29"},
+        {"location": "Prep-phase drone — Bar area", "operator": "Attacker (any)", "note": "Placed near the bottles/bar area for early intel on anyone passing through Bar or spawn-peeking the Bar window; not meant to be left there the whole round.", "timestamp": "10:12"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Capitao", "role": "Bottom Garage breach / Rafters clear / Cash-door hold", "note": "Opens both Bottom Garage breach points, clears the garage camera, gets underneath Rafters to fire-flush the defender there into Thermite's kill angle, and later holds the Cash-door punch hole. Preferred over Grim for this job because the fire forces movement, whereas Grim's canister only pings a defender who chooses to stay put."},
+        {"operator": "Thermite", "role": "Main breach / plant", "note": "Opens the main wall, makes the usual defender head holes for cover, holds the Rafters angle in coordination with Capitao's fire push, smokes the drone hole to cut off Top Red, and plants behind the bomb chassis."},
+        {"operator": "Osa", "role": "Breach support / shield anchor", "note": "EMPs the wall pre-breach, places two shields on the platform, and holds that door post-plant to deny anyone pushing from Top Red or CC door."},
+        {"operator": "Sledge or Gridlock", "role": "Stock lurker / lobby denial", "note": "Enters via Stock, holds Lobby to stop C4-from-below attempts, and grenades/shoots through the Cash floor near the green box as Capitao pushes Garage Stairs."},
+        {"operator": "Claymore-equipped flex (5th player)", "role": "Window cutoff", "note": "Holds the opposite-side window platform with two angled Claymores to punish anyone jumping out toward the bomb after Capitao is dealt with."}
+      ],
+      "generalTips": [
+        {"note": "The single most important task on this site is clearing Rafters — the crossfire between Rafters and Top Red is described as the site's strongest defensive point, and once Rafters is cleared the rest of the site execute is described as close to guaranteed ('free cheese').", "timestamp": "08:25"},
+        {"note": "Works with as few as 2-3 players (minimum: the Capitao/Rafters-clear role and the Thermite/breach role), is comfortable with 3, and the full 5-player version (adding the Osa, Stock lurker, and window Claymore roles) is the 'dream scenario' shown in the video.", "timestamp": "01:24"},
+        {"note": "Coordination between the Capitao underneath Rafters and Thermite on the breach is essential — Thermite must be ready to take the kill the instant the flushed defender breaks from behind Panel 2 toward either exit angle.", "timestamp": "13:02"},
+        {"note": "Post-plant, the position is described as extremely secure if the site was taken cleanly: no threat from Top Red (Osa holds it), no threat from below via C4 (Stock lurker holds Lobby), and no threat from Cash door/Construction (Capitao's punch hole) — the only remaining defender option is an extremely difficult overhead C4 throw, which the creator notes is very hard to land without it sticking to the ceiling.", "timestamp": "20:48"},
+        {"note": "Creator's overall assessment: considers CCTV/Cash the weakest defensive site on Clubhouse despite being the site most commonly played first by defenders, largely because people overcomplicate the Rafters clear by trying to force it from Garage Door instead of going in underneath.", "timestamp": "01:24"}
+      ]
+    }
+  ]
+}

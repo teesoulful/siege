@@ -1,0 +1,194 @@
+{
+  "map": "Calypso Casino",
+  "side": "Defense",
+  "source": {
+    "title": "Calypso Casino defensive setup guide (all sites)",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Calypso_Defense_qf3AthSTIDQ.txt",
+    "notes": "Auto-generated captions with a fair amount of ASR noise on room names (e.g. 'brister' for Barista, 'boker'/'bo-' for Poker, creator repeatedly mis-says 'green' for Managers/Manager's Office and self-corrects). Creator explicitly states this is a personal/evolving setup, not a definitive meta, and says he may revise it in future videos. He rates the four sites, worst to best: Top Floor (thinks it's genuinely weak and wouldn't defend it by choice), then Blackjack/Poker and Bar & Betting (roughly interchangeable, leaning Bar & Betting), then Basement (his favourite). No operator names beyond a small set are used (Kaid, Smoke, Maestro, Jager) — many recommendations are role/gadget-based ('a DMR', 'a shield') rather than tied to a named operator, and are recorded that way rather than guessing a specific operator."
+  },
+  "sites": [
+    {
+      "id": "top-floor",
+      "workingName": "Kitchen / Barista / Cigar / Pool (Top Floor)",
+      "floor": "Top Floor",
+      "callouts": ["Kitchen", "Barista", "Cigar", "Humidor", "Fish Stairs", "Pool", "Lobby", "Coat Check", "Mini Bar", "Tequila"],
+      "reinforcements": [
+        {"location": "Kitchen main breach wall (x2)", "note": "Right-hand side of the Barista wall / left-hand side of the Pool wall as you look at it. Try to hold onto Kitchen as long as you can.", "timestamp": "00:43"},
+        {"location": "Kitchen second wall (x1, 'three')", "note": "Third reinforcement in the Kitchen area.", "timestamp": "00:43"},
+        {"location": "Both Pool walls facing Lobby (x2, 'four and five')", "note": "There's an argument to leave one soft so you can fight into Lobby, but the creator advises against it — leaving one soft gives attackers longer angles to cut off parts of the site.", "timestamp": "01:05"},
+        {"location": "Both Kitchen walls (into the site)", "note": "Reinforce both. If you have Kaid and two ADS available, Kaid-trick this wall; also gives a drone-hole freebie angle toward attackers heading to the Tequila door.", "timestamp": "02:27"}
+      ],
+      "headHoles": [
+        {"location": "Rotate wall behind the bar / breach side", "note": "Head hole here lets you fire onto the breach if attackers come through the nearby rotate, and vice versa lets you fire onto the mini bar if they come through that rotate — gives flexibility covering both sides.", "timestamp": "09:14"}
+      ],
+      "rotates": [
+        {"location": "Right side of the Pool wall, small hole on the left-hand side", "note": "Keep this rotate as tiny as possible on the left side to limit the angle attackers get if they take Barista. A big rotate on the right side instead would hand attackers cover behind the bar (a strong plant spot) — a small left-side rotate denies them that cover.", "timestamp": "01:25"},
+        {"location": "Wall between Kitchen and Cigar", "note": "Rotate on the left-hand side of the wall from Cigar / right-hand side from Kitchen. This is a single wall so the other side can't be reinforced. Creator says he may have made it a bit too big — keep it tight to the right-hand side to limit how much area attackers can cut off from the breach.", "timestamp": "02:48"},
+        {"location": "Humidor, right-hand side", "note": "Small rotate. The left side can optionally be reinforced instead, though the creator doesn't think it does much.", "timestamp": "03:30"},
+        {"location": "Power position between Pool, Cigar, and Fish (the 'one-two-three' area)", "note": "Massive power point — from here you can see almost everything on site, and the rotate here gives near-total maneuverability around the site. Very strong for a Smoke, who can smoke off the bar plant or the breach from this spot. High risk/reward: lots of angles to cover, but also lots of angles to die to.", "timestamp": "05:42"},
+        {"location": "Rotate behind the bar", "note": "Paired with a head hole to fire onto the breach or the mini bar depending which side attackers come through.", "timestamp": "09:14"}
+      ],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Fish Stairs, small feet holes near the top", "operator": null, "note": "Lets you see an attacker's feet as they come up Fish and start walking around, well before they can see you — strong stopping power on the Fish approach.", "timestamp": "03:50"},
+        {"location": "Coat check door / pipe below", "operator": "Kapkan", "note": "A couple of Kapkan traps here work very well with the pipe. This door is only challengeable from one angle, and it's a very common, low-risk entry point for attackers who drone it clear in prep phase.", "timestamp": "06:47"},
+        {"location": "Barista window (facing outside)", "operator": null, "note": "Problematic angle — an attacker holding this window from outside completely cuts off Fish Stairs and denies you re-entry to that part of the site. Consider adding a rotate here so you're not fully denied by it.", "timestamp": "04:11"},
+        {"location": "Jukebox / speakers in Pool", "operator": null, "note": "Shoot the jukebox and the lobby speakers — removes audio giveaways. Standing on the jukebox gives a nice angle to shoot over the soft wall above the door into the Lobby area.", "timestamp": "04:59"},
+        {"location": "Barista, shield placement", "operator": "Smoke (or any shield operator)", "note": "Creator hasn't found a perfect shield spot here yet — options include watching Tequila and the breach push, but you then leave the other angle exposed. Playing Smoke with a shield here is a reasonable shout despite the imperfect placement.", "timestamp": "08:33"},
+        {"location": "Pool table area", "operator": null, "note": "Shield placement here has been solid — covers both sides and lets you turn to cover the opposite side if attackers switch approach. This three-point area (Pool/Cigar/Fish junction) is worth practicing extensively.", "timestamp": "09:57"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Kaid", "role": "Anchor (Kitchen)", "note": "Kaid-trick the Kitchen wall with two ADS if available."},
+        {"operator": "Smoke", "role": "Roamer/Anchor (Pool/Cigar/Fish power position)", "note": "Considered the ideal pick for the strong central rotate area — can smoke the bar plant spot or the breach from one position."},
+        {"operator": "Kapkan", "role": "Trap (Coat Check)", "note": "Traps the pipe near the common Coat Check entry point."}
+      ],
+      "generalTips": [
+        {"note": "Creator's overall take: this is the weakest site on the map and he would personally never defend it by choice — considers it the easiest to learn (hence overplayed) but favors attackers.", "timestamp": "00:21"},
+        {"note": "Barista is critical to hold but nearly impossible to hold long-term — you can't vault up to see over the counter, there are two popular attacker entry points into it, and once the Kitchen breach is open there's only one way out (back through the rotate).", "timestamp": "07:29"},
+        {"note": "On attack, a DMR/ACOG at the Barista window popping out low and holding the door across the way gets frequent free kills on defenders who habitually peek that door.", "timestamp": "08:54"},
+        {"note": "As a defender you effectively can't hold Lobby itself (skylight repels, multiple windows and doors), and Pool/Barista get flushed quickly — within about a minute a Ying/Grim/Blitz or Blackbeard push can force the whole team back into just two rooms with attackers holding all the utility advantage.", "timestamp": "10:39"},
+        {"note": "Creator's personal site ranking: Basement best, then Bar & Betting, then Blackjack & Poker, then Top Floor last — 'if it was up to me, I'd never defend the top floor ever again.'", "timestamp": "11:42"}
+      ]
+    },
+    {
+      "id": "basement-vault-cash",
+      "workingName": "Vault / Cash (Basement)",
+      "floor": "Basement",
+      "callouts": ["Vault", "Cash", "Managers ('Green')", "Yellow Door", "CCTV", "Server", "Lockers", "Weapon Cache / Armory", "Elevator", "Killer Stairs", "Green Stairs", "Walk-in", "Checkpoint / CP"],
+      "reinforcements": [
+        {"location": "Vault wall (x2)", "note": "Considered a must-do — one of the six core reinforcements for this site.", "timestamp": "12:24"},
+        {"location": "Yellow wall (x2)", "note": "Must-do reinforcement pair.", "timestamp": "12:24"},
+        {"location": "Green/external wall (x2)", "note": "Must-do reinforcement pair, on the external side of Managers/Green.", "timestamp": "12:24"},
+        {"location": "Side of the green wall near Cash counter", "note": "This area is a solid plant spot — reinforcing lets you tuck behind the counter to watch it and the nearby rotate. The main angle to worry about after is Yellow Door, typically hard-breached.", "timestamp": "12:45"},
+        {"location": "Right-hand wall from Cash/'Green' into Managers", "note": "Ninth recommended reinforcement alongside Vault, Yellow, and Green walls.", "timestamp": "14:30"},
+        {"location": "Bathroom hatch", "note": "Final recommended reinforcement of the nine — reinforce this hatch rather than the elevator hatch or an extra wall elsewhere.", "timestamp": "13:06"}
+      ],
+      "headHoles": [
+        {"location": "Service/CCTV area angle toward Vault", "note": "Lets you hold into Vault and see/smoke over the top toward it. One of the strongest holding spots in the basement — also covers Yellow wall from this angle and across toward the Vault approach.", "timestamp": "16:57"},
+        {"location": "Punch hole through a couple of walls near Vault boxes", "note": "Small rat angle catching anyone coming around the side of Vault via the stacked boxes — creator reports several kills from it.", "timestamp": "17:19"},
+        {"location": "CCTV/Vault Checkpoint area, watching Walk-in", "note": "Head hole to watch the Walk-in from Yellow or from Weapon Cache; paired with a punch hole below — attackers swinging through the Yellow door see the head hole first and get caught by the lower punch hole.", "timestamp": "19:45"},
+        {"location": "Left side of the Yellow-side wall", "note": "Shotgun hole here lets you hold through the elevator door as well as the main angle, giving attackers more angles to worry about as they come down.", "timestamp": "19:03"}
+      ],
+      "rotates": [
+        {"location": "Green/Managers area", "note": "Needed so attackers don't get completely free rein into Managers and then Cash — without it, attackers could reach the site boundary within roughly 40 seconds.", "timestamp": "14:51"},
+        {"location": "Between CCTV and Vault Checkpoint ('CP')", "note": "Connects the two strongest holding rooms in the basement.", "timestamp": "19:45"}
+      ],
+      "hatches": [
+        {"location": "Bathroom hatch", "note": "Reinforced — one of the nine recommended reinforcements.", "timestamp": "13:06"},
+        {"location": "Elevator hatch", "note": "Left soft/not reinforced — not considered worth it; the elevator drop doesn't give attackers much, and Yellow Door is an easy enough entry anyway.", "timestamp": "19:24"},
+        {"location": "Manager's/Green hatch upstairs", "note": "Open (not reinforced) so a defender can start upstairs, watch the Manager's breach and Green Stairs, get early drone reads/delay, and pre-place C4 (e.g. with Valkyrie) before dropping back down if the wall below isn't open.", "timestamp": "15:33"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Vault wall (defender side)", "operator": "Jager", "note": "Recommended around here because the ceiling above is destructible — a grenade lobbed over the top will destroy wall-denial gadgets unless you have one or two Jager ADS protecting them.", "timestamp": "16:36"},
+        {"location": "Yellow wall (same nade-over-the-top risk, less prominent)", "operator": "Jager", "note": "Same logic as the Vault wall but the angle for attackers to nade over the top is less pronounced here.", "timestamp": "16:36"},
+        {"location": "Service/CCTV strong-hold area", "operator": null, "note": "Shield placement here has had success, holding through head holes from behind it.", "timestamp": "17:40"},
+        {"location": "Managers/'Green' upstairs", "operator": "Valkyrie", "note": "Pre-place C4 near the vertical stairwell opening as long as the nearby breach isn't open — strong delaying/punishing tool for anyone dropping down.", "timestamp": "16:36"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Jager", "role": "Anchor (Vault/Yellow)", "note": "Needed to protect wall-denial gadgets on the Vault and Yellow walls from nade-over-the-top plays through the destructible ceiling."},
+        {"operator": "Valkyrie", "role": "Upstairs delay", "note": "Watches Manager's breach and Green Stairs from above, pre-places C4 on the stairwell opening, then can rotate down through the manager's hatch if needed."},
+        {"operator": "Smoke or shield operator", "role": "Anchor (Service/CCTV)", "note": "Holds the strongest single room in the basement — covers Vault, Yellow wall angle, and the Vault-boxes rat angle."}
+      ],
+      "generalTips": [
+        {"note": "Creator's favourite site on the map, but says it's easily lost if not set up and defended correctly.", "timestamp": "23:13"},
+        {"note": "The site is vast with many entry points — if attackers push 3-4 through Vault and Yellow simultaneously, a lone defender nearby will get overwhelmed quickly, similar to a numbers-advantage push in Valorant/CS.", "timestamp": "21:30"},
+        {"note": "Don't give up Cash too soon — if attackers open the Manager's wall and reach Cash within about a minute, the round is likely lost; you have to hold out there.", "timestamp": "21:09"},
+        {"note": "Near-all of the CCTV-side ceiling is destructible; none of the Vault ceiling is destructible, so no vertical threat needs covering directly above Vault — but watch for attackers making a vert angle behind the bar upstairs that lets them see more than a defender's waist without being seen back.", "timestamp": "18:20"},
+        {"note": "There are lots of places on the Yellow side to change elevation/vault up, which is valuable since most Siege players are trained to aim at head height by default — being higher creates a genuinely hard fight for attackers.", "timestamp": "22:32"},
+        {"note": "The creator suggests the vault-box vert spot near Vault may be a map-design issue — the angle it gives attackers is 'far too strong' in his opinion.", "timestamp": "20:27"}
+      ]
+    },
+    {
+      "id": "blackjack-poker",
+      "workingName": "Blackjack / Poker",
+      "floor": "Ground Floor",
+      "callouts": ["Blackjack", "Poker", "Secret", "Bathroom", "Roulette", "Humidor (upstairs)", "Lobby", "Killer Stairs"],
+      "reinforcements": [
+        {"location": "Two external walls in Blackjack", "note": "Core reinforcements for the site.", "timestamp": "23:34"},
+        {"location": "Left wall from Blackjack into Secret", "note": "Reinforce so Secret side holds; also playable from the Secret-right side.", "timestamp": "23:34"},
+        {"location": "Left side wall from Blackjack into Bathroom", "note": "Playable from Bathroom's right side too.", "timestamp": "23:34"},
+        {"location": "Two walls from Bathroom going out", "note": "Reinforce both.", "timestamp": "23:34"},
+        {"location": "Two walls near Roulette (optional)", "note": "Can also be looked at for reinforcement.", "timestamp": "23:34"},
+        {"location": "Two walls upstairs into the Kitchen area (from Humidor room)", "note": "Both of these are reinforced so the upstairs Humidor room can be held.", "timestamp": "25:18"}
+      ],
+      "headHoles": [
+        {"location": "Upstairs Humidor room, breach-facing wall", "note": "Go prone here to hold the breach on a tighter angle in addition to the standing angle.", "timestamp": "25:40"},
+        {"location": "Lobby, line of sight down to Killer Stairs", "note": "Make a head hole plus a punch hole below it — attackers see the head hole first while you catch them through the lower punch hole.", "timestamp": "26:41"}
+      ],
+      "rotates": [
+        {"location": "Secret, right side", "note": "Rotate here lets you play onto the breach and onto the Poker door.", "timestamp": "23:54"},
+        {"location": "Left Blackjack wall into Poker, right side", "note": "Standard rotate between Blackjack and Poker.", "timestamp": "24:35"},
+        {"location": "Bathroom into Blackjack", "note": "Existing rotate; an additional rotate near Roulette into Poker could also be considered.", "timestamp": "24:57"},
+        {"location": "Upstairs Humidor room", "note": "From here you can hold the rotate from Secret, the common plant spot behind the bar, the door between sites (Blackjack/Poker), and the breach — all from one position.", "timestamp": "25:40"}
+      ],
+      "hatches": [
+        {"location": "Upstairs Humidor hatch", "note": "Recommend NOT reinforcing this hatch — it's the drop point back to site if the upstairs defender gets flushed after soaking utility/drones.", "timestamp": "25:18"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Secret window", "operator": null, "note": "A razor wire / barbed wire under this window is close to a guaranteed free kill on anyone extending in.", "timestamp": "24:15"},
+        {"location": "Secret breach, watch for rappel angles", "note": "Watch for attackers rappelling high spots near the breach and cutting a Maverick torch-hole across the top for a wide angle across the site (Maverick is Attack-side, not a defense pick here) — if you see a Maverick hole on this wall, don't peek it.", "timestamp": "24:35"},
+        {"location": "Behind the bar / desk (near Killer Stairs door)", "operator": null, "note": "Common plant spot; from the upstairs Humidor room you can watch it directly.", "timestamp": "26:41"},
+        {"location": "Secret", "operator": "Smoke", "note": "Playing Secret with a smoke works, but bring a couple of ADS in case attackers nade it — if the breach is open and you get Ying/Grim'd from here, escape is difficult since you'd have to cross the breach to get out.", "timestamp": "29:13"},
+        {"location": "Roulette/Bathroom area", "operator": null, "note": "A DMR can hold a long angle across into the Poker site door.", "timestamp": "28:30"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Smoke", "role": "Anchor (Secret)", "note": "Bring extra ADS to counter nade pushes into Secret; risky spot if flushed with the breach open."},
+        {"operator": "DMR-equipped operator", "role": "Long-angle hold", "note": "Holds the long angle from Roulette/Bathroom toward the Poker door, and from the upstairs breach room."}
+      ],
+      "generalTips": [
+        {"note": "Creator is on the fence between this site and Bar & Betting for second-best, but rates both above Top Floor.", "timestamp": "23:34"},
+        {"note": "Playing upstairs (the Humidor room) is described as something you must do on this site — it covers the rotate, plant spot, door between sites, and breach all at once.", "timestamp": "25:40"},
+        {"note": "Lobby is described as an absolute nightmare for attackers to push through due to the number of angles.", "timestamp": "26:20"},
+        {"note": "If attackers control the upstairs Humidor room after opening the hatch, defense has usually already lost the round unless they can pull off a big play.", "timestamp": "26:41"},
+        {"note": "If you can't drop the hatch to rotate back, coming down Fish Stairs into 'Vending' is a fast alternative rotate back to site.", "timestamp": "27:23"},
+        {"note": "Losing control of the upper breach room / view generally means losing the round on this site.", "timestamp": "28:52"}
+      ]
+    },
+    {
+      "id": "bar-betting",
+      "workingName": "Bar / Betting",
+      "floor": "Ground Floor",
+      "callouts": ["Bar", "Betting", "Wine Stock", "Lockers", "Janitor", "Registration", "Roulette", "Barista (upstairs)", "Kitchen (upstairs)", "Tequila Stairs", "Managers/Manager's Office"],
+      "reinforcements": [
+        {"location": "Bar wall, south side (into 'real life'/outside)", "note": "First of seven reinforcements used on this site.", "timestamp": "29:34"},
+        {"location": "Bar wall, east side", "note": "Fourth reinforcement.", "timestamp": "29:34"},
+        {"location": "Betting wall (x2)", "note": "Fifth and sixth reinforcements.", "timestamp": "29:34"},
+        {"location": "Hatch up in Barista", "note": "Seventh reinforcement, reinforcing the hatch above the site in the Barista area.", "timestamp": "29:34"},
+        {"location": "Kitchen wall (upstairs, if defending Barista for any length of time)", "note": "Suggested additional reinforcement using one of the three remaining reinforcements if committing to holding Barista upstairs.", "timestamp": "32:41"}
+      ],
+      "headHoles": [
+        {"location": "Feet holes near Tequila Stairs bottom", "note": "Lets you catch anyone coming down the bottom of Tequila Stairs — a very hard angle for attackers to spot since they're focused on the betting door and the other direction.", "timestamp": "31:59"},
+        {"location": "Registration, head hole toward Janitor stairs", "note": "Alternative to reinforcing this wall — lets you hold the Janitor stairs instead.", "timestamp": "34:08"}
+      ],
+      "rotates": [
+        {"location": "Between Bar and Betting (counter to counter)", "note": "Really solid place to play — holds the side door, a tight angle on the hatch, and the wall attackers commonly breach here. Must play behind the specific piece of cover here or you'll get smoked from the hatch.", "timestamp": "30:36"},
+        {"location": "Bar Hall into Lockers / Wine Stock", "note": "Leads to the top of Locker Stairs and the breach that connects toward Janitor; being here lets you peek out aggressively if that breach opens.", "timestamp": "30:56"},
+        {"location": "Janitor rotate", "note": "Use this to get aggressive back into Janitor if needed; also watch for attackers coming up Locker Stairs via the Lockers breach.", "timestamp": "34:08"}
+      ],
+      "hatches": [
+        {"location": "Hatch above the Bar/Betting counter rotate", "note": "Hold a tight angle on it; be careful of getting smoked through it from either the bar side or the counter side.", "timestamp": "30:36"},
+        {"location": "Barista hatch (upstairs)", "note": "Considered worth reinforcing if committing to Barista, but doing so removes the defender's quick escape route. Alternative: leave it soft, soak 3-4 drones' worth of utility upstairs, then drop the hatch once flushed — though escape is often blocked since attackers usually hold top Tequila, making the drop risky in practice.", "timestamp": "33:03"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Bar area (x3 cameras)", "operator": "Maestro", "note": "One camera here, one camera there, and one in between the sites so you can see both approach directions — creator reports success with this triple-camera setup.", "timestamp": "30:15"},
+        {"location": "Tucked-away spot near the counter rotate", "operator": "Maestro", "note": "One of the safer spots to sit on cameras while playing Maestro.", "timestamp": "31:17"},
+        {"location": "Below the Bar/Betting site, watch the Manager's Office breach", "note": "Sledge or Buck (both Attack-side) are named as the kind of operator likely to open this wall for a strong early-map-control entry, then push up the Green Stairs — defenders should watch this vertical connection closely.", "timestamp": "31:39"},
+        {"location": "Tequila Stairs bottom", "operator": null, "note": "Recommend something like barbed wire, a proximity mine, or a Banshee-style trap on these stairs for early warning.", "timestamp": "33:47"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Maestro", "role": "Camera/Intel", "note": "Runs a three-camera setup covering both approaches into the site plus the area between sites; also has a safe tucked-away camera spot near the rotate."}
+      ],
+      "generalTips": [
+        {"note": "Sledge or Buck (Attack-side) are the kind of operator likely to open the Manager's Office wall below this site for early vertical map control — a defense-side reminder to watch that angle, not a defense pick.", "timestamp": "31:39"},
+        {"note": "Creator has played this site a lot and slightly prefers it to Blackjack/Poker, and prefers it to Top Floor.", "timestamp": "29:34"},
+        {"note": "Multiple spots on this site have gaps above walls that let attackers nade over wall denial — factor this into where you play.", "timestamp": "29:34"},
+        {"note": "The rotate/counter area between Bar and Betting is the standout strong point of the site — described as 'a really solid place to play.'", "timestamp": "30:36"},
+        {"note": "Side windows near the tucked-away Maestro spot have rarely been repelled by attackers in the creator's experience (only once).", "timestamp": "31:17"},
+        {"note": "Playing upstairs in Barista to delay is valuable even if you expect to die — buying a minute to a minute and a half before attackers get where they want is considered good value.", "timestamp": "33:24"},
+        {"note": "This site is less flexible than Blackjack/Poker for late-round extends — if the Barista hatch is open there are a lot of cutoff angles.", "timestamp": "34:29"},
+        {"note": "Creator's final site ranking: Basement, then Bar & Betting, then Blackjack & Poker, then Top Floor.", "timestamp": "35:52"}
+      ]
+    }
+  ]
+}

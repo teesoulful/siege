@@ -1,0 +1,17 @@
+{
+  "map": "Consulate",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Consulate/siege), fetched 2026-07-02. Room lists condensed to major named callouts.",
+  "floors": ["Basement", "1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "meeting-consulateoffice", "name": "Meeting Room / Consulate Office", "floor": "2nd Floor"},
+    {"id": "piano-exposition", "name": "Piano Room / Exposition Room", "floor": "1st Floor"},
+    {"id": "tellers-servers", "name": "Tellers / Servers", "floor": "1st Floor / Basement"},
+    {"id": "cafeteria-garage", "name": "Cafeteria / Garage", "floor": "Basement"}
+  ],
+  "callouts": {
+    "Basement": ["Servers", "Cafeteria", "Garage", "Archives", "Storage Room", "Electric Room", "Service Stairs"],
+    "1st Floor": ["Piano Room", "Exposition Room", "Tellers", "Public Bathroom", "Visa Office", "Main Stairs", "West Corridor", "Lobby", "Service Stairs", "Emergency Exit", "Spiral Stairs", "Press Room"],
+    "2nd Floor": ["Meeting Room", "Consulate Office", "Administration Office", "Break Room", "Exit Stairs", "Main Stairs", "Hallway", "Catering", "Yellow Stairs", "Balcony", "Front Office", "Service Stairs"]
+  }
+}

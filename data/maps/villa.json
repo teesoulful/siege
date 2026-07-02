@@ -1,0 +1,17 @@
+{
+  "map": "Villa",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Villa/siege), fetched 2026-07-02.",
+  "floors": ["Basement", "1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "aviator-games", "name": "Aviator Room / Games Room", "floor": "2nd Floor"},
+    {"id": "trophy-statuary", "name": "Trophy Room / Statuary Room", "floor": "2nd Floor"},
+    {"id": "living-library", "name": "Living Room / Library", "floor": "1st Floor"},
+    {"id": "dining-kitchen", "name": "Dining Room / Kitchen", "floor": "1st Floor"}
+  ],
+  "callouts": {
+    "Basement": ["Art Storage", "Old Office"],
+    "1st Floor": ["Living Room", "Library", "Dining Room", "Kitchen", "Piano Room"],
+    "2nd Floor": ["Aviator Room", "Games Room", "Trophy Room", "Statuary Room", "Study", "Master Bedroom", "Astronomy Room"]
+  }
+}

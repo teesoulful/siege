@@ -1,0 +1,16 @@
+{
+  "map": "Theme Park",
+  "verified": true,
+  "verificationNote": "Sourced from r6coaching.com Theme Park guide, fetched 2026-07-02 (Liquipedia page lacked room-level detail). Reflects post-Shifting Tides rework layout.",
+  "floors": ["1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "throne-armory", "name": "Throne Room / Armory", "floor": "1st Floor"},
+    {"id": "lab-storage", "name": "Lab / Storage", "floor": "1st Floor"},
+    {"id": "office-initiation", "name": "Office / Initiation", "floor": "2nd Floor"},
+    {"id": "bunk-daycare", "name": "Bunk / Day Care", "floor": "2nd Floor"}
+  ],
+  "callouts": {
+    "1st Floor": ["Throne Room", "Armory", "Connector", "Back Stairs", "Dragon Stairs", "Haunted Balcony", "Lab", "Storage", "Maintenance", "Yellow Corridor", "Drug Lab"],
+    "2nd Floor": ["Office", "Initiation", "Connector", "Haunted Stairs", "Cafe", "Gargoyle", "Bunk", "Day Care", "Yellow Corridor", "Maintenance", "Arcade"]
+  }
+}

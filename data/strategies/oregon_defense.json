@@ -1,0 +1,130 @@
+{
+  "map": "Oregon",
+  "side": "Defense",
+  "source": {
+    "title": "Oregon Defensive Setup for 2025 - Rainbow Six Siege",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Oregon_Defense_jV3bcAsK2s0.txt",
+    "notes": "Creator explicitly does NOT show the Kitchen/Dining site setup in this video (calls it the worst defensive site on the map) and points viewers to an older ~18-month-old Oregon video for that instead. Only two sites are covered here: Top Floor (Armory/Attic/Kids/Trophy/Master) and Basement (Ebox/Laundry/Freezer), plus a combined Meeting/Kitchen site (referred to by the creator as 'meeting and kitchen', the site he recommends playing instead of Kitchen/Dining). Room/callout names are the creator's informal ones and haven't been reconciled against wiki-canonical Oregon callouts. Auto-generated captions had some garbled operator names/jargon (e.g. 'Wai', 'army'/'a zombie', 'Cade') — see notes below where ambiguous."
+  },
+  "sites": [
+    {
+      "id": "top-floor-armory-attic",
+      "workingName": "Armory / Attic / Trophy (Top Floor)",
+      "floor": "Top Floor",
+      "callouts": ["Armory", "Attic", "Master", "Top Main", "Big Tower", "Kids", "Hobo", "Trophy", "Trophy Door", "White Stairs", "Green Corridor", "Kitchen Door"],
+      "reinforcements": [
+        {"location": "Armory left-hand wall (facing attic)", "note": "Always reinforce. If left soft, attackers get a line of sight through the attic wall from here, and can also repel and see over the top down into attic.", "timestamp": "01:04"},
+        {"location": "Main breach wall", "note": "Reinforce. At high level play some teams instead leave a tight standing rotate here to challenge with a shotgun and burn a couple of drones early, then retreat and reinforce afterward — don't swing the door itself, it's exposed to angles from the balcony, top repel, bottom repel, and both sides of the door.", "timestamp": "02:51"},
+        {"location": "Attic walls", "note": "Reinforce. Bring wall denial regardless — the wall can otherwise be destroyed from below relatively easily, so make attackers spend a hard breach on it.", "timestamp": "03:54"}
+      ],
+      "headHoles": [
+        {"location": "Wall between Attic and Master", "note": "Optional head holes here let a coordinated team fight into Attic/Master from either side, but the creator dislikes them: once you lose Top Main control, attackers can use them to cut off the Attic-to-Kids rotate entirely, stranding anyone in Attic. Recommends reinforcing this wall instead for most ranked lobbies.", "timestamp": "01:48"},
+        {"location": "Armory wall into Master", "note": "Can make head holes here to hold into Master from Armory (pairs well with Castle, per the creator's separate Castle video).", "timestamp": "08:10"}
+      ],
+      "rotates": [
+        {"location": "Attic → Kids (vault rotate option)", "note": "Most players (including the creator, most of the time) use a standing rotate here, but a vault-style rotate over the bed can hide your feet from someone prone-dropping and shooting your feet from behind the bed. Trade-off: makes moving between sides slower.", "timestamp": "05:19"},
+        {"location": "Kids, left side of wall (with feet holes on the right side)", "note": "Underused rotate. Gives a defender forced out of Attic another exit (can peek a different angle or loop around the bed) instead of getting stuck in Hobo with only White Stairs or back-room as an escape.", "timestamp": "06:02"},
+        {"location": "Wall near Trophy/Big Window", "note": "Always make this rotate rather than only head holes. Lets you fight onto Trophy or Big Window from here, and gives players coming up Top White another route in rather than looping back through the busiest traffic chokepoint on the map.", "timestamp": "08:33"}
+      ],
+      "hatches": [
+        {"location": "Attic hatch", "note": "Always leave open (do not reinforce). Reasons: lets you hold the door below from underneath; lets you watch anyone walking the planks from below/Meeting; and most importantly, a prox alarm placed near the hatch pinpoints attackers to one specific channel/square since they're forced off the hatch itself — you can pre-aim with confidence instead of guessing.", "timestamp": "04:16"},
+        {"location": "Hatch above Garage", "note": "Open this hatch and watch the door below for the first ~20 seconds of the round only — players run into Garage without droning roughly 30-40% of the time, giving a free early pick.", "timestamp": "07:47"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Lampshade area (name not given, described as 'in there')", "operator": "Valkyrie", "note": "Strong camera spot — gives a clear view out through the lampshade.", "timestamp": "10:20"},
+        {"location": "Over the main breach wall once opened", "note": "C4 can be thrown over the top of this wall mid-round. Stand on the raised step/platform (not down at floor level) for a much better arc — it drops closer to the door. Standing at floor level makes it drop too far away to be useful. Don't use a smoke here, it sticks to the ceiling.", "timestamp": "09:37"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Castle", "role": "Anchor (Armory/Master)", "note": "Good pick for reinforcing the Armory-into-Master head hole wall setup."},
+        {"operator": "Valkyrie", "role": "Intel", "note": "Strong camera spot in the lampshade area giving a clear view of the room."}
+      ],
+      "generalTips": [
+        {"note": "Default plant spot downstairs (in the corner of Z/Zed) lines up almost exactly below a torn piece of wallpaper up here — useful visual reference for where the plant will be.", "timestamp": "08:10"},
+        {"note": "The gap between Trophy Door and Top White is one of the busiest traffic areas on the map — defenders commonly camp Trophy door here, sometimes using a large prop for cover similar to a shield.", "timestamp": "09:16"},
+        {"note": "This is 'Top Four Oregon' as a whole — the creator considers it not the strongest of the three defended sites, preferring Meeting/Kitchen and Basement.", "timestamp": "23:42"}
+      ]
+    },
+    {
+      "id": "basement-ebox-laundry-freezer",
+      "workingName": "Ebox / Laundry / Freezer (Basement)",
+      "floor": "Basement",
+      "callouts": ["Ebox", "Laundry", "Freezer", "Freezer Box", "Freezer Stairs", "Blue Door", "Elbow", "Pillar", "Tower Stairs", "Z / Zed"],
+      "reinforcements": [
+        {"location": "Freezer hatch", "note": "Always reinforce immediately, along with the Ebox and Laundry hatches.", "timestamp": "10:42"},
+        {"location": "Ebox hatch", "note": "Always reinforce immediately.", "timestamp": "10:42"},
+        {"location": "Laundry hatch", "note": "Always reinforce immediately.", "timestamp": "10:42"},
+        {"location": "Ebox right side wall (facing Blue)", "note": "Reinforce so you can peek onto Blue from here without giving your life away. A mirror placed here is very strong — but only worthwhile if paired with a Jäger or an operator who can stop the mirror being destroyed by an Ash charge at the door, plus the hatch being reinforced and barricaded. Bringing a mirror without also covering the door and hatch is 'playing the site wrong'.", "timestamp": "11:03"},
+        {"location": "Wall/rotate near Elbow-Laundry-Blue (creator's preferred side)", "note": "Creator prefers the rotate hole on the right side of this wall (as you look at it) because it lets you fight onto Laundry and side-step to hit Freezer stairs too. The community-majority alternative (left side) closes up the Laundry angle almost entirely and gives nothing into Freezer — creator still reinforces regardless of which side the rotate goes on.", "timestamp": "12:48"},
+        {"location": "Freezer wall", "note": "Creator had not reinforced this during recording but states he 'will do' / should have in prep — holding Freezer is described as super important.", "timestamp": "15:37"}
+      ],
+      "headHoles": [
+        {"location": "Wall/high hole toward the tower (above Ebox area)", "note": "Higher than a normal head hole, used to peek onto the tower. Not a favorable fight for the defender (attackers see much more of you than you see of them) — mainly there to deny attackers walking down the stairs for free.", "timestamp": "12:05"}
+      ],
+      "rotates": [
+        {"location": "Wall near Elbow/Laundry/Blue", "note": "See reinforcements — creator's preferred rotate side lets you fight Laundry, Freezer stairs (partially), and Blue all from one spot; puts it down to preference since the alternative side isn't wrong, just less active.", "timestamp": "12:48"},
+        {"location": "Angle near Pillar (rotate + small punch hole)", "note": "Creator always makes this rotate. Coming down from Pillar, attackers expect defenders to hold the obvious rotate spot — this alternate angle catches them off guard, also lets you hold Blue a bit and fall back onto this angle if Blue is lost. A companion small punch hole here is barely visible even when you know it's there. Some other creators (e.g. Ala) prefer leaving this side open instead — no objectively right answer, just a preference.", "timestamp": "14:33"}
+      ],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Fans near Laundry (x2)", "note": "Shoot both fans out. Smokes thrown deep into Laundry (or at the Laundry door) can get caught on the fan blades otherwise. Minor but free to do.", "timestamp": "12:26"},
+        {"location": "Above the Freezer stairs door", "operator": "Any (referenced via a former pro named 'Sapper')", "note": "A couple of prox mines above the door plus smoking the stairs out lets a skilled player hold Freezer stairs directly with a shotgun, sometimes even leaving the hatch open and still winning the fight from there. High-skill technique, not for everyone.", "timestamp": "15:37"},
+        {"location": "Angle onto the box near Ebox/Blue", "operator": "Aruni", "note": "Source audio described this as 'an army' / 'a zombie' operator setting up 'an army keeper barrier' near Pillar to hold a one-way angle onto the stairs — this is almost certainly ASR mangling 'Aruni' and her Surya Gate wall, given the barrier/one-way-angle description, but treat as reasonably-confident rather than certain.", "timestamp": "16:39"},
+        {"location": "Ebox blue door", "operator": "Jäger and possibly Wamai", "note": "Source audio named a second operator phonetically as 'Wai' when describing who should guard the blue door to stop Ash charges destroying a mirror placed near Ebox — this doesn't clearly match any real defender name. Jäger is confirmed (his ADS intercepts thrown/fired explosives); the second name is unconfirmed — 'Wamai' (redirects explosive damage with Mag-NET) fits the stated purpose but treat as unconfirmed rather than fact.", "timestamp": "11:23"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Jäger", "role": "Utility denial (Ebox/Blue door)", "note": "Protects a mirror placed near Ebox from being destroyed by an Ash charge on the blue door."},
+        {"operator": "Aruni (unconfirmed — see gadgetPlacements note)", "role": "Anchor (Pillar)", "note": "Holds a one-way barrier angle near Pillar onto the stairs; don't stand too far back or you'll get domed from Blue."}
+      ],
+      "generalTips": [
+        {"note": "Always barricade the Laundry door — gives an extra audio cue that someone is pushing, since Laundry gets rushed often.", "timestamp": "10:42"},
+        {"note": "Watch the angle on the box near Ebox that lets you see to the bottom of the Freezer stairs — but be ready to pre-fire it immediately on dropping down, since attackers commonly pre-fire that exact corner themselves.", "timestamp": "16:18"},
+        {"note": "Default plant spot in the basement can be denied with C4s and smokes from a specific angle; watch for the hatch drop into a plant.", "timestamp": "16:59"},
+        {"note": "Better plant-spot denial as a defender: attackers planting tucked against the cupboard are exposed to Freezer; attackers who plant directly on the door (like Bank basement) can't be seen from Freezer but have to loop all the way around to find you.", "timestamp": "17:21"},
+        {"note": "Watch the angle behind the bomb from a hatch drop — pre-firing it immediately after dropping the hatch gets kills a lot of the time.", "timestamp": "17:41"}
+      ]
+    },
+    {
+      "id": "meeting-kitchen",
+      "workingName": "Meeting / Kitchen (recommended 3rd site, replaces Kitchen/Dining)",
+      "floor": "Ground Floor / Top Floor split",
+      "callouts": ["Meeting", "Kitchen", "Green Door", "Green Corridor", "Garage", "Split Door", "Security", "Lobby", "White Stairs", "Attic", "Kids", "Big Window", "Executive"],
+      "reinforcements": [
+        {"location": "Wall to Garage", "note": "Reinforced.", "timestamp": "20:11"},
+        {"location": "Wall into the corridor near Z", "note": "Reinforced.", "timestamp": "20:11"},
+        {"location": "Two walls near Attic (upstairs, mirrors the top-floor Attic setup)", "note": "Reinforced, same as the standalone Attic walls.", "timestamp": "21:13"},
+        {"location": "Old security/executive door wall (optional)", "note": "Creator is on the fence — could reinforce since the rotate is already there to fall back on, but says he probably leaves it soft most of the time.", "timestamp": "23:42"}
+      ],
+      "headHoles": [
+        {"location": "Wall bordering the hatch, looking back into Kitchen", "note": "Preferred over reinforcing this wall — lets you see through the hatch and back into Kitchen. Alternative would be reinforcing to deny a plant on the door here, but creator prefers the head holes.", "timestamp": "20:53"},
+        {"location": "Rotate wall between Kids and into Kitchen (upstairs)", "note": "Creator prefers head holes here over just the rotate — gives a lot of visibility.", "timestamp": "22:15"},
+        {"location": "Executive/security door wall", "note": "Can make head holes here as an alternative to reinforcing.", "timestamp": "23:42"}
+      ],
+      "rotates": [
+        {"location": "Feet holes on wall toward Green (pick ONE side only)", "note": "Creator made feet holes on both sides by accident and advises against that — pick one side. His preference is the side that holds the angle toward people coming through Green door, since leaving the far side open lets an attacker hold a long angle deep into the site from way back.", "timestamp": "19:08"},
+        {"location": "Rotate between Kitchen and Meeting", "note": "Put on the right side — lets you use a box for cover fighting through it, and lets you hold further back. Also cuts off the Split door as a viable attacker angle once made.", "timestamp": "20:11"},
+        {"location": "Rotate into Security", "note": "Gives an escape from Kitchen when squeezed — can go up White Stairs to flank, or fall back to Lobby.", "timestamp": "21:13"},
+        {"location": "Rotate between Kids and Attic (upstairs)", "note": "Same as the standalone Attic/Kids rotate.", "timestamp": "21:13"},
+        {"location": "Rotate for the Security push (upstairs vert)", "note": "A little vert here covers anyone pushing through the Security rotate — cuter/tighter angle than just holding from the hatch.", "timestamp": "22:37"}
+      ],
+      "hatches": [
+        {"location": "Attic-equivalent hatch (upstairs)", "note": "Open, same reasoning as the standalone Attic hatch — hold the door below from here, and cover the breach if it's opened.", "timestamp": "21:13"},
+        {"location": "Hatch over the bench/plant area", "note": "Left open so you can C4 over the top onto anyone about to walk through, or drop for a kill if you have a C4 left late in the round. Be careful — missing the C4 and dropping means fighting back up Big Tower stairs from the basement, which is difficult.", "timestamp": "22:58"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Upstairs, playing over the two reinforced walls", "operator": "Kaid", "note": "Creator likes playing here with Kaid — throwing an Electroclaw here reinforces those two walls plus the wall below as well.", "timestamp": "21:35"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Kaid", "role": "Upstairs anchor", "note": "Electroclaw placement reinforces multiple walls at once from a single upstairs position; watch your feet near the drone-able gap here."}
+      ],
+      "generalTips": [
+        {"note": "The most common plant spot is through the main breach, tucked behind a bench that can't be seen over.", "timestamp": "21:35"},
+        {"note": "Holding upstairs is the single most important part of defending this site — recommend at least two players upstairs.", "timestamp": "22:37"},
+        {"note": "There's a strong 'anchory' spot far back near the rotate/wall area downstairs that's worth knowing about.", "timestamp": "23:20"},
+        {"note": "The default breach angle onto the bench plant spot is well hidden from most sightlines — attackers can get a plant off in as little as ~30 seconds if defenders aren't careful; don't neglect droning it.", "timestamp": "24:03"},
+        {"note": "Creator rates this site (Meeting/Kitchen) and Basement above Top Floor overall, and considers this site underplayed relative to how strong it is.", "timestamp": "23:42"},
+        {"note": "Explicitly recommend learning and playing this site INSTEAD of Kitchen/Dining, which the creator calls the worst defensive site in the game — Kitchen/Dining is trivially opened with a thermite charge from above dropped through the floor, with basically no reliable counter beyond an unfavorable Small Tower hold plus impact-grenade tricks against the thermite from below.", "timestamp": "18:24"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "map": "Nighthaven Labs",
+  "side": "Defense",
+  "source": {
+    "title": "Night Haven Lab setup guide - defend all four sites (Rainbow Six Siege)",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Nighthaven_Labs_Defense_LITKieiA8pc.txt",
+    "notes": "Auto-generated YouTube captions with heavy ASR noise on room/gadget names ('breach' rendered as 'brereech', 'Kaid' as 'zombie'/'zomby' near the rafters keyboard-barrier section which is corrected in context to Kaid's Electroclaw, 'Kiba Barrier' rendered as 'keyboard barrier'/'zombie keeper barrier', 'Capitao' rendered as 'capau'). Generic ranked setups, explicitly not pro-league lineups, recorded ahead of a cosmetic-only map modernization (creator states the layout itself will not change). Room/callout names are the creator's informal in-video callouts, not verified wiki callouts."
+  },
+  "sites": [
+    {
+      "id": "connector-rafters",
+      "workingName": "Connector / Rafters / Command Center",
+      "floor": "Top Floor",
+      "callouts": ["Connector", "Meeting", "Electrical", "Server", "Rafters", "Command Center", "Fish Stairs (Blue/Water Stairs)"],
+      "reinforcements": [
+        {"location": "Two walls outside Connector", "note": "Must-reinforce. Electrify with Bandit, Kaid, or Mute if possible.", "timestamp": "00:20"},
+        {"location": "Server wall (facing Connector)", "note": "Reinforce so the Server player can dive back onto site if the Connector wall opens and that player is under heavy pressure. Keep one reinforcement spare (creator keeps a spare in the top-left of this area).", "timestamp": "02:46"},
+        {"location": "Right-hand side of the Server wall", "note": "Reinforce.", "timestamp": "02:46"},
+        {"location": "Electrical window wall (both panes)", "note": "Reinforce both; attackers (e.g. Ash) will try to open the window and destroy nearby Bandit batteries, so electrify this too.", "timestamp": "03:06"},
+        {"location": "Command Center left wall", "note": "Reinforce; pair with head holes on the right wall.", "timestamp": "04:30"},
+        {"location": "Command Center triple wall (behind pillar, back of site)", "note": "Reinforced; head holes line up cleanly across it. Creator deliberately does NOT do the 'reinforce left, reinforce right, rotate middle' pro-league version of this wall — says that gets you domed from the door outside unless you're at a high rank; recommends head holes across the whole thing instead for generic ranked play.", "timestamp": "04:51"},
+        {"location": "Command Center right wall", "note": "Reinforce; pair with feet holes.", "timestamp": "06:15"}
+      ],
+      "headHoles": [
+        {"location": "Command Center right wall", "note": "See the breach and Connector through these if needed.", "timestamp": "04:30"},
+        {"location": "Command Center triple wall (behind pillar)", "note": "Lined up across the reinforced triple wall instead of a middle rotate hole — the generic-rank recommendation instead of the pro-league rotate version.", "timestamp": "04:51"},
+        {"location": "Command Center right wall (near door to top of stairs)", "note": "Don't stand right up against this reinforcement or you'll get domed from the door or elsewhere — hang back a little.", "timestamp": "05:53"}
+      ],
+      "rotates": [
+        {"location": "Vault rotate near Command Center / Rafters", "note": "Only make this if someone is actually playing Rafters (e.g. an Azami holding it) — otherwise it just hands attackers a free way onto site. Lets the Rafters player dive back in under pressure.", "timestamp": "05:33"}
+      ],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Meeting-facing wall of Connector", "operator": "Bandit, Kaid, or Mute", "note": "Electrify the two reinforced Connector walls with whichever of these you have.", "timestamp": "00:20"},
+        {"location": "Meeting wall feet holes (window above)", "note": "Feet holes catch anyone jumping in through the window above before they see you — see feet, shoot heads.", "timestamp": "00:40"},
+        {"location": "Electrical window", "operator": "Mute", "note": "Stand at a specific spot and a C4 can be lobbed over the window and land outside; a prox alarm won't work the same way here since its throw arc is much straighter than C4's looping arc.", "timestamp": "02:04"},
+        {"location": "Electrical window wall", "note": "Electrify this wall too, same reasoning as Connector.", "timestamp": "03:06"},
+        {"location": "Rafters, handrail in the middle (not the edge, not the far side)", "operator": "Azami", "note": "Kiba Barrier placed on this specific middle/darker section of the handrail sends the barrier up in a way that lets you peek around both sides of it. Described as a very strong barrier placement, but Rafters is an unforgiving spot that needs an experienced gunner.", "timestamp": "03:48"},
+        {"location": "Rafters, higher up near the window", "operator": "Azami", "note": "Second Kiba Barrier placement, higher up, so you can see feet of anyone jumping in through the window.", "timestamp": "04:10"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Bandit, Kaid, or Mute", "role": "Anchor (Connector/Electrical)", "note": "Whichever you have available should electrify the Connector and Electrical walls."},
+        {"operator": "Azami", "role": "Rafters anchor", "note": "Needs to be an experienced/confident gunner. Runs the two Kiba Barrier placements on the handrail. Only make the vault rotate near Command Center if Azami (or whoever) is actually holding Rafters."}
+      ],
+      "generalTips": [
+        {"note": "Connector is an area you must actively defend early — get a drone or two on the attackers pushing through the door, apply a little pressure, but don't die here unless it's a free kill. If the Connector defender dies, attackers can be on Connector within roughly 30-50 seconds, which is very bad with only ~2 minutes left in the round.", "timestamp": "01:00"},
+        {"note": "Once the Connector wall is open, don't stand or peek anywhere along the long sightline down to the far cover point — there's an outside roof angle that sees all the way through this line.", "timestamp": "01:43"},
+        {"note": "Electrical needs a dedicated player to hold the jump-in; no other setup really needed there.", "timestamp": "02:04"},
+        {"note": "Watch for a Maverick torching a line across the bottom of the Electrical/Server wall from the steps outside, giving attackers a rafters-area angle.", "timestamp": "03:06"},
+        {"note": "The door near Server needs a prox alarm or similar; don't overcommit defending it, but expect to get peeked from the nearby corner if you sit there too long.", "timestamp": "03:28"},
+        {"note": "This whole top floor site and Connector specifically are considered the most important areas of the top floor to hold.", "timestamp": "06:15"},
+        {"note": "'Fish Stairs' (also called Blue/Water Stairs) needs a prox alarm, Kapkan mine, or similar — attackers who walk in unnoticed here get a free pick on defenders holding the Command Center head holes.", "timestamp": "06:35"}
+      ]
+    },
+    {
+      "id": "basement-tank",
+      "workingName": "Basement (Cargo / Animus / Assembly / Nano / Exo)",
+      "floor": "Basement",
+      "callouts": ["Cargo", "Cargo Stairs", "Animus (Tank)", "Assembly", "Nano / Nanotech Hallway", "Exo / Exo Suit"],
+      "reinforcements": [
+        {"location": "Cargo hatch", "note": "Reinforce all three basement hatches (Cargo, Animus, Exo/Exo Suit).", "timestamp": "07:17"},
+        {"location": "Animus hatch", "note": "One of the three reinforced hatches.", "timestamp": "07:17"},
+        {"location": "Exo Suit hatch", "note": "One of the three reinforced hatches.", "timestamp": "07:17"},
+        {"location": "Animus single wall", "note": "Reinforce.", "timestamp": "08:43"},
+        {"location": "Assembly wall (x2)", "note": "Two reinforcements on this wall, watching the default plant spot.", "timestamp": "09:23"},
+        {"location": "Nano left-hand wall", "note": "Reinforce. Creator prefers reinforcing the left wall over the right because defenders on the left side can still cross to reinforce/hold the right wall too, whereas defenders on the right side get cut off from Animus by head holes if the wall is flipped.", "timestamp": "09:44"},
+        {"location": "Nano right-hand wall", "note": "Reinforce (paired with head holes on the left of this same area).", "timestamp": "09:44"}
+      ],
+      "headHoles": [
+        {"location": "Nano, left side", "note": "100% head holes here (not reinforced) to hold the bottom of the Exo Suit stairs.", "timestamp": "10:25"},
+        {"location": "Single wall near Nano, top-right corner", "note": "Covers the default plant spot reached by tucking in from Animus.", "timestamp": "10:46"},
+        {"location": "Nano Hall wall, top-right", "note": "See the top of the Cargo stairs; pair with feet holes for anyone walking down the stairs from Exo, and to see feet when attackers drop the nearby hatch.", "timestamp": "11:48"},
+        {"location": "Hole near Animus breach (window jump spot)", "note": "Made in the floor for the window-jump angle. Deliberately placed tight to the wall, away from the window, so attackers can't see the hole before jumping in and get a free surprise pick from below (usually with a shotgun).", "timestamp": "12:30"}
+      ],
+      "rotates": [],
+      "hatches": [
+        {"location": "Cargo hatch", "note": "Reinforced.", "timestamp": "07:17"},
+        {"location": "Animus hatch", "note": "Reinforced. There's no vert directly above the Animus breach, which makes Bandit-tricking this area relatively safe.", "timestamp": "15:16"},
+        {"location": "Exo/Exo Suit hatch", "note": "Reinforced.", "timestamp": "07:17"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Left of the Exo hatch, hole in the wall", "note": "Roughly 40% of the time attackers jump through the nearby window here — holding below with a shotgun is a near-free kill. Make the hole tight to the wall so attackers can't spot it before jumping.", "timestamp": "07:38"},
+        {"location": "Second similar hole (riskier spot)", "note": "Same technique but riskier since most attackers throw a Ram/breaching drone through here instead of jumping. Still worth making tight to the wall for the same reasons.", "timestamp": "08:00"},
+        {"location": "Animus wall feet holes", "note": "See anyone walking in through the door; also watch the side of the tank. Attackers gain nothing from these holes, so always make them.", "timestamp": "08:43"},
+        {"location": "Above/around the Animus tank", "note": "Someone needs to hold this position and also cover the area above it (soft ceiling) or you'll get pushed out entirely.", "timestamp": "09:03"},
+        {"location": "Assembly default plant spot", "note": "Place a Proximity Alarm or goo mine (e.g. Kapkan/Ela-style trap) here so you get audio warning the moment attackers push onto the default plant.", "timestamp": "09:44"},
+        {"location": "Hole to counter the Animus vert-and-hatch attack", "note": "If attackers take the vert above Animus and drop the hatch to plant, the only counter is this specific hole — throw a C4 or smoke through it to disrupt the plant in the corridor below.", "timestamp": "11:27"},
+        {"location": "Upstairs above Exo/Assembly/Animus", "operator": "Lesion or Vigil", "note": "Someone needs to hold upstairs above the basement — this is where all the vert for Exo, Assembly, and Animus comes from. If attackers open it up (typically with Ram) unopposed, no one can hold the rooms below.", "timestamp": "12:50"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Lesion or Vigil", "role": "Upstairs roamer/vert denial", "note": "Needs to actively waste attacker time upstairs above the basement site to stop them freely opening vert onto Exo, Assembly, and Animus."},
+        {"operator": "Bandit", "role": "Anchor (Animus)", "note": "Bandit-tricking is very feasible in Animus since there's no vert directly above the breach there — relatively safe compared to elsewhere on this site."}
+      ],
+      "generalTips": [
+        {"note": "This is a strong, dangerous attacker path: take the Animus vert, then open the hatch (no breach needed), come through, and plant with smokes covering both doors. Creator describes this being run successfully with a Capitao holding the vert and flaming both doors — the only counter is the dedicated C4/smoke hole into the corridor.", "timestamp": "11:06"},
+        {"note": "All of the ceiling area above Exo/Assembly/Animus is soft floor — a coordinated stack that takes this vert can deny defenders from standing almost anywhere below.", "timestamp": "12:50"},
+        {"note": "Creator names this their favourite map and specifically enjoys playing this basement site.", "timestamp": "15:16"}
+      ]
+    },
+    {
+      "id": "kitchen-cafe",
+      "workingName": "Kitchen and Cafe",
+      "floor": "Ground Floor",
+      "callouts": ["Kitchen", "Freezer", "Lobby breach", "Games / Lounge", "IT", "Meeting Hall", "Connector (upstairs mirror)"],
+      "reinforcements": [
+        {"location": "Two walls near the main Lobby breach", "note": "Reinforce; pair with head holes on one and a rotate on the other (reinforcement on the right, rotate on the left).", "timestamp": "16:18"},
+        {"location": "Kitchen hatch", "note": "Reinforced at the start of the round from the stairs position outside site. No known counter to this reinforcement at time of recording, though the creator mentions hearing someone found a Capitao bolt that can stop it.", "timestamp": "16:40"},
+        {"location": "Games/Lounge wall", "note": "Reinforce this wall to hold Games/Lounge; two reinforcements are left spare if you'd rather not use them here.", "timestamp": "17:21"},
+        {"location": "IT breach (upstairs)", "note": "Reinforced.", "timestamp": "18:02"},
+        {"location": "Connector (upstairs mirror of the top floor Connector)", "note": "Reinforced, same as the top-floor Connector walls.", "timestamp": "18:02"}
+      ],
+      "headHoles": [
+        {"location": "Wall facing the main Lobby breach", "note": "Throw C4s and smokes through here onto the breach to delay pushes; a lot of the pressure on this site comes through this breach since the only thing on the other side is a Lobby door.", "timestamp": "15:57"},
+        {"location": "Second wall near the breach (paired with reinforcement/rotate)", "note": "Head holes for C4s toward the door and again toward the breach, and for smoking the breach out.", "timestamp": "16:18"},
+        {"location": "Head holes already covered near the breach", "note": "Main counter to attackers once they control the breach: use C4s and smokes through these to deny the push, though you'll typically need several smokes plus a C4 or two to hold it off.", "timestamp": "20:09"}
+      ],
+      "rotates": [
+        {"location": "Small rotate near the stairs outside site", "note": "Optional personal preference rotate so the player holding outside on the stairs can come back onto site.", "timestamp": "16:40"},
+        {"location": "Wall near the Lobby breach (left side)", "note": "Paired with the reinforcement on the right side of the same wall area.", "timestamp": "16:18"},
+        {"location": "Upstairs, same rotate as top-floor Connector", "note": "Reused rotate structure from the top floor Connector setup.", "timestamp": "18:02"}
+      ],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Freezer side", "note": "Feet holes all the way along; do not reinforce this wall.", "timestamp": "15:36"},
+        {"location": "Stairs outside site", "note": "Someone should start outside here holding the stairs; watch the Kitchen window and drop notifications from here, and fall back through toward the breach once pressured if the hatch is still closed.", "timestamp": "16:40"},
+        {"location": "Games/Lounge", "operator": "Castle", "note": "Castle can barricade both doors here (this door, and this door) and play the room fairly safely.", "timestamp": "17:41"},
+        {"location": "Upstairs meeting-area feet holes", "note": "Feet holes covering both windows for anyone jumping in; also watch the bottom of the stairs (can vault over but not shoot over the gap there).", "timestamp": "18:22"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Castle", "role": "Anchor (Games/Lounge)", "note": "Barricades both doors into Games/Lounge and can hold the room safely; also peek down toward the corridor and the breach direction from here once set up."}
+      ],
+      "generalTips": [
+        {"note": "Creator ranks this as generally the third most common site seen in ranked play, though says Control/Storage (site 4) is actually the stronger/easier site to defend if your team is coordinated enough.", "timestamp": "15:16"},
+        {"note": "Attackers get very easy, early control of the area around the main Lobby breach since the only thing on the far side of it is a Lobby door — this makes early pressure into the Kitchen corridor and Kitchen itself easy for them.", "timestamp": "16:18"},
+        {"note": "Once the vert is made upstairs (all the floor above Kitchen/Meeting is soft), defenders get pushed further and further back — there is no strong way to fully stop a determined vert push once it starts.", "timestamp": "19:04"},
+        {"note": "A common attacker plant pattern once the breach is open: smoke off one specific angle, then dive up and plant near the breach — countered mainly by the C4/smoke head holes already listed.", "timestamp": "19:48"},
+        {"note": "Creator considers this a tough site to hold overall and personally rates Control/Storage as the better site, but notes Kitchen may suit teams that aren't in a full coordinated stack.", "timestamp": "20:09"}
+      ]
+    },
+    {
+      "id": "control-storage",
+      "workingName": "Control and Storage",
+      "floor": "Ground Floor",
+      "callouts": ["Control", "Storage", "Games / Lounge", "Vending", "Garage", "Command Center (upstairs mirror)", "Server (upstairs)"],
+      "reinforcements": [
+        {"location": "Back of Control, left-hand side", "note": "Reinforce.", "timestamp": "20:51"},
+        {"location": "Storage/Lounge connecting wall", "note": "Reinforce a single wall out into Lounge/Games.", "timestamp": "21:12"},
+        {"location": "Garage, both external walls", "note": "Reinforce both.", "timestamp": "22:16"},
+        {"location": "Upstairs Command Center-mirror walls (both 'it' walls)", "note": "Reinforce both, same pattern as the top-floor Command Center setup.", "timestamp": "22:16"},
+        {"location": "Upstairs triple wall, right side", "note": "Reinforce, mirroring the top-floor Command Center triple wall treatment.", "timestamp": "22:16"},
+        {"location": "Upstairs wall toward Fish Stairs, right-hand side", "note": "Reinforce.", "timestamp": "22:37"}
+      ],
+      "headHoles": [
+        {"location": "Storage wall, if playing Lounge/Games", "note": "Situational alternative: if you think you can hold Lounge/Games, open this wall and make head holes (or a rotate) instead of leaving it, then defend from Storage and peek through as needed.", "timestamp": "21:34"},
+        {"location": "Upstairs, mirroring top-floor head holes", "note": "Head holes toward the breach, same as the top-floor Command Center setup.", "timestamp": "22:37"}
+      ],
+      "rotates": [
+        {"location": "Back of Control, right-hand side", "note": "Rotate here, not on the left — the left side of this wall can be held/watched from a window way outside, which would make the rotate unusable.", "timestamp": "20:51"},
+        {"location": "Storage, bottom-left", "note": "Rotate here.", "timestamp": "21:12"},
+        {"location": "Storage/Lounge alternate rotate", "note": "Optional: if committing to holding Lounge/Games, add a rotate back into this room since there's otherwise only one door (through Storage) back in if Storage is lost.", "timestamp": "21:34"}
+      ],
+      "hatches": [
+        {"location": "Control hatch", "note": "Opened (not reinforced) purely as an escape route — you don't need to worry about attackers coming up through it (would require a Mario-style vertical play that essentially doesn't happen).", "timestamp": "20:51"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Rotate window near back of Control", "note": "Watch out for this window — commonly held by attackers, which is why the rotate goes on the right instead of the left.", "timestamp": "20:51"},
+        {"location": "Garage door", "note": "Barricade this door in addition to reinforcing the external walls.", "timestamp": "22:16"},
+        {"location": "Above Control/Command area", "note": "Hold upstairs actively — this whole area is soft floor above Control (mirrors the vert made from the basement attack path), so an unheld upstairs lets attackers jump in and plant almost freely.", "timestamp": "22:57"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Castle", "role": "Anchor (Lounge/Games, situational)", "note": "Option if committing to holding Lounge/Games rather than leaving the connecting wall alone."}
+      ],
+      "generalTips": [
+        {"note": "Creator considers this the best/strongest site on the map, comparable to Open Area on Bank or Bar on Chalet/Consulate-style good-but-coordination-dependent sites — it requires full 5-stack coordination to defend well.", "timestamp": "20:30"},
+        {"note": "Upstairs here is defended almost identically to the top-floor Command Center/Connector site — same wall and head hole pattern reused.", "timestamp": "22:16"},
+        {"note": "Watch for attackers sledging/bucking out the single Animus-facing wall downstairs and just walking up the stairs to flank into this site.", "timestamp": "24:01"},
+        {"note": "Creator says they'd now lean toward reinforcing to support holding Lounge/Games rather than leaving that wall alone, depending on rank/ELO.", "timestamp": "24:22"}
+      ]
+    }
+  ]
+}

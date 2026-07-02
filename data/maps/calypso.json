@@ -1,0 +1,16 @@
+{
+  "map": "Calypso Casino",
+  "verified": false,
+  "verificationNote": "INCOMPLETE — Calypso Casino is a newer map (added Operation System Override, ~June 2026) and detailed floor-by-floor callout data is not yet well-documented across wiki sources as of 2026-07-02. Zone names below are drawn from a preview guide (alviran.net) and are NOT confirmed against official wiki.r6s.io or in-game data. Bomb site names/floors are placeholder guesses only. Needs a full re-pass once official callout maps are published.",
+  "floors": ["Basement", "1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "vip-lounge", "name": "VIP Lounge / High Roller Room (unconfirmed)", "floor": "2nd Floor"},
+    {"id": "vault-cash", "name": "Vault / Cash Room (unconfirmed)", "floor": "Basement"},
+    {"id": "casino-keno", "name": "Casino Floor / Keno Room (unconfirmed)", "floor": "1st Floor"}
+  ],
+  "callouts": {
+    "Basement": ["Vault", "Cash Room", "Service Corridors"],
+    "1st Floor": ["Casino Floor", "Keno Room", "Main Entrance", "Lobby", "Side Hall"],
+    "2nd Floor": ["VIP Lounge", "High Roller Room", "Upper Balcony", "Mezzanine", "Security", "Surveillance Room"]
+  }
+}

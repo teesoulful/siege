@@ -1,0 +1,17 @@
+{
+  "map": "Kafe Dostoyevsky",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Kafe_Dostoyevsky/siege), fetched 2026-07-02. Site list uses the current (Phantom Sight-era) four-site rotation; an older 'Bakery/Kitchen Grill' site variant is noted but not included as current.",
+  "floors": ["1st Floor", "2nd Floor", "3rd Floor"],
+  "sites": [
+    {"id": "cocktail-bar", "name": "Cocktail Lounge / Bar", "floor": "3rd Floor"},
+    {"id": "fireplace-mining", "name": "Fireplace Hall / Mining Room", "floor": "2nd Floor"},
+    {"id": "reading-fireplace", "name": "Reading Room / Fireplace Hall", "floor": "2nd Floor"},
+    {"id": "kitchenservice-cooking", "name": "Kitchen Service / Kitchen Cooking", "floor": "1st Floor"}
+  ],
+  "callouts": {
+    "1st Floor": ["Kitchen Service", "Kitchen Cooking", "Kitchen Prep", "Kitchen Grill", "Bakery", "Bakery Kitchen", "Main Corridor", "Dining Room", "VIP Section", "Cold Room", "Cold Room Corridor", "Reception"],
+    "2nd Floor": ["Fireplace Hall", "Mining Room", "Reading Room", "Train Museum", "Main Corridor", "Back Stairs", "Cigar Balcony", "Pillars Dining Room"],
+    "3rd Floor": ["Cocktail Lounge", "Bar", "Cigar Lounge", "Cigar Shop", "Bar Freezer", "Bar Backstore", "Washroom Corridor", "White Corridor"]
+  }
+}

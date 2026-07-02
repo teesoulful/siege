@@ -1,0 +1,17 @@
+{
+  "map": "Chalet",
+  "verified": true,
+  "verificationNote": "Sourced from r6coaching.com Chalet guide and Liquipedia Rainbow Six Wiki, fetched 2026-07-02. Callout lists condensed to major named rooms; minor sub-callouts (e.g. individual hallway segments) may be missing.",
+  "floors": ["Basement", "1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "masterbed-office", "name": "Master Bedroom / Office", "floor": "2nd Floor"},
+    {"id": "bar-gaming", "name": "Bar / Gaming Room", "floor": "1st Floor"},
+    {"id": "kitchen-dining", "name": "Kitchen / Dining Room", "floor": "1st Floor"},
+    {"id": "winecellar-garage", "name": "Wine Cellar / Snowmobile Garage", "floor": "Basement"}
+  ],
+  "callouts": {
+    "Basement": ["Wine Cellar", "Snowmobile Garage", "Wine Cellar Stairs", "Back Stairs", "Basement Corridor", "Garage Door"],
+    "1st Floor": ["Bar", "Gaming Room", "Campfire", "Main Entrance", "Trophy Room", "Fireplace", "Connector", "Kitchen", "Dining Room", "Wine Cellar Stairs", "Solarium"],
+    "2nd Floor": ["Master Bedroom", "Office", "Balcony", "Main Stairs", "Back Stairs", "Library", "Hallway", "Piano Room", "Mezzanine", "Bathroom"]
+  }
+}

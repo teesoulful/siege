@@ -1,0 +1,582 @@
+Source: https://www.youtube.com/watch?v=2UOJdDIUtKU
+Map: General
+Side: Attack
+
+[00:00]
+Aop troops, A27 here again with another video. And today is a big one. We're in the classroom of Oregon to go through how to attack. And this covers every site on every map. How to attack is the the video that gets requested the most. Um we've made videos in the past about how to attack certain sites, there's specific things to do, certain strats to do. This video is going to encompass how
+
+[00:20]
+you need to go about attacking every single site. There's no specific strats for specific sites, but it's when you're at the start of a round, as the prep phase begins, what do you need to do to give yourself the best chance of winning that round? And this can be applied if you're solo queuing, it can be applied if you're two, three, four, or five stacking. There's the same steps that you need to think about. Don't get me
+
+[00:41]
+wrong, it's more difficult when you're solo queuing, absolutely, and we'll talk about a few things in that later down the video. So, the plan here is to sit in the classroom to go through some points which should appear on the chalkboard here if I'm any good at my job. Uh but also I'll include some clips and some some real-time sort of practical um things to to demonstrate what I'm talking about. But, the theory side of it and and the way you need to
+
+[01:02]
+plan an attack is definitely just as important as how you carry it out. So, it This is dead cheesy, but it's true, right? Someone once said to me, "Fail it every prepare Failing to prepare" I always get that the wrong way around. "Failing to prepare is preparing to fail." And it's dead true when it comes to attacking in Siege. You need to have a plan. And we'll go through what that is now.
+
+[01:24]
+So, just as the prep phase begins, you need to think about four things before the action phase starts, okay? And I'll put these four things up here as we go. The first one, we've got to find the bomb site. Now, if you're playing casual, you know where the bomb site is cuz it tells you. But if you're playing standard or ranked, you've got to find where the bomb site is. Now, depending on how long you've been playing Siege, you'll probably know, depending on the
+
+[01:45]
+map, which bomb site people go to the most. You know, let's just take Oregon. Generally, people go top floor, basement, and then kitchen dining or kitchen meeting. Um I don't know why because I think the the bottom the basement of Oregon is way better than the top floor, but everyone for some reason goes top floor first. If you look at bank, people always go top floor first on bank, even though I think the basement is stronger again. The um
+
+[02:07]
+clubhouse uh has changed slightly. Clubhouse always used to be CC first, it's now basement or church first. Consulate is always top floor first, even though again I think the basement of Consulate might even be better. But anyway, you know that the the the patterns that people are going to take when it comes to to sites they're going to play. And even if they don't play the one that we think we're going to, it's only going to be another
+
+[02:27]
+op You know what I mean? No one's going to play um piano first on Consulate. It's always going to be top floor or basement. Um so, first thing you got to do is find the bomb site. Once you found the bomb site, you've got to make a plan. Now, when I talk about making a plan, I'm just going to jump over into paint to show what I mean about making a plan. And there's a
+
+[02:48]
+couple of different ways you can talk about making a plan. Bear with me a second. Welcome back. What a transition. Unbelievable. Right, so I've picked Skyscraper here because this is the the probably the easiest one to show. This is the top floor. So, when you're defending karaoke, which is here, and tea, which is here, there's two ways that you can attack the bomb site. So, when it comes to making a plan, you've got two options, really. You can either
+
+[03:09]
+go direct or you can go across. If you're playing a map that's in the basement, you can also attack vertically. But mostly, it's direct or across. So, um when it comes to making a plan, we're going to split the map in half, which is really easily done on Skyscraper, which is why this is a really good example. So, when you're talking about a direct attack, you've got black stairs door here, you've got
+
+[03:31]
+karaoke window there, you've got geisha window there, and you've got terrace window here. I know this is just the other side of the line that we just made, but don't worry about that. A direct attack would be not worrying about this half of the map. You don't care about this cuz the the objective isn't over there anyway. Your objective is objective Your objective is in karaoke and is in tea. So, um a direct
+
+[03:52]
+attack would be going through black stairs door, going through karaoke window, going through geisha, or coming in through terrace into drum. And that would be more direct. You know, like I said, you don't care about half the map. The alternative to a direct push is taking control of the other half of the map and then moving your way across. That way, you don't get caught out by people flanking around
+
+[04:12]
+this side of the map uh because you've now you've cleared it. So, if you've got, for example, someone playing in terrace, you can open the wall in office, which is here, you can open samurai window, you can open the single wall, and then push the guy out of there. But the whole point of a an across take is that you take this room, office, then you take uh exhibition, then you take down into to dragon or into shrine or into terrace, then into
+
+[04:34]
+drum, then outside tea, and then push across into these areas here, clearing these areas as you go. The idea of this is there's probably going to be a roamer in this side of the map, so you clear that roamer out, all of a sudden you're in a 5v4. If there's three If there's two of you working together, it's super easy I say super easy, it's not super easy. But if there's two working together, you can clear a roamer quite easily. Three working together, you
+
+[04:55]
+shouldn't really get caught out by a roamer if you're droning properly. So, that's the next point two. You've got to make a plan. Either do you go direct to the site or do you go across depending on which site you play? And bear in mind, that can be applied both sides here as well. The other site to to defend is office and exhibition. And a direct attack would be going through the office breach, the samurai window, the single wall here, or in through terrace
+
+[05:17]
+door here into site there. That's direct, and you just ignore this side of the map cuz you don't really care about it. Alternatively, you would go across again. You'd take geisha, you'd take karaoke, you'd take tea, you'd take drum, and you'd work your way across. So, point two, make a plan. Welcome back to the classroom. So, point two, make a plan. We've got find the
+
+[05:37]
+bomb site, make a plan. Number three, choose the operators that best suit that plan. One of the main reasons attacks fail in Siege Sorry, just had to sit up there. One of the Probably should re-record that, but you know, we're all in this. One of the main reasons attacks fail in Siege is because you don't have the tools to do the job that you need on attack. You don't bring a hard breacher for a breach. You don't bring
+
+[05:59]
+um an Ash or a Zofia to get rid of a deployable shield. You don't bring um a Flores to get rid of a Melusi banshee. So, you know, all the different problems that we can solve in Siege. One of the main reasons attacks fail is because the defenders So, think about this when it comes to Siege. And and uh a friend of mine, Stella, told me this once, and it it makes perfect sense when you're thinking about attack.
+
+[06:19]
+When you're attacking a bomb site, think of it as lots of little problems that you've got to solve on your way to planting the defuser. So, let's just think about clubhouse in CCTV. Problem number one, you've got to open the breach. Problem number two, you've got to clear rafters. Problem number three, you've got to clear top red. Problem number four, you've got to make sure no one's below. In amongst all of that
+
+[06:41]
+clearing those areas, you've probably got um a Melusi banshee top red, you've probably got barbed wire top red, you've probably got a Valk cam inside, a Maestro cam inside, which can do things that to to push you off your task. So, you've got to think about solving those problems as you go. You see a Maestro cam, have you got a gun to six? Have you got a nade? Have you got an Ash or a Zofia? Whatever you need to do to clear that Maestro cam.
+
+[07:02]
+Is there a Valkyrie? Have you brought an IQ to find the Valkyrie cameras to solve that problem? Et cetera, et cetera. There's tons of different problems the defenders will make for you. And as it Thinking about it from the defender's side, you want to cause those problems to for an attacker to make it difficult. You don't want to take Caveira, Vigil, Rook, Doc, and Solis because you don't really give them
+
+[07:23]
+any problems to solve there in terms of utility. You want to be taking like a Bandit, Ela, Lesion, a Melusi, a Valk, and a Mira or something like you know, that That lineup there is real problems for the attackers. They've got to sort the Bandit on the breach. They've got to clear the banshees. They've got to find the Valk cams. Et cetera, et cetera. So, picking the right operators for attack is imperative. If you pick the
+
+[07:45]
+right operators based on your plan, you're going to be putting yourself in a better position to win that attack. There's no point picking a Thermite, Ace, or a Maverick if the plan that you come up with involves breaching no walls. Typically, you will have to breach a wall or two. But that's what you've got to do. Pick the operators for the plan. So, find the bomb site,
+
+[08:05]
+talk about either If you're solo queuing, just choose the plan yourself cuz you're going to have to come up with where you're going to enter, et cetera. Or if you're If you're stacking with a minimum of two people, talk to your stack and say, "Right, how are we going to attack this?" And if everyone's on the same page, it just allows for less mistakes. You know, how many times have you been attacking a bomb site, right? And you're like, "Okay, I'm ready for the plant. So, I'm going to I'm going to go I'm Just cover me." And you think,
+
+[08:26]
+"Hang on, where's my Are you in a 2v2?" And you're like, "Hang on, my teammate's downstairs." What are you doing downstairs? Talk about the plan before the round so everyone's on the same page. Obviously, Siege throws problems throughout the round, so you can have to sort of go off piste every now and then, but you know what I mean. Step four of the plan is to pre-place drones on entry points and pre-place drones on flank watch spots. So, if you're solo queuing,
+
+[08:47]
+you're generally not going to be watching your own flanks, and that's why solo queuing can be difficult, and it can be a bit of a nightmare. Sometimes playing Gridlock and and Nomad solo queuing just gives you that peace of mind. Even just taking claymores can give you a little bit of peace of mind as well. So, pre-placing on in a solo queue environment is generally going to be for where you're going to enter the map. If you're stacking with a minimum
+
+[09:08]
+of two, or if you're at least stacking with uh or sorry, if you're stacking with five, then you want to leave two drones down for the the guys who are going to be going into the map first, and then you want to be using the other three drones for flank watch spots. Now, you're probably going to have to use one drone to find the site. Typically speaking, sometimes you can know where the site is just by which walls get reinforced and things like that. But you want to be using at least two drones for
+
+[09:29]
+Well, ideally three drones for flank watch, one drone for um finding the site, and then one drone for entry. Ideally, you keep all five drones. I am begging. Public service announcement. I am begging that you don't just drive your drone into site and lose the drone. If you're the person who has to find the site with your drone, fine. I get that you might lose your drone if you're
+
+[09:50]
+trying to find where the site is. But once the site's been found, if you drive your drone into the site and your drone gets destroyed, you deserve to smell of eggs for at least an hour after that, at least. That's the politest thing I could come up with there, just off the top of my head. You'll have to bear with me. So, um don't lose your drone inside. Please,
+
+[10:11]
+I beg you. Go and pre-place them. It will only benefit you and it will give you more of a chance of winning the game. So, I'm just going to jump over to some blueprints of Oregon to show you what I mean by entry points for drones and pre-placed points for drones. What a transition. We're doing real at this. Right, this is Oregon. This is the ground floor. So, you've got the front door here, garage here, meeting, big tower stairs, kitchen, dining, showers,
+
+[10:34]
+white stairs. You recognize it, right? Then we've got over this side, the top floor of Oregon. Red's not going to be the best color here, but it'll still work. You've got armory, trophy, games, kids, top of small tower there, white stairs, hobo, etc., etc., etc. Master bedroom. Uh oh, didn't want to do that. Put that image back. Right, so. Talking about
+
+[10:56]
+pre-placing drones, entry drones, and flank drones. What the two best spots to enter on Oregon are almost definitely garage and small tower. Oregon isn't a particularly big map. So, pre-placing drones in garage, there's a lovely spot you can use on top of this cabinet here. And when it comes to small tower, you can actually do something called a cutoff drone. This is uh unique to a few maps, but
+
+[11:18]
+Oregon is one of them. So, what I mean by that is you can pre-place a drone here or here. And that then draws a line across the map. So, if you when you're watching that drone, if you know no one's crossed through this way or through this way, bear in mind both of those drones can see through this door here. So, you can see down this line. If you know no one's crossed that direction, you know that
+
+[11:39]
+this area is completely clear. It's slightly different on Oregon because this area is not accessible to defenders. So, you know the defenders haven't gone through the window and ended up in the top of small tower. So, you know top small tower's clear if nobody crossed the either of these with two drones here. So, use that cutoff drone. Rather than just pre-placing a drone in small tower, you
+
+[11:59]
+can use a cutoff drone there to know if anyone crosses or not. Anyway, that's pre-placing a drone for entry. And obviously, once the entry's then got control, so if you've got your drone here and you can see down that way and you know that garage is clear, there's a hatch here. Make sure the hatch is closed, obviously. You don't want anyone dropping on your head. You your entry can then take garage. You can then look at taking Zulu. You can then look at going up main stairs or however you want to progress your attack from there. But,
+
+[12:20]
+you're in the map, you've got control here, and if you want to, and I do this sometimes, get control of of garage and just hold a cutoff here for 20 30 seconds whilst your team do what they need to do to get in the map. And your team have got you in the map, just hold an angle for 20 30 seconds, making sure nobody comes out of meeting, making sure no one comes down main, making sure no one comes around Zulu. This is a pretty decent angle to hold
+
+[12:42]
+when it comes to Oregon. That's an entry drone. You pre-place it, you get your entry into the map. Now we're going to talk about flank drones. A flank drone is something that's generally hidden and is just watching an area of the map to make sure no one goes up or downstairs, essentially. So, the best example of that on Oregon is under the bench that sits in split here, and you can then make sure no one comes up from the basement, no one comes around from Zulu, no one comes through from meeting and
+
+[13:03]
+comes up the armory stairs. That's what that drone's there for. You can then put another one here to watch into dining, to watch down Zulu, and to watch up white stairs. And then of course, you've got to worry about big tower, which is over here, and there's a good spot on some flight cases there to make sure no one goes up big tower stairs. So, we've used four drones there. If we count the entry the entry drone in garage, we've then used an entry drone in garage, a
+
+[13:25]
+white stairs cutoff, a main stairs flank drone. Sorry, a white stairs flank drone, a main stairs flank drone, and a big tower stairs flank drone. And we've got a fifth drone spare to go and find the site. If we know where the site is because we've seen certain walls get reinforced, for example, then we know we don't have to waste that drone. You can then go and use that drone as another entry drone or as another flank drone.
+
+[13:46]
+Um and even try and get a drone into site. The thing with getting a drone into site at the start of the round is you see people like, "Oh, I've I've sneaked me drone into like sit on top of the bomb chassis and now I've got loads of info inside." That's all well and good, but generally, you don't want the information inside until the execute happens, you know, the last 60 seconds of a round. There's no good you knowing
+
+[14:06]
+that there's uh a smoke in um kids, uh a warm eye playing uh hobo, there's a mute at the top of white stairs, and there's a Jaeger in attic when you're not even in the map cuz you're not going to be entering here. You're going to be entering in different parts of the map. So, getting a drone inside can be helpful, obviously, but it's not going to help you in the first 2 minutes of the round because you need to get in the
+
+[14:27]
+map and take control of certain areas before you get the the advantage of the drones. And so, we come back to the classroom for the last point of the prep phase four-step program. I sound like that guy from Napoleon Dynamite. Is it Rex Kwon Do? Just join my 84-step program. My name is Rex, and if you study with my week program, you will learn a system of
+
+[14:48]
+self-defense that I developed over two seasons of fighting in the octagon. IT'S CALLED REX KWON DO. ANYWAY, so the four points are: find the site, choose a plan, pick the operators to fit that plan, pre-place your drones, pre-place your entry drones and your flank drones. If you do that before the start of every attack, I'm telling you now, your attack
+
+[15:09]
+percentage, regardless of what we do next in the action phase, your percentage win rate on attack will shoot through the roof. Now, what I'll do is I'll try and show a a through I can't speak a few in-game examples of when I've done what I've just talked about there. I'll I'll just play casual and I'll I'll go through and I'll be solo queuing, obviously, so slightly different when you're in a stack, but
+
+[15:30]
+I'll be going through, finding the site, which will be I'll see the site cuz it's casual. Finding the site, choosing a plan, picking an operator, pre-placing a drone. Okay, so following the plan, we've got to find where the bomb site is. We're playing quick play, so we don't need to do that here. We know it's cafe garage. We then need to come up with a plan and decide on an op. So, I'm going to play Ying. I'm going to use hard breach charges and go through the uh
+
+[15:53]
+um electrical entrance, secret electrical, whatever people are calling it these days, around the back there. Um the plan is to pre-place There's a there's a drone hole next to that soft wall. So, I'm going to pre-place a a drone around this area here. And then hopefully take from the server across. That's the plan. Um what I'll do is pre-place the drone then obviously use me second drone when I get a bit closer, too.
+
+[16:13]
+And we're using hard breach charges, it doesn't matter whether the wall's reinforced or not, we should still be able to open it. Um but let's just get that drone over in that direction first. So, I wonder if it does get reinforced during quick play setups. Oh, it doesn't. Okay, fine. I've also noticed Buck is um spawning with me as well. So, Buck
+
+[16:35]
+might be trying to do the same thing, in which case Buck can just Buck open this wall. And Buck's also brought his drone here as well. So, we can can pretty much safely say that. There's a drone hole here, so you can sort of peek in and out of this area. You can see the dro- the doorway there underneath the the rack. All right, so. I think it's safe to say Buck's going this way. I've got that come, Buck.
+
+[16:55]
+Don't you worry, mate. What's the spawn peek? In we go, Buck. Oh, he's going to shotgun me in the legs. And again. And and one more time cuz there's a still ball there. There you go, mate. In you go.
+
+[17:17]
+Right, let's just check the drone quickly. I don't think anyone's holding this area. Okay, so one's died up in the so piano area. Buck's going that way. I'll go long. Is the hatch open? The hatch is reinforced. Nice.
+
+[17:40]
+So, now we've got to think about droning ourselves further down here without just you know, we could just walk down here and just try and get the kill. Just going to drone ourselves down. See the rotate there. And we can see that it's clear to come down. I'm going to walk through this 07. Havana's already in security. That's insane.
+
+[18:06]
+Uh I I haven't got the diffuser. I was going to plant. Where's the diffuser? I thought I just got diffuser. So, I mean that was not the best attack, but still the sort of premise remains, you know. Um so, we know the site, so finding the
+
+[18:28]
+bombs done for us. We have cheated a little bit there. Come up with a plan, pick an operator, pre-place a drone. So, I'm going to play Thermite and do the classic, or at least hopefully, depending on how they set the site up. Um I'm hopefully going to get into daycare right at the back of um this side of the map. I'm going to get a pre-placed drone in
+
+[18:48]
+the fridge, hopefully. Down in the studio. Move over. I'm going to rappel into break. I'm going to Thermite this wall. I'm going to drone through this drone hole, and we're going to plant at the back of initiation. If that doesn't sound like a plan, I don't know what does. So, giving yourself a plan at the start of a round will just give you so much more direction. When I used to play this
+
+[19:10]
+game when I was first learning it, I would find it so difficult at times on attack to sort of go, "Right, what now? What should I do now?" Whereas if you come up with a plan, hopefully I don't get run out on. Oh, we're all going this way, are we? Um You can go in there, Murray.
+
+[19:30]
+Right, I'll go in there if you don't want to. I'll just tuck around here quickly. There's no rotates at the end. Let me just check top arcade. Ooh, hello top arcade. Good job I drone that. He's just dropped bottom arcade. That does us a massive favor. Now, let me just leave this drone here,
+
+[19:51]
+and then I'll drone How he haven't been shot on the drone already. Right, back initiations absolutely free. I have the diffuser. Hopefully. Oh, he's just died there, which is a concern. Hopefully Maverick covers me.
+
+[20:17]
+There's a Warden. He's already put his gadgets up. Oh, [&nbsp;__&nbsp;] Maverick, hello. What? Friendly operator remaining. Ma- Maverick? Well, anyway. Maverick's coming into clutch. Anyway. I don't That went all to plan. And And this is the point of attack, right?
+
+[20:39]
+So, the action phase has begun. We've done the prep phase, we've done the four points in the prep phase. There's now four points to do in the action phase. Again, they should appear on this chalkboard. I'm really good at my job. The first step of the action phase is to roam clear. So, you need to find the In Siege, we've got anchors and roamers, right? On defense. I know there's some
+
+[20:59]
+roles are slightly different and there's like a bit of a flex role, it's sort of a a shallow roam or a soft anchor, etc., etc. But generally, anchors and roamers. Anchors are on site, roamers are running around the map causing you problems as an attacker. However, dealing with roamers, if there's three of you, is it should be, in theory, easy. If there's two of you, slightly more difficult. If
+
+[21:19]
+you're solo queuing, I don't suggest roam clearing unless you're going to play a Deimos or a Jackal, maybe. But roam clearing as a solo queue up a solo queue player, depending on what ELO you're in, I guess. If you're in higher ELO, it's impossible. Lower ELO, the roamers might not make the right decisions, perhaps. But if there's at least three of you, roam clearing is super easy. One person drones, two people pinch. If there's two
+
+[21:42]
+of you, one person drones, one person pushes. You can't pinch in a two because one of you really needs to be on the drone. Unless you know they're in the same room and they're not moving and you can push together and not be on a drone, maybe. But I'll I'll just jump on to Chalet and I'll show you a bit about roam clearing um when it comes to to Chalet. Okay, so we're on Chalet. We could be attacking the top floor or the basement,
+
+[22:03]
+doesn't really make a difference. And what I'm about to show you here sort of um is the same for every map, really. A roamer is lurking around west main and dining sorry, kitchen and dining, okay? If there's three of you, the dream scenario. I mean, if there's five of you, you're obviously it's even easier, but if there's at least three of you. You need to find the roamer, but don't
+
+[22:23]
+lose the drone if you can avoid it. If you lose the drone, you're going to need another, obviously. But the key thing to clearing roamers is not having someone on trophy window. This is what not to do. Someone's on trophy window, someone's on west main window, and you guys droning. Your your third guy's droning. And he's droning around here and he finds a guy,
+
+[22:43]
+a roamer, chilling in kitchen there. That's not a lot of use because excuse me, I'm not editing that out. That's not a lot of use because your drone that'll come in dining dining, I'll find the guy that's in kitchen. He'll shoot the drone, and that information is now dead. The reason that information is dead is because that guy
+
+[23:04]
+then your latest information's dining. However, uh sorry, kitchen. Why do I keep saying dining? Latest information's kitchen. However, by the time he comes through this window and by the time he comes through this window, this guy could now be chilling in dining or west main, or could have come out to the corridor here. Don't actually know what that's called. Split, I guess we'll call it. Or could have come into trophy. But the
+
+[23:25]
+whole point of roam clearing and to make it easier for yourself, you want to have Oh, I don't know why I've just lost my paintbrush. To make roam clearing easier, you want to have live information and comms with your teammates. So, what you need to do really is get informa- get the the guys into the map before you start a full roam clear, a proper roam clear. So, you want to have
+
+[23:47]
+somebody in trophy. You want to have somebody in west main. You can. You want to have someone coming down solar stairs, or however you want to play it. But you need people in the map. That's when you then start droning out where the roamer is. Obviously, your entry drone will get you into trophy or into west main. West main's a tricky place to come in cuz there's a few different angles you can be shot from. Um but it it's not always the easiest place to enter from. But let's just say we've now
+
+[24:08]
+got a person here and we've got a person here. As the drone comes around this area, this person follows the drone. And you're just getting hot drone and you're getting live information on how to clear the roamer. The best way of clearing the roamer is to pinch. So, it's to have one person push from this direction, one person to open this soft wall, or a dream scenario would be one person to push from this sorry, one person to push
+
+[24:30]
+from this direction, one person to push from this direction. The best way of clearing a roamer is getting them trapped in a room where there's only one or two ways out. Obviously, having that live drone, and then just either holding cutoffs because once players will shoot the drone, they'll dive out of a room cuz they think they've got to reposition. Um so, you can hold the cutoff out of there, or you can hold the cutoff from dining, or
+
+[24:51]
+just pinch together. The key thing though is hot information. Don't drone and go, "I've lost me drone now, guys. He was last seen in kitchen." Cuz when you then get in, he's actually stood here in dining. You go, "You just said kitchen." Well, yeah, people move. So, keep that drone alive. That's the best way to clear a roamer. So, if there's two of you, it's a little bit trickier um because you're just going to have to
+
+[25:11]
+hot drone and you can't pinch. Pinching works every time because even also if they kill one, you can refrag and get the and get the kill there. Um make sure it's not your your hard breach or someone that's key to the plan that you made in the prep phase who's doing the roam clear. You want to be using an operator like Zofia, Finka, Ash, etc., etc. Iana. You don't want to be using your Thermite, your Ace, or your
+
+[25:32]
+Thatcher to roam clear. Um but pinching is the dream. Live information on the drone is key. So, step two of the action phase is take control. Now, take control and roam clear could switch places depending on how you attack and and the way that the round plays out. So, there's an argument to say you would have to take control before you roam clear because you're going to have to be
+
+[25:52]
+in the map. So, you've got control of some of the map. But also, once you've killed the roamer in that room, you can take control of that room. So, they're kind of one in the same step step one and step two of the action phase. So, once you've killed the roamer, you take control. And you hold that control. You make sure that bit of the map is yours, and then you think again. If you're playing in a stack and depending on how
+
+[26:12]
+seriously you take this, when I was playing in a a bit of a comp team, it wasn't really proper comp team, but and I know a lot of other pro teams do this as well. They have a word, depending on how coordinated you are. If you're just a casual ranked player, you probably don't want to take it this seriously. But if you want to get right into it, there's a really good way of of just stopping and pausing. And between the stack that you're playing in, you come up with a word. Yeah, let's just use
+
+[26:35]
+coffee cup, right? Someone shouts coffee cup. And when the person shouts coffee cup, everyone knows to stop. I Obviously, not just if you're in the middle of a push, you're not going to call it. But once you've cleared a roamer and you've got to think about what the next part of the plan is, someone say coffee cup or whatever word you want to use. Coffee cup. Everyone just sort of stops and goes, "Right, okay, let's just take get an idea of what's going on in the map
+
+[26:56]
+right now." It's just sort of stopping uh get get having a bit of time to process what's the next step that we need to do. So, you've roam cleared, you've got control, okay? Step number three is to problem solve. Now, as I said at the start of the video, there are many different problems that the defenders will give for you. If you're playing as a defender, the more problems you can
+
+[27:16]
+cause the attackers that they need to solve, the more chance you're going to have of winning the round generally. Obviously, there's a lot of gun skill that's involved in all this as well. But if you can be a nightmare for attackers and placing traps in places and cams in places and all the other things that we know Siege can do, you're going to cause the attackers problems. I'm sorry, I'm going to have to scratch my nose. I've got the itchiest nose in the world. Ah.
+
+[27:36]
+I tried giving it like a couple of sort of scratches. I haven't got away with it. I've had to go full into it. I'm not editing that out, I'm sorry. So, once we start problem solving, that's when we need to think about the Maestro cams we need to clear. Are they playing C4 below? Is there uh Bandit or Kaid on the wall that we need to use EMPs to clear so we can open a wall? All the hurdles that are put in your place, that's when
+
+[27:57]
+you've got to start solving that. There's no point thinking about how to open a breach so we can plant if there's still two roamers somewhere in the map that you haven't dealt with. So, you've got to go in this order. So, the problem solving, yeah, like I said, you could take a Brava to problem solve. You get rid of the Banshees, the Kapkans. Or you can take someone who needs explosives to get rid of Maestro cams, to get rid of Melusi Banshees, to get rid of Fenrir F-NATTs, and all that
+
+[28:19]
+sort of good stuff. Um problem solving is probably the most difficult part, I would say, of an attack because you've got to I don't know what the right phrase is. Sort of think on your feet. There's no real When it comes to roam clearing, there's like a sort of best way of doing it, and you know that if someone's in a room, you can stop them getting out by doing X, Y, or Z. The problem solving part of the attack
+
+[28:40]
+is different every single round because there's different operators taking different utility, putting in different places, and all that other good stuff, which is the reason we all love Siege, right? You know, if we're playing COD, you can't put an F-NATT down on the floor. Well, I don't really know, maybe you can. I haven't played COD for years, but it's one of the reasons we like Siege, and it's probably the most difficult part of the of the attack phase. I've got a couple of gameplay
+
+[29:01]
+examples of me trying to problem solve, um and I'll obviously I'll show them now, but I can't really tell you how to problem solve. It just comes with time, game sense, knowledge, and experience because every round will be different. You might play a Valk who's playing a C4 below. The next round, they're not playing Valk, playing Melusi. And now you can't walk through the breach without setting off a Banshee. Now the
+
+[29:23]
+defenders know where you are, and it's causing another problem. You could have solved that problem by destroying the Banshee with a grenade or whatever it might have been first. So, problem solving is probably the longest step of the attack as well. You you might take you a minute or minute and a half to try and clear the utility that you need to clear to give yourself more of a chance of pushing through. And there's all sorts of ways of problem solving. It's not just
+
+[29:44]
+destroying utility. It's thinking about have they got a smoke? They have got a smoke. Okay, now do we need to bait going into the plant? Do we need to bait the execute to try and get the smoke to use all three smokes. So, bank basement is a classic example. There's goyos on the wall and they've got a smoke. We need to bait the plant so the enemy shoot the defenders shoot the goyos or detonate the smokes.
+
+[30:05]
+Into you don't want to leave yourself with no time so that those smoke grenades or those toxic canisters are going to prevent you from planting. You need to think about the problem. They've got goyos on the wall which are going to stop us from planting. So, we can either destroy them with explosives, we could use a twitch, we could And this comes back to the prep phase by the way about choosing the right
+
+[30:26]
+operators. If you see they've got a goyo in the prep phase, get a twitch on your side cuz that's going to solve that problem pretty easily. If you don't bring anything to destroy those goyos, when it comes to planting in bank basement, you're probably not going to get away with it cuz you're going to be trying to plant in the depths of hellfire whilst the goyo canister is burning at your ankles. It's going to be impossible. And that goes back to the prep phase of make sure you pick the
+
+[30:46]
+right operators to solve the problems the defenders are giving you. Of course, there's going to be times where you don't see operators in a prep phase so you haven't switched to a twitch and then you realize they've got a goyo and this is that dynamic problem solving we talked about earlier where that's the joy of siege. We go off they've got a goyo. Right, okay, stop. Coffee cup. How do we solve that goyo problem? Right, what have we got here? We've got a couple of grenades. We've got an ash
+
+[31:07]
+that could go above or below or what You know what I mean? That type of thing. So, problem solving, point number three. So, we're here on layer and obviously we're playing casuals we know they're in lab and lab supports we know they're in the basement. So, my plan here is to go in and do it an across attack if you will. I'm going to go in from the barrels area of the map around this area here.
+
+[31:29]
+Over this side, the sort of north side. And then I'm going to try and Can I have the diffuser? They've got the diffuser. That's annoying. Anyway, we'll um Let's try and highlight the sort of problem solving piece of this attack if I can. So, I'm just going to leave a drone in barrels. So, this is the pre-placed drone but yeah.
+
+[31:49]
+I'm going to be coming in from this door here. So, I'm going to pre-place a drone over here. Leave that there. Hopefully a rook, I think that was rook, hasn't seen me. So, one just make sure no one's running out the garage here. It appears they're not. I always think that's a default cam. Get rid of that default cam.
+
+[32:10]
+Make sure no one's peaking this window here in barrels. We don't need to check it. We can literally see that's that window we're at there. No one's there. Okay, lovely. And then we'll go over to where we're going to enter the map from. So, we've got a pre-placed entry drone. Don't need to worry about flank drones for what we're doing here. Punch the barricade twice. So, when we actually enter, we only need to press it once.
+
+[32:31]
+There's no problems that we need to solve on that door. No problems we need to solve on that door. No problems we need to solve on that door. But we have this problem here. Now, this can be solved with a frag grenade or with my second drone. Well, let me just leave it up here. See what this lesion does quickly. Oh, it's just just sort of lazy.
+
+[32:58]
+So, we know that a Rooney gate's there. Okay. I'm just going to have to listen to the audio here. Does he peak this window? One friendly operator remaining. Minute 20 now. Let's just use this drone quickly. Anyone in the warehouse? No.
+
+[33:19]
+Here we go. No one's there. No one. So, I want to get a kill or two
+
+[33:41]
+before I have to solve that a Rooney gate problem. No one's about to peak this door anytime soon. Oh dear, Andy. She's coming this way. Should have got that kill first time. Now, we just got another problem to solve there now cuz someone just threw a
+
+[34:01]
+warm eye magnet. He's coming this way. I don't know what's through this door. Solve this problem. And we've got a drone. I don't know if this last enemy
+
+[34:22]
+Oh, he's on side. He's back there. The deployable shield is a problem although we know we don't have to worry about that. Is he tight in this hole here? Oh, he went around to the side of the door. I thought he went tight right. That's upsetting. So, we got a few kills there. We understood the problems but we didn't and this is where I want to highlight this. We got kind of lazy in the one V
+
+[34:44]
+one. I didn't drone through into the site properly to see that the lesion mines and was it a thorn trap that was or or but I can't remember what it was now cuz that was just a bit of a blur then. And where are they bunk's briefing? Um let's play ace. So, the the problem that we didn't solve there and we can and this is good at you know, I'm not just going to show you
+
+[35:04]
+when it works perfectly. The reason that was a good example is because that attack didn't work out so well because I got goo mined and that we knew where that lesion was then. And then the lesion found out where we were because of the goo mine that we walked through. If we'd problem solved correctly or problem solved um better if we'd problem solved better, it
+
+[35:25]
+doesn't sound right. If we'd um problem solved in more depth then we'd have seen that that goo mine was on the door. We could have shot the goo mine and we could have moved in and had more of a chance of killing that lesion. So, where if you can want to look back at where attacks have failed, the problem solving element of that attack was poor. So, now what we're going to do is pre-place a drone for entry up here.
+
+[35:46]
+Hopefully the one last one doesn't see me. No one's placing razor blooms in the floor cuz she's got a thorn shotgun I believe. Yeah, M870. There, so they're double reinforced. So, she's put So, we can already see two problems, three problems. There's a a razor bloom on that door. There's a razor bloom on this door. There's a a Rooney gate, some barbed wire but this
+
+[36:06]
+door itself is clear. Now, we've got a hard breacher and ace. So, we can potentially open There's a window here somewhere. We can potentially open this wall. Oh no, they've electrified it. So, that is a problem. Now, I don't believe we can solve that problem by going below either. I believe
+
+[36:28]
+that that floor is solid. So, what we can do instead is open this wall. I'm going to make sure no one's here. Which it appears nobody is. Please don't shoot me, Zofia. So, we'll open that. We'll tuck in here now and we'll wait for someone to push
+
+[36:48]
+through this. Oh my god, Zofia is doing the same thing. I'm going to have to move. I can't have Zofia and me on the same wall there. So, we not going to be able to open that way. I haven't got any EMPs. Is anyone outside here? Not at the moment. So, in the We bypassed that problem by the way. Um oh, there's a razor bloom there if
+
+[37:08]
+you want to shoot that, Zof. She's not there anymore. Let's just see if anyone is at the back of the site here. So, no one's at the back of the site. So, when we push through this breach, we're going to have to look to the right. There's one tight right. Don't know where that thorn is. Is she behind here? No, that's a Rooney. Okay. So, we're hoping Zof gets involved here soon. I'm going to hold this side while
+
+[37:30]
+Zof holds that side. It's only me and Zof left. We know the Wait, we know all three are inside, right? A Rooney there. Rook's in the other side and I'm assuming Bandit's on the breach. So, we can start taking fights here. Although, not if a Rooney is just going to go prone. We know no one's at the back
+
+[37:51]
+of site. We've got the door here to look at. There's one a Rooney. That's fine. A Rooney might be flanking based on the fact that she's not swinging this door. A Rooney's on the breach. We don't know where the Bandit is though.
+
+[38:11]
+Which is an issue. I'm going to hold this whilst he pushes in. The Bandit has to be pushing around, right? And where's the diffuser? I hear the Bandit might have the diffuser outside the site there. The Bandit's going to have the diffuser, isn't he? Now, I haven't got anything to solve
+
+[38:32]
+this problem. I tried to throw a drone that down so. Did I just see the Bandit on my drone? Bandit was there. Why did I just see the Bandit on my drone? So, anyway, let's go back to the problems that we didn't solve there then. The primal problem that causes it the
+
+[38:53]
+issue there was not having the diffuser. I was correct in me thinking that the Bandit was going to be holding the diffuser but when I went on my drone there, I felt like I saw a Bandit. Obviously, I didn't. I lost the time by going back to the security room that we'd just come from. Um and then yeah, I didn't get the Bandit. But we did solve some problems and hopefully we're trying to say If I'd have had the diffuser there, which I probably should have done playing ace going into the breach, I
+
+[39:14]
+should have picked the diffuser for myself. Um I'm playing smoke in this defensive round for some reason but that's not important for this video. Um if I'd have had the diffuser myself there, we'd have been able to do something. We'd have been able to plant but unlucky. And last but by absolutely no means least is the execute. Probably my favorite part. I I would happily play siege playing thermite or ace, mainly thermite, and
+
+[39:35]
+plant the bomb. I would happily open a breach, hard like hard breach every reinforced wall, and plant the diffuser, and drone the teammates and who are better than I am mechanically and I would have a good time. I would happily go 0 0 and 0 every Siege match if it meant we won cuz there's just something about winning a round of Siege by planting the diffuser,
+
+[39:55]
+playing a post plant. It's this I don't know, there's something about it that I enjoy like the the methodology behind it, the technique behind it, the sort of strategy behind it. So, the execute. So, let's just nip back over onto Paint and we'll have a look at the Chalet basement side of an execute. Welcome back to Chalet basement. These transitions are unreal. They're not really, I'm aware of that. So, this is
+
+[40:17]
+Chalet basement. You've got car garage up here. Uh you got boiler around this area, trench door there. This is the main snowmobile breach, main stairs, blue stairs, west main stairs, okay? You with me? So, most people on Chalet plant on the main breach behind the bin that's kind of like here. Wait, is this old Chalet?
+
+[40:40]
+No, it's not. Okay, no, it's not. There's just no bin there. There's a bin there and you can plant behind the bin, which is what most people do. However, that bin is not bulletproof. So, if if someone's planting behind the bin, you can come to uh blue door and you can shoot through the bin. Um this is not actually accurate really cuz you can see the bin
+
+[41:01]
+from blue door whereas you can't really see from there. Anyway, that's not important right now. So, um the execute. To get to the execute and for the execute to be successful, you've got to do steps three and steps one and two. So, if you try and execute as it and when I say execute, I mean uh plant the diffuser, right? Okay? If you try and execute and you haven't problem solved,
+
+[41:24]
+let's talk about this on Chalet here. You try and plant behind the bin there and you haven't problem solved and there's a smoke in connector or you haven't problem solved and there's a Gu yo canister on the wall here or you haven't problem solved and there's a Fenrir F-NATT on the back of the snowmobile or on the top of the wall as you walk in and as soon as you walk in, you're blinded by the F-NATT and someone
+
+[41:45]
+swings you from blue stairs, someone swings you from main stairs, whatever it might be. You can't execute if you haven't problem solved. You generally, and this not always true, but generally speaking, you can't execute unless you haven't roam cleared. Let's just say you've opened side wine wall instead and you're trying to plant here. The hatch that's above in dining here, if the hatch is open or there's
+
+[42:05]
+still a roamer above, the roamer is just going to be watching the plant spot there. If you'd If you'd gone back to step um one or step two, depending how you do it, but step one, and you'd killed that roamer, that roamer now isn't stopping you from getting the plant down. So, you've got to You've got to work through these through these logically or if you go step one, step two, step four, the problem solved may well cause you a
+
+[42:26]
+problem. Obviously, it's not always the same. The defenders could be playing the Rook, Caveira, Doc, um Vigil, Solis combination we talked about earlier on and there isn't really any problems for you to solve, but it's up to you to find that out during the action phase what operators they're playing. So, the execute. There's There's a couple of things that I want to talk about with the execute
+
+[42:47]
+that's important really and the main one is probably blocking lines of sight and making sure there's no one below. Making sure no one's below is easy enough done with a C4. It's with a C4. Making sure no one's below is easily enough done with a drone. Making sure no one C4s you from below. So, it's a bit different on basement cuz you're not going to get C4ed from below. You probably need to make sure no one's above you cuz there's vertical here that
+
+[43:08]
+can see down onto the default plant spot and onto the breach. Anyway, the um the other thing I want to talk about is blocking lines of sight, which is one of the most important things when it comes to the execute. So, there's a there's an uh an execute that I always do down on the basement here, which I think works every time. I made a video about it. If you search A Littleton Chalet basement attack or something like that, you'll probably find it. All you need to do to get a plant down
+
+[43:29]
+in the Chalet basement is to have control of main stairs. You need to have opened this breach and you need smoke grenades and that's it. Once you've got those things, you also the second thing is sorry, the third thing you need to make sure, which is almost always the case, is that this wall here is reinforced, which and then what defenders do is they'll reinforce
+
+[43:49]
+that wall and make a rotate there. All you then need to do is use your smokes as Capitao, Thermite, whoever you want to use who's got smokes. Smoke off here, the connector door, and smoke off here, the blue door. That means then you can run in, plant on the rein I haven't done a very good arrow there. Plant That's the same arrow. Let's try again. Oh my word. What's wrong with me? There
+
+[44:11]
+we go. Plant in this corner on the reinforced wall here. No one's going to push through blue because they can't see. No one's going to push through connector because they can't see and no one knows that you've run across there because they can't see. Someone's on main stairs so they can be holding the rotate. So, you put your tucked in real tight. Ideally, you'll have someone else on the
+
+[44:31]
+breach who can hold blue or can hold connector as well. But what I want to talk about the execute is blocking lines of sight is don't use your smoke grenades to sit in a cloud of smoke and plant. Use your smoke grenades to block the enemy's line of sight. So, you could smoke this area and run in and plant there and you might get away with that perhaps. But the
+
+[44:53]
+enemy basically a smoke grenade, if it's not blocking a line of sight, tells the enemy that I'm planting in that smoke grenade. They can hear the plant going down, they can see the smoke, a C4 comes out in the smoke and it's game over. So, make sure you use your smokes to block lines of sight rather than to cover you planting if you can, obviously. I know and again, every plant's kind of different. So, if I just grab on my
+
+[45:15]
+other monitor here, if I take uh top floor Chalet and put that over here. When it comes to this is top floor as we just said. Let me go back to the brush. So, this is the breach here on mez. Let me change color cuz you can't really see that or that really. Uh let's go blue, it's better. So, this is the top floor on mez and you plant behind the half wall. When it would come to smoking
+
+[45:37]
+here, you would smoke the side rotate and you would smoke the side and that would mean that no one can see you through the door, no one can push through the rotate. You wouldn't smoke this area and sit in the smoke as you plant it. I don't need to go on about that too much, but you get the point. So, the execute is getting the plant down. You've got to make sure the lines of sight that could stop you from planting are either blocked blocked by smoke or are held by
+
+[45:59]
+teammates who can stop someone coming through a door. Um and yeah, make sure you use your smokes to block lines of sight. Once the execute's down, you get onto a post plant. Now, I can't really give you a post plant chat, discussion, whatever you want to call this because post plants are arguably the most
+
+[46:21]
+variable um part of Siege where once the plant goes down, it's chaos, man, and people are trying to get to different angles and whatnot and there's no sort of regimented way of doing it. Generally, the best thing to do is just get out the line of sight of the diffuser and make sure you can get back to the diffuser pretty quick when you need to. So, for example, if you're in the breach here, if you If you planted there, you can come back outside the
+
+[46:42]
+breach and you could stand here and just not be in the line of sight from anyone from uh looking at you from the side or even get out the window and just hold here and know that once the diffuse starts happening, you can jump in the window, look to the right, and stop the diffuse. Or if you're holding here, you can just hold the angle so no one can come out the breach. Soon as you hear them diffusing, in you go to stop the diffuse. Just bear in mind, obviously,
+
+[47:03]
+the fake diffuse is a thing. Don't get baited into the fake diffuse. You've got to and it's an experience thing really. You've got to know the distance between you and the diffuser and understand the the sound cues you'll get from the diffuser, you know, like the buzzes and the and then your teammates invariably go, "He's sticking it. He's sticking it." And you run in to stop him diffusing. It
+
+[47:23]
+turns out he isn't sticking it. He's now holding the angle and you just lost your uh lost your head. But anyway, post plant is is tough because it it's it's chaos mainly um and it's not the easiest thing to talk about, but don't hold an angle. Wait until you hear him diffuse and then stop him diffusing if you can. That's the attack, man. It's that simple. So, we're still on land and I'm
+
+[47:44]
+going to try and show the execute part, hopefully, depending on how it goes of the uh attack. So, we'll have a quick look at the problems we need to solve on the breach. We'll see if they put any denial on the breach. And we also need to solve the problem of roamers on that side of the map. We're already down to a 3 v uh 4 v 3. So,
+
+[48:04]
+they've got a Tachanka, we can see that. Just going to have a look if they've put any denial on the breach here. Need to watch these windows. Which I always think someone's punched the bottom of the window out, but it's just the reflection, I think. I always think that. So, there's no denial on those windows, which is good news. Now, there's a default camera over here, which I haven't shot.
+
+[48:24]
+Um what I'll do is I will shoot out the top of this just the top of this one. So, they won't be able to see over if they peek it, but I can get a drone in there. Don't shoot out the bottom cuz that's going to give them a line of sight. So, uh we know one's down there. Jager's kicking that wall, so I can open this. Jackal's pinching him that way. I see
+
+[48:47]
+you hiding. I can jump in here. Just drone it quickly. Wait. Where did Jager go? Jager coming up green stairs, Jackal. All right, Jackal's at the end of that corridor now, so I'm clear to open that.
+
+[49:10]
+Let's see what hides in the dark. Jackal's there, so Jager can't be there. He's gone underneath. So, now the execute would be oh to solve these problems. I can stop him coming in there. I've smoked myself off. If he goes round to mez area, he might shoot me through the wall, but um he can't come through with the Gu yo and now we're in the maniac part of a post
+
+[49:32]
+plant, which we didn't need to worry about. Four eliminated. a great example cuz we're in a 3-v-1, but you know what I'm trying to say. Kind of worked to an extent, but we'll do it again next round. I'm going to have another attack round on layer. So, what site are we attacking this time? Uh we're attacking armory weapon maintenance. Okay, so what we'll do
+
+[49:53]
+is we'll take the top floor. We'll play Buck with hard breach charges and we want to diffuse it. Yes. So, doing the whole thing again, right? We're going to pre-place a drone in operation. We've picked the operator based on the plan that we've got. Um we know the site and we're going to do a a a down a top-down attack. We only
+
+[50:15]
+need one room. We just need operational. Or operations, sorry, this room that we're right outside here. Operational is operational. And we're just going to pre-place a drone in here. What we need to do is open this hatch uh and drop into the site below. Now, there's a bit of vertical that we're going to have to do over here in this corner to stop a room that's underneath. Bit of vertical over in this corner. The
+
+[50:37]
+most challenging part of this round is going to be stopping is going to be stopping someone coming up these stairs here. Um that'll be the the most difficult part. But, we'll just pre-place the drone. Tuck it in behind here for now. We'll get over there and we'll see what the score is. By the way, just a random tip about layer is if you've got a DMR, this angle here, you can see
+
+[50:57]
+all the way through to the double door at the far end. Like, you can see ankles. You can see if someone's ankles are on that door there. If you've got a DMR, it's um couple of shots you can down someone. Depending on what armor they've got. All right. Deimos has gone straight in. I'm not that brave. I'm going to drone it. He's going straight down. Hatch is not reinforced. We'll leave the drone here to watch our flank.
+
+[51:19]
+And we'll start the vertical. We know Deimos is there. So, we don't need to worry about that. Deimos has got a kill. We'll open this hatch. Anyone on site there? We can then start the verting the site. They've reinforced that wall, which probably benefits us actually. Uh no one there.
+
+[51:42]
+They've reinforced that one as well. So, they've double reinforced two walls there. Which is interesting. There's a Jackal. He's been tracked over there. I'll just throw this inside quickly. There's no problem to solve in the middle of site other than that bulletproof cam.
+
+[52:03]
+I can plant in the corner here. There's somebody on my left about to swing through the door, We've got a Finka looking that way. We're in a post EP. One's close here on my right.
+
+[52:25]
+Hello. So, I mean that one again it's it's quick play, isn't it? So, you're never going to have a lot of the problem-solving troubles that you've had from a uh from a ranked game. You know, we didn't really drone out the site properly and we're just trying to show you by being a little bit quicker there
+
+[52:45]
+on the execute side of things, but we had control. We knew there was um there was no one in that side of the site. We used the the teammates' positions to know that because the Finka was in the armor uh sorry, the gun range area of the map, I knew no one was there, so I didn't have to bother droning that out. Um and we got the plant down. So, again,
+
+[53:05]
+it's it's a simplified version of it being quick play, but the same sort of theory exists. So, I'm now going to go through or try to go through a an attack that happened last night whilst I was streaming twitch.tv/alittleton. Get it followed. I'm going to talk over This is YouTube me, by the way. That's Twitch me, obviously, when I was streaming. So, I'm going to try and talk over what was happening and tell you how
+
+[53:27]
+I was doing things following the same process. Now, the idea here is, like we talked about before, find the bomb site. We knew it was kitchen. Um make a plan. I'm going to go from above. Pick an operator. We're going to use Buck to do that. And pre-place a drone. So, I've got a drone pre-placed in train over here. So, I'm just going to let it play out and I'll show you how to follow those steps. But, as I've got written
+
+[53:47]
+down on the right-hand side here, find I'm going to go over it again. Find the bomb site. Make a plan. Pick your operators. Pre-place your drones. Decide on the plan whether you're going to go from above, whether you're going to go across, whether you're going to go direct. Drone and take control of areas. And that's where we'll leave it and we'll catch up now. So, you can hear Stahli, who's our teammate there, calling out that the guy that was in fireplaces now in reading.
+
+[54:08]
+So, we're 45 seconds into the round. We've got drones around the map. We know that there's one person on the middle floor who's went who was in fireplaces now in reading. That's why they point ATS. I never thought about that. Let's open that window. Get on the drone. So, the point we're at now is droning to
+
+[54:29]
+take control of areas of the map that we need. So, again, Stahli just called out reading. You can see Stahli is outside the um hell. This is heaven and this is hell underneath outside the hell door. He's called he's in reading. I'll put my drone 90. Great place for a drone cuz you can see up and down the corridor, of course.
+
+[54:49]
+And we can see the guy there in reading. He's in the Wait. He's gone. Either he's gone So, I know now at this point, drone and take control. I know I can take control of mining and train now. We can see that Stahli's moving into the map as well. Check below for the vertical. I'm now going to fireplace to cut off if
+
+[55:10]
+he comes back to reading. And I was just about to make a hole in white stairs to stop him coming up or down, and Stahli just gets the kill, which is great news, obviously. So, I don't need to do that anymore. I decided not to then make the hole in white stairs because if anyone else came up white stairs, they'd have an angle through the fireplace on me there. So, now we've
+
+[55:32]
+droned. We've taken control. We've now got the top floor. This is wonderful news. We're in a 5-v-4. We've killed the Doc um the roaming Doc. Don't know about a roaming Doc. But, we've now got what we needed to carry on with the attack. So, I'm now going to start making some vertical for the freezer window Sorry, for the prep window. I got shot through
+
+[55:53]
+my own vertical holes there, but note that later. Then make the holes for freezer. Then we make the holes for Just check red quickly cuz I haven't actually got a flank watch in terms of a Nomad here. Make this angle that we talked about on a video a while back. We saw the recruit, I think that was. Or Mute, maybe? Mute?
+
+[56:14]
+Open another angle for coffee. Watch a bit of red. Make sure coffee's clear. So, the point of this here, by the way, is to clear this area and then we can plant behind the bomb when we open the freezer wall. Now, what I haven't mentioned in this yet is adapt improvise adapt overcome. Although, I I maybe I mentioned that. I can't I've recorded this video in so many different clips. I don't know what
+
+[56:35]
+the order. You Basically, what I'm saying is you don't know what's going to happen in a round and you've got to adapt. And one of the things that I made a mistake with here is I brought flashbangs. And when I'm doing this role as Buck, I should definitely bring hard breach charges because we're relying on Ace to open the hatch and white stairs wall. Uh and you'll see what happens.
+
+[56:59]
+So, we hard breach charges. We've got our Ace Oh, I just missed it there. We've got our Ace outside white stairs door. I'll just check that hole I got shot through before. Oh, yeah, we can do that. Probably should have shot the mute jammer. Hello, am I? That's the freak there. So, we're now at a That's the freak, by the way. This guy
+
+[57:19]
+was insane. He was on he had like 11 kills after four rounds. I'm not shooting the mute jammer. I don't know why I didn't do that. So, we just lost the Brava. Ace has opened the white stairs wall. But, we still haven't got the hatch open.
+
+[57:40]
+Which is an issue cuz I'm going to need to drop the hatch. So, now we just lost the Ace. And I haven't got the hatch open. And I've only got Lion and Gridlock with me left alive. And no one's got hard breach charges. The hatch is still reinforced. So, now I'm trapped in train and mining. And that's that's where it comes to adapting. That was a mistake for me. We're in a 3-v-1 though. We probably
+
+[58:00]
+should see it out. So, I now come to coffee to make sure that Stahli who's going to be walking through the front the double door of kitchen. This is the likely place he's going to be holding. If not, he's going to be over in freezer. I can't see him in coffee. The call comes that he's in freezer. So, I go over to the vertical for freezer.
+
+[58:20]
+It's 13 seconds left, by the way. And we find him in freezer. So, that there is a not a bad example of how breaking an attack down plays into that there. So, we've had a key Repeating myself, but drill it into the mind, I promise you. Find the bomb site. Make a plan. Pick your operators. Pre-place a
+
+[58:41]
+drone. Now, one of the mistakes that I made here is I left that drone on 90 over here. But, my pre-placed drone is still behind me on top of the train that's in this room. I left it I should have taken that drone out. It's no use There's no use having a drone in the same room that you are. I should have taken that drone away from there and put it as a flank on either brown stairs or red stairs. So, another mistake there.
+
+[59:02]
+But, that's why we I like doing this type of thing is I you'll learn from it, obviously. So, we droned. We found the roamer. Um Stahli got the kill from reading. Great kill as well. Uh we then had the control that we needed across mining, train, and fireplace. We opened up the vert. We pushed um different kills, obviously. I don't know what was going on downstairs at the time. But, then the call came that someone was coffee. The call came
+
+[59:23]
+someone was freezer. And we had to adapt slightly because we didn't have the Ace. And it nearly cost us. 13 seconds left. The two guys that probably should have been at white stairs uh freezer breach were at the double door. I was above with no way of getting below. 13 seconds left. If I don't kill that guy in freezer there, I'm going to have to go down white stairs or down red stairs or browns to try and get down there. It's
+
+[59:45]
+never going I'm never going to get down there in 13 seconds. So, it is good to do this type of thing and obviously if you don't stream, you don't have to use a stream. You can use the match replay function as well. But, following those steps man, that was a solid attack. There was a few mistakes, a few things we had to adapt with but it worked. So, we're going to do the same thing again. We're going to break down an attack from exactly the same stream last night. This
+
+[60:06]
+is No, I've done it again. That's Twitch me. I'm YouTube me. Hello. Um we're now attacking bank one of my favorite attacks to do on the lobby side of things. And if you want to see how to break down this attack, I've actually done a video purely about this attack. If you search A Littleton attack bank, then it will come up I imagine. So, let's break this down. So, starting again, I'm really sorry for boring you
+
+[60:28]
+but I'm drilling it in, right? Find bomb site, make a plan, decide your operators, pre-place a drone. So, we knew the bomb site was top floor. We made the plan that we were going to go from the lobby across, pick the operator zero cuz he's insane on bank. Again, I'll I go through why in that attack video if you want to watch it. Um and I pre-placed the drone. You can see the drone's pre-placed here in uh in lobby.
+
+[60:49]
+Where is the site? I don't know. Ciao. Okay, noted. I'll remember that. So, I'm just watching lobby now for a sec. We've just seen the guy who's gone down towards ATMs. So, from here as zero, you can shoot the default cam outside. You can see I don't know if you can how well you can see but you can see the default cam there in lobby. Um and you can shoot the square cam. But anyway, we're not here to talk about zero. We're here to talk about the attack. So, let's just follow it through
+
+[61:10]
+for a little while. The zero cam goes in lobby. And we know I saw um what you haven't seen here by the way is Valk pre-placed a um cam in the um in the lobby. So, I'm just getting that cam now. Ah cuz of me dead but there's you know the dead zone glitch at the minute. I couldn't hover over the camera. Took me
+
+[61:31]
+ages. All right, I need to shoot. Got it. Wait. So, away we go. So, we've got a cam in lobby and we've got a pre-placed drone in lobby as well. So, we're going to get the square cam here. That's the other default cam you can get. Just a little tip there by the way. Um
+
+[61:52]
+when it comes to putting claymores on these walls, um when I did it wrong here actually, when the defender jumps out of those windows, the defender lands like a yard or two. They jump They don't just drop out the window. They vault out the window. So, if you put the claymores where I'm putting them here, they might not necessarily go off. You want to be putting the claymores like here because then when they vault out
+
+[62:14]
+and land, the claymore will definitely hit them. Like this is this is a bit too close to the wall to be honest. So, I now I'm putting flank cams down for square. I'm going to go to the roof and put one on the um I think one square one square. I heard my zero cam get shot there so we knew
+
+[62:34]
+one was square. I'm going to put one on the main stairs. So, now as you can see me teammates are taking areas of the map. Now, I am on the drone here so you can't necessarily see that but um so if we just pause it here, you can Oh, it's not a great image but you can see that Come on, don't be blurry. You can see that the Monty we've already got because we
+
+[62:56]
+have the drones and the information in lobby, the Monty is now all the way up um banana staircase or some people call it spiral but up the top of banana staircase, um we've got the ace on rappel on canto rappel over here opening the canto wall so they can't be in the uh elevator corridor. The only place they could be is E3 really but we know that's clear. So, I'm I'm actually here admittedly.
+
+[63:17]
+I'm a little bit behind the team. I I'm sort of doing this here like to try and clear that area to make sure there's no defenders in there. I already know there's no defenders in there cuz Monty's in that room. So, I need to move off this position. Oh, I need to go on different windows here as well. I need to go on different windows here as well I just said so. Noting that we had gridlock on the site
+
+[63:39]
+windows, I thought well there's no point having two of us on the site windows so I decided to do the classic rappel the skylight. And by the way, with the rappel changes, this is 100% feasible now. This is what we do. This is what we do, baby. So, excuse my French. Sorry. And then I saw another one just in the corner there. Got it. Yeah yeah yeah yeah yeah Come on, Andy,
+
+[63:59]
+get the door. Out house middle floor elevators. E2 is what people call it but in the panic I didn't know what to say. Yeah, you do know. Come on, it's E2. You're better than that. It's so weird watching it back now. So, anyway, you can see where this is going. We're in a 4v2 but we've done well as the in terms of attacking. We had a plan. We picked the right operators. We droned and we took control
+
+[64:21]
+of areas of the map. And because we're in these power spots, as you can see having a Monty pushing up banana stairs is helpful. Having the ace um that was over on canto wall was really helpful. And also having Capitao following Monty up the stairs is incredibly helpful. We know the last one's on main stairs and one's in janitor so we're rappelling. We know it's clear to rappel in.
+
+[64:42]
+I should have killed him there to be honest. I missed that. Uh I actually um I got a bit lost there. It was a 4v1. I knew the last guy was in janitor. What I wanted to do was to get outside here. I wanted to jump through these head holes and then cut him off if he came out the janitor door that way but um you can see me thought process but I don't actually do anything here.
+
+[65:03]
+Like in me head there, I'm like wait, how do I get out that wall? I I can't think how to get out that wall. And then I think what I'll do is I'll just shoot this bit of wall out and I should be able to vault through this. But by that point it was too late. So, once again, just to reiterate and I know I'm boring but again, we're drilling it in, right? We had a plan and that's a really helpful when it comes to
+
+[65:24]
+attacking. We had the right operators to carry out that plan. We took control of areas when we knew they were free. I didn't but the teammates did cuz we had cameras and information in those areas. Honestly, do that and you won't go wrong when you're attacking. So, there we have it. I understand this video has been a bit more talking at you and it's been a bit more of like a theory lesson than showing cool gameplay like Spoit or
+
+[65:47]
+um so on with show that Rasco where it's like watch me hit 55 head shots in 3 seconds. This is more just like me talking about the theory of Siege which is one of the reasons I love the game. Um so, to reiterate, there's two ways that there's two sort of bits you need to do to an attack. Within those two bits, there's four points. So, prep phase four points. Find
+
+[66:10]
+the bomb site, choose a plan, pick the operators to suit that plan, and pre-place your drone. Once the action phase starts, roam clear, take control, problem solve, and execute. If you do The four The prep phase is dead easy. You can't The more you The more you practice, you'll The prep phase
+
+[66:31]
+bit you'll nail. The action phase bit takes a bit more practice, a bit more learning, a bit more game sense, knowledge, strategy, technique, etc. etc. But if you use those four points in each in each section, those eight points, if you base your attacks around those eight points, I promise you you'll get better and you'll win more attacks. So, that's that. Look, thanks for Thank I hope it helps. I hope That's what I do
+
+[66:52]
+anyway or what I try and do. You know, some rounds it's you get a bit you know, you're 3-0 down and the other team are smashing you and you're like is it worth doing this? It's always worth doing it in my opinion but anyway, that's what I do. Hopefully that can help. Hopefully I've not bored you to death chew your ear off etc. etc. But thank you for watching the video. If you've got to the end of this, it's a monumental effort. And uh if you don't
+
+[67:13]
+know what to put in the comments cuz it always helps the algorithm if you drop a comment, get coffee cup in there. Um but yeah, cheers for watching, liking, subscribing, commenting, coffee cup, all the other good stuff that we talk about. There's more ways to support in the description below. Um there's Patreon which I need to start doing more on. I've got people who've signed up to the Patreon and you don't really get much for it other than just knowing
+
+[67:33]
+you're supporting me. That's not really what you know, you want something for it generally. I need to start working on that but I don't do this full time so working full time and then doing this on the side, I don't if the timing's a difficult. Um and there's PayPal links and other socials below if you want to get involved in Discord or Twitter or whatever you might want to get involved in but mainly I
+
+[67:54]
+you know, I'm grateful for all the people that go above and beyond and there's you know, there's there's a good few of you that do get involved and I'm really grateful for that. But I'm just grateful for watching the video. And trying to play Siege the way I like to play Siege and hopefully that's come across and hopefully you get involved with that as well. But anyway, enough of that soppy. Thanks for watching. I'll see you next time. Cheers.

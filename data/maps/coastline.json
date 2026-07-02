@@ -1,0 +1,16 @@
+{
+  "map": "Coastline",
+  "verified": true,
+  "verificationNote": "Sourced from r6coaching.com Coastline guide, fetched 2026-07-02 (Liquipedia page lacked room-level detail). Site names 'Theater' vs 'Hall of Fame/Penthouse' may differ slightly by source naming convention; treat as best-effort until cross-checked against official wiki.r6s.io.",
+  "floors": ["1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "hookah-billiards", "name": "Hookah Lounge / Billiards Room", "floor": "2nd Floor"},
+    {"id": "theater-penthouse", "name": "Theater / Penthouse", "floor": "2nd Floor"},
+    {"id": "kitchen-serviceentrance", "name": "Kitchen / Service Entrance", "floor": "1st Floor"},
+    {"id": "bluebar-sunrise", "name": "Blue Bar / Sunrise Bar", "floor": "1st Floor"}
+  ],
+  "callouts": {
+    "1st Floor": ["Kitchen", "Service Entrance", "Pool", "Sunrise (Bar)", "Blue Bar", "Cool Vibes", "Main Lobby", "South Stairs"],
+    "2nd Floor": ["Hookah Lounge", "Billiards Room", "VIP", "Aqua", "Cool Vibes", "Main Stairs", "Balcony", "Hall of Fame", "Penthouse", "North Stairs"]
+  }
+}

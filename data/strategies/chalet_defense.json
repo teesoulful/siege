@@ -1,0 +1,186 @@
+{
+  "map": "Chalet",
+  "side": "Defense",
+  "source": {
+    "title": "Chalet Defensive Setups (All 4 Sites) - Rainbow Six Siege",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Chalet_Defense_fkBuc1IDudk.txt",
+    "notes": "Auto-generated captions with noticeable ASR errors, especially on operator names and jargon ('Ka barrier', 'wai with discs', 'elbow on Oregon', 'sentry', 'Weber'). Creator's own generic ranked setup opinions, not pro-league. Video groups the map into 4 walkthrough sections in this order: 'top floor' (Salarium/Master Bedroom side), 'basement' (Trench/snowmobile garage/main breach/blue stairs), 'kitchen dining' (front lobby/kitchen), and 'bar gaming' (stock/bar/library/games). These are the video's own informal groupings, not necessarily official 2-site bombsite pair names — reconcile against data/maps/chalet.json if/when wiki callouts are confirmed. Any old inline placeholder Chalet data previously in the app's JS was ignored entirely; this file is sourced only from the transcript."
+  },
+  "sites": [
+    {
+      "id": "salarium-master",
+      "workingName": "Salarium / Master Bedroom",
+      "floor": "Top Floor",
+      "callouts": ["Salarium", "Salarium Windows", "Bathroom", "Bathroom Window", "Bathroom Door", "Master Bedroom", "K9 Door", "Closet", "Big Window", "Piano Window", "Trophy Window", "Bottom Solar Stairs", "West Main Stairs", "Front Door"],
+      "reinforcements": [
+        {"location": "Salarium back wall, right side only (not left)", "note": "Only reinforce the right side of this wall. If both sides were soft/reinforced the wrong way you'd be trapped against it with no escape when attackers hold Salarium windows. Reinforcing the right side lets you peek both sides of the wall from a safe backstop and retreat if needed.", "timestamp": "00:42"},
+        {"location": "Main breach, both sides", "note": "Standard reinforcement of the main breach wall on both sides.", "timestamp": "03:08"},
+        {"location": "One of the two mess/mez-facing walls near the breach (creator prefers this one)", "note": "Never reinforce both of these two walls — pick one with your stack. Reinforcing this one (rather than the other) lets you make head holes instead of feet holes, covering into library, ivy window, and blue stairs. Temporary value only since it becomes unplayable once the breach opens.", "timestamp": "03:29"},
+        {"location": "Library box, single wall", "note": "Reinforce so you can hold the double window from library box.", "timestamp": "05:36"},
+        {"location": "Library box, second side wall", "note": "Also reinforce this side; pair with a head hole into mez window.", "timestamp": "05:36"},
+        {"location": "One, two, or three of the closet walls (pick one, not all)", "note": "Don't reinforce all of the closet walls or attackers can jump into bathroom for free with no risk. Leave them worried about it by only doing one or two.", "timestamp": "09:04"}
+      ],
+      "headHoles": [
+        {"location": "Wall facing bathroom window (in place of reinforcing it)", "note": "Instead of reinforcing this wall, make holes here so you can fight bathroom window from two spots in Salarium. Made smaller than shown on camera in practice.", "timestamp": "01:45"},
+        {"location": "Head hole in line with the K9 door rotate", "note": "Lets you hold K9 door all the way back from Salarium instead of only from closet.", "timestamp": "02:06"},
+        {"location": "Mess/mez-facing wall (paired with the reinforcement choice above)", "note": "Covers behind half wall for stopping the plant; be careful of piano window when using it.", "timestamp": "04:10"},
+        {"location": "Trophy window angle from bottom solar stairs area", "note": "Hold old trophy window and also see bottom solar stairs from this spot.", "timestamp": "09:46"},
+        {"location": "Angle in front of bathroom door toward bottom west main stairs", "note": "Stand in front of the bathroom window/door and aim slightly off-center and back to see bottom west main stairs — good for catching a fast rush up those stairs. Not obvious to attackers coming up the stairs.", "timestamp": "10:07"},
+        {"location": "Angle to see under the front door", "note": "Covers attackers (often Ash) peeking the front door to shoot bandit batteries off a nearby wall.", "timestamp": "10:28"}
+      ],
+      "rotates": [
+        {"location": "Rotate out of closet", "note": "Lets you get to an angle to fight big window without having to fully cross big window in the open; without it, a repel on big window can cut off the whole master bedroom area.", "timestamp": "02:27"},
+        {"location": "Rotate near K9 door (left side preferred over right)", "note": "Placing it on the left (rather than the right, which some players do) means you aren't seen by K9 door as you come through — fully blocks the angle. Also a passable anchor spot, though vulnerable from piano window.", "timestamp": "02:48"}
+      ],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Wall on the other side of the mess-facing breach wall", "operator": "Smoke", "note": "Prox mine here catches anyone walking through the breach; playing this active smoke setup pairs with holding the breach, balcony, and head holes simultaneously if you've got 3 gas grenades and enough time left.", "timestamp": "04:32"},
+        {"location": "Front door wall denial", "note": "Recommends bringing wall denial (barbed wire) at this breach generally — forces attackers to bring EMP/an extra tool, which they sometimes forget.", "timestamp": "05:03"},
+        {"location": "Mez/library box area", "operator": "Wamai", "note": "'Wai' with discs placed around the library box door area, paired with the KA-style barrier placements — ASR made the barrier-placing operator's name unclear (transcript says 'Ka barrier' repeatedly); treat the barrier-operator identity as unconfirmed and verify in-game.", "timestamp": "08:02"},
+        {"location": "Closet area, one to three walls", "operator": "Maestro or Echo (camera-style anchor) or Mute (hard anchor)", "note": "Good hard-anchor pocket; can open a hole to hold piano window and K9 from here.", "timestamp": "09:04"},
+        {"location": "Middle of top floor (roaming listen spot)", "operator": "Valkyrie or Lesion", "note": "If roaming, stand centrally and listen for a sledge/ash opening straight up the stairs on either the trench-side or the door on the opposite side — listen left/right ear to know which.", "timestamp": "11:53"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Maestro", "role": "Anchor (bathroom/trophy window angle)", "note": "Creator personally plays this trophy-window/bottom-solar-stairs angle on Maestro."},
+        {"operator": "Valkyrie or Lesion", "role": "Roamer", "note": "Roam down to the central listening spot to catch an early rush up the stairs on either side."},
+        {"operator": "Maestro, Echo, or Mute", "role": "Closet anchor", "note": "Hard-anchor pocket around closet holding piano window and K9 door."},
+        {"operator": "Wamai", "role": "Library box / mez support", "note": "ASR-derived; note the transcript's phonetic 'wai' — treat as Wamai based on the described disc gadget, but verify."}
+      ],
+      "generalTips": [
+        {"note": "Don't reinforce every window-facing wall around Salarium — leaving at least one soft/head-holed lets you shoot back if attackers control the windows, rather than letting them repel in completely free.", "timestamp": "09:24"},
+        {"note": "Play a layered defense: start a couple of players further back (e.g. mez/library) purely to burn attacker drones and waste time, then fall back through successive rooms toward site rather than taking early gunfights and going down a player.", "timestamp": "06:38"},
+        {"note": "If you hear attackers opening the window near your delaying position, leave immediately or you'll get trapped/disconnected from rotating back.", "timestamp": "07:21"},
+        {"note": "Library/mez area is a strong, busy place to spend the first ~30 seconds gathering drone info before falling back.", "timestamp": "05:55"},
+        {"note": "The corner near the front door has a very tight pixel angle on the door frame — a real but extremely narrow sightline, worth knowing both to use and to watch for.", "timestamp": "08:23"},
+        {"note": "Default plant spots below: behind half wall (reachable via the same holes used to peek the front door) and at K9 door — know these for C4'ing the plant from below.", "timestamp": "11:10"}
+      ]
+    },
+    {
+      "id": "trench-basement",
+      "workingName": "Trench / Basement (Main Breach)",
+      "floor": "Basement",
+      "callouts": ["Trench", "Car Garage", "Snowmobile Garage", "Washing Machine", "Trophy", "Dining Room", "West Main", "Main Stairs", "Blue Stairs", "Wine", "Bin (default plant)", "Barrel"],
+      "reinforcements": [
+        {"location": "Trench long wall (facing car garage)", "note": "Some pro/high-rank players run feet holes here instead, but for most ranked players the creator recommends just reinforcing this wall rather than feet-holing it.", "timestamp": "12:34"},
+        {"location": "Second trench-area wall", "note": "Reinforce alongside the long wall — the creator leaves the right-hand wall soft instead, see below.", "timestamp": "13:16"},
+        {"location": "Main breach wall — creator recommends NOT reinforcing", "note": "Unlike most setups, the creator argues against reinforcing this classic wall: keeping it soft lets you peek the breach from further back, throw a smoke toward the default plant bin, and forces attackers to earn main-stairs control before they can plant safely. If your team isn't confident holding head holes here, reinforce it instead (recommended for solo queue).", "timestamp": "17:29"},
+        {"location": "Blue-stairs-side wall denial", "note": "Bring wall denial (barbed wire) across the site — 3 walls' worth recommended: this one, one more, and the snowmobile-side wall.", "timestamp": "14:39"}
+      ],
+      "headHoles": [
+        {"location": "Feet holes along trench long wall (alternative to reinforcing)", "note": "Optional alternative — lets you catch people walking through trench past washing machine, but creator considers it not worth it for non-pro play.", "timestamp": "12:55"},
+        {"location": "Head hole into anyone going down main stairs", "note": "Pairs with reinforcing the left wall near the hatch room; lets you watch trophy, main stairs, and back to main.", "timestamp": "15:01"},
+        {"location": "Angle(s) to peek the main breach", "note": "If left soft (creator's preference), you can peek the breach from multiple positions including from back in site, from blue, and via the extra hole for throwing a smoke toward the plant bin.", "timestamp": "17:49"}
+      ],
+      "rotates": [
+        {"location": "Rotate choice A: peeks main stairs from deep in site", "note": "Lets you peek main stairs easily from way back, and gives a tight pixel angle onto blue stairs, but attackers can also peek you from back in site through it.", "timestamp": "19:33"},
+        {"location": "Rotate choice B: less exposed, better once at side wine", "note": "Can't see much through it directly, but gives you more effect on the side/wine area as a defender once you're there. No single right answer between the two rotate spots — pick based on team preference.", "timestamp": "19:54"},
+        {"location": "Small rotate near games/bar (if no one is pushing there)", "note": "Lets you hold and then drop/swing the breach as soon as the plant starts — risky if attackers do push games, since it lets them hold into site instead.", "timestamp": "21:58"}
+      ],
+      "hatches": [
+        {"location": "Hatch near dining room, left of trench area", "note": "Left OPEN rather than reinforced. Giving up the drop only grants a weak, pixel-angle prone sightline on a back pillar — not worth denying. Keeping it open lets a defender play dining/trophy/kitchen/west main from above and hold the site's main entrance area (behind/next to the barrel) from a strong overhead angle. Reinforcing it is acceptable if unsure, but then the only real holding spot is a tough angle where attackers can pre-aim and wait, or cap/flame it out.", "timestamp": "14:39"},
+        {"location": "Hatch near the main breach rotate area", "note": "Also left soft/open per the same logic as the rotate discussion (mentioned in passing).", "timestamp": "20:36"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Blue stairs (bottom)", "note": "Always put sound/early-warning here — banshee or prox mine recommended. A prox mine gives an exact alert point at the bottom of the stairs; placing one higher up gives earlier warning but attackers can shoot it out and then descend silently. Can run both, at the cost of extra utility.", "timestamp": "22:41"},
+        {"location": "Elevated spot above the hatch drop area", "note": "You can climb/stand up here so your head is above where attackers expect when they swing the door low — they'll shoot your (absent) ankles.", "timestamp": "23:44"},
+        {"location": "Default plant bin near main breach", "note": "The bins here are NOT bulletproof — you can shoot through them to hit someone planting tucked behind, but you need to be close to the far (red cabinet) side of the bin where they actually tuck in; shooting the near side does no damage.", "timestamp": "24:06"},
+        {"location": "Impact/mine spot above the breach (roaming vertical angle)", "operator": "Vigil or another impact-capable roamer", "note": "From above on the mez side, impact the floor to watch anyone walking in from the breach. Exposed to the nearby windows though. Cannot get an angle on behind-the-bin from here no matter what.", "timestamp": "21:18"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Castle", "role": "Anchor (right-side trench pocket)", "note": "Castle the exposed door off if playing the soft right-hand wall pocket near trench; pairs with a shield + C4 player and Wamai discs nearby."},
+        {"operator": "Castle", "role": "Anchor (hatch room / dining)", "note": "Castle off one of the two doors near the hatch room (not both, or attackers stop worrying about flanks); creator often plays this spot as Castle with a second player."},
+        {"operator": "Smoke or Weber", "role": "Behind-the-bomb anchor", "note": "Plays directly behind the default plant bin peeking anyone tucked in — only viable while the main breach wall stays unopened. Source audio names 'Weber' here, which is not a confirmed real operator name; treat as unconfirmed/verify against the video."}
+      ],
+      "generalTips": [
+        {"note": "This is 'the bone of contention wall' — nearly everyone reinforces the main breach wall by default, but the creator argues leaving it soft is stronger for the reasons in the reinforcements section.", "timestamp": "17:29"},
+        {"note": "On attack, Maverick can torch a line along the bottom of the main breach wall from the snowmobile side while a teammate holds the angle — this reliably kills whoever is anchoring behind the bin (mentioned as a warning to defenders relying on that spot).", "timestamp": "38:26"},
+        {"note": "Under no circumstances should someone be able to crouch-walk down blue stairs without you getting an audio alert — treat this as a must-cover angle.", "timestamp": "23:02"},
+        {"note": "Lower-elo lobbies tend to attack through this side more; higher elo increasingly recognizes it as an easier attack than the main-floor site.", "timestamp": "25:09"}
+      ]
+    },
+    {
+      "id": "kitchen-dining",
+      "workingName": "Kitchen / Dining",
+      "floor": "Ground Floor",
+      "callouts": ["Front Lobby", "Kitchen Door", "Dining", "Office", "Master (upstairs)", "Piano Window", "Solar Windows", "West Main Window", "Trophy", "West Main Stairs", "Bathroom (upstairs)"],
+      "reinforcements": [
+        {"location": "Front lobby walls", "note": "Reinforce the front lobby walls plus the next wall along.", "timestamp": "25:30"},
+        {"location": "Wall facing the outside window near site", "note": "Reinforce — otherwise attackers on that window get a free shot cutting off kitchen and the A bomb area entirely.", "timestamp": "26:32"},
+        {"location": "Wall near where head holes stop jump-ins to trophy", "note": "Reinforce so attackers jumping into trophy only see a solid wall while a defender holds from behind the head holes.", "timestamp": "26:53"},
+        {"location": "Upstairs wall used for defending solar windows (shared with top-floor setup)", "note": "Also usable to defend against pushes coming through office via the small rotate, when nobody's needed on solar windows.", "timestamp": "27:57"},
+        {"location": "Optional: wall near office/master upstairs", "note": "There's an argument for reinforcing this too, to hold a couple of blocks upstairs similarly to the top-floor defense.", "timestamp": "28:38"},
+        {"location": "Wall denial near the front door", "note": "Bring wall denial here — stops attackers from opening the front door and immediately ace-charging this wall to cut off the whole site right away.", "timestamp": "30:02"}
+      ],
+      "headHoles": [
+        {"location": "Feet holes across the wall facing kitchen door approach", "note": "Lets you see ankles of anyone walking across before they see you; can hold either passively (feet only) or more aggressively.", "timestamp": "25:50"},
+        {"location": "Small foot hole near the west main window approach", "note": "Lets you see feet of anyone jumping that window and walking across before they see you.", "timestamp": "27:16"},
+        {"location": "Hole to hold the window in front of the bath from above", "note": "Covers anyone jumping into that window from an overhead angle.", "timestamp": "27:36"},
+        {"location": "Holes above dining/plant area", "note": "One hole holds the dining door line, one holds the tucked-in plant spot, one lines up on the breach, and one sees back further into the room — all playable from above via the hatch.", "timestamp": "29:41"},
+        {"location": "Hole targeting the common plant spot at the crossed floorboards", "note": "One hole here stops the common plant spot where attackers run from the breach across to plant.", "timestamp": "28:59"},
+        {"location": "Drone holes (2) near the front-door window/corner", "note": "Warning, not a defensive asset — these are common drone holes attackers use; you can get shot through them if you sit in the corner or hold the nearby window carelessly (e.g. an Echo/Maestro camera-sitter).", "timestamp": "30:23"}
+      ],
+      "rotates": [
+        {"location": "Rotate using the half wall near kitchen door", "note": "Lets you reposition off a bad angle (e.g. if someone's on kitchen door and you don't want to peek the door frame directly) using the half wall for cover.", "timestamp": "26:11"},
+        {"location": "Second rotate toward the main breach", "note": "Similar idea but lets you get closer to the main breach before appearing to fire on it.", "timestamp": "26:11"},
+        {"location": "Alternate longer rotate loop around to the door leading to 'game'", "note": "Optional extra path that lets you hold that door from further back instead of looping the long way round.", "timestamp": "26:32"},
+        {"location": "Small rotate hole near K9 door / office (upstairs)", "note": "Made deliberately tiny so attackers droning K9 door don't spot it. Mainly valuable for late-round vertical rotates rather than early game; can add a prox mine here if worried about it being used against you.", "timestamp": "27:57"}
+      ],
+      "hatches": [
+        {"location": "Hatch above dining area", "note": "Left soft, with a defender upstairs able to open it on demand (impact, shotgun, DMR, etc.) rather than leaving it permanently open. Also usable as an escape route — drop and go straight up west main.", "timestamp": "29:41"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Upstairs — office/master area", "operator": "Lesion", "note": "Creator likes running Lesion here: shotgun to make holes for the side setup, then goo mines placed at the rotate and door to give sound-based control of the upstairs area.", "timestamp": "31:05"},
+        {"location": "Solar windows / trophy window / bathroom window holes", "note": "Same overhead holes as shown for the top-floor site, reusable here.", "timestamp": "31:05"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Lesion", "role": "Upstairs roamer/anchor", "note": "Preferred pick for the office/master upstairs pocket, using shotgun holes plus goo mines for early warning; solo up there is very difficult against 3 attackers, needs help."}
+      ],
+      "generalTips": [
+        {"note": "Creator states this might be their favourite site on the map — more splittable defense than the top-floor site, though upstairs alone is considered weak (too easy for attackers to open the window/breach and plant behind half wall).", "timestamp": "32:49"},
+        {"note": "As soon as big window (upstairs) is repelled/opened, the upstairs area is effectively cut in half — no one can cut back across to the far side, so don't get caught on the wrong side once you hear it open.", "timestamp": "31:46"},
+        {"note": "A bomb's silhouette is a good crosshair-placement guide — head height when standing next to it is just above the corner of the canister.", "timestamp": "32:27"}
+      ]
+    },
+    {
+      "id": "bar-gaming",
+      "workingName": "Bar / Gaming",
+      "floor": "Basement",
+      "callouts": ["Stock", "Bar", "Games", "Library (above)", "Ivy", "Jungle Door", "Mud", "Blue Stairs", "Mez Window", "Piano", "Office"],
+      "reinforcements": [
+        {"location": "Stock room, left side wall", "note": "Reinforce this side (not the other, which would trap you against it the same way as the Salarium wall discussed on the top-floor site).", "timestamp": "33:52"},
+        {"location": "Library, single wall (mirrors the top-floor mez/library setup)", "note": "Same reinforcement as used defending upstairs — reinforce the single wall.", "timestamp": "35:39"},
+        {"location": "Library, second wall", "note": "Also reinforce this second wall, same as the upstairs mirror setup.", "timestamp": "35:39"},
+        {"location": "Stock wall facing the snowmobile breach", "note": "Critical — if this wall isn't reinforced, the site is effectively over. On attack, Maverick can torch a line along its base with a teammate holding the angle for a near-guaranteed kill on the stock anchor, so this needs real attention.", "timestamp": "38:26"},
+        {"location": "Blue stairs wall (optional extra hole)", "note": "Can add another hole here for blue stairs like on other sites, though less critical since a player is usually stationed there anyway.", "timestamp": "37:23"}
+      ],
+      "headHoles": [
+        {"location": "Stock room, looking to the side window", "note": "Head hole to watch the side window and also see the hatch and a door from this position.", "timestamp": "33:52"},
+        {"location": "Vertical holes into library from below", "note": "Optional holes for the library above; watch out for a nearby window when using them.", "timestamp": "34:36"},
+        {"location": "Hatch angles into the door area / trophy jump-in", "note": "Covers a door and mainly exists to stop jump-ins from game's window.", "timestamp": "36:19"}
+      ],
+      "rotates": [
+        {"location": "Two rotates behind the bar", "note": "One side looks at a door, the other side is covered from the ivy/jungle door direction.", "timestamp": "34:13"}
+      ],
+      "hatches": [
+        {"location": "Library hatches (both)", "note": "Leave soft — do NOT reinforce, especially the one near the half wall, since this area is one of the main places to stop default plants from above.", "timestamp": "35:39"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Blue stairs (bottom)", "note": "Always put something here — prox mine or banshee — attackers rush snowmobile garage/trench and can reach this area within ~20 seconds unnoticed if it's unwatched. Bottom blue is forgotten far more often than top blue.", "timestamp": "34:57"},
+        {"location": "Upstairs library, classic shield spot", "operator": "Shield operator (e.g. Clash) + ADS support", "note": "Shield in the usual spot covering mez window, ivy jump-in, piano, and office if opened; needs an ADS player positioned behind for support and at least 3 defenders committed to holding library.", "timestamp": "35:17"},
+        {"location": "'Suicide' spot near games", "operator": "Doc", "note": "High-risk, high-visibility spot where you expect to get droned/naded — Doc is recommended so you can heal through incoming damage (referenced a pro-league example of tanking a Capitão fire barrage this way).", "timestamp": "36:41"},
+        {"location": "Mez/office area (mirrors top-floor A setup)", "note": "Same three Wamai-style barrier placements as used on the top-floor mez area (ASR renders this operator as 'KA barrier' again — treat as unconfirmed, see top-floor site note).", "timestamp": "37:02"},
+        {"location": "Stock wall mirror / mud rush angle", "note": "A mirror on the stock window/wall area is strong since there's no verticality to worry about there; also watch for the mud rush — attackers with an Ash charge can get a free pick on a common angle from there.", "timestamp": "38:05"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Doc", "role": "Aggressive/sacrificial games anchor", "note": "Plays the exposed 'suicide' spot near games and can heal through incoming fire damage."},
+        {"operator": "Clash or another shield operator", "role": "Library anchor", "note": "Classic shield spot covering mez window, ivy, and piano; needs ADS backup."}
+      ],
+      "generalTips": [
+        {"note": "On paper this is technically the best/easiest site to defend if you're a coordinated 5-stack, but the worst and most technical if you're not — avoid it below at least a coordinated 4-stack.", "timestamp": "33:31"},
+        {"note": "Holding library is imperative — losing it makes the rest of the site very difficult to defend; commit at least 3 players there.", "timestamp": "35:59"},
+        {"note": "Feet holes in games are contested by some players since they let an attacker on 'book' open the wall and fire in, but they also let a defender behind the bar see all the way through to kitchen.", "timestamp": "37:44"}
+      ]
+    }
+  ]
+}

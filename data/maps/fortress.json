@@ -1,0 +1,17 @@
+{
+  "map": "Fortress",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Fortress/siege), fetched 2026-07-02.",
+  "floors": ["1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "bedroom-commander", "name": "Bedroom / Commander's Office", "floor": "2nd Floor"},
+    {"id": "dormitory-briefing", "name": "Dormitory / Briefing Room", "floor": "2nd Floor"},
+    {"id": "kitchen-cafeteria", "name": "Kitchen / Cafeteria", "floor": "1st Floor"},
+    {"id": "hammam-sitting", "name": "Hammam / Sitting Room", "floor": "1st Floor"}
+  ],
+  "callouts": {
+    "1st Floor": ["Kitchen", "Cafeteria", "Hammam", "Sitting Room", "Hannam Hallway", "Old Tower Stairs", "Dining Room", "Courtyard"],
+    "2nd Floor": ["Bedroom", "Commander's Office", "Dormitory", "Briefing Room", "Bathroom", "Games Room", "Shisha Hallway", "Tower Renovation", "Courtyard Corridor"],
+    "Exterior": ["Main Gate", "Parking", "Garden", "Stable", "Old Roof", "Cannon Overlook", "Guard Tower", "Garden Path", "Central Stairs"]
+  }
+}

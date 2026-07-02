@@ -1,0 +1,134 @@
+{
+  "map": "Fortress",
+  "side": "Defense",
+  "source": {
+    "title": "Fortress Defensive Setup Guide (Commanders/Bathroom, Dorms/Games, Cafe/Waiting)",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Fortress_Defense_oK4VcBrntmI.txt",
+    "notes": "Creator explicitly states he is confident on the top-floor sites (Commanders/Bathroom and Dorms/Games) but still learning the ground-floor Cafe/Waiting site ('about 20% of what I know about the upstairs'), and calls that section a work in progress — treat the Cafe/Waiting entries as lower-confidence than the top two. The fourth site, Ham, is explicitly skipped/not covered ('ignore it... don't consider it', 'absolute poo' to defend) and has no entry in this file. Auto-generated captions with several ASR ambiguities on operator/player names — flagged inline below rather than guessed. Timestamps are the nearest transcript chapter mark (captions are only chunked in ~20s blocks, not per-sentence)."
+  },
+  "sites": [
+    {
+      "id": "commanders-bathroom",
+      "workingName": "Commanders / Bathroom",
+      "floor": "Top Floor",
+      "callouts": ["Commanders", "Bathroom", "Master Bedroom", "Bedroom", "Horse (Museum)", "Briefing", "Renovation Stairs", "Eagle/Main Stairs"],
+      "reinforcements": [
+        {"location": "Left-hand side of the Commanders wall looking out to Horse", "note": "Reinforcing only one side lets you hold both sides from here; reinforcing both this wall and its neighbour gives attackers too much free control of that area if they push through.", "timestamp": "02:47"},
+        {"location": "Left-hand side of the back Commanders wall (renovation stairs side)", "note": "Paired with a rotate on the right side of the same area (see rotates). Start the round with this side left as a rotate hole instead of reinforcing immediately, so you're not trapped behind it early; reinforce it later once you've absorbed some drones/utility.", "timestamp": "03:08"},
+        {"location": "Wall by the Eagle/Main Stairs corridor (leads to Bedroom breach and Commanders breach)", "note": "It's a soft wall attackers can Bandit-trick the batteries on from below, so it isn't a fully safe trick spot. Start the round holding this corridor/rotate to force drones and utility, then concede and reinforce behind it once pressured.", "timestamp": "05:13"},
+        {"location": "Bathroom triple wall (left and right sides)", "note": "Reinforce both the left and right sides of the triple wall; put the rotate on the bottom right of it instead.", "timestamp": "07:42"},
+        {"location": "Both Dorms-side walls (briefing-to-dorms wall)", "note": "Reinforce both of the Dorms walls on this side of the map.", "timestamp": "08:02"},
+        {"location": "Briefing wall (x2)", "note": "Two reinforcements on the Briefing wall to finish off this site's setup.", "timestamp": "13:24"}
+      ],
+      "headHoles": [
+        {"location": "Commanders wall, right side toward Horse", "note": "Paired with the left-side reinforcement; lets you defend into Horse without giving attackers full room control if they push through.", "timestamp": "12:39"},
+        {"location": "Dorms wall, left side", "note": "Paired with a rotate on the right side of the same wall (briefing-to-dorms wall).", "timestamp": "08:02"},
+        {"location": "Old Tower stairs drop zone", "note": "Made early so you can spot/kill drones coming through here or through the vending machine window, and get a cheeky angle on the exact spot attackers land after dropping from the roof.", "timestamp": "08:25"},
+        {"location": "Briefing wall, left side", "note": "Left as head holes rather than reinforced; paired with the reinforced right side of the Briefing wall.", "timestamp": "13:24"}
+      ],
+      "rotates": [
+        {"location": "Right side of the back Commanders wall (renovation stairs side)", "note": "Start the round with this as a rotate only (not reinforced) — reinforcing both this and the neighbouring wall immediately traps a defender here with no way out. Absorb drones/utility for the first 20-30 seconds, concede the space, then fall back and reinforce behind it later, same idea as an Oregon Elbow rotate-then-reinforce.", "timestamp": "03:28"},
+        {"location": "Soft wall between Commanders and Bathroom", "note": "Direct rotate between the two rooms that make up the site.", "timestamp": "07:20"},
+        {"location": "Between Master Bedroom and Bathroom", "note": "Same early-rotate-then-late-reinforce approach as the Commanders-side rotate.", "timestamp": "07:20"},
+        {"location": "Bottom right of the Bathroom triple wall", "note": "Paired with reinforcing the left and right sides of the same wall.", "timestamp": "07:42"},
+        {"location": "Dorms wall, right side", "note": "Paired with head holes on the left side of the same wall.", "timestamp": "08:02"}
+      ],
+      "hatches": [
+        {"location": "Hatch near Horse/Museum", "note": "Recommended to open (leave soft) rather than reinforce — it creates a crossing problem for attackers since they can't get a clean crosshair placement while navigating it, even though there's enough space to cross.", "timestamp": "02:27"}
+      ],
+      "gadgetPlacements": [
+        {"location": "One of the corridor lights near Horse/Museum", "note": "Good prox-alarm spot — attackers pushing down the corridor don't see it because it sits on the far side of the light, giving a solid early warning before they reach the side door.", "timestamp": "02:06"},
+        {"location": "Horse/Museum area, both sides of the door", "operator": "Unconfirmed — source audio names an operator phonetically as 'wai' here, which doesn't clearly match a real defender (possibly intended as Wamai, but treat as unconfirmed rather than guessed)", "note": "Recommends a shield operator here plus this second operator covering both sides of the door, alongside prox alarms for the door/stairs/corridor approaches.", "timestamp": "01:46"},
+        {"location": "Blue/Renovation stairs anchor spot", "note": "Solid anchor point (compared to Pro League teams holding 'blue stairs' with a Smoke on other maps) — put barbed wire or a prox alarm here for notification of anyone pushing up the stairs, then defend the corridor and both breach walls from this position.", "timestamp": "04:52"},
+        {"location": "Briefing/Dorms door area (the main and only door into this pocket)", "note": "A defender holding this single door shuts down attackers' droning plans through it entirely, and any drone taken here can be reused by the defending team.", "timestamp": "13:45"},
+        {"location": "Bathroom triple wall side windows/lockers", "note": "Bandit trick, Kaid trick, or a third possible trick source audio names phonetically as 'tuberc tricked' (doesn't match a real operator/trick name — treat as unconfirmed) can all be used on the two door-wall reinforcements here. Watch the nearby window — attackers grenade-bounce off the wall from there to knock defenders off a Bandit trick.", "timestamp": "17:12"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Unconfirmed (source audio: 'wai')", "role": "Door/anchor near Horse", "note": "Paired with a shield operator holding the Horse/Museum area; possibly Wamai given the door-holding context, but not confirmed — verify against the video directly before relying on this."},
+        {"operator": "Bandit", "role": "Trick/anchor", "note": "Protects the soft-wall batteries near the renovation stairs corridor and the Bathroom triple wall door reinforcements, though the renovation stairs battery isn't a fully safe trick since it can be shot from below."},
+        {"operator": "Kaid", "role": "Trick/anchor", "note": "Alternative to Bandit for tricking the Bathroom triple wall reinforcements ('Kaid tricked')."},
+        {"operator": "Roamer (intel-focused pick)", "role": "Roamer / layered defender", "note": "Creator references his own solo-queue gameplay (played as the creator's in-game persona, referred to as 'Mozy'/'Mozzy' in the video — this is the creator's own callsign/nickname, not an R6 operator) to demonstrate layered defending: absorb drones from Old Tower/Games, retreat layer by layer toward Briefing, then use gathered intel to push back with numbers advantage."}
+      ],
+      "generalTips": [
+        {"note": "This is the top-priority site to learn first ('go the top floor first... if you win those two first') — the creator considers Commanders/Bathroom and Dorms/Games the two strongest, most reliable sites on the map.", "timestamp": "00:42"},
+        {"note": "Defend in layers: don't sit in site from round start and give attackers free space. Start further out (renovation/eagle stairs corridor), absorb drones and force attackers to spend utility (frags, Ying candelas, Grim canisters), then concede space and fall back to reinforce behind you.", "timestamp": "04:09"},
+        {"note": "Bedroom (not a bombsite itself) connects both site doors — from here you can defend the wall into Commanders, the head holes toward Horse, and the wall into Bathroom. Considered an extremely strong bunker spot since a defender here also isn't far from the Commander wall.", "timestamp": "06:38"},
+        {"note": "A common attacker plan: open the left-hand wall into Bathroom, then plant behind the half-wall there (the 'dream plant spot') using three attackers — one covering the corridor swing angle, one holding near the open breach, and a smoke/sense operator to cover the plant. An alternative attacker plant spot is tight against the door, which cuts off the Horse-door angle.", "timestamp": "11:13"},
+        {"note": "This site has more to defend/extend through than most other maps' equivalent sites, in the creator's opinion — treat it as requiring more active layered defense than usual.", "timestamp": "10:10"},
+        {"note": "Live in-game example of this exact layered-defense approach is shown from the creator's own solo-queue footage (referenced in-video, not part of this transcript's setup walkthrough itself): absorbing drones at Old Tower, falling back layer by layer to outside Briefing, then pushing back in with a numbers/intel advantage.", "timestamp": "14:26"}
+      ]
+    },
+    {
+      "id": "dorms-games",
+      "workingName": "Dorms / Games",
+      "floor": "Top Floor",
+      "callouts": ["Dorms", "Games", "Old Tower (Stairs)", "Vending Machine/Window", "Briefing", "Walk-in", "Bathroom", "Central Stairs", "Lockers"],
+      "reinforcements": [
+        {"location": "Single wall looking toward Old Tower", "note": "Reinforce this wall.", "timestamp": "16:51"},
+        {"location": "Left side of the Games room wall, out toward the vending area/window", "note": "Reinforce this side.", "timestamp": "16:51"},
+        {"location": "Right-hand side of the Briefing wall", "note": "Mirrors the setup on the other side of the map; paired with a rotate on the left this time plus continued head holes.", "timestamp": "17:12"},
+        {"location": "Both door walls (near the games/walk-in doors)", "note": "Needs to be Bandit-tricked, Kaid-tricked, or the source audio's unconfirmed third 'trick' name if possible. Watch the nearby window — attackers can grenade-bounce off the wall from there to knock a trick operator off.", "timestamp": "17:12"},
+        {"location": "Wall next to the Dorms breach (undecided)", "note": "Creator is 'on the fence' and currently leans toward NOT reinforcing this — reinforcing right next to a breach gives attackers an easy plant spot to hide behind once it's open, leaving only the locker-swing angle to cover.", "timestamp": "18:13"}
+      ],
+      "headHoles": [
+        {"location": "Old Tower stairs drop zone", "note": "Same purpose as the Commanders-side Old Tower head hole — spot/punish drones dropping from the roof and get an angle on the exact landing spot.", "timestamp": "08:25"},
+        {"location": "Door near Games (peeking angle)", "note": "Used to peek into Games from this door while also covering Dorms.", "timestamp": "09:28"}
+      ],
+      "rotates": [
+        {"location": "Late reinforcement rotate near the dorms/games fallback layer", "note": "Attackers will hard-breach the Dorms wall (and possibly this wall) to open it up; keep this as a rotate early and only reinforce it late if you need to, soaking utility as you fall back through the map.", "timestamp": "09:50"},
+        {"location": "Rotate into Bathroom (small hole)", "note": "Small hole rather than a full rotate-then-reinforce — used to catch early drones, then fall back. Made so whoever's Bandit-tricking the door walls can also defend some Vending Machine angle and peek the single wall.", "timestamp": "17:12"}
+      ],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Vending machine area (in front of Old Tower drop)", "operator": "Melusi or Kapkan-style trap pick (unconfirmed — source audio says 'a couple of keepers or a keepa barrier... and then a ka barrier', which doesn't clearly match a real operator/gadget name; treat as unconfirmed rather than guessed)", "note": "Considered the most important area to defend on this site. Recommends a barrier-style gadget covering the Old Tower drop angle and a second covering the vending machine window jump-in, or a deployable shield played from slightly behind it if no barrier operator is available.", "timestamp": "19:16"},
+        {"location": "Doorway near the vending machine shield spot", "note": "An ADS (Jäger's Active Defense System) here is ideal early round to shoot down grenades thrown at a deployable shield covering this angle.", "timestamp": "19:58"},
+        {"location": "Behind flight cases near the bandit-trick window", "note": "Safe crouch spot to hold while Bandit-tricking — stay crouched at all times to avoid being domed through the window, and you can still peek out from here.", "timestamp": "23:29"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Bandit", "role": "Trick/anchor", "note": "Tricks the two door-wall reinforcements near Games/Walk-in; use the flight-cases crouch spot near the window for safety."},
+        {"operator": "Kaid", "role": "Trick/anchor", "note": "Alternative to Bandit for tricking the same door walls."},
+        {"operator": "Unconfirmed barrier operator (source audio: 'keepa'/'ka' barrier)", "role": "Vending/Old Tower anchor", "note": "Recommended to cover the Old Tower drop and vending machine window jump-in with barrier gadgets; verify the specific operator against the video before relying on this — does not clearly match a known Defense operator's gadget name."}
+      ],
+      "generalTips": [
+        {"note": "Defend in layers here too: start out near Old Tower/vending to get drones and pressure, fall back through the Games door layer, then finally back into the site itself to reinforce.", "timestamp": "09:06"},
+        {"note": "Don't give up the Old Tower/vending machine area too early — if conceded immediately, attackers get multiple breach angles into the site with too much free space.", "timestamp": "20:20"},
+        {"note": "Briefing is a strong central room here — it covers both site entrances (from Old Tower and from Central Stairs), and attackers occasionally push the long way around from the north side of the map through Bedroom/Bathroom into Briefing instead of the more common Old Tower route.", "timestamp": "20:20"},
+        {"note": "Considered a slightly harder site than Commanders/Bathroom because of the external breach into Dorms (the other top-floor site doesn't have an external breach), though the creator still rates it as a strong, roughly-even second site.", "timestamp": "23:08"},
+        {"note": "Likely attacker plant plan: open the Dorms wall so no defender can stand there, then push around via the window/stairs from Horse with a smoke or sense projector and plant tucked in near the flight cases (feet aren't visible from that angle, and the sense projector further blocks the read). An alternative, more exposed plant spot is further into the room toward Briefing. Pros have also been seen taking Big Tower and planting in the far corner behind an ROU/sense curtain.", "timestamp": "24:12"}
+      ]
+    },
+    {
+      "id": "cafe-waiting",
+      "workingName": "Cafe / Waiting",
+      "floor": "Ground Floor",
+      "callouts": ["Cafe", "Waiting", "Infirmary", "Laundry", "Kitchen", "Main Hallway", "Courtyard Corridor", "Briefing (hatch above)"],
+      "reinforcements": [
+        {"location": "Both Cafe walls into Infirmary", "note": "Reinforce both of the double Cafe walls facing Infirmary.", "timestamp": "27:00"},
+        {"location": "Single wall from Waiting into Infirmary", "note": "Reinforce this wall (of the three walls visible from inside Infirmary).", "timestamp": "27:00"},
+        {"location": "Single wall from Cafe out to the main hallway corridor", "note": "Reinforce this wall.", "timestamp": "27:22"},
+        {"location": "Triple wall in Kitchen (laundry/ground-floor side)", "note": "Currently reinforcing all three, but explicitly unresolved/work-in-progress — the creator flags that reinforcing might just hand attackers free control of the dining/kitchen area to work around instead, and may switch to head holes here later. Lowest-confidence call in this file.", "timestamp": "27:43"}
+      ],
+      "headHoles": [
+        {"location": "Single Waiting-room wall into Infirmary", "note": "Leave this one soft with head holes (not reinforced) so you can cover the Infirmary window and door from it.", "timestamp": "32:15"}
+      ],
+      "rotates": [
+        {"location": "Random soft wall in the middle of Cafe", "note": "Rotate here for easy movement around the site; also lets you peek toward the room leading out to Laundry.", "timestamp": "27:00"}
+      ],
+      "hatches": [
+        {"location": "Hatch in Briefing (upstairs), dropping down into Infirmary", "note": "Very solid hatch to hold and to drop through/play off — most of the ground-floor plant tends to happen down in Waiting below it, with additional verticality above Cafe as well. Creator admits he hasn't used this hatch much in his own play here.", "timestamp": "28:46"},
+        {"location": "Hatch in Laundry", "note": "Second hatch on this side of the map; part of the vertical play the creator says he needs more practice using.", "timestamp": "28:46"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Behind the Infirmary door", "operator": "Deployable shield operator (unspecified)", "note": "Suggested shield position behind the door, angled across rather than blocking the doorway directly, so you can still defend if the surrounding breaches get opened.", "timestamp": "30:08"}
+      ],
+      "operatorRecommendations": [],
+      "generalTips": [
+        {"note": "This whole ground-floor site is explicitly the creator's weakest area of map knowledge — described as roughly 20% as familiar as the upstairs sites, and the setup here is called a work in progress that may change. Treat with lower confidence than Commanders/Bathroom or Dorms/Games.", "timestamp": "26:19"},
+        {"note": "Significant verticality to track: the ceiling above Waiting is solid floor, but large sections of the ceiling above other parts of the site (visible from Briefing/Games above) are destructible floor that attackers can drop or shoot through.", "timestamp": "28:04"},
+        {"note": "Infirmary is considered the single most important room on this site and the room attackers most need to take — it gives them cover to open both the Waiting wall and the Cafe wall from a hidden position, so defenders need to give it real attention.", "timestamp": "29:26"},
+        {"note": "The fourth site on this floor, Ham, is deliberately not covered in this video and not recommended for play — the creator calls it very hard to defend and very easy to attack ('absolute poo'), reachable via a soft wall near the site.", "timestamp": "30:50"}
+      ]
+    }
+  ]
+}

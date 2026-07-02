@@ -1,0 +1,50 @@
+{
+  "map": "Coastline",
+  "side": "Attack",
+  "source": {
+    "title": "How to attack Hookah/Billiards on Coastline",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Coastline_Attack_tuxzyDCx-OI.txt",
+    "notes": "Single-site walkthrough for the Hookah/Billiards site (same site as coastline_defense.json's 'hookah-billiards'), built around an Ace roof breach into Aqua supported by Osa, plus a Lion/Nomad ground-floor lockdown and a Monty distraction on Hookah door. Includes a live gameplay-clip run-through at the end. Auto-generated captions: 'Salas'/'Salma'/'salmer' = Ace's S.E.L.M.A. Aqua Breacher charges (corrected throughout); 'Hodor' = Hookah door; 'oer'/'oosa'/'OA'/'O' = Osa; 'noad'/'nad' = Nomad. Enemy utility named in passing (Maloi banshees/Melusi Banshee, Alam mines/Aruni mines, Fenri/Fenrir, Pulse, Valk) are Defense-side and referenced only as counters/threats to plan around, not Attack picks."
+  },
+  "sites": [
+    {
+      "id": "hookah-billiards",
+      "workingName": "Hookah / Billiards",
+      "floor": "Top Floor",
+      "callouts": ["Sunrise", "Blue Bar", "Office", "Hookah Balcony", "Hookah", "Billiards", "Pink Bar", "Aqua", "Aqua Balcony", "Roof / Quad Wall", "Luggage", "Luggage Window", "Luggage Door", "Main Stairs Window", "Courtyard", "Kitchen Door", "VIP", "90"],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Roof / Quad Wall", "operator": "Ace", "note": "Throw 2-3 S.E.L.M.A. Aqua Breacher charges across the top of the wall (a third can be used on the other side) to open sightlines into Pink Bar and Billiards; stays on the roof afterward to watch the Hookah-to-Billiards rotate and the area behind Pink Bar until called over to support Osa in Aqua.", "timestamp": "03:09"},
+        {"location": "Sunrise double door", "operator": "Nomad", "note": "Airjab Launcher placed above the double door into Sunrise as Lion enters, denying anyone pushing through after Lion takes the room.", "timestamp": "01:24"},
+        {"location": "Hookah door", "operator": "Nomad", "note": "Second Airjab Launcher placed above Hookah door as a backup in case Monty (who is decoying on that door) dies.", "timestamp": "02:05"},
+        {"location": "Luggage door (from Aqua Balcony)", "operator": "Nomad", "note": "Shoots out the top of the luggage window from Aqua Balcony, then places a third Airjab Launcher on the luggage door to deny any flank attempt through Luggage.", "timestamp": "03:53"},
+        {"location": "Double window, Billiards (bottom left)", "operator": "Osa", "note": "First shield placed on the very bottom-left of the double window; Nomad later plays behind this shield on repel, holding Luggage, Pink Bar, and the 90 rotate.", "timestamp": "03:31"},
+        {"location": "Bomb-site window/rotate area in Aqua", "operator": "Osa", "note": "After Aqua is cleared (with Ace's support), Osa walks up and places a second shield on a diagonal near the bomb, then a further shield, and plants behind the bomb.", "timestamp": "06:03"},
+        {"location": "Sunrise, behind the bar", "operator": "Lion", "note": "Sits crouched behind the bar in Sunrise for the whole round holding that angle — near-guaranteed free kill on a defender who walks through the double door and peeks the window toward the double window upstairs. Pops Lion scans and flashes to support the plant once it starts going down. Considered the player the team can most afford to lose if forced to make a trade.", "timestamp": "01:24"},
+        {"location": "Hookah Balcony / Hookah door", "operator": "Monty", "note": "Walks up and stands on Hookah door with shield extended, moving in and out to bait defenders into thinking the push is coming through Hookah — a pure distraction role, not meant to peek or trade; stays alive to keep the decoy credible. Push in aggressively only once defenders realize the real push is in Aqua and turn away.", "timestamp": "02:26"},
+        {"location": "Prep-phase drone — Sunrise", "operator": "Nomad", "note": "Enter Sunrise, hop onto the bar then onto a small sub-roof, tuck the drone in the corner; drop it back onto a shelf once the round starts for cover of the double door and bone-peeks. Also used to confirm Sunrise is clear before Lion pushes in.", "timestamp": "07:28"},
+        {"location": "Prep-phase drone — Aqua (under the fish tank)", "operator": "Attacker (any)", "note": "Trickier route: flight case, electrical box, along the wall, around the edge to Aqua Balcony, straight left under the chair on entering through the double door, then tucked under the middle of the fish tank — gives a view behind the bar and toward Luggage/Aqua.", "timestamp": "07:48"},
+        {"location": "Prep-phase drone — Hookah door (optional third)", "operator": "Monty", "note": "Brought through Hookah door in the prep phase using the speed boost, dived under the benches for callouts on Hookah door traffic; optional, not essential.", "timestamp": "08:52"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Ace", "role": "Roof breach / Aqua support", "note": "Opens the Quad Wall from the roof with S.E.L.M.A. charges, holds the Hookah-Billiards rotate and Pink Bar angle, then moves to support Osa's push into Aqua once called — Osa is described as unable to clear Aqua alone."},
+        {"operator": "Osa", "role": "Entry / plant", "note": "Places the Billiards double-window shield (later handed off to Nomad), pushes into Aqua with Ace's support, places further shields near the bomb, and plants behind it."},
+        {"operator": "Nomad", "role": "Airjab flank denial / repel anchor", "note": "Places three separate Airjab Launchers (Sunrise double door, Hookah door backup, Luggage door) and ends up holding the Billiards double-window position behind Osa's shield, covering Luggage, Pink Bar, and the 90 rotate."},
+        {"operator": "Lion", "role": "Sunrise anchor", "note": "Holds Sunrise from behind the bar the entire round for a near-free pick on anyone peeking the double window; supports the plant with scans and flashes once it goes down. Optional in a minimal 3-stack in favour of just Nomad/Osa/Ace."},
+        {"operator": "Monty", "role": "Hookah decoy", "note": "A 'luxury' pick per the creator — not essential with only 3 players, but very effective at pulling defender attention away from the real Aqua push."}
+      ],
+      "generalTips": [
+        {"note": "Works with as few as 3 players — either Nomad + Osa + Ace, or Nomad + Osa + Lion — though having the Quad Wall holes open from Ace materially helps, and Monty on Hookah door is explicitly called a luxury rather than a requirement.", "timestamp": "20:41"},
+        {"note": "The whole ground floor and most of the top floor south of the Sunrise/Blue Bar/Office line can be ignored — the only rooms that matter are Sunrise, Hookah Balcony, Hookah, Billiards/Pink Bar, Aqua, and the roof.", "timestamp": "01:03"},
+        {"note": "Clearing Aqua is called out as the only genuinely tricky part of the whole strat, since Osa alone can be held from the Hookah rotate, from behind the Aqua bar, or from Luggage — this is why Ace is pulled off the roof to support that specific push.", "timestamp": "05:18"},
+        {"note": "Key counter to watch for: a defender playing Pulse or Valkyrie on the floor below the default plant spot for a C4 read — must be droned and dealt with, since ignoring them gives away a free C4 on the plant. Described as easier to deal with if it's a Pulse, since three attackers can collapse on that single position.", "timestamp": "15:35"},
+        {"note": "If a trade has to be made, Lion or Monty are the least costly losses to the strat's core — keep Osa, Ace, and Nomad alive above all, since they're needed to open, hold, and plant the site.", "timestamp": "15:56"},
+        {"note": "Creator's overall assessment: rates this as one of the easiest sites to attack on the whole game, just slightly behind the Border bathroom/tellers hatch-drop attack covered in a separate video.", "timestamp": "20:19"}
+      ]
+    }
+  ]
+}

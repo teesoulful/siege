@@ -1,0 +1,16 @@
+{
+  "map": "Skyscraper",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Skyscraper/siege), fetched 2026-07-02.",
+  "floors": ["1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "tearoom-karaoke", "name": "Tea Room / Karaoke", "floor": "2nd Floor"},
+    {"id": "workoffice-exhibition", "name": "Work Office / Exhibition", "floor": "2nd Floor"},
+    {"id": "bbq-kitchen", "name": "BBQ / Kitchen", "floor": "1st Floor"},
+    {"id": "bedroom-bathroom", "name": "Bedroom / Bathroom", "floor": "1st Floor"}
+  ],
+  "callouts": {
+    "1st Floor": ["BBQ", "Kitchen", "Bedroom", "Bathroom", "Reception", "Pantry", "House Lobby", "Restaurant Balcony"],
+    "2nd Floor": ["Tea Room", "Karaoke", "Work Office", "Exhibition", "Geisha Room", "Main Stairs", "Hallway", "Terrace", "Lounge", "Restaurant"]
+  }
+}

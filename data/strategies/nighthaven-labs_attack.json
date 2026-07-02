@@ -1,0 +1,51 @@
+{
+  "map": "Nighthaven Labs",
+  "side": "Attack",
+  "source": {
+    "title": "How to attack Nighthaven Labs Basement (Tank/Armory)",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Nighthaven_Labs_Attack_g1xo4KLFpCY.txt",
+    "notes": "Single-site walkthrough for the Basement Tank/Armory area (same site as nighthaven-labs_defense.json's 'basement-tank'), planned and demonstrated using the community-made FPS Tactician tool rather than in-game footage — creator notes he could not find/re-record a live clip. Attack pushes from the top floor down through Rafters/IT, across the first floor Control room to open vertical sightlines ('vert') into Tank, then drops through the (currently unmodeled/'Michelle' placeholder, per creator) hatch above Animus/Tank to plant in the back corner, with Capitao flaming two doors from above and Snake holding Cargo Stairs. Auto-generated captions: 'Solid Snake' = Snake (the Metal Gear Solid collaboration operator native to this map — a genuine Attack-side pick, not a mishearing); 'Cade'/'Kaid claw' = Kaid, referenced only as a defender to consider banning, not an attack pick. Near the end the creator lists hard-breach substitutes for Grim/Capitao and says 'Demoman even' — this does not match any real Siege operator; likely ASR noise or an off-hand joke rather than an intended operator name, so it is not used as a recommendation below and is flagged here rather than silently mapped to a real operator. 'Zeno'/'zeze' = the room Nano (Nano Tech), corrected in callouts. Credit is given in-transcript to a player named George/GC.Official for originating this attack's core idea."
+  },
+  "sites": [
+    {
+      "id": "basement-tank",
+      "workingName": "Basement (Cargo / Animus / Assembly / Nano / Exo)",
+      "floor": "Basement (attacked via Top Floor / First Floor)",
+      "callouts": ["Fish Stairs", "Main Lobby Stairs", "Meeting", "Connector", "Electrical", "IT", "Server", "Top Rafters", "Storage", "Games Lounge / Vending", "Cargo", "Cargo Stairs", "Control", "CCTV", "Tank", "Animus", "Nano Tech", "Back Cargo", "Warehouse", "Armory"],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [
+        {"location": "Hatch above Animus/Tank corner (creator notes the map currently has no modeled hatch here — a placeholder square used in the planning tool)", "operator": "Nomad", "note": "Primary drop point for the plant. Opened once Buck has cut the vert into Tank and it's confirmed clear via drone. Nomad drops and plants tucked into the back corner directly below.", "timestamp": "04:50"},
+        {"location": "Warehouse hatch", "operator": "Capitao or Grim", "note": "Hard-breach charge to open this hatch as part of establishing first-floor control; either operator can take the job.", "timestamp": "03:46"},
+        {"location": "Hatch at top of Cargo Stairs", "operator": "Capitao or Grim", "note": "Second hard-breach charge opened alongside the Warehouse hatch.", "timestamp": "03:46"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Rafters window", "operator": "Nomad", "note": "Entry point into the map — drone Rafters and IT first, then hop in through this window and shoot the default cameras.", "timestamp": "02:22"},
+        {"location": "Door from IT toward Server (not the first door, the next one along)", "operator": "Nomad", "note": "Airjab Launcher placed on the second door rather than the nearer one, to give an earlier warning and prevent defenders getting close enough to vault the floor for vert; place it high on the door frame since higher placements are harder for defenders to shoot out safely.", "timestamp": "06:15"},
+        {"location": "Storage door (into the games lounge/vending area)", "operator": "Nomad", "note": "Second Airjab Launcher, deliberately placed on this door rather than the closer one so a defender can't kill whoever is on the hatch without first crossing the jab.", "timestamp": "07:19"},
+        {"location": "Cargo door", "operator": "Nomad", "note": "Third Airjab Launcher, covering the Cargo approach.", "timestamp": "07:39"},
+        {"location": "Control room — three lines of sight into Tank", "operator": "Buck", "note": "Shotguns three lines of sight through the Control floor: one long line aligned with the window, one adjacent to one wall (offset slightly in), and one down the middle — together these deny anywhere safe to hide in Tank except directly behind the tank object itself, which cannot be seen from above.", "timestamp": "16:26"},
+        {"location": "Two door frames above Tank (CCTV side)", "operator": "Capitao", "note": "Uses Buck's vert holes to drop fire onto the two doors defenders would use to contest the plant corner, denying any push through either door while Nomad plants.", "timestamp": "04:28"},
+        {"location": "Cargo Stairs", "operator": "Snake", "note": "Uses his scanner/gadget pre-round to confirm Fish Stairs, back CCTV, and back Cargo Stairs are clear for Nomad's entry, then physically holds Cargo Stairs for most of the round — job is to be an annoyance/deterrent (not necessarily get a kill) that stops any defender from denying the plant from that side. Watch out for a nano-door line of sight onto the stairs; optionally bring a breaching charge to open extra vert here instead of just holding an angle.", "timestamp": "11:10"},
+        {"location": "Breach wall behind the plant corner", "operator": "Grim (post-plant, optional)", "note": "After the plant is down, Grim can drop the hatch above, clear a Bandit battery or Kaid claw off this wall, and open it for a safer outside position to play post-plant/deny the diffuse from — only viable if this wall isn't reinforced.", "timestamp": "24:07"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Capitao", "role": "Vert / fire denial (called the single most important piece of the strat)", "note": "Opens a Warehouse/Cargo Stairs hatch, then fires down through Buck's Control-room vert holes onto the two doors defenders use to contest the plant. In a minimal 3-stack, also has to sprint to Cargo Stairs after flaming to help hold that flank."},
+        {"operator": "Nomad", "role": "Entry / Airjab flank denial / plant", "note": "Enters via the Rafters window, places three Airjab Launchers (IT-to-Server door, Storage door, Cargo door), then drops the basement hatch and plants in the back corner. Considered the easiest role in the strat; can substitute Gridlock for the same air-jab job."},
+        {"operator": "Buck", "role": "Vert / hold Control", "note": "Gets into Control without dying and shotguns three lines of sight down into Tank, denying nearly all hiding spots below; can also hold the doors from above post-plant if Snake needs backup. Sledge or Ram are named substitutes for creating the same vert, though Ram is more likely to be banned."},
+        {"operator": "Snake", "role": "Scout / Cargo Stairs deterrent", "note": "Uses his scanning gadget to pre-clear the entry route for Nomad, then holds/annoys at Cargo Stairs to stop the plant being denied from that side. Deimos or another frag-utility operator is named as a substitute if Snake is banned or unwanted."},
+        {"operator": "Grim", "role": "Flex hard breach / drone support", "note": "Not essential — described as the most flexible pick of the five. Helps open the Warehouse/Cargo Stairs hatch, drones teammates in, and can open extra vert or a post-plant escape route with a hard-breach charge. Ying or Striker are named as viable hard-breach substitutes."}
+      ],
+      "generalTips": [
+        {"note": "Minimum viable is 3 players — Capitao, Buck, and Nomad specifically are called the three essential roles; Snake and Grim are flexible/optional additions. With only 3, Capitao has to personally sprint to Cargo Stairs after flaming the doors since there's no 5th to hold that flank.", "timestamp": "01:21"},
+        {"note": "Core premise in one line: make vert into Tank from Control above (Buck), flame the two contested doors from that vert (Capitao), and plant in the back corner of the hatch drop (Nomad) — as long as no defender is left in Tank and both doors are denied, the plant is considered essentially free.", "timestamp": "24:07"},
+        {"note": "Banning Kaid pre-round is suggested as a low-cost way to guarantee the hatches/walls in this plan open cleanly, rather than needing to bring EMPs to counter a Kaid claw or electrified hatch.", "timestamp": "10:09"},
+        {"note": "Always drone/re-check the Tank area with a drone immediately before dropping the hatch to plant — the creator explicitly notes past failed attempts where a flanking Nomad was missing, or a defender sat motionless in a hiding spot in Tank until the plant was actually going down before pushing to deny it.", "timestamp": "19:56"},
+        {"note": "Post-plant, Snake staying alive and active on Cargo Stairs is important specifically because it denies the only other flank route into the plant corner (aside from the air-jabbed Storage/Cargo doors above) during a defender retake push.", "timestamp": "22:21"},
+        {"note": "The overall approach (making vert with Buck, flaming the two doors with Capitao, planting in that specific corner) is credited by the creator to a player named George (GC.Official), who showed him the strat first — the creator says he adapted it with the Snake and Grim roles himself.", "timestamp": "26:14"}
+      ]
+    }
+  ]
+}

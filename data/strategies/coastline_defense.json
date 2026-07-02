@@ -1,0 +1,175 @@
+{
+  "map": "Coastline",
+  "side": "Defense",
+  "source": {
+    "title": "How To Setup and Defend Coastline - Rainbow Six Siege",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Coastline_Defense_JYazTzzIuok.txt",
+    "notes": "Auto-generated YouTube captions with frequent ASR errors, especially on operator names and jargon. Two operator names required contextual reconstruction rather than a literal transcript match: (1) captions render 'Z me'/'zombie'/'keyo barrier'/'keeper barrier'/'aarm me' — from context (a claw-shaped barrier placed behind the bomb that blocks a repel window sightline and can be shot/disarmed) this is almost certainly Kaid's Electroclaw, reconstructed with reasonable confidence, not certainty. (2) captions render 'leion'/'legion' placing 'goo mines' to roam — 'Legion' isn't a real operator, and the Gu mine is literally Lesion's signature gadget, so this is treated as Lesion. A separate phrase, 'cap cans work really well on this door', could not be tied to any real defender gadget or operator name with confidence and is presented generically/unattributed rather than guessed. Room/callout names are the creator's informal terms and have not been reconciled against an official wiki."
+  },
+  "sites": [
+    {
+      "id": "hookah-billiards",
+      "workingName": "Hookah / Billiards",
+      "floor": "Top Floor",
+      "callouts": ["Hookah", "Hookah Door", "Hookah Window", "Billiards", "Pink Bar", "Aqua", "VIP", "90", "Bathroom (downstairs escape)"],
+      "reinforcements": [
+        {"location": "Right-hand side of the Hookah door", "note": "Reinforcement 1 of the standard 10 used on this site.", "timestamp": "01:05"},
+        {"location": "Left-hand side of the Hookah door", "note": "Reinforcement 2.", "timestamp": "01:05"},
+        {"location": "Left-hand side of the triple wall on Hookah, right next to Billiards", "note": "Reinforcement 3.", "timestamp": "01:05"},
+        {"location": "Middle wall between Billiards and Hookah", "note": "Reinforcement 4.", "timestamp": "01:05"},
+        {"location": "All four walls across the back of Pink Bar", "note": "Reinforcements 5 through 8.", "timestamp": "01:26"},
+        {"location": "VIP door wall + VIP wall + the wall creating shotgun holes across the bottom (if playing VIP)", "note": "Option A for the last two reinforcements. Lets a Mute mute both VIP doors and this wall, deny drones, and make a rotate — Mute can hold VIP fully sealed off. Mute should avoid leaving VIP via its usual door early because a roof camper commonly holds that exit; barricade it at the start and consider a punch hole on the left side instead so you can shoot attackers off the wall when Ace Selmas it.", "timestamp": "01:26"},
+        {"location": "Alternate wall pair (if NOT playing VIP)", "note": "Option B for the last two reinforcements — reinforce the other wall/wall pair instead of the VIP-side ones.", "timestamp": "01:46"},
+        {"location": "Wall you rarely see reinforced, near 90/VIP exit", "note": "Lets you play tight to this wall for cover — without it, someone from 90 or exiting VIP can wall-bang you through it. Still lets you hold the corridor, the door, and 90 from behind it.", "timestamp": "02:49"}
+      ],
+      "headHoles": [],
+      "rotates": [
+        {"location": "Hookah", "note": "First of two rotates needed on this site. Creator prefers making it a vault rotate (habit, not a strict requirement).", "timestamp": "03:10"},
+        {"location": "Walls of Billiards", "note": "Second rotate.", "timestamp": "03:10"}
+      ],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Behind the bomb", "operator": "Kaid (Electroclaw) — source audio rendered the name as 'Z me'/'zombie'; reconstructed from context, not a literal transcript match", "note": "One Electroclaw barrier behind the bomb blocks the Hookah window repel sightline so attackers on that repel don't get a free kill through to this position.", "timestamp": "03:31"},
+        {"location": "Towards Aqua, angled correctly over the pool table", "operator": "Kaid (Electroclaw) — same naming caveat as above", "note": "With these two barriers you can fight Hookah window, fight/hold Hookah door without worrying about the window, and rotate between rooms without being shot from Aqua.", "timestamp": "03:52"},
+        {"location": "Middle gap between the two barriers", "operator": "Kaid (Electroclaw) — same naming caveat as above", "note": "Optional third barrier to fully block the line, but the creator dislikes it because it stops you fighting back onto Hookah window from that spot. If someone holds you from the window, drop the barrier to buy time to move through, and remember barriers are shootable.", "timestamp": "04:14"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Mute", "role": "VIP anchor", "note": "Mutes both VIP doors/jammers and the shotgun-hole wall to fully deny drones and seal the room; recommended if a player is dedicating to VIP."},
+        {"operator": "Kaid", "role": "Anchor (Hookah/Aqua)", "note": "Runs the Electroclaw barrier setup behind the bomb and toward Aqua that lets the defense hold both Hookah window and Aqua without cross-fire risk. Name reconstructed from garbled audio — treat with some caution."}
+      ],
+      "generalTips": [
+        {"note": "Cap-cans (source audio unclear on the exact gadget/operator) reportedly work well on the Hookah door for stopping a push through it — could not be confidently matched to a real operator/gadget name, treat as unconfirmed.", "timestamp": "05:15"},
+        {"note": "Someone must hold below around Sunrise/Kitchen/Office — if the enemy gets uncontested access down there, they'll also be uncontested on Hookah door. Play a 'shallow roam': present but not so far that you can't respond.", "timestamp": "05:15"},
+        {"note": "This site gives up a pretty free C4 onto Hookah door (or into Aqua) — use the default Aqua camera to time a drop-cam-then-C4 play as attackers walk through the door.", "timestamp": "05:56"},
+        {"note": "A direct hit through the door and straight to plant is possible on both Hookah and Aqua, so map control matters even while roaming.", "timestamp": "06:17"}
+      ]
+    },
+    {
+      "id": "kitchen-service",
+      "workingName": "Kitchen / Service",
+      "floor": "Ground Floor",
+      "callouts": ["Kitchen", "Kitchen Door", "Kitchen Window", "Service Door", "Barrels", "Sunrise (below)", "VIP (above)", "Bathroom", "Blue Door", "Hall of Fame Door"],
+      "reinforcements": [
+        {"location": "Service wall to Kitchen", "note": "Reinforcement 1 of the 8 used downstairs at this site.", "timestamp": "06:59"},
+        {"location": "Both Kitchen walls", "note": "Reinforcements 2 and 3.", "timestamp": "06:59"},
+        {"location": "Both Barrels walls", "note": "Reinforcements 4 and 5.", "timestamp": "06:59"},
+        {"location": "Middle wall between Penthouse and VIP (upstairs)", "note": "Reinforcement 6, part of the 3 upstairs reinforcements. It's imperative to hold above this site — almost the entire floor above Kitchen is soft, so anyone controlling this room can shoot through the floor and deny defenders re-entry.", "timestamp": "07:21"},
+        {"location": "Two walls outside VIP (upstairs)", "note": "Reinforcements 7 and 8.", "timestamp": "07:21"}
+      ],
+      "headHoles": [
+        {"location": "Kitchen window (from upstairs, above)", "note": "One of two key lines of sight to make when holding the room above the site.", "timestamp": "07:42"},
+        {"location": "Kitchen door (from upstairs, above, through the floor)", "note": "Second key line of sight upstairs. Confirmed it does actually shoot through the floor after some testing on stream.", "timestamp": "08:03"},
+        {"location": "Feet holes across the wall watching Aqua/the hatch drop", "note": "Made across the full wall so a defender in VIP can see feet through the hatch-drop area; aim for the head once you see feet.", "timestamp": "08:45"},
+        {"location": "Downward angle from above onto Service door", "note": "A very strong, learnable angle with any shotgun-capable loadout; can also bounce Gu mines off the desk toward it — they still trigger even resting on the desk if they touch a body.", "timestamp": "09:06"},
+        {"location": "Downward angle onto Back Barrels / the plant corner", "note": "Lets you see (and punish) a plant going down at the back of Barrels from above.", "timestamp": "09:47"},
+        {"location": "Feet holes across the wall used from the corridor (also gives an angle onto Hall of Fame door)", "note": "Used when playing the corridor rotate near the site.", "timestamp": "10:28"},
+        {"location": "Feet holes in the lady's chamber area", "note": "Stops anyone planting in that pocket — attackers can otherwise sit there almost uncontested via the door or rim rotate.", "timestamp": "10:51"},
+        {"location": "Feet holes along the corridor near Blue door", "note": "Hard to hit with a shorty shotgun, but lets you stop pushes through the corridor, hold Blue door, and makes retaking Kitchen much easier without going through the main door.", "timestamp": "11:53"}
+      ],
+      "rotates": [
+        {"location": "Little rotate on the upstairs Kitchen-window side", "note": "Use the wardrobe as partial cover; also gives a small angle to hold the window.", "timestamp": "08:24"},
+        {"location": "Near the bomb, giving cover to fight Service door or fall back behind the reinforcement", "note": "Standard rotate needed to move between the two halves of the site without going through the main door.", "timestamp": "11:12"},
+        {"location": "Wall near the front door / Barrels (left soft in this setup)", "note": "Debated as a vault rotate instead of full reinforcement — leaving it open gives another escape/hold angle (front door, a bit of Security/Courtyard) and makes retaking much easier, at the cost of attackers reaching site faster if map control is lost early. Creator plays it situationally depending on form/confidence that round.", "timestamp": "12:33"}
+      ],
+      "hatches": [
+        {"location": "Corner hatch near Barrels", "note": "Always open for a quick escape down into Bathroom if needed.", "timestamp": "10:08"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Doorways into the upstairs area, across all the doors", "operator": "Lesion", "note": "Source audio rendered the name as 'leion'/'legion' — Gu mines are Lesion's signature gadget, so resolved to Lesion. Roams up here dropping Gu mines on the doorways.", "timestamp": "10:28"},
+        {"location": "Kitchen door and Kitchen window downstairs", "operator": "Lesion — same naming caveat as above", "note": "A couple of Gu mines placed downstairs on top of the upstairs set.", "timestamp": "10:28"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Lesion", "role": "Upstairs roamer", "note": "Holds the critical room above Kitchen with Gu mines on the doorways and downstairs approaches; try to get denial on the floor-facing wall since losing it makes the site very hard to hold. Name reconstructed from garbled 'leion'/'legion' audio via the gadget described."}
+      ],
+      "generalTips": [
+        {"note": "Shoot the radio at the very start — pure quality-of-life, not tactical.", "timestamp": "06:38"},
+        {"note": "Watch the drone hole near spawn — you'll get at least one free early drone kill almost every round in the first 15 seconds if you ADS it.", "timestamp": "06:38"},
+        {"note": "You only really need two defenders on this site: one covering Kitchen, one covering Service.", "timestamp": "12:13"},
+        {"note": "Leaving the front-door-area wall soft also lets a defender use an impact grenade through it later in the round.", "timestamp": "12:13"},
+        {"note": "If you lose map control early with this rotate open, attackers reach site faster — but when it works, it makes retaking dramatically easier. A genuine judgment call round to round.", "timestamp": "13:37"},
+        {"note": "Holding upstairs is the single biggest factor in winning this site — worth learning every angle listed above.", "timestamp": "14:21"}
+      ]
+    },
+    {
+      "id": "sunrise-bluebar",
+      "workingName": "Sunrise / Blue Bar",
+      "floor": "Ground Floor",
+      "callouts": ["Sunrise", "Blue Bar", "Office", "Aqua", "Hookah (above)", "Billiards (above)", "Security", "90"],
+      "reinforcements": [
+        {"location": "Left-hand side of both the right Hookah-adjacent walls (upstairs)", "note": "First of 5 reinforcements used on this site.", "timestamp": "14:42"},
+        {"location": "Wall between Sunrise and Blue Bar (left-hand side, viewed from Sunrise)", "note": "Reinforcement.", "timestamp": "15:04"},
+        {"location": "Wall upstairs in the middle of Hookah and Billiards", "note": "One reinforcement placed upstairs.", "timestamp": "15:04"},
+        {"location": "Two walls at the back of Blue Bar (behind where attackers hard-breach to plant)", "note": "Reinforced to force attackers to hard-breach rather than soft-breach straight in; also lets defenders retake through the soft wall or drop the hatch to get behind Blue Bar.", "timestamp": "18:20"},
+        {"location": "Wall stopping the soft-breach route into the plant corner", "note": "If left unreinforced, attackers can soft-breach straight through and get a sofa vault into the tucked-away corner plant spot.", "timestamp": "20:07"}
+      ],
+      "headHoles": [
+        {"location": "Feet holes on the two soft walls near the jump-in window", "note": "Lets defenders see feet before the attacker's head clears the doorway — use to stop people planting behind Blue Bar.", "timestamp": "16:57"}
+      ],
+      "rotates": [
+        {"location": "Upstairs, same rotate style as Hookah/Billiards", "note": "A little light defensively — you're mainly denying, not fully holding, this area.", "timestamp": "15:04"},
+        {"location": "Standard site rotate for moving between halves without the main door", "note": "Same purpose as the Kitchen site rotate.", "timestamp": "16:57"}
+      ],
+      "hatches": [
+        {"location": "Upstairs hatch (optional open)", "note": "Opening it gives a kill angle down onto the door into Sunrise for people running through to plant in that corner, but you must then defend upstairs hard since it's exposed.", "timestamp": "15:25"},
+        {"location": "Blue Bar retake hatch", "note": "Dropping it lets a retaking defender get behind Blue Bar or come back through Security if attackers are dug in behind their reinforcement.", "timestamp": "18:41"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Hidden spots away from the jump-in window", "operator": null, "note": "Prox mines placed here trigger a warning the moment attackers jump in, but can't be shot out through the window first — don't place them directly above the door where they're visible/shootable from outside.", "timestamp": "17:18"},
+        {"location": "Pulse position near Hall of Fame", "operator": "Pulse", "note": "Works well here because almost the entire area is soft except for one small bit near Hall of Fame — good visibility once attackers commit to the site.", "timestamp": "27:49"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Pulse", "role": "Intel/anchor", "note": "Plays well in the mostly-soft area near this site thanks to the amount of soft wall/floor to see through."}
+      ],
+      "generalTips": [
+        {"note": "You barely play inside Blue Bar itself — once the window is open you're effectively trapped there with no advantage. This site is almost entirely about the retake, not the initial hold.", "timestamp": "17:59"},
+        {"note": "Attackers commonly hard-breach the back wall and plant tucked behind Blue Bar, similar to the Bank basement tuck spot — defenders need to be aware they can't be seen from the main walls there.", "timestamp": "18:41"},
+        {"note": "Don't give up Kitchen early — the anchor behind the bar already has plenty to watch without also worrying about being shot from Kitchen's direction.", "timestamp": "19:22"},
+        {"note": "Suggested spread: one or two upstairs (Hookah area, Billiards area), one on Sunrise-side, one on Office/Security/Courtyard.", "timestamp": "19:45"},
+        {"note": "The sofa vault into the tucked plant corner is inconsistent in-game — don't rely on it working every time under time pressure.", "timestamp": "20:48"},
+        {"note": "Considered a very fun, historically strong site (was strong in competitive play) but punishing for an uncoordinated team — needs a proper stack to defend well.", "timestamp": "14:21"}
+      ]
+    },
+    {
+      "id": "theater-penthouse",
+      "workingName": "Theater / Penthouse",
+      "floor": "Top Floor",
+      "callouts": ["Theater", "Penthouse", "VIP", "Main Stairs", "Luggage", "Hall of Fame", "90", "Bay/Villa/Suite area"],
+      "reinforcements": [
+        {"location": "Right-hand side wall through to top of Main Stairs", "note": "Reinforcement 1 of up to 10 used on this site.", "timestamp": "22:12"},
+        {"location": "Left-hand wall out onto the corridor (left soft)", "note": "Left unreinforced.", "timestamp": "22:32"},
+        {"location": "Right-hand wall out onto the corridor (left soft)", "note": "Left unreinforced.", "timestamp": "22:32"},
+        {"location": "Dividing wall between Theater and Penthouse (left soft)", "note": "Left unreinforced.", "timestamp": "22:32"},
+        {"location": "Two left-hand walls in Penthouse", "note": "Reinforced.", "timestamp": "22:32"},
+        {"location": "One side of the Penthouse rotate wall", "note": "Sometimes this side, sometimes the opposite side is reinforced instead depending on which side you want the rotate hole on — creator prefers rotating on this side.", "timestamp": "22:52"},
+        {"location": "Both VIP walls", "note": "Reinforced.", "timestamp": "22:52"},
+        {"location": "Right-side wall from VIP out toward the Bay/Villa/Suite area", "note": "Reinforced — the third of the final three reinforcements.", "timestamp": "22:52"},
+        {"location": "Wall at the back of Theater (site-door side)", "note": "Debated reinforcement — without it, a defender at the back of Theater has no exit except the site door once Hall of Fame/bathroom are lost. Making a small rotate here instead gives a bit of a repel sightline to attackers but is generally worth it for mobility.", "timestamp": "25:01"}
+      ],
+      "headHoles": [
+        {"location": "Long angle into VIP from behind the reinforcement", "note": "Not a favorable angle for an SMG, but strong with an ACOG; a mirror on this wall can also be used to see into VIP.", "timestamp": "24:40"},
+        {"location": "Head holes near the back-of-Theater rotate", "note": "Can be used to fight onto 90 for extra mobility out of the site without using the main doors.", "timestamp": "25:43"}
+      ],
+      "rotates": [
+        {"location": "Rotate between the two sides, near the hatch", "note": "Also want feet holes here so you can shoot attackers dropping the hatch (doesn't stop the drop, but punishes it).", "timestamp": "22:52"},
+        {"location": "Small rotate at the back of Theater (site-door side)", "note": "Kept deliberately small to limit the repel sightline it gives attackers; if someone camps the repel spot you simply hold off using the rotate until they leave. Preferred over the opposite side because losing VIP + this side's rotate lets attackers tuck into an undeniable corner plant.", "timestamp": "25:21"}
+      ],
+      "hatches": [
+        {"location": "Hatch near the VIP long-angle reinforcement", "note": "Open as an escape route so a defender can drop below if pushed.", "timestamp": "24:40"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Line across the top, angled at the default plant corner", "operator": null, "note": "A C4 or prox mine thrown from here lands on/near the default plant spot in the corner; a smoke needs to be lobbed off the ceiling to land correctly in the same spot.", "timestamp": "23:14"},
+        {"location": "Feet holes watching the walk-down from the corridor", "note": "Catches attackers walking down before they know a defender is there; the counter-argument is a prone attacker can still get an angle from the corridor, but a defender is expected to be covering that anyway.", "timestamp": "23:57"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Ela, Lesion, or another trap-style defender (e.g. Kapkan, Melusi)", "role": "Downstairs anchor", "note": "Downstairs has two side approaches to cover; a trap operator is preferred since they have up to three retreat routes back toward Main Lobby if map control is lost. Source audio named a defender phonetically similar to 'a fener', which doesn't match any real operator on this side — treat as unconfirmed rather than assuming Ela/Lesion specifically; those are simply plausible trap-operator fits mentioned in the same breath."},
+        {"operator": "Caveira", "role": "Downstairs anchor (situational)", "note": "Usable, but a well-known enough angle that good attacking teams tend to expect it."},
+        {"operator": "Pulse", "role": "Intel", "note": "Works well here since almost all of Penthouse is soft except for the small area near Hall of Fame."}
+      ],
+      "generalTips": [
+        {"note": "Losing VIP control combined with the rotate on the wrong side lets attackers tuck into an uncontestable corner plant — this is the specific reason the creator prefers the rotate on the described side rather than the opposite one.", "timestamp": "26:47"},
+        {"note": "Everyone tends to default to holding the site door in a disadvantage situation (1v2/2v1) — having another route out via the small rotate lets you reposition without attackers knowing.", "timestamp": "26:26"}
+      ]
+    }
+  ]
+}

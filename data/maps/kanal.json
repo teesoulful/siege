@@ -1,0 +1,18 @@
+{
+  "map": "Kanal",
+  "verified": true,
+  "verificationNote": "Sourced from r6coaching.com Kanal guide, cross-referenced with Liquipedia Rainbow Six Wiki, fetched 2026-07-02. Reflects post-Ember Rise rework layout. Note: some exterior callouts (Lighthouse, Quay, Bridge, Boat Dock) appear to span multiple floors and are bucketed under 'Exterior' here rather than duplicated per floor.",
+  "floors": ["Basement", "1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "server-radar", "name": "Server Room / Radar Room", "floor": "2nd Floor"},
+    {"id": "security-maproom", "name": "Security Room / Map Room", "floor": "1st Floor"},
+    {"id": "coastguard-lounge", "name": "Coast Guard Meeting / Lounge", "floor": "1st Floor"},
+    {"id": "kayaks-supply", "name": "Kayaks / Supply Room", "floor": "Basement"}
+  ],
+  "callouts": {
+    "Basement": ["Kayaks", "Supply Room"],
+    "1st Floor": ["Security Room", "Map Room", "Coast Guard Meeting", "Lounge"],
+    "2nd Floor": ["Server Room", "Radar Room"],
+    "Exterior": ["Lighthouse", "Quay", "Bridge", "Boat Dock"]
+  }
+}

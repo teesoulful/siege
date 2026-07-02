@@ -1,0 +1,17 @@
+{
+  "map": "Clubhouse",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Clubhouse/siege) and cross-referenced with r6coaching.com, fetched 2026-07-02. Callout lists condensed to major named rooms.",
+  "floors": ["Basement", "1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "bedroom-gym", "name": "Bedroom / Gym", "floor": "2nd Floor"},
+    {"id": "cash-cctv", "name": "Cash Room / CCTV Room", "floor": "2nd Floor"},
+    {"id": "bar-stock", "name": "Bar / Stock Room", "floor": "1st Floor"},
+    {"id": "church-arsenal", "name": "Church / Arsenal Room", "floor": "Basement"}
+  ],
+  "callouts": {
+    "Basement": ["Church", "Arsenal Room", "Oil Pit"],
+    "1st Floor": ["Bar", "Stock Room", "Strip Club", "Garage", "Stage", "Blue Stairs", "Western Hallway"],
+    "2nd Floor": ["Bedroom", "Gym", "Cash Room", "CCTV Room", "Construction", "Balcony"]
+  }
+}

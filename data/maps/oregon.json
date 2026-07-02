@@ -1,0 +1,17 @@
+{
+  "map": "Oregon",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Oregon/siege), fetched 2026-07-02.",
+  "floors": ["Basement", "1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "kidsdorm-mainhall", "name": "Kids' Dorm / Dorm Main Hall", "floor": "2nd Floor"},
+    {"id": "kitchen-dininghall", "name": "Kitchen / Dining Hall", "floor": "1st Floor"},
+    {"id": "meeting-kitchen", "name": "Meeting Hall / Kitchen", "floor": "1st Floor"},
+    {"id": "laundry-supply", "name": "Laundry Room / Supply Room", "floor": "Basement"}
+  ],
+  "callouts": {
+    "Basement": ["Laundry Room", "Supply Room", "Freezer", "Boiler Room"],
+    "1st Floor": ["Kitchen", "Dining Hall", "Meeting Hall", "Office", "Bathroom Corridor", "Kitchen Corridor", "Showers", "Lobby", "Rear Stage", "Luggage Hold", "Pantry"],
+    "2nd Floor": ["Dorm Main Hall", "Kids' Dorm", "Master Bedroom", "Armory", "Armory Corridor", "Attic", "Watch Tower", "Small Dorms"]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "type": "general_principles",
+  "side": "Attack",
+  "source": {
+    "title": "How To Attack - Every Site, Every Map (A27 / A Littleton)",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/General_Attack_2UOJdDIUtKU.txt",
+    "notes": "Map-agnostic attacking framework video, recorded in a 'classroom' segment format intercut with practical clips on Oregon, Chalet, Skyscraper, Layer, Kitchen (map), and Bank. Presenter frames attacking as two phases of four points each: Prep Phase (Find the Site, Make a Plan, Pick Operators, Pre-place Drones) and Action Phase (Roam Clear, Take Control, Problem Solve, Execute). Timestamps reference the transcript's bracketed minute markers, which are approximate (rounded to the nearest labelled segment, not exact seconds within long unbroken commentary)."
+  },
+  "categories": [
+    {
+      "category": "Prep Phase: Finding the Site & Making a Plan",
+      "tips": [
+        {"note": "Before the action phase starts, think through four things: find the bomb site, make a plan, choose operators to suit that plan, and pre-place drones on entry points and flank watch spots.", "timestamp": "01:24"},
+        {"note": "In standard/ranked (unlike casual, which reveals the site) you have to work out the bomb site yourself. Knowing common site tendencies per map helps (e.g. on Oregon people default to top floor, basement, then kitchen/dining; on Bank people default to top floor even though the basement may be stronger) — even if the enemy doesn't play the most common site, it will only be one of a small number of realistic options.", "timestamp": "01:45"},
+        {"note": "Once the site is found, make a plan: broadly there are two options, go direct or go across (plus vertical attacks on maps with basement sites). A direct attack pushes straight at the entry points nearest the site and ignores the far half of the map because the objective isn't there. An across attack instead clears the far half of the map room by room before pushing onto site, which prevents attackers from getting flanked by a roamer on that side.", "timestamp": "02:48"},
+        {"note": "The benefit of an across/take-the-far-half approach is that it clears out any roamer sitting in that space; with two players working together a roamer is fairly easy to deal with, and with three players (droning properly) you generally shouldn't get caught out by a roamer at all.", "timestamp": "04:34"},
+        {"note": "If solo queuing, decide the plan yourself since you'll be entering alone; if stacking with at least two, talk through the plan as a team before the round starts so everyone is on the same page — this avoids situations like being ready to plant while a teammate is in a completely different part of the map. Siege will still throw problems that force you off-plan mid-round, but starting aligned reduces mistakes.", "timestamp": "08:05"}
+      ]
+    },
+    {
+      "category": "Prep Phase: Operator Selection",
+      "tips": [
+        {"note": "A major reason attacks fail is not bringing the right tools for the job — e.g. no hard breacher for a needed breach, no Ash/Zofia for a deployable shield, no Flores for a Melusi banshee.", "timestamp": "05:37"},
+        {"note": "Think of attacking a site as a series of small problems to solve on the way to planting: e.g. on Clubhouse CCTV — open the breach, clear rafters, clear top red, make sure no one's below — and defenders will place utility (Melusi banshee, barbed wire, Valk/Maestro cams) specifically to obstruct each of those steps. Bring the tools (nade, gun, Ash/Zofia, IQ for Valk cams, etc.) needed to solve each problem as it appears.", "timestamp": "06:19"},
+        {"note": "From the defending side, a lineup like Bandit/Ela/Lesion/Melusi/Valk/Mira creates real problems attackers must solve (sort the Bandit on the breach, clear the banshees, find the Valk cams), whereas a lineup like Caveira/Vigil/Rook/Doc/Solis gives attackers comparatively little utility to deal with. Picking the right operators for your plan puts you in a better position to win the round — there's no point taking Thermite/Ace/Maverick if your plan doesn't involve breaching any walls.", "timestamp": "07:23"},
+        {"note": "Choosing operators reactively also matters mid-round: if you spot a Goyo on a wall in the prep phase, switch to a Twitch (or similar) to solve that problem before it becomes critical at plant time — trying to plant through a burning Goyo canister without a way to destroy it in advance is effectively impossible.", "timestamp": "30:05"}
+      ]
+    },
+    {
+      "category": "Prep Phase: Drone & Intel Discipline",
+      "tips": [
+        {"note": "Pre-place drones before the round: on entry points for the players entering the map, and on flank watch spots to cover teammates' backs. In a full 5-stack, a common split is two drones for the players entering first, three drones used across flank watch, one drone dedicated to finding the site, and one for entry — ideally you keep all five drones alive rather than losing them.", "timestamp": "08:47"},
+        {"note": "Don't drive your drone into the site and lose it once the site is already known — losing your entry/find drone while still searching for the site is understandable, but losing a drone inside site after it's already been located is a wasted resource with no excuse.", "timestamp": "09:29"},
+        {"note": "A 'cutoff drone' (used on maps like Oregon) is a drone placed to draw an effective line across the map — if you know nobody has crossed either of two cutoff points, you know a connected area is fully clear without needing a drone physically in that area. On Oregon specifically this works because the top of small tower isn't accessible to defenders, so two drones watching the crossing points confirm it's clear.", "timestamp": "10:56"},
+        {"note": "A flank drone is generally hidden and watches an area purely to confirm nobody is moving up/down through it (e.g. under the bench in Oregon's 'split' watching basement/Zulu/meeting/armory stairs approaches) rather than being used to hunt kills.", "timestamp": "12:42"},
+        {"note": "Getting a drone fully inside the site early in the round is possible but low value — knowing exact loadouts/positions inside site in the first two minutes doesn't help if you're not entering that part of the map yet. Site intel matters most in roughly the last 60 seconds of the round, going into the execute.", "timestamp": "13:46"},
+        {"note": "Practical example: pre-place a drone near a soft wall/drone hole before using a hard breach, so you get early sightlines on the entry area before committing (demonstrated pre-placing near an 'electrical' soft wall on Oregon before a Ying hard-breach entry).", "timestamp": "15:30"}
+      ]
+    },
+    {
+      "category": "Action Phase: Roam Clearing",
+      "tips": [
+        {"note": "Once the prep phase plan is set, the action phase has four steps: roam clear, take control, problem solve, execute.", "timestamp": "20:39"},
+        {"note": "Roam clearing is comparatively easy with three players (one drones, two pinch) and harder with two (one drones, one pushes — you can't pinch in a two unless you're certain the roamer is stationary in a known room). As a solo queue player, only attempt roam clearing on intel-focused operators like Deimos or Jackal, and be aware it's near-impossible solo at higher ELO (lower ELO roamers may make it easier by playing predictably).", "timestamp": "21:19"},
+        {"note": "The key mistake to avoid: don't have teammates sitting on fixed angles (e.g. two players watching windows) while a third player drones around and finds a roamer, then loses the drone to that roamer's gunfire — the moment the drone dies the last-seen information goes stale, because by the time players reach that spot the roamer has likely already relocated.", "timestamp": "22:23"},
+        {"note": "Effective roam clearing needs live information and comms: get teammates into the map first (via entry drones) before starting a full roam clear, so you have people positioned in multiple rooms as the live drone tracks the roamer. The best method is a pinch — one player pushes from one direction while another opens a wall/pushes from a different direction, ideally trapping the roamer in a room with only one or two exits, while the live drone feed guides the pinch in real time.", "timestamp": "24:08"},
+        {"note": "Keep the drone alive throughout the roam clear rather than calling a stale last-known position ('he was last seen in kitchen') after losing the drone — players move, and outdated call-outs get teammates killed pushing the wrong spot. Pinching also lets you refrag and pick up the kill even if the first player who pushes dies.", "timestamp": "24:51"},
+        {"note": "Don't use your hard breacher or another operator central to the site plan to do the roam clear — use an operator suited to fighting in the open map (e.g. Zofia, Finka, Ash, Iana), keeping your Thermite/Ace/Thatcher safe for their actual job.", "timestamp": "25:11"},
+        {"note": "Take Control and Roam Clear can effectively swap order or merge — you may need map control before you can even roam clear, and clearing a roamer in a room simultaneously gives you control of that room.", "timestamp": "25:32"}
+      ]
+    },
+    {
+      "category": "Action Phase: Take Control & Team Communication",
+      "tips": [
+        {"note": "After clearing a roamer, hold and solidify control of that space, then reassess. Coordinated stacks can use a agreed callout word (the video uses 'coffee cup' as the example) that means 'stop and reassess' — when someone calls it, the team pauses (outside of being mid-push) to take stock of the current map state and plan the next step together.", "timestamp": "26:12"},
+        {"note": "An entry player can hold a cutoff angle for 20–30 seconds after securing an entry room, covering multiple approach angles, purely to buy time for the rest of the team to get into the map.", "timestamp": "12:20"}
+      ]
+    },
+    {
+      "category": "Action Phase: Problem Solving",
+      "tips": [
+        {"note": "Problem solving means dealing with whatever utility/setup the defenders have placed to obstruct you — Maestro cams, C4 threats from below, Bandit/Kaid on a wall you need to breach, etc. It's arguably the hardest and most time-consuming part of an attack because it's different every round depending on what utility the defenders bring and where they place it — there's no fixed formula like there is for roam clearing.", "timestamp": "27:16"},
+        {"note": "Work through the steps in order — there's no point planning how to open a breach for the plant if there are still unaddressed roamers elsewhere in the map; solve roamer/control problems before turning to site-entry problems.", "timestamp": "27:36"},
+        {"note": "Problem solving isn't only about destroying utility — it also includes tactical decisions like baiting a defender into using their smoke grenades early (e.g. baiting a plant attempt so defenders detonate/use up their Goyo smokes) so they're unavailable later when you actually need the site clear to plant.", "timestamp": "29:44"},
+        {"note": "Anticipate known problem operators in the prep phase and bring counters (e.g. bring a Twitch if you've scouted a Goyo), but also expect on-the-fly adaptation when you didn't see an operator in the prep phase and discover the problem mid-round — that dynamic problem-solving is core to what makes Siege engaging.", "timestamp": "30:26"},
+        {"note": "Practical example (Layer): a goo mine placed on a door wasn't drone-checked before pushing through it; walking into it revealed the team's position to a Lesion and cost the round. Lesson: drone thoroughly into the site before committing to a push, and shoot/clear visible traps (goo mines, razor blooms, etc.) rather than walking past them.", "timestamp": "34:44"},
+        {"note": "If you don't have the defuser at the point you commit into a breach as your plan's designated planter, that's a critical, avoidable failure — pick up the defuser yourself if you're the one expected to plant.", "timestamp": "38:53"}
+      ]
+    },
+    {
+      "category": "Action Phase: The Execute (Blocking Lines of Sight & Planting)",
+      "tips": [
+        {"note": "You can't successfully execute (plant) if you skipped the earlier steps — e.g. trying to plant through a smoke/Fenrir/Goyo you haven't problem-solved, or planting near a hatch/area a roamer above or below still controls. Work through find-site, roam-clear/take-control, and problem-solve, in roughly that logical order, before attempting the execute (though the exact order can flex round to round).", "timestamp": "41:24"},
+        {"note": "Two core execute priorities: make sure no one can hit you from below (or above, on basement sites) — check with a drone or a C4 — and block lines of sight into the plant spot.", "timestamp": "42:47"},
+        {"note": "Use smoke grenades to block enemy lines of sight into the plant spot (e.g. smoking off two doorways so nobody can see the plant corner), not to stand inside a cloud of smoke while planting. A visible smoke cloud over the plant area actually tells defenders exactly where you are — they can hear the plant defuser sound, see the smoke, and land a C4 or push in blind; whereas smoking the approach doors means nobody can see you cross to the plant spot at all.", "timestamp": "44:31"},
+        {"note": "Example execute setup (Chalet basement main breach): with control of main stairs, the breach opened, and smoke grenades, smoke off the connector door and the blue door, then plant tucked into the corner on the reinforced wall — nobody can push through either smoked doorway or see that you've crossed, and a teammate on main stairs can hold the rotate.", "timestamp": "43:29"}
+      ]
+    },
+    {
+      "category": "Post-Plant",
+      "tips": [
+        {"note": "Post-plant is highly variable and doesn't have a fixed formula — once the plant goes down, the situation becomes chaotic as both sides reposition. General guidance: get out of the diffuser's direct line of sight but stay close enough to get back to it quickly when needed (e.g. standing just outside a breach opening, or holding a window you can jump back through).", "timestamp": "46:21"},
+        {"note": "Don't hold an angle blindly waiting to react — wait until you actually hear the defuser start before moving in to stop it, and be aware of fake diffuses (baiting you to peek by pretending to plant/diffuse); know the sound cues and distance to the diffuser from experience so you don't get baited out of position.", "timestamp": "47:03"}
+      ]
+    },
+    {
+      "category": "Solo Queue vs Stacking Adjustments",
+      "tips": [
+        {"note": "The four-point framework applies whether solo queuing or stacking (2–5), but solo queue is inherently harder since you generally won't have teammates watching your own flanks — playing intel/trap operators like Gridlock or Nomad, or bringing claymores, can give some peace of mind in that situation.", "timestamp": "08:26"},
+        {"note": "In solo queue, pre-placed drones should mostly cover your own entry point rather than being split across flank-watch duties, since there's no team to coordinate a full drone spread with.", "timestamp": "08:47"},
+        {"note": "Solo queue roam clearing is not generally recommended unless playing an intel operator like Deimos/Jackal, and becomes close to impossible against good players at higher skill levels.", "timestamp": "21:19"}
+      ]
+    },
+    {
+      "category": "General Mindset & Self-Review",
+      "tips": [
+        {"note": "\"Failing to prepare is preparing to fail\" — planning before the round is framed as just as important as mechanical execution during it.", "timestamp": "01:02"},
+        {"note": "Adapt, improvise, overcome: you won't know exactly what will happen in a round, and loadout/role choices should be reconsidered on the fly — e.g. realizing you (as the Buck/hatch-opener) should have brought hard breach charges instead of flashbangs because the team was relying on an Ace to open a different wall, leaving the team without a way to open a needed hatch after Ace died.", "timestamp": "56:14"},
+        {"note": "Reviewing your own rounds (via stream VOD or the in-game match replay function) to identify where a specific step (drone placement, problem solving, adapting to a lost operator) broke down is a deliberate way to improve; the presenter walks through his own mistakes (e.g. leaving a pre-placed drone in the same room as himself instead of repositioning it as a flank watch) as examples of this review process.", "timestamp": "58:41"},
+        {"note": "Summary of the full framework: Prep Phase — find the bomb site, choose a plan, pick operators to suit that plan, pre-place drones. Action Phase — roam clear, take control, problem solve, execute. Basing attacks around these eight points is presented as the core path to a higher attack win rate.", "timestamp": "66:10"}
+      ]
+    }
+  ]
+}

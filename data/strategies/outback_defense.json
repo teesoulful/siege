@@ -1,0 +1,181 @@
+{
+  "map": "Outback",
+  "side": "Defense",
+  "source": {
+    "title": "How to Set Up and Defend Outback - Every Reinforcement, Rotate, and Head Hole (all four sites)",
+    "type": "youtube_transcript",
+    "file": "data/raw_transcripts/Outback_Defense_kGoc1PlyeNQ.txt",
+    "notes": "Auto-generated captions (creator referred to as 'Litton' in the intro). Covers all four Outback sites: Piano/Laundry, Party/Office (Bull), Green/Red Bedroom, and Mechanic/Kitchen. No attack-side transcript is available for this map. Room/callout names are the creator's own informal terms (he explicitly says Outback callouts 'need some work' and invents names like 'coffee door'/'vending door' on the fly) — not verified against wiki callouts. A few operator names are garbled by ASR; see notes on individual entries where confidence is not high."
+  },
+  "sites": [
+    {
+      "id": "piano-laundry",
+      "workingName": "Piano / Laundry",
+      "floor": "Ground Floor",
+      "callouts": ["Piano", "Laundry", "Games Room", "Showers", "Laundry Corridor", "Kids", "Bull", "Barbecue", "Dorms", "Yellow/Bull Stairs", "Washing Machine/Banister"],
+      "reinforcements": [
+        {"location": "Two right-hand walls of Piano through to Games Room", "note": "First two of the seven reinforcements used on this site.", "timestamp": "00:21"},
+        {"location": "Right-hand wall of Showers through to Games Room", "note": "Part of the seven-reinforcement setup.", "timestamp": "00:21"},
+        {"location": "Right-hand wall of Laundry through to top end of Showers", "note": "The two main breach walls.", "timestamp": "00:43"},
+        {"location": "Left-hand side of Laundry through to the Laundry Corridor", "note": "Final reinforcement of the seven used on this site.", "timestamp": "00:43"},
+        {"location": "Games wall (optional, not used in this setup)", "note": "Not reinforced in the creator's default setup, but recommended if you have spare reinforcements — stops attackers sledge/book-holing across from Bull once they control it, forcing them through one door/angle instead.", "timestamp": "06:02"}
+      ],
+      "headHoles": [
+        {"location": "Wall across from Games into the Barbecue/window area", "note": "Lets a defender in Games hold onto the door and this angle through to the Barbecue (Terrace) area.", "timestamp": "02:29"},
+        {"location": "Showers wall", "note": "Made so that after falling back from Games you can return to Showers and hold from a different angle; also lets you hold the Games door from a tight angle.", "timestamp": "03:33"},
+        {"location": "Standing on the washing machine, one hole", "note": "Lets you hold the breach and the Shower window on a tight angle. Risky — easy to fall off, so don't overcommit.", "timestamp": "04:18"},
+        {"location": "Just before Bull Stairs (near hatch)", "note": "Vertical/head hole made more for late-round use than early round since the nearby window is busy mid-round.", "timestamp": "05:42"},
+        {"location": "Two head holes this side (near Bull/Barbecue) for when attackers push Games without pressuring Barbecue", "note": "Lets a defender push around this side and use the head holes to their advantage.", "timestamp": "06:24"}
+      ],
+      "rotates": [
+        {"location": "Wall into Laundry, positioned behind the bomb and box", "note": "Line it up so you're hidden from the door but still behind the box/bomb when crouched coming through — roughly in the middle of the wall. Too far one way and the door sees you.", "timestamp": "01:04"},
+        {"location": "Small rotate out of the side of Laundry", "note": "Only useful for getting out of the side of Laundry. Must check the nearby window barricade is up first — if it's down and being held, this rotate is unusable. Valuable late-round for escaping past someone holding the main door, or escaping Kids/getting trapped in Laundry.", "timestamp": "01:26"}
+      ],
+      "hatches": [
+        {"location": "Piano hatch", "note": "Definitely want this open — if you end up in a perilous position in Piano you can drop the hatch and come back up.", "timestamp": "06:24"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Hidden from the Games window", "operator": "Azami", "note": "Source audio said 'a zomi' and 'keyo barrier' — read as Azami placing a Kiba Barrier here so the defender in Games is hidden from the window while holding this angle and through to the Barbecue area. High-confidence ASR read given the gadget name matches Azami's Kiba Barrier exactly.", "timestamp": "02:29"},
+        {"location": "Bottom of the stairs near the washing machine/banister", "note": "Shoot the flower pot once (don't punch it) so it survives, then use it plus the banister as a step to stand on and hold the bottom of the stairs from an angle attackers won't expect. Creator calls this more of an exploit than an intended mechanic.", "timestamp": "04:58"},
+        {"location": "Top of the stairs (info gadget)", "note": "Source audio listed 'a prox mine, an Al mine, a banshe' — the 'banshe' matches Melusi's Banshee Sensor gadget with reasonable confidence given it's a named device, but the 'Al mine' reference is unclear (could be a generic alarm or an ASR fragment) and is NOT confirmed as any specific operator — treat as an unconfirmed early-warning gadget. Point is to always have some form of info/trap on these stairs.", "timestamp": "04:58"},
+        {"location": "Anchor spot in Bull/Barbecue area", "note": "Use the reinforcement here for cover, can peek the breach and watch the window from this spot.", "timestamp": "06:44"},
+        {"location": "Dorms/Showers anchor spot", "note": "Don't sit in Dorms itself — too easy to get pushed out. Hold from further back in Showers instead, watching the window and the walk-in from the breach.", "timestamp": "06:44"},
+        {"location": "Solid anchor spot near the window/breach", "note": "Put a shield across the spot to cover the window, then move around (still behind the shield) to also cover the breach angle. No operator confirmed for the shield in the transcript.", "timestamp": "07:28"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Azami (unconfirmed — see gadgetPlacements note)", "role": "Games anchor", "note": "Recommended to hold Games with a Kiba Barrier on the window angle; needs to hold Games as long as possible without dying, taking drone/utility damage but falling back once pressured through the window or from Bull."},
+        {"operator": "Unconfirmed — source audio said 'ideally as Army', doesn't match a real Defense operator", "role": "Showers/anchor", "note": "Do not guess a specific operator here; treat as unconfirmed until verified directly against the video."}
+      ],
+      "generalTips": [
+        {"note": "Hold Games for as long as possible without dying — kill a few drones, eat some flashbangs/utility, get a kill if you can, but don't overstay. Letting an attacker take Games for free within 20 seconds gives them control of Showers, Laundry, and Piano.", "timestamp": "02:51"},
+        {"note": "The Shower window breach is the one most attackers end up opening — know your safe standing spots relative to it so you don't die to that window.", "timestamp": "03:54"},
+        {"note": "Recommended peek technique on the Shower window: line up the angle before crouching, wait for the pixel/movement on the side of the window, then pre-fire once you hear them.", "timestamp": "04:18"},
+        {"note": "Creator doesn't rate this as a strong site — considers it easier to attack than Party/Office. Prefers defending Party/Office over this one.", "timestamp": "07:49"},
+        {"note": "Needs a decent roamer — someone anchoring Games to start, plus someone roaming Bull/Office/Party/top of Bull Stairs.", "timestamp": "08:09"}
+      ]
+    },
+    {
+      "id": "party-office",
+      "workingName": "Party / Office (Bull)",
+      "floor": "Ground Floor",
+      "callouts": ["Party", "Office", "Bull", "Garage", "Garage Stairs", "Supply", "Electrical", "Games Door", "Bull Stairs/Shark Stairs"],
+      "reinforcements": [
+        {"location": "Bottom two Garage walls", "note": "The creator says nobody ever reinforces these but you must — leaving them soft is a free way in for attackers, who can sneak underneath the rafters and come up at the top of Garage Stairs unopposed.", "timestamp": "08:30"},
+        {"location": "Right-hand wall of Office into Garage (Supply)", "note": "Third and fourth of the ten reinforcements on this site.", "timestamp": "08:51"},
+        {"location": "Middle two walls of Party through to Bull area", "note": "Reinforcements 6 and 7.", "timestamp": "09:12"},
+        {"location": "Right-hand single wall from Party through into Office (of the quad wall)", "note": "Only reinforce one of the four wall segments here — reasoning covered under rotates/general tips below (keeps attackers guessing about which side to worry about).", "timestamp": "09:12"},
+        {"location": "Two walls from Bull into Games", "note": "Final two reinforcements, bringing the total to ten used on this site.", "timestamp": "09:12"}
+      ],
+      "headHoles": [
+        {"location": "Behind the bomb, angled onto the door", "note": "Nice angle onto the door from behind the bomb.", "timestamp": "11:20"},
+        {"location": "Two more head holes, kept low to the ground", "note": "Gives a cheeky angle onto the top of Shark (Bull) Stairs. Keep them low/small so attackers can't get a good angle back onto you.", "timestamp": "12:02"},
+        {"location": "In Supply, angle onto the breach", "note": "Destroy the papers/boxes near the breach, then tuck in and make the hole hidden by the shelves (don't shoot the shelf itself, only the breach wall) for a nice angle on the breach.", "timestamp": "12:23"},
+        {"location": "Garage Stairs (mirrors the Shark Stairs angle)", "note": "Lets you hold Garage Stairs for anyone coming up.", "timestamp": "12:45"}
+      ],
+      "rotates": [
+        {"location": "Party/Bull rotate", "note": "First rotate made on this site — needed because otherwise the only way from Party back to Office is the long way around via Electrical and Supply.", "timestamp": "09:33"},
+        {"location": "Two side walls of the Party→Office quad wall left soft (not reinforced)", "note": "Deliberately left soft (mirrors a technique from Theme Park) so defenders can peek either the door or the window from this side, forcing attackers exiting Bull to worry about multiple angles instead of just droning one reinforced wall and walking in free.", "timestamp": "10:16"},
+        {"location": "Garage — optional rotate near Garage Stairs", "note": "Optional; lets a defender get more aggressive and pop out to fight into Garage late-round if attackers are holding an angle there. Caution: since the box near here allows vaulting, making this rotate too big lets attackers vault through it — keep it low enough to peek out but not vault through.", "timestamp": "12:45"}
+      ],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Drone hole covering the site", "operator": "Mute", "note": "Mute this drone hole — imperative, it gives intel-denial for the whole site.", "timestamp": "13:48"},
+        {"location": "Games door coming out into Bull", "operator": "Mute", "note": "Mute here too — this is where most attacks come through if not the main breach, so denying drone info here is crucial and slows attackers significantly.", "timestamp": "13:48"},
+        {"location": "Either side of a door near Garage Stairs (right side preferred)", "operator": "Mute", "note": "Final Mute jammer placement, right side preferred so it isn't immediately visible to attackers coming up Garage Stairs; denies them information.", "timestamp": "14:08"},
+        {"location": "Office power position, behind a reinforcement", "note": "Playing here means you can't get smoked from Garage door; can also make a line of sight to hold Garage door from here, and use the reinforcement as cover.", "timestamp": "14:49"},
+        {"location": "Prone punch hole lined up with the Office door", "note": "Make a small punch hole at floor level, prone, in line with the door — attackers focus on the big holes above and miss the punch hole, giving a free kill on rushers (e.g. an Ash-style push through Laundry/Showers). Don't camp it the whole round or you'll get found.", "timestamp": "14:49"},
+        {"location": "Elevated spot overlooking Bull", "note": "Get up on a raised position so your head is at a height nobody peeking round Bull expects — your head can even be mostly blocked by the attacker's sight housing from below, making you very hard to spot.", "timestamp": "15:10"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Mute", "role": "Anchor / intel denial", "note": "Runs three jammer placements: the drone hole, the Games-door approach into Bull, and the door near Garage Stairs. Denies attackers drone info on the main approaches."}
+      ],
+      "generalTips": [
+        {"note": "This is the creator's favourite site on the map. Ten reinforcements are used in total, and the team needs to be briefed on the plan since it's more involved to set up than Games/Laundry.", "timestamp": "08:09"},
+        {"note": "Head holes onto Shark Stairs mean attackers could technically cut off a chunk of the site by holding that angle — counter this by starting a player over in Games/Laundry/Showers to contest the far end of the map and force attacker drones to be spent, rather than ceding that whole end of the map for free.", "timestamp": "10:58"},
+        {"note": "If a defender destroys an attacker's drone near this end of the map and then repositions, it tells attackers someone's there without revealing where they went — a useful piece of misdirection.", "timestamp": "11:20"},
+        {"note": "Considered more solid overall than Piano/Laundry, despite needing more setup and team coordination.", "timestamp": "16:13"}
+      ]
+    },
+    {
+      "id": "green-red-bedroom",
+      "workingName": "Green / Red Bedroom",
+      "floor": "Top Floor",
+      "callouts": ["Green Bedroom", "Red Bedroom", "Closet", "Reptile Hallway", "Coffee Door / Vending Door", "Yellow Stairs / Laundry Stairs", "Bathroom", "Wardrobe", "Reception", "Bottom Shark"],
+      "reinforcements": [
+        {"location": "Two walls from Closet out to the door between Reptile Hallway and the coffee machine area", "note": "Creator improvises a callout on the spot ('coffee door' or 'vending door') since he'd never named this door before — not a verified wiki callout.", "timestamp": "16:33"},
+        {"location": "Two walls from Red Bedroom out towards the bottom of Yellow (Laundry) Stairs", "note": "Reinforcements 3 and 4 on this site.", "timestamp": "17:15"},
+        {"location": "Two walls from Red Bedroom out to actual Reptile Hallway", "note": "Reinforcements 5 and 6. There's an argument for leaving one of these soft and making a rotate there instead (see rotates below).", "timestamp": "17:15"},
+        {"location": "Two Dorms/Doms walls upstairs", "note": "Final two reinforcements (same style used on the Piano/Laundry site upstairs area) — needed to hold the upstairs footprint above Green and Red Bedroom.", "timestamp": "17:15"}
+      ],
+      "headHoles": [
+        {"location": "Bathroom door, from above", "note": "Lets you hold the bathroom door from the upstairs footprint if anyone pushes through it.", "timestamp": "18:18"},
+        {"location": "Second bathroom door, from above (mirrors the first)", "note": "Same technique applied to the other bathroom door.", "timestamp": "18:18"},
+        {"location": "Key vertical hole directly above the corner of the breach room", "note": "The single most important vertical to make on this site — most attacking teams open the wall breach, smoke it off, then plant tucked in this corner where a downstairs defender has almost no way to contest them. Holding this hole from above is the counter.", "timestamp": "18:40"},
+        {"location": "Vertical hole above the Reptile Hallway-to-bottom-Yellow-door approach", "note": "Lets you hold people coming from Reptile Hallway all the way back, and people coming in from the bottom Yellow door, from above. Watch your back for anyone coming through the bridge.", "timestamp": "19:24"},
+        {"location": "Vertical above another door (near reception)", "note": "Additional vertical hole to hold down onto that door from above.", "timestamp": "22:35"},
+        {"location": "Hole into the wardrobe", "note": "Move the bolt on the wardrobe and make a hole through it to hold the door.", "timestamp": "22:56"}
+      ],
+      "rotates": [
+        {"location": "Two rotates, one at either end of the Green/Red Bedroom dividing wall", "note": "Lets defenders move between the two halves of the site; pair with a line of sight across the middle. Generally Green Bedroom is the safer side — pushes usually come from the Red side.", "timestamp": "19:45"},
+        {"location": "Rotate/peek near flight cases", "note": "Crouch through and you're generally safe hiding behind the flight cases on the other side.", "timestamp": "20:09"},
+        {"location": "Vault rotate onto Reptile Hallway (via cabinet)", "note": "Destroy the cabinet with an impact charge or C4 (shotgun won't work), make a hole, climb up and vault over — functions like a rotate onto Reptile Hallway. Useful if trapped in Closet with nowhere to go, or to push pressure onto Reptile Hallway.", "timestamp": "20:50"},
+        {"location": "Optional rotate near the reinforced Red Bedroom/Reptile Hallway wall", "note": "Argued alternative to fully reinforcing this wall — lets a pressured defender come through and appear behind a tank prop to pressure Reptile Hallway. Only make this if you'll actually play around that area afterward; making a rotate and then abandoning it just hands attackers a free path in.", "timestamp": "21:31"},
+        {"location": "Optional rotate for holding the reception/reptile angle", "note": "Would let a defender hold that angle for free from Reptile as well, at the cost of being at the mercy of the wall being soft there.", "timestamp": "23:37"}
+      ],
+      "hatches": [],
+      "gadgetPlacements": [
+        {"location": "Upstairs, on all four Dorms-style entry points", "operator": "Castle", "note": "Castle barricades this door, this door, this window, and that window, then turtles in upstairs with a teammate. Explicitly named and confirmed as Castle (Defense operator) in the transcript.", "timestamp": "17:58"},
+        {"location": "Upstairs hatch", "note": "Open this hatch (not barricaded) as an escape route back down to site once holding upstairs for long enough.", "timestamp": "17:58"},
+        {"location": "Wardrobe/bathroom door area", "note": "Source audio said 'a prox m or Maly Banshee' — likely Melusi's Banshee Sensor again (moderate-high confidence, same gadget name as the Piano/Laundry site reference) for early warning if anyone launches through the bathroom window. No operator name should be treated as fully confirmed beyond the gadget name matching Melusi.", "timestamp": "22:56"}
+      ],
+      "operatorRecommendations": [
+        {"operator": "Castle", "role": "Upstairs anchor", "note": "Preferred pick to barricade all four upstairs entry points and turtle in with a partner, holding the vertical above both bedrooms."}
+      ],
+      "generalTips": [
+        {"note": "This might be the creator's favourite site on the map, or a very close second to Party/Office.", "timestamp": "16:13"},
+        {"note": "Holding upstairs is critical — the upstairs footprint sits directly above Green Bedroom, Red Bedroom, and roughly above Piano as well, so it dominates the site if held well. Hold it with everything but don't die up there.", "timestamp": "17:36"},
+        {"note": "Be careful that any rotate or line of sight you create relies on a defender actually playing near it — making a rotate and then abandoning that area just hands attackers a free path.", "timestamp": "21:54"},
+        {"note": "The corner near the breach (with a soft wall and a nearby door) is an attacker's dream if left uncontested from above — they only need to breach the wall and plant, with a downstairs defender largely unable to stop them.", "timestamp": "23:17"},
+        {"note": "Generally you'll get a free kill from the upstairs vertical holes since attackers often rush in expecting to plant uncontested.", "timestamp": "23:59"}
+      ]
+    },
+    {
+      "id": "mechanic-kitchen",
+      "workingName": "Mechanic / Kitchen",
+      "floor": "Top Floor",
+      "callouts": ["Mechanic", "Kitchen", "Waiting (crashed Lorry room)", "Garage", "Supply/Electrical", "Party", "Reptile Hallway", "Lobby", "Reception", "Shark Stairs"],
+      "reinforcements": [
+        {"location": "Two walls from Mechanic into the crashed vehicle room (Waiting)", "note": "First two of eight reinforcements used on this site (four downstairs, four upstairs). Creator calls the room 'Lorry' informally but notes the official name is Waiting.", "timestamp": "24:42"},
+        {"location": "Two reinforcements on the lower Garage wall going upstairs", "note": "Third and fourth reinforcements.", "timestamp": "25:03"},
+        {"location": "Two reinforcements on the Supply/Electrical breach", "note": "Fifth and sixth reinforcements, mirrors the setup on the Party/Office site.", "timestamp": "25:03"},
+        {"location": "Two reinforcements on the middle Party walls", "note": "Final two reinforcements — same reasoning as the Party/Office site setup (leaves the outer walls soft to force attackers to worry about multiple angles).", "timestamp": "25:03"}
+      ],
+      "headHoles": [
+        {"location": "Upstairs line of sight watching Garage Stairs", "note": "Mirrors the Garage Stairs angle from the Party/Office site.", "timestamp": "25:24"},
+        {"location": "Upstairs line of sight watching Shark Stairs", "note": "Final upstairs line of sight, watching the other stairwell.", "timestamp": "25:24"},
+        {"location": "Optional extra wall reinforcement upstairs (x2)", "note": "Two additional walls the creator didn't reinforce in this run but says he probably would recommend doing so.", "timestamp": "25:45"}
+      ],
+      "rotates": [
+        {"location": "Upstairs rotate (first)", "note": "Paired with a second rotate and a line of sight across, same pattern as other sites' upstairs setups.", "timestamp": "25:24"},
+        {"location": "Upstairs rotate (second)", "note": "Paired with the first upstairs rotate.", "timestamp": "25:24"},
+        {"location": "Two rotates into Kitchen, one on each side", "note": "Lets you get through both sides of the wall into Kitchen if needed.", "timestamp": "26:25"},
+        {"location": "Rotate to get out of Kitchen (instead of reinforcing the wall attackers normally reinforce-block)", "note": "Controversial — creator recommends NOT reinforcing this wall and making a rotate instead. Kitchen has two doors and is hard to play directly, so this rotate lets you escape instead of being trapped, and lets you aggress onto Garage or vice versa without using the two obvious sight rotates that might be watched from Garage.", "timestamp": "26:47"},
+        {"location": "Rotate toward Reptile Hallway / Lobby door", "note": "Requires a team that knows what it's doing. Lets a defender hold the Lobby door from a different angle, aggress onto it or the other door, then rotate back into the site unpredictably. Good flexibility/maneuverability but limited value to an attacker who reaches the same spot (little visibility for them).", "timestamp": "27:08"}
+      ],
+      "hatches": [
+        {"location": "Hatch above the bomb (site is soft above on both plant locations)", "note": "Open this hatch as a way of getting back down into site once you've held upstairs for as long as possible.", "timestamp": "26:05"}
+      ],
+      "gadgetPlacements": [
+        {"location": "Mechanic desk/reception area", "note": "Natural cover to play behind; good spot for an ACOG-style loadout to hold angles onto the door and around onto Garage. No specific operator named in the transcript for this position.", "timestamp": "28:53"}
+      ],
+      "operatorRecommendations": [],
+      "generalTips": [
+        {"note": "The creator considers this site under-explored ('has a bit of potential but you never see it played') and one of his two favourite/'off' sides on the map alongside Green/Red Bedroom — feels fresher and more interesting to play than Piano/Laundry or Party/Office.", "timestamp": "24:21"},
+        {"note": "Hold upstairs with everything since attackers opening up the vertical above restricts defender movement badly — but fall back down through the hatch before you die.", "timestamp": "28:32"},
+        {"note": "Holding the Mechanic door, the window, and down onto Reception are key downstairs responsibilities.", "timestamp": "28:32"},
+        {"note": "This site needs more team coordination and pre-round planning (who holds where) than Party/Office, which the creator considers more straightforward to just walk into and play.", "timestamp": "29:14"},
+        {"note": "If solo queuing without coordinated teammates, the deeper rotate plays (e.g. the Reptile Hallway/Lobby rotate) are probably not worth attempting.", "timestamp": "28:32"}
+      ]
+    }
+  ]
+}
