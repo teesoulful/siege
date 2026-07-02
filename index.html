@@ -339,6 +339,13 @@ async function initAuth(){
 }
 
 async function onAuthed(session){
+  // Belt-and-braces: the realtime socket is supposed to auto-pick-up the
+  // session token via the auth client's internal wiring, but explicitly
+  // setting it here rules out any CDN-build timing gap as the cause of
+  // "subscribed but never receives events" (an RLS-authenticated realtime
+  // connection with no valid JWT attached behaves exactly like that).
+  if(session.access_token) sb.realtime.setAuth(session.access_token);
+
   const email = session.user.email;
   const { data: player } = await sb.from('players').select('*').eq('email', email).maybeSingle();
   const statusEl = document.getElementById('loginStatus');
