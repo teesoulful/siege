@@ -14,17 +14,17 @@
       "floor": "Top Floor",
       "callouts": ["CEO Office", "Square", "Janitor", "Trump Room", "Meeting Room", "Stock Room", "Kanto Wall Corridor", "Elevator"],
       "reinforcements": [
-        {"location": "West wall of CEO Office (x2)", "note": "Shoot the top of the wall and C4 over it instead of a straight wall-bang.", "timestamp": "01:55"},
-        {"location": "West wall of CEO Office / right-side head holes", "note": "Don't reinforce this and the CEO wall both — leaves Square wide open. Keep head holes onto Janitor.", "timestamp": "02:06"},
-        {"location": "Wall between CEO Office and Janitor", "note": "Play Janitor tied to this door; hold into Stock through it.", "timestamp": "02:32"},
-        {"location": "East wall of Kanto Wall Corridor (x2, near Trump/Stock)", "note": "Bring a Bandit — the batteries are awkward for attackers to reach with EMP from this angle. Skip Thatcher, his EMP doesn't detonate on impact here.", "timestamp": "08:18"},
-        {"location": "North wall of Trump Room", "note": "Watch the west repel spot outside these windows.", "timestamp": "04:23"},
-        {"location": "Meeting Room wall (facing Stock)", "note": "Pair with a head hole into Stock.", "timestamp": "06:37"}
+        {"location": "West Wall of CEO Office, Left Side (x2)", "note": "Shoot the top of the wall and C4 over it instead of a straight wall-bang.", "timestamp": "01:55"},
+        {"location": "Wall Between CEO Office and Janitor", "note": "Play Janitor tied to this door; hold into Stock through it.", "timestamp": "02:32"},
+        {"location": "East Wall of Kanto Wall Corridor, x2 (near Trump/Stock)", "note": "Bring a Bandit — the batteries are awkward for attackers to reach with EMP from this angle. Skip Thatcher, his EMP doesn't detonate on impact here.", "timestamp": "08:18"},
+        {"location": "North Wall of Trump Room", "note": "Watch the west repel spot outside these windows.", "timestamp": "04:23"},
+        {"location": "Meeting Room Wall (facing Stock)", "note": "Pair with a head hole into the same wall.", "timestamp": "06:37"}
       ],
       "headHoles": [
-        {"location": "Wall at back of CEO Office (into Square)", "note": "Best used with a DMR or ACOG.", "timestamp": "06:07"},
-        {"location": "West wall of CEO Office (facing the 4 windows)", "note": "Don't make this the first thing you do in a round — play Janitor early instead.", "timestamp": "03:10"},
-        {"location": "Meeting Room wall into Stock", "note": "", "timestamp": "06:37"}
+        {"location": "West Wall of CEO Office, Right Side", "note": "Keep this side soft — head holes onto Janitor only. Don't reinforce it, or Square opens up completely.", "timestamp": "02:06"},
+        {"location": "Wall at Back of CEO Office (into Square)", "note": "Best used with a DMR or ACOG.", "timestamp": "06:07"},
+        {"location": "West Wall of CEO Office (facing the 4 windows)", "note": "Don't make this the first thing you do in a round — play Janitor early instead.", "timestamp": "03:10"},
+        {"location": "Meeting Room Wall (facing Stock)", "note": "Same wall as the reinforcement — gives sightline into Stock.", "timestamp": "06:37"}
       ],
       "rotates": [
         {"location": "Wall near Trump/Stock stairs", "note": "Make the rotate hole on the LEFT side, not the right — right side exposes you to the top of the spiral/banana stairs.", "timestamp": "05:08"}
@@ -36,9 +36,9 @@
         {"location": "West side of Meeting Room (desks room)", "operator": "Azami or Frost", "note": "Frost mats under each window; play behind the desks (clear the monitor first for sightline). Shield covers the angle toward Square. Watch for grenades thrown in — bring Kaid wall or Jäger if you can.", "timestamp": "06:50"}
       ],
       "operatorRecommendations": [
-        {"operator": "Bandit", "role": "Anchor", "note": "Protects the Kanto Wall batteries."},
-        {"operator": "Valkyrie", "role": "Intel/Anchor", "note": "Runs this site most rounds; sets up the corridor camera."},
-        {"operator": "Azami or Frost", "role": "Anchor", "note": "Runs the Meeting Room desks room with mats/Kiba barriers on the window angles."}
+        {"operator": "Bandit", "role": "Anchor", "holdLocation": "Kanto Wall Corridor", "note": "Protects the Kanto Wall batteries."},
+        {"operator": "Valkyrie", "role": "Intel/Anchor", "holdLocation": "Corridor Camera Corner", "note": "Runs this site most rounds; sets up the corridor camera."},
+        {"operator": "Azami or Frost", "role": "Anchor", "holdLocation": "Meeting Room Desks", "note": "Runs the Meeting Room desks room with mats/Kiba barriers on the window angles."}
       ],
       "generalTips": [
         {"note": "Don't reinforce every CEO/window-facing wall — leave at least one angle to shoot back from.", "timestamp": "03:18"},
@@ -78,9 +78,9 @@
         {"location": "Behind the bomb, facing the hatch", "operator": "Kaid (Electroclaw)", "note": "Crouch and throw the electroclaw from directly behind the bomb, not from an exposed angle. Stand up to retrieve it if needed.", "timestamp": "20:52"}
       ],
       "operatorRecommendations": [
-        {"operator": "Smoke", "role": "Anchor", "note": "Reinforces and plays the Server hatch; runs both prox mines."},
-        {"operator": "Kaid", "role": "Anchor", "note": "Keeps the hatch near the bomb closed with electroclaw from a safe crouch angle."},
-        {"operator": "DMR/ACOG operator (e.g. Aruni)", "role": "Garage watch", "note": "Covers the Garage push, default plant, and side door through the Garage head holes."}
+        {"operator": "Smoke", "role": "Anchor", "holdLocation": "Server Room", "note": "Reinforces and plays the Server hatch; runs both prox mines."},
+        {"operator": "Kaid", "role": "Anchor", "holdLocation": "Server Hatch (near bomb)", "note": "Keeps the hatch near the bomb closed with electroclaw from a safe crouch angle."},
+        {"operator": "DMR/ACOG operator (e.g. Aruni)", "role": "Garage watch", "holdLocation": "Garage", "note": "Covers the Garage push, default plant, and side door through the Garage head holes."}
       ],
       "generalTips": [
         {"note": "Gold is mainly a safe rotate path toward the hatch-drop area.", "timestamp": "16:02"},
@@ -118,8 +118,8 @@
         {"location": "Same upstairs pocket", "operator": "Alibi", "note": "Alternative pick — Prisma projectors near the rotate.", "timestamp": "27:32"}
       ],
       "operatorRecommendations": [
-        {"operator": "Lesion or Alibi", "role": "Upstairs roamer", "note": "Holds the Janitor-adjacent pocket above this site with trap/intel gadgets and a rotate back to CEO."},
-        {"operator": "Mute", "role": "Anchor (Kitchen)", "note": "Holds Kitchen with a shotgun once the wall there gets opened."}
+        {"operator": "Lesion or Alibi", "role": "Upstairs roamer", "holdLocation": "Janitor-Adjacent Pocket (Upstairs)", "note": "Holds the Janitor-adjacent pocket above this site with trap/intel gadgets and a rotate back to CEO."},
+        {"operator": "Mute", "role": "Anchor (Kitchen)", "holdLocation": "Kitchen", "note": "Holds Kitchen with a shotgun once the wall there gets opened."}
       ],
       "generalTips": [
         {"note": "Only vert here is the Stock Room footprint directly above Kitchen (visible through a ceiling hole).", "timestamp": "22:11"},
@@ -157,8 +157,8 @@
         {"location": "Desks/windows room (mirrors Meeting room)", "operator": "Azami or Frost", "note": "Same shield + mats setup as the CEO/Meeting site's desks room.", "timestamp": "32:25"}
       ],
       "operatorRecommendations": [
-        {"operator": "Ela, Lesion, or another trap-style defender (e.g. Kapkan, Melusi)", "role": "Downstairs anchor", "note": "Covers both downstairs side approaches with up to three retreat routes back toward Main Lobby."},
-        {"operator": "Caveira", "role": "Downstairs anchor (situational)", "note": "Usable, but a well-known angle to good attacking teams."}
+        {"operator": "Ela, Lesion, or another trap-style defender (e.g. Kapkan, Melusi)", "role": "Downstairs anchor", "holdLocation": "Downstairs Approaches", "note": "Covers both downstairs side approaches with up to three retreat routes back toward Main Lobby."},
+        {"operator": "Caveira", "role": "Downstairs anchor (situational)", "holdLocation": "Downstairs Approaches", "note": "Usable, but a well-known angle to good attacking teams."}
       ],
       "generalTips": [
         {"note": "Recommended 3-player upstairs split: one on Front Desk, one in Talis, one in the upper Open Area room.", "timestamp": "35:18"},

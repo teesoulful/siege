@@ -748,10 +748,10 @@ function distributeSiteTasks(setup, playerOps){
   });
 
   const pool = [
-    ...(setup.reinforcements || []).map(i => ({...i, field: 'reinforce'})),
-    ...(setup.hatches || []).map(i => ({...i, field: 'reinforce'})),
-    ...(setup.headHoles || []).map(i => ({...i, field: 'rotate'})),
-    ...(setup.rotates || []).map(i => ({...i, field: 'rotate'})),
+    ...(setup.reinforcements || []).map(i => ({...i, field: 'reinforce', action: 'Reinforce'})),
+    ...(setup.hatches || []).map(i => ({...i, field: 'reinforce', action: 'Hatch'})),
+    ...(setup.headHoles || []).map(i => ({...i, field: 'rotate', action: 'Head Holes'})),
+    ...(setup.rotates || []).map(i => ({...i, field: 'rotate', action: 'Rotate'})),
   ];
 
   const counts = {}; Object.keys(playerOps).forEach(pid => counts[pid] = 0);
@@ -760,12 +760,20 @@ function distributeSiteTasks(setup, playerOps){
 
   pool.forEach(item => {
     const itemKws = locationKeywords(item.location);
-    let best = null, bestScore = 0;
+    let bestScore = 0;
+    let tied = [];
     Object.entries(anchors).forEach(([pid, kws]) => {
       let score = 0;
       itemKws.forEach(k => { if(kws.has(k)) score++; });
-      if(score > bestScore){ bestScore = score; best = pid; }
+      if(score > bestScore){ bestScore = score; tied = [pid]; }
+      else if(score === bestScore && score > 0){ tied.push(pid); }
     });
+    // Two operators recommended for the same room (e.g. "Azami or Frost")
+    // share identical anchor keywords and tie on every item — always
+    // picking the first alphabetically would leave one of them with an
+    // empty Site Setup section. Give ties to whoever's carrying the
+    // fewest items so far instead.
+    const best = tied.length ? tied.sort((a, b) => counts[a] - counts[b])[0] : null;
     if(best){ result[best][item.field].push(item); counts[best]++; }
     else unclaimed.push(item);
   });
@@ -956,22 +964,25 @@ function renderInstructions(){
     return;
   }
 
-  // 3a/3b. Reinforce, Rotations/Head Hole — team-wide tasks, but split
-  // geographically across the squad (distributeSiteTasks) rather than
-  // dumping the whole site's list on every player. No single operator
-  // covers a whole site's reinforcements, and nobody can read 12 items
-  // mid-round — each person gets only their own pocket of the site.
+  // 3a. Site Setup — reinforce/hatch/head-hole/rotate tasks combined into one
+  // section so the visible chip always states its own action ("Reinforce" vs
+  // "Head Holes") instead of splitting into separate sections that can look
+  // contradictory (e.g. a wall filed under "Reinforce" whose detail says not
+  // to reinforce it). Team-wide, but split geographically across the squad
+  // (distributeSiteTasks) rather than dumping the whole site's list on every
+  // player. Sorted by location text so paired items on the same wall (one
+  // reinforce entry, one head-hole entry) land next to each other.
   const activePicks = {};
   activeRoster().forEach(p => { if(state.picks[p.id]) activePicks[p.id] = state.picks[p.id]; });
   const myShare = (state.side === 'Defense')
     ? distributeSiteTasks(setup, activePicks)[you.id] || {reinforce: [], rotate: []}
     : {reinforce: [], rotate: []}; // attack has no reinforce/rotate concept
 
-  field('Reinforce', myShare.reinforce, (i, idx) =>
-    taskChip(`${idBase}|reinf|${idx}|${i.location}`, i.location, i.note, i.timestamp, false));
+  const siteSetupItems = [...myShare.reinforce, ...myShare.rotate]
+    .sort((a, b) => a.location.localeCompare(b.location));
 
-  field('Rotations / Head Hole', myShare.rotate, (i, idx) =>
-    taskChip(`${idBase}|rot|${idx}|${i.location}`, i.location, i.note, i.timestamp, false));
+  field('Site Setup', siteSetupItems, (i, idx) =>
+    taskChip(`${idBase}|setup|${idx}|${i.location}`, `${i.action}: ${i.location}`, i.note, i.timestamp, false));
 
   // 3c. Utilities — this operator's gadget only, capped at their real charge
   // count when we have it verified (data/operators.json -> utility). Until
@@ -989,10 +1000,13 @@ function renderInstructions(){
     panel.appendChild(el('div', 'setupempty', `Only ${utilInfo.count}× ${utilInfo.gadget} — ${myGadgets.length - utilInfo.count} more spot(s) need a teammate or a plain reinforcement instead.`));
   }
 
-  // 3d. Defend — this operator's hold position(s) only
+  // 3d. Defend — this operator's hold position(s) only. Label uses the real
+  // room/location (holdLocation) when we have it, not the abstract role word
+  // ("Anchor") — you should be able to read the chip and know exactly where
+  // to stand without opening it.
   const myHolds = (setup.operatorRecommendations||[]).filter(i => i.operator && i.operator.includes(yourOp));
-  field('Defend', myHolds, (i, idx) =>
-    taskChip(`${idBase}|def|${idx}`, i.role, i.note, '', true));
+  field(state.side === 'Defense' ? 'Defend' : 'Role', myHolds, (i, idx) =>
+    taskChip(`${idBase}|def|${idx}`, i.holdLocation || i.role, i.note, '', true));
 
   // 4. Squad synergy — only if a teammate's pick pairs with this one
   const synergyHits = [];
