@@ -3,6 +3,33 @@
 -- Safe to run once on a fresh project. See seed.sql for the follow-up step
 -- that needs the squad's real email addresses.
 
+-- Helper functions used by every RLS policy below. Written as SECURITY
+-- DEFINER so the internal lookup against `players` runs with the
+-- function owner's privileges and bypasses `players`' own RLS — without
+-- this, a policy on `players` (or any table) that subqueries `players`
+-- triggers that same policy again recursively ("infinite recursion
+-- detected in policy for relation players").
+create or replace function is_squad_member()
+returns boolean
+language sql
+security definer
+set search_path = public
+stable
+as $$
+  select exists (select 1 from players where email = auth.email());
+$$;
+
+create or replace function is_own_player(pid text)
+returns boolean
+language sql
+security definer
+set search_path = public
+stable
+as $$
+  select exists (select 1 from players where id = pid and email = auth.email());
+$$;
+
+
 -- ---------------------------------------------------------------------
 -- players: fixed roster of 4. Login identity is resolved by matching the
 -- authenticated user's email against this table — no manual "who am I"
@@ -19,7 +46,7 @@ alter table players enable row level security;
 -- Only visible to the 4 registered squad emails, not any random signup.
 create policy "squad can view players" on players
   for select
-  using (auth.email() in (select email from players));
+  using (is_squad_member());
 
 
 -- ---------------------------------------------------------------------
@@ -46,12 +73,12 @@ alter table match_state enable row level security;
 
 create policy "squad can view match state" on match_state
   for select
-  using (auth.email() in (select email from players));
+  using (is_squad_member());
 
 create policy "squad can update match state" on match_state
   for update
-  using (auth.email() in (select email from players))
-  with check (auth.email() in (select email from players));
+  using (is_squad_member())
+  with check (is_squad_member());
 
 
 -- ---------------------------------------------------------------------
@@ -69,24 +96,12 @@ alter table player_status enable row level security;
 
 create policy "squad can view player status" on player_status
   for select
-  using (auth.email() in (select email from players));
+  using (is_squad_member());
 
 create policy "only own row is writable" on player_status
   for update
-  using (
-    exists (
-      select 1 from players
-      where players.id = player_status.player_id
-      and players.email = auth.email()
-    )
-  )
-  with check (
-    exists (
-      select 1 from players
-      where players.id = player_status.player_id
-      and players.email = auth.email()
-    )
-  );
+  using (is_own_player(player_id))
+  with check (is_own_player(player_id));
 
 
 -- ---------------------------------------------------------------------
