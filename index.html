@@ -255,6 +255,15 @@ const ROSTER = [
 // editing operator data, then refresh. See dist/data.js.
 const OPERATORS = window.SIEGE_OPERATORS || {};
 const OPERATOR_UTILITY = window.SIEGE_OPERATOR_UTILITY || {};
+const OPERATOR_LOADOUTS = window.SIEGE_OPERATOR_LOADOUTS || {};
+// Cutting a head hole or rotate needs a shotgun (primary or secondary) —
+// melee alone is too slow to be a real in-round option. Reinforcing doesn't
+// need one, that's the reinforcement gadget. Unknown/unverified operators
+// default to true rather than silently blocking a real assignment.
+function hasShotgun(opName){
+  const lo = OPERATOR_LOADOUTS[opName];
+  return lo ? !!lo.hasShotgunOption : true;
+}
 
 // Generated from data/strategies/*.json (built from real YouTube-transcript
 // breakdowns, cross-referenced against the R6 Wiki) via build_data.py.
@@ -717,13 +726,46 @@ function anyRemainingOperator(side, used){
     OPERATORS[op] === side && !state.banned.has(op) && !used.has(op));
 }
 
-// Room-name-ish keywords from a string: transcripts consistently
-// capitalize callouts (Kanto, Trump, Stock, CEO) but not generic
-// architecture words (wall, door, corner), so capitalized words are a
-// decent free signal for "which part of the site is this near."
+// Structural/directional words that describe HOW a wall is being worked,
+// not WHICH room it's in — "West Wall of CEO Office" and "Wall at Back of
+// CEO Office" both contain "Wall", but that's not a room match. Compass
+// locations are all Title Case now (every word capitalized), so the old
+// "capitalized = meaningful" heuristic alone over-matches on words like
+// this; strip them out before comparing.
+const LOCATION_STOPWORDS = new Set([
+  'the','a','an','of','and','or','on','with','x2','x3',
+  'wall','walls','side','sides','left','right','facing','into','between',
+  'near','optional','extra','budget','permitting','both','main','front',
+  'back','north','south','east','west','upper','lower','first','second',
+]);
+// Room-name-ish keywords from a string: transcripts consistently capitalize
+// callouts (Kanto, Trump, Stock, CEO) but Title Case locations capitalize
+// generic structural words too, so filter those out via LOCATION_STOPWORDS
+// rather than relying on capitalization alone.
 function locationKeywords(text){
   const words = (text.match(/\b[A-Z][a-zà-ÿ]*\b/g) || []).map(w => w.toLowerCase());
-  return new Set(words.filter(w => !['the','a','an'].includes(w)));
+  return new Set(words.filter(w => !LOCATION_STOPWORDS.has(w)));
+}
+
+// Strips parentheticals and any ", Left Side" / ", x2" / ", Main Section"
+// style trailing qualifier, leaving just the wall/feature's own name — used
+// to tell whether two location strings describe the SAME wall (must stay
+// with one player) vs. merely the same room (fine to split between
+// players). "West Wall of CEO Office, Left Side (x2)" and "West Wall of
+// CEO Office, Right Side" both reduce to "west wall of ceo office"; "Wall
+// at Back of CEO Office" does not, even though it shares "CEO"/"Office".
+function wallGroupKey(location){
+  return location
+    .replace(/\([^)]*\)/g, '')
+    .split(',')[0]
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, ' ');
+}
+function sameWallGroup(a, b){
+  const ka = wallGroupKey(a), kb = wallGroupKey(b);
+  if(!ka || !kb) return false;
+  return ka === kb || ka.startsWith(kb + ' ') || kb.startsWith(ka + ' ');
 }
 
 // A site's reinforcements/rotates/head holes/hatches are team-wide (anyone
@@ -747,41 +789,83 @@ function distributeSiteTasks(setup, playerOps){
     anchors[pid] = kws;
   });
 
-  const pool = [
+  const reinforceItems = [
     ...(setup.reinforcements || []).map(i => ({...i, field: 'reinforce', action: 'Reinforce'})),
     ...(setup.hatches || []).map(i => ({...i, field: 'reinforce', action: 'Hatch'})),
+  ];
+  const otherItems = [
     ...(setup.headHoles || []).map(i => ({...i, field: 'rotate', action: 'Head Holes'})),
     ...(setup.rotates || []).map(i => ({...i, field: 'rotate', action: 'Rotate'})),
   ];
 
+  // Group into units that must stay together: a reinforcement plus any head
+  // hole/rotate on the literal SAME wall (sameWallGroup — same name once
+  // side-qualifiers/parentheticals are stripped), not just the same room.
+  // Cutting the hole and reinforcing the rest of that one wall is one
+  // physical job for one person; a different wall in the same room is a
+  // separate job that can go to someone else. Anything with no match is its
+  // own single-item unit.
+  const claimedOther = new Set();
+  const units = [];
+  reinforceItems.forEach(r => {
+    const siblings = [];
+    otherItems.forEach((o, idx) => {
+      if(claimedOther.has(idx)) return;
+      if(sameWallGroup(r.location, o.location)){ siblings.push(o); claimedOther.add(idx); }
+    });
+    units.push({ items: [r, ...siblings], needsShotgun: siblings.length > 0 });
+  });
+  otherItems.forEach((o, idx) => {
+    if(claimedOther.has(idx)) return;
+    units.push({ items: [o], needsShotgun: true });
+  });
+
   const counts = {}; Object.keys(playerOps).forEach(pid => counts[pid] = 0);
   const result = {}; Object.keys(playerOps).forEach(pid => result[pid] = {reinforce: [], rotate: []});
-  const unclaimed = [];
+  const unclaimedUnits = [];
 
-  pool.forEach(item => {
-    const itemKws = locationKeywords(item.location);
+  units.forEach(unit => {
+    const unitKws = new Set();
+    unit.items.forEach(i => locationKeywords(i.location).forEach(k => unitKws.add(k)));
     let bestScore = 0;
     let tied = [];
     Object.entries(anchors).forEach(([pid, kws]) => {
       let score = 0;
-      itemKws.forEach(k => { if(kws.has(k)) score++; });
+      unitKws.forEach(k => { if(kws.has(k)) score++; });
       if(score > bestScore){ bestScore = score; tied = [pid]; }
       else if(score === bestScore && score > 0){ tied.push(pid); }
     });
-    // Two operators recommended for the same room (e.g. "Azami or Frost")
-    // share identical anchor keywords and tie on every item — always
-    // picking the first alphabetically would leave one of them with an
-    // empty Site Setup section. Give ties to whoever's carrying the
-    // fewest items so far instead.
-    const best = tied.length ? tied.sort((a, b) => counts[a] - counts[b])[0] : null;
-    if(best){ result[best][item.field].push(item); counts[best]++; }
-    else unclaimed.push(item);
+    // Cutting a head hole/rotate needs a shotgun-capable operator. If the
+    // best keyword-matching player's operator doesn't have one, the whole
+    // connected unit moves to the next best match who does, rather than
+    // splitting the reinforcement and the hole across two different
+    // players' cards.
+    let eligible = tied;
+    if(unit.needsShotgun){
+      const withShotgun = tied.filter(pid => hasShotgun(playerOps[pid]));
+      if(withShotgun.length){
+        eligible = withShotgun;
+      } else {
+        const anyShotgun = Object.keys(playerOps).filter(pid => hasShotgun(playerOps[pid]));
+        eligible = anyShotgun.length ? anyShotgun : tied;
+      }
+    }
+    // Ties (including the shotgun-widened case) go to whoever's carrying
+    // the fewest items so far, so two operators sharing one recommended
+    // slot (e.g. "Azami or Frost") don't leave one of them empty.
+    const best = eligible.length ? eligible.sort((a, b) => counts[a] - counts[b])[0] : null;
+    if(best){
+      unit.items.forEach(i => { result[best][i.field].push(i); counts[best]++; });
+    } else {
+      unclaimedUnits.push(unit);
+    }
   });
 
-  unclaimed.forEach(item => {
-    const pid = Object.keys(counts).sort((a, b) => counts[a] - counts[b])[0];
-    result[pid][item.field].push(item);
-    counts[pid]++;
+  unclaimedUnits.forEach(unit => {
+    const shotgunPids = Object.keys(playerOps).filter(pid => hasShotgun(playerOps[pid]));
+    const candidates = unit.needsShotgun && shotgunPids.length ? shotgunPids : Object.keys(playerOps);
+    const pid = candidates.sort((a, b) => counts[a] - counts[b])[0];
+    unit.items.forEach(i => { result[pid][i.field].push(i); counts[pid]++; });
   });
 
   return result;
