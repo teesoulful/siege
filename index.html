@@ -87,6 +87,7 @@
   .taskchip:hover{border-color:var(--amber-dim);}
   .taskchip.mine{border-color:var(--amber);background:rgba(232,161,60,.14);color:var(--amber);font-weight:600;}
   .taskchip.open{white-space:normal;max-width:100%;}
+  .taskchip.generated{border-style:dashed;}
   .taskdetail{font-size:12px;color:var(--text-dim);line-height:1.5;margin-top:4px;padding-top:4px;border-top:1px dashed var(--line);}
   .taskdetail .ts{color:var(--text-faint);margin-left:4px;}
   .instr{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1.5px solid var(--amber-dim);border-radius:14px;padding:24px 20px;margin-bottom:16px;}
@@ -256,6 +257,12 @@ const ROSTER = [
 const OPERATORS = window.SIEGE_OPERATORS || {};
 const OPERATOR_UTILITY = window.SIEGE_OPERATOR_UTILITY || {};
 const OPERATOR_LOADOUTS = window.SIEGE_OPERATOR_LOADOUTS || {};
+// General, operator-level (not site-specific) gadget facts — sourced from
+// official Ubisoft operator pages, not transcripts. Used only as a fallback
+// when a site's real transcript data has nothing for this operator, so a
+// pick like Bandit never shows an empty Utilities section just because the
+// creator's video didn't happen to mention his gadget on this site.
+const OPERATOR_GADGETS = window.SIEGE_OPERATOR_GADGETS || {};
 // Cutting a head hole or rotate needs a shotgun (primary or secondary) —
 // melee alone is too slow to be a real in-round option. Reinforcing doesn't
 // need one, that's the reinforcement gadget. Unknown/unverified operators
@@ -621,9 +628,9 @@ function chipIsMine(operatorField){
   if(!operatorField) return false;
   return activePickNames().some(op => operatorField.includes(op));
 }
-function taskChip(taskId, label, detail, ts, mine){
+function taskChip(taskId, label, detail, ts, mine, generated){
   const open = state.expandedTasks.has(taskId);
-  const chip = el('div', 'taskchip' + (mine ? ' mine' : '') + (open ? ' open' : ''));
+  const chip = el('div', 'taskchip' + (mine ? ' mine' : '') + (open ? ' open' : '') + (generated ? ' generated' : ''));
   chip.textContent = label;
   chip.onclick = () => {
     if(state.expandedTasks.has(taskId)) state.expandedTasks.delete(taskId);
@@ -1113,11 +1120,35 @@ function renderInstructions(){
   const myGadgets = (setup.gadgetPlacements||[]).filter(i => i.operator && i.operator.includes(yourOp));
   const utilInfo = OPERATOR_UTILITY[yourOp];
   let utilItems = myGadgets;
+  let utilGenerated = false;
+  if(utilItems.length === 0){
+    // No transcript happened to mention this operator's gadget on this
+    // site — fall back to what we know generally about their kit (real
+    // gadget, real mechanic, sourced from Ubisoft's own operator page, not
+    // invented) rather than showing an empty Utilities section. Tied to
+    // wherever this player's own Site Setup reinforcements are, so it's
+    // still a concrete instruction, not generic flavor text. Dashed border
+    // in the UI marks it as general knowledge, not a verified site-specific
+    // call — same standard as everything else, just labeled honestly.
+    const gadgetInfo = OPERATOR_GADGETS[yourOp];
+    if(gadgetInfo){
+      const myWalls = siteSetupItems
+        .filter(i => i.action === 'Reinforce' || i.action === 'Hatch')
+        .map(i => i.location);
+      const where = myWalls.length ? myWalls.join(', ') : 'your position on this site';
+      utilItems = [{
+        location: `${gadgetInfo.gadgetName} (General)`,
+        note: `${gadgetInfo.description}${gadgetInfo.usageNote ? ' ' + gadgetInfo.usageNote : ''} No site-specific placement confirmed — apply to ${where}.`,
+        timestamp: '',
+      }];
+      utilGenerated = true;
+    }
+  }
   if(utilInfo && typeof utilInfo.count === 'number' && myGadgets.length > utilInfo.count){
     utilItems = myGadgets.slice(0, utilInfo.count);
   }
   field('Utilities', utilItems, (i, idx) =>
-    taskChip(`${idBase}|util|${idx}`, i.location, i.note, i.timestamp, true));
+    taskChip(`${idBase}|util|${idx}`, i.location, i.note, i.timestamp, true, utilGenerated));
   if(utilInfo && typeof utilInfo.count === 'number' && myGadgets.length > utilInfo.count){
     panel.appendChild(el('div', 'setupempty', `Only ${utilInfo.count}× ${utilInfo.gadget} — ${myGadgets.length - utilInfo.count} more spot(s) need a teammate or a plain reinforcement instead.`));
   }

@@ -108,6 +108,8 @@ def check_no_reinforce_headhole_conflict(strategies):
 def build():
     operators = load_json(DATA / "operators.json")
     loadouts = load_json(DATA / "operator_loadouts.json")["loadouts"]
+    gadgets_path = DATA / "operator_gadgets.json"
+    gadgets = load_json(gadgets_path)["gadgets"] if gadgets_path.exists() else {}
 
     maps = {}
     for path in sorted((DATA / "maps").glob("*.json")):
@@ -179,6 +181,7 @@ def build():
         f.write("window.SIEGE_OPERATORS = " + json.dumps(operators["sides"]) + ";\n")
         f.write("window.SIEGE_OPERATOR_UTILITY = " + json.dumps(operators["utility"]) + ";\n")
         f.write("window.SIEGE_OPERATOR_LOADOUTS = " + json.dumps(loadouts) + ";\n")
+        f.write("window.SIEGE_OPERATOR_GADGETS = " + json.dumps(gadgets) + ";\n")
         f.write("window.SIEGE_MAPS = " + json.dumps(maps) + ";\n")
         f.write("window.SIEGE_STRATEGY_BANK = " + json.dumps(strategy_bank) + ";\n")
         f.write("window.SIEGE_SITE_SETUPS = " + json.dumps(site_setups) + ";\n")

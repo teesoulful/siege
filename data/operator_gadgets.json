@@ -1,0 +1,174 @@
+{
+  "verified": true,
+  "verificationNote": "Sourced from individual Ubisoft official operator pages (game-info/operators/<slug>), one fetch per operator, 2026-07-02.",
+  "gadgets": {
+    "Bandit": {
+      "side": "Defense",
+      "gadgetName": "Shock Wire (CED-1 Crude Electrical Device)",
+      "description": "Electrifies surfaces like reinforced walls, deployable shields, and barbed wire to damage attackers and destroy their gadgets.",
+      "count": null,
+      "usageNote": "Best placed on reinforced walls this operator is personally covering, especially likely hard-breach points."
+    },
+    "Valkyrie": {
+      "side": "Defense",
+      "gadgetName": "Black Eye",
+      "description": "A deployable camera encased in a tinted silicone ball with micro-suction cups that Valkyrie can place on almost any surface, transmitting live stabilized video to all team operators.",
+      "count": null,
+      "usageNote": "Place on flanks and common attacker approach routes to extend the defending team's intel coverage beyond normal drone cams."
+    },
+    "Azami": {
+      "side": "Defense",
+      "gadgetName": "Kiba Barrier",
+      "description": "A modified kunai that adheres to surfaces and deploys an expandable material that solidifies into a bulletproof barrier for defensive reinforcement.",
+      "count": null,
+      "usageNote": "Use to reinforce soft walls or block sightlines/vaults where a full hard reinforcement isn't available or needed."
+    },
+    "Frost": {
+      "side": "Defense",
+      "gadgetName": "Welcome Mat",
+      "description": "A concealed trap with metal jaws that deploy at ankle and shin height when triggered, immobilizing operators who step on it.",
+      "count": null,
+      "usageNote": "Hide near common attacker entry points such as windows or door frames where attackers are likely to land or dash through."
+    },
+    "Smoke": {
+      "side": "Defense",
+      "gadgetName": "Remote Gas Grenade",
+      "description": "Remotely-detonated gas grenades that can be triggered on command to create toxic clouds for area denial and defense.",
+      "count": null,
+      "usageNote": "Place in doorways or chokepoints leading to the objective so it can be detonated on demand as attackers push through."
+    },
+    "Kaid": {
+      "side": "Defense",
+      "gadgetName": "\"Rtila\" Electroclaw",
+      "description": "Electrifies reinforced walls, hatches, barbed wire, and deployable shields within a 0.75 meter radius to prevent enemy breaches.",
+      "count": 2,
+      "usageNote": "Attach to reinforced walls or hatches near the objective to deny common hard-breach tools alongside standard reinforcements."
+    },
+    "Aruni": {
+      "side": "Defense",
+      "gadgetName": "Surya Gate",
+      "description": "Projects a laser array that detects movement through it and increases energy output to cause burns upon detection.",
+      "count": null,
+      "usageNote": "Place across reinforced openings or hatches to punish attackers attempting to pass through that point."
+    },
+    "Lesion": {
+      "side": "Defense",
+      "gadgetName": "Gu Mine",
+      "description": "Mines that inject toxin into opponents who trigger them, injuring and limiting their speed.",
+      "count": null,
+      "usageNote": "Hide in likely attacker pathways near the objective so triggering one reveals the attacker's position over time."
+    },
+    "Alibi": {
+      "side": "Defense",
+      "gadgetName": "Prisma",
+      "description": "Projects holograms that look identical to Alibi; when attackers shoot or touch them, they become marked and pinged for several seconds.",
+      "count": null,
+      "usageNote": "Place in flank routes or ambiguous approach paths to bait attackers into revealing their position."
+    },
+    "Mute": {
+      "side": "Defense",
+      "gadgetName": "Signal Disruptor",
+      "description": "Disrupts electronic signals and communications in its vicinity, preventing enemy drones and gadgets from functioning properly nearby.",
+      "count": null,
+      "usageNote": "Place near windows, doors, or reinforced walls to jam attacker drones and stop electronic breaching tools before they can be used."
+    },
+    "Ela": {
+      "side": "Defense",
+      "gadgetName": "Grzmot Mine",
+      "description": "Sticky concussion mines that trigger on proximity, impairing hearing and causing a dizzying effect to anyone within the blast radius.",
+      "count": null,
+      "usageNote": "Place near likely attacker entry points or flanks to disorient pushes before they reach the objective."
+    },
+    "Kapkan": {
+      "side": "Defense",
+      "gadgetName": "Entry Denial Device (EDD-MK II)",
+      "description": "A trap that deploys a motion-activated C4 charge, placed on door and window frames to deny entry points to attackers.",
+      "count": 5,
+      "usageNote": "Place on door or window frames along likely attacker entry routes rather than on the objective's main reinforced approach."
+    },
+    "Melusi": {
+      "side": "Defense",
+      "gadgetName": "Banshee Sonic Defence",
+      "description": "A bulletproof device that deploys on surfaces and automatically releases a disorienting scream when attackers approach, slowing their movement.",
+      "count": null,
+      "usageNote": "Place near common attacker approach lanes into the objective to slow pushes and buy the defense reaction time."
+    },
+    "Caveira": {
+      "side": "Defense",
+      "gadgetName": "Silent Step",
+      "description": "Allows Caveira to move without making sound, enabling her to approach enemies undetected for interrogations.",
+      "count": null,
+      "usageNote": "Best used off-objective for flanking and roaming rather than anchoring near the site itself."
+    },
+    "Thermite": {
+      "side": "Attack",
+      "gadgetName": "Exothermic Charge",
+      "description": "Burns through reinforced walls and other surfaces with an intense thermite reaction to create breaches for the attacking team.",
+      "count": null,
+      "usageNote": "Use on reinforced walls near the objective, ideally after clearing likely anti-breach gadgets like Bandit or Kaid devices."
+    },
+    "Osa": {
+      "side": "Attack",
+      "gadgetName": "Talon-8 Clear Shield",
+      "description": "A transparent, bulletproof shield that can be carried or deployed on floors and window frames to provide protective cover during tactical operations.",
+      "count": null,
+      "usageNote": "Deploy in open lanes or doorways to create safe lines of advance and shared cover for the attacking team."
+    },
+    "Zero": {
+      "side": "Attack",
+      "gadgetName": "Argus Launcher",
+      "description": "Deploys special cameras that lodge into surfaces to provide surveillance of multiple angles and can fire laser shots to destroy defender equipment.",
+      "count": null,
+      "usageNote": "Use pre-round or early in the round to scout the objective and disable defender gadgets from a distance."
+    },
+    "Hibana": {
+      "side": "Attack",
+      "gadgetName": "X-KAIROS",
+      "description": "A 40mm caliber launcher that fires explosive pellets which can be detonated simultaneously from a distance to create new lines of sight or pathways through obstacles.",
+      "count": null,
+      "usageNote": "Use on reinforced walls to open precise sightlines or murder holes rather than full breaches."
+    },
+    "Ace": {
+      "side": "Attack",
+      "gadgetName": "S.E.L.M.A. Aqua Breacher",
+      "description": "Uses hydraulic pressure to breach through reinforced and breakable surfaces, creating rectangular openings that can combine to form larger holes for operator passage.",
+      "count": null,
+      "usageNote": "Use on reinforced walls near the objective to create a controlled breach point for the attacking team's entry."
+    },
+    "Grim": {
+      "side": "Attack",
+      "gadgetName": "Kawan Hive Launcher",
+      "description": "Fires a projectile that releases a swarm of tracking bots to reveal opponent locations when they pass through it.",
+      "count": null,
+      "usageNote": "Deploy in likely defender rotation paths or roam areas to track movement ahead of a push."
+    },
+    "Ying": {
+      "side": "Attack",
+      "gadgetName": "Candela",
+      "description": "A mercury and magnesium-based explosive device that releases a cluster of flash charges to disorient enemies, deployable as an anchored gadget or thrown grenade.",
+      "count": null,
+      "usageNote": "Throw or deploy near the objective entry point to disorient defenders immediately before a push."
+    },
+    "Ash": {
+      "side": "Attack",
+      "gadgetName": "Breaching Round (M120 CREM)",
+      "description": "Modified breaching rounds fired from a launcher that allow ranged soft breaching, capable of destroying defensive utilities like barricades, bulletproof cameras, and barbed wire.",
+      "count": null,
+      "usageNote": "Use at range to quickly clear soft barricades, cameras, or utility without needing to approach the objective directly."
+    },
+    "Zofia": {
+      "side": "Attack",
+      "gadgetName": "KS79 Lifeline",
+      "description": "An electronically triggered projectile launcher that fires concussion rounds delivering a shockwave that causes disorientation, or impact ammunition for breaching purposes.",
+      "count": null,
+      "usageNote": "Use concussion rounds to disorient defenders near the objective before a push, or impact rounds to clear soft cover."
+    },
+    "Striker": {
+      "side": "Attack",
+      "gadgetName": "No unique gadget",
+      "description": "Striker has no distinctive signature gadget; the official page states he is the Attack operator with access to all secondary gadgets for Attack operators (e.g. Breach Charge, Claymore, Frag Grenade, Hard Breach Charge, Smoke Grenade, Stun Grenade, Impact EMP Grenade).",
+      "count": null,
+      "usageNote": "Loadout flexibility is the value here; choose secondary gadgets to fill whatever gap the rest of the attacking team's kit leaves open."
+    }
+  }
+}
