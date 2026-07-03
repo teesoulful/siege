@@ -20,6 +20,11 @@ FLOOR_LABEL = {"base": "Basement", "1f": "1st Floor", "2f": "2nd Floor", "3f": "
 
 
 def photo_path(map_slug, sc_id):
+    if not sc_id:
+        # A handful of r6prep markers ship with no screenshot_id at all (a
+        # gap in their own data, not an extraction bug) — leave the photo
+        # field blank rather than crash or fabricate a path.
+        return ""
     return f"assets/site-photos/{map_slug}/{sc_id}.webp"
 
 
@@ -53,7 +58,16 @@ def main():
         sys.exit(1)
     slug, display_name = sys.argv[1], sys.argv[2]
     raw_dir = ROOT / "data" / "r6prep_raw" / slug
-    data = json.loads((raw_dir / f"{slug}_data.json").read_text())
+    # r6prep_extract.py names this file after r6prep's OWN URL slug, which
+    # differs from ours for a few maps (calypso_casino/calypso,
+    # club_house/clubhouse, kafe_dostoyevsky/kafe-dostoyevsky,
+    # nighthaven_labs/nighthaven-labs) — glob instead of assuming the local
+    # slug, so this works regardless of which slug produced the file.
+    data_files = list(raw_dir.glob("*_data.json"))
+    if len(data_files) != 1:
+        print(f"Expected exactly one *_data.json in {raw_dir}, found {len(data_files)}: {data_files}")
+        sys.exit(1)
+    data = json.loads(data_files[0].read_text())
     labels = json.loads((raw_dir / "room_labels.json").read_text())
 
     sites_out = []
@@ -72,26 +86,26 @@ def main():
                 "location": room if orient == "hatch" else f"{room}, {orient.capitalize()} Wall",
                 "note": "",
                 "timestamp": "",
-                "photo": photo_path(slug, item["screenshot_id"]),
+                "photo": photo_path(slug, item.get("screenshot_id")),
             }
             (hatches if orient == "hatch" else reinforcements).append(entry)
         for item in layer.get("headholes", []):
             n += 1
             room = room_map[str(n)]
-            headHoles.append({"location": room, "note": "", "timestamp": "", "photo": photo_path(slug, item["screenshot_id"])})
+            headHoles.append({"location": room, "note": "", "timestamp": "", "photo": photo_path(slug, item.get("screenshot_id"))})
         for item in layer.get("footholes", []):
             n += 1
             room = room_map[str(n)]
-            headHoles.append({"location": f"{room}, Foot Hole", "note": "", "timestamp": "", "photo": photo_path(slug, item["screenshot_id"])})
+            headHoles.append({"location": f"{room}, Foot Hole", "note": "", "timestamp": "", "photo": photo_path(slug, item.get("screenshot_id"))})
         for item in layer.get("highholes", []):
             n += 1
             room = room_map[str(n)]
-            headHoles.append({"location": f"{room}, High Hole", "note": "", "timestamp": "", "photo": photo_path(slug, item["screenshot_id"])})
+            headHoles.append({"location": f"{room}, High Hole", "note": "", "timestamp": "", "photo": photo_path(slug, item.get("screenshot_id"))})
         for item in layer.get("rotations", []):
             n += 1
             room = room_map[str(n)]
             rtype = ROTATE_TYPE_LABEL.get(item["type"], item["type"].capitalize())
-            rotates.append({"location": f"{room}, {rtype}", "note": "", "timestamp": "", "photo": photo_path(slug, item["screenshot_id"])})
+            rotates.append({"location": f"{room}, {rtype}", "note": "", "timestamp": "", "photo": photo_path(slug, item.get("screenshot_id"))})
 
         dedupe_locations(reinforcements, hatches, headHoles, rotates)
 
