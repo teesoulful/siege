@@ -107,6 +107,33 @@ def floor_prefix(map_floors, raw_floor_text):
     return ""
 
 
+def build_map_floor_images(slug_to_map):
+    """Scans assets/maps/<map-slug>/<floor>.jpg into
+    MAP_FLOOR_IMAGES[mapName][floorToken] = relative path. floorToken is
+    just the uppercased filename stem (2f.jpg -> "2F", b.jpg -> "B") so it
+    matches the floor-prefix token every site display name already starts
+    with — the app picks an image by reading the first word of the
+    selected site's display name, no separate floor field needed."""
+    images = {}
+    assets_dir = ROOT / "assets" / "maps"
+    if not assets_dir.exists():
+        return images
+    for map_dir in sorted(assets_dir.iterdir()):
+        if not map_dir.is_dir():
+            continue
+        map_name = slug_to_map.get(map_dir.name)
+        if not map_name:
+            continue
+        floor_images = {}
+        for img_path in sorted(map_dir.glob("*")):
+            if img_path.suffix.lower() not in (".jpg", ".jpeg", ".png"):
+                continue
+            floor_images[img_path.stem.upper()] = f"assets/maps/{map_dir.name}/{img_path.name}"
+        if floor_images:
+            images[map_name] = floor_images
+    return images
+
+
 def check_no_reinforce_headhole_conflict(strategies):
     # A wall segment is either reinforced (fully hard — no bullets, no holes
     # of any kind) or left soft with head/feet holes cut into it. It can
@@ -141,9 +168,11 @@ def build():
     gadgets = load_json(gadgets_path)["gadgets"] if gadgets_path.exists() else {}
 
     maps = {}
+    slug_to_map = {}
     for path in sorted((DATA / "maps").glob("*.json")):
         m = load_json(path)
         maps[m["map"]] = m
+        slug_to_map[path.stem] = m["map"]  # e.g. "kafe-dostoyevsky" -> "Kafe Dostoyevsky"
 
     strategies = {}
     general_principles = []
@@ -203,6 +232,8 @@ def build():
                 display = display_names[map_name][site["workingName"]]
                 site_setups[map_name][side][display] = canonicalize_site_operators(site)
 
+    map_floor_images = build_map_floor_images(slug_to_map)
+
     DIST.mkdir(exist_ok=True)
     out = DIST / "data.js"
     with open(out, "w") as f:
@@ -212,6 +243,7 @@ def build():
         f.write("window.SIEGE_OPERATOR_LOADOUTS = " + json.dumps(loadouts) + ";\n")
         f.write("window.SIEGE_OPERATOR_GADGETS = " + json.dumps(gadgets) + ";\n")
         f.write("window.SIEGE_MAPS = " + json.dumps(maps) + ";\n")
+        f.write("window.SIEGE_MAP_FLOOR_IMAGES = " + json.dumps(map_floor_images) + ";\n")
         f.write("window.SIEGE_STRATEGY_BANK = " + json.dumps(strategy_bank) + ";\n")
         f.write("window.SIEGE_SITE_SETUPS = " + json.dumps(site_setups) + ";\n")
         f.write("window.SIEGE_GENERAL_PRINCIPLES = " + json.dumps(general_principles) + ";\n")
