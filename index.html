@@ -592,6 +592,10 @@ function renderBans(){
 function renderSiteSection(){
   const wrap = document.getElementById('siteSection');
   wrap.innerHTML = '';
+  if(!STRATEGY_BANK[state.map]){
+    wrap.appendChild(el('div', 'job empty', 'No verified data for any map yet — check back once the strategy rebuild is underway.'));
+    return;
+  }
   if(state.siteExpanded){
     wrap.appendChild(el('label', 'field', 'Your site')).style.marginBottom = '8px';
     const grid = el('div', 'biggrid');
@@ -692,7 +696,7 @@ function exposureScore(role, job){
 function getRecommended(playerId){
   const player = ROSTER.find(p => p.id === playerId);
   const playerRole = player.role[state.side];
-  const sideData = STRATEGY_BANK[state.map][state.side] || {};
+  const sideData = (STRATEGY_BANK[state.map] || {})[state.side] || {};
   const rank = (entries) => entries.filter(([op, data]) => {
     if(state.banned.has(op)) return false;
     if(pickedElsewhere(op, playerId)) return false;
@@ -912,7 +916,7 @@ function groupSiteSetupItems(items){
 }
 
 function runDefenseDraft(){
-  const siteData = (STRATEGY_BANK[state.map].Defense || {})[state.site] || {};
+  const siteData = ((STRATEGY_BANK[state.map] || {}).Defense || {})[state.site] || {};
   const sitePool = Object.entries(siteData)
     .filter(([op]) => !state.banned.has(op))
     .sort((a, b) => exposureScore(b[1].role, b[1].job) - exposureScore(a[1].role, a[1].job));
@@ -1260,7 +1264,7 @@ document.getElementById('changeSquadBtn').addEventListener('click', () => showSc
 
 document.getElementById('mapSelect').addEventListener('change', e => {
   state.map = e.target.value;
-  state.site = STRATEGY_BANK[state.map].sites[0];
+  state.site = (STRATEGY_BANK[state.map] || {}).sites?.[0] || '';
   state.siteExpanded = true;
   refreshAllPicks();
   renderAll();
