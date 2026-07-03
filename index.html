@@ -1217,7 +1217,6 @@ function renderOperatorBubble(){
       if(loadout.definitive){
         g.appendChild(el('div', 'setupitem', `Primary: ${loadout.primary}`));
         g.appendChild(el('div', 'setupitem', `Secondary: ${loadout.secondary}`));
-        g.appendChild(el('div', 'setupitem', `Gadget: ${loadout.gadget}`));
       } else {
         if(loadout.primaries?.length) g.appendChild(el('div', 'setupitem', `Primary: ${loadout.primaries.join(' or ')}`));
         if(loadout.secondaries?.length) g.appendChild(el('div', 'setupitem', `Secondary: ${loadout.secondaries.join(' or ')}`));

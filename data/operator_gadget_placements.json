@@ -1,0 +1,301 @@
+{
+  "_note": "Loadout + signature-gadget placement, keyed by operator name. Fields: side, primary, secondary, utility (secondary gadget), gadget (signature ability), placement (where/how to deploy it). placement is the general logic - exact per-site wall/angle callouts are a strat-book layer to add from play. No role/job text.",
+  "operators": {
+    "Ace": {
+      "side": "attack",
+      "primary": "AK-12 (1.5x / ACOG)",
+      "secondary": "P9",
+      "utility": "Claymore",
+      "gadget": "S.E.L.M.A. Aqua Breacher",
+      "placement": "On the reinforced wall/hatch you're opening for the execute; it rolls and deploys multiple times, so start high on full walls."
+    },
+    "Maverick": {
+      "side": "attack",
+      "primary": "M4 (ACOG)",
+      "secondary": "1911 TACOPS",
+      "utility": "Frag Grenade",
+      "gadget": "Suri Torch",
+      "placement": "Torch a small hole to pick the anchor / clear utility quietly, or open a full breach once Thatcher/Twitch cleared it."
+    },
+    "Hibana": {
+      "side": "attack",
+      "primary": "Type-89 (1.5x)",
+      "secondary": "P229",
+      "utility": "Stun Grenade",
+      "gadget": "X-KAIROS",
+      "placement": "Pellets on the reinforced wall/hatch for the execute, or a partial opening for a new sightline. Needs the wall clear of electrics."
+    },
+    "Thermite": {
+      "side": "attack",
+      "primary": "556XI (1.5x)",
+      "secondary": "M45 MEUSOC",
+      "utility": "Smoke Grenade",
+      "gadget": "Exothermic Charge",
+      "placement": "On the main reinforced wall for the execute — but only after Stef's Thatcher/Twitch clears it. Coordinate the timing."
+    },
+    "Ram": {
+      "side": "attack",
+      "primary": "R4-C (1.5x)",
+      "secondary": "MK1 9mm",
+      "utility": "Frag Grenade",
+      "gadget": "BU-GI Auto-Breacher",
+      "placement": "Send it over a hatch/soft floor above the site to open vertical lines and kill gadgets below. Best where a floor sits above the site."
+    },
+    "Solid Snake": {
+      "side": "attack",
+      "primary": "F2 (1.5x)",
+      "secondary": "TACIT .45 (suppressed)",
+      "utility": "Claymore",
+      "gadget": "Soliton Radar",
+      "placement": "Pop it as you enter a roam lane to find lurkers before you commit; loot gadgets off kills to keep pressure."
+    },
+    "Deimos": {
+      "side": "attack",
+      "primary": "AK-74M (1.5x)",
+      "secondary": ".44 Vendetta",
+      "utility": "Claymore",
+      "gadget": "DeathMARK Tracker",
+      "placement": "Mark the anchor or roamer you most need gone, then hunt them down the tracked path."
+    },
+    "Grim": {
+      "side": "attack",
+      "primary": "552 Commando (1.5x)",
+      "secondary": "SG-CQB",
+      "utility": "Frag Grenade",
+      "gadget": "Kawan Hive",
+      "placement": "Throw it through a soft wall/hatch into the site area to tag defenders through walls before the push."
+    },
+    "Osa": {
+      "side": "attack",
+      "primary": "556XI (1.5x)",
+      "secondary": "PMM",
+      "utility": "Smoke Grenade",
+      "gadget": "Talon-8 Shield",
+      "placement": "Plant it to hold an aggressive angle or cover the open cross/plant — on the line you can't peek safely."
+    },
+    "Ying": {
+      "side": "attack",
+      "primary": "T-95 LSW (1.5x)",
+      "secondary": "Q-929",
+      "utility": "Smoke Grenade",
+      "gadget": "Candela",
+      "placement": "Roll/throw them through the last soft wall or doorway right before the rush to blind the anchors on entry."
+    },
+    "Nomad": {
+      "side": "attack",
+      "primary": "AK-74M (1.5x)",
+      "secondary": "PRB92",
+      "utility": "Frag Grenade",
+      "gadget": "Airjab",
+      "placement": "On the flank routes and behind the team as you plant — they stop the runout and protect the defuse."
+    },
+    "Capitao": {
+      "side": "attack",
+      "primary": "Para-308 (1.5x / ACOG)",
+      "secondary": "PRB92",
+      "utility": "Claymore",
+      "gadget": "Tactical Crossbow (fire)",
+      "placement": "Fire bolts onto the plant spot to deny the defuse, and to burn an anchor off a held angle."
+    },
+    "Gridlock": {
+      "side": "attack",
+      "primary": "F90 (1.5x)",
+      "secondary": "Super Shorty",
+      "utility": "Frag Grenade",
+      "gadget": "Trax Stinger",
+      "placement": "Lay Trax across the plant area and flank routes after entry — locks the site and punishes runouts."
+    },
+    "Fuze": {
+      "side": "attack",
+      "primary": "AK-12",
+      "secondary": "PMM",
+      "utility": "Smoke Grenade",
+      "gadget": "Cluster Charge",
+      "placement": "On the wall/hatch/floor into a tight site room to clear it before entry. Never on a wall with the hostage behind it."
+    },
+    "Dokkaebi": {
+      "side": "attack",
+      "primary": "XK23 (1.5x)",
+      "secondary": "SMG-12",
+      "utility": "Smoke Grenade",
+      "gadget": "Jegeo Payload",
+      "placement": "Hack an anchored defender's device from range to deny their cams + chip them before the push."
+    },
+    "Thatcher": {
+      "side": "attack",
+      "primary": "L85A2 (1.5x)",
+      "secondary": "M590A1",
+      "utility": "Breach Charge",
+      "gadget": "EMP Grenade",
+      "placement": "On the reinforced wall your hard breacher is opening, timed with the charge, to kill Bandit/Mute/Kaid on it."
+    },
+    "Lion": {
+      "side": "attack",
+      "primary": "V308 (1.5x)",
+      "secondary": "P9",
+      "utility": "Frag Grenade",
+      "gadget": "EE-ONE-D Scan",
+      "placement": "Scan during the push to freeze roamers and confirm anchor positions for the team."
+    },
+    "Twitch": {
+      "side": "attack",
+      "primary": "F2 (1.5x)",
+      "secondary": "SG-CQB",
+      "utility": "Claymore",
+      "gadget": "Shock Drone",
+      "placement": "Drive it in to kill the electrics on the breach wall plus any cams/traps before the execute."
+    },
+    "Flores": {
+      "side": "attack",
+      "primary": "SR-25 (1.5x / ACOG)",
+      "secondary": "GSH-18",
+      "utility": "Stun Grenade",
+      "gadget": "RCE-Ratero",
+      "placement": "Drive it to the site and detonate on a gadget or grouped defenders for intel + damage before entry."
+    },
+    "Mira": {
+      "side": "defense",
+      "primary": "Vector .45 (1x)",
+      "secondary": "ITA12S",
+      "utility": "Nitro Cell",
+      "gadget": "Black Mirror",
+      "placement": "Soft wall covering the main attacker entry / longest sightline in; angle it to see the plant + a common push. Never on a wall your team needs to rotate through."
+    },
+    "Bandit": {
+      "side": "defense",
+      "primary": "MP7 (1x)",
+      "secondary": "P9",
+      "utility": "Nitro Cell",
+      "gadget": "Shock Wire (batteries)",
+      "placement": "On the reinforced wall(s) the hard breacher will hit; hold them and Bandit-trick as the charge burns. Also any reinforced hatch on lower/basement sites."
+    },
+    "Smoke": {
+      "side": "defense",
+      "primary": "FMG-9 (1x)",
+      "secondary": "SMG-11",
+      "utility": "Barbed Wire",
+      "gadget": "Remote Gas",
+      "placement": "Hold canisters for plant denial — gas the defuser spot and the last-second push lane, not early."
+    },
+    "Fenrir": {
+      "side": "defense",
+      "primary": "MP7 (1x)",
+      "secondary": "Bailiff 410",
+      "utility": "Bulletproof Camera",
+      "gadget": "F-NATT Dread Mine",
+      "placement": "On the walls/entries of the approaches you can't physically watch — they fear/blind pushers so you hold on info from a safe angle."
+    },
+    "Melusi": {
+      "side": "defense",
+      "primary": "T-5 SMG (1x)",
+      "secondary": "RG15",
+      "utility": "Impact Grenade",
+      "gadget": "Banshee",
+      "placement": "On the floor of the main push lanes and stairs into site; they slow + reveal, turning a weak duel into a free kill."
+    },
+    "Kapkan": {
+      "side": "defense",
+      "primary": "9x19VSN (1x)",
+      "secondary": "PMM",
+      "utility": "Impact Grenade",
+      "gadget": "EDD",
+      "placement": "On the doorways and windows attackers are forced to cross to enter — the more forced the entry, the better the value."
+    },
+    "Lesion": {
+      "side": "defense",
+      "primary": "T-5 SMG (1x)",
+      "secondary": "Q-929",
+      "utility": "Bulletproof Camera",
+      "gadget": "Gu Mine",
+      "placement": "Spread across approaches and flank routes you're NOT standing on; they chip + reveal while you roam."
+    },
+    "Ela": {
+      "side": "defense",
+      "primary": "Scorpion EVO 3 (1x)",
+      "secondary": "RG15",
+      "utility": "Barbed Wire",
+      "gadget": "Grzmot Mine",
+      "placement": "On the walls of the entries you'll fight at — concuss on entry, then peek the disoriented pusher."
+    },
+    "Thorn": {
+      "side": "defense",
+      "primary": "UZK50Gi (1.5x)",
+      "secondary": "1911 TACOPS",
+      "utility": "Deployable Shield",
+      "gadget": "Razorbloom",
+      "placement": "In the tight chokes and behind soft walls on the entries; proximity chip/kill on anyone rushing the site."
+    },
+    "Clash": {
+      "side": "defense",
+      "primary": "CCE Shield",
+      "secondary": "SPSMG9",
+      "utility": "Barbed Wire",
+      "gadget": "CCE Shield",
+      "placement": "Hold the open crossings and lanes in — slow and herd attackers into your team's traps and crossfire. Never solo-push."
+    },
+    "Kaid": {
+      "side": "defense",
+      "primary": "AUG A3 (1x) / TCSG12 (ACOG)",
+      "secondary": ".44 Mag Semi-Auto (1.5x)",
+      "utility": "Nitro Cell",
+      "gadget": "Rtila Electroclaw",
+      "placement": "Electrify the site's key reinforced wall on the breach approach AND any reinforceable hatch above (basement/lower sites) — the throwable reaches hatches Bandit can't."
+    },
+    "Mute": {
+      "side": "defense",
+      "primary": "MP5K (1x)",
+      "secondary": "P226",
+      "utility": "Nitro Cell",
+      "gadget": "Signal Disruptor",
+      "placement": "Jammers on the reinforced walls/hatches the breacher targets (blocks the charge) and near the main drone entries to deny intel."
+    },
+    "Tachanka": {
+      "side": "defense",
+      "primary": "DP27 LMG (1x)",
+      "secondary": "GSH-18",
+      "utility": "Barbed Wire",
+      "gadget": "Shumikha Launcher",
+      "placement": "Anchor the site on the main angle with the LMG; use the incendiary to deny the plant/defuse and burn a push lane."
+    },
+    "Valkyrie": {
+      "side": "defense",
+      "primary": "MPX (1x)",
+      "secondary": "D-50",
+      "utility": "Nitro Cell",
+      "gadget": "Black Eye",
+      "placement": "1 cam on-site covering the plant, 1 on the main approach/flank, 1 deep or outside for late info. Hide them high and off-angle."
+    },
+    "Maestro": {
+      "side": "defense",
+      "primary": "ALDA 5.56 (1x)",
+      "secondary": "Keratos .357",
+      "utility": "Barbed Wire",
+      "gadget": "Evil Eye",
+      "placement": "Bulletproof cams holding the long sightlines in — poke for info and plant-deny from safety; don't peek-fight with them."
+    },
+    "Mozzie": {
+      "side": "defense",
+      "primary": "Commando 9 (1x)",
+      "secondary": "Super Shorty",
+      "utility": "Nitro Cell",
+      "gadget": "Pest",
+      "placement": "Position to snag the attackers' FIRST drones as they enter — deny their intel, feed yours. Pests near the main drone lanes."
+    },
+    "Echo": {
+      "side": "defense",
+      "primary": "MP5SD (1x)",
+      "secondary": "P229",
+      "utility": "Deployable Shield",
+      "gadget": "Yokai",
+      "placement": "Park one on the ceiling over the plant spot to deny the defuse remotely; keep the 2nd for a push lane. You're invisible on cams."
+    },
+    "Castle": {
+      "side": "defense",
+      "primary": "UMP45 (1x)",
+      "secondary": "Super Shorty",
+      "utility": "Bulletproof Camera",
+      "gadget": "Armor Panel",
+      "placement": "Barricade the doorways that reroute attackers into your cams/traps and away from the plant — shape the site, don't seal your own rotates."
+    }
+  }
+}

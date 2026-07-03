@@ -174,9 +174,20 @@ def build():
     if definitive_path.exists():
         for op, d in load_json(definitive_path)["operators"].items():
             loadouts[op] = {**loadouts.get(op, {}), "primary": d["primary"],
-                             "secondary": d["secondary"], "gadget": d["utility"], "definitive": True}
+                             "secondary": d["secondary"], "definitive": True}
     gadgets_path = DATA / "operator_gadgets.json"
     gadgets = load_json(gadgets_path)["gadgets"] if gadgets_path.exists() else {}
+    # data/operator_gadget_placements.json (hand-curated, squad-specific)
+    # overrides the general Ubisoft-sourced gadget description/usageNote
+    # above with a real signature-ability placement instruction — same
+    # ~37-operator set as operator_definitive_loadouts.json, phrased around
+    # how THIS squad actually plays (e.g. "after Stef's Thatcher/Twitch
+    # clears it"), not generic flavor text.
+    placements_path = DATA / "operator_gadget_placements.json"
+    if placements_path.exists():
+        for op, d in load_json(placements_path)["operators"].items():
+            gadgets[op] = {**gadgets.get(op, {}), "gadgetName": d["gadget"],
+                            "description": d["placement"], "usageNote": ""}
 
     maps = {}
     slug_to_map = {}
