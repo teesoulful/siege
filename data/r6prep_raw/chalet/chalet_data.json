@@ -1,0 +1,883 @@
+{
+  "map": {
+    "id": "chalet",
+    "display_name": "Chalet",
+    "status": "active",
+    "floors": [
+      {
+        "id": "base",
+        "label": "Basement",
+        "image_key": "chalet/chalet_base"
+      },
+      {
+        "id": "1f",
+        "label": "1F",
+        "image_key": "chalet/chalet_1f_a"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "chalet/chalet_2f"
+      }
+    ],
+    "sites": [
+      {
+        "id": "chalet_base",
+        "display_name": "B Wine Cellar, B Snowmobile Garage",
+        "floor": "base",
+        "image_key": "chalet/chalet_base"
+      },
+      {
+        "id": "chalet_1f_a",
+        "display_name": "1F Kitchen, 1F Dining Room",
+        "floor": "1f",
+        "image_key": "chalet/chalet_1f_a"
+      },
+      {
+        "id": "chalet_1f_b",
+        "display_name": "1F Bar, 1F Gaming Room",
+        "floor": "1f",
+        "image_key": "chalet/chalet_1f_b"
+      },
+      {
+        "id": "chalet_2f",
+        "display_name": "2F Master bedroom, 2F Office",
+        "floor": "2f",
+        "image_key": "chalet/chalet_2f"
+      }
+    ]
+  },
+  "setups": {
+    "chalet_1f_a": {
+      "id": "chalet_chalet_1f_a_jonas_20260510_184327",
+      "map_id": "chalet",
+      "site_id": "chalet_1f_a",
+      "name": "Chalet \u00e2\u0080\u0093 1F Site A",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_b66e8b",
+          "filename": "sc_b66e8b.webp"
+        },
+        {
+          "id": "sc_d25444",
+          "filename": "sc_d25444.webp"
+        },
+        {
+          "id": "sc_9037ab",
+          "filename": "sc_9037ab.webp"
+        },
+        {
+          "id": "sc_f159e7",
+          "filename": "sc_f159e7.webp"
+        },
+        {
+          "id": "sc_89b96b",
+          "filename": "sc_89b96b.webp"
+        },
+        {
+          "id": "sc_65c6af",
+          "filename": "sc_65c6af.webp"
+        },
+        {
+          "id": "sc_4953eb",
+          "filename": "sc_4953eb.webp"
+        },
+        {
+          "id": "sc_b8bd6d",
+          "filename": "sc_b8bd6d.webp"
+        },
+        {
+          "id": "sc_f05e3e",
+          "filename": "sc_f05e3e.webp"
+        },
+        {
+          "id": "sc_177bfe",
+          "filename": "sc_177bfe.webp"
+        },
+        {
+          "id": "sc_6b91cb",
+          "filename": "sc_6b91cb.webp"
+        },
+        {
+          "id": "sc_08466a",
+          "filename": "sc_08466a.webp"
+        },
+        {
+          "id": "sc_efa300",
+          "filename": "sc_efa300.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "chalet_1f_a",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.4273255813953488,
+              "y": 0.1726959517657192,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_d25444"
+            },
+            {
+              "x": 0.5784883720930233,
+              "y": 0.16752799310938846,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_b66e8b"
+            },
+            {
+              "x": 0.5552325581395349,
+              "y": 0.8083548664944014,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f159e7"
+            },
+            {
+              "x": 0.4874031007751938,
+              "y": 0.8049095607235142,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f159e7"
+            },
+            {
+              "x": 0.45251937984496127,
+              "y": 0.7497846683893196,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_f159e7"
+            },
+            {
+              "x": 0.5959302325581395,
+              "y": 0.36218776916451334,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_89b96b"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5474806201550387,
+                  "y": 0.28294573643410853
+                },
+                {
+                  "x": 0.5513565891472868,
+                  "y": 0.40353143841515937
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_9037ab"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5513565891472868,
+                  "y": 0.42937123169681307
+                },
+                {
+                  "x": 0.6046511627906976,
+                  "y": 0.4190353143841516
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_9037ab"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.47093023255813954,
+              "y": 0.17097329888027563,
+              "screenshot_id": "sc_d25444"
+            },
+            {
+              "x": 0.6182170542635659,
+              "y": 0.16580534022394489,
+              "screenshot_id": "sc_b66e8b"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.46027131782945735,
+              "y": 0.6912144702842378,
+              "screenshot_id": "sc_f159e7"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.6225961538461539,
+              "y": 0.294017094017094,
+              "label": "a"
+            },
+            {
+              "x": 0.5163461538461539,
+              "y": 0.6401709401709401,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "chalet_2f",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.6007751937984496,
+              "y": 0.5689061154177433,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_f05e3e"
+            },
+            {
+              "x": 0.6346899224806202,
+              "y": 0.7153316106804479,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f05e3e"
+            },
+            {
+              "x": 0.686046511627907,
+              "y": 0.7153316106804479,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f05e3e"
+            },
+            {
+              "x": 0.624031007751938,
+              "y": 0.06244616709732989,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6b91cb"
+            },
+            {
+              "x": 0.5848690591658584,
+              "y": 0.10168121564823795,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6b91cb"
+            },
+            {
+              "x": 0.7322987390882638,
+              "y": 0.29308115098609766,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_efa300"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.6182170542635659,
+                  "y": 0.15030146425495264
+                },
+                {
+                  "x": 0.624031007751938,
+                  "y": 0.23987941429801896
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_08466a"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.6935014548981572,
+                  "y": 0.237902791249057
+                },
+                {
+                  "x": 0.7002909796314258,
+                  "y": 0.3361892445306606
+                }
+              ],
+              "type": "jump",
+              "screenshot_id": "sc_efa300"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.6036821705426356,
+              "y": 0.6481481481481481,
+              "screenshot_id": "sc_f05e3e"
+            },
+            {
+              "x": 0.5988372093023255,
+              "y": 0.060723514211886306,
+              "screenshot_id": "sc_6b91cb"
+            },
+            {
+              "x": 0.5809893307468477,
+              "y": 0.07236771203793513,
+              "screenshot_id": "sc_6b91cb"
+            }
+          ],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "chalet_1f_b": {
+      "id": "chalet_chalet_1f_b_jonas_20260510_184600",
+      "map_id": "chalet",
+      "site_id": "chalet_1f_b",
+      "name": "Chalet \u00e2\u0080\u0093 1F Site B",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_f1710d",
+          "filename": "sc_f1710d.webp"
+        },
+        {
+          "id": "sc_b0b7e5",
+          "filename": "sc_b0b7e5.webp"
+        },
+        {
+          "id": "sc_86fa78",
+          "filename": "sc_86fa78.webp"
+        },
+        {
+          "id": "sc_03db35",
+          "filename": "sc_03db35.webp"
+        },
+        {
+          "id": "sc_7bfe1c",
+          "filename": "sc_7bfe1c.webp"
+        },
+        {
+          "id": "sc_290e12",
+          "filename": "sc_290e12.webp"
+        },
+        {
+          "id": "sc_aeded3",
+          "filename": "sc_aeded3.webp"
+        },
+        {
+          "id": "sc_f01988",
+          "filename": "sc_f01988.webp"
+        },
+        {
+          "id": "sc_365428",
+          "filename": "sc_365428.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "chalet_1f_b",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.26744186046511625,
+              "y": 0.8445305770887166,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_7bfe1c"
+            },
+            {
+              "x": 0.3701550387596899,
+              "y": 0.6998277347114557,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_7bfe1c"
+            },
+            {
+              "x": 0.40988372093023256,
+              "y": 0.9427217915590008,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_03db35"
+            },
+            {
+              "x": 0.561046511627907,
+              "y": 0.35185185185185186,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f1710d"
+            },
+            {
+              "x": 0.6550387596899225,
+              "y": 0.2157622739018088,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_b0b7e5"
+            },
+            {
+              "x": 0.6450048496605237,
+              "y": 0.1827244315120164,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_b0b7e5"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.3624031007751938,
+                  "y": 0.5792420327304049
+                },
+                {
+                  "x": 0.4176356589147287,
+                  "y": 0.5792420327304049
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_86fa78"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.3168604651162791,
+              "y": 0.8445305770887166,
+              "screenshot_id": "sc_7bfe1c"
+            },
+            {
+              "x": 0.3653100775193798,
+              "y": 0.780792420327304,
+              "screenshot_id": "sc_7bfe1c"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.4583333333333333,
+              "y": 0.3897502153316107,
+              "screenshot_id": "sc_f1710d"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.2110576923076923,
+              "y": 0.6991452991452991,
+              "label": "a"
+            },
+            {
+              "x": 0.5663461538461538,
+              "y": 0.6239316239316239,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "chalet_2f",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.5988372093023255,
+              "y": 0.5671834625322998,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_290e12"
+            },
+            {
+              "x": 0.6094961240310077,
+              "y": 0.6309216192937123,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_290e12"
+            },
+            {
+              "x": 0.37306201550387597,
+              "y": 0.8858742463393626,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_365428"
+            },
+            {
+              "x": 0.21414728682170542,
+              "y": 0.9358311800172265,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_aeded3"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.4050387596899225,
+                  "y": 0.966838931955211
+                },
+                {
+                  "x": 0.32558139534883723,
+                  "y": 0.9685615848406546
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_365428"
+            }
+          ],
+          "headholes": [],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "chalet_2f": {
+      "id": "chalet_chalet_2f_jonas_20260510_181633",
+      "map_id": "chalet",
+      "site_id": "chalet_2f",
+      "name": "Chalet \u00e2\u0080\u0093 2F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_4862eb",
+          "filename": "sc_4862eb.webp"
+        },
+        {
+          "id": "sc_1e5495",
+          "filename": "sc_1e5495.webp"
+        },
+        {
+          "id": "sc_b5fb86",
+          "filename": "sc_b5fb86.webp"
+        },
+        {
+          "id": "sc_f75bb7",
+          "filename": "sc_f75bb7.webp"
+        },
+        {
+          "id": "sc_6edeed",
+          "filename": "sc_6edeed.webp"
+        },
+        {
+          "id": "sc_c40d68",
+          "filename": "sc_c40d68.webp"
+        },
+        {
+          "id": "sc_dc5742",
+          "filename": "sc_dc5742.webp"
+        },
+        {
+          "id": "sc_34a59f",
+          "filename": "sc_34a59f.webp"
+        },
+        {
+          "id": "sc_aca744",
+          "filename": "sc_aca744.webp"
+        },
+        {
+          "id": "sc_0d5d32",
+          "filename": "sc_0d5d32.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "chalet_2f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.36627906976744184,
+              "y": 0.8807062876830318,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_0d5d32"
+            },
+            {
+              "x": 0.5998062015503876,
+              "y": 0.5723514211886305,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_34a59f"
+            },
+            {
+              "x": 0.687015503875969,
+              "y": 0.7308354866494401,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_34a59f"
+            },
+            {
+              "x": 0.625968992248062,
+              "y": 0.05555555555555555,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_dc5742"
+            },
+            {
+              "x": 0.5920542635658915,
+              "y": 0.12446167097329888,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_aca744"
+            },
+            {
+              "x": 0.5881782945736435,
+              "y": 0.08484065460809646,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_dc5742"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.33042635658914726,
+                  "y": 0.9840654608096469
+                },
+                {
+                  "x": 0.39244186046511625,
+                  "y": 0.9857881136950905
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_0d5d32"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.32848837209302323,
+                  "y": 0.8927648578811369
+                },
+                {
+                  "x": 0.3246124031007752,
+                  "y": 0.9737295434969854
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_0d5d32"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.7238372093023255,
+                  "y": 0.23298880275624462
+                },
+                {
+                  "x": 0.7335271317829457,
+                  "y": 0.33118001722652884
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_f75bb7"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.6405038759689923,
+                  "y": 0.15374677002583978
+                },
+                {
+                  "x": 0.6434108527131783,
+                  "y": 0.23126614987080105
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_aca744"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.6036821705426356,
+              "y": 0.6464254952627045,
+              "screenshot_id": "sc_34a59f"
+            },
+            {
+              "x": 0.687015503875969,
+              "y": 0.29155900086132647,
+              "screenshot_id": "sc_f75bb7"
+            },
+            {
+              "x": 0.6007751937984496,
+              "y": 0.05555555555555555,
+              "screenshot_id": "sc_dc5742"
+            },
+            {
+              "x": 0.5823643410852714,
+              "y": 0.05900086132644272,
+              "screenshot_id": "sc_dc5742"
+            },
+            {
+              "x": 0.6100872938894277,
+              "y": 0.19651902144627653,
+              "screenshot_id": "sc_aca744"
+            },
+            {
+              "x": 0.635305528612997,
+              "y": 0.7241620864317275,
+              "screenshot_id": "sc_34a59f"
+            }
+          ],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.6259615384615385,
+              "y": 0.32905982905982906,
+              "label": "a"
+            },
+            {
+              "x": 0.7125,
+              "y": 0.20598290598290597,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "chalet_base": {
+      "id": "chalet_chalet_base_jonas_20260510_144947",
+      "map_id": "chalet",
+      "site_id": "chalet_base",
+      "name": "Chalet \u00e2\u0080\u0093 Basement",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_ea53ff",
+          "filename": "sc_ea53ff.webp"
+        },
+        {
+          "id": "sc_1f9861",
+          "filename": "sc_1f9861.webp"
+        },
+        {
+          "id": "sc_03f8f1",
+          "filename": "sc_03f8f1.webp"
+        },
+        {
+          "id": "sc_358074",
+          "filename": "sc_358074.webp"
+        },
+        {
+          "id": "sc_9b4c4c",
+          "filename": "sc_9b4c4c.webp"
+        },
+        {
+          "id": "sc_f981b1",
+          "filename": "sc_f981b1.webp"
+        },
+        {
+          "id": "sc_d95d01",
+          "filename": "sc_d95d01.webp"
+        },
+        {
+          "id": "sc_5d6974",
+          "filename": "sc_5d6974.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "chalet_base",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.4428294573643411,
+              "y": 0.8703703703703703,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_ea53ff"
+            },
+            {
+              "x": 0.4844961240310077,
+              "y": 0.872093023255814,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_ea53ff"
+            },
+            {
+              "x": 0.6094961240310077,
+              "y": 0.6688199827734711,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_f981b1"
+            },
+            {
+              "x": 0.6957364341085271,
+              "y": 0.23126614987080105,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_358074"
+            },
+            {
+              "x": 0.7054263565891473,
+              "y": 0.28294573643410853,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_358074"
+            },
+            {
+              "x": 0.5532945736434108,
+              "y": 0.12962962962962962,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_03f8f1"
+            },
+            {
+              "x": 0.5862403100775194,
+              "y": 0.12962962962962962,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_03f8f1"
+            },
+            {
+              "x": 0.6424418604651163,
+              "y": 0.20887166236003446,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_9b4c4c"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.46124031007751937,
+                  "y": 0.43453919035314387
+                },
+                {
+                  "x": 0.4932170542635659,
+                  "y": 0.43453919035314387
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_d95d01"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.501454898157129,
+              "y": 0.47758379135682727,
+              "screenshot_id": "sc_d95d01"
+            }
+          ],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.34134615384615385,
+              "y": 0.711965811965812,
+              "label": "b"
+            },
+            {
+              "x": 0.4908653846153846,
+              "y": 0.33760683760683763,
+              "label": "a"
+            }
+          ]
+        },
+        {
+          "site_id": "chalet_1f_b",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.4364694471387003,
+              "y": 0.9586701153141503,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_5d6974"
+            }
+          ],
+          "rotations": [],
+          "headholes": [],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    }
+  },
+  "initialSiteId": "chalet_base"
+}

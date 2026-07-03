@@ -1,0 +1,508 @@
+{
+  "map": {
+    "id": "lair",
+    "display_name": "Lair",
+    "status": "active",
+    "floors": [
+      {
+        "id": "base",
+        "label": "Basement",
+        "image_key": "lair/lair_base"
+      },
+      {
+        "id": "1f",
+        "label": "1F",
+        "image_key": "lair/lair_1f"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "lair/lair_2f"
+      }
+    ],
+    "sites": [
+      {
+        "id": "lair_base",
+        "display_name": "B Lab Support, B Lab",
+        "floor": "base",
+        "image_key": "lair/lair_base"
+      },
+      {
+        "id": "lair_1f",
+        "display_name": "1F Bunks, 1F Briefing",
+        "floor": "1f",
+        "image_key": "lair/lair_1f"
+      },
+      {
+        "id": "lair_2f",
+        "display_name": "2F Master Office, 2F R6 Room",
+        "floor": "2f",
+        "image_key": "lair/lair_2f"
+      }
+    ]
+  },
+  "setups": {
+    "lair_1f": {
+      "id": "lair_lair_1f_jonas_20260510_155943",
+      "map_id": "lair",
+      "site_id": "lair_1f",
+      "name": "Lair \u00e2\u0080\u0093 1F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=W1426wT75e8"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_3eb907",
+          "filename": "sc_3eb907.webp"
+        },
+        {
+          "id": "sc_570a37",
+          "filename": "sc_570a37.webp"
+        },
+        {
+          "id": "sc_f850d9",
+          "filename": "sc_f850d9.webp"
+        },
+        {
+          "id": "sc_e09db1",
+          "filename": "sc_e09db1.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "lair_1f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.6976744186046512,
+              "y": 0.4810508182601206,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e09db1"
+            },
+            {
+              "x": 0.7306201550387597,
+              "y": 0.4810508182601206,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e09db1"
+            },
+            {
+              "x": 0.48255813953488375,
+              "y": 0.4672695951765719,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_570a37"
+            },
+            {
+              "x": 0.438953488372093,
+              "y": 0.15546942291128338,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_3eb907"
+            },
+            {
+              "x": 0.4728682170542636,
+              "y": 0.15374677002583978,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_3eb907"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5920542635658915,
+                  "y": 0.42248062015503873
+                },
+                {
+                  "x": 0.6589147286821705,
+                  "y": 0.42248062015503873
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_f850d9"
+            }
+          ],
+          "headholes": [],
+          "footholes": [
+            {
+              "x": 0.43992248062015504,
+              "y": 0.49655469422911286,
+              "screenshot_id": "sc_570a37"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.6466346153846154,
+              "y": 0.24444444444444444,
+              "label": "a"
+            },
+            {
+              "x": 0.5903846153846154,
+              "y": 0.37094017094017095,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "lair_2f": {
+      "id": "lair_lair_2f_jonas_20260510_155047",
+      "map_id": "lair",
+      "site_id": "lair_2f",
+      "name": "Lair \u00e2\u0080\u0093 2F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=W1426wT75e8"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_12f875",
+          "filename": "sc_12f875.webp"
+        },
+        {
+          "id": "sc_766412",
+          "filename": "sc_766412.webp"
+        },
+        {
+          "id": "sc_81ac44",
+          "filename": "sc_81ac44.webp"
+        },
+        {
+          "id": "sc_158b84",
+          "filename": "sc_158b84.webp"
+        },
+        {
+          "id": "sc_d7da5a",
+          "filename": "sc_d7da5a.webp"
+        },
+        {
+          "id": "sc_49e374",
+          "filename": "sc_49e374.webp"
+        },
+        {
+          "id": "sc_12ab15",
+          "filename": "sc_12ab15.webp"
+        },
+        {
+          "id": "sc_9f68c9",
+          "filename": "sc_9f68c9.webp"
+        },
+        {
+          "id": "sc_b0748e",
+          "filename": "sc_b0748e.webp"
+        },
+        {
+          "id": "sc_2aa6a8",
+          "filename": "sc_2aa6a8.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "lair_2f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.21414728682170542,
+              "y": 0.36046511627906974,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_12f875"
+            },
+            {
+              "x": 0.250968992248062,
+              "y": 0.3587424633936262,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_12f875"
+            },
+            {
+              "x": 0.17248062015503876,
+              "y": 0.562015503875969,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_766412"
+            },
+            {
+              "x": 0.20736434108527133,
+              "y": 0.5602928509905254,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_766412"
+            },
+            {
+              "x": 0.08817829457364341,
+              "y": 0.748062015503876,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_158b84"
+            },
+            {
+              "x": 0.564922480620155,
+              "y": 0.4517657192075797,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_12ab15"
+            },
+            {
+              "x": 0.5387596899224806,
+              "y": 0.2639965546942291,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_b0748e"
+            },
+            {
+              "x": 0.5687984496124031,
+              "y": 0.2657192075796727,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_b0748e"
+            },
+            {
+              "x": 0.5968992248062015,
+              "y": 0.18819982773471144,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_2aa6a8"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.4680232558139535,
+                  "y": 0.49655469422911286
+                },
+                {
+                  "x": 0.5125968992248062,
+                  "y": 0.5017226528854436
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_9f68c9"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5261627906976745,
+                  "y": 0.38458225667527995
+                },
+                {
+                  "x": 0.5242248062015504,
+                  "y": 0.4879414298018949
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_12ab15"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.6908914728682171,
+                  "y": 0.656761412575366
+                },
+                {
+                  "x": 0.7625968992248062,
+                  "y": 0.6481481481481481
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_49e374"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.11724806201550388,
+              "y": 0.6894918173987942,
+              "screenshot_id": "sc_158b84"
+            },
+            {
+              "x": 0.4263565891472868,
+              "y": 0.33290267011197244,
+              "screenshot_id": "sc_81ac44"
+            },
+            {
+              "x": 0.7102713178294574,
+              "y": 0.5775193798449613,
+              "screenshot_id": "sc_49e374"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.4903100775193798,
+              "y": 0.8944875107665805,
+              "screenshot_id": "sc_d7da5a"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.30865384615384617,
+              "y": 0.35213675213675216,
+              "label": "a"
+            },
+            {
+              "x": 0.7745192307692308,
+              "y": 0.35213675213675216,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "lair_base": {
+      "id": "lair_lair_base_jonas_20260510_155642",
+      "map_id": "lair",
+      "site_id": "lair_base",
+      "name": "Lair \u00e2\u0080\u0093 Basement",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=W1426wT75e8"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_afbabe",
+          "filename": "sc_afbabe.webp"
+        },
+        {
+          "id": "sc_ebf4d3",
+          "filename": "sc_ebf4d3.webp"
+        },
+        {
+          "id": "sc_eb2ee9",
+          "filename": "sc_eb2ee9.webp"
+        },
+        {
+          "id": "sc_37e347",
+          "filename": "sc_37e347.webp"
+        },
+        {
+          "id": "sc_200227",
+          "filename": "sc_200227.webp"
+        },
+        {
+          "id": "sc_a1675d",
+          "filename": "sc_a1675d.webp"
+        },
+        {
+          "id": "sc_e2ca2c",
+          "filename": "sc_e2ca2c.webp"
+        },
+        {
+          "id": "sc_2950bd",
+          "filename": "sc_2950bd.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "lair_base",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.6792635658914729,
+              "y": 0.4207579672695952,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_37e347"
+            },
+            {
+              "x": 0.9418604651162791,
+              "y": 0.7325581395348837,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_a1675d"
+            },
+            {
+              "x": 0.7441860465116279,
+              "y": 0.26055124892334197,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_200227"
+            },
+            {
+              "x": 0.3236434108527132,
+              "y": 0.1830318690783807,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_afbabe"
+            },
+            {
+              "x": 0.3498062015503876,
+              "y": 0.18130921619293713,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_afbabe"
+            },
+            {
+              "x": 0.34205426356589147,
+              "y": 0.5241171403962102,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_e2ca2c"
+            },
+            {
+              "x": 0.41957364341085274,
+              "y": 0.8996554694229113,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_2950bd"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5717054263565892,
+                  "y": 0.5706287683031869
+                },
+                {
+                  "x": 0.5717054263565892,
+                  "y": 0.6688199827734711
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_eb2ee9"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.42926356589147285,
+                  "y": 0.44659776055124895
+                },
+                {
+                  "x": 0.374031007751938,
+                  "y": 0.43281653746770027
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_ebf4d3"
+            }
+          ],
+          "headholes": [],
+          "footholes": [
+            {
+              "x": 0.7674418604651163,
+              "y": 0.2795004306632214,
+              "screenshot_id": "sc_200227"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.27692307692307694,
+              "y": 0.4888888888888889,
+              "label": "b"
+            },
+            {
+              "x": 0.48028846153846155,
+              "y": 0.46153846153846156,
+              "label": "a"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "initialSiteId": "lair_base"
+}

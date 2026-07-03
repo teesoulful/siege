@@ -672,11 +672,17 @@ function taskChip(taskId, label, detail, ts, mine, generated, photo){
     if(detail) d.innerHTML = detail + (ts ? `<span class="ts">${ts}</span>` : '');
     chip.appendChild(d);
     if(photo){
+      // No loading="lazy" here on purpose — this <img> is only ever
+      // created when the chip is actually expanded (right above), so it's
+      // already effectively lazy by construction. Adding the browser's own
+      // lazy-load on top relies on an IntersectionObserver trigger that
+      // isn't reliable for an element that just became visible inline at
+      // the exact spot the user tapped — confirmed it can silently never
+      // fire the request at all in that situation.
       const img = document.createElement('img');
       img.src = photo;
       img.alt = label;
       img.className = 'taskphoto';
-      img.loading = 'lazy';
       chip.appendChild(img);
     }
   }

@@ -1,0 +1,57 @@
+{
+  "chalet_1f_a": {
+    "1": "Trophy Room",
+    "2": "Kitchen",
+    "3": "Dining Room",
+    "4": "Dining Room",
+    "5": "Dining Room",
+    "6": "Kitchen",
+    "7": "Trophy Room",
+    "8": "Kitchen",
+    "9": "Dining Room",
+    "10": "Connector",
+    "11": "Main Entrance"
+  },
+  "chalet_1f_b": {
+    "1": "Gaming Room",
+    "2": "Solarium",
+    "3": "Fireplace",
+    "4": "Fireplace",
+    "5": "Solarium",
+    "6": "Solarium",
+    "7": "Gaming Room",
+    "8": "Bar",
+    "9": "Campfire",
+    "10": "Campfire"
+  },
+  "chalet_2f": {
+    "1": "Master Bedroom",
+    "2": "Hallway",
+    "3": "Balcony",
+    "4": "Bathroom",
+    "5": "Bathroom",
+    "6": "Bathroom",
+    "7": "Hallway",
+    "8": "Office",
+    "9": "Bathroom",
+    "10": "Bathroom",
+    "11": "Library",
+    "12": "Balcony",
+    "13": "Master Bedroom",
+    "14": "Master Bedroom",
+    "15": "Office",
+    "16": "Library"
+  },
+  "chalet_base": {
+    "1": "Garage Door",
+    "2": "Garage Door",
+    "3": "Wine Cellar",
+    "4": "Wine Cellar Stairs",
+    "5": "Wine Cellar Stairs",
+    "6": "Wine Cellar",
+    "7": "Wine Cellar",
+    "8": "Back Stairs",
+    "9": "Basement Corridor",
+    "10": "Basement Corridor"
+  }
+}

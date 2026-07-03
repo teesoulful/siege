@@ -1,0 +1,361 @@
+{
+  "map": "Kafe Dostoyevsky",
+  "side": "Defense",
+  "source": {
+    "title": "R6 Prep — Defender Site Setups: Kafe Dostoyevsky",
+    "type": "r6prep_site_setups",
+    "file": "https://www.r6prep.com/defender/site-setups/kafe-dostoyevsky",
+    "notes": "Wall/hatch/rotation/head-hole/foot-hole positions and per-marker screenshots sourced directly from r6prep.com's structured site-setup data (r6prep's own source: https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_). r6prep provides no text room names or descriptions, only marker position + category + photo — room names above were inferred by the app's maintainer from each marker's visual position on the base map, cross-checked against wiki-verified callouts (data/maps/*.json). Treat room labels as best-effort; the linked photo is the authoritative reference for exact placement. No operator/loadout/utility recommendations in this source — that content is tracked separately."
+  },
+  "sites": [
+    {
+      "id": "kafe_dostoyevsky_1f",
+      "workingName": "Kitchen Service / Kitchen Cooking",
+      "floor": "1st Floor",
+      "callouts": [
+        "Bakery Kitchen",
+        "Cold Room",
+        "Dining Room",
+        "Kitchen Cooking",
+        "Kitchen Grill",
+        "Kitchen Prep",
+        "Kitchen Service",
+        "Reception"
+      ],
+      "reinforcements": [
+        {
+          "location": "Bakery Kitchen, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_6f1523.webp"
+        },
+        {
+          "location": "Dining Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_fa25f4.webp"
+        },
+        {
+          "location": "Dining Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_5a9efa.webp"
+        },
+        {
+          "location": "Kitchen Grill, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_89df3f.webp"
+        },
+        {
+          "location": "Kitchen Cooking, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_db30e8.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Kitchen Cooking",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_db30e8.webp"
+        },
+        {
+          "location": "Kitchen Grill",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_89df3f.webp"
+        },
+        {
+          "location": "Kitchen Service",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_db30e8.webp"
+        },
+        {
+          "location": "Bakery Kitchen, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_6f1523.webp"
+        },
+        {
+          "location": "Cold Room, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_fdd3a5.webp"
+        },
+        {
+          "location": "Cold Room, Foot Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_fdd3a5.webp"
+        },
+        {
+          "location": "Bakery Kitchen, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_6f1523.webp"
+        },
+        {
+          "location": "Cold Room, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_fdd3a5.webp"
+        },
+        {
+          "location": "Cold Room, High Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_fdd3a5.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Kitchen Prep, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_5a9efa.webp"
+        },
+        {
+          "location": "Dining Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_fa25f4.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Reception",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_e1a5a5.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "kafe_dostoyevsky_2f",
+      "workingName": "Reading Room / Fireplace Hall",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Cigar Balcony",
+        "Fireplace Hall",
+        "Main Corridor",
+        "Pillars Dining Room",
+        "Train Museum"
+      ],
+      "reinforcements": [
+        {
+          "location": "Fireplace Hall, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_f25e4c.webp"
+        },
+        {
+          "location": "Fireplace Hall, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_f25e4c.webp"
+        },
+        {
+          "location": "Pillars Dining Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_357631.webp"
+        },
+        {
+          "location": "Pillars Dining Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_e0b376.webp"
+        },
+        {
+          "location": "Train Museum, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_f496d3.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Train Museum",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_f496d3.webp"
+        },
+        {
+          "location": "Pillars Dining Room, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_7f412f.webp"
+        },
+        {
+          "location": "Pillars Dining Room, Foot Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_7f412f.webp"
+        },
+        {
+          "location": "Main Corridor, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_b475fa.webp"
+        },
+        {
+          "location": "Pillars Dining Room, Foot Hole (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_7f412f.webp"
+        },
+        {
+          "location": "Cigar Balcony, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_928455.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Pillars Dining Room, Jump",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_357631.webp"
+        },
+        {
+          "location": "Main Corridor, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_b475fa.webp"
+        },
+        {
+          "location": "Pillars Dining Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_e0b376.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "kafe_dostoyevsky_3f",
+      "workingName": "Bar / Cocktail Lounge",
+      "floor": "3rd Floor",
+      "callouts": [
+        "Bar",
+        "Bar Backstore",
+        "Bar Freezer",
+        "Cigar Lounge",
+        "Cigar Shop",
+        "Cocktail Lounge",
+        "Washroom Corridor",
+        "White Corridor"
+      ],
+      "reinforcements": [
+        {
+          "location": "Cocktail Lounge, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_1e43c9.webp"
+        },
+        {
+          "location": "Cocktail Lounge, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_1e43c9.webp"
+        },
+        {
+          "location": "White Corridor, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_d23775.webp"
+        },
+        {
+          "location": "Washroom Corridor, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_d23775.webp"
+        },
+        {
+          "location": "Bar, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_c93898.webp"
+        },
+        {
+          "location": "Cigar Shop, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_8ad0f7.webp"
+        },
+        {
+          "location": "Washroom Corridor, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_69529f.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "White Corridor",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_d23775.webp"
+        },
+        {
+          "location": "Cigar Lounge",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_1f3b61.webp"
+        },
+        {
+          "location": "Cigar Lounge (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_1f3b61.webp"
+        },
+        {
+          "location": "Washroom Corridor",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_69529f.webp"
+        },
+        {
+          "location": "Bar Backstore, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_d200f2.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Bar Freezer, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_8ad0f7.webp"
+        },
+        {
+          "location": "Washroom Corridor, Jump",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_d23775.webp"
+        },
+        {
+          "location": "Bar, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/kafe-dostoyevsky/sc_c93898.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    }
+  ]
+}

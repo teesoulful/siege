@@ -1,0 +1,699 @@
+{
+  "map": {
+    "id": "consulate",
+    "display_name": "Consulate",
+    "status": "active",
+    "floors": [
+      {
+        "id": "base",
+        "label": "Basement",
+        "image_key": "consulate/consulate_base"
+      },
+      {
+        "id": "1f",
+        "label": "1F",
+        "image_key": "consulate/consulate_1f"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "consulate/consulate_2f"
+      }
+    ],
+    "sites": [
+      {
+        "id": "consulate_base",
+        "display_name": "B Cafeteria, B Garage",
+        "floor": "base",
+        "image_key": "consulate/consulate_base"
+      },
+      {
+        "id": "consulate_1f",
+        "display_name": "1F Exposition Room, 1F Piano Room",
+        "floor": "1f",
+        "image_key": "consulate/consulate_1f"
+      },
+      {
+        "id": "consulate_2f",
+        "display_name": "2F Consul Office, 2F Meeting Room",
+        "floor": "2f",
+        "image_key": "consulate/consulate_2f"
+      }
+    ]
+  },
+  "setups": {
+    "consulate_1f": {
+      "id": "consulate_consulate_1f_jonas_20260510_181033",
+      "map_id": "consulate",
+      "site_id": "consulate_1f",
+      "name": "Consulate \u00e2\u0080\u0093 1F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_470835",
+          "filename": "sc_470835.webp"
+        },
+        {
+          "id": "sc_d375e2",
+          "filename": "sc_d375e2.webp"
+        },
+        {
+          "id": "sc_0f597c",
+          "filename": "sc_0f597c.webp"
+        },
+        {
+          "id": "sc_e20940",
+          "filename": "sc_e20940.webp"
+        },
+        {
+          "id": "sc_374fc6",
+          "filename": "sc_374fc6.webp"
+        },
+        {
+          "id": "sc_2a5b6e",
+          "filename": "sc_2a5b6e.webp"
+        },
+        {
+          "id": "sc_da0cad",
+          "filename": "sc_da0cad.webp"
+        },
+        {
+          "id": "sc_07070a",
+          "filename": "sc_07070a.webp"
+        },
+        {
+          "id": "sc_32dbd1",
+          "filename": "sc_32dbd1.webp"
+        },
+        {
+          "id": "sc_9f77a7",
+          "filename": "sc_9f77a7.webp"
+        },
+        {
+          "id": "sc_2edf6a",
+          "filename": "sc_2edf6a.webp"
+        },
+        {
+          "id": "sc_94070a",
+          "filename": "sc_94070a.webp"
+        },
+        {
+          "id": "sc_7b8550",
+          "filename": "sc_7b8550.webp"
+        },
+        {
+          "id": "sc_6387c9",
+          "filename": "sc_6387c9.webp"
+        },
+        {
+          "id": "sc_e72810",
+          "filename": "sc_e72810.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "consulate_1f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.5203488372093024,
+              "y": 0.6912144702842378,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_7b8550"
+            },
+            {
+              "x": 0.7277131782945736,
+              "y": 0.46037898363479757,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_2a5b6e"
+            },
+            {
+              "x": 0.7383720930232558,
+              "y": 0.5189491817398794,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_2a5b6e"
+            },
+            {
+              "x": 0.4437984496124031,
+              "y": 0.3070628768303187,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_32dbd1"
+            },
+            {
+              "x": 0.47623666343355964,
+              "y": 0.3086000646621403,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_32dbd1"
+            },
+            {
+              "x": 0.521823472356935,
+              "y": 0.762097208750943,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_7b8550"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.41375968992248063,
+                  "y": 0.5051679586563308
+                },
+                {
+                  "x": 0.3507751937984496,
+                  "y": 0.5017226528854436
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_2edf6a"
+            }
+          ],
+          "headholes": [],
+          "footholes": [
+            {
+              "x": 0.2754607177497575,
+              "y": 0.4120594891690915,
+              "screenshot_id": "sc_9f77a7"
+            },
+            {
+              "x": 0.2347235693501455,
+              "y": 0.8189998922297661,
+              "screenshot_id": "sc_94070a"
+            },
+            {
+              "x": 0.24248302618816683,
+              "y": 0.7586485612673779,
+              "screenshot_id": "sc_94070a"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.5024038461538461,
+              "y": 0.6435897435897436,
+              "label": "b"
+            },
+            {
+              "x": 0.12740384615384615,
+              "y": 0.6632478632478632,
+              "label": "a"
+            }
+          ]
+        },
+        {
+          "site_id": "consulate_2f",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.32073643410852715,
+              "y": 0.6722652885443583,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_e72810"
+            },
+            {
+              "x": 0.5959302325581395,
+              "y": 0.9168819982773471,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_07070a"
+            },
+            {
+              "x": 0.3113482056256062,
+              "y": 0.21548658260588424,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6387c9"
+            },
+            {
+              "x": 0.2948593598448109,
+              "y": 0.5620756547041708,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e72810"
+            }
+          ],
+          "rotations": [],
+          "headholes": [
+            {
+              "x": 0.32751937984496127,
+              "y": 0.6085271317829457,
+              "screenshot_id": "sc_e72810"
+            },
+            {
+              "x": 0.3064985451018429,
+              "y": 0.24997305744153464,
+              "screenshot_id": "sc_6387c9"
+            }
+          ],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "consulate_2f": {
+      "id": "consulate_consulate_2f_jonas_20260510_145240",
+      "map_id": "consulate",
+      "site_id": "consulate_2f",
+      "name": "Consulate \u00e2\u0080\u0093 2F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_fc9347",
+          "filename": "sc_fc9347.webp"
+        },
+        {
+          "id": "sc_bcc18d",
+          "filename": "sc_bcc18d.webp"
+        },
+        {
+          "id": "sc_d1f865",
+          "filename": "sc_d1f865.webp"
+        },
+        {
+          "id": "sc_36581d",
+          "filename": "sc_36581d.webp"
+        },
+        {
+          "id": "sc_c8508e",
+          "filename": "sc_c8508e.webp"
+        },
+        {
+          "id": "sc_02d2ef",
+          "filename": "sc_02d2ef.webp"
+        },
+        {
+          "id": "sc_122af1",
+          "filename": "sc_122af1.webp"
+        },
+        {
+          "id": "sc_6387c9",
+          "filename": "sc_6387c9.webp"
+        },
+        {
+          "id": "sc_1e39a5",
+          "filename": "sc_1e39a5.webp"
+        },
+        {
+          "id": "sc_474b09",
+          "filename": "sc_474b09.webp"
+        },
+        {
+          "id": "sc_109427",
+          "filename": "sc_109427.webp"
+        },
+        {
+          "id": "sc_0b9f15",
+          "filename": "sc_0b9f15.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "consulate_2f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.9253875968992248,
+              "y": 0.41386735572782085,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_0b9f15"
+            },
+            {
+              "x": 0.7761627906976745,
+              "y": 0.5551248923341947,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_02d2ef"
+            },
+            {
+              "x": 0.5968992248062015,
+              "y": 0.9151593453919036,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_c8508e"
+            },
+            {
+              "x": 0.3168604651162791,
+              "y": 0.6636520241171404,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_1e39a5"
+            },
+            {
+              "x": 0.3123181377303589,
+              "y": 0.2103136113805367,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6387c9"
+            },
+            {
+              "x": 0.2938894277400582,
+              "y": 0.5637999784459532,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_1e39a5"
+            },
+            {
+              "x": 0.9495635305528612,
+              "y": 0.4741351438732622,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_0b9f15"
+            },
+            {
+              "x": 0.9398642095053347,
+              "y": 0.5413837698027804,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_0b9f15"
+            },
+            {
+              "x": 0.9078564500484966,
+              "y": 0.37067571936631105,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_0b9f15"
+            },
+            {
+              "x": 0.9010669253152279,
+              "y": 0.5396594460609979,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_0b9f15"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.29000969932104753,
+                  "y": 0.6138053669576463
+                },
+                {
+                  "x": 0.3569350145489816,
+                  "y": 0.6172540144412113
+                }
+              ],
+              "type": "jump",
+              "screenshot_id": "sc_1e39a5"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.3084384093113482,
+              "y": 0.23962711499083952,
+              "screenshot_id": "sc_6387c9"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.6472868217054264,
+              "y": 0.4896640826873385,
+              "screenshot_id": "sc_109427"
+            },
+            {
+              "x": 0.6081474296799224,
+              "y": 0.4913783812910874,
+              "screenshot_id": "sc_109427"
+            }
+          ],
+          "highholes": [
+            {
+              "x": 0.35984481086323955,
+              "y": 0.546556741028128,
+              "screenshot_id": "sc_474b09"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.6511378049690367,
+              "y": 0.6373042519502267,
+              "label": "a"
+            },
+            {
+              "x": 0.13701923076923078,
+              "y": 0.8350427350427351,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "consulate_base": {
+      "id": "consulate_consulate_base_jonas_20260510_145712",
+      "map_id": "consulate",
+      "site_id": "consulate_base",
+      "name": "Consulate \u00e2\u0080\u0093 Basement",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_a62546",
+          "filename": "sc_a62546.webp"
+        },
+        {
+          "id": "sc_1a7ae3",
+          "filename": "sc_1a7ae3.webp"
+        },
+        {
+          "id": "sc_dbba47",
+          "filename": "sc_dbba47.webp"
+        },
+        {
+          "id": "sc_76eaa2",
+          "filename": "sc_76eaa2.webp"
+        },
+        {
+          "id": "sc_b045bc",
+          "filename": "sc_b045bc.webp"
+        },
+        {
+          "id": "sc_742d9a",
+          "filename": "sc_742d9a.webp"
+        },
+        {
+          "id": "sc_0d5237",
+          "filename": "sc_0d5237.webp"
+        },
+        {
+          "id": "sc_e93d6f",
+          "filename": "sc_e93d6f.webp"
+        },
+        {
+          "id": "sc_ef71e4",
+          "filename": "sc_ef71e4.webp"
+        },
+        {
+          "id": "sc_403ca8",
+          "filename": "sc_403ca8.webp"
+        },
+        {
+          "id": "sc_a1a2c0",
+          "filename": "sc_a1a2c0.webp"
+        },
+        {
+          "id": "sc_827efa",
+          "filename": "sc_827efa.webp"
+        },
+        {
+          "id": "sc_20b802",
+          "filename": "sc_20b802.webp"
+        },
+        {
+          "id": "sc_dd88ed",
+          "filename": "sc_dd88ed.webp"
+        },
+        {
+          "id": "sc_c32b20",
+          "filename": "sc_c32b20.webp"
+        },
+        {
+          "id": "sc_e0654c",
+          "filename": "sc_e0654c.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "consulate_base",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.6124031007751938,
+              "y": 0.7911283376399656,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_dbba47"
+            },
+            {
+              "x": 0.13372093023255813,
+              "y": 0.4569336778639104,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_a62546"
+            },
+            {
+              "x": 0.12015503875968993,
+              "y": 0.532730404823428,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_a62546"
+            },
+            {
+              "x": 0.3439922480620155,
+              "y": 0.5465116279069767,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_ef71e4"
+            },
+            {
+              "x": 0.4005819592628516,
+              "y": 0.2551460286668822,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_c32b20"
+            },
+            {
+              "x": 0.37827352085354027,
+              "y": 0.4758594676150447,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_403ca8"
+            },
+            {
+              "x": 0.8098933074684772,
+              "y": 0.4310270503286992,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_827efa"
+            },
+            {
+              "x": 0.8234723569350145,
+              "y": 0.48965405754930486,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_827efa"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.3875968992248062,
+                  "y": 0.810077519379845
+                },
+                {
+                  "x": 0.3246124031007752,
+                  "y": 0.8049095607235142
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_403ca8"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.502906976744186,
+                  "y": 0.5172265288544359
+                },
+                {
+                  "x": 0.501937984496124,
+                  "y": 0.3983634797588286
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_76eaa2"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.3773035887487876,
+                  "y": 0.2361784675072745
+                },
+                {
+                  "x": 0.4238603297769156,
+                  "y": 0.237902791249057
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_c32b20"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.6459747817652765,
+                  "y": 0.4913783812910874
+                },
+                {
+                  "x": 0.7177497575169738,
+                  "y": 0.48620541006573986
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_a1a2c0"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.6046511627906976,
+              "y": 0.7118863049095607,
+              "screenshot_id": "sc_dbba47"
+            },
+            {
+              "x": 0.3850630455868089,
+              "y": 0.5620756547041708,
+              "screenshot_id": "sc_403ca8"
+            },
+            {
+              "x": 0.4568380213385063,
+              "y": 0.34653518698135577,
+              "screenshot_id": "sc_e0654c"
+            },
+            {
+              "x": 0.8389912706110573,
+              "y": 0.5500053885116931,
+              "screenshot_id": "sc_827efa"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.9554263565891473,
+              "y": 0.2450473729543497,
+              "screenshot_id": "sc_e93d6f"
+            },
+            {
+              "x": 0.9165858389912707,
+              "y": 0.7517512663002479,
+              "screenshot_id": "sc_dd88ed"
+            }
+          ],
+          "highholes": [
+            {
+              "x": 0.37148399612027155,
+              "y": 0.5413837698027805,
+              "screenshot_id": "sc_403ca8"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.5740384615384615,
+              "y": 0.5333333333333333,
+              "label": "a"
+            },
+            {
+              "x": 0.2899038461538462,
+              "y": 0.4658119658119658,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "initialSiteId": "consulate_base"
+}

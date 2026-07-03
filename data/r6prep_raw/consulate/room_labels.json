@@ -1,0 +1,52 @@
+{
+  "consulate_1f": {
+    "1": "Visa Office",
+    "2": "Tellers",
+    "3": "Tellers",
+    "4": "Lobby",
+    "5": "Lobby",
+    "6": "Visa Office",
+    "7": "Piano Room",
+    "8": "Press Room",
+    "9": "Press Room",
+    "10": "Exposition Room"
+  },
+  "consulate_2f": {
+    "1": "Administration Office",
+    "2": "Administration Office",
+    "3": "Front Office",
+    "4": "Meeting Room",
+    "5": "Administration Office",
+    "6": "Consulate Office",
+    "7": "Administration Office",
+    "8": "Meeting Room",
+    "9": "Administration Office",
+    "10": "Administration Office",
+    "11": "Administration Office",
+    "12": "Break Room",
+    "13": "Break Room",
+    "14": "Consulate Office",
+    "15": "Meeting Room"
+  },
+  "consulate_base": {
+    "1": "Service Stairs",
+    "2": "Garage",
+    "3": "Garage",
+    "4": "Cafeteria",
+    "5": "Storage Room",
+    "6": "Cafeteria",
+    "7": "Servers",
+    "8": "Servers",
+    "9": "Service Stairs",
+    "10": "Cafeteria",
+    "11": "Archives",
+    "12": "Servers",
+    "13": "Servers",
+    "14": "Service Stairs",
+    "15": "Cafeteria",
+    "16": "Garage",
+    "17": "Storage Room",
+    "18": "Storage Room",
+    "19": "Service Stairs"
+  }
+}

@@ -1,0 +1,862 @@
+{
+  "map": {
+    "id": "calypso_casino",
+    "display_name": "Calypso Casino",
+    "status": "active",
+    "floors": [
+      {
+        "id": "base",
+        "label": "Basement",
+        "image_key": "calypso_casino/calypso_casino_base"
+      },
+      {
+        "id": "1f",
+        "label": "1F",
+        "image_key": "calypso_casino/calypso_casino_1f_a"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "calypso_casino/calypso_casino_2f"
+      }
+    ],
+    "sites": [
+      {
+        "id": "calypso_casino_base",
+        "display_name": "B CCTV, B Vault Checkpoint",
+        "floor": "base",
+        "image_key": "calypso_casino/calypso_casino_base"
+      },
+      {
+        "id": "calypso_casino_1f_a",
+        "display_name": "1F Bar, 1F Betting",
+        "floor": "1f",
+        "image_key": "calypso_casino/calypso_casino_1f_a"
+      },
+      {
+        "id": "calypso_casino_1f_b",
+        "display_name": "1F Blackjack, 1F Poker",
+        "floor": "1f",
+        "image_key": "calypso_casino/calypso_casino_1f_b"
+      },
+      {
+        "id": "calypso_casino_2f",
+        "display_name": "2F Cigar Room, 2F Pool",
+        "floor": "2f",
+        "image_key": "calypso_casino/calypso_casino_2f"
+      }
+    ]
+  },
+  "setups": {
+    "calypso_casino_1f_a": {
+      "id": "calypso_casino_calypso_casino_1f_a_unknown_20260611_201903",
+      "map_id": "calypso_casino",
+      "site_id": "calypso_casino_1f_a",
+      "name": "Calypso Casino \u00e2\u0080\u0093 1F Site A",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-06-11",
+      "author": "jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_0867b5",
+          "filename": "sc_0867b5.webp"
+        },
+        {
+          "id": "sc_08a17a",
+          "filename": "sc_08a17a.webp"
+        },
+        {
+          "id": "sc_15345f",
+          "filename": "sc_15345f.webp"
+        },
+        {
+          "id": "sc_12ddb9",
+          "filename": "sc_12ddb9.webp"
+        },
+        {
+          "id": "sc_a46d44",
+          "filename": "sc_a46d44.webp"
+        },
+        {
+          "id": "sc_46aca1",
+          "filename": "sc_46aca1.webp"
+        },
+        {
+          "id": "sc_9a6118",
+          "filename": "sc_9a6118.webp"
+        },
+        {
+          "id": "sc_19e9ef",
+          "filename": "sc_19e9ef.webp"
+        },
+        {
+          "id": "sc_d580a9",
+          "filename": "sc_d580a9.webp"
+        },
+        {
+          "id": "sc_eb3ef2",
+          "filename": "sc_eb3ef2.webp"
+        },
+        {
+          "id": "sc_854207",
+          "filename": "sc_854207.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "calypso_casino_1f_a",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.46124031007751937,
+              "y": 0.43195521102497847,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_15345f"
+            },
+            {
+              "x": 0.6191860465116279,
+              "y": 0.19767441860465115,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_a46d44"
+            },
+            {
+              "x": 0.624031007751938,
+              "y": 0.23557278208441,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_a46d44"
+            },
+            {
+              "x": 0.6075581395348837,
+              "y": 0.06330749354005168,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_9a6118"
+            },
+            {
+              "x": 0.5266731328806984,
+              "y": 0.23100549628192693,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_854207"
+            },
+            {
+              "x": 0.26867119301648884,
+              "y": 0.9121133742860222,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_eb3ef2"
+            },
+            {
+              "x": 0.30358874878758485,
+              "y": 0.9121133742860222,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_eb3ef2"
+            },
+            {
+              "x": 0.09117361784675072,
+              "y": 0.546556741028128,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_0867b5"
+            },
+            {
+              "x": 0.22017458777885549,
+              "y": 0.18100010777023387,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_19e9ef"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.375,
+                  "y": 0.3768303186907838
+                },
+                {
+                  "x": 0.42054263565891475,
+                  "y": 0.38027562446167096
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_15345f"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.6294859359844811,
+                  "y": 0.03615691346050221
+                },
+                {
+                  "x": 0.5800193986420951,
+                  "y": 0.039605560944067246
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_9a6118"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5198836081474297,
+                  "y": 0.039605560944067246
+                },
+                {
+                  "x": 0.47623666343355964,
+                  "y": 0.03788123720228473
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_46aca1"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.4296799224054316,
+                  "y": 0.38791895678413624
+                },
+                {
+                  "x": 0.4277400581959263,
+                  "y": 0.503448647483565
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_15345f"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.40252182347235693,
+                  "y": 0.762097208750943
+                },
+                {
+                  "x": 0.3326867119301649,
+                  "y": 0.7603728850091604
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_08a17a"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.3817829457364341,
+              "y": 0.6800172265288544,
+              "screenshot_id": "sc_08a17a"
+            },
+            {
+              "x": 0.4015518913676043,
+              "y": 0.3327405970470956,
+              "screenshot_id": "sc_15345f"
+            },
+            {
+              "x": 0.29776915615906885,
+              "y": 0.4379243452958293,
+              "screenshot_id": "sc_d580a9"
+            },
+            {
+              "x": 0.26479146459747815,
+              "y": 0.4379243452958293,
+              "screenshot_id": "sc_d580a9"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.5674102812803103,
+              "y": 0.5706972734130833,
+              "screenshot_id": "sc_12ddb9"
+            },
+            {
+              "x": 0.6052376333656644,
+              "y": 0.5706972734130833,
+              "screenshot_id": "sc_12ddb9"
+            },
+            {
+              "x": 0.07759456838021339,
+              "y": 0.5827675396055609,
+              "screenshot_id": "sc_0867b5"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.34951923076923075,
+              "y": 0.24615384615384617,
+              "label": "a"
+            },
+            {
+              "x": 0.5274038461538462,
+              "y": 0.405982905982906,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "calypso_casino_1f_b": {
+      "id": "calypso_casino_calypso_casino_1f_b_unknown_20260618_200203",
+      "map_id": "calypso_casino",
+      "site_id": "calypso_casino_1f_b",
+      "name": "Calypso Casino \u00e2\u0080\u0093 1F Site B",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-06-18",
+      "author": "jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_3b93df",
+          "filename": "sc_3b93df.webp"
+        },
+        {
+          "id": "sc_45ed37",
+          "filename": "sc_45ed37.webp"
+        },
+        {
+          "id": "sc_e9f062",
+          "filename": "sc_e9f062.webp"
+        },
+        {
+          "id": "sc_8caf8d",
+          "filename": "sc_8caf8d.webp"
+        },
+        {
+          "id": "sc_92f1d2",
+          "filename": "sc_92f1d2.webp"
+        },
+        {
+          "id": "sc_51d557",
+          "filename": "sc_51d557.webp"
+        },
+        {
+          "id": "sc_f71782",
+          "filename": "sc_f71782.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "calypso_casino_1f_b",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.49078564500484967,
+              "y": 0.7638215324927256,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e9f062"
+            },
+            {
+              "x": 0.49078564500484967,
+              "y": 0.8414161008729389,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e9f062"
+            },
+            {
+              "x": 0.29582929194956353,
+              "y": 0.6310486043754715,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_8caf8d"
+            },
+            {
+              "x": 0.45586808923375366,
+              "y": 0.5706972734130833,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_3b93df"
+            },
+            {
+              "x": 0.5693501454898157,
+              "y": 0.16375687035240866,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_92f1d2"
+            },
+            {
+              "x": 0.489815712900097,
+              "y": 0.10857851061536804,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_51d557"
+            },
+            {
+              "x": 0.4626576139670223,
+              "y": 0.10857851061536804,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_51d557"
+            },
+            {
+              "x": 0.3705140640155189,
+              "y": 0.11030283435715056,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f71782"
+            },
+            {
+              "x": 0.34238603297769155,
+              "y": 0.11030283435715056,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f71782"
+            },
+            {
+              "x": 0.3957322987390883,
+              "y": 0.34653518698135577,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_45ed37"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.33365664403491757,
+                  "y": 0.7051945252721198
+                },
+                {
+                  "x": 0.2376333656644035,
+                  "y": 0.6879512878542946
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_8caf8d"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.49466537342386036,
+              "y": 0.38964328052591873,
+              "screenshot_id": "sc_e9f062"
+            },
+            {
+              "x": 0.36372453928225024,
+              "y": 0.34653518698135577,
+              "screenshot_id": "sc_45ed37"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.5926285160038798,
+              "y": 0.19651902144627653,
+              "screenshot_id": "sc_92f1d2"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.3317167798254122,
+              "y": 0.6051837482487337,
+              "label": "a"
+            },
+            {
+              "x": 0.7187196896217265,
+              "y": 0.6741566979200345,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "calypso_casino_2f": {
+      "id": "calypso_casino_calypso_casino_2f_unknown_20260611_201547",
+      "map_id": "calypso_casino",
+      "site_id": "calypso_casino_2f",
+      "name": "Calypso Casino \u00e2\u0080\u0093 2F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-06-11",
+      "author": "jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_8f1e14",
+          "filename": "sc_8f1e14.webp"
+        },
+        {
+          "id": "sc_f5f8ff",
+          "filename": "sc_f5f8ff.webp"
+        },
+        {
+          "id": "sc_88d85c",
+          "filename": "sc_88d85c.webp"
+        },
+        {
+          "id": "sc_5037b6",
+          "filename": "sc_5037b6.webp"
+        },
+        {
+          "id": "sc_c654b4",
+          "filename": "sc_c654b4.webp"
+        },
+        {
+          "id": "sc_9eccd0",
+          "filename": "sc_9eccd0.webp"
+        },
+        {
+          "id": "sc_1d9811",
+          "filename": "sc_1d9811.webp"
+        },
+        {
+          "id": "sc_4720b0",
+          "filename": "sc_4720b0.webp"
+        },
+        {
+          "id": "sc_3b93df",
+          "filename": "sc_3b93df.webp"
+        },
+        {
+          "id": "sc_09ef2a",
+          "filename": "sc_09ef2a.webp"
+        },
+        {
+          "id": "sc_f73395",
+          "filename": "sc_f73395.webp"
+        },
+        {
+          "id": "sc_ba008f",
+          "filename": "sc_ba008f.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "calypso_casino_2f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.6114341085271318,
+              "y": 0.2131782945736434,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_ba008f"
+            },
+            {
+              "x": 0.37790697674418605,
+              "y": 0.16666666666666666,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_8f1e14"
+            },
+            {
+              "x": 0.37112403100775193,
+              "y": 0.20284237726098192,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_8f1e14"
+            },
+            {
+              "x": 0.43507751937984496,
+              "y": 0.8763996554694229,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_3b93df"
+            },
+            {
+              "x": 0.6876818622696411,
+              "y": 0.4051621942019614,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_c654b4"
+            },
+            {
+              "x": 0.6954413191076625,
+              "y": 0.453443258971872,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_c654b4"
+            },
+            {
+              "x": 0.6091173617846751,
+              "y": 0.8034809785537235,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_4720b0"
+            },
+            {
+              "x": 0.3705140640155189,
+              "y": 0.6465675180515141,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_09ef2a"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.6346899224806202,
+                  "y": 0.28208440999138673
+                },
+                {
+                  "x": 0.6288759689922481,
+                  "y": 0.15805340223944875
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_ba008f"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.49369544131910764,
+                  "y": 0.3913676042677013
+                },
+                {
+                  "x": 0.545101842870999,
+                  "y": 0.3913676042677013
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_5037b6"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5615906886517944,
+                  "y": 0.7138161439810324
+                },
+                {
+                  "x": 0.5596508244422891,
+                  "y": 0.589664834572691
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_1d9811"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.4093113482056256,
+                  "y": 0.593113482056256
+                },
+                {
+                  "x": 0.4064015518913676,
+                  "y": 0.7207134389481625
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_09ef2a"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.41957364341085274,
+              "y": 0.29069767441860467,
+              "screenshot_id": "sc_88d85c"
+            },
+            {
+              "x": 0.6129970902036858,
+              "y": 0.5413837698027805,
+              "screenshot_id": "sc_9eccd0"
+            },
+            {
+              "x": 0.524733268671193,
+              "y": 0.43275137407048175,
+              "screenshot_id": "sc_5037b6"
+            },
+            {
+              "x": 0.29582929194956353,
+              "y": 0.7845134173941157,
+              "screenshot_id": "sc_f73395"
+            }
+          ],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.6971153846153846,
+              "y": 0.6555555555555556,
+              "label": "a"
+            },
+            {
+              "x": 0.37884615384615383,
+              "y": 0.3435897435897436,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "calypso_casino_base": {
+      "id": "calypso_casino_calypso_casino_base_unknown_20260611_200810",
+      "map_id": "calypso_casino",
+      "site_id": "calypso_casino_base",
+      "name": "Calypso Casino \u00e2\u0080\u0093 Basement",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-06-11",
+      "author": "",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_e9e6e7",
+          "filename": "sc_e9e6e7.webp"
+        },
+        {
+          "id": "sc_445e01",
+          "filename": "sc_445e01.webp"
+        },
+        {
+          "id": "sc_c7aabd",
+          "filename": "sc_c7aabd.webp"
+        },
+        {
+          "id": "sc_8774ea",
+          "filename": "sc_8774ea.webp"
+        },
+        {
+          "id": "sc_32afd1",
+          "filename": "sc_32afd1.webp"
+        },
+        {
+          "id": "sc_cc75d8",
+          "filename": "sc_cc75d8.webp"
+        },
+        {
+          "id": "sc_3ceb28",
+          "filename": "sc_3ceb28.webp"
+        },
+        {
+          "id": "sc_6620c2",
+          "filename": "sc_6620c2.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "calypso_casino_base",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.5455426356589147,
+              "y": 0.8006029285099052,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_3ceb28"
+            },
+            {
+              "x": 0.689922480620155,
+              "y": 0.5904392764857881,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_8774ea"
+            },
+            {
+              "x": 0.7277131782945736,
+              "y": 0.5921619293712317,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_8774ea"
+            },
+            {
+              "x": 0.3023255813953488,
+              "y": 0.0512489233419466,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e9e6e7"
+            },
+            {
+              "x": 0.32945736434108525,
+              "y": 0.0512489233419466,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e9e6e7"
+            },
+            {
+              "x": 0.15503875968992248,
+              "y": 0.6231696813092162,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_6620c2"
+            },
+            {
+              "x": 0.3385063045586809,
+              "y": 0.29480547472788016,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_32afd1"
+            },
+            {
+              "x": 0.5063045586808923,
+              "y": 0.8017566548119409,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_3ceb28"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5499515033947624,
+                  "y": 0.1758271365448863
+                },
+                {
+                  "x": 0.5489815712900097,
+                  "y": 0.062021769587240004
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_445e01"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.483996120271581,
+                  "y": 0.6569134605022093
+                },
+                {
+                  "x": 0.4219204655674103,
+                  "y": 0.6569134605022093
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_cc75d8"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.6488845780795345,
+              "y": 0.29308115098609766,
+              "screenshot_id": "sc_c7aabd"
+            },
+            {
+              "x": 0.6741028128031038,
+              "y": 0.29308115098609766,
+              "screenshot_id": "sc_c7aabd"
+            },
+            {
+              "x": 0.4597478176527643,
+              "y": 0.71898911520638,
+              "screenshot_id": "sc_cc75d8"
+            },
+            {
+              "x": 0.4325897187196896,
+              "y": 0.2999784459532277,
+              "screenshot_id": "sc_32afd1"
+            }
+          ],
+          "footholes": [],
+          "highholes": [
+            {
+              "x": 0.6937984496124031,
+              "y": 0.5525409130060293,
+              "screenshot_id": "sc_8774ea"
+            },
+            {
+              "x": 0.7335271317829457,
+              "y": 0.5525409130060293,
+              "screenshot_id": "sc_8774ea"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.30240384615384613,
+              "y": 0.452991452991453,
+              "label": "a"
+            },
+            {
+              "x": 0.6120192307692308,
+              "y": 0.5769230769230769,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "initialSiteId": "calypso_casino_base"
+}

@@ -1,0 +1,575 @@
+{
+  "map": {
+    "id": "outback",
+    "display_name": "Outback",
+    "status": "active",
+    "floors": [
+      {
+        "id": "1f",
+        "label": "1F",
+        "image_key": "outback/outback_1f"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "outback/outback_2f_a"
+      }
+    ],
+    "sites": [
+      {
+        "id": "outback_1f",
+        "display_name": "1F Green Bedroom, 1F Red Bedroom",
+        "floor": "1f",
+        "image_key": "outback/outback_1f"
+      },
+      {
+        "id": "outback_2f_a",
+        "display_name": "2F Party Room, 2F Office",
+        "floor": "2f",
+        "image_key": "outback/outback_2f_a"
+      },
+      {
+        "id": "outback_2f_b",
+        "display_name": "2F Laundry, 2F Piano Room",
+        "floor": "2f",
+        "image_key": "outback/outback_2f_b"
+      }
+    ]
+  },
+  "setups": {
+    "outback_1f": {
+      "id": "outback_outback_1f_jonas_20260510_193933",
+      "map_id": "outback",
+      "site_id": "outback_1f",
+      "name": "Outback \u00e2\u0080\u0093 1F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=W1426wT75e8"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_b158bc",
+          "filename": "sc_b158bc.webp"
+        },
+        {
+          "id": "sc_be12e7",
+          "filename": "sc_be12e7.webp"
+        },
+        {
+          "id": "sc_b16002",
+          "filename": "sc_b16002.webp"
+        },
+        {
+          "id": "sc_a6f24e",
+          "filename": "sc_a6f24e.webp"
+        },
+        {
+          "id": "sc_381d37",
+          "filename": "sc_381d37.webp"
+        },
+        {
+          "id": "sc_cd3778",
+          "filename": "sc_cd3778.webp"
+        },
+        {
+          "id": "sc_940154",
+          "filename": "sc_940154.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "outback_1f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.42441860465116277,
+              "y": 0.45348837209302323,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_b16002"
+            },
+            {
+              "x": 0.21608527131782945,
+              "y": 0.3863049095607235,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_b158bc"
+            },
+            {
+              "x": 0.20736434108527133,
+              "y": 0.4500430663221361,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_b158bc"
+            },
+            {
+              "x": 0.3381782945736434,
+              "y": 0.7428940568475452,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_be12e7"
+            },
+            {
+              "x": 0.6405038759689923,
+              "y": 0.39491817398794143,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_a6f24e"
+            },
+            {
+              "x": 0.6831395348837209,
+              "y": 0.39664082687338503,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_a6f24e"
+            },
+            {
+              "x": 0.6676356589147286,
+              "y": 0.3260120585701981,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_381d37"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.4050387596899225,
+                  "y": 0.41214470284237725
+                },
+                {
+                  "x": 0.46124031007751937,
+                  "y": 0.41214470284237725
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_b16002"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.3875968992248062,
+                  "y": 0.6912144702842378
+                },
+                {
+                  "x": 0.38856589147286824,
+                  "y": 0.7997416020671835
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_be12e7"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.41375968992248063,
+              "y": 0.6774332472006891,
+              "screenshot_id": "sc_be12e7"
+            }
+          ],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.30673076923076925,
+              "y": 0.44871794871794873,
+              "label": "a"
+            },
+            {
+              "x": 0.5745192307692307,
+              "y": 0.45555555555555555,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "outback_2f_b",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.21414728682170542,
+              "y": 0.7773471145564169,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_940154"
+            },
+            {
+              "x": 0.2548449612403101,
+              "y": 0.7756244616709733,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_940154"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5455426356589147,
+                  "y": 0.3897502153316107
+                },
+                {
+                  "x": 0.6104651162790697,
+                  "y": 0.3897502153316107
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_cd3778"
+            }
+          ],
+          "headholes": [],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "outback_2f_a": {
+      "id": "outback_outback_2f_a_jonas_20260510_193802",
+      "map_id": "outback",
+      "site_id": "outback_2f_a",
+      "name": "Outback \u00e2\u0080\u0093 2F Site A",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=W1426wT75e8"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_685e38",
+          "filename": "sc_685e38.webp"
+        },
+        {
+          "id": "sc_ced488",
+          "filename": "sc_ced488.webp"
+        },
+        {
+          "id": "sc_fccc31",
+          "filename": "sc_fccc31.webp"
+        },
+        {
+          "id": "sc_ea3308",
+          "filename": "sc_ea3308.webp"
+        },
+        {
+          "id": "sc_4e859b",
+          "filename": "sc_4e859b.webp"
+        },
+        {
+          "id": "sc_701222",
+          "filename": "sc_701222.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "outback_2f_a",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.4069767441860465,
+              "y": 0.40353143841515937,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_ced488"
+            },
+            {
+              "x": 0.4118217054263566,
+              "y": 0.3053402239448751,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_ced488"
+            },
+            {
+              "x": 0.40891472868217055,
+              "y": 0.3570198105081826,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_ced488"
+            },
+            {
+              "x": 0.7122093023255814,
+              "y": 0.5999138673557278,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_4e859b"
+            },
+            {
+              "x": 0.7228682170542635,
+              "y": 0.6602067183462532,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_4e859b"
+            },
+            {
+              "x": 0.5281007751937985,
+              "y": 0.21748492678725237,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_ea3308"
+            },
+            {
+              "x": 0.6996124031007752,
+              "y": 0.8858742463393626,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_4e859b"
+            },
+            {
+              "x": 0.3226744186046512,
+              "y": 0.24160206718346253,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_685e38"
+            },
+            {
+              "x": 0.3178294573643411,
+              "y": 0.2950043066322136,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_685e38"
+            },
+            {
+              "x": 0.49806201550387597,
+              "y": 0.5706287683031869,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_fccc31"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5872093023255814,
+                  "y": 0.6464254952627045
+                },
+                {
+                  "x": 0.5823643410852714,
+                  "y": 0.5034453057708872
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_fccc31"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.7257751937984496,
+                  "y": 0.8548664944013781
+                },
+                {
+                  "x": 0.7267441860465116,
+                  "y": 0.9358311800172265
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_4e859b"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.42829457364341084,
+              "y": 0.5809646856158484,
+              "screenshot_id": "sc_fccc31"
+            },
+            {
+              "x": 0.40891472868217055,
+              "y": 0.4517657192075797,
+              "screenshot_id": "sc_ced488"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.25193798449612403,
+              "y": 0.9013781223083549,
+              "screenshot_id": "sc_701222"
+            },
+            {
+              "x": 0.562015503875969,
+              "y": 0.23987941429801896,
+              "screenshot_id": "sc_ea3308"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.3350961538461538,
+              "y": 0.8564102564102564,
+              "label": "b"
+            },
+            {
+              "x": 0.47115384615384615,
+              "y": 0.36666666666666664,
+              "label": "a"
+            }
+          ]
+        }
+      ]
+    },
+    "outback_2f_b": {
+      "id": "outback_outback_2f_b_jonas_20260510_193514",
+      "map_id": "outback",
+      "site_id": "outback_2f_b",
+      "name": "Outback \u00e2\u0080\u0093 2F Site B",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=W1426wT75e8"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_940154",
+          "filename": "sc_940154.webp"
+        },
+        {
+          "id": "sc_7289d1",
+          "filename": "sc_7289d1.webp"
+        },
+        {
+          "id": "sc_b7f3e2",
+          "filename": "sc_b7f3e2.webp"
+        },
+        {
+          "id": "sc_27bbb9",
+          "filename": "sc_27bbb9.webp"
+        },
+        {
+          "id": "sc_e4428a",
+          "filename": "sc_e4428a.webp"
+        },
+        {
+          "id": "sc_43857d",
+          "filename": "sc_43857d.webp"
+        },
+        {
+          "id": "sc_27cbde",
+          "filename": "sc_27cbde.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "outback_2f_b",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.3905038759689923,
+              "y": 0.5757967269595177,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_27bbb9"
+            },
+            {
+              "x": 0.6676356589147286,
+              "y": 0.47416020671834624,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e4428a"
+            },
+            {
+              "x": 0.6637596899224806,
+              "y": 0.7101636520241171,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_27cbde"
+            },
+            {
+              "x": 0.8691860465116279,
+              "y": 0.6963824289405685,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_43857d"
+            },
+            {
+              "x": 0.8846899224806202,
+              "y": 0.7566752799310938,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_43857d"
+            },
+            {
+              "x": 0.7974806201550387,
+              "y": 0.520671834625323,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_43857d"
+            },
+            {
+              "x": 0.810077519379845,
+              "y": 0.5913006029285099,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_43857d"
+            },
+            {
+              "x": 0.4573643410852713,
+              "y": 0.3156761412575366,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_7289d1"
+            },
+            {
+              "x": 0.2180232558139535,
+              "y": 0.780792420327304,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_940154"
+            },
+            {
+              "x": 0.25872093023255816,
+              "y": 0.7773471145564169,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_940154"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.6027131782945736,
+                  "y": 0.38113695090439276
+                },
+                {
+                  "x": 0.5542635658914729,
+                  "y": 0.38113695090439276
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_b7f3e2"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.49806201550387597,
+                  "y": 0.36391042204995694
+                },
+                {
+                  "x": 0.49612403100775193,
+                  "y": 0.26744186046511625
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_7289d1"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.6550387596899225,
+              "y": 0.6326442721791559,
+              "screenshot_id": "sc_27cbde"
+            }
+          ],
+          "footholes": [],
+          "highholes": [
+            {
+              "x": 0.4253875968992248,
+              "y": 0.5706287683031869,
+              "screenshot_id": "sc_27bbb9"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.4355769230769231,
+              "y": 0.452991452991453,
+              "label": "a"
+            },
+            {
+              "x": 0.6528846153846154,
+              "y": 0.4188034188034188,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "initialSiteId": "outback_1f"
+}

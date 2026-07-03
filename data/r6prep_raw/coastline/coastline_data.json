@@ -1,0 +1,584 @@
+{
+  "map": {
+    "id": "coastline",
+    "display_name": "Coastline",
+    "status": "active",
+    "floors": [
+      {
+        "id": "1f",
+        "label": "1F",
+        "image_key": "coastline/coastline_1f"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "coastline/coastline_2f_a"
+      }
+    ],
+    "sites": [
+      {
+        "id": "coastline_1f",
+        "display_name": "1F Kitchen, 1F Service Entrance",
+        "floor": "1f",
+        "image_key": "coastline/coastline_1f"
+      },
+      {
+        "id": "coastline_2f_a",
+        "display_name": "2F Penthouse, 2F Theater",
+        "floor": "2f",
+        "image_key": "coastline/coastline_2f_a"
+      },
+      {
+        "id": "coastline_2f_b",
+        "display_name": "2F Hookah Lounge, 2F Billiards Room",
+        "floor": "2f",
+        "image_key": "coastline/coastline_2f_b"
+      }
+    ]
+  },
+  "setups": {
+    "coastline_1f": {
+      "id": "coastline_coastline_1f_jonas_20260510_162106",
+      "map_id": "coastline",
+      "site_id": "coastline_1f",
+      "name": "Coastline \u00e2\u0080\u0093 1F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=W1426wT75e8"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_f81f0b",
+          "filename": "sc_f81f0b.webp"
+        },
+        {
+          "id": "sc_b3a243",
+          "filename": "sc_b3a243.webp"
+        },
+        {
+          "id": "sc_aea1a8",
+          "filename": "sc_aea1a8.webp"
+        },
+        {
+          "id": "sc_97296e",
+          "filename": "sc_97296e.webp"
+        },
+        {
+          "id": "sc_402d1c",
+          "filename": "sc_402d1c.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "coastline_1f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.48255813953488375,
+              "y": 0.5430663221360896,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_b3a243"
+            },
+            {
+              "x": 0.5261627906976745,
+              "y": 0.541343669250646,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_b3a243"
+            },
+            {
+              "x": 0.5813953488372093,
+              "y": 0.2777777777777778,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_f81f0b"
+            },
+            {
+              "x": 0.6211240310077519,
+              "y": 0.5344530577088716,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_aea1a8"
+            },
+            {
+              "x": 0.6589147286821705,
+              "y": 0.532730404823428,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_aea1a8"
+            },
+            {
+              "x": 0.6947674418604651,
+              "y": 0.532730404823428,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_aea1a8"
+            },
+            {
+              "x": 0.7538759689922481,
+              "y": 0.35357450473729546,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_97296e"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5532945736434108,
+                  "y": 0.24849267872523687
+                },
+                {
+                  "x": 0.6046511627906976,
+                  "y": 0.24849267872523687
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_f81f0b"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.8217054263565892,
+                  "y": 0.29155900086132647
+                },
+                {
+                  "x": 0.8381782945736435,
+                  "y": 0.4018087855297158
+                }
+              ],
+              "type": "jump",
+              "screenshot_id": "sc_97296e"
+            }
+          ],
+          "headholes": [],
+          "footholes": [
+            {
+              "x": 0.3963178294573643,
+              "y": 0.5585701981050818,
+              "screenshot_id": "sc_b3a243"
+            },
+            {
+              "x": 0.436046511627907,
+              "y": 0.5585701981050818,
+              "screenshot_id": "sc_b3a243"
+            },
+            {
+              "x": 0.7160852713178295,
+              "y": 0.3742463393626184,
+              "screenshot_id": "sc_97296e"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.5932692307692308,
+              "y": 0.29914529914529914,
+              "label": "b"
+            },
+            {
+              "x": 0.46153846153846156,
+              "y": 0.3923076923076923,
+              "label": "a"
+            }
+          ]
+        },
+        {
+          "site_id": "coastline_2f_a",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.3624031007751938,
+              "y": 0.08828596037898363,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_402d1c"
+            },
+            {
+              "x": 0.3992248062015504,
+              "y": 0.08828596037898363,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_402d1c"
+            }
+          ],
+          "rotations": [],
+          "headholes": [],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "coastline_2f_a": {
+      "id": "coastline_coastline_2f_a_jonas_20260510_161633",
+      "map_id": "coastline",
+      "site_id": "coastline_2f_a",
+      "name": "Coastline \u00e2\u0080\u0093 2F Site A",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=W1426wT75e8"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_51d234",
+          "filename": "sc_51d234.webp"
+        },
+        {
+          "id": "sc_1f37a9",
+          "filename": "sc_1f37a9.webp"
+        },
+        {
+          "id": "sc_718d60",
+          "filename": "sc_718d60.webp"
+        },
+        {
+          "id": "sc_de6c46",
+          "filename": "sc_de6c46.webp"
+        },
+        {
+          "id": "sc_003e16",
+          "filename": "sc_003e16.webp"
+        },
+        {
+          "id": "sc_2fa832",
+          "filename": "sc_2fa832.webp"
+        },
+        {
+          "id": "sc_71dee5",
+          "filename": "sc_71dee5.webp"
+        },
+        {
+          "id": "sc_38d551",
+          "filename": "sc_38d551.webp"
+        },
+        {
+          "id": "sc_f81f0b",
+          "filename": "sc_f81f0b.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "coastline_2f_a",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.3624031007751938,
+              "y": 0.09000861326442722,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_51d234"
+            },
+            {
+              "x": 0.4050387596899225,
+              "y": 0.09000861326442722,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_51d234"
+            },
+            {
+              "x": 0.46608527131782945,
+              "y": 0.32945736434108525,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_1f37a9"
+            },
+            {
+              "x": 0.48255813953488375,
+              "y": 0.2226528854435831,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_718d60"
+            },
+            {
+              "x": 0.27906976744186046,
+              "y": 0.32256675279931096,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_1f37a9"
+            },
+            {
+              "x": 0.48352713178294576,
+              "y": 0.17097329888027563,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_718d60"
+            },
+            {
+              "x": 0.6618217054263565,
+              "y": 0.8531438415159346,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_38d551"
+            },
+            {
+              "x": 0.5813953488372093,
+              "y": 0.7945736434108527,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_71dee5"
+            },
+            {
+              "x": 0.5668604651162791,
+              "y": 0.4689922480620155,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_2fa832"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.4631782945736434,
+                  "y": 0.26744186046511625
+                },
+                {
+                  "x": 0.5058139534883721,
+                  "y": 0.26744186046511625
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_718d60"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.7170542635658915,
+                  "y": 0.8169681309216192
+                },
+                {
+                  "x": 0.7238372093023255,
+                  "y": 0.9151593453919036
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_38d551"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.4186046511627907,
+              "y": 0.3277347114556417,
+              "screenshot_id": "sc_1f37a9"
+            },
+            {
+              "x": 0.3236434108527132,
+              "y": 0.32084409991386736,
+              "screenshot_id": "sc_1f37a9"
+            },
+            {
+              "x": 0.5755813953488372,
+              "y": 0.7084409991386735,
+              "screenshot_id": "sc_71dee5"
+            },
+            {
+              "x": 0.5862403100775194,
+              "y": 0.43109388458225667,
+              "screenshot_id": "sc_2fa832"
+            },
+            {
+              "x": 0.6928294573643411,
+              "y": 0.4362618432385874,
+              "screenshot_id": "sc_003e16"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.6211240310077519,
+              "y": 0.10895779500430663,
+              "screenshot_id": "sc_de6c46"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.6177884615384616,
+              "y": 0.5743589743589743,
+              "label": "a"
+            },
+            {
+              "x": 0.6423076923076924,
+              "y": 0.27692307692307694,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "coastline_2f_b": {
+      "id": "coastline_coastline_2f_b_jonas_20260510_130342",
+      "map_id": "coastline",
+      "site_id": "coastline_2f_b",
+      "name": "Coastline \u00e2\u0080\u0093 2F Site B",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://vm.tiktok.com/ZGdHauVYw/"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_3f096c",
+          "filename": "sc_3f096c.webp"
+        },
+        {
+          "id": "sc_03ea1e",
+          "filename": "sc_03ea1e.webp"
+        },
+        {
+          "id": "sc_95342b",
+          "filename": "sc_95342b.webp"
+        },
+        {
+          "id": "sc_cc9d20",
+          "filename": "sc_cc9d20.webp"
+        },
+        {
+          "id": "sc_6d1dcb",
+          "filename": "sc_6d1dcb.webp"
+        },
+        {
+          "id": "sc_336fca",
+          "filename": "sc_336fca.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "coastline_2f_b",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.4253875968992248,
+              "y": 0.2054263565891473,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_3f096c"
+            },
+            {
+              "x": 0.41957364341085274,
+              "y": 0.2967269595176572,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_03ea1e"
+            },
+            {
+              "x": 0.31976744186046513,
+              "y": 0.43109388458225667,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_95342b"
+            },
+            {
+              "x": 0.5087209302325582,
+              "y": 0.4707149009474591,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_cc9d20"
+            },
+            {
+              "x": 0.5096899224806202,
+              "y": 0.5447889750215331,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_cc9d20"
+            },
+            {
+              "x": 0.5087209302325582,
+              "y": 0.6068044788975021,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_cc9d20"
+            },
+            {
+              "x": 0.5251937984496124,
+              "y": 0.3105081826012059,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6d1dcb"
+            },
+            {
+              "x": 0.5697674418604651,
+              "y": 0.3105081826012059,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6d1dcb"
+            },
+            {
+              "x": 0.24224806201550386,
+              "y": 0.8686477174849268,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_336fca"
+            },
+            {
+              "x": 0.40794573643410853,
+              "y": 0.38458225667527995,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_03ea1e"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.28972868217054265,
+                  "y": 0.5051679586563308
+                },
+                {
+                  "x": 0.29651162790697677,
+                  "y": 0.38113695090439276
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_95342b"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.45155038759689925,
+                  "y": 0.1916451335055986
+                },
+                {
+                  "x": 0.4050387596899225,
+                  "y": 0.1847545219638243
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_3f096c"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.3594961240310077,
+              "y": 0.437984496124031,
+              "screenshot_id": "sc_95342b"
+            },
+            {
+              "x": 0.4127906976744186,
+              "y": 0.3415159345391904,
+              "screenshot_id": "sc_03ea1e"
+            },
+            {
+              "x": 0.5096899224806202,
+              "y": 0.6791559000861327,
+              "screenshot_id": "sc_cc9d20"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.18895348837209303,
+              "y": 0.8738156761412575,
+              "screenshot_id": "sc_336fca"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.3658653846153846,
+              "y": 0.6196581196581197,
+              "label": "a"
+            },
+            {
+              "x": 0.36346153846153845,
+              "y": 0.335042735042735,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "initialSiteId": "coastline_1f"
+}

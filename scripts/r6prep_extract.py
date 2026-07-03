@@ -87,9 +87,11 @@ def main():
         layer = [l for l in setup["layers"] if l["is_primary"]][0]
         for kind in ("reinforcements", "headholes", "footholes", "highholes"):
             for item in layer.get(kind, []):
-                needed.add((site_id, item["screenshot_id"]))
+                if item.get("screenshot_id"):
+                    needed.add((site_id, item["screenshot_id"]))
         for item in layer.get("rotations", []):
-            needed.add((site_id, item["screenshot_id"]))
+            if item.get("screenshot_id"):
+                needed.add((site_id, item["screenshot_id"]))
 
     for site in data["map"]["sites"]:
         img_key = site["image_key"]

@@ -1,0 +1,16 @@
+{
+  "map": "Emerald Plains",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Emerald_Plains) and cross-checked against r6prep.com's own site list, fetched 2026-07-03. Newer map (added Y11S2) — callout documentation is thinner than older maps; some rooms noted by Liquipedia as TBA/undocumented at time of writing.",
+  "floors": ["1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "dining-kitchen", "name": "Dining / Kitchen", "floor": "1st Floor"},
+    {"id": "gallery-meeting", "name": "Private Gallery / Meeting Room", "floor": "2nd Floor"},
+    {"id": "admin-ceo", "name": "Administration / CEO Office", "floor": "2nd Floor"}
+  ],
+  "callouts": {
+    "1st Floor": ["Bar", "Lounge", "Dining", "Kitchen"],
+    "2nd Floor": ["Administration", "CEO Office", "Private Gallery", "Meeting Room"],
+    "Exterior": ["Front Gate", "Stables", "Golf Course", "Green Stairs", "Skylight", "Fireplace Atrium", "Left Tower"]
+  }
+}

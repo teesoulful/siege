@@ -1,0 +1,41 @@
+{
+  "lair_1f": {
+    "1": "Bunks",
+    "2": "Bunks",
+    "3": "Briefing",
+    "4": "Armory",
+    "5": "Armory",
+    "6": "Briefing",
+    "7": "Bunks"
+  },
+  "lair_2f": {
+    "1": "R6 Room",
+    "2": "R6 Room",
+    "3": "R6 Room",
+    "4": "R6 Room",
+    "5": "R6 Room",
+    "6": "R6 Room",
+    "7": "Master Office",
+    "8": "Master Office",
+    "9": "R6 Room",
+    "10": "R6 Room",
+    "11": "Master Office",
+    "12": "Master Office",
+    "13": "Master Office",
+    "14": "Master Office",
+    "15": "R6 Room",
+    "16": "Master Office"
+  },
+  "lair_base": {
+    "1": "Lab",
+    "2": "Lab Support",
+    "3": "Lab Support",
+    "4": "Lab Support",
+    "5": "Lab Support",
+    "6": "Lab Support",
+    "7": "Lab",
+    "8": "Lab Support",
+    "9": "Lab Support",
+    "10": "Lab"
+  }
+}

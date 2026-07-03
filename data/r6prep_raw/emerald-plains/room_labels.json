@@ -1,0 +1,47 @@
+{
+  "emerald_plains_1f": {
+    "1": "Dining",
+    "2": "Bar",
+    "3": "Bar",
+    "4": "Bar",
+    "5": "Bar",
+    "6": "Bar",
+    "7": "Bar",
+    "8": "Kitchen",
+    "9": "Kitchen",
+    "10": "Dining",
+    "11": "Dining",
+    "12": "Bar",
+    "13": "Dining"
+  },
+  "emerald_plains_2f_a": {
+    "1": "Meeting Room",
+    "2": "Meeting Room",
+    "3": "Private Gallery",
+    "4": "Private Gallery",
+    "5": "Private Gallery",
+    "6": "Private Gallery",
+    "7": "Private Gallery",
+    "8": "Private Gallery",
+    "9": "Meeting Room",
+    "10": "Meeting Room",
+    "11": "Private Gallery",
+    "12": "Private Gallery",
+    "13": "Private Gallery"
+  },
+  "emerald_plains_2f_b": {
+    "1": "Administration",
+    "2": "Administration",
+    "3": "Coat Room",
+    "4": "Administration",
+    "5": "CEO Office",
+    "6": "CEO Office",
+    "7": "Private Gallery",
+    "8": "Private Gallery",
+    "9": "Private Gallery",
+    "10": "Private Gallery",
+    "11": "Administration",
+    "12": "CEO Office",
+    "13": "CEO Office"
+  }
+}

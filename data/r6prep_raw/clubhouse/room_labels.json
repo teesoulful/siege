@@ -1,0 +1,53 @@
+{
+  "club_house_2f_a": {
+    "1": "CCTV Room",
+    "2": "Cash Room",
+    "3": "Cash Room",
+    "4": "Cash Room",
+    "5": "CCTV Room",
+    "6": "Construction",
+    "7": "Cash Room",
+    "8": "Cash Room",
+    "9": "CCTV Room",
+    "10": "Cash Room",
+    "11": "Construction",
+    "12": "Cash Room",
+    "13": "Cash Room",
+    "14": "CCTV Room"
+  },
+  "club_house_2f_b": {
+    "1": "Gym",
+    "2": "Gym",
+    "3": "Gym",
+    "4": "Bedroom",
+    "5": "CCTV Room",
+    "6": "CCTV Room",
+    "7": "Gym",
+    "8": "Gym",
+    "9": "Gym",
+    "10": "Gym",
+    "11": "Gym",
+    "12": "Gym",
+    "13": "Bedroom",
+    "14": "Bedroom",
+    "15": "CCTV Room",
+    "16": "CCTV Room"
+  },
+  "club_house_base": {
+    "1": "Arsenal Room",
+    "2": "Arsenal Room",
+    "3": "Church",
+    "4": "Arsenal Room",
+    "5": "Arsenal Room",
+    "6": "Oil Pit",
+    "7": "Arsenal Room",
+    "8": "Arsenal Room",
+    "9": "Arsenal Room",
+    "10": "Arsenal Room",
+    "11": "Church",
+    "12": "Arsenal Room",
+    "13": "Church",
+    "14": "Arsenal Room",
+    "15": "Arsenal Room"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "outback_1f": {
+    "1": "Green Bedroom",
+    "2": "Red Bedroom",
+    "3": "Red Bedroom",
+    "4": "Mechanic Shop",
+    "5": "Kitchen",
+    "6": "Kitchen",
+    "7": "Kitchen",
+    "8": "Green Bedroom",
+    "9": "Green Bedroom",
+    "10": "Mechanic Shop"
+  },
+  "outback_2f_a": {
+    "1": "Party Room",
+    "2": "Party Room",
+    "3": "Party Room",
+    "4": "Covered Terrace",
+    "5": "Covered Terrace",
+    "6": "Mezzanine",
+    "7": "Covered Terrace",
+    "8": "Party Room",
+    "9": "Party Room",
+    "10": "Office",
+    "11": "Office",
+    "12": "Party Room",
+    "13": "Office",
+    "14": "Mezzanine",
+    "15": "Office",
+    "16": "Covered Terrace"
+  },
+  "outback_2f_b": {
+    "1": "Laundry Room",
+    "2": "Piano Room",
+    "3": "Office Supply",
+    "4": "Office Supply",
+    "5": "Office Supply",
+    "6": "Office Supply",
+    "7": "Office Supply",
+    "8": "Laundry Room",
+    "9": "Laundry Room",
+    "10": "Laundry Room",
+    "11": "Office Supply",
+    "12": "Laundry Room",
+    "13": "Piano Room",
+    "14": "Laundry Room"
+  }
+}

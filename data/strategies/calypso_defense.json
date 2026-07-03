@@ -1,0 +1,510 @@
+{
+  "map": "Calypso Casino",
+  "side": "Defense",
+  "source": {
+    "title": "R6 Prep — Defender Site Setups: Calypso Casino",
+    "type": "r6prep_site_setups",
+    "file": "https://www.r6prep.com/defender/site-setups/calypso",
+    "notes": "Wall/hatch/rotation/head-hole/foot-hole positions and per-marker screenshots sourced directly from r6prep.com's structured site-setup data (r6prep's own source: https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_). r6prep provides no text room names or descriptions, only marker position + category + photo — room names above were inferred by the app's maintainer from each marker's visual position on the base map, cross-checked against wiki-verified callouts (data/maps/*.json). Treat room labels as best-effort; the linked photo is the authoritative reference for exact placement. No operator/loadout/utility recommendations in this source — that content is tracked separately."
+  },
+  "sites": [
+    {
+      "id": "calypso_casino_1f_a",
+      "workingName": "Bar / Betting",
+      "floor": "1st Floor",
+      "callouts": [
+        "Bar",
+        "Betting",
+        "Cashier",
+        "Lobby",
+        "Main Entrance",
+        "Side Hall",
+        "VIP Lounge Access"
+      ],
+      "reinforcements": [
+        {
+          "location": "Betting, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_15345f.webp"
+        },
+        {
+          "location": "VIP Lounge Access, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_a46d44.webp"
+        },
+        {
+          "location": "VIP Lounge Access, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_a46d44.webp"
+        },
+        {
+          "location": "Main Entrance, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_9a6118.webp"
+        },
+        {
+          "location": "Cashier, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_eb3ef2.webp"
+        },
+        {
+          "location": "Cashier, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_eb3ef2.webp"
+        },
+        {
+          "location": "Side Hall, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_0867b5.webp"
+        },
+        {
+          "location": "Side Hall, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_19e9ef.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Betting",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_08a17a.webp"
+        },
+        {
+          "location": "Cashier",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_15345f.webp"
+        },
+        {
+          "location": "Cashier (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_d580a9.webp"
+        },
+        {
+          "location": "Cashier (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_d580a9.webp"
+        },
+        {
+          "location": "Lobby, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_12ddb9.webp"
+        },
+        {
+          "location": "Lobby, Foot Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_12ddb9.webp"
+        },
+        {
+          "location": "Side Hall, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_0867b5.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Cashier, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_15345f.webp"
+        },
+        {
+          "location": "Main Entrance, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_9a6118.webp"
+        },
+        {
+          "location": "Main Entrance, Stand (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_46aca1.webp"
+        },
+        {
+          "location": "Betting, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_15345f.webp"
+        },
+        {
+          "location": "Betting, Stand (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_08a17a.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Bar",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_854207.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "calypso_casino_1f_b",
+      "workingName": "Blackjack / Poker",
+      "floor": "1st Floor",
+      "callouts": [
+        "Blackjack Room",
+        "Cigar Room",
+        "Poker Room",
+        "Storage Room"
+      ],
+      "reinforcements": [
+        {
+          "location": "Blackjack Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_e9f062.webp"
+        },
+        {
+          "location": "Blackjack Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_e9f062.webp"
+        },
+        {
+          "location": "Storage Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_8caf8d.webp"
+        },
+        {
+          "location": "Poker Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_92f1d2.webp"
+        },
+        {
+          "location": "Storage Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_51d557.webp"
+        },
+        {
+          "location": "Storage Room, Horizontal Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_51d557.webp"
+        },
+        {
+          "location": "Storage Room, Horizontal Wall (4)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_f71782.webp"
+        },
+        {
+          "location": "Storage Room, Horizontal Wall (5)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_f71782.webp"
+        },
+        {
+          "location": "Cigar Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_45ed37.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Blackjack Room (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_e9f062.webp"
+        },
+        {
+          "location": "Cigar Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_45ed37.webp"
+        },
+        {
+          "location": "Poker Room, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_92f1d2.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Storage Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_8caf8d.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Blackjack Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_3b93df.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "calypso_casino_2f",
+      "workingName": "Cigar Room / Pool",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Aquarium Room",
+        "Cigar Room",
+        "Kitchen",
+        "Mezzanine",
+        "Pool Room",
+        "Upper Balcony"
+      ],
+      "reinforcements": [
+        {
+          "location": "Upper Balcony, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_ba008f.webp"
+        },
+        {
+          "location": "Kitchen, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_8f1e14.webp"
+        },
+        {
+          "location": "Kitchen, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_8f1e14.webp"
+        },
+        {
+          "location": "Pool Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_c654b4.webp"
+        },
+        {
+          "location": "Pool Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_c654b4.webp"
+        },
+        {
+          "location": "Mezzanine, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_4720b0.webp"
+        },
+        {
+          "location": "Aquarium Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_09ef2a.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Cigar Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_88d85c.webp"
+        },
+        {
+          "location": "Pool Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_9eccd0.webp"
+        },
+        {
+          "location": "Cigar Room (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_5037b6.webp"
+        },
+        {
+          "location": "Aquarium Room (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_f73395.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Upper Balcony, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_ba008f.webp"
+        },
+        {
+          "location": "Cigar Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_5037b6.webp"
+        },
+        {
+          "location": "Mezzanine, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_1d9811.webp"
+        },
+        {
+          "location": "Aquarium Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_09ef2a.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Aquarium Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_3b93df.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "calypso_casino_base",
+      "workingName": "CCTV / Vault Checkpoint",
+      "floor": "Basement",
+      "callouts": [
+        "Cash Room",
+        "Manager Office",
+        "Security",
+        "Server Room",
+        "Service Corridor",
+        "Surveillance Room",
+        "Vault"
+      ],
+      "reinforcements": [
+        {
+          "location": "Service Corridor, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_3ceb28.webp"
+        },
+        {
+          "location": "Vault, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_8774ea.webp"
+        },
+        {
+          "location": "Vault, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_8774ea.webp"
+        },
+        {
+          "location": "Manager Office, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_e9e6e7.webp"
+        },
+        {
+          "location": "Manager Office, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_e9e6e7.webp"
+        },
+        {
+          "location": "Security, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_32afd1.webp"
+        },
+        {
+          "location": "Service Corridor, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_3ceb28.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Server Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_c7aabd.webp"
+        },
+        {
+          "location": "Server Room (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_c7aabd.webp"
+        },
+        {
+          "location": "Surveillance Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_cc75d8.webp"
+        },
+        {
+          "location": "Security",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_32afd1.webp"
+        },
+        {
+          "location": "Vault, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_8774ea.webp"
+        },
+        {
+          "location": "Vault, High Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_8774ea.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Manager Office, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_445e01.webp"
+        },
+        {
+          "location": "Surveillance Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_cc75d8.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Cash Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/calypso/sc_6620c2.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    }
+  ]
+}

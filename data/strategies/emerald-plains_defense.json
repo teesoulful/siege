@@ -1,0 +1,307 @@
+{
+  "map": "Emerald Plains",
+  "side": "Defense",
+  "source": {
+    "title": "R6 Prep — Defender Site Setups: Emerald Plains",
+    "type": "r6prep_site_setups",
+    "file": "https://www.r6prep.com/defender/site-setups/emerald-plains",
+    "notes": "Wall/hatch/rotation/head-hole/foot-hole positions and per-marker screenshots sourced directly from r6prep.com's structured site-setup data (r6prep's own source: https://www.youtube.com/watch?v=W1426wT75e8). r6prep provides no text room names or descriptions, only marker position + category + photo — room names above were inferred by the app's maintainer from each marker's visual position on the base map, cross-checked against wiki-verified callouts (data/maps/*.json). Treat room labels as best-effort; the linked photo is the authoritative reference for exact placement. No operator/loadout/utility recommendations in this source — that content is tracked separately."
+  },
+  "sites": [
+    {
+      "id": "emerald_plains_1f",
+      "workingName": "Dining / Kitchen",
+      "floor": "1st Floor",
+      "callouts": [
+        "Bar",
+        "Dining",
+        "Kitchen"
+      ],
+      "reinforcements": [
+        {
+          "location": "Dining, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_3999f0.webp"
+        },
+        {
+          "location": "Bar, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_f84969.webp"
+        },
+        {
+          "location": "Bar, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_f84969.webp"
+        },
+        {
+          "location": "Bar, Horizontal Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_54aca7.webp"
+        },
+        {
+          "location": "Bar, Horizontal Wall (4)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_54aca7.webp"
+        },
+        {
+          "location": "Bar, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_7e72fd.webp"
+        },
+        {
+          "location": "Bar, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_7e72fd.webp"
+        },
+        {
+          "location": "Kitchen, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_5bc8fc.webp"
+        },
+        {
+          "location": "Kitchen, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_5bc8fc.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Dining (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_7e72fd.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Bar, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_7e72fd.webp"
+        },
+        {
+          "location": "Dining, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_3999f0.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Dining",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_2c0c05.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "emerald_plains_2f_a",
+      "workingName": "Private Gallery / Meeting",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Meeting Room",
+        "Private Gallery"
+      ],
+      "reinforcements": [
+        {
+          "location": "Meeting Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_c43047.webp"
+        },
+        {
+          "location": "Meeting Room, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_c43047.webp"
+        },
+        {
+          "location": "Private Gallery, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_96d5f2.webp"
+        },
+        {
+          "location": "Private Gallery, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_10ea66.webp"
+        },
+        {
+          "location": "Private Gallery, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_10ea66.webp"
+        },
+        {
+          "location": "Private Gallery, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_10ea66.webp"
+        },
+        {
+          "location": "Private Gallery, Vertical Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_4d02ba.webp"
+        },
+        {
+          "location": "Private Gallery, Vertical Wall (4)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_fcf53f.webp"
+        },
+        {
+          "location": "Meeting Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_856d06.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Meeting Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_856d06.webp"
+        },
+        {
+          "location": "Private Gallery",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_96d5f2.webp"
+        },
+        {
+          "location": "Private Gallery, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_10ea66.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Private Gallery, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_fcf53f.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "emerald_plains_2f_b",
+      "workingName": "Administration / CEO Office",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Administration",
+        "CEO Office",
+        "Coat Room",
+        "Private Gallery"
+      ],
+      "reinforcements": [
+        {
+          "location": "Administration, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_83aa5c.webp"
+        },
+        {
+          "location": "Administration, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_83aa5c.webp"
+        },
+        {
+          "location": "Coat Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_9b5117.webp"
+        },
+        {
+          "location": "Administration, Vertical Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_7270d6.webp"
+        },
+        {
+          "location": "CEO Office, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_03129d.webp"
+        },
+        {
+          "location": "CEO Office, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_03129d.webp"
+        },
+        {
+          "location": "Private Gallery, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_f09f0e.webp"
+        },
+        {
+          "location": "Private Gallery, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_f09f0e.webp"
+        },
+        {
+          "location": "Private Gallery, Vertical Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_e05831.webp"
+        },
+        {
+          "location": "Private Gallery, Vertical Wall (4)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_e05831.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Administration",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_83aa5c.webp"
+        },
+        {
+          "location": "CEO Office",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_03129d.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "CEO Office, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/emerald-plains/sc_7270d6.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "map": "Fortress",
+  "side": "Defense",
+  "source": {
+    "title": "R6 Prep — Defender Site Setups: Fortress",
+    "type": "r6prep_site_setups",
+    "file": "https://www.r6prep.com/defender/site-setups/fortress",
+    "notes": "Wall/hatch/rotation/head-hole/foot-hole positions and per-marker screenshots sourced directly from r6prep.com's structured site-setup data (r6prep's own source: https://www.youtube.com/watch?v=I72rBFjAtbA). r6prep provides no text room names or descriptions, only marker position + category + photo — room names above were inferred by the app's maintainer from each marker's visual position on the base map, cross-checked against wiki-verified callouts (data/maps/*.json). Treat room labels as best-effort; the linked photo is the authoritative reference for exact placement. No operator/loadout/utility recommendations in this source — that content is tracked separately."
+  },
+  "sites": [
+    {
+      "id": "fortress_1f_a",
+      "workingName": "Hammam / Sitting Room",
+      "floor": "1st Floor",
+      "callouts": [
+        "Courtyard",
+        "Hammam",
+        "Hannam Hallway",
+        "Old Tower Stairs",
+        "Sitting Room"
+      ],
+      "reinforcements": [
+        {
+          "location": "Courtyard, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_265cc8.webp"
+        },
+        {
+          "location": "Courtyard, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_265cc8.webp"
+        },
+        {
+          "location": "Sitting Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_32747d.webp"
+        },
+        {
+          "location": "Sitting Room, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_32747d.webp"
+        },
+        {
+          "location": "Hannam Hallway, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_8848f3.webp"
+        },
+        {
+          "location": "Hannam Hallway, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_8848f3.webp"
+        },
+        {
+          "location": "Hannam Hallway, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_8848f3.webp"
+        },
+        {
+          "location": "Old Tower Stairs, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_c4bb1c.webp"
+        },
+        {
+          "location": "Hammam, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_729bd2.webp"
+        }
+      ],
+      "headHoles": [],
+      "rotates": [
+        {
+          "location": "Hammam, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_729bd2.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "fortress_1f_b",
+      "workingName": "Waiting Room / Cafeteria",
+      "floor": "1st Floor",
+      "callouts": [
+        "Cafeteria",
+        "Dining Room",
+        "Hammam",
+        "Hannam Hallway",
+        "Kitchen"
+      ],
+      "reinforcements": [
+        {
+          "location": "Kitchen, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_447de7.webp"
+        },
+        {
+          "location": "Kitchen, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_447de7.webp"
+        },
+        {
+          "location": "Kitchen, Horizontal Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_447de7.webp"
+        },
+        {
+          "location": "Cafeteria, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_5a08a5.webp"
+        },
+        {
+          "location": "Hannam Hallway, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_a30c72.webp"
+        },
+        {
+          "location": "Hannam Hallway, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_a30c72.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Dining Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_c31f3e.webp"
+        },
+        {
+          "location": "Dining Room (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_4fa02f.webp"
+        },
+        {
+          "location": "Dining Room (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_4fa02f.webp"
+        },
+        {
+          "location": "Hammam",
+          "note": "",
+          "timestamp": "",
+          "photo": ""
+        },
+        {
+          "location": "Dining Room, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_8e07c1.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Kitchen, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_8c6689.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "fortress_2f_a",
+      "workingName": "Bathroom / Commander's Office",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Bathroom",
+        "Commander's Office",
+        "Courtyard Corridor",
+        "Shisha Hallway",
+        "Tower Renovation"
+      ],
+      "reinforcements": [
+        {
+          "location": "Bathroom, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_cf55ca.webp"
+        },
+        {
+          "location": "Commander's Office, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_78461d.webp"
+        },
+        {
+          "location": "Courtyard Corridor, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_31a145.webp"
+        },
+        {
+          "location": "Courtyard Corridor, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_31a145.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Bathroom",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_cf55ca.webp"
+        },
+        {
+          "location": "Shisha Hallway",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_f04086.webp"
+        },
+        {
+          "location": "Tower Renovation, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_dce763.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Commander's Office, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_78461d.webp"
+        },
+        {
+          "location": "Bathroom, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_c71a5c.webp"
+        },
+        {
+          "location": "Courtyard Corridor, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_31a145.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "fortress_2f_b",
+      "workingName": "Dormitory / Games Room",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Dormitory",
+        "Games Room",
+        "Shisha Hallway"
+      ],
+      "reinforcements": [
+        {
+          "location": "Games Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_bb20b5.webp"
+        },
+        {
+          "location": "Shisha Hallway, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_bb20b5.webp"
+        },
+        {
+          "location": "Dormitory, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_778c28.webp"
+        },
+        {
+          "location": "Dormitory, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_778c28.webp"
+        },
+        {
+          "location": "Shisha Hallway, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_b2e746.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Games Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_bb20b5.webp"
+        },
+        {
+          "location": "Shisha Hallway, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_b2e746.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Shisha Hallway, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_bb20b5.webp"
+        },
+        {
+          "location": "Games Room, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_00fb2a.webp"
+        },
+        {
+          "location": "Dormitory, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_778c28.webp"
+        },
+        {
+          "location": "Dormitory, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/fortress/sc_778c28.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    }
+  ]
+}

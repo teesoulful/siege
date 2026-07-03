@@ -1,0 +1,345 @@
+{
+  "map": "Consulate",
+  "side": "Defense",
+  "source": {
+    "title": "R6 Prep — Defender Site Setups: Consulate",
+    "type": "r6prep_site_setups",
+    "file": "https://www.r6prep.com/defender/site-setups/consulate",
+    "notes": "Wall/hatch/rotation/head-hole/foot-hole positions and per-marker screenshots sourced directly from r6prep.com's structured site-setup data (r6prep's own source: https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_). r6prep provides no text room names or descriptions, only marker position + category + photo — room names above were inferred by the app's maintainer from each marker's visual position on the base map, cross-checked against wiki-verified callouts (data/maps/*.json). Treat room labels as best-effort; the linked photo is the authoritative reference for exact placement. No operator/loadout/utility recommendations in this source — that content is tracked separately."
+  },
+  "sites": [
+    {
+      "id": "consulate_1f",
+      "workingName": "Exposition Room / Piano Room",
+      "floor": "1st Floor",
+      "callouts": [
+        "Exposition Room",
+        "Lobby",
+        "Piano Room",
+        "Press Room",
+        "Tellers",
+        "Visa Office"
+      ],
+      "reinforcements": [
+        {
+          "location": "Visa Office, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_7b8550.webp"
+        },
+        {
+          "location": "Tellers, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_2a5b6e.webp"
+        },
+        {
+          "location": "Tellers, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_2a5b6e.webp"
+        },
+        {
+          "location": "Lobby, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_32dbd1.webp"
+        },
+        {
+          "location": "Lobby, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_32dbd1.webp"
+        },
+        {
+          "location": "Visa Office, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_7b8550.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Piano Room, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_9f77a7.webp"
+        },
+        {
+          "location": "Press Room, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_94070a.webp"
+        },
+        {
+          "location": "Press Room, Foot Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_94070a.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Exposition Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_2edf6a.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "consulate_2f",
+      "workingName": "Consul Office / Meeting Room",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Administration Office",
+        "Break Room",
+        "Consulate Office",
+        "Front Office",
+        "Meeting Room"
+      ],
+      "reinforcements": [
+        {
+          "location": "Administration Office, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_0b9f15.webp"
+        },
+        {
+          "location": "Administration Office, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_02d2ef.webp"
+        },
+        {
+          "location": "Front Office, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_c8508e.webp"
+        },
+        {
+          "location": "Meeting Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_1e39a5.webp"
+        },
+        {
+          "location": "Administration Office, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_6387c9.webp"
+        },
+        {
+          "location": "Consulate Office, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_1e39a5.webp"
+        },
+        {
+          "location": "Administration Office, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_0b9f15.webp"
+        },
+        {
+          "location": "Meeting Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_0b9f15.webp"
+        },
+        {
+          "location": "Administration Office, Horizontal Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_0b9f15.webp"
+        },
+        {
+          "location": "Administration Office, Horizontal Wall (4)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_0b9f15.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Administration Office",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_6387c9.webp"
+        },
+        {
+          "location": "Break Room, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_109427.webp"
+        },
+        {
+          "location": "Break Room, Foot Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_109427.webp"
+        },
+        {
+          "location": "Consulate Office, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_474b09.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Meeting Room, Jump",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_1e39a5.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "consulate_base",
+      "workingName": "Cafeteria / Garage",
+      "floor": "Basement",
+      "callouts": [
+        "Archives",
+        "Cafeteria",
+        "Garage",
+        "Servers",
+        "Service Stairs",
+        "Storage Room"
+      ],
+      "reinforcements": [
+        {
+          "location": "Service Stairs, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_dbba47.webp"
+        },
+        {
+          "location": "Garage, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_a62546.webp"
+        },
+        {
+          "location": "Garage, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_a62546.webp"
+        },
+        {
+          "location": "Storage Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_c32b20.webp"
+        },
+        {
+          "location": "Cafeteria, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_403ca8.webp"
+        },
+        {
+          "location": "Servers, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_827efa.webp"
+        },
+        {
+          "location": "Servers, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_827efa.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Service Stairs",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_dbba47.webp"
+        },
+        {
+          "location": "Cafeteria (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_403ca8.webp"
+        },
+        {
+          "location": "Archives",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_e0654c.webp"
+        },
+        {
+          "location": "Servers",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_827efa.webp"
+        },
+        {
+          "location": "Servers, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_e93d6f.webp"
+        },
+        {
+          "location": "Service Stairs, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_dd88ed.webp"
+        },
+        {
+          "location": "Cafeteria, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_403ca8.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Garage, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_403ca8.webp"
+        },
+        {
+          "location": "Storage Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_76eaa2.webp"
+        },
+        {
+          "location": "Storage Room, Stand (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_c32b20.webp"
+        },
+        {
+          "location": "Service Stairs, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_a1a2c0.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Cafeteria",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/consulate/sc_ef71e4.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    }
+  ]
+}

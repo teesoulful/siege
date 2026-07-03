@@ -1,0 +1,884 @@
+{
+  "map": {
+    "id": "fortress",
+    "display_name": "Fortress",
+    "status": "active",
+    "floors": [
+      {
+        "id": "1f",
+        "label": "1F",
+        "image_key": "fortress/fortress_1f_a"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "fortress/fortress_2f_a"
+      }
+    ],
+    "sites": [
+      {
+        "id": "fortress_1f_a",
+        "display_name": "1F Hammam, 1F Sitting Room",
+        "floor": "1f",
+        "image_key": "fortress/fortress_1f_a"
+      },
+      {
+        "id": "fortress_1f_b",
+        "display_name": "1F Waiting Room, 1F Cafeteria",
+        "floor": "1f",
+        "image_key": "fortress/fortress_1f_b"
+      },
+      {
+        "id": "fortress_2f_a",
+        "display_name": "2F Bathroom, 2F Commander's Office",
+        "floor": "2f",
+        "image_key": "fortress/fortress_2f_a"
+      },
+      {
+        "id": "fortress_2f_b",
+        "display_name": "2F Dormitory, 2F Games Room",
+        "floor": "2f",
+        "image_key": "fortress/fortress_2f_b"
+      }
+    ]
+  },
+  "setups": {
+    "fortress_1f_a": {
+      "id": "fortress_fortress_1f_a_lukas_20260511_212341",
+      "map_id": "fortress",
+      "site_id": "fortress_1f_a",
+      "name": "Fortress \u00e2\u0080\u0093 1F Site A",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-11",
+      "author": "Lukas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=I72rBFjAtbA"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_32747d",
+          "filename": "sc_32747d.webp"
+        },
+        {
+          "id": "sc_8848f3",
+          "filename": "sc_8848f3.webp"
+        },
+        {
+          "id": "sc_729bd2",
+          "filename": "sc_729bd2.webp"
+        },
+        {
+          "id": "sc_c4bb1c",
+          "filename": "sc_c4bb1c.webp"
+        },
+        {
+          "id": "sc_265cc8",
+          "filename": "sc_265cc8.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "fortress_1f_a",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.4361111111111111,
+              "y": 0.9549382716049383,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_265cc8"
+            },
+            {
+              "x": 0.4340277777777778,
+              "y": 0.9820987654320987,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_265cc8"
+            },
+            {
+              "x": 0.3643410852713178,
+              "y": 0.18819982773471144,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_32747d"
+            },
+            {
+              "x": 0.3594961240310077,
+              "y": 0.2364341085271318,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_32747d"
+            },
+            {
+              "x": 0.49709302325581395,
+              "y": 0.3363479758828596,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_8848f3"
+            },
+            {
+              "x": 0.5426356589147286,
+              "y": 0.33462532299741604,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_8848f3"
+            },
+            {
+              "x": 0.5426356589147286,
+              "y": 0.375968992248062,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_8848f3"
+            },
+            {
+              "x": 0.6569767441860465,
+              "y": 0.7342807924203273,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_c4bb1c"
+            },
+            {
+              "x": 0.37887596899224807,
+              "y": 0.44659776055124895,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_729bd2"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.34593023255813954,
+                  "y": 0.5068906115417743
+                },
+                {
+                  "x": 0.3478682170542636,
+                  "y": 0.3863049095607235
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_729bd2"
+            }
+          ],
+          "headholes": [],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.3408653846153846,
+              "y": 0.5641025641025641,
+              "label": "a"
+            },
+            {
+              "x": 0.3855769230769231,
+              "y": 0.19829059829059828,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "fortress_1f_b": {
+      "id": "fortress_fortress_1f_b_lukas_20260511_211555",
+      "map_id": "fortress",
+      "site_id": "fortress_1f_b",
+      "name": "Fortress \u00e2\u0080\u0093 1F Site B",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-11",
+      "author": "Lukas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_481b4a",
+          "filename": "sc_481b4a.webp"
+        },
+        {
+          "id": "sc_447de7",
+          "filename": "sc_447de7.webp"
+        },
+        {
+          "id": "sc_519ee4",
+          "filename": "sc_519ee4.webp"
+        },
+        {
+          "id": "sc_c31f3e",
+          "filename": "sc_c31f3e.webp"
+        },
+        {
+          "id": "sc_3da634",
+          "filename": "sc_3da634.webp"
+        },
+        {
+          "id": "sc_cff911",
+          "filename": "sc_cff911.webp"
+        },
+        {
+          "id": "sc_a30c72",
+          "filename": "sc_a30c72.webp"
+        },
+        {
+          "id": "sc_5a08a5",
+          "filename": "sc_5a08a5.webp"
+        },
+        {
+          "id": "sc_4fa02f",
+          "filename": "sc_4fa02f.webp"
+        },
+        {
+          "id": "sc_8e07c1",
+          "filename": "sc_8e07c1.webp"
+        },
+        {
+          "id": "sc_8c6689",
+          "filename": "sc_8c6689.webp"
+        },
+        {
+          "id": "sc_c805e4",
+          "filename": "sc_c805e4.webp"
+        },
+        {
+          "id": "sc_00fb2a",
+          "filename": "sc_00fb2a.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "fortress_1f_b",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.4097222222222222,
+              "y": 0.31296296296296294,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_447de7"
+            },
+            {
+              "x": 0.44305555555555554,
+              "y": 0.31296296296296294,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_447de7"
+            },
+            {
+              "x": 0.48055555555555557,
+              "y": 0.31049382716049384,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_447de7"
+            },
+            {
+              "x": 0.7662463627546072,
+              "y": 0.46551352516434963,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_5a08a5"
+            },
+            {
+              "x": 0.06789524733268672,
+              "y": 0.23962711499083952,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_a30c72"
+            },
+            {
+              "x": 0.05431619786614937,
+              "y": 0.27928656105183747,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_a30c72"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5726744186046512,
+                  "y": 0.3363479758828596
+                },
+                {
+                  "x": 0.626937984496124,
+                  "y": 0.3415159345391904
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_8c6689"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.6166666666666667,
+              "y": 0.567283950617284,
+              "screenshot_id": "sc_c31f3e"
+            },
+            {
+              "x": 0.7817652764306499,
+              "y": 0.5672486259295183,
+              "screenshot_id": "sc_4fa02f"
+            },
+            {
+              "x": 0.7943743937924346,
+              "y": 0.6207026619247764,
+              "screenshot_id": "sc_4fa02f"
+            },
+            {
+              "x": 0.23084384093113483,
+              "y": 0.8276215109386788
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.7002909796314258,
+              "y": 0.9310809354456299,
+              "screenshot_id": "sc_8e07c1"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.6222137767663957,
+              "y": 0.43847646049391925,
+              "label": "a"
+            },
+            {
+              "x": 0.8051830746847721,
+              "y": 0.8446492078887812,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "fortress_2f_b",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.49466537342386036,
+              "y": 0.10168121564823795,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_c805e4"
+            },
+            {
+              "x": 0.49466537342386036,
+              "y": 0.1413406617092359,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_c805e4"
+            },
+            {
+              "x": 0.49466537342386036,
+              "y": 0.18617307899558141,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_c805e4"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.7400581959262852,
+                  "y": 0.5862161870891259
+                },
+                {
+                  "x": 0.8195926285160039,
+                  "y": 0.5758702446384308
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_00fb2a"
+            }
+          ],
+          "headholes": [],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "fortress_2f_a": {
+      "id": "fortress_fortress_2f_a_lukas_20260511_210427",
+      "map_id": "fortress",
+      "site_id": "fortress_2f_a",
+      "name": "Fortress \u00e2\u0080\u0093 2F Site A",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-11",
+      "author": "Lukas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_78461d",
+          "filename": "sc_78461d.webp"
+        },
+        {
+          "id": "sc_f6ea00",
+          "filename": "sc_f6ea00.webp"
+        },
+        {
+          "id": "sc_c71a5c",
+          "filename": "sc_c71a5c.webp"
+        },
+        {
+          "id": "sc_dc143d",
+          "filename": "sc_dc143d.webp"
+        },
+        {
+          "id": "sc_878608",
+          "filename": "sc_878608.webp"
+        },
+        {
+          "id": "sc_dce763",
+          "filename": "sc_dce763.webp"
+        },
+        {
+          "id": "sc_cf55ca",
+          "filename": "sc_cf55ca.webp"
+        },
+        {
+          "id": "sc_f04086",
+          "filename": "sc_f04086.webp"
+        },
+        {
+          "id": "sc_31a145",
+          "filename": "sc_31a145.webp"
+        },
+        {
+          "id": "sc_0a176f",
+          "filename": "sc_0a176f.webp"
+        },
+        {
+          "id": "sc_a56de7",
+          "filename": "sc_a56de7.webp"
+        },
+        {
+          "id": "sc_385b5c",
+          "filename": "sc_385b5c.webp"
+        },
+        {
+          "id": "sc_f8ba0f",
+          "filename": "sc_f8ba0f.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "fortress_2f_a",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.39791666666666664,
+              "y": 0.5648148148148148,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_cf55ca"
+            },
+            {
+              "x": 0.42291666666666666,
+              "y": 0.2660493827160494,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_78461d"
+            },
+            {
+              "x": 0.8343023255813954,
+              "y": 0.6791559000861327,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_31a145"
+            },
+            {
+              "x": 0.8517441860465116,
+              "y": 0.7411714039621017,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_31a145"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.46511627906976744,
+                  "y": 0.313953488372093
+                },
+                {
+                  "x": 0.4641472868217054,
+                  "y": 0.1726959517657192
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_78461d"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5697674418604651,
+                  "y": 0.532730404823428
+                },
+                {
+                  "x": 0.5368217054263565,
+                  "y": 0.44142980189491815
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_c71a5c"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.9437439379243453,
+                  "y": 0.8310701584222437
+                },
+                {
+                  "x": 0.8283220174587779,
+                  "y": 0.8431404246147214
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_31a145"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.3627546071774976,
+              "y": 0.5655243021877359,
+              "screenshot_id": "sc_cf55ca"
+            },
+            {
+              "x": 0.7032007759456838,
+              "y": 0.4689621726479146,
+              "screenshot_id": "sc_f04086"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.5701388888888889,
+              "y": 0.23148148148148148,
+              "screenshot_id": "sc_dce763"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.4841346153846154,
+              "y": 0.5393162393162393,
+              "label": "a"
+            },
+            {
+              "x": 0.5208493434305752,
+              "y": 0.708229500858017,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "fortress_2f_b",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.5237633365664404,
+              "y": 0.2741135898264899,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f8ba0f"
+            },
+            {
+              "x": 0.4219204655674103,
+              "y": 0.762097208750943,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_a56de7"
+            },
+            {
+              "x": 0.478176527643065,
+              "y": 0.762097208750943,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_a56de7"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.7410281280310378,
+                  "y": 0.593113482056256
+                },
+                {
+                  "x": 0.8254122211445198,
+                  "y": 0.5862161870891259
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_385b5c"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.5635305528612997,
+              "y": 0.2758379135682724,
+              "screenshot_id": "sc_f8ba0f"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.5257032007759457,
+              "y": 0.6344972518590365,
+              "screenshot_id": "sc_a56de7"
+            },
+            {
+              "x": 0.527643064985451,
+              "y": 0.6913999353378597,
+              "screenshot_id": "sc_a56de7"
+            }
+          ],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "fortress_2f_b": {
+      "id": "fortress_fortress_2f_b_lukas_20260511_211048",
+      "map_id": "fortress",
+      "site_id": "fortress_2f_b",
+      "name": "Fortress \u00e2\u0080\u0093 2F Site B",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-11",
+      "author": "Lukas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_1e4982",
+          "filename": "sc_1e4982.webp"
+        },
+        {
+          "id": "sc_16ae88",
+          "filename": "sc_16ae88.webp"
+        },
+        {
+          "id": "sc_ca4e3f",
+          "filename": "sc_ca4e3f.webp"
+        },
+        {
+          "id": "sc_fe30ec",
+          "filename": "sc_fe30ec.webp"
+        },
+        {
+          "id": "sc_602f0c",
+          "filename": "sc_602f0c.webp"
+        },
+        {
+          "id": "sc_18ae42",
+          "filename": "sc_18ae42.webp"
+        },
+        {
+          "id": "sc_778c28",
+          "filename": "sc_778c28.webp"
+        },
+        {
+          "id": "sc_b2e746",
+          "filename": "sc_b2e746.webp"
+        },
+        {
+          "id": "sc_bb20b5",
+          "filename": "sc_bb20b5.webp"
+        },
+        {
+          "id": "sc_00fb2a",
+          "filename": "sc_00fb2a.webp"
+        },
+        {
+          "id": "sc_ee13c6",
+          "filename": "sc_ee13c6.webp"
+        },
+        {
+          "id": "sc_f998f3",
+          "filename": "sc_f998f3.webp"
+        },
+        {
+          "id": "sc_0ec061",
+          "filename": "sc_0ec061.webp"
+        },
+        {
+          "id": "sc_286ee7",
+          "filename": "sc_286ee7.webp"
+        },
+        {
+          "id": "sc_b5a76e",
+          "filename": "sc_b5a76e.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "fortress_2f_b",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.5291666666666667,
+              "y": 0.7080246913580247,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_bb20b5"
+            },
+            {
+              "x": 0.6138888888888889,
+              "y": 0.7648148148148148,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_bb20b5"
+            },
+            {
+              "x": 0.4941860465116279,
+              "y": 0.14857881136950904,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_778c28"
+            },
+            {
+              "x": 0.4951550387596899,
+              "y": 0.19853574504737295,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_778c28"
+            },
+            {
+              "x": 0.4883720930232558,
+              "y": 0.760120585701981,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_b2e746"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5726744186046512,
+                  "y": 0.8014642549526271
+                },
+                {
+                  "x": 0.5707364341085271,
+                  "y": 0.7136089577950043
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_bb20b5"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.7449078564500485,
+                  "y": 0.589664834572691
+                },
+                {
+                  "x": 0.8195926285160039,
+                  "y": 0.5862161870891259
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_00fb2a"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.518913676042677,
+                  "y": 0.32929194956353053
+                },
+                {
+                  "x": 0.5169738118331717,
+                  "y": 0.19996766892984158
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_778c28"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5198836081474297,
+                  "y": 0.12064877680784568
+                },
+                {
+                  "x": 0.4655674102812803,
+                  "y": 0.12064877680784568
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_778c28"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.527643064985451,
+              "y": 0.6448431943097317,
+              "screenshot_id": "sc_bb20b5"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.4296799224054316,
+              "y": 0.762097208750943,
+              "screenshot_id": "sc_b2e746"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.5394123517123032,
+              "y": 0.4043928805325508,
+              "label": "a"
+            },
+            {
+              "x": 0.7442307692307693,
+              "y": 0.5008547008547009,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "fortress_2f_a",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.7032007759456838,
+              "y": 0.4672378489061321,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_b5a76e"
+            },
+            {
+              "x": 0.5577109602327837,
+              "y": 0.4844810863239573,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_ee13c6"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.466537342386033,
+                  "y": 0.32067033085461794
+                },
+                {
+                  "x": 0.4655674102812803,
+                  "y": 0.1758271365448863
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_286ee7"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.35499515033947626,
+              "y": 0.5586270072206057,
+              "screenshot_id": "sc_f998f3"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.5712900096993211,
+              "y": 0.21721090634766677,
+              "screenshot_id": "sc_0ec061"
+            }
+          ],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    }
+  },
+  "initialSiteId": "fortress_1f_a"
+}

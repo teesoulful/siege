@@ -1,0 +1,17 @@
+{
+  "map": "Lair",
+  "verified": true,
+  "verificationNote": "Sourced from Liquipedia Rainbow Six Wiki (liquipedia.net/rainbowsix/Lair) and cross-checked against r6prep.com's own site list, fetched 2026-07-03. Newer map — callout documentation is thinner than older maps; some rooms noted by Liquipedia as TBA/undocumented at time of writing.",
+  "floors": ["Basement", "1st Floor", "2nd Floor"],
+  "sites": [
+    {"id": "lab-labsupport", "name": "Lab / Lab Support", "floor": "Basement"},
+    {"id": "bunks-briefing", "name": "Bunks / Briefing", "floor": "1st Floor"},
+    {"id": "masteroffice-r6room", "name": "Master Office / R6 Room", "floor": "2nd Floor"}
+  ],
+  "callouts": {
+    "Basement": ["Lab", "Lab Support"],
+    "1st Floor": ["Bunks", "Briefing", "Armory", "Weapon Maintenance"],
+    "2nd Floor": ["Master Office", "R6 Room"],
+    "Exterior": ["Shooting Range", "Gate", "Lift", "Dock"]
+  }
+}

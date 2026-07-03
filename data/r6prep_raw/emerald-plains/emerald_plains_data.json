@@ -1,0 +1,507 @@
+{
+  "map": {
+    "id": "emerald_plains",
+    "display_name": "Emerald Plains",
+    "status": "active",
+    "floors": [
+      {
+        "id": "1f",
+        "label": "1F",
+        "image_key": "emerald_plains/emerald_plains_1f"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "emerald_plains/emerald_plains_2f_a"
+      }
+    ],
+    "sites": [
+      {
+        "id": "emerald_plains_1f",
+        "display_name": "1F Dining, 1F Kitchen",
+        "floor": "1f",
+        "image_key": "emerald_plains/emerald_plains_1f"
+      },
+      {
+        "id": "emerald_plains_2f_a",
+        "display_name": "2F Private Gallery, 2F Meeting",
+        "floor": "2f",
+        "image_key": "emerald_plains/emerald_plains_2f_a"
+      },
+      {
+        "id": "emerald_plains_2f_b",
+        "display_name": "2F Administration, 2F CEO Office",
+        "floor": "2f",
+        "image_key": "emerald_plains/emerald_plains_2f_b"
+      }
+    ]
+  },
+  "setups": {
+    "emerald_plains_1f": {
+      "id": "emerald_plains_emerald_plains_1f_jonas_20260510_185954",
+      "map_id": "emerald_plains",
+      "site_id": "emerald_plains_1f",
+      "name": "Emerald Plains \u00e2\u0080\u0093 1F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=W1426wT75e8"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_f84969",
+          "filename": "sc_f84969.webp"
+        },
+        {
+          "id": "sc_5bc8fc",
+          "filename": "sc_5bc8fc.webp"
+        },
+        {
+          "id": "sc_7e72fd",
+          "filename": "sc_7e72fd.webp"
+        },
+        {
+          "id": "sc_3999f0",
+          "filename": "sc_3999f0.webp"
+        },
+        {
+          "id": "sc_54aca7",
+          "filename": "sc_54aca7.webp"
+        },
+        {
+          "id": "sc_2c0c05",
+          "filename": "sc_2c0c05.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "emerald_plains_1f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.5552325581395349,
+              "y": 0.3673557278208441,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_3999f0"
+            },
+            {
+              "x": 0.4312015503875969,
+              "y": 0.6636520241171404,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f84969"
+            },
+            {
+              "x": 0.37112403100775193,
+              "y": 0.665374677002584,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f84969"
+            },
+            {
+              "x": 0.5775193798449613,
+              "y": 0.7945736434108527,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_54aca7"
+            },
+            {
+              "x": 0.6317829457364341,
+              "y": 0.7962962962962963,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_54aca7"
+            },
+            {
+              "x": 0.3546511627906977,
+              "y": 0.23987941429801896,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_7e72fd"
+            },
+            {
+              "x": 0.35174418604651164,
+              "y": 0.28811369509043927,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_7e72fd"
+            },
+            {
+              "x": 0.5426356589147286,
+              "y": 0.09862187769164513,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_5bc8fc"
+            },
+            {
+              "x": 0.5726744186046512,
+              "y": 0.09862187769164513,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_5bc8fc"
+            },
+            {
+              "x": 0.4418604651162791,
+              "y": 0.594745908699397,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_2c0c05"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.3846899224806202,
+                  "y": 0.2950043066322136
+                },
+                {
+                  "x": 0.37790697674418605,
+                  "y": 0.42764857881136953
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_7e72fd"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5881782945736435,
+                  "y": 0.2967269595176572
+                },
+                {
+                  "x": 0.5901162790697675,
+                  "y": 0.4190353143841516
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_3999f0"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.4437984496124031,
+              "y": 0.36218776916451334,
+              "screenshot_id": "sc_7e72fd"
+            }
+          ],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.5644230769230769,
+              "y": 0.5076923076923077,
+              "label": "a"
+            },
+            {
+              "x": 0.4173076923076923,
+              "y": 0.20427350427350427,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "emerald_plains_2f_a": {
+      "id": "emerald_plains_emerald_plains_2f_a_jonas_20260510_185108",
+      "map_id": "emerald_plains",
+      "site_id": "emerald_plains_2f_a",
+      "name": "Emerald Plains \u00e2\u0080\u0093 2F Site A",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=W1426wT75e8"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_10ea66",
+          "filename": "sc_10ea66.webp"
+        },
+        {
+          "id": "sc_4d02ba",
+          "filename": "sc_4d02ba.webp"
+        },
+        {
+          "id": "sc_c43047",
+          "filename": "sc_c43047.webp"
+        },
+        {
+          "id": "sc_856d06",
+          "filename": "sc_856d06.webp"
+        },
+        {
+          "id": "sc_96d5f2",
+          "filename": "sc_96d5f2.webp"
+        },
+        {
+          "id": "sc_fcf53f",
+          "filename": "sc_fcf53f.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "emerald_plains_2f_a",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.10562015503875968,
+              "y": 0.5447889750215331,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_c43047"
+            },
+            {
+              "x": 0.09689922480620156,
+              "y": 0.6102497846683893,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_c43047"
+            },
+            {
+              "x": 0.4806201550387597,
+              "y": 0.6808785529715762,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_96d5f2"
+            },
+            {
+              "x": 0.6414728682170543,
+              "y": 0.25021533161068044,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_10ea66"
+            },
+            {
+              "x": 0.6511627906976745,
+              "y": 0.2950043066322136,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_10ea66"
+            },
+            {
+              "x": 0.6046511627906976,
+              "y": 0.39319552110249784,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_10ea66"
+            },
+            {
+              "x": 0.44476744186046513,
+              "y": 0.23298880275624462,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_4d02ba"
+            },
+            {
+              "x": 0.42248062015503873,
+              "y": 0.5465116279069767,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_fcf53f"
+            },
+            {
+              "x": 0.24903100775193798,
+              "y": 0.6791559000861327,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_856d06"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.3808139534883721,
+                  "y": 0.6205857019810508
+                },
+                {
+                  "x": 0.45348837209302323,
+                  "y": 0.624031007751938
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_fcf53f"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.21220930232558138,
+              "y": 0.6843238587424634,
+              "screenshot_id": "sc_856d06"
+            },
+            {
+              "x": 0.5222868217054264,
+              "y": 0.6791559000861327,
+              "screenshot_id": "sc_96d5f2"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.6337209302325582,
+              "y": 0.43453919035314387,
+              "screenshot_id": "sc_10ea66"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.5663461538461538,
+              "y": 0.4641025641025641,
+              "label": "b"
+            },
+            {
+              "x": 0.34615384615384615,
+              "y": 0.5658119658119658,
+              "label": "a"
+            }
+          ]
+        }
+      ]
+    },
+    "emerald_plains_2f_b": {
+      "id": "emerald_plains_emerald_plains_2f_b_jonas_20260510_184906",
+      "map_id": "emerald_plains",
+      "site_id": "emerald_plains_2f_b",
+      "name": "Emerald Plains \u00e2\u0080\u0093 2F Site B",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=W1426wT75e8"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_03129d",
+          "filename": "sc_03129d.webp"
+        },
+        {
+          "id": "sc_83aa5c",
+          "filename": "sc_83aa5c.webp"
+        },
+        {
+          "id": "sc_9b5117",
+          "filename": "sc_9b5117.webp"
+        },
+        {
+          "id": "sc_e05831",
+          "filename": "sc_e05831.webp"
+        },
+        {
+          "id": "sc_f09f0e",
+          "filename": "sc_f09f0e.webp"
+        },
+        {
+          "id": "sc_7270d6",
+          "filename": "sc_7270d6.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "emerald_plains_2f_b",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.22965116279069767,
+              "y": 0.49483204134366926,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_83aa5c"
+            },
+            {
+              "x": 0.24031007751937986,
+              "y": 0.42937123169681307,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_83aa5c"
+            },
+            {
+              "x": 0.312015503875969,
+              "y": 0.8617571059431525,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_9b5117"
+            },
+            {
+              "x": 0.42441860465116277,
+              "y": 0.45348837209302323,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_7270d6"
+            },
+            {
+              "x": 0.5397286821705426,
+              "y": 0.5689061154177433,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_03129d"
+            },
+            {
+              "x": 0.5833333333333334,
+              "y": 0.5706287683031869,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_03129d"
+            },
+            {
+              "x": 0.7228682170542635,
+              "y": 0.4517657192075797,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_f09f0e"
+            },
+            {
+              "x": 0.7344961240310077,
+              "y": 0.49483204134366926,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_f09f0e"
+            },
+            {
+              "x": 0.8711240310077519,
+              "y": 0.1933677863910422,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_e05831"
+            },
+            {
+              "x": 0.8905038759689923,
+              "y": 0.23126614987080105,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_e05831"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.39728682170542634,
+                  "y": 0.5103359173126615
+                },
+                {
+                  "x": 0.45251937984496127,
+                  "y": 0.5120585701981051
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_7270d6"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.22189922480620156,
+              "y": 0.5447889750215331,
+              "screenshot_id": "sc_83aa5c"
+            },
+            {
+              "x": 0.6172480620155039,
+              "y": 0.5757967269595177,
+              "screenshot_id": "sc_03129d"
+            }
+          ],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.35192307692307695,
+              "y": 0.5931623931623932,
+              "label": "b"
+            },
+            {
+              "x": 0.4913461538461538,
+              "y": 0.7555555555555555,
+              "label": "a"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "initialSiteId": "emerald_plains_1f"
+}

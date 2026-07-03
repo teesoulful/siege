@@ -1,0 +1,53 @@
+{
+  "coastline_1f": {
+    "1": "Kitchen",
+    "2": "Kitchen",
+    "3": "Kitchen",
+    "4": "Service Entrance",
+    "5": "Service Entrance",
+    "6": "Service Entrance",
+    "7": "Service Entrance",
+    "8": "Kitchen",
+    "9": "Kitchen",
+    "10": "Service Entrance",
+    "11": "Kitchen",
+    "12": "Service Entrance"
+  },
+  "coastline_2f_a": {
+    "1": "VIP",
+    "2": "VIP",
+    "3": "Hall of Fame",
+    "4": "VIP",
+    "5": "Hall of Fame",
+    "6": "VIP",
+    "7": "Penthouse",
+    "8": "Penthouse",
+    "9": "Penthouse",
+    "10": "Hall of Fame",
+    "11": "Hall of Fame",
+    "12": "Penthouse",
+    "13": "Hall of Fame",
+    "14": "Hall of Fame",
+    "15": "Hall of Fame",
+    "16": "VIP",
+    "17": "Penthouse"
+  },
+  "coastline_2f_b": {
+    "1": "Hookah Lounge",
+    "2": "Hookah Lounge",
+    "3": "Billiards Room",
+    "4": "Billiards Room",
+    "5": "Billiards Room",
+    "6": "Billiards Room",
+    "7": "Aqua",
+    "8": "Aqua",
+    "9": "Billiards Room",
+    "10": "Hookah Lounge",
+    "11": "Billiards Room",
+    "12": "Hookah Lounge",
+    "13": "Billiards Room",
+    "14": "Billiards Room",
+    "15": "Billiards Room",
+    "16": "Hookah Lounge"
+  }
+}

@@ -1,0 +1,825 @@
+{
+  "map": {
+    "id": "nighthaven_labs",
+    "display_name": "Nighthaven Labs",
+    "status": "active",
+    "floors": [
+      {
+        "id": "base",
+        "label": "Basement",
+        "image_key": "nighthaven_labs/nighthaven_labs_base"
+      },
+      {
+        "id": "1f",
+        "label": "1F",
+        "image_key": "nighthaven_labs/nighthaven_labs_1f_a"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "nighthaven_labs/nighthaven_labs_2f"
+      }
+    ],
+    "sites": [
+      {
+        "id": "nighthaven_labs_base",
+        "display_name": "B Assembly, B Tank",
+        "floor": "base",
+        "image_key": "nighthaven_labs/nighthaven_labs_base"
+      },
+      {
+        "id": "nighthaven_labs_1f_a",
+        "display_name": "1F Kitchen, 1F Cafeteria",
+        "floor": "1f",
+        "image_key": "nighthaven_labs/nighthaven_labs_1f_a"
+      },
+      {
+        "id": "nighthaven_labs_1f_b",
+        "display_name": "1F Storage, 1F Control Room",
+        "floor": "1f",
+        "image_key": "nighthaven_labs/nighthaven_labs_1f_b"
+      },
+      {
+        "id": "nighthaven_labs_2f",
+        "display_name": "2F Command Center, 2F Servers",
+        "floor": "2f",
+        "image_key": "nighthaven_labs/nighthaven_labs_2f"
+      }
+    ]
+  },
+  "setups": {
+    "nighthaven_labs_1f_a": {
+      "id": "nighthaven_labs_nighthaven_labs_1f_a_jonas_20260510_153641",
+      "map_id": "nighthaven_labs",
+      "site_id": "nighthaven_labs_1f_a",
+      "name": "Nighthaven Labs \u00e2\u0080\u0093 1F Site A",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_6923c2",
+          "filename": "sc_6923c2.webp"
+        },
+        {
+          "id": "sc_245a3e",
+          "filename": "sc_245a3e.webp"
+        },
+        {
+          "id": "sc_978a11",
+          "filename": "sc_978a11.webp"
+        },
+        {
+          "id": "sc_83b3e5",
+          "filename": "sc_83b3e5.webp"
+        },
+        {
+          "id": "sc_75a123",
+          "filename": "sc_75a123.webp"
+        },
+        {
+          "id": "sc_436228",
+          "filename": "sc_436228.webp"
+        },
+        {
+          "id": "sc_506981",
+          "filename": "sc_506981.webp"
+        },
+        {
+          "id": "sc_2a735a",
+          "filename": "sc_2a735a.webp"
+        },
+        {
+          "id": "sc_b06cd0",
+          "filename": "sc_b06cd0.webp"
+        },
+        {
+          "id": "sc_e22704",
+          "filename": "sc_e22704.webp"
+        },
+        {
+          "id": "sc_8dfa9e",
+          "filename": "sc_8dfa9e.webp"
+        },
+        {
+          "id": "sc_6c18f9",
+          "filename": "sc_6c18f9.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "nighthaven_labs_1f_a",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.49709302325581395,
+              "y": 0.18819982773471144,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6923c2"
+            },
+            {
+              "x": 0.5319767441860465,
+              "y": 0.18819982773471144,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6923c2"
+            },
+            {
+              "x": 0.6627906976744186,
+              "y": 0.3156761412575366,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_245a3e"
+            },
+            {
+              "x": 0.041666666666666664,
+              "y": 0.9065460809646856,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_2a735a"
+            }
+          ],
+          "rotations": [],
+          "headholes": [
+            {
+              "x": 0.6288759689922481,
+              "y": 0.32256675279931096,
+              "screenshot_id": "sc_245a3e"
+            },
+            {
+              "x": 0.4364694471387003,
+              "y": 0.3844703093005712,
+              "screenshot_id": "sc_436228"
+            },
+            {
+              "x": 0.37245392822502427,
+              "y": 0.5793188921219959,
+              "screenshot_id": "sc_506981"
+            },
+            {
+              "x": 0.37536372453928224,
+              "y": 0.5293135036103028,
+              "screenshot_id": "sc_506981"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.6085271317829457,
+              "y": 0.6998277347114557,
+              "screenshot_id": "sc_75a123"
+            },
+            {
+              "x": 0.6124031007751938,
+              "y": 0.7635658914728682,
+              "screenshot_id": "sc_75a123"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.7432692307692308,
+              "y": 0.535042735042735,
+              "label": "a"
+            },
+            {
+              "x": 0.6081730769230769,
+              "y": 0.23675213675213674,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "nighthaven_labs_2f",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.7458777885548011,
+              "y": 0.027535294751589612,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e22704"
+            },
+            {
+              "x": 0.7701260911736179,
+              "y": 0.027535294751589612,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e22704"
+            },
+            {
+              "x": 0.5916585838991271,
+              "y": 0.15513525164349606,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_b06cd0"
+            },
+            {
+              "x": 0.6197866149369544,
+              "y": 0.15513525164349606,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_b06cd0"
+            },
+            {
+              "x": 0.5615906886517944,
+              "y": 0.2637676473757948,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6c18f9"
+            },
+            {
+              "x": 0.5664403491755577,
+              "y": 0.2982541222114452,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6c18f9"
+            }
+          ],
+          "rotations": [],
+          "headholes": [
+            {
+              "x": 0.7293889427740058,
+              "y": 0.15341092790171354,
+              "screenshot_id": "sc_8dfa9e"
+            }
+          ],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "nighthaven_labs_1f_b": {
+      "id": "nighthaven_labs_nighthaven_labs_1f_b_jonas_20260510_154401",
+      "map_id": "nighthaven_labs",
+      "site_id": "nighthaven_labs_1f_b",
+      "name": "Nighthaven Labs \u00e2\u0080\u0093 1F Site B",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_054c39",
+          "filename": "sc_054c39.webp"
+        },
+        {
+          "id": "sc_109668",
+          "filename": "sc_109668.webp"
+        },
+        {
+          "id": "sc_f7f55d",
+          "filename": "sc_f7f55d.webp"
+        },
+        {
+          "id": "sc_86706f",
+          "filename": "sc_86706f.webp"
+        },
+        {
+          "id": "sc_9102b3",
+          "filename": "sc_9102b3.webp"
+        },
+        {
+          "id": "sc_03a1e6",
+          "filename": "sc_03a1e6.webp"
+        },
+        {
+          "id": "sc_6c18f9",
+          "filename": "sc_6c18f9.webp"
+        },
+        {
+          "id": "sc_259e6c",
+          "filename": "sc_259e6c.webp"
+        },
+        {
+          "id": "sc_51541a",
+          "filename": "sc_51541a.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "nighthaven_labs_1f_b",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.3507751937984496,
+              "y": 0.9547803617571059,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_51541a"
+            },
+            {
+              "x": 0.2819767441860465,
+              "y": 0.9565030146425495,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_51541a"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.45348837209302323,
+                  "y": 0.1847545219638243
+                },
+                {
+                  "x": 0.45058139534883723,
+                  "y": 0.32256675279931096
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_f7f55d"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.4451988360814743,
+                  "y": 0.4206811078780041
+                },
+                {
+                  "x": 0.498545101842871,
+                  "y": 0.4206811078780041
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_86706f"
+            }
+          ],
+          "headholes": [],
+          "footholes": [],
+          "highholes": [
+            {
+              "x": 0.472356935014549,
+              "y": 0.4758594676150447,
+              "screenshot_id": "sc_86706f"
+            },
+            {
+              "x": 0.5460717749757517,
+              "y": 0.4017135467183964,
+              "screenshot_id": "sc_86706f"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.4860576923076923,
+              "y": 0.8341880341880342,
+              "label": "b"
+            },
+            {
+              "x": 0.2375,
+              "y": 0.5358974358974359,
+              "label": "a"
+            }
+          ]
+        },
+        {
+          "site_id": "nighthaven_labs_2f",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.2909796314258002,
+              "y": 0.6396702230843841,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_03a1e6"
+            },
+            {
+              "x": 0.3229873908826382,
+              "y": 0.6396702230843841,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_03a1e6"
+            },
+            {
+              "x": 0.4015518913676043,
+              "y": 0.5689729496713007,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_03a1e6"
+            },
+            {
+              "x": 0.6547041707080504,
+              "y": 0.7241620864317275,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_259e6c"
+            },
+            {
+              "x": 0.6595538312318138,
+              "y": 0.7948593598448108,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_259e6c"
+            },
+            {
+              "x": 0.2909796314258002,
+              "y": 0.31032438840392285,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_9102b3"
+            },
+            {
+              "x": 0.5635305528612997,
+              "y": 0.25859467615044723,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6c18f9"
+            },
+            {
+              "x": 0.5674102812803103,
+              "y": 0.2982541222114452,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6c18f9"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.35984481086323955,
+                  "y": 0.6862269641125122
+                },
+                {
+                  "x": 0.3588748787584869,
+                  "y": 0.5517297122534756
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_03a1e6"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.4034917555771096,
+              "y": 0.5137945899342602,
+              "screenshot_id": "sc_03a1e6"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.2890397672162949,
+              "y": 0.37412436684987604,
+              "screenshot_id": "sc_9102b3"
+            }
+          ],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "nighthaven_labs_2f": {
+      "id": "nighthaven_labs_nighthaven_labs_2f_jonas_20260510_135435",
+      "map_id": "nighthaven_labs",
+      "site_id": "nighthaven_labs_2f",
+      "name": "Nighthaven Labs \u00e2\u0080\u0093 2F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_3cd33e",
+          "filename": "sc_3cd33e.webp"
+        },
+        {
+          "id": "sc_10bd57",
+          "filename": "sc_10bd57.webp"
+        },
+        {
+          "id": "sc_259e6c",
+          "filename": "sc_259e6c.webp"
+        },
+        {
+          "id": "sc_e17b55",
+          "filename": "sc_e17b55.webp"
+        },
+        {
+          "id": "sc_48dcd3",
+          "filename": "sc_48dcd3.webp"
+        },
+        {
+          "id": "sc_03a1e6",
+          "filename": "sc_03a1e6.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "nighthaven_labs_2f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.5920542635658915,
+              "y": 0.15891472868217055,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e17b55"
+            },
+            {
+              "x": 0.622093023255814,
+              "y": 0.15719207579672695,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e17b55"
+            },
+            {
+              "x": 0.5736434108527132,
+              "y": 0.29155900086132647,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_48dcd3"
+            },
+            {
+              "x": 0.6560077519379846,
+              "y": 0.7067183462532299,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_259e6c"
+            },
+            {
+              "x": 0.6608527131782945,
+              "y": 0.7704565030146425,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_259e6c"
+            },
+            {
+              "x": 0.4001937984496124,
+              "y": 0.5706972734130833,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_03a1e6"
+            },
+            {
+              "x": 0.27228682170542634,
+              "y": 0.6360895779500431,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_03a1e6"
+            },
+            {
+              "x": 0.3168604651162791,
+              "y": 0.6343669250645995,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_03a1e6"
+            },
+            {
+              "x": 0.2819767441860465,
+              "y": 0.2950043066322136,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_3cd33e"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5445736434108527,
+                  "y": 0.26055124892334197
+                },
+                {
+                  "x": 0.5930232558139535,
+                  "y": 0.2639965546942291
+                }
+              ],
+              "type": "jump",
+              "screenshot_id": "sc_48dcd3"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.3569350145489816,
+                  "y": 0.6896756115960772
+                },
+                {
+                  "x": 0.3588748787584869,
+                  "y": 0.5551783597370407
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_03a1e6"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.40504627854344766,
+              "y": 0.5154504085661462,
+              "screenshot_id": "sc_03a1e6"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.2877906976744186,
+              "y": 0.37941429801894916,
+              "screenshot_id": "sc_3cd33e"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.39855769230769234,
+              "y": 0.3418803418803419,
+              "label": "a"
+            },
+            {
+              "x": 0.5985576923076923,
+              "y": 0.46068376068376066,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "nighthaven_labs_base": {
+      "id": "nighthaven_labs_nighthaven_labs_base_jonas_20260510_152028",
+      "map_id": "nighthaven_labs",
+      "site_id": "nighthaven_labs_base",
+      "name": "Nighthaven Labs \u00e2\u0080\u0093 Basement",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_5a3007",
+          "filename": "sc_5a3007.webp"
+        },
+        {
+          "id": "sc_1c04aa",
+          "filename": "sc_1c04aa.webp"
+        },
+        {
+          "id": "sc_088873",
+          "filename": "sc_088873.webp"
+        },
+        {
+          "id": "sc_7ea3e7",
+          "filename": "sc_7ea3e7.webp"
+        },
+        {
+          "id": "sc_d4a903",
+          "filename": "sc_d4a903.webp"
+        },
+        {
+          "id": "sc_f5b850",
+          "filename": "sc_f5b850.webp"
+        },
+        {
+          "id": "sc_fd159e",
+          "filename": "sc_fd159e.webp"
+        },
+        {
+          "id": "sc_67d60d",
+          "filename": "sc_67d60d.webp"
+        },
+        {
+          "id": "sc_28953b",
+          "filename": "sc_28953b.webp"
+        },
+        {
+          "id": "sc_dee917",
+          "filename": "sc_dee917.webp"
+        },
+        {
+          "id": "sc_72ab5e",
+          "filename": "sc_72ab5e.webp"
+        },
+        {
+          "id": "sc_857ae7",
+          "filename": "sc_857ae7.webp"
+        },
+        {
+          "id": "sc_abdb67",
+          "filename": "sc_abdb67.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "nighthaven_labs_base",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.4728682170542636,
+              "y": 0.760120585701981,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_fd159e"
+            },
+            {
+              "x": 0.5348837209302325,
+              "y": 0.760120585701981,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_fd159e"
+            },
+            {
+              "x": 0.23062015503875968,
+              "y": 0.7618432385874246,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_67d60d"
+            },
+            {
+              "x": 0.47189922480620156,
+              "y": 0.42248062015503873,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_72ab5e"
+            },
+            {
+              "x": 0.2703488372093023,
+              "y": 0.5361757105943152,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_7ea3e7"
+            },
+            {
+              "x": 0.6375968992248062,
+              "y": 0.2777777777777778,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_f5b850"
+            },
+            {
+              "x": 0.33430232558139533,
+              "y": 0.02454780361757106,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_d4a903"
+            },
+            {
+              "x": 0.5984481086323957,
+              "y": 0.1930703739627115,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_abdb67"
+            },
+            {
+              "x": 0.3472356935014549,
+              "y": 0.1758271365448863,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_28953b"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5257032007759457,
+                  "y": 0.47930811509860977
+                },
+                {
+                  "x": 0.5257032007759457,
+                  "y": 0.3430865394977907
+                }
+              ],
+              "type": "jump",
+              "screenshot_id": "sc_72ab5e"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.40834141610087293,
+              "y": 0.20341631641340663,
+              "screenshot_id": "sc_28953b"
+            },
+            {
+              "x": 0.3792434529582929,
+              "y": 0.1758271365448863,
+              "screenshot_id": "sc_28953b"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.5926285160038798,
+              "y": 0.17065416531953875,
+              "screenshot_id": "sc_abdb67"
+            },
+            {
+              "x": 0.45586808923375366,
+              "y": 0.0792650070050652,
+              "screenshot_id": "sc_857ae7"
+            },
+            {
+              "x": 0.3433559650824442,
+              "y": 0.5603513309623882,
+              "screenshot_id": "sc_dee917"
+            }
+          ],
+          "highholes": [
+            {
+              "x": 0.40446168768186225,
+              "y": 0.35515680569026836,
+              "screenshot_id": "sc_72ab5e"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.6120192307692308,
+              "y": 0.5111111111111111,
+              "label": "b"
+            },
+            {
+              "x": 0.22355769230769232,
+              "y": 0.3598290598290598,
+              "label": "a"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "initialSiteId": "nighthaven_labs_base"
+}

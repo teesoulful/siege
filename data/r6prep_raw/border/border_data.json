@@ -1,0 +1,1028 @@
+{
+  "map": {
+    "id": "border",
+    "display_name": "Border",
+    "status": "active",
+    "floors": [
+      {
+        "id": "1f",
+        "label": "1F",
+        "image_key": "border/border_1f_a"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "border/border_2f"
+      }
+    ],
+    "sites": [
+      {
+        "id": "border_1f_a",
+        "display_name": "1F Bathroom, 1F Tellers",
+        "floor": "1f",
+        "image_key": "border/border_1f_a"
+      },
+      {
+        "id": "border_1f_b",
+        "display_name": "1F Ventilation Room, 1F Workshop",
+        "floor": "1f",
+        "image_key": "border/border_1f_b"
+      },
+      {
+        "id": "border_2f",
+        "display_name": "2F Armory Lockers, 2F Archives",
+        "floor": "2f",
+        "image_key": "border/border_2f"
+      }
+    ]
+  },
+  "setups": {
+    "border_1f_a": {
+      "id": "border_border_1f_a_jonas_20260510_160806",
+      "map_id": "border",
+      "site_id": "border_1f_a",
+      "name": "Border \u00e2\u0080\u0093 1F Site A",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_c49939",
+          "filename": "sc_c49939.webp"
+        },
+        {
+          "id": "sc_c25393",
+          "filename": "sc_c25393.webp"
+        },
+        {
+          "id": "sc_be5d61",
+          "filename": "sc_be5d61.webp"
+        },
+        {
+          "id": "sc_d8a8d0",
+          "filename": "sc_d8a8d0.webp"
+        },
+        {
+          "id": "sc_bb111e",
+          "filename": "sc_bb111e.webp"
+        },
+        {
+          "id": "sc_b286db",
+          "filename": "sc_b286db.webp"
+        },
+        {
+          "id": "sc_32c8c1",
+          "filename": "sc_32c8c1.webp"
+        },
+        {
+          "id": "sc_91200d",
+          "filename": "sc_91200d.webp"
+        },
+        {
+          "id": "sc_91aab0",
+          "filename": "sc_91aab0.webp"
+        },
+        {
+          "id": "sc_dc92fe",
+          "filename": "sc_dc92fe.webp"
+        },
+        {
+          "id": "sc_aa2bab",
+          "filename": "sc_aa2bab.webp"
+        },
+        {
+          "id": "sc_05c820",
+          "filename": "sc_05c820.webp"
+        },
+        {
+          "id": "sc_cb727b",
+          "filename": "sc_cb727b.webp"
+        },
+        {
+          "id": "sc_801e14",
+          "filename": "sc_801e14.webp"
+        },
+        {
+          "id": "sc_6b7434",
+          "filename": "sc_6b7434.webp"
+        },
+        {
+          "id": "sc_8ede96",
+          "filename": "sc_8ede96.webp"
+        },
+        {
+          "id": "sc_d9c7b8",
+          "filename": "sc_d9c7b8.webp"
+        },
+        {
+          "id": "sc_1367ed",
+          "filename": "sc_1367ed.webp"
+        },
+        {
+          "id": "sc_bdb185",
+          "filename": "sc_bdb185.webp"
+        },
+        {
+          "id": "sc_fb9573",
+          "filename": "sc_fb9573.webp"
+        },
+        {
+          "id": "sc_35cde2",
+          "filename": "sc_35cde2.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "border_1f_a",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.1618217054263566,
+              "y": 0.07795004306632214,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_dc92fe"
+            },
+            {
+              "x": 0.1501937984496124,
+              "y": 0.11068044788975022,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_dc92fe"
+            },
+            {
+              "x": 0.1356542154452289,
+              "y": 0.14340249843148364,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_dc92fe"
+            },
+            {
+              "x": 0.4689922480620155,
+              "y": 0.4707149009474591,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_cb727b"
+            },
+            {
+              "x": 0.3394762366634336,
+              "y": 0.9293566117038474,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_35cde2"
+            },
+            {
+              "x": 0.34917555771096026,
+              "y": 0.8034809785537235,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_35cde2"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.38275193798449614,
+                  "y": 0.11584840654608096
+                },
+                {
+                  "x": 0.42926356589147285,
+                  "y": 0.11929371231696813
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_aa2bab"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.37112403100775193,
+                  "y": 0.24332472006890613
+                },
+                {
+                  "x": 0.3653100775193798,
+                  "y": 0.3570198105081826
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_be5d61"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.6149369544131911,
+                  "y": 0.413783812910874
+                },
+                {
+                  "x": 0.6188166828322017,
+                  "y": 0.5344864748356504
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_801e14"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.5058139534883721,
+              "y": 0.15546942291128338,
+              "screenshot_id": "sc_d8a8d0"
+            },
+            {
+              "x": 0.3943798449612403,
+              "y": 0.2467700258397933,
+              "screenshot_id": "sc_be5d61"
+            },
+            {
+              "x": 0.597478176527643,
+              "y": 0.23962711499083952,
+              "screenshot_id": "sc_05c820"
+            },
+            {
+              "x": 0.39961202715809896,
+              "y": 0.17927578402845135,
+              "screenshot_id": "sc_aa2bab"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.44476744186046513,
+              "y": 0.4207579672695952,
+              "screenshot_id": "sc_cb727b"
+            },
+            {
+              "x": 0.4481086323957323,
+              "y": 0.3775730143334411,
+              "screenshot_id": "sc_cb727b"
+            },
+            {
+              "x": 0.45004849660523766,
+              "y": 0.32756762582174803,
+              "screenshot_id": "sc_cb727b"
+            }
+          ],
+          "highholes": [
+            {
+              "x": 0.5645004849660524,
+              "y": 0.2189352300894493,
+              "screenshot_id": "sc_05c820"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.5990384615384615,
+              "y": 0.20427350427350427,
+              "label": "a"
+            },
+            {
+              "x": 0.5625,
+              "y": 0.36581196581196584,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "border_2f",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.6168768186226964,
+              "y": 0.24824873369975212,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6b7434"
+            },
+            {
+              "x": 0.5868089233753637,
+              "y": 0.37412436684987604,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_bdb185"
+            },
+            {
+              "x": 0.5363724539282251,
+              "y": 0.5844918633473435,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_fb9573"
+            },
+            {
+              "x": 0.6081474296799224,
+              "y": 0.6431188705679491,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_fb9573"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.8845780795344326,
+                  "y": 0.3861946330423537
+                },
+                {
+                  "x": 0.9709020368574199,
+                  "y": 0.3586054531738334
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_1367ed"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5664403491755577,
+                  "y": 0.4551675827136545
+                },
+                {
+                  "x": 0.635305528612997,
+                  "y": 0.453443258971872
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_bdb185"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.510184287099903,
+                  "y": 0.5413837698027805
+                },
+                {
+                  "x": 0.5548011639185257,
+                  "y": 0.543108093544563
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_fb9573"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.7303588748787585,
+              "y": 0.37067571936631105,
+              "screenshot_id": "sc_d9c7b8"
+            },
+            {
+              "x": 0.5635305528612997,
+              "y": 0.6431188705679491,
+              "screenshot_id": "sc_fb9573"
+            },
+            {
+              "x": 0.7536372453928225,
+              "y": 0.2706649423429249,
+              "screenshot_id": "sc_8ede96"
+            },
+            {
+              "x": 0.7662463627546072,
+              "y": 0.17065416531953875,
+              "screenshot_id": "sc_8ede96"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.9194956353055286,
+              "y": 0.43620002155404675,
+              "screenshot_id": "sc_1367ed"
+            },
+            {
+              "x": 0.9311348205625606,
+              "y": 0.47758379135682727,
+              "screenshot_id": "sc_1367ed"
+            }
+          ],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "border_1f_b": {
+      "id": "border_border_1f_b_jonas_20260510_161226",
+      "map_id": "border",
+      "site_id": "border_1f_b",
+      "name": "Border \u00e2\u0080\u0093 1F Site B",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_400773",
+          "filename": "sc_400773.webp"
+        },
+        {
+          "id": "sc_befdfe",
+          "filename": "sc_befdfe.webp"
+        },
+        {
+          "id": "sc_5294ef",
+          "filename": "sc_5294ef.webp"
+        },
+        {
+          "id": "sc_8557c7",
+          "filename": "sc_8557c7.webp"
+        },
+        {
+          "id": "sc_f595e2",
+          "filename": "sc_f595e2.webp"
+        },
+        {
+          "id": "sc_b4f390",
+          "filename": "sc_b4f390.webp"
+        },
+        {
+          "id": "sc_66ac69",
+          "filename": "sc_66ac69.webp"
+        },
+        {
+          "id": "sc_f743b3",
+          "filename": "sc_f743b3.webp"
+        },
+        {
+          "id": "sc_5b4829",
+          "filename": "sc_5b4829.webp"
+        },
+        {
+          "id": "sc_ee35f5",
+          "filename": "sc_ee35f5.webp"
+        },
+        {
+          "id": "sc_3d467a",
+          "filename": "sc_3d467a.webp"
+        },
+        {
+          "id": "sc_ea2089",
+          "filename": "sc_ea2089.webp"
+        },
+        {
+          "id": "sc_fabd16",
+          "filename": "sc_fabd16.webp"
+        },
+        {
+          "id": "sc_1a6807",
+          "filename": "sc_1a6807.webp"
+        },
+        {
+          "id": "sc_d0cbfd",
+          "filename": "sc_d0cbfd.webp"
+        },
+        {
+          "id": "sc_d96eb2",
+          "filename": "sc_d96eb2.webp"
+        },
+        {
+          "id": "sc_908bf0",
+          "filename": "sc_908bf0.webp"
+        },
+        {
+          "id": "sc_c9ebc9",
+          "filename": "sc_c9ebc9.webp"
+        },
+        {
+          "id": "sc_fb9573",
+          "filename": "sc_fb9573.webp"
+        },
+        {
+          "id": "sc_40fd8b",
+          "filename": "sc_40fd8b.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "border_1f_b",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.7141472868217055,
+              "y": 0.23987941429801896,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_ee35f5"
+            },
+            {
+              "x": 0.10755813953488372,
+              "y": 0.8169681309216192,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_ea2089"
+            },
+            {
+              "x": 0.08817829457364341,
+              "y": 0.9323858742463393,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_ea2089"
+            },
+            {
+              "x": 0.9030067895247332,
+              "y": 0.23962711499083952,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_3d467a"
+            },
+            {
+              "x": 0.6605237633365665,
+              "y": 0.934529582929195,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_fabd16"
+            },
+            {
+              "x": 0.6614936954413191,
+              "y": 0.194794697704494,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_b4f390"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.45348837209302323,
+                  "y": 0.08139534883720931
+                },
+                {
+                  "x": 0.4118217054263566,
+                  "y": 0.07622739018087855
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_5b4829"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.6585838991270611,
+                  "y": 0.16375687035240866
+                },
+                {
+                  "x": 0.7371483996120272,
+                  "y": 0.15341092790171354
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_ee35f5"
+            }
+          ],
+          "headholes": [],
+          "footholes": [
+            {
+              "x": 0.43023443785291615,
+              "y": 0.21407136728680498,
+              "screenshot_id": "sc_5b4829"
+            },
+            {
+              "x": 0.43452958292919497,
+              "y": 0.18100010777023387,
+              "screenshot_id": "sc_5b4829"
+            },
+            {
+              "x": 0.8593598448108632,
+              "y": 0.2741135898264899,
+              "screenshot_id": "sc_3d467a"
+            }
+          ],
+          "highholes": [
+            {
+              "x": 0.42870999030067897,
+              "y": 0.11202715809893307,
+              "screenshot_id": "sc_5b4829"
+            },
+            {
+              "x": 0.8739088263821533,
+              "y": 0.22755684879836188,
+              "screenshot_id": "sc_3d467a"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.5947115384615385,
+              "y": 0.2205128205128205,
+              "label": "a"
+            },
+            {
+              "x": 0.38317307692307695,
+              "y": 0.15897435897435896,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "border_2f",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.3003875968992248,
+              "y": 0.32945736434108525,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_1a6807"
+            },
+            {
+              "x": 0.3430232558139535,
+              "y": 0.3277347114556417,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_1a6807"
+            },
+            {
+              "x": 0.7732558139534884,
+              "y": 0.15719207579672695,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_d96eb2"
+            },
+            {
+              "x": 0.6091173617846751,
+              "y": 0.6465675180515141,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_fb9573"
+            },
+            {
+              "x": 0.7526673132880698,
+              "y": 0.24652440995796962,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_d96eb2"
+            },
+            {
+              "x": 0.5363724539282251,
+              "y": 0.5724215971548658,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_fb9573"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5712900096993211,
+                  "y": 0.47930811509860977
+                },
+                {
+                  "x": 0.6420950533462657,
+                  "y": 0.45861623019721953
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_c9ebc9"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5548011639185257,
+                  "y": 0.5310378273520854
+                },
+                {
+                  "x": 0.501454898157129,
+                  "y": 0.5293135036103028
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_fb9573"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.44131910766246363,
+                  "y": 0.24135143873262205
+                },
+                {
+                  "x": 0.37245392822502427,
+                  "y": 0.237902791249057
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_1a6807"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.562560620756547,
+              "y": 0.6431188705679491,
+              "screenshot_id": "sc_fb9573"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.32492725509214354,
+              "y": 0.4844810863239573,
+              "screenshot_id": "sc_40fd8b"
+            },
+            {
+              "x": 0.37536372453928224,
+              "y": 0.4827567625821748,
+              "screenshot_id": "sc_40fd8b"
+            },
+            {
+              "x": 0.906886517943744,
+              "y": 0.3861946330423537,
+              "screenshot_id": "sc_908bf0"
+            },
+            {
+              "x": 0.918525703200776,
+              "y": 0.4224054316197866,
+              "screenshot_id": "sc_908bf0"
+            },
+            {
+              "x": 0.9291949563530553,
+              "y": 0.453443258971872,
+              "screenshot_id": "sc_908bf0"
+            },
+            {
+              "x": 0.5674102812803103,
+              "y": 0.13789201422567088,
+              "screenshot_id": "sc_d0cbfd"
+            }
+          ],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "border_2f": {
+      "id": "border_border_2f_jonas_20260510_144609",
+      "map_id": "border",
+      "site_id": "border_2f",
+      "name": "Border \u00e2\u0080\u0093 2F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_296617",
+          "filename": "sc_296617.webp"
+        },
+        {
+          "id": "sc_57db03",
+          "filename": "sc_57db03.webp"
+        },
+        {
+          "id": "sc_86c15d",
+          "filename": "sc_86c15d.webp"
+        },
+        {
+          "id": "sc_648a18",
+          "filename": "sc_648a18.webp"
+        },
+        {
+          "id": "sc_eadd24",
+          "filename": "sc_eadd24.webp"
+        },
+        {
+          "id": "sc_1df0c3",
+          "filename": "sc_1df0c3.webp"
+        },
+        {
+          "id": "sc_b11a72",
+          "filename": "sc_b11a72.webp"
+        },
+        {
+          "id": "sc_07414c",
+          "filename": "sc_07414c.webp"
+        },
+        {
+          "id": "sc_750140",
+          "filename": "sc_750140.webp"
+        },
+        {
+          "id": "sc_a4c6d7",
+          "filename": "sc_a4c6d7.webp"
+        },
+        {
+          "id": "sc_4c80c7",
+          "filename": "sc_4c80c7.webp"
+        },
+        {
+          "id": "sc_65d6b1",
+          "filename": "sc_65d6b1.webp"
+        },
+        {
+          "id": "sc_fb9573",
+          "filename": "sc_fb9573.webp"
+        },
+        {
+          "id": "sc_aac70a",
+          "filename": "sc_aac70a.webp"
+        },
+        {
+          "id": "sc_40fd8b",
+          "filename": "sc_40fd8b.webp"
+        },
+        {
+          "id": "sc_cf8613",
+          "filename": "sc_cf8613.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "border_2f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.34108527131782945,
+              "y": 0.33462532299741604,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_86c15d"
+            },
+            {
+              "x": 0.7344961240310077,
+              "y": 0.36391042204995694,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_b11a72"
+            },
+            {
+              "x": 0.7713178294573644,
+              "y": 0.16236003445305772,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_07414c"
+            },
+            {
+              "x": 0.7587209302325582,
+              "y": 0.24332472006890613,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_07414c"
+            },
+            {
+              "x": 0.5329457364341085,
+              "y": 0.5671834625322998,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_fb9573"
+            },
+            {
+              "x": 0.6091173617846751,
+              "y": 0.6431188705679491,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_fb9573"
+            },
+            {
+              "x": 0.9757516973811833,
+              "y": 0.6586377842439918,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_65d6b1"
+            },
+            {
+              "x": 0.8205625606207565,
+              "y": 0.8189998922297661,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_aac70a"
+            },
+            {
+              "x": 0.8360814742967992,
+              "y": 0.9121133742860222,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_aac70a"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5523255813953488,
+                  "y": 0.5
+                },
+                {
+                  "x": 0.5106589147286822,
+                  "y": 0.5017226528854436
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_fb9573"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5843023255813954,
+                  "y": 0.479328165374677
+                },
+                {
+                  "x": 0.6327519379844961,
+                  "y": 0.46382428940568476
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_1df0c3"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.4364694471387003,
+                  "y": 0.24135143873262205
+                },
+                {
+                  "x": 0.3743937924345296,
+                  "y": 0.24135143873262205
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_cf8613"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5577109602327837,
+                  "y": 0.19996766892984158
+                },
+                {
+                  "x": 0.6129970902036858,
+                  "y": 0.20341631641340663
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_a4c6d7"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.8884578079534433,
+                  "y": 0.3913676042677013
+                },
+                {
+                  "x": 0.9757516973811833,
+                  "y": 0.36550274814096345
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_4c80c7"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.7119301648884578,
+                  "y": 0.6931242590796423
+                },
+                {
+                  "x": 0.7061105722599418,
+                  "y": 0.5775945683802134
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_aac70a"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.29748062015503873,
+              "y": 0.3380706287683032,
+              "screenshot_id": "sc_86c15d"
+            },
+            {
+              "x": 0.5664403491755577,
+              "y": 0.6431188705679491,
+              "screenshot_id": "sc_fb9573"
+            },
+            {
+              "x": 0.7953443258971872,
+              "y": 0.7000215540467722,
+              "screenshot_id": "sc_aac70a"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.3239573229873909,
+              "y": 0.4827567625821748,
+              "screenshot_id": "sc_40fd8b"
+            },
+            {
+              "x": 0.3676042677012609,
+              "y": 0.4827567625821748,
+              "screenshot_id": "sc_40fd8b"
+            },
+            {
+              "x": 0.5664403491755577,
+              "y": 0.14478930919280095,
+              "screenshot_id": "sc_a4c6d7"
+            },
+            {
+              "x": 0.9194956353055286,
+              "y": 0.4206811078780041,
+              "screenshot_id": "sc_4c80c7"
+            },
+            {
+              "x": 0.9311348205625606,
+              "y": 0.453443258971872,
+              "screenshot_id": "sc_4c80c7"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.4581730769230769,
+              "y": 0.2264957264957265,
+              "label": "b"
+            },
+            {
+              "x": 0.7057692307692308,
+              "y": 0.18205128205128204,
+              "label": "a"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "initialSiteId": "border_1f_a"
+}

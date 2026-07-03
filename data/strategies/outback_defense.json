@@ -1,0 +1,315 @@
+{
+  "map": "Outback",
+  "side": "Defense",
+  "source": {
+    "title": "R6 Prep — Defender Site Setups: Outback",
+    "type": "r6prep_site_setups",
+    "file": "https://www.r6prep.com/defender/site-setups/outback",
+    "notes": "Wall/hatch/rotation/head-hole/foot-hole positions and per-marker screenshots sourced directly from r6prep.com's structured site-setup data (r6prep's own source: https://www.youtube.com/watch?v=W1426wT75e8). r6prep provides no text room names or descriptions, only marker position + category + photo — room names above were inferred by the app's maintainer from each marker's visual position on the base map, cross-checked against wiki-verified callouts (data/maps/*.json). Treat room labels as best-effort; the linked photo is the authoritative reference for exact placement. No operator/loadout/utility recommendations in this source — that content is tracked separately."
+  },
+  "sites": [
+    {
+      "id": "outback_1f",
+      "workingName": "Green Bedroom / Red Bedroom",
+      "floor": "1st Floor",
+      "callouts": [
+        "Green Bedroom",
+        "Kitchen",
+        "Mechanic Shop",
+        "Red Bedroom"
+      ],
+      "reinforcements": [
+        {
+          "location": "Green Bedroom, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_b16002.webp"
+        },
+        {
+          "location": "Red Bedroom, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_b158bc.webp"
+        },
+        {
+          "location": "Red Bedroom, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_b158bc.webp"
+        },
+        {
+          "location": "Mechanic Shop, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_be12e7.webp"
+        },
+        {
+          "location": "Kitchen, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_a6f24e.webp"
+        },
+        {
+          "location": "Kitchen, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_a6f24e.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Green Bedroom",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_be12e7.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Green Bedroom, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_b16002.webp"
+        },
+        {
+          "location": "Mechanic Shop, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_be12e7.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Kitchen",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_381d37.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "outback_2f_a",
+      "workingName": "Party Room / Office",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Covered Terrace",
+        "Mezzanine",
+        "Office",
+        "Party Room"
+      ],
+      "reinforcements": [
+        {
+          "location": "Party Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_ced488.webp"
+        },
+        {
+          "location": "Party Room, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_ced488.webp"
+        },
+        {
+          "location": "Party Room, Vertical Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_ced488.webp"
+        },
+        {
+          "location": "Covered Terrace, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_4e859b.webp"
+        },
+        {
+          "location": "Covered Terrace, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_4e859b.webp"
+        },
+        {
+          "location": "Mezzanine, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_ea3308.webp"
+        },
+        {
+          "location": "Covered Terrace, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_4e859b.webp"
+        },
+        {
+          "location": "Party Room, Vertical Wall (4)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_685e38.webp"
+        },
+        {
+          "location": "Party Room, Vertical Wall (5)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_685e38.webp"
+        },
+        {
+          "location": "Office, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_fccc31.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Office",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_fccc31.webp"
+        },
+        {
+          "location": "Party Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_ced488.webp"
+        },
+        {
+          "location": "Office, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_701222.webp"
+        },
+        {
+          "location": "Mezzanine, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_ea3308.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Office, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_fccc31.webp"
+        },
+        {
+          "location": "Covered Terrace, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_4e859b.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "outback_2f_b",
+      "workingName": "Laundry / Piano Room",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Laundry Room",
+        "Office Supply",
+        "Piano Room"
+      ],
+      "reinforcements": [
+        {
+          "location": "Laundry Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_27bbb9.webp"
+        },
+        {
+          "location": "Piano Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_e4428a.webp"
+        },
+        {
+          "location": "Office Supply, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_27cbde.webp"
+        },
+        {
+          "location": "Office Supply, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_43857d.webp"
+        },
+        {
+          "location": "Office Supply, Vertical Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_43857d.webp"
+        },
+        {
+          "location": "Office Supply, Vertical Wall (4)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_43857d.webp"
+        },
+        {
+          "location": "Office Supply, Vertical Wall (5)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_43857d.webp"
+        },
+        {
+          "location": "Laundry Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_7289d1.webp"
+        },
+        {
+          "location": "Laundry Room, Horizontal Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_940154.webp"
+        },
+        {
+          "location": "Laundry Room, Horizontal Wall (4)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_940154.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Office Supply",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_27cbde.webp"
+        },
+        {
+          "location": "Laundry Room, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_27bbb9.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Piano Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_b7f3e2.webp"
+        },
+        {
+          "location": "Laundry Room, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/outback/sc_7289d1.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    }
+  ]
+}

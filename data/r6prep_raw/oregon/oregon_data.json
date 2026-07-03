@@ -1,0 +1,803 @@
+{
+  "map": {
+    "id": "oregon",
+    "display_name": "Oregon",
+    "status": "active",
+    "floors": [
+      {
+        "id": "base",
+        "label": "Basement",
+        "image_key": "oregon/oregon_base"
+      },
+      {
+        "id": "1f",
+        "label": "1F",
+        "image_key": "oregon/oregon_1f_a"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "oregon/oregon_2f"
+      }
+    ],
+    "sites": [
+      {
+        "id": "oregon_base",
+        "display_name": "B Laundry Room, B Supply Room",
+        "floor": "base",
+        "image_key": "oregon/oregon_base"
+      },
+      {
+        "id": "oregon_1f_a",
+        "display_name": "1F Kitchen, 1F Dining Hall",
+        "floor": "1f",
+        "image_key": "oregon/oregon_1f_a"
+      },
+      {
+        "id": "oregon_1f_b",
+        "display_name": "1F Meeting Hall, 1F Kitchen",
+        "floor": "1f",
+        "image_key": "oregon/oregon_1f_b"
+      },
+      {
+        "id": "oregon_2f",
+        "display_name": "2F Kids' Dorms, 2F Dorms Main Hall",
+        "floor": "2f",
+        "image_key": "oregon/oregon_2f"
+      }
+    ]
+  },
+  "setups": {
+    "oregon_1f_a": {
+      "id": "oregon_oregon_1f_a_unknown_20260510_132249",
+      "map_id": "oregon",
+      "site_id": "oregon_1f_a",
+      "name": "Oregon \u00e2\u0080\u0093 1F Site A",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://vm.tiktok.com/ZGdHabEyY/"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_9ad7c0",
+          "filename": "sc_9ad7c0.webp"
+        },
+        {
+          "id": "sc_68580b",
+          "filename": "sc_68580b.webp"
+        },
+        {
+          "id": "sc_68ce4d",
+          "filename": "sc_68ce4d.webp"
+        },
+        {
+          "id": "sc_7b0675",
+          "filename": "sc_7b0675.webp"
+        },
+        {
+          "id": "sc_dc5c5e",
+          "filename": "sc_dc5c5e.webp"
+        },
+        {
+          "id": "sc_ee6c36",
+          "filename": "sc_ee6c36.webp"
+        },
+        {
+          "id": "sc_d30034",
+          "filename": "sc_d30034.webp"
+        },
+        {
+          "id": "sc_914529",
+          "filename": "sc_914529.webp"
+        },
+        {
+          "id": "sc_e7be53",
+          "filename": "sc_e7be53.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "oregon_1f_a",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.12112403100775193,
+              "y": 0.7067183462532299,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_68580b"
+            },
+            {
+              "x": 0.3691860465116279,
+              "y": 0.5585701981050818,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_68ce4d"
+            },
+            {
+              "x": 0.18895348837209303,
+              "y": 0.4069767441860465,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_9ad7c0"
+            },
+            {
+              "x": 0.17635658914728683,
+              "y": 0.46037898363479757,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_9ad7c0"
+            },
+            {
+              "x": 0.7257751937984496,
+              "y": 0.37941429801894916,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_dc5c5e"
+            },
+            {
+              "x": 0.7364341085271318,
+              "y": 0.42937123169681307,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_dc5c5e"
+            },
+            {
+              "x": 0.46705426356589147,
+              "y": 0.4362618432385874,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_ee6c36"
+            },
+            {
+              "x": 0.30523255813953487,
+              "y": 0.5189491817398794,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_68ce4d"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.35271317829457366,
+                  "y": 0.4672695951765719
+                },
+                {
+                  "x": 0.34593023255813954,
+                  "y": 0.5861326442721791
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_68ce4d"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.4631782945736434,
+                  "y": 0.4810508182601206
+                },
+                {
+                  "x": 0.4631782945736434,
+                  "y": 0.5809646856158484
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_7b0675"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.34593023255813954,
+                  "y": 0.6291989664082688
+                },
+                {
+                  "x": 0.38856589147286824,
+                  "y": 0.6291989664082688
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_68ce4d"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.44573643410852715,
+              "y": 0.375968992248062,
+              "screenshot_id": "sc_914529"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.1308139534883721,
+              "y": 0.7876830318690784,
+              "screenshot_id": "sc_68580b"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.325,
+              "y": 0.30427350427350425,
+              "label": "a"
+            },
+            {
+              "x": 0.5769230769230769,
+              "y": 0.4170940170940171,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "oregon_2f",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.3323643410852713,
+              "y": 0.7566752799310938,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_e7be53"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.20155038759689922,
+                  "y": 0.4517657192075797
+                },
+                {
+                  "x": 0.18992248062015504,
+                  "y": 0.5430663221360896
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_d30034"
+            }
+          ],
+          "headholes": [],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "oregon_1f_b": {
+      "id": "oregon_oregon_1f_b_jonas_20260510_193204",
+      "map_id": "oregon",
+      "site_id": "oregon_1f_b",
+      "name": "Oregon \u00e2\u0080\u0093 1F Site B",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=W1426wT75e8"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_40da81",
+          "filename": "sc_40da81.webp"
+        },
+        {
+          "id": "sc_6e76c9",
+          "filename": "sc_6e76c9.webp"
+        },
+        {
+          "id": "sc_96c2c6",
+          "filename": "sc_96c2c6.webp"
+        },
+        {
+          "id": "sc_d9b98d",
+          "filename": "sc_d9b98d.webp"
+        },
+        {
+          "id": "sc_a292d6",
+          "filename": "sc_a292d6.webp"
+        },
+        {
+          "id": "sc_243d75",
+          "filename": "sc_243d75.webp"
+        },
+        {
+          "id": "sc_9c6285",
+          "filename": "sc_9c6285.webp"
+        },
+        {
+          "id": "sc_abf916",
+          "filename": "sc_abf916.webp"
+        },
+        {
+          "id": "sc_f5d2f3",
+          "filename": "sc_f5d2f3.webp"
+        },
+        {
+          "id": "sc_f165c3",
+          "filename": "sc_f165c3.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "oregon_1f_b",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.5106589147286822,
+              "y": 0.13824289405684753,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_40da81"
+            },
+            {
+              "x": 0.5465116279069767,
+              "y": 0.13652024117140396,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_40da81"
+            },
+            {
+              "x": 0.4166666666666667,
+              "y": 0.7015503875968992,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_243d75"
+            },
+            {
+              "x": 0.6705426356589147,
+              "y": 0.698105081826012,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_9c6285"
+            },
+            {
+              "x": 0.0998062015503876,
+              "y": 0.5275624461670974,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_6e76c9"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.42441860465116277,
+                  "y": 0.5671834625322998
+                },
+                {
+                  "x": 0.3691860465116279,
+                  "y": 0.5671834625322998
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_96c2c6"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.09786821705426356,
+                  "y": 0.6619293712316968
+                },
+                {
+                  "x": 0.08139534883720931,
+                  "y": 0.7618432385874246
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_a292d6"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.27810077519379844,
+              "y": 0.6963824289405685,
+              "screenshot_id": "sc_d9b98d"
+            }
+          ],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.47596153846153844,
+              "y": 0.2965811965811966,
+              "label": "a"
+            },
+            {
+              "x": 0.26153846153846155,
+              "y": 0.5427350427350427,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "oregon_2f",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.5329457364341085,
+              "y": 0.05900086132644272,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_abf916"
+            },
+            {
+              "x": 0.564922480620155,
+              "y": 0.05900086132644272,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_abf916"
+            },
+            {
+              "x": 0.5426356589147286,
+              "y": 0.4000861326442722,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f165c3"
+            },
+            {
+              "x": 0.4011627906976744,
+              "y": 0.33462532299741604,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_f5d2f3"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.42151162790697677,
+                  "y": 0.30017226528854435
+                },
+                {
+                  "x": 0.375,
+                  "y": 0.30189491817398795
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_f5d2f3"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.5823643410852714,
+              "y": 0.4018087855297158,
+              "screenshot_id": "sc_f165c3"
+            }
+          ],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "oregon_2f": {
+      "id": "oregon_oregon_2f_jonas_20260510_131816",
+      "map_id": "oregon",
+      "site_id": "oregon_2f",
+      "name": "Oregon \u00e2\u0080\u0093 2F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://vm.tiktok.com/ZGdHasFTH/"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_abf916",
+          "filename": "sc_abf916.webp"
+        },
+        {
+          "id": "sc_f5d2f3",
+          "filename": "sc_f5d2f3.webp"
+        },
+        {
+          "id": "sc_f165c3",
+          "filename": "sc_f165c3.webp"
+        },
+        {
+          "id": "sc_f1dcc8",
+          "filename": "sc_f1dcc8.webp"
+        },
+        {
+          "id": "sc_8d91c6",
+          "filename": "sc_8d91c6.webp"
+        },
+        {
+          "id": "sc_d3333c",
+          "filename": "sc_d3333c.webp"
+        },
+        {
+          "id": "sc_96ad1d",
+          "filename": "sc_96ad1d.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "oregon_2f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.436046511627907,
+              "y": 0.8204134366925064,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_d3333c"
+            },
+            {
+              "x": 0.4932170542635659,
+              "y": 0.8186907838070628,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_d3333c"
+            },
+            {
+              "x": 0.2364341085271318,
+              "y": 0.47416020671834624,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f1dcc8"
+            },
+            {
+              "x": 0.39341085271317827,
+              "y": 0.33290267011197244,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_f5d2f3"
+            },
+            {
+              "x": 0.5397286821705426,
+              "y": 0.39147286821705424,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f165c3"
+            },
+            {
+              "x": 0.5310077519379846,
+              "y": 0.040051679586563305,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_abf916"
+            },
+            {
+              "x": 0.562015503875969,
+              "y": 0.03832902670111973,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_abf916"
+            },
+            {
+              "x": 0.7131782945736435,
+              "y": 0.5086132644272179,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_96ad1d"
+            },
+            {
+              "x": 0.5800193986420951,
+              "y": 0.3913676042677013,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f165c3"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.37693798449612403,
+                  "y": 0.30189491817398795
+                },
+                {
+                  "x": 0.4273255813953488,
+                  "y": 0.30361757105943155
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_f5d2f3"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.33430232558139533,
+              "y": 0.760120585701981,
+              "screenshot_id": "sc_8d91c6"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.19573643410852712,
+              "y": 0.5103359173126615,
+              "screenshot_id": "sc_f1dcc8"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.19663461538461538,
+              "y": 0.805982905982906,
+              "label": "a"
+            },
+            {
+              "x": 0.36153846153846153,
+              "y": 0.4017094017094017,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "oregon_base": {
+      "id": "oregon_oregon_base_jonas_20260510_124947",
+      "map_id": "oregon",
+      "site_id": "oregon_base",
+      "name": "Oregon \u00e2\u0080\u0093 Basement",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://vm.tiktok.com/ZGdHaaGo1/"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_bfc48e",
+          "filename": "sc_bfc48e.webp"
+        },
+        {
+          "id": "sc_aebe86",
+          "filename": "sc_aebe86.webp"
+        },
+        {
+          "id": "sc_58fc6d",
+          "filename": "sc_58fc6d.webp"
+        },
+        {
+          "id": "sc_4f8404",
+          "filename": "sc_4f8404.webp"
+        },
+        {
+          "id": "sc_00fb49",
+          "filename": "sc_00fb49.webp"
+        },
+        {
+          "id": "sc_e7e215",
+          "filename": "sc_e7e215.webp"
+        },
+        {
+          "id": "sc_24f43d",
+          "filename": "sc_24f43d.webp"
+        },
+        {
+          "id": "sc_12e705",
+          "filename": "sc_12e705.webp"
+        },
+        {
+          "id": "sc_8a2435",
+          "filename": "sc_8a2435.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "oregon_base",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.29941860465116277,
+              "y": 0.760120585701981,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_58fc6d"
+            },
+            {
+              "x": 0.42829457364341084,
+              "y": 0.6188630490956072,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_4f8404"
+            },
+            {
+              "x": 0.5998062015503876,
+              "y": 0.46382428940568476,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_aebe86"
+            },
+            {
+              "x": 0.5881782945736435,
+              "y": 0.23126614987080105,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_bfc48e"
+            },
+            {
+              "x": 0.5125968992248062,
+              "y": 0.17614125753660637,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_bfc48e"
+            },
+            {
+              "x": 0.5581395348837209,
+              "y": 0.1744186046511628,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_bfc48e"
+            },
+            {
+              "x": 0.5406976744186046,
+              "y": 0.9720068906115418,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_12e705"
+            },
+            {
+              "x": 0.22771317829457363,
+              "y": 0.8014642549526271,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_24f43d"
+            },
+            {
+              "x": 0.5077519379844961,
+              "y": 0.22954349698535745,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_8a2435"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.564922480620155,
+                  "y": 0.6722652885443583
+                },
+                {
+                  "x": 0.562984496124031,
+                  "y": 0.5689061154177433
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_00fb49"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5717054263565892,
+                  "y": 0.43453919035314387
+                },
+                {
+                  "x": 0.6191860465116279,
+                  "y": 0.42764857881136953
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_aebe86"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.312984496124031,
+              "y": 0.6843238587424634,
+              "screenshot_id": "sc_58fc6d"
+            },
+            {
+              "x": 0.4728682170542636,
+              "y": 0.6154177433247201,
+              "screenshot_id": "sc_4f8404"
+            },
+            {
+              "x": 0.5843023255813954,
+              "y": 0.19681309216192938,
+              "screenshot_id": "sc_bfc48e"
+            }
+          ],
+          "footholes": [],
+          "highholes": [
+            {
+              "x": 0.45348837209302323,
+              "y": 0.27260981912144705,
+              "screenshot_id": "sc_e7e215"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.3658653846153846,
+              "y": 0.8811965811965812,
+              "label": "a"
+            },
+            {
+              "x": 0.5163461538461539,
+              "y": 0.4008547008547009,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "initialSiteId": "oregon_base"
+}

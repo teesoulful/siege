@@ -1,0 +1,55 @@
+{
+  "fortress_1f_a": {
+    "1": "Courtyard",
+    "2": "Courtyard",
+    "3": "Sitting Room",
+    "4": "Sitting Room",
+    "5": "Hannam Hallway",
+    "6": "Hannam Hallway",
+    "7": "Hannam Hallway",
+    "8": "Old Tower Stairs",
+    "9": "Hammam",
+    "10": "Hammam"
+  },
+  "fortress_1f_b": {
+    "1": "Kitchen",
+    "2": "Kitchen",
+    "3": "Kitchen",
+    "4": "Cafeteria",
+    "5": "Hannam Hallway",
+    "6": "Hannam Hallway",
+    "7": "Dining Room",
+    "8": "Dining Room",
+    "9": "Dining Room",
+    "10": "Hammam",
+    "11": "Dining Room",
+    "12": "Kitchen"
+  },
+  "fortress_2f_a": {
+    "1": "Bathroom",
+    "2": "Commander's Office",
+    "3": "Courtyard Corridor",
+    "4": "Courtyard Corridor",
+    "5": "Bathroom",
+    "6": "Shisha Hallway",
+    "7": "Tower Renovation",
+    "8": "Commander's Office",
+    "9": "Bathroom",
+    "10": "Courtyard Corridor"
+  },
+  "fortress_2f_b": {
+    "1": "Games Room",
+    "2": "Shisha Hallway",
+    "3": "Dormitory",
+    "4": "Dormitory",
+    "5": "Shisha Hallway",
+    "6": "Games Room",
+    "7": "Shisha Hallway",
+    "8": "Shisha Hallway",
+    "9": "Games Room",
+    "10": "Dormitory",
+    "11": "Dormitory",
+    "12": "Shisha Hallway",
+    "13": "Games Room"
+  }
+}

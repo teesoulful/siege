@@ -1,0 +1,640 @@
+{
+  "map": {
+    "id": "club_house",
+    "display_name": "Club House",
+    "status": "active",
+    "floors": [
+      {
+        "id": "base",
+        "label": "Basement",
+        "image_key": "club_house/club_house_base"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "club_house/club_house_2f_a"
+      }
+    ],
+    "sites": [
+      {
+        "id": "club_house_base",
+        "display_name": "B Church, B Arsenal Room",
+        "floor": "base",
+        "image_key": "club_house/club_house_base"
+      },
+      {
+        "id": "club_house_2f_a",
+        "display_name": "2F CCTV Room, 2F Cash Room",
+        "floor": "2f",
+        "image_key": "club_house/club_house_2f_a"
+      },
+      {
+        "id": "club_house_2f_b",
+        "display_name": "2F Gym, 2F Bedroom",
+        "floor": "2f",
+        "image_key": "club_house/club_house_2f_b"
+      }
+    ]
+  },
+  "setups": {
+    "club_house_2f_a": {
+      "id": "club_house_club_house_2f_a_jonas_20260510_135114",
+      "map_id": "club_house",
+      "site_id": "club_house_2f_a",
+      "name": "Club House \u00e2\u0080\u0093 2F Site A",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_fa7c69",
+          "filename": "sc_fa7c69.webp"
+        },
+        {
+          "id": "sc_9daad6",
+          "filename": "sc_9daad6.webp"
+        },
+        {
+          "id": "sc_116795",
+          "filename": "sc_116795.webp"
+        },
+        {
+          "id": "sc_9cda16",
+          "filename": "sc_9cda16.webp"
+        },
+        {
+          "id": "sc_249e7b",
+          "filename": "sc_249e7b.webp"
+        },
+        {
+          "id": "sc_65896f",
+          "filename": "sc_65896f.webp"
+        },
+        {
+          "id": "sc_74017f",
+          "filename": "sc_74017f.webp"
+        },
+        {
+          "id": "sc_901ea7",
+          "filename": "sc_901ea7.webp"
+        },
+        {
+          "id": "sc_07d215",
+          "filename": "sc_07d215.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "club_house_2f_a",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.5877124329159213,
+              "y": 0.25792089047903005,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_116795"
+            },
+            {
+              "x": 0.6986434108527132,
+              "y": 0.520671834625323,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_249e7b"
+            },
+            {
+              "x": 0.7083706022659512,
+              "y": 0.5843039819784006,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_249e7b"
+            },
+            {
+              "x": 0.5910629099582588,
+              "y": 0.7540581726628238,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_65896f"
+            },
+            {
+              "x": 0.4418604651162791,
+              "y": 0.38113695090439276,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_fa7c69"
+            },
+            {
+              "x": 0.42829457364341084,
+              "y": 0.15719207579672695,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_9daad6"
+            },
+            {
+              "x": 0.4384093113482056,
+              "y": 0.901767431835327,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_07d215"
+            },
+            {
+              "x": 0.4364694471387003,
+              "y": 0.9828106476991055,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_07d215"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5562015503875969,
+                  "y": 0.23298880275624462
+                },
+                {
+                  "x": 0.6143410852713178,
+                  "y": 0.22954349698535745
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_116795"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.5910852713178295,
+              "y": 0.2950043066322136,
+              "screenshot_id": "sc_116795"
+            },
+            {
+              "x": 0.538670244484198,
+              "y": 0.7515073212747632,
+              "screenshot_id": "sc_65896f"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.39864209505334625,
+              "y": 0.18789740273736394,
+              "screenshot_id": "sc_74017f"
+            }
+          ],
+          "highholes": [
+            {
+              "x": 0.5348837209302325,
+              "y": 0.47416020671834624,
+              "screenshot_id": "sc_901ea7"
+            },
+            {
+              "x": 0.595937686344663,
+              "y": 0.47505466110117267,
+              "screenshot_id": "sc_901ea7"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.5528846153846154,
+              "y": 0.3811965811965812,
+              "label": "a"
+            },
+            {
+              "x": 0.6052884615384615,
+              "y": 0.6128205128205129,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    },
+    "club_house_2f_b": {
+      "id": "club_house_club_house_2f_b_jonas_20260510_131028",
+      "map_id": "club_house",
+      "site_id": "club_house_2f_b",
+      "name": "Club House \u00e2\u0080\u0093 2F Site B",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_d81111",
+          "filename": "sc_d81111.webp"
+        },
+        {
+          "id": "sc_0ef321",
+          "filename": "sc_0ef321.webp"
+        },
+        {
+          "id": "sc_f36011",
+          "filename": "sc_f36011.webp"
+        },
+        {
+          "id": "sc_6fabc2",
+          "filename": "sc_6fabc2.webp"
+        },
+        {
+          "id": "sc_29ca38",
+          "filename": "sc_29ca38.webp"
+        },
+        {
+          "id": "sc_673c2a",
+          "filename": "sc_673c2a.webp"
+        },
+        {
+          "id": "sc_a53e0d",
+          "filename": "sc_a53e0d.webp"
+        },
+        {
+          "id": "sc_d639ae",
+          "filename": "sc_d639ae.webp"
+        },
+        {
+          "id": "sc_e82d97",
+          "filename": "sc_e82d97.webp"
+        },
+        {
+          "id": "sc_4200b0",
+          "filename": "sc_4200b0.webp"
+        },
+        {
+          "id": "sc_8637a7",
+          "filename": "sc_8637a7.webp"
+        },
+        {
+          "id": "sc_b5f75a",
+          "filename": "sc_b5f75a.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "club_house_2f_b",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.24709302325581395,
+              "y": 0.35012919896640826,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_d81111"
+            },
+            {
+              "x": 0.23837209302325582,
+              "y": 0.4018087855297158,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_d81111"
+            },
+            {
+              "x": 0.2936046511627907,
+              "y": 0.4000861326442722,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_0ef321"
+            },
+            {
+              "x": 0.6463178294573644,
+              "y": 0.3673557278208441,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_4200b0"
+            },
+            {
+              "x": 0.8943798449612403,
+              "y": 0.8341946597760551,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_673c2a"
+            },
+            {
+              "x": 0.9544573643410853,
+              "y": 0.8324720068906115,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_673c2a"
+            },
+            {
+              "x": 0.32201745877788557,
+              "y": 0.765545856234508,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f36011"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.3498062015503876,
+                  "y": 0.8565891472868217
+                },
+                {
+                  "x": 0.26841085271317827,
+                  "y": 0.8479758828596038
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_f36011"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.32170542635658916,
+                  "y": 0.47588285960378984
+                },
+                {
+                  "x": 0.25872093023255816,
+                  "y": 0.46382428940568476
+                }
+              ],
+              "type": "jump",
+              "screenshot_id": "sc_0ef321"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5213178294573644,
+                  "y": 0.32084409991386736
+                },
+                {
+                  "x": 0.5213178294573644,
+                  "y": 0.43281653746770027
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_e82d97"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.6124031007751938,
+                  "y": 0.28122308354866493
+                },
+                {
+                  "x": 0.6182170542635659,
+                  "y": 0.3983634797588286
+                }
+              ],
+              "type": "jump",
+              "screenshot_id": "sc_4200b0"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.8023255813953488,
+                  "y": 0.4896640826873385
+                },
+                {
+                  "x": 0.8885658914728682,
+                  "y": 0.4707149009474591
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_b5f75a"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.7613967022308439,
+                  "y": 0.7207134389481625
+                },
+                {
+                  "x": 0.6818622696411252,
+                  "y": 0.7293350576570751
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_8637a7"
+            }
+          ],
+          "headholes": [],
+          "footholes": [
+            {
+              "x": 0.3376528026237328,
+              "y": 0.6886238653680514,
+              "screenshot_id": "sc_f36011"
+            },
+            {
+              "x": 0.3439475253428742,
+              "y": 0.62927847346452,
+              "screenshot_id": "sc_f36011"
+            },
+            {
+              "x": 0.3497689326177698,
+              "y": 0.5776253892532963,
+              "screenshot_id": "sc_f36011"
+            }
+          ],
+          "highholes": [],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.21634615384615385,
+              "y": 0.6794871794871795,
+              "label": "b"
+            },
+            {
+              "x": 0.510576923076923,
+              "y": 0.6752136752136753,
+              "label": "a"
+            }
+          ]
+        }
+      ]
+    },
+    "club_house_base": {
+      "id": "club_house_club_house_base_jonas_20260510_125747",
+      "map_id": "club_house",
+      "site_id": "club_house_base",
+      "name": "Club House \u00e2\u0080\u0093 Basement",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_ffe969",
+          "filename": "sc_ffe969.webp"
+        },
+        {
+          "id": "sc_890418",
+          "filename": "sc_890418.webp"
+        },
+        {
+          "id": "sc_7f8078",
+          "filename": "sc_7f8078.webp"
+        },
+        {
+          "id": "sc_99ab3e",
+          "filename": "sc_99ab3e.webp"
+        },
+        {
+          "id": "sc_e77c7b",
+          "filename": "sc_e77c7b.webp"
+        },
+        {
+          "id": "sc_cd8e43",
+          "filename": "sc_cd8e43.webp"
+        },
+        {
+          "id": "sc_fda678",
+          "filename": "sc_fda678.webp"
+        },
+        {
+          "id": "sc_a41354",
+          "filename": "sc_a41354.webp"
+        },
+        {
+          "id": "sc_5417a9",
+          "filename": "sc_5417a9.webp"
+        },
+        {
+          "id": "sc_22c1c8",
+          "filename": "sc_22c1c8.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "club_house_base",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.3410946698847359,
+              "y": 0.4207763466893235,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_22c1c8"
+            },
+            {
+              "x": 0.33236998022541525,
+              "y": 0.47072325522915376,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_22c1c8"
+            },
+            {
+              "x": 0.5833333333333334,
+              "y": 0.6309216192937123,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_7f8078"
+            },
+            {
+              "x": 0.6676356589147286,
+              "y": 0.4810508182601206,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_99ab3e"
+            },
+            {
+              "x": 0.7180232558139535,
+              "y": 0.5964685615848406,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_a41354"
+            },
+            {
+              "x": 0.26356589147286824,
+              "y": 0.686046511627907,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_cd8e43"
+            },
+            {
+              "x": 0.5,
+              "y": 0.20714900947459086,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_fda678"
+            },
+            {
+              "x": 0.3258971871968962,
+              "y": 0.5258648561267378,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_22c1c8"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.5571705426356589,
+                  "y": 0.5809646856158484
+                },
+                {
+                  "x": 0.6085271317829457,
+                  "y": 0.5792420327304049
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_7f8078"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.6075581395348837,
+                  "y": 0.5465116279069767
+                },
+                {
+                  "x": 0.6036821705426356,
+                  "y": 0.43281653746770027
+                }
+              ],
+              "type": "crouch",
+              "screenshot_id": "sc_99ab3e"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.4451988360814743,
+                  "y": 0.34136221575600817
+                },
+                {
+                  "x": 0.44422890397672166,
+                  "y": 0.2361784675072745
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_5417a9"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.481086323957323,
+              "y": 0.29480547472788016,
+              "screenshot_id": "sc_5417a9"
+            },
+            {
+              "x": 0.5179437439379243,
+              "y": 0.29652979846966265,
+              "screenshot_id": "sc_5417a9"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.5901162790697675,
+              "y": 0.7101636520241171,
+              "screenshot_id": "sc_7f8078"
+            }
+          ],
+          "highholes": [
+            {
+              "x": 0.32783705140640157,
+              "y": 0.3999892229766139,
+              "screenshot_id": "sc_22c1c8"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.5043269230769231,
+              "y": 0.4307692307692308,
+              "label": "a"
+            },
+            {
+              "x": 0.5543269230769231,
+              "y": 0.2299145299145299,
+              "label": "b"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "initialSiteId": "club_house_base"
+}

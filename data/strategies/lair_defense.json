@@ -1,0 +1,269 @@
+{
+  "map": "Lair",
+  "side": "Defense",
+  "source": {
+    "title": "R6 Prep — Defender Site Setups: Lair",
+    "type": "r6prep_site_setups",
+    "file": "https://www.r6prep.com/defender/site-setups/lair",
+    "notes": "Wall/hatch/rotation/head-hole/foot-hole positions and per-marker screenshots sourced directly from r6prep.com's structured site-setup data (r6prep's own source: https://www.youtube.com/watch?v=W1426wT75e8). r6prep provides no text room names or descriptions, only marker position + category + photo — room names above were inferred by the app's maintainer from each marker's visual position on the base map, cross-checked against wiki-verified callouts (data/maps/*.json). Treat room labels as best-effort; the linked photo is the authoritative reference for exact placement. No operator/loadout/utility recommendations in this source — that content is tracked separately."
+  },
+  "sites": [
+    {
+      "id": "lair_1f",
+      "workingName": "Bunks / Briefing",
+      "floor": "1st Floor",
+      "callouts": [
+        "Armory",
+        "Briefing",
+        "Bunks"
+      ],
+      "reinforcements": [
+        {
+          "location": "Bunks, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_e09db1.webp"
+        },
+        {
+          "location": "Bunks, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_e09db1.webp"
+        },
+        {
+          "location": "Briefing, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_570a37.webp"
+        },
+        {
+          "location": "Armory, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_3eb907.webp"
+        },
+        {
+          "location": "Armory, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_3eb907.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Briefing, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_570a37.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Bunks, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_f850d9.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "lair_2f",
+      "workingName": "Master Office / R6 Room",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Master Office",
+        "R6 Room"
+      ],
+      "reinforcements": [
+        {
+          "location": "R6 Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_12f875.webp"
+        },
+        {
+          "location": "R6 Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_12f875.webp"
+        },
+        {
+          "location": "R6 Room, Horizontal Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_766412.webp"
+        },
+        {
+          "location": "R6 Room, Horizontal Wall (4)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_766412.webp"
+        },
+        {
+          "location": "R6 Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_158b84.webp"
+        },
+        {
+          "location": "R6 Room, Horizontal Wall (5)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_12ab15.webp"
+        },
+        {
+          "location": "Master Office, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_b0748e.webp"
+        },
+        {
+          "location": "Master Office, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_b0748e.webp"
+        },
+        {
+          "location": "R6 Room, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_2aa6a8.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "R6 Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_158b84.webp"
+        },
+        {
+          "location": "Master Office",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_81ac44.webp"
+        },
+        {
+          "location": "Master Office (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_49e374.webp"
+        },
+        {
+          "location": "Master Office, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_d7da5a.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Master Office, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_9f68c9.webp"
+        },
+        {
+          "location": "R6 Room, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_12ab15.webp"
+        },
+        {
+          "location": "Master Office, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_49e374.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "lair_base",
+      "workingName": "Lab Support / Lab",
+      "floor": "Basement",
+      "callouts": [
+        "Lab",
+        "Lab Support"
+      ],
+      "reinforcements": [
+        {
+          "location": "Lab, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_37e347.webp"
+        },
+        {
+          "location": "Lab Support, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_a1675d.webp"
+        },
+        {
+          "location": "Lab Support, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_200227.webp"
+        },
+        {
+          "location": "Lab Support, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_afbabe.webp"
+        },
+        {
+          "location": "Lab Support, Horizontal Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_afbabe.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Lab Support, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_200227.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Lab Support, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_eb2ee9.webp"
+        },
+        {
+          "location": "Lab, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_ebf4d3.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Lab Support",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_e2ca2c.webp"
+        },
+        {
+          "location": "Lab",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/lair/sc_2950bd.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "map": {
+    "id": "kafe_dostoyevsky",
+    "display_name": "Kafe Dostoyevsky",
+    "status": "active",
+    "floors": [
+      {
+        "id": "1f",
+        "label": "1F",
+        "image_key": "kafe_dostoyevsky/kafe_dostoyevsky_1f"
+      },
+      {
+        "id": "2f",
+        "label": "2F",
+        "image_key": "kafe_dostoyevsky/kafe_dostoyevsky_2f"
+      },
+      {
+        "id": "3f",
+        "label": "3F",
+        "image_key": "kafe_dostoyevsky/kafe_dostoyevsky_3f"
+      }
+    ],
+    "sites": [
+      {
+        "id": "kafe_dostoyevsky_1f",
+        "display_name": "1F Kitchen Service, 1F Kitchen Cooking",
+        "floor": "1f",
+        "image_key": "kafe_dostoyevsky/kafe_dostoyevsky_1f"
+      },
+      {
+        "id": "kafe_dostoyevsky_2f",
+        "display_name": "2F Reading Room, 2F Fireplace Hall",
+        "floor": "2f",
+        "image_key": "kafe_dostoyevsky/kafe_dostoyevsky_2f"
+      },
+      {
+        "id": "kafe_dostoyevsky_3f",
+        "display_name": "3F Bar, 3F Cocktail Lounge",
+        "floor": "3f",
+        "image_key": "kafe_dostoyevsky/kafe_dostoyevsky_3f"
+      }
+    ]
+  },
+  "setups": {
+    "kafe_dostoyevsky_1f": {
+      "id": "kafe_dostoyevsky_kafe_dostoyevsky_1f_jonas_20260510_130701",
+      "map_id": "kafe_dostoyevsky",
+      "site_id": "kafe_dostoyevsky_1f",
+      "name": "Kafe Dostoyevsky \u00e2\u0080\u0093 1F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_ae7ad5",
+          "filename": "sc_ae7ad5.webp"
+        },
+        {
+          "id": "sc_587edb",
+          "filename": "sc_587edb.webp"
+        },
+        {
+          "id": "sc_5a9efa",
+          "filename": "sc_5a9efa.webp"
+        },
+        {
+          "id": "sc_f4f939",
+          "filename": "sc_f4f939.webp"
+        },
+        {
+          "id": "sc_6f1523",
+          "filename": "sc_6f1523.webp"
+        },
+        {
+          "id": "sc_130cf4",
+          "filename": "sc_130cf4.webp"
+        },
+        {
+          "id": "sc_e1a5a5",
+          "filename": "sc_e1a5a5.webp"
+        },
+        {
+          "id": "sc_fa25f4",
+          "filename": "sc_fa25f4.webp"
+        },
+        {
+          "id": "sc_db30e8",
+          "filename": "sc_db30e8.webp"
+        },
+        {
+          "id": "sc_89df3f",
+          "filename": "sc_89df3f.webp"
+        },
+        {
+          "id": "sc_fdd3a5",
+          "filename": "sc_fdd3a5.webp"
+        },
+        {
+          "id": "sc_6d67e2",
+          "filename": "sc_6d67e2.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "kafe_dostoyevsky_1f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.17248062015503876,
+              "y": 0.7635658914728682,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_6f1523"
+            },
+            {
+              "x": 0.2916666666666667,
+              "y": 0.28811369509043927,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_fa25f4"
+            },
+            {
+              "x": 0.811046511627907,
+              "y": 0.8875968992248062,
+              "wall_orientation": "hatch",
+              "screenshot_id": "sc_e1a5a5"
+            },
+            {
+              "x": 0.3313953488372093,
+              "y": 0.5137812230835487,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_5a9efa"
+            },
+            {
+              "x": 0.4282955135001015,
+              "y": 0.33464203156080535,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_89df3f"
+            },
+            {
+              "x": 0.562015503875969,
+              "y": 0.4672695951765719,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_db30e8"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.375,
+                  "y": 0.437984496124031
+                },
+                {
+                  "x": 0.30523255813953487,
+                  "y": 0.43109388458225667
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_5a9efa"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.21241513094083414,
+                  "y": 0.23272982002370945
+                },
+                {
+                  "x": 0.20368574199806014,
+                  "y": 0.37412436684987604
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_fa25f4"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.564922480620155,
+              "y": 0.5258397932816538,
+              "screenshot_id": "sc_db30e8"
+            },
+            {
+              "x": 0.48205625606207564,
+              "y": 0.33446492078887813,
+              "screenshot_id": "sc_89df3f"
+            },
+            {
+              "x": 0.5596508244422891,
+              "y": 0.41033516542730897,
+              "screenshot_id": "sc_db30e8"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.16375968992248063,
+              "y": 0.8858742463393626,
+              "screenshot_id": "sc_6f1523"
+            },
+            {
+              "x": 0.8574199806013579,
+              "y": 0.7327837051406402,
+              "screenshot_id": "sc_fdd3a5"
+            },
+            {
+              "x": 0.8768186226964112,
+              "y": 0.8362431296475913,
+              "screenshot_id": "sc_fdd3a5"
+            }
+          ],
+          "highholes": [
+            {
+              "x": 0.1434108527131783,
+              "y": 0.7428940568475452,
+              "screenshot_id": "sc_6f1523"
+            },
+            {
+              "x": 0.8991270611057226,
+              "y": 0.7017458777885548,
+              "screenshot_id": "sc_fdd3a5"
+            },
+            {
+              "x": 0.9282250242483027,
+              "y": 0.812102597262636,
+              "screenshot_id": "sc_fdd3a5"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.44567307692307695,
+              "y": 0.6863247863247863,
+              "label": "a"
+            },
+            {
+              "x": 0.7009615384615384,
+              "y": 0.6170940170940171,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "kafe_dostoyevsky_2f",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.39282250242483024,
+              "y": 0.19824334518805906,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_6d67e2"
+            }
+          ],
+          "rotations": [],
+          "headholes": [],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "kafe_dostoyevsky_2f": {
+      "id": "kafe_dostoyevsky_kafe_dostoyevsky_2f_jonas_20260510_190305",
+      "map_id": "kafe_dostoyevsky",
+      "site_id": "kafe_dostoyevsky_2f",
+      "name": "Kafe Dostoyevsky \u00e2\u0080\u0093 2F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_13810d",
+          "filename": "sc_13810d.webp"
+        },
+        {
+          "id": "sc_596e3c",
+          "filename": "sc_596e3c.webp"
+        },
+        {
+          "id": "sc_3d400c",
+          "filename": "sc_3d400c.webp"
+        },
+        {
+          "id": "sc_43266f",
+          "filename": "sc_43266f.webp"
+        },
+        {
+          "id": "sc_f25e4c",
+          "filename": "sc_f25e4c.webp"
+        },
+        {
+          "id": "sc_a6ea43",
+          "filename": "sc_a6ea43.webp"
+        },
+        {
+          "id": "sc_357631",
+          "filename": "sc_357631.webp"
+        },
+        {
+          "id": "sc_6823a8",
+          "filename": "sc_6823a8.webp"
+        },
+        {
+          "id": "sc_7f412f",
+          "filename": "sc_7f412f.webp"
+        },
+        {
+          "id": "sc_b475fa",
+          "filename": "sc_b475fa.webp"
+        },
+        {
+          "id": "sc_928455",
+          "filename": "sc_928455.webp"
+        },
+        {
+          "id": "sc_e0b376",
+          "filename": "sc_e0b376.webp"
+        },
+        {
+          "id": "sc_f496d3",
+          "filename": "sc_f496d3.webp"
+        },
+        {
+          "id": "sc_ad4437",
+          "filename": "sc_ad4437.webp"
+        },
+        {
+          "id": "sc_cd4f24",
+          "filename": "sc_cd4f24.webp"
+        },
+        {
+          "id": "sc_d70a29",
+          "filename": "sc_d70a29.webp"
+        },
+        {
+          "id": "sc_c93898",
+          "filename": "sc_c93898.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "kafe_dostoyevsky_2f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.5281007751937985,
+              "y": 0.3053402239448751,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f25e4c"
+            },
+            {
+              "x": 0.5736434108527132,
+              "y": 0.3070628768303187,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f25e4c"
+            },
+            {
+              "x": 0.6773255813953488,
+              "y": 0.7101636520241171,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_357631"
+            },
+            {
+              "x": 0.3918525703200776,
+              "y": 0.6569134605022093,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_e0b376"
+            },
+            {
+              "x": 0.22502424830261883,
+              "y": 0.47758379135682727,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f496d3"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.6453488372093024,
+                  "y": 0.82213608957795
+                },
+                {
+                  "x": 0.7218992248062015,
+                  "y": 0.8152454780361758
+                }
+              ],
+              "type": "jump",
+              "screenshot_id": "sc_357631"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.530552861299709,
+                  "y": 0.45171893523008944
+                },
+                {
+                  "x": 0.530552861299709,
+                  "y": 0.5672486259295183
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_b475fa"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.41610087293889425,
+                  "y": 0.9086647268024571
+                },
+                {
+                  "x": 0.33656644034917554,
+                  "y": 0.9069404030606747
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_e0b376"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.18040737148399613,
+              "y": 0.48103243884039226,
+              "screenshot_id": "sc_f496d3"
+            }
+          ],
+          "footholes": [
+            {
+              "x": 0.48643410852713176,
+              "y": 0.6498708010335917,
+              "screenshot_id": "sc_7f412f"
+            },
+            {
+              "x": 0.4476744186046512,
+              "y": 0.6515934539190353,
+              "screenshot_id": "sc_7f412f"
+            },
+            {
+              "x": 0.5703200775945684,
+              "y": 0.5379351223192155,
+              "screenshot_id": "sc_b475fa"
+            },
+            {
+              "x": 0.6062075654704171,
+              "y": 0.6517404892768617,
+              "screenshot_id": "sc_7f412f"
+            }
+          ],
+          "highholes": [
+            {
+              "x": 0.8128031037827352,
+              "y": 0.48620541006573986,
+              "screenshot_id": "sc_928455"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.5697115384615384,
+              "y": 0.8042735042735043,
+              "label": "a"
+            },
+            {
+              "x": 0.6350961538461538,
+              "y": 0.36666666666666664,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "kafe_dostoyevsky_3f",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.6656976744186046,
+              "y": 0.5155038759689923,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_cd4f24"
+            },
+            {
+              "x": 0.6744186046511628,
+              "y": 0.5792420327304049,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_cd4f24"
+            },
+            {
+              "x": 0.6983511154219205,
+              "y": 0.2827352085354025,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_c93898"
+            },
+            {
+              "x": 0.472356935014549,
+              "y": 0.7862377411358983,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_d70a29"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.7235693501454898,
+                  "y": 0.24997305744153464
+                },
+                {
+                  "x": 0.6517943743937924,
+                  "y": 0.2672162948593598
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_c93898"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.47332686711930166,
+              "y": 0.7051945252721198,
+              "screenshot_id": "sc_d70a29"
+            }
+          ],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    },
+    "kafe_dostoyevsky_3f": {
+      "id": "kafe_dostoyevsky_kafe_dostoyevsky_3f_jonas_20260510_150607",
+      "map_id": "kafe_dostoyevsky",
+      "site_id": "kafe_dostoyevsky_3f",
+      "name": "Kafe Dostoyevsky \u00e2\u0080\u0093 3F",
+      "role": "defense",
+      "season_verified": "Y11S1",
+      "last_reviewed_at": "2026-05-10",
+      "author": "Jonas",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sc_1e43c9",
+          "filename": "sc_1e43c9.webp"
+        },
+        {
+          "id": "sc_3736cf",
+          "filename": "sc_3736cf.webp"
+        },
+        {
+          "id": "sc_a15d2a",
+          "filename": "sc_a15d2a.webp"
+        },
+        {
+          "id": "sc_b371fd",
+          "filename": "sc_b371fd.webp"
+        },
+        {
+          "id": "sc_dc7676",
+          "filename": "sc_dc7676.webp"
+        },
+        {
+          "id": "sc_72cf02",
+          "filename": "sc_72cf02.webp"
+        },
+        {
+          "id": "sc_08dbbf",
+          "filename": "sc_08dbbf.webp"
+        },
+        {
+          "id": "sc_d200f2",
+          "filename": "sc_d200f2.webp"
+        },
+        {
+          "id": "sc_8ad0f7",
+          "filename": "sc_8ad0f7.webp"
+        },
+        {
+          "id": "sc_d23775",
+          "filename": "sc_d23775.webp"
+        },
+        {
+          "id": "sc_69529f",
+          "filename": "sc_69529f.webp"
+        },
+        {
+          "id": "sc_1f3b61",
+          "filename": "sc_1f3b61.webp"
+        },
+        {
+          "id": "sc_f25e4c",
+          "filename": "sc_f25e4c.webp"
+        },
+        {
+          "id": "sc_c93898",
+          "filename": "sc_c93898.webp"
+        }
+      ],
+      "layers": [
+        {
+          "site_id": "kafe_dostoyevsky_3f",
+          "is_primary": true,
+          "reinforcements": [
+            {
+              "x": 0.20736434108527133,
+              "y": 0.3380706287683032,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_1e43c9"
+            },
+            {
+              "x": 0.24709302325581395,
+              "y": 0.3380706287683032,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_1e43c9"
+            },
+            {
+              "x": 0.47674418604651164,
+              "y": 0.5844099913867356,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_d23775"
+            },
+            {
+              "x": 0.502906976744186,
+              "y": 0.6498708010335917,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_d23775"
+            },
+            {
+              "x": 0.6947674418604651,
+              "y": 0.28811369509043927,
+              "wall_orientation": "vertical",
+              "screenshot_id": "sc_c93898"
+            },
+            {
+              "x": 0.6566440349175557,
+              "y": 0.5362107985774329,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_8ad0f7"
+            },
+            {
+              "x": 0.47332686711930166,
+              "y": 0.7931350361030284,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_69529f"
+            }
+          ],
+          "rotations": [
+            {
+              "path": [
+                {
+                  "x": 0.6414728682170543,
+                  "y": 0.6154177433247201
+                },
+                {
+                  "x": 0.7054263565891473,
+                  "y": 0.6154177433247201
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_8ad0f7"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.5494186046511628,
+                  "y": 0.6016365202411714
+                },
+                {
+                  "x": 0.5503875968992248,
+                  "y": 0.6929371231696813
+                }
+              ],
+              "type": "jump",
+              "screenshot_id": "sc_d23775"
+            },
+            {
+              "path": [
+                {
+                  "x": 0.7109602327837051,
+                  "y": 0.2516973811833172
+                },
+                {
+                  "x": 0.6566440349175557,
+                  "y": 0.2620433236340123
+                }
+              ],
+              "type": "soft",
+              "screenshot_id": "sc_c93898"
+            }
+          ],
+          "headholes": [
+            {
+              "x": 0.4772065955383123,
+              "y": 0.5293135036103028,
+              "screenshot_id": "sc_d23775"
+            },
+            {
+              "x": 0.4267701260911736,
+              "y": 0.5,
+              "screenshot_id": "sc_1f3b61"
+            },
+            {
+              "x": 0.457807953443259,
+              "y": 0.5,
+              "screenshot_id": "sc_1f3b61"
+            },
+            {
+              "x": 0.4742967992240543,
+              "y": 0.7017458777885548,
+              "screenshot_id": "sc_69529f"
+            }
+          ],
+          "footholes": [],
+          "highholes": [
+            {
+              "x": 0.7248062015503876,
+              "y": 0.4362618432385874,
+              "screenshot_id": "sc_d200f2"
+            }
+          ],
+          "gadgets": [],
+          "bombs": [
+            {
+              "x": 0.7543269230769231,
+              "y": 0.44871794871794873,
+              "label": "a"
+            },
+            {
+              "x": 0.5581730769230769,
+              "y": 0.3128205128205128,
+              "label": "b"
+            }
+          ]
+        },
+        {
+          "site_id": "kafe_dostoyevsky_2f",
+          "is_primary": false,
+          "reinforcements": [
+            {
+              "x": 0.527643064985451,
+              "y": 0.31032438840392285,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f25e4c"
+            },
+            {
+              "x": 0.5712900096993211,
+              "y": 0.31032438840392285,
+              "wall_orientation": "horizontal",
+              "screenshot_id": "sc_f25e4c"
+            }
+          ],
+          "rotations": [],
+          "headholes": [],
+          "footholes": [],
+          "highholes": [],
+          "gadgets": []
+        }
+      ]
+    }
+  },
+  "initialSiteId": "kafe_dostoyevsky_1f"
+}

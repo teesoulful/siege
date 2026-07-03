@@ -1,0 +1,385 @@
+{
+  "map": "Chalet",
+  "side": "Defense",
+  "source": {
+    "title": "R6 Prep — Defender Site Setups: Chalet",
+    "type": "r6prep_site_setups",
+    "file": "https://www.r6prep.com/defender/site-setups/chalet",
+    "notes": "Wall/hatch/rotation/head-hole/foot-hole positions and per-marker screenshots sourced directly from r6prep.com's structured site-setup data (r6prep's own source: https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_). r6prep provides no text room names or descriptions, only marker position + category + photo — room names above were inferred by the app's maintainer from each marker's visual position on the base map, cross-checked against wiki-verified callouts (data/maps/*.json). Treat room labels as best-effort; the linked photo is the authoritative reference for exact placement. No operator/loadout/utility recommendations in this source — that content is tracked separately."
+  },
+  "sites": [
+    {
+      "id": "chalet_1f_a",
+      "workingName": "Kitchen / Dining Room",
+      "floor": "1st Floor",
+      "callouts": [
+        "Connector",
+        "Dining Room",
+        "Kitchen",
+        "Main Entrance",
+        "Trophy Room"
+      ],
+      "reinforcements": [
+        {
+          "location": "Trophy Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_d25444.webp"
+        },
+        {
+          "location": "Kitchen, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_b66e8b.webp"
+        },
+        {
+          "location": "Dining Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_f159e7.webp"
+        },
+        {
+          "location": "Dining Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_f159e7.webp"
+        },
+        {
+          "location": "Dining Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_f159e7.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Trophy Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_d25444.webp"
+        },
+        {
+          "location": "Kitchen (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_b66e8b.webp"
+        },
+        {
+          "location": "Dining Room, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_f159e7.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Connector, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_9037ab.webp"
+        },
+        {
+          "location": "Main Entrance, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_9037ab.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Kitchen",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_89b96b.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "chalet_1f_b",
+      "workingName": "Bar / Gaming Room",
+      "floor": "1st Floor",
+      "callouts": [
+        "Bar",
+        "Campfire",
+        "Fireplace",
+        "Gaming Room",
+        "Solarium"
+      ],
+      "reinforcements": [
+        {
+          "location": "Gaming Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_7bfe1c.webp"
+        },
+        {
+          "location": "Solarium, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_7bfe1c.webp"
+        },
+        {
+          "location": "Fireplace, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_03db35.webp"
+        },
+        {
+          "location": "Fireplace, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_f1710d.webp"
+        },
+        {
+          "location": "Solarium, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_b0b7e5.webp"
+        },
+        {
+          "location": "Solarium, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_b0b7e5.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Gaming Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_7bfe1c.webp"
+        },
+        {
+          "location": "Bar",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_7bfe1c.webp"
+        },
+        {
+          "location": "Campfire, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_f1710d.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Campfire, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_86fa78.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "chalet_2f",
+      "workingName": "Master bedroom / Office",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Balcony",
+        "Bathroom",
+        "Hallway",
+        "Library",
+        "Master Bedroom",
+        "Office"
+      ],
+      "reinforcements": [
+        {
+          "location": "Master Bedroom, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_0d5d32.webp"
+        },
+        {
+          "location": "Hallway, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_34a59f.webp"
+        },
+        {
+          "location": "Balcony, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_34a59f.webp"
+        },
+        {
+          "location": "Bathroom, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_dc5742.webp"
+        },
+        {
+          "location": "Bathroom, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_aca744.webp"
+        },
+        {
+          "location": "Bathroom, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_dc5742.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Hallway",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_34a59f.webp"
+        },
+        {
+          "location": "Office",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_f75bb7.webp"
+        },
+        {
+          "location": "Bathroom",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_dc5742.webp"
+        },
+        {
+          "location": "Bathroom (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_dc5742.webp"
+        },
+        {
+          "location": "Library",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_aca744.webp"
+        },
+        {
+          "location": "Balcony",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_34a59f.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Master Bedroom, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_0d5d32.webp"
+        },
+        {
+          "location": "Master Bedroom, Stand (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_0d5d32.webp"
+        },
+        {
+          "location": "Office, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_f75bb7.webp"
+        },
+        {
+          "location": "Library, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_aca744.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "chalet_base",
+      "workingName": "Wine Cellar / Snowmobile Garage",
+      "floor": "Basement",
+      "callouts": [
+        "Back Stairs",
+        "Basement Corridor",
+        "Garage Door",
+        "Wine Cellar",
+        "Wine Cellar Stairs"
+      ],
+      "reinforcements": [
+        {
+          "location": "Garage Door, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_ea53ff.webp"
+        },
+        {
+          "location": "Garage Door, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_ea53ff.webp"
+        },
+        {
+          "location": "Wine Cellar Stairs, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_358074.webp"
+        },
+        {
+          "location": "Wine Cellar Stairs, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_358074.webp"
+        },
+        {
+          "location": "Wine Cellar, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_03f8f1.webp"
+        },
+        {
+          "location": "Wine Cellar, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_03f8f1.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Basement Corridor",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_d95d01.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Basement Corridor, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_d95d01.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Wine Cellar",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_f981b1.webp"
+        },
+        {
+          "location": "Back Stairs",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/chalet/sc_9b4c4c.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    }
+  ]
+}

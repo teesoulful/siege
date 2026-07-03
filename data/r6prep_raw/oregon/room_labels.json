@@ -1,0 +1,58 @@
+{
+  "oregon_1f_a": {
+    "1": "Bathroom Corridor",
+    "2": "Showers",
+    "3": "Dining Hall",
+    "4": "Dining Hall",
+    "5": "Lobby",
+    "6": "Lobby",
+    "7": "Kitchen",
+    "8": "Showers",
+    "9": "Kitchen",
+    "10": "Bathroom Corridor",
+    "11": "Showers",
+    "12": "Office",
+    "13": "Showers"
+  },
+  "oregon_1f_b": {
+    "1": "Meeting Hall",
+    "2": "Meeting Hall",
+    "3": "Kitchen Corridor",
+    "4": "Kitchen Corridor",
+    "5": "Kitchen",
+    "6": "Kitchen",
+    "7": "Kitchen Corridor",
+    "8": "Office"
+  },
+  "oregon_2f": {
+    "1": "Small Dorms",
+    "2": "Small Dorms",
+    "3": "Master Bedroom",
+    "4": "Armory",
+    "5": "Armory Corridor",
+    "6": "Attic",
+    "7": "Attic",
+    "8": "Armory",
+    "9": "Armory Corridor",
+    "10": "Kids' Dorm",
+    "11": "Master Bedroom",
+    "12": "Armory"
+  },
+  "oregon_base": {
+    "1": "Laundry Room",
+    "2": "Laundry Room",
+    "3": "Boiler Room",
+    "4": "Freezer",
+    "5": "Freezer",
+    "6": "Freezer",
+    "7": "Boiler Room",
+    "8": "Supply Room",
+    "9": "Laundry Room",
+    "10": "Laundry Room",
+    "11": "Laundry Room",
+    "12": "Freezer",
+    "13": "Boiler Room",
+    "14": "Boiler Room",
+    "15": "Boiler Room"
+  }
+}

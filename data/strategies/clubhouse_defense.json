@@ -1,0 +1,343 @@
+{
+  "map": "Clubhouse",
+  "side": "Defense",
+  "source": {
+    "title": "R6 Prep — Defender Site Setups: Clubhouse",
+    "type": "r6prep_site_setups",
+    "file": "https://www.r6prep.com/defender/site-setups/clubhouse",
+    "notes": "Wall/hatch/rotation/head-hole/foot-hole positions and per-marker screenshots sourced directly from r6prep.com's structured site-setup data (r6prep's own source: https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_). r6prep provides no text room names or descriptions, only marker position + category + photo — room names above were inferred by the app's maintainer from each marker's visual position on the base map, cross-checked against wiki-verified callouts (data/maps/*.json). Treat room labels as best-effort; the linked photo is the authoritative reference for exact placement. No operator/loadout/utility recommendations in this source — that content is tracked separately."
+  },
+  "sites": [
+    {
+      "id": "club_house_2f_a",
+      "workingName": "CCTV Room / Cash Room",
+      "floor": "2nd Floor",
+      "callouts": [
+        "CCTV Room",
+        "Cash Room",
+        "Construction"
+      ],
+      "reinforcements": [
+        {
+          "location": "CCTV Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_116795.webp"
+        },
+        {
+          "location": "Cash Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_249e7b.webp"
+        },
+        {
+          "location": "Cash Room, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_249e7b.webp"
+        },
+        {
+          "location": "Cash Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_65896f.webp"
+        },
+        {
+          "location": "CCTV Room, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_fa7c69.webp"
+        },
+        {
+          "location": "Construction, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_9daad6.webp"
+        },
+        {
+          "location": "Cash Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_07d215.webp"
+        },
+        {
+          "location": "Cash Room, Horizontal Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_07d215.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "CCTV Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_116795.webp"
+        },
+        {
+          "location": "Cash Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_65896f.webp"
+        },
+        {
+          "location": "Construction, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_74017f.webp"
+        },
+        {
+          "location": "Cash Room, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_901ea7.webp"
+        },
+        {
+          "location": "Cash Room, High Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_901ea7.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "CCTV Room, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_116795.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "club_house_2f_b",
+      "workingName": "Gym / Bedroom",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Bedroom",
+        "CCTV Room",
+        "Gym"
+      ],
+      "reinforcements": [
+        {
+          "location": "Gym, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_d81111.webp"
+        },
+        {
+          "location": "Gym, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_d81111.webp"
+        },
+        {
+          "location": "Gym, Vertical Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_0ef321.webp"
+        },
+        {
+          "location": "Bedroom, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_4200b0.webp"
+        },
+        {
+          "location": "CCTV Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_673c2a.webp"
+        },
+        {
+          "location": "CCTV Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_673c2a.webp"
+        },
+        {
+          "location": "Gym, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_f36011.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Gym, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_f36011.webp"
+        },
+        {
+          "location": "Gym, Foot Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_f36011.webp"
+        },
+        {
+          "location": "Gym, Foot Hole (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_f36011.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Gym, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_f36011.webp"
+        },
+        {
+          "location": "Gym, Jump",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_0ef321.webp"
+        },
+        {
+          "location": "Bedroom, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_e82d97.webp"
+        },
+        {
+          "location": "Bedroom, Jump",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_4200b0.webp"
+        },
+        {
+          "location": "CCTV Room, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_b5f75a.webp"
+        },
+        {
+          "location": "CCTV Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_8637a7.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "club_house_base",
+      "workingName": "Church / Arsenal Room",
+      "floor": "Basement",
+      "callouts": [
+        "Arsenal Room",
+        "Church",
+        "Oil Pit"
+      ],
+      "reinforcements": [
+        {
+          "location": "Arsenal Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_22c1c8.webp"
+        },
+        {
+          "location": "Arsenal Room, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_22c1c8.webp"
+        },
+        {
+          "location": "Church, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_7f8078.webp"
+        },
+        {
+          "location": "Arsenal Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_99ab3e.webp"
+        },
+        {
+          "location": "Arsenal Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_22c1c8.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Arsenal Room (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_5417a9.webp"
+        },
+        {
+          "location": "Arsenal Room (4)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_5417a9.webp"
+        },
+        {
+          "location": "Church, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_7f8078.webp"
+        },
+        {
+          "location": "Arsenal Room, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_22c1c8.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Church, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_7f8078.webp"
+        },
+        {
+          "location": "Arsenal Room, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_99ab3e.webp"
+        },
+        {
+          "location": "Arsenal Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_5417a9.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Arsenal Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_a41354.webp"
+        },
+        {
+          "location": "Oil Pit",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_cd8e43.webp"
+        },
+        {
+          "location": "Arsenal Room (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/clubhouse/sc_fda678.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    }
+  ]
+}

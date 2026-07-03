@@ -1,0 +1,399 @@
+{
+  "map": "Border",
+  "side": "Defense",
+  "source": {
+    "title": "R6 Prep — Defender Site Setups: Border",
+    "type": "r6prep_site_setups",
+    "file": "https://www.r6prep.com/defender/site-setups/border",
+    "notes": "Wall/hatch/rotation/head-hole/foot-hole positions and per-marker screenshots sourced directly from r6prep.com's structured site-setup data (r6prep's own source: https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_). r6prep provides no text room names or descriptions, only marker position + category + photo — room names above were inferred by the app's maintainer from each marker's visual position on the base map, cross-checked against wiki-verified callouts (data/maps/*.json). Treat room labels as best-effort; the linked photo is the authoritative reference for exact placement. No operator/loadout/utility recommendations in this source — that content is tracked separately."
+  },
+  "sites": [
+    {
+      "id": "border_1f_a",
+      "workingName": "Bathroom / Tellers",
+      "floor": "1st Floor",
+      "callouts": [
+        "Bathroom",
+        "Passport Check",
+        "Server Room",
+        "Tellers",
+        "Waiting Room",
+        "Workshop"
+      ],
+      "reinforcements": [
+        {
+          "location": "Workshop, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_dc92fe.webp"
+        },
+        {
+          "location": "Workshop, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_dc92fe.webp"
+        },
+        {
+          "location": "Workshop, Vertical Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_dc92fe.webp"
+        },
+        {
+          "location": "Passport Check, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_cb727b.webp"
+        },
+        {
+          "location": "Waiting Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_35cde2.webp"
+        },
+        {
+          "location": "Waiting Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_35cde2.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Bathroom",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_d8a8d0.webp"
+        },
+        {
+          "location": "Bathroom (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_be5d61.webp"
+        },
+        {
+          "location": "Waiting Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_05c820.webp"
+        },
+        {
+          "location": "Bathroom (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_aa2bab.webp"
+        },
+        {
+          "location": "Tellers, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_cb727b.webp"
+        },
+        {
+          "location": "Tellers, Foot Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_cb727b.webp"
+        },
+        {
+          "location": "Tellers, Foot Hole (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_cb727b.webp"
+        },
+        {
+          "location": "Waiting Room, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_05c820.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Bathroom, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_aa2bab.webp"
+        },
+        {
+          "location": "Server Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_be5d61.webp"
+        },
+        {
+          "location": "Passport Check, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_801e14.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "border_1f_b",
+      "workingName": "Ventilation Room / Workshop",
+      "floor": "1st Floor",
+      "callouts": [
+        "Passport Check",
+        "Ventilation Room",
+        "Waiting Room",
+        "West Road",
+        "Workshop"
+      ],
+      "reinforcements": [
+        {
+          "location": "Workshop, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_ee35f5.webp"
+        },
+        {
+          "location": "West Road, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_ea2089.webp"
+        },
+        {
+          "location": "West Road, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_ea2089.webp"
+        },
+        {
+          "location": "Passport Check, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_3d467a.webp"
+        },
+        {
+          "location": "Waiting Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_fabd16.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Ventilation Room, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_5b4829.webp"
+        },
+        {
+          "location": "Ventilation Room, Foot Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_5b4829.webp"
+        },
+        {
+          "location": "Passport Check, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_3d467a.webp"
+        },
+        {
+          "location": "Ventilation Room, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_5b4829.webp"
+        },
+        {
+          "location": "Passport Check, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_3d467a.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Ventilation Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_5b4829.webp"
+        },
+        {
+          "location": "Workshop, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_ee35f5.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Workshop",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_b4f390.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "border_2f",
+      "workingName": "Armory Lockers / Archives",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Archives",
+        "Armory Lockers",
+        "Break Room",
+        "Fountain Room",
+        "Offices",
+        "Security Room"
+      ],
+      "reinforcements": [
+        {
+          "location": "Offices, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_86c15d.webp"
+        },
+        {
+          "location": "Fountain Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_b11a72.webp"
+        },
+        {
+          "location": "Fountain Room, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_07414c.webp"
+        },
+        {
+          "location": "Fountain Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_07414c.webp"
+        },
+        {
+          "location": "Offices, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_fb9573.webp"
+        },
+        {
+          "location": "Offices, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_fb9573.webp"
+        },
+        {
+          "location": "Security Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_65d6b1.webp"
+        },
+        {
+          "location": "Break Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_aac70a.webp"
+        },
+        {
+          "location": "Break Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_aac70a.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Offices",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_86c15d.webp"
+        },
+        {
+          "location": "Offices (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_fb9573.webp"
+        },
+        {
+          "location": "Break Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_aac70a.webp"
+        },
+        {
+          "location": "Armory Lockers, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_40fd8b.webp"
+        },
+        {
+          "location": "Armory Lockers, Foot Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_40fd8b.webp"
+        },
+        {
+          "location": "Armory Lockers, Foot Hole (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_a4c6d7.webp"
+        },
+        {
+          "location": "Archives, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_4c80c7.webp"
+        },
+        {
+          "location": "Archives, Foot Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_4c80c7.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Offices, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_fb9573.webp"
+        },
+        {
+          "location": "Archives, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_1df0c3.webp"
+        },
+        {
+          "location": "Offices, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_cf8613.webp"
+        },
+        {
+          "location": "Archives, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_a4c6d7.webp"
+        },
+        {
+          "location": "Archives, Stand (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_4c80c7.webp"
+        },
+        {
+          "location": "Break Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/border/sc_aac70a.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    }
+  ]
+}

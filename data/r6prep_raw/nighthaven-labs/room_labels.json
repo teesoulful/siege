@@ -1,0 +1,55 @@
+{
+  "nighthaven_labs_1f_a": {
+    "1": "Cafeteria",
+    "2": "Cafeteria",
+    "3": "Kitchen",
+    "4": "Gaming",
+    "5": "Kitchen",
+    "6": "Cafeteria",
+    "7": "Gaming",
+    "8": "Gaming",
+    "9": "Vending Stair",
+    "10": "Vending Stair"
+  },
+  "nighthaven_labs_1f_b": {
+    "1": "Storage",
+    "2": "Storage",
+    "3": "Cargo",
+    "4": "Cargo",
+    "5": "Control",
+    "6": "Cargo"
+  },
+  "nighthaven_labs_2f": {
+    "1": "Command",
+    "2": "Command",
+    "3": "Command",
+    "4": "Command",
+    "5": "Command",
+    "6": "Command",
+    "7": "Server",
+    "8": "Server",
+    "9": "Command",
+    "10": "Command",
+    "11": "Command",
+    "12": "Command",
+    "13": "Server"
+  },
+  "nighthaven_labs_base": {
+    "1": "Assembly",
+    "2": "Assembly",
+    "3": "Assembly",
+    "4": "Assembly",
+    "5": "Nano",
+    "6": "Assembly",
+    "7": "Nano",
+    "8": "Nano",
+    "9": "Tank",
+    "10": "Tank",
+    "11": "Tank",
+    "12": "Nano",
+    "13": "Nano",
+    "14": "Nano",
+    "15": "Assembly",
+    "16": "Assembly"
+  }
+}

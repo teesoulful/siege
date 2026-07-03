@@ -1,0 +1,362 @@
+{
+  "map": "Nighthaven Labs",
+  "side": "Defense",
+  "source": {
+    "title": "R6 Prep — Defender Site Setups: Nighthaven Labs",
+    "type": "r6prep_site_setups",
+    "file": "https://www.r6prep.com/defender/site-setups/nighthaven-labs",
+    "notes": "Wall/hatch/rotation/head-hole/foot-hole positions and per-marker screenshots sourced directly from r6prep.com's structured site-setup data (r6prep's own source: https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_). r6prep provides no text room names or descriptions, only marker position + category + photo — room names above were inferred by the app's maintainer from each marker's visual position on the base map, cross-checked against wiki-verified callouts (data/maps/*.json). Treat room labels as best-effort; the linked photo is the authoritative reference for exact placement. No operator/loadout/utility recommendations in this source — that content is tracked separately."
+  },
+  "sites": [
+    {
+      "id": "nighthaven_labs_1f_a",
+      "workingName": "Kitchen / Cafeteria",
+      "floor": "1st Floor",
+      "callouts": [
+        "Cafeteria",
+        "Gaming",
+        "Kitchen",
+        "Vending Stair"
+      ],
+      "reinforcements": [
+        {
+          "location": "Cafeteria, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_6923c2.webp"
+        },
+        {
+          "location": "Cafeteria, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_6923c2.webp"
+        },
+        {
+          "location": "Kitchen, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_245a3e.webp"
+        },
+        {
+          "location": "Gaming, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_2a735a.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Kitchen",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_245a3e.webp"
+        },
+        {
+          "location": "Cafeteria",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_436228.webp"
+        },
+        {
+          "location": "Gaming",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_506981.webp"
+        },
+        {
+          "location": "Gaming (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_506981.webp"
+        },
+        {
+          "location": "Vending Stair, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_75a123.webp"
+        },
+        {
+          "location": "Vending Stair, Foot Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_75a123.webp"
+        }
+      ],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "nighthaven_labs_1f_b",
+      "workingName": "Storage / Control Room",
+      "floor": "1st Floor",
+      "callouts": [
+        "Cargo",
+        "Control",
+        "Storage"
+      ],
+      "reinforcements": [
+        {
+          "location": "Storage, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_51541a.webp"
+        },
+        {
+          "location": "Storage, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_51541a.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Cargo, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_86706f.webp"
+        },
+        {
+          "location": "Cargo, High Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_86706f.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Control, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_f7f55d.webp"
+        },
+        {
+          "location": "Cargo, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_86706f.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "nighthaven_labs_2f",
+      "workingName": "Command Center / Servers",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Command",
+        "Server"
+      ],
+      "reinforcements": [
+        {
+          "location": "Command, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_e17b55.webp"
+        },
+        {
+          "location": "Command, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_e17b55.webp"
+        },
+        {
+          "location": "Command, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_48dcd3.webp"
+        },
+        {
+          "location": "Command, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_259e6c.webp"
+        },
+        {
+          "location": "Command, Vertical Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_259e6c.webp"
+        },
+        {
+          "location": "Command, Vertical Wall (4)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_03a1e6.webp"
+        },
+        {
+          "location": "Server, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_03a1e6.webp"
+        },
+        {
+          "location": "Server, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_03a1e6.webp"
+        },
+        {
+          "location": "Command, Vertical Wall (5)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_3cd33e.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Command",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_03a1e6.webp"
+        },
+        {
+          "location": "Command, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_3cd33e.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Command, Jump",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_48dcd3.webp"
+        },
+        {
+          "location": "Server, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_03a1e6.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "nighthaven_labs_base",
+      "workingName": "Assembly / Tank",
+      "floor": "Basement",
+      "callouts": [
+        "Assembly",
+        "Nano",
+        "Tank"
+      ],
+      "reinforcements": [
+        {
+          "location": "Assembly, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_fd159e.webp"
+        },
+        {
+          "location": "Assembly, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_fd159e.webp"
+        },
+        {
+          "location": "Assembly, Horizontal Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_67d60d.webp"
+        },
+        {
+          "location": "Assembly, Horizontal Wall (4)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_72ab5e.webp"
+        },
+        {
+          "location": "Nano, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_abdb67.webp"
+        },
+        {
+          "location": "Tank, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_28953b.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Tank",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_28953b.webp"
+        },
+        {
+          "location": "Tank (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_28953b.webp"
+        },
+        {
+          "location": "Nano, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_abdb67.webp"
+        },
+        {
+          "location": "Nano, Foot Hole (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_857ae7.webp"
+        },
+        {
+          "location": "Nano, Foot Hole (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_dee917.webp"
+        },
+        {
+          "location": "Assembly, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_72ab5e.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Assembly, Jump",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_72ab5e.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Nano",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_7ea3e7.webp"
+        },
+        {
+          "location": "Assembly",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_f5b850.webp"
+        },
+        {
+          "location": "Nano (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/nighthaven-labs/sc_d4a903.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    }
+  ]
+}
