@@ -285,6 +285,12 @@ function hasShotgun(opName){
 const STRATEGY_BANK = window.SIEGE_STRATEGY_BANK || {};
 const SITE_SETUPS = window.SIEGE_SITE_SETUPS || {};
 const SIEGE_MAPS = window.SIEGE_MAPS || {};
+// Hand-curated, per-player, ban-aware preference-ordered operator lists
+// (data/operator_site_profiles.json) — PLAYER_PICKS[map][side][site][playerId]
+// = [op,...], [0] ideal, [1]/[2] alternates. This is the primary source for
+// who should pick what; the role/keyword heuristic below (getRecommended's
+// STRATEGY_BANK fallback) only fires for a map/site this data doesn't cover.
+const PLAYER_PICKS = window.SIEGE_PLAYER_PICKS || {};
 
 // Built by build_data.py scanning assets/maps/<map-slug>/<floor>.jpg —
 // MAP_FLOOR_IMAGES[mapName][floorToken] = image path. floorToken matches
@@ -712,20 +718,6 @@ function roleMatches(playerRole, dataRole){
   return false;
 }
 
-// Heuristic read on how exposed/aggressive a recommendation sounds from its
-// role+note text — used to match site slots to player comfort, not as an
-// exact science. Positive = out/exposed (roaming, gunfights, entry).
-// Negative = in/tucked (anchoring, cameras, traps).
-const EXPOSURE_HIGH = ['roam','flex','entry','perimeter','gunfight','duel','aggressive','push','contest','peek','busy','fight'];
-const EXPOSURE_LOW = ['anchor','camera','trap','mine','tuck','hidden','safe','batter','corner','passive','deep'];
-function exposureScore(role, job){
-  const text = (role + ' ' + (job || '')).toLowerCase();
-  let score = 0;
-  EXPOSURE_HIGH.forEach(w => { if(text.includes(w)) score++; });
-  EXPOSURE_LOW.forEach(w => { if(text.includes(w)) score--; });
-  return score;
-}
-
 // Ranks candidates for ONE player by role/keyword fit. Searches this site
 // first, then falls back to every other site on the same map so there's
 // nearly always something to offer — used for Attack auto-pick (each
@@ -733,6 +725,16 @@ function exposureScore(role, job){
 // overlap) and for switch-chip alternates on both sides.
 function getRecommended(playerId){
   const player = ROSTER.find(p => p.id === playerId);
+  // PLAYER_PICKS is this player's own real preference-ordered list for the
+  // current map/side/site — when it's there, use it directly instead of the
+  // role/keyword heuristic below (which exists only for a map/site this
+  // hand-curated data doesn't cover).
+  const direct = (((PLAYER_PICKS[state.map] || {})[state.side] || {})[state.site] || {})[playerId];
+  if(direct && direct.length){
+    return direct
+      .filter(op => !state.banned.has(op) && !pickedElsewhere(op, playerId))
+      .map(op => [op, {role: player.role[state.side], job: '', synergy: []}]);
+  }
   const playerRole = player.role[state.side];
   const sideData = (STRATEGY_BANK[state.map] || {})[state.side] || {};
   const rank = (entries) => entries.filter(([op, data]) => {
@@ -953,25 +955,18 @@ function groupSiteSetupItems(items){
   return [...grouped, ...standaloneReinforce, ...standaloneOther];
 }
 
+// Each active player has their own dedicated preference-ordered operator
+// list now (PLAYER_PICKS, surfaced through getRecommended) rather than one
+// shared site-wide pool to divide up, so the draft is just "give everyone
+// their own best still-available pick" — most-out-first (defenseComfort
+// ascending) only matters as a deterministic tie-break on the rare occasion
+// two players' lists actually collide on the same operator.
 function runDefenseDraft(){
-  const siteData = ((STRATEGY_BANK[state.map] || {}).Defense || {})[state.site] || {};
-  const sitePool = Object.entries(siteData)
-    .filter(([op]) => !state.banned.has(op))
-    .sort((a, b) => exposureScore(b[1].role, b[1].job) - exposureScore(a[1].role, a[1].job));
-
-  const players = activeRoster().slice().sort((a, b) => a.defenseComfort - b.defenseComfort); // most out first
-  const offset = Math.max(0, players.length - sitePool.length);
+  const players = activeRoster().slice().sort((a, b) => a.defenseComfort - b.defenseComfort);
   const assigned = {};
   const used = new Set();
 
-  players.forEach((player, i) => {
-    if(i < offset) return; // no site-specific slot for this player — filled below
-    const pick = sitePool[i - offset];
-    if(pick){ assigned[player.id] = pick[0]; used.add(pick[0]); }
-  });
-
-  activeRoster().forEach(player => {
-    if(assigned[player.id]) return;
+  players.forEach(player => {
     const candidates = getRecommended(player.id).filter(([op]) => !used.has(op));
     if(candidates.length){ assigned[player.id] = candidates[0][0]; used.add(candidates[0][0]); }
   });
@@ -1162,15 +1157,17 @@ function renderOperatorBubble(){
   // 1. Operator name
   panel.appendChild(el('div', 'opline', yourOp));
 
-  // 2. Switch chips — directly under the name, no label above them. Pulled
-  // straight from this site's own recommended-operator list (already split
-  // from combined "X or Y" names at build time), not from getRecommended()'s
-  // independent role-matching search. getRecommended() can rank a completely
-  // different operator pool than whichever slot the draft actually assigned
-  // this player to — so switching once could knock the real site option
-  // (e.g. Azami) out of the list for good. The site's own list always keeps
-  // every unbanned, unclaimed-by-a-teammate named operator pickable.
-  const siteOpPool = Object.keys((STRATEGY_BANK[state.map]?.[state.side] || {})[state.site] || {});
+  // 2. Switch chips — directly under the name, no label above them. This
+  // player's own PLAYER_PICKS list (their whole 5-operator pool for this
+  // site, in preference order) when it's there — that's literally what "the
+  // 2/3 other recommendations if you don't want the main one" means, a
+  // personal alternates list, not a site-wide pool shared with teammates.
+  // Falls back to the site's full named-operator list (old STRATEGY_BANK
+  // behavior) only for a map/site PLAYER_PICKS doesn't cover.
+  const directPicks = (((PLAYER_PICKS[state.map] || {})[state.side] || {})[state.site] || {})[you.id];
+  const siteOpPool = directPicks && directPicks.length
+    ? directPicks
+    : Object.keys((STRATEGY_BANK[state.map]?.[state.side] || {})[state.site] || {});
   const visible = siteOpPool.filter(op => !state.banned.has(op) && !pickedElsewhere(op, you.id));
   if(visible.length > 1){
     const row = el('div', 'switchrow');

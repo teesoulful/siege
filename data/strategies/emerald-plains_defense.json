@@ -302,6 +302,22 @@
       "gadgetPlacements": [],
       "operatorRecommendations": [],
       "generalTips": []
+    },
+    {
+      "id": "emerald-plains_bar_lounge",
+      "workingName": "Bar / Lounge",
+      "floor": "1st Floor",
+      "callouts": [
+        "Bar",
+        "Lounge"
+      ],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
     }
   ]
 }

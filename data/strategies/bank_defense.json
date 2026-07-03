@@ -378,6 +378,22 @@
       "gadgetPlacements": [],
       "operatorRecommendations": [],
       "generalTips": []
+    },
+    {
+      "id": "bank_tellers_office_archives",
+      "workingName": "Tellers' Office / Archives",
+      "floor": "1st Floor",
+      "callouts": [
+        "Tellers' Office",
+        "Archives"
+      ],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
     }
   ]
 }

@@ -1,0 +1,3555 @@
+{
+  "_schema": {
+    "note": "Per map -> per site -> per side -> per player: operators in preference order (ideal first). App shows [0] as ideal, [1]/[2] as alternates. Bans: pick first operator not in bans[]. Every list is the player's full 5-op pool ordered for that site.",
+    "players": [
+      "Tee",
+      "TAMIYM",
+      "Eman",
+      "Stef"
+    ],
+    "rule_tamiym_defense": "General order Thorn > Clash > Lesion > Kapkan > Ela. Clash ideal on big open sites, Thorn ideal on tighter trap sites; Ela occasional.",
+    "rule_eman_kaid": "Kaid is Eman's pick ONLY where a hatch above the site can be reinforced (basements + floors with a reinforceable floor above). On the top floor, hatches above can't be reinforced so Kaid is wasted -> Eman anchors Tachanka (Mute if the threat is a wall breach); Kaid drops last."
+  },
+  "Clubhouse": {
+    "_traits": "Hatch-heavy, flank-rich, destructible, vertical. Bandit-trick map. 2F sites are top floor (no reinforceable hatch above) so Eman anchors Tachanka there per rule_eman_kaid.",
+    "sites": {
+      "Basement — Church / Arsenal": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Bandit",
+            "Smoke",
+            "Fenrir",
+            "Melusi"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Smoke",
+            "Tachanka",
+            "Mute",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Echo",
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Ram",
+            "Ace",
+            "Hibana",
+            "Thermite",
+            "Maverick"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Fuze",
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      },
+      "Bar / Stock Room — 1F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Kaid",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "Gym / Bedroom — 2F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Bandit",
+            "Melusi",
+            "Fenrir",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Castle",
+            "Valkyrie",
+            "Maestro",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Solid Snake",
+            "Osa",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      },
+      "CCTV / Cash — 2F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Bandit",
+            "Fenrir",
+            "Melusi",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Castle",
+            "Valkyrie",
+            "Maestro",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Ram",
+            "Hibana",
+            "Ace",
+            "Thermite",
+            "Maverick"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Grim",
+            "Solid Snake",
+            "Deimos"
+          ],
+          "Eman": [
+            "Fuze",
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Flores",
+            "Dokkaebi",
+            "Lion"
+          ]
+        }
+      }
+    }
+  },
+  "Oregon": {
+    "_traits": "Basement + hatches, flank-heavy, vertical. Kaid on the basement/lower hatches; 2F Kids/Master is top floor so Eman anchors Tachanka. Nomad/Gridlock flank denial; Ram/Fuze open from above.",
+    "sites": {
+      "Basement — Laundry Room / Supply Room": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Smoke",
+            "Tachanka",
+            "Mute",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Echo",
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Ram",
+            "Ace",
+            "Hibana",
+            "Thermite",
+            "Maverick"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Fuze",
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      },
+      "Kitchen / Dining Room — 1F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Tachanka",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "Meeting Hall / Security — 1F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Kaid",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Ying",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "Kids' Dorms / Master Bedroom — 2F": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Mira",
+            "Bandit",
+            "Fenrir",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Solid Snake",
+            "Osa",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      }
+    }
+  },
+  "Bank": {
+    "_traits": "Basement + hatch-heavy, high-intel, roam-heavy but held slow. Kaid on basement + 1F hatches; 2F CEO is top floor so Eman anchors Tachanka. Fuze shines in the tight 2F CEO/conference rooms.",
+    "sites": {
+      "Basement — CCTV Room / Lockers": {
+        "defense": {
+          "Tee": [
+            "Smoke",
+            "Mira",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Smoke",
+            "Tachanka",
+            "Mute",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Echo",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Ram",
+            "Ace",
+            "Hibana",
+            "Thermite",
+            "Maverick"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Fuze",
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      },
+      "Tellers' Office / Archives — 1F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Mute",
+            "Tachanka",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      },
+      "Open Area / Staff Room — 1F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Tachanka",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "CEO Office / Executive Lounge — 2F": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Solid Snake",
+            "Osa",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Fuze",
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      }
+    }
+  },
+  "Chalet": {
+    "_traits": "Basement garage-hatch + kitchen-drop (Kaid country low), big open bar, flank-heavy. 2F Master is top floor -> Eman Tachanka, Stef leans Castle (poor cam spots up top).",
+    "sites": {
+      "Basement — Snowmobile Garage / Wine Cellar": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Smoke",
+            "Tachanka",
+            "Mute",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Echo",
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Ram",
+            "Ace",
+            "Hibana",
+            "Thermite",
+            "Maverick"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Fuze",
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      },
+      "Bar / Gaming Room — 1F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Kaid",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "Kitchen / Dining Room — 1F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Tachanka",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Ying",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Nomad",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "Master Bedroom / Office — 2F": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Castle",
+            "Valkyrie",
+            "Maestro",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Solid Snake",
+            "Osa",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      }
+    }
+  },
+  "Coastline": {
+    "_traits": "No basement, 2 floors, glassy + very destructible, hatch-rich, roam/flank map. Mira's best map (glass everywhere). Eman off Kaid on most sites (few reinforceable hatches) -> Mute/Tachanka.",
+    "sites": {
+      "Blue Bar / Sunrise Bar — 1F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Mute",
+            "Tachanka",
+            "Kaid",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "Kitchen / Service Entrance — 1F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Fenrir",
+            "Bandit",
+            "Melusi",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Mute",
+            "Kaid",
+            "Tachanka",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Echo",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Nomad",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      },
+      "Hookah Lounge / Billiards Room — 2F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Bandit",
+            "Melusi",
+            "Fenrir",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Ying",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "Theater / Penthouse — 2F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Bandit",
+            "Melusi",
+            "Fenrir",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Solid Snake",
+            "Osa",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Nomad",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      }
+    }
+  },
+  "Border": {
+    "_traits": "2 floors, no basement, very open + destructible, 5 hatches, tight server-room corridors, roof/balcony rappel. 2F Armory is top floor -> Eman Tachanka; 1F sites keep Kaid (hatches above).",
+    "sites": {
+      "Armory Lockers / Archives — 2F": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Solid Snake",
+            "Osa",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      },
+      "Workshop / Ventilation Room — 1F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Fenrir",
+            "Bandit",
+            "Melusi",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Mute",
+            "Tachanka",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Echo",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Fuze",
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      },
+      "Customs Inspection / Supply Room — 1F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Tachanka",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "Tellers / Bathroom — 1F": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Fenrir",
+            "Bandit",
+            "Melusi",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Mute",
+            "Tachanka",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Nomad",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      }
+    }
+  },
+  "Consulate": {
+    "_traits": "B/1F/2F, windows everywhere, very destructible, roam-heavy. Openness inferred - tune from play.",
+    "sites": {
+      "2F Consul Office / Meeting Room": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Ying",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Nomad",
+            "Fuze",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "1F Exposition Room / Piano Room": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Tachanka",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "B Servers / 1F Tellers": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Smoke",
+            "Tachanka",
+            "Mute",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Echo",
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Ram",
+            "Ace",
+            "Hibana",
+            "Thermite",
+            "Maverick"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Fuze",
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      },
+      "B Cafeteria / Garage": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Smoke",
+            "Tachanka",
+            "Mute",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Echo",
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Ram",
+            "Ace",
+            "Hibana",
+            "Thermite",
+            "Maverick"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Fuze",
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      }
+    }
+  },
+  "Kafe": {
+    "_traits": "1F/2F/3F, vertical, terraces, soft destruction, roof hatches. 2F keeps Kaid (3F above); only 3F is top floor.",
+    "sites": {
+      "3F Bar / Cocktail Lounge": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Ying",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Nomad",
+            "Fuze",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "2F Fireplace Hall / Mining Room": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Tachanka",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "2F Reading Room / Fireplace Hall": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Fenrir",
+            "Bandit",
+            "Melusi",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Mute",
+            "Tachanka",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Echo",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Nomad",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      },
+      "1F Service / Cooking": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Fenrir",
+            "Bandit",
+            "Melusi",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Mute",
+            "Tachanka",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Echo",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Nomad",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      }
+    }
+  },
+  "Lair": {
+    "_traits": "B/1F/2F, underground high-tech complex, tight. Openness inferred - tune from play.",
+    "sites": {
+      "2F Master Office / R6 Room": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Solid Snake",
+            "Osa",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      },
+      "1F Bunks / Briefing": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Fenrir",
+            "Bandit",
+            "Melusi",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Mute",
+            "Tachanka",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Echo",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Nomad",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      },
+      "1F Weapon Maintenance / Armoury": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Fenrir",
+            "Bandit",
+            "Melusi",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Mute",
+            "Tachanka",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Echo",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Nomad",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      },
+      "B Lab Support / Lab": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Smoke",
+            "Tachanka",
+            "Mute",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Echo",
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Ram",
+            "Ace",
+            "Hibana",
+            "Thermite",
+            "Maverick"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Fuze",
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      }
+    }
+  },
+  "Nighthaven Labs": {
+    "_traits": "B/1F/2F, high-tech, multi-angle holds. Openness inferred - tune from play.",
+    "sites": {
+      "2F Command Centre / Servers": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Solid Snake",
+            "Osa",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      },
+      "1F Kitchen / Cafe": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Tachanka",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "1F Storage / Control": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Fenrir",
+            "Bandit",
+            "Melusi",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Mute",
+            "Tachanka",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Echo",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Nomad",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      },
+      "B Assembly / Tank": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Smoke",
+            "Tachanka",
+            "Mute",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Echo",
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Ram",
+            "Ace",
+            "Hibana",
+            "Thermite",
+            "Maverick"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Fuze",
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      }
+    }
+  },
+  "Outback": {
+    "_traits": "1F/2F, no basement. Both 2F sites are top floor (Eman Tachanka). Openness inferred.",
+    "sites": {
+      "2F Laundry / Piano": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Solid Snake",
+            "Osa",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      },
+      "2F Party / Office": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Ying",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Nomad",
+            "Fuze",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "1F Green Bedroom / Red Bedroom": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Fenrir",
+            "Bandit",
+            "Melusi",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Mute",
+            "Tachanka",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Echo",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Nomad",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      },
+      "1F Mechanic Shop / Kitchen": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Tachanka",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      }
+    }
+  },
+  "Emerald Plains": {
+    "_traits": "1F/2F, big open + exposed, soft walls. Both 2F sites top floor. Openness inferred.",
+    "sites": {
+      "2F Admin / CEO": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Solid Snake",
+            "Osa",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      },
+      "2F Private Gallery / Meeting": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Ying",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Nomad",
+            "Fuze",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "1F Bar / Lounge": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Tachanka",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "1F Dining / Kitchen": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Fenrir",
+            "Bandit",
+            "Melusi",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Mute",
+            "Tachanka",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Echo",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Nomad",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      }
+    }
+  },
+  "Fortress": {
+    "_traits": "1F/2F riad, no basement, rooftops. Both 2F sites top floor (Eman Tachanka). REWORKED - openness inferred.",
+    "sites": {
+      "2F Bathroom / Commanders Office": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Solid Snake",
+            "Osa",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Lion",
+            "Flores"
+          ]
+        }
+      },
+      "2F Dormitory / Games": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Ying",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Nomad",
+            "Fuze",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "1F Waiting Room / Cafeteria": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Tachanka",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "1F Hammam / Sitting Room": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Fenrir",
+            "Bandit",
+            "Melusi",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Mute",
+            "Tachanka",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Valkyrie",
+            "Echo",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Fuze",
+            "Nomad",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      }
+    }
+  },
+  "Calypso": {
+    "_traits": "B/1F/2F casino, vertical, drone vents, vault basement. BRAND NEW - openness is a guess, review this one.",
+    "sites": {
+      "2F Cigar Room / Pool": {
+        "defense": {
+          "Tee": [
+            "Melusi",
+            "Fenrir",
+            "Mira",
+            "Bandit",
+            "Smoke"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Tachanka",
+            "Mute",
+            "Kapkan",
+            "Smoke",
+            "Kaid"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Castle",
+            "Mozzie",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Thermite",
+            "Hibana",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Ying",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Capitao",
+            "Nomad",
+            "Fuze",
+            "Gridlock",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "1F Blackjack / Poker": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Tachanka",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "1F Bar / Betting": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Clash",
+            "Thorn",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Tachanka",
+            "Mute",
+            "Smoke",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Maestro",
+            "Valkyrie",
+            "Mozzie",
+            "Castle",
+            "Echo"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Hibana",
+            "Thermite",
+            "Ace",
+            "Maverick",
+            "Ram"
+          ],
+          "TAMIYM": [
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Ying",
+            "Deimos"
+          ],
+          "Eman": [
+            "Nomad",
+            "Capitao",
+            "Gridlock",
+            "Ace",
+            "Fuze"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Lion",
+            "Dokkaebi",
+            "Flores"
+          ]
+        }
+      },
+      "B CCTV / Vault Checkpoint": {
+        "defense": {
+          "Tee": [
+            "Mira",
+            "Smoke",
+            "Bandit",
+            "Melusi",
+            "Fenrir"
+          ],
+          "TAMIYM": [
+            "Thorn",
+            "Clash",
+            "Lesion",
+            "Kapkan",
+            "Ela"
+          ],
+          "Eman": [
+            "Kaid",
+            "Smoke",
+            "Tachanka",
+            "Mute",
+            "Kapkan"
+          ],
+          "Stef": [
+            "Echo",
+            "Valkyrie",
+            "Maestro",
+            "Castle",
+            "Mozzie"
+          ]
+        },
+        "attack": {
+          "Tee": [
+            "Ram",
+            "Ace",
+            "Hibana",
+            "Thermite",
+            "Maverick"
+          ],
+          "TAMIYM": [
+            "Ying",
+            "Osa",
+            "Solid Snake",
+            "Grim",
+            "Deimos"
+          ],
+          "Eman": [
+            "Fuze",
+            "Capitao",
+            "Gridlock",
+            "Nomad",
+            "Ace"
+          ],
+          "Stef": [
+            "Thatcher",
+            "Twitch",
+            "Dokkaebi",
+            "Flores",
+            "Lion"
+          ]
+        }
+      }
+    }
+  }
+}

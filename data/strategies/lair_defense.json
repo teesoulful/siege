@@ -264,6 +264,22 @@
       "gadgetPlacements": [],
       "operatorRecommendations": [],
       "generalTips": []
+    },
+    {
+      "id": "lair_weapon_maintenance_armoury",
+      "workingName": "Weapon Maintenance / Armoury",
+      "floor": "1st Floor",
+      "callouts": [
+        "Weapon Maintenance",
+        "Armoury"
+      ],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
     }
   ]
 }

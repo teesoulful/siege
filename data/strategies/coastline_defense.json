@@ -336,6 +336,22 @@
       "gadgetPlacements": [],
       "operatorRecommendations": [],
       "generalTips": []
+    },
+    {
+      "id": "coastline_blue_bar_sunrise_bar",
+      "workingName": "Blue Bar / Sunrise Bar",
+      "floor": "1st Floor",
+      "callouts": [
+        "Blue Bar",
+        "Sunrise Bar"
+      ],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
     }
   ]
 }

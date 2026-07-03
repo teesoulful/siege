@@ -394,6 +394,22 @@
       "gadgetPlacements": [],
       "operatorRecommendations": [],
       "generalTips": []
+    },
+    {
+      "id": "border_customs_inspection_supply_room",
+      "workingName": "Customs Inspection / Supply Room",
+      "floor": "1st Floor",
+      "callouts": [
+        "Customs Inspection",
+        "Supply Room"
+      ],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
     }
   ]
 }

@@ -310,6 +310,22 @@
       "gadgetPlacements": [],
       "operatorRecommendations": [],
       "generalTips": []
+    },
+    {
+      "id": "outback_mechanic_shop_kitchen",
+      "workingName": "Mechanic Shop / Kitchen",
+      "floor": "1st Floor",
+      "callouts": [
+        "Mechanic Shop",
+        "Kitchen"
+      ],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
     }
   ]
 }

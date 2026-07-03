@@ -356,6 +356,22 @@
       "gadgetPlacements": [],
       "operatorRecommendations": [],
       "generalTips": []
+    },
+    {
+      "id": "kafe-dostoyevsky_fireplace_hall_mining_room",
+      "workingName": "Fireplace Hall / Mining Room",
+      "floor": "2nd Floor",
+      "callouts": [
+        "Fireplace Hall",
+        "Mining Room"
+      ],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
     }
   ]
 }

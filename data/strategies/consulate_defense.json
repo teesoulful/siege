@@ -340,6 +340,22 @@
       "gadgetPlacements": [],
       "operatorRecommendations": [],
       "generalTips": []
+    },
+    {
+      "id": "consulate_servers_tellers",
+      "workingName": "Servers / Tellers",
+      "floor": "Basement",
+      "callouts": [
+        "Servers",
+        "Tellers"
+      ],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
     }
   ]
 }

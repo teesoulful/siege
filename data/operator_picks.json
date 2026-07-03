@@ -1,0 +1,3446 @@
+{
+  "Clubhouse": {
+    "Defense": {
+      "Church / Arsenal Room": {
+        "tee": [
+          "Mira",
+          "Bandit",
+          "Smoke",
+          "Fenrir",
+          "Melusi"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Smoke",
+          "Tachanka",
+          "Mute",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Echo",
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      },
+      "Bar / Stock Room": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Kaid",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Gym / Bedroom": {
+        "tee": [
+          "Mira",
+          "Bandit",
+          "Melusi",
+          "Fenrir",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Castle",
+          "Valkyrie",
+          "Maestro",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "CCTV Room / Cash Room": {
+        "tee": [
+          "Mira",
+          "Bandit",
+          "Fenrir",
+          "Melusi",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Castle",
+          "Valkyrie",
+          "Maestro",
+          "Mozzie",
+          "Echo"
+        ]
+      }
+    },
+    "Attack": {
+      "Church / Arsenal Room": {
+        "tee": [
+          "Ram",
+          "Ace",
+          "Hibana",
+          "Thermite",
+          "Maverick"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Fuze",
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      },
+      "Bar / Stock Room": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Gym / Bedroom": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Solid Snake",
+          "Osa",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      },
+      "CCTV Room / Cash Room": {
+        "tee": [
+          "Ram",
+          "Hibana",
+          "Ace",
+          "Thermite",
+          "Maverick"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Grim",
+          "Solid Snake",
+          "Deimos"
+        ],
+        "eman": [
+          "Fuze",
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Flores",
+          "Dokkaebi",
+          "Lion"
+        ]
+      }
+    }
+  },
+  "Oregon": {
+    "Defense": {
+      "Laundry Room / Supply Room": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Smoke",
+          "Tachanka",
+          "Mute",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Echo",
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      },
+      "Kitchen / Dining Hall": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Tachanka",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Meeting Hall / Kitchen": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Kaid",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Kids' Dorms / Dorms Main Hall": {
+        "tee": [
+          "Melusi",
+          "Mira",
+          "Bandit",
+          "Fenrir",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      }
+    },
+    "Attack": {
+      "Laundry Room / Supply Room": {
+        "tee": [
+          "Ram",
+          "Ace",
+          "Hibana",
+          "Thermite",
+          "Maverick"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Fuze",
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      },
+      "Kitchen / Dining Hall": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Meeting Hall / Kitchen": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Ying",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Kids' Dorms / Dorms Main Hall": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Solid Snake",
+          "Osa",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      }
+    }
+  },
+  "Bank": {
+    "Defense": {
+      "Lockers / CCTV Room": {
+        "tee": [
+          "Smoke",
+          "Mira",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Smoke",
+          "Tachanka",
+          "Mute",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Echo",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      },
+      "Tellers' Office / Archives": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Mute",
+          "Tachanka",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Staff Room / Open Area": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Tachanka",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Executive Lounge / CEO Office": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      }
+    },
+    "Attack": {
+      "Lockers / CCTV Room": {
+        "tee": [
+          "Ram",
+          "Ace",
+          "Hibana",
+          "Thermite",
+          "Maverick"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Fuze",
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      },
+      "Tellers' Office / Archives": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      },
+      "Staff Room / Open Area": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Executive Lounge / CEO Office": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Solid Snake",
+          "Osa",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Fuze",
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      }
+    }
+  },
+  "Chalet": {
+    "Defense": {
+      "Wine Cellar / Snowmobile Garage": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Smoke",
+          "Tachanka",
+          "Mute",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Echo",
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      },
+      "Bar / Gaming Room": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Kaid",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Kitchen / Dining Room": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Tachanka",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Master bedroom / Office": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Castle",
+          "Valkyrie",
+          "Maestro",
+          "Mozzie",
+          "Echo"
+        ]
+      }
+    },
+    "Attack": {
+      "Wine Cellar / Snowmobile Garage": {
+        "tee": [
+          "Ram",
+          "Ace",
+          "Hibana",
+          "Thermite",
+          "Maverick"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Fuze",
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      },
+      "Bar / Gaming Room": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Kitchen / Dining Room": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Ying",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Nomad",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Master bedroom / Office": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Solid Snake",
+          "Osa",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      }
+    }
+  },
+  "Coastline": {
+    "Defense": {
+      "Blue Bar / Sunrise Bar": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Mute",
+          "Tachanka",
+          "Kaid",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Kitchen / Service Entrance": {
+        "tee": [
+          "Mira",
+          "Fenrir",
+          "Bandit",
+          "Melusi",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Mute",
+          "Kaid",
+          "Tachanka",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Echo",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      },
+      "Hookah Lounge / Billiards Room": {
+        "tee": [
+          "Mira",
+          "Bandit",
+          "Melusi",
+          "Fenrir",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Penthouse / Theater": {
+        "tee": [
+          "Mira",
+          "Bandit",
+          "Melusi",
+          "Fenrir",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      }
+    },
+    "Attack": {
+      "Blue Bar / Sunrise Bar": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Kitchen / Service Entrance": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Nomad",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      },
+      "Hookah Lounge / Billiards Room": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Ying",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Penthouse / Theater": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Solid Snake",
+          "Osa",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Nomad",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      }
+    }
+  },
+  "Border": {
+    "Defense": {
+      "Armory Lockers / Archives": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Ventilation Room / Workshop": {
+        "tee": [
+          "Mira",
+          "Fenrir",
+          "Bandit",
+          "Melusi",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Mute",
+          "Tachanka",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Echo",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      },
+      "Customs Inspection / Supply Room": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Tachanka",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Bathroom / Tellers": {
+        "tee": [
+          "Mira",
+          "Fenrir",
+          "Bandit",
+          "Melusi",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Mute",
+          "Tachanka",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      }
+    },
+    "Attack": {
+      "Armory Lockers / Archives": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Solid Snake",
+          "Osa",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      },
+      "Ventilation Room / Workshop": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Fuze",
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      },
+      "Customs Inspection / Supply Room": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Bathroom / Tellers": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Nomad",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      }
+    }
+  },
+  "Consulate": {
+    "Defense": {
+      "Consul Office / Meeting Room": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Exposition Room / Piano Room": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Tachanka",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Servers / Tellers": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Smoke",
+          "Tachanka",
+          "Mute",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Echo",
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      },
+      "Cafeteria / Garage": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Smoke",
+          "Tachanka",
+          "Mute",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Echo",
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      }
+    },
+    "Attack": {
+      "Consul Office / Meeting Room": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Ying",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Nomad",
+          "Fuze",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Exposition Room / Piano Room": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Servers / Tellers": {
+        "tee": [
+          "Ram",
+          "Ace",
+          "Hibana",
+          "Thermite",
+          "Maverick"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Fuze",
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      },
+      "Cafeteria / Garage": {
+        "tee": [
+          "Ram",
+          "Ace",
+          "Hibana",
+          "Thermite",
+          "Maverick"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Fuze",
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      }
+    }
+  },
+  "Kafe Dostoyevsky": {
+    "Defense": {
+      "Bar / Cocktail Lounge": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Fireplace Hall / Mining Room": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Tachanka",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Reading Room / Fireplace Hall": {
+        "tee": [
+          "Mira",
+          "Fenrir",
+          "Bandit",
+          "Melusi",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Mute",
+          "Tachanka",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Echo",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      },
+      "Kitchen Service / Kitchen Cooking": {
+        "tee": [
+          "Mira",
+          "Fenrir",
+          "Bandit",
+          "Melusi",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Mute",
+          "Tachanka",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Echo",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      }
+    },
+    "Attack": {
+      "Bar / Cocktail Lounge": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Ying",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Nomad",
+          "Fuze",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Fireplace Hall / Mining Room": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Reading Room / Fireplace Hall": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Nomad",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      },
+      "Kitchen Service / Kitchen Cooking": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Nomad",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      }
+    }
+  },
+  "Lair": {
+    "Defense": {
+      "Master Office / R6 Room": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Bunks / Briefing": {
+        "tee": [
+          "Mira",
+          "Fenrir",
+          "Bandit",
+          "Melusi",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Mute",
+          "Tachanka",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Echo",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      },
+      "Weapon Maintenance / Armoury": {
+        "tee": [
+          "Mira",
+          "Fenrir",
+          "Bandit",
+          "Melusi",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Mute",
+          "Tachanka",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Echo",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      },
+      "Lab Support / Lab": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Smoke",
+          "Tachanka",
+          "Mute",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Echo",
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      }
+    },
+    "Attack": {
+      "Master Office / R6 Room": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Solid Snake",
+          "Osa",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      },
+      "Bunks / Briefing": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Nomad",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      },
+      "Weapon Maintenance / Armoury": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Nomad",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      },
+      "Lab Support / Lab": {
+        "tee": [
+          "Ram",
+          "Ace",
+          "Hibana",
+          "Thermite",
+          "Maverick"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Fuze",
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      }
+    }
+  },
+  "Nighthaven Labs": {
+    "Defense": {
+      "Command Center / Servers": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Kitchen / Cafeteria": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Tachanka",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Storage / Control Room": {
+        "tee": [
+          "Mira",
+          "Fenrir",
+          "Bandit",
+          "Melusi",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Mute",
+          "Tachanka",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Echo",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      },
+      "Assembly / Tank": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Smoke",
+          "Tachanka",
+          "Mute",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Echo",
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      }
+    },
+    "Attack": {
+      "Command Center / Servers": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Solid Snake",
+          "Osa",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      },
+      "Kitchen / Cafeteria": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Storage / Control Room": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Nomad",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      },
+      "Assembly / Tank": {
+        "tee": [
+          "Ram",
+          "Ace",
+          "Hibana",
+          "Thermite",
+          "Maverick"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Fuze",
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      }
+    }
+  },
+  "Outback": {
+    "Defense": {
+      "Laundry / Piano Room": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Party Room / Office": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Green Bedroom / Red Bedroom": {
+        "tee": [
+          "Mira",
+          "Fenrir",
+          "Bandit",
+          "Melusi",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Mute",
+          "Tachanka",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Echo",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      },
+      "Mechanic Shop / Kitchen": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Tachanka",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      }
+    },
+    "Attack": {
+      "Laundry / Piano Room": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Solid Snake",
+          "Osa",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      },
+      "Party Room / Office": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Ying",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Nomad",
+          "Fuze",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Green Bedroom / Red Bedroom": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Nomad",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      },
+      "Mechanic Shop / Kitchen": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      }
+    }
+  },
+  "Emerald Plains": {
+    "Defense": {
+      "Administration / CEO Office": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Private Gallery / Meeting": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Bar / Lounge": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Tachanka",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Dining / Kitchen": {
+        "tee": [
+          "Mira",
+          "Fenrir",
+          "Bandit",
+          "Melusi",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Mute",
+          "Tachanka",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Echo",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      }
+    },
+    "Attack": {
+      "Administration / CEO Office": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Solid Snake",
+          "Osa",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      },
+      "Private Gallery / Meeting": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Ying",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Nomad",
+          "Fuze",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Bar / Lounge": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Dining / Kitchen": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Nomad",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      }
+    }
+  },
+  "Fortress": {
+    "Defense": {
+      "Bathroom / Commander's Office": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Dormitory / Games Room": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Waiting Room / Cafeteria": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Tachanka",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Hammam / Sitting Room": {
+        "tee": [
+          "Mira",
+          "Fenrir",
+          "Bandit",
+          "Melusi",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Mute",
+          "Tachanka",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Valkyrie",
+          "Echo",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      }
+    },
+    "Attack": {
+      "Bathroom / Commander's Office": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Solid Snake",
+          "Osa",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Lion",
+          "Flores"
+        ]
+      },
+      "Dormitory / Games Room": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Ying",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Nomad",
+          "Fuze",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Waiting Room / Cafeteria": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Hammam / Sitting Room": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Fuze",
+          "Nomad",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      }
+    }
+  },
+  "Calypso Casino": {
+    "Defense": {
+      "Cigar Room / Pool": {
+        "tee": [
+          "Melusi",
+          "Fenrir",
+          "Mira",
+          "Bandit",
+          "Smoke"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Tachanka",
+          "Mute",
+          "Kapkan",
+          "Smoke",
+          "Kaid"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Castle",
+          "Mozzie",
+          "Echo"
+        ]
+      },
+      "Blackjack / Poker": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Tachanka",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "Bar / Betting": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Clash",
+          "Thorn",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Tachanka",
+          "Mute",
+          "Smoke",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Maestro",
+          "Valkyrie",
+          "Mozzie",
+          "Castle",
+          "Echo"
+        ]
+      },
+      "CCTV / Vault Checkpoint": {
+        "tee": [
+          "Mira",
+          "Smoke",
+          "Bandit",
+          "Melusi",
+          "Fenrir"
+        ],
+        "tamiym": [
+          "Thorn",
+          "Clash",
+          "Lesion",
+          "Kapkan",
+          "Ela"
+        ],
+        "eman": [
+          "Kaid",
+          "Smoke",
+          "Tachanka",
+          "Mute",
+          "Kapkan"
+        ],
+        "stefan": [
+          "Echo",
+          "Valkyrie",
+          "Maestro",
+          "Castle",
+          "Mozzie"
+        ]
+      }
+    },
+    "Attack": {
+      "Cigar Room / Pool": {
+        "tee": [
+          "Thermite",
+          "Hibana",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Ying",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Capitao",
+          "Nomad",
+          "Fuze",
+          "Gridlock",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Blackjack / Poker": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "Bar / Betting": {
+        "tee": [
+          "Hibana",
+          "Thermite",
+          "Ace",
+          "Maverick",
+          "Ram"
+        ],
+        "tamiym": [
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Ying",
+          "Deimos"
+        ],
+        "eman": [
+          "Nomad",
+          "Capitao",
+          "Gridlock",
+          "Ace",
+          "Fuze"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Lion",
+          "Dokkaebi",
+          "Flores"
+        ]
+      },
+      "CCTV / Vault Checkpoint": {
+        "tee": [
+          "Ram",
+          "Ace",
+          "Hibana",
+          "Thermite",
+          "Maverick"
+        ],
+        "tamiym": [
+          "Ying",
+          "Osa",
+          "Solid Snake",
+          "Grim",
+          "Deimos"
+        ],
+        "eman": [
+          "Fuze",
+          "Capitao",
+          "Gridlock",
+          "Nomad",
+          "Ace"
+        ],
+        "stefan": [
+          "Thatcher",
+          "Twitch",
+          "Dokkaebi",
+          "Flores",
+          "Lion"
+        ]
+      }
+    }
+  }
+}

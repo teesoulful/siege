@@ -234,6 +234,28 @@ def build():
 
     map_floor_images = build_map_floor_images(slug_to_map)
 
+    # PLAYER_PICKS[map][side][site_display_name][playerId] = [op,...] — hand
+    # curated, per-player, ban-aware preference-ordered operator lists
+    # (data/operator_site_profiles.json via scripts/build_operator_picks.py),
+    # the primary source for pick recommendations/switch-chip alternates.
+    # Keyed by workingName in the source file so it can resolve through the
+    # exact same floor-prefix display-name map STRATEGY_BANK/SITE_SETUPS use
+    # — including Attack, which has no strategies file of its own since
+    # r6prep is defense-only; the physical sites (and thus workingNames) are
+    # identical between sides, so Defense's display_names map covers both.
+    picks_path = DATA / "operator_picks.json"
+    player_picks = {}
+    if picks_path.exists():
+        for map_name, sides_picks in load_json(picks_path).items():
+            if map_name not in display_names:
+                continue
+            player_picks.setdefault(map_name, {})
+            for side_label, site_map in sides_picks.items():
+                player_picks[map_name].setdefault(side_label, {})
+                for working_name, per_player in site_map.items():
+                    display = display_names[map_name].get(working_name, working_name)
+                    player_picks[map_name][side_label][display] = per_player
+
     DIST.mkdir(exist_ok=True)
     out = DIST / "data.js"
     with open(out, "w") as f:
@@ -246,6 +268,7 @@ def build():
         f.write("window.SIEGE_MAP_FLOOR_IMAGES = " + json.dumps(map_floor_images) + ";\n")
         f.write("window.SIEGE_STRATEGY_BANK = " + json.dumps(strategy_bank) + ";\n")
         f.write("window.SIEGE_SITE_SETUPS = " + json.dumps(site_setups) + ";\n")
+        f.write("window.SIEGE_PLAYER_PICKS = " + json.dumps(player_picks) + ";\n")
         f.write("window.SIEGE_GENERAL_PRINCIPLES = " + json.dumps(general_principles) + ";\n")
     print(f"Wrote {out}")
 

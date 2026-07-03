@@ -338,6 +338,22 @@
       "gadgetPlacements": [],
       "operatorRecommendations": [],
       "generalTips": []
+    },
+    {
+      "id": "clubhouse_bar_stock_room",
+      "workingName": "Bar / Stock Room",
+      "floor": "1st Floor",
+      "callouts": [
+        "Bar",
+        "Stock Room"
+      ],
+      "reinforcements": [],
+      "headHoles": [],
+      "rotates": [],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
     }
   ]
 }
