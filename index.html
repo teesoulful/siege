@@ -93,6 +93,7 @@
   .taskchip.extra-toggle:hover{color:var(--text);}
   .taskdetail{font-size:14px;color:var(--text-dim);line-height:1.55;margin-top:6px;padding-top:6px;border-top:1px dashed var(--line);}
   .taskdetail .ts{color:var(--text-faint);margin-left:4px;}
+  .taskphoto{display:block;width:100%;border-radius:8px;margin-top:8px;border:1px solid var(--line);}
   .instr{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1.5px solid var(--amber-dim);border-radius:14px;padding:24px 18px;margin-bottom:16px;}
   .instr .who{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--amber);margin-bottom:8px;}
   .instr .opline{font-size:32px;font-weight:700;margin-bottom:2px;line-height:1.15;}
@@ -643,7 +644,7 @@ function chipIsMine(operatorField){
   if(!operatorField) return false;
   return activePickNames().some(op => operatorField.includes(op));
 }
-function taskChip(taskId, label, detail, ts, mine, generated){
+function taskChip(taskId, label, detail, ts, mine, generated, photo){
   const open = state.expandedTasks.has(taskId);
   const chip = el('div', 'taskchip' + (mine ? ' mine' : '') + (open ? ' open' : '') + (generated ? ' generated' : ''));
   chip.textContent = label;
@@ -652,10 +653,18 @@ function taskChip(taskId, label, detail, ts, mine, generated){
     else state.expandedTasks.add(taskId);
     renderAll();
   };
-  if(open && detail){
+  if(open && (detail || photo)){
     const d = el('div', 'taskdetail');
-    d.innerHTML = detail + (ts ? `<span class="ts">${ts}</span>` : '');
+    if(detail) d.innerHTML = detail + (ts ? `<span class="ts">${ts}</span>` : '');
     chip.appendChild(d);
+    if(photo){
+      const img = document.createElement('img');
+      img.src = photo;
+      img.alt = label;
+      img.className = 'taskphoto';
+      img.loading = 'lazy';
+      chip.appendChild(img);
+    }
   }
   return chip;
 }
@@ -1220,7 +1229,7 @@ function renderOperatorBubble(){
     utilItems = myGadgets.slice(0, utilInfo.count);
   }
   cappedField(panel, 'Utilities', utilItems, 4, (i, idx) =>
-    taskChip(`${idBase}|util|${idx}`, i.location, i.note, i.timestamp, true, utilGenerated),
+    taskChip(`${idBase}|util|${idx}`, i.location, i.note, i.timestamp, true, utilGenerated, i.photo),
     `${idBase}|util-extra`);
   if(utilInfo && typeof utilInfo.count === 'number' && myGadgets.length > utilInfo.count){
     panel.appendChild(el('div', 'setupempty', `Only ${utilInfo.count}× ${utilInfo.gadget} — ${myGadgets.length - utilInfo.count} more spot(s) need a teammate or a plain reinforcement instead.`));
@@ -1297,7 +1306,7 @@ function renderSiteSetupBubble(){
     return;
   }
   field(panel, state.side === 'Defense' ? 'Reinforce / Rotate' : 'Site Setup', siteSetupItems, (i, idx) =>
-    taskChip(`${idBase}|setup|${idx}|${i.location}`, `${i.action}: ${i.location}`, i.note, i.timestamp, false));
+    taskChip(`${idBase}|setup|${idx}|${i.location}`, `${i.action}: ${i.location}`, i.note, i.timestamp, false, false, i.photo));
 }
 
 function renderInstructions(){

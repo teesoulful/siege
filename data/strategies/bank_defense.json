@@ -1,0 +1,383 @@
+{
+  "map": "Bank",
+  "side": "Defense",
+  "source": {
+    "title": "R6 Prep — Defender Site Setups: Bank",
+    "type": "r6prep_site_setups",
+    "file": "https://www.r6prep.com/defender/site-setups/bank",
+    "notes": "Wall/hatch/rotation/head-hole/foot-hole positions and per-marker screenshots sourced directly from r6prep.com's structured site-setup data (r6prep's own source: https://www.youtube.com/playlist?list=PLEUzPbAephKcVY67IwphwKIJIJtLRyyo_). r6prep provides no text room names or descriptions, only marker position + category + photo — room names above were inferred by the app's maintainer from each marker's visual position on the base map, cross-checked against wiki-verified callouts (data/maps/*.json). Treat room labels as best-effort; the linked photo is the authoritative reference for exact placement. No operator/loadout/utility recommendations in this source — that content is tracked separately."
+  },
+  "sites": [
+    {
+      "id": "bank_1f",
+      "workingName": "Staff Room / Open Area",
+      "floor": "1st Floor",
+      "callouts": [
+        "Admin Office",
+        "Electrical Room",
+        "Office Hallway",
+        "Open Area",
+        "Skylight Stairwell",
+        "Staff Room"
+      ],
+      "reinforcements": [
+        {
+          "location": "Staff Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_8898df.webp"
+        },
+        {
+          "location": "Staff Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_20df28.webp"
+        },
+        {
+          "location": "Open Area, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_8b48a5.webp"
+        },
+        {
+          "location": "Open Area, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_8b48a5.webp"
+        },
+        {
+          "location": "Open Area, Horizontal Wall (3)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_8b48a5.webp"
+        },
+        {
+          "location": "Electrical Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_04d812.webp"
+        },
+        {
+          "location": "Skylight Stairwell, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_fad217.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Open Area",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_8b48a5.webp"
+        },
+        {
+          "location": "Staff Room (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_389e8d.webp"
+        },
+        {
+          "location": "Electrical Room, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_04d812.webp"
+        },
+        {
+          "location": "Skylight Stairwell, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_fad217.webp"
+        },
+        {
+          "location": "Office Hallway, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_20df28.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Staff Room, Jump",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_8898df.webp"
+        },
+        {
+          "location": "Office Hallway, Jump",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_b41fb6.webp"
+        },
+        {
+          "location": "Admin Office, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_edd898.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Admin Office",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_154c6e.webp"
+        },
+        {
+          "location": "Staff Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_549cfa.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "bank_2f",
+      "workingName": "Executive Lounge / CEO Office",
+      "floor": "2nd Floor",
+      "callouts": [
+        "CEO Office",
+        "Conference Room",
+        "Executive Hallway",
+        "Executive Lounge",
+        "Meeting Room"
+      ],
+      "reinforcements": [
+        {
+          "location": "Meeting Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_dbfa4f.webp"
+        },
+        {
+          "location": "Meeting Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_dbfa4f.webp"
+        },
+        {
+          "location": "CEO Office, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_970813.webp"
+        },
+        {
+          "location": "CEO Office, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_970813.webp"
+        },
+        {
+          "location": "Conference Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_0951f7.webp"
+        },
+        {
+          "location": "Conference Room, Horizontal Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_0951f7.webp"
+        },
+        {
+          "location": "Executive Hallway, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_987dcb.webp"
+        },
+        {
+          "location": "Executive Hallway, Vertical Wall (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_987dcb.webp"
+        },
+        {
+          "location": "CEO Office, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_fe5c90.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Conference Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_fe5c90.webp"
+        },
+        {
+          "location": "Conference Room (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_0951f7.webp"
+        },
+        {
+          "location": "Executive Lounge",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_e234c7.webp"
+        },
+        {
+          "location": "Executive Hallway, Foot Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_dbfa4f.webp"
+        },
+        {
+          "location": "Executive Hallway, High Hole",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_7aae3e.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Conference Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_c6b4fe.webp"
+        },
+        {
+          "location": "Conference Room, Stand (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_c6b4fe.webp"
+        },
+        {
+          "location": "Executive Lounge, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_0b6df1.webp"
+        },
+        {
+          "location": "Executive Lounge, Crouch (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_30d5d3.webp"
+        }
+      ],
+      "hatches": [],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    },
+    {
+      "id": "bank_base",
+      "workingName": "Lockers / CCTV Room",
+      "floor": "Basement",
+      "callouts": [
+        "CCTV Room",
+        "Lockers",
+        "Main Stairway",
+        "Secure Hallway",
+        "Server Room",
+        "Vault",
+        "Vault / CCTV Doorway"
+      ],
+      "reinforcements": [
+        {
+          "location": "Server Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_4952f0.webp"
+        },
+        {
+          "location": "Server Room, Vertical Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_4952f0.webp"
+        },
+        {
+          "location": "Lockers, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_6070fe.webp"
+        },
+        {
+          "location": "CCTV Room, Horizontal Wall",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_051b59.webp"
+        }
+      ],
+      "headHoles": [
+        {
+          "location": "Lockers",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_6070fe.webp"
+        },
+        {
+          "location": "Server Room (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_0547c9.webp"
+        },
+        {
+          "location": "Main Stairway",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_4580db.webp"
+        },
+        {
+          "location": "Main Stairway (2)",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_4580db.webp"
+        },
+        {
+          "location": "CCTV Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_051b59.webp"
+        }
+      ],
+      "rotates": [
+        {
+          "location": "Vault / CCTV Doorway, Crouch",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_8c81af.webp"
+        },
+        {
+          "location": "CCTV Room, Stand",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_051b59.webp"
+        },
+        {
+          "location": "CCTV Room, Jump",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_0547c9.webp"
+        }
+      ],
+      "hatches": [
+        {
+          "location": "Secure Hallway",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_6ec571.webp"
+        },
+        {
+          "location": "Vault",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_fac05f.webp"
+        },
+        {
+          "location": "Server Room",
+          "note": "",
+          "timestamp": "",
+          "photo": "assets/site-photos/bank/sc_ab31a5.webp"
+        }
+      ],
+      "gadgetPlacements": [],
+      "operatorRecommendations": [],
+      "generalTips": []
+    }
+  ]
+}

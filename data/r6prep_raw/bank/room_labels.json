@@ -1,0 +1,28 @@
+{
+  "bank_base": {
+    "1": "Server Room", "2": "Server Room", "3": "Lockers",
+    "4": "Secure Hallway", "5": "Vault", "6": "Server Room",
+    "7": "CCTV Room", "8": "Lockers", "9": "Server Room",
+    "10": "Main Stairway", "11": "Main Stairway", "12": "CCTV Room",
+    "13": "Vault / CCTV Doorway", "14": "CCTV Room", "15": "CCTV Room",
+    "16": "Server Room", "17": "CCTV Room"
+  },
+  "bank_1f": {
+    "1": "Admin Office", "2": "Staff Room", "3": "Staff Room",
+    "4": "Staff Room", "5": "Open Area", "6": "Open Area",
+    "7": "Open Area", "8": "Electrical Room", "9": "Skylight Stairwell",
+    "10": "Open Area", "11": "Staff Room", "12": "Electrical Room",
+    "13": "Skylight Stairwell", "14": "Office Hallway", "15": "Staff Room",
+    "16": "Office Hallway", "17": "Admin Office", "18": "Admin Office",
+    "19": "Electrical Room"
+  },
+  "bank_2f": {
+    "1": "Meeting Room", "2": "Meeting Room", "3": "CEO Office",
+    "4": "CEO Office", "5": "Conference Room", "6": "Conference Room",
+    "7": "Executive Hallway", "8": "Executive Hallway", "9": "CEO Office",
+    "10": "Conference Room", "11": "Conference Room", "12": "Executive Lounge",
+    "13": "Executive Hallway", "14": "Executive Hallway", "15": "Conference Room",
+    "16": "Conference Room", "17": "Executive Lounge", "18": "Executive Lounge",
+    "19": "Executive Lounge", "20": "Conference Room"
+  }
+}
