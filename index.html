@@ -219,6 +219,8 @@
 
     <div class="instr" id="instrPanel"></div>
 
+    <div class="instr" id="siteSetupPanel" style="margin-bottom:14px;"></div>
+
     <div class="mapcard" id="mapCard" style="margin-bottom:14px;"></div>
 
     <div class="squadstrip" id="squadStrip"></div>
@@ -1048,7 +1050,75 @@ function renderSquadStrip(){
 // Reinforce/Rotations are team-wide (anyone can do them); Utilities/Defend
 // are filtered to the viewer's own operator, since those are capped by that
 // operator's actual kit, not something any teammate can pick up.
-function renderInstructions(){
+// Attack operators often carry many gadgetPlacements across a whole round
+// (breach, cameras, punch holes, backup kit) with no equivalent of
+// Defense's squad-wide distribution to thin them out — left unchecked
+// that's 6+ chips on one card, each needing a tap to read. Cap the
+// default view to the essentials: keyword-flagged backup/optional/
+// situational items are demoted first, then anything past the cap is
+// demoted too (oldest-priority-first, i.e. later in the transcript).
+// The rest sits behind one "+N more" toggle instead of cluttering the
+// main view.
+const EXTRA_SIGNAL = /\b(backup|optional|alternative|if needed|in case|situational|only if|5th player|swap|can also|not essential)\b/i;
+function splitEssentialExtra(items, cap){
+  const flagged = items.filter(i => EXTRA_SIGNAL.test(i.note || ''));
+  let essential = items.filter(i => !EXTRA_SIGNAL.test(i.note || ''));
+  let extra = flagged;
+  if(essential.length > cap){
+    extra = [...essential.slice(cap), ...extra];
+    essential = essential.slice(0, cap);
+  }
+  return {essential, extra};
+}
+function cappedField(panel, label, items, cap, chipFn, extraToggleId){
+  if(!items || !items.length) return;
+  const {essential, extra} = splitEssentialExtra(items, cap);
+  const g = el('div', 'setupgroup');
+  g.appendChild(el('div', 'label', label));
+  const row = el('div', 'taskrow');
+  essential.forEach((item, i) => row.appendChild(chipFn(item, i)));
+  if(extra.length){
+    const open = state.expandedTasks.has(extraToggleId);
+    if(open){
+      extra.forEach((item, i) => row.appendChild(chipFn(item, 'extra' + i)));
+    } else {
+      const toggle = el('div', 'taskchip extra-toggle', `+${extra.length} more`);
+      toggle.onclick = () => { state.expandedTasks.add(extraToggleId); renderAll(); };
+      row.appendChild(toggle);
+    }
+  }
+  g.appendChild(row);
+  panel.appendChild(g);
+}
+function field(panel, label, items, chipFn){
+  if(!items || !items.length) return;
+  const g = el('div', 'setupgroup');
+  g.appendChild(el('div', 'label', label));
+  const row = el('div', 'taskrow');
+  items.forEach((item, i) => row.appendChild(chipFn(item, i)));
+  g.appendChild(row);
+  panel.appendChild(g);
+}
+
+// This player's geographic slice of the site's reinforce/head-hole/rotate
+// pool (distributeSiteTasks), shared between the two bubbles below: the
+// Site Setup bubble renders it, the Operator bubble reads it just to know
+// whether this player got any head-hole/rotate work (for the shotgun note
+// in Loadout) — computed once so both agree.
+function getMyShare(setup, you){
+  const activePicks = {};
+  activeRoster().forEach(p => { if(state.picks[p.id]) activePicks[p.id] = state.picks[p.id]; });
+  return (state.side === 'Defense')
+    ? distributeSiteTasks(setup, activePicks)[you.id] || {reinforce: [], rotate: []}
+    : {reinforce: [], rotate: []}; // attack has no reinforce/rotate concept
+}
+
+// Bubble 1 — everything scoped to YOUR operator: identity, alternates,
+// real weapon loadout, gadget placement, hold position, squad synergy.
+// Updates whenever the site changes (different site = different
+// recommended operator/loadout) or whenever you personally switch
+// operator — never touched by teammates' picks.
+function renderOperatorBubble(){
   const panel = document.getElementById('instrPanel');
   panel.innerHTML = '';
   const you = ROSTER.find(p => p.id === state.viewingAs);
@@ -1085,89 +1155,37 @@ function renderInstructions(){
 
   const setup = ((SITE_SETUPS[state.map] || {})[state.side] || {})[state.site];
   const idBase = state.map + '|' + state.side + '|' + state.site;
+  const myShare = setup ? getMyShare(setup, you) : {reinforce: [], rotate: []};
 
-  function field(label, items, chipFn){
-    if(!items || !items.length) return;
+  // 3. Loadout — real primary/secondary weapon options for this operator
+  // (data/operator_loadouts.json, verified against official Ubisoft pages,
+  // not transcript-derived). If this round's Site Setup handed you any
+  // head-hole/rotate work, that only happened because distributeSiteTasks
+  // already confirmed your operator has a shotgun (cutting a hole needs
+  // one) — surface that fact here instead of leaving it to infer, and flag
+  // the opposite case too so a shotgunless pick knows to hand rotate/hole
+  // duty to a teammate rather than find out mid-round.
+  const loadout = OPERATOR_LOADOUTS[yourOp];
+  if(loadout){
     const g = el('div', 'setupgroup');
-    g.appendChild(el('div', 'label', label));
-    const row = el('div', 'taskrow');
-    items.forEach((item, i) => row.appendChild(chipFn(item, i)));
-    g.appendChild(row);
-    panel.appendChild(g);
-  }
-
-  // Attack operators often carry many gadgetPlacements across a whole round
-  // (breach, cameras, punch holes, backup kit) with no equivalent of
-  // Defense's squad-wide distribution to thin them out — left unchecked
-  // that's 6+ chips on one card, each needing a tap to read. Cap the
-  // default view to the essentials: keyword-flagged backup/optional/
-  // situational items are demoted first, then anything past the cap is
-  // demoted too (oldest-priority-first, i.e. later in the transcript).
-  // The rest sits behind one "+N more" toggle instead of cluttering the
-  // main view.
-  const EXTRA_SIGNAL = /\b(backup|optional|alternative|if needed|in case|situational|only if|5th player|swap|can also|not essential)\b/i;
-  function splitEssentialExtra(items, cap){
-    const flagged = items.filter(i => EXTRA_SIGNAL.test(i.note || ''));
-    let essential = items.filter(i => !EXTRA_SIGNAL.test(i.note || ''));
-    let extra = flagged;
-    if(essential.length > cap){
-      extra = [...essential.slice(cap), ...extra];
-      essential = essential.slice(0, cap);
+    g.appendChild(el('div', 'label', 'Loadout'));
+    if(loadout.primaries?.length) g.appendChild(el('div', 'setupitem', `Primary: ${loadout.primaries.join(' or ')}`));
+    if(loadout.secondaries?.length) g.appendChild(el('div', 'setupitem', `Secondary: ${loadout.secondaries.join(' or ')}`));
+    const needsShotgun = myShare.rotate.length > 0;
+    if(needsShotgun){
+      g.appendChild(el('div', 'setupitem', 'You have head holes/rotates this round — take the shotgun option above.'));
+    } else if(!loadout.hasShotgunOption){
+      g.appendChild(el('div', 'setupitem', 'No shotgun on this loadout — hand off any head hole/rotate cutting to a teammate who has one.'));
     }
-    return {essential, extra};
-  }
-  function cappedField(label, items, cap, chipFn, extraToggleId){
-    if(!items || !items.length) return;
-    const {essential, extra} = splitEssentialExtra(items, cap);
-    const g = el('div', 'setupgroup');
-    g.appendChild(el('div', 'label', label));
-    const row = el('div', 'taskrow');
-    essential.forEach((item, i) => row.appendChild(chipFn(item, i)));
-    if(extra.length){
-      const open = state.expandedTasks.has(extraToggleId);
-      if(open){
-        extra.forEach((item, i) => row.appendChild(chipFn(item, 'extra' + i)));
-      } else {
-        const toggle = el('div', 'taskchip extra-toggle', `+${extra.length} more`);
-        toggle.onclick = () => { state.expandedTasks.add(extraToggleId); renderAll(); };
-        row.appendChild(toggle);
-      }
-    }
-    g.appendChild(row);
     panel.appendChild(g);
   }
 
   if(!setup){
     panel.appendChild(el('div', 'job empty', `No verified ${state.side.toLowerCase()} setup data yet for this site — add a transcript to data/strategies and re-run build_data.py.`));
-    if(state.side === 'Attack' && window.SIEGE_GENERAL_PRINCIPLES && window.SIEGE_GENERAL_PRINCIPLES.length){
-      const gp = window.SIEGE_GENERAL_PRINCIPLES[0];
-      field('No site plan yet — general principles', gp.categories.flatMap((cat, ci) => cat.tips.map((tip, ti) => ({cat, ci, tip, ti}))),
-        (x) => taskChip(`gp-${x.ci}-${x.ti}`, x.cat.category, x.tip.note, x.tip.timestamp, false));
-    }
     return;
   }
 
-  // 3a. Site Setup — reinforce/hatch/head-hole/rotate tasks combined into one
-  // section so the visible chip always states its own action ("Reinforce" vs
-  // "Head Holes") instead of splitting into separate sections that can look
-  // contradictory (e.g. a wall filed under "Reinforce" whose detail says not
-  // to reinforce it). Team-wide, but split geographically across the squad
-  // (distributeSiteTasks) rather than dumping the whole site's list on every
-  // player. Reinforcements lead, each followed by its connected head
-  // hole/rotate (groupSiteSetupItems); anything with no connection follows
-  // as its own standalone line.
-  const activePicks = {};
-  activeRoster().forEach(p => { if(state.picks[p.id]) activePicks[p.id] = state.picks[p.id]; });
-  const myShare = (state.side === 'Defense')
-    ? distributeSiteTasks(setup, activePicks)[you.id] || {reinforce: [], rotate: []}
-    : {reinforce: [], rotate: []}; // attack has no reinforce/rotate concept
-
-  const siteSetupItems = groupSiteSetupItems([...myShare.reinforce, ...myShare.rotate]);
-
-  field('Site Setup', siteSetupItems, (i, idx) =>
-    taskChip(`${idBase}|setup|${idx}|${i.location}`, `${i.action}: ${i.location}`, i.note, i.timestamp, false));
-
-  // 3c. Utilities — this operator's gadget only, capped at their real charge
+  // 4. Utilities — this operator's gadget only, capped at their real charge
   // count when we have it verified (data/operators.json -> utility). Until
   // gadget counts are filled in, this can't yet enforce the cap — shown
   // uncapped with nothing hidden, never silently overstated as verified.
@@ -1186,7 +1204,7 @@ function renderInstructions(){
     // call — same standard as everything else, just labeled honestly.
     const gadgetInfo = OPERATOR_GADGETS[yourOp];
     if(gadgetInfo){
-      const myWalls = siteSetupItems
+      const myWalls = groupSiteSetupItems([...myShare.reinforce, ...myShare.rotate])
         .filter(i => i.action === 'Reinforce' || i.action === 'Hatch')
         .map(i => i.location);
       const where = myWalls.length ? myWalls.join(', ') : 'your position on this site';
@@ -1201,22 +1219,22 @@ function renderInstructions(){
   if(utilInfo && typeof utilInfo.count === 'number' && myGadgets.length > utilInfo.count){
     utilItems = myGadgets.slice(0, utilInfo.count);
   }
-  cappedField('Utilities', utilItems, 4, (i, idx) =>
+  cappedField(panel, 'Utilities', utilItems, 4, (i, idx) =>
     taskChip(`${idBase}|util|${idx}`, i.location, i.note, i.timestamp, true, utilGenerated),
     `${idBase}|util-extra`);
   if(utilInfo && typeof utilInfo.count === 'number' && myGadgets.length > utilInfo.count){
     panel.appendChild(el('div', 'setupempty', `Only ${utilInfo.count}× ${utilInfo.gadget} — ${myGadgets.length - utilInfo.count} more spot(s) need a teammate or a plain reinforcement instead.`));
   }
 
-  // 3d. Defend — this operator's hold position(s) only. Label uses the real
+  // 5. Defend — this operator's hold position(s) only. Label uses the real
   // room/location (holdLocation) when we have it, not the abstract role word
   // ("Anchor") — you should be able to read the chip and know exactly where
   // to stand without opening it.
   const myHolds = (setup.operatorRecommendations||[]).filter(i => i.operator && i.operator.includes(yourOp));
-  field(state.side === 'Defense' ? 'Defend' : 'Role', myHolds, (i, idx) =>
+  field(panel, state.side === 'Defense' ? 'Defend' : 'Role', myHolds, (i, idx) =>
     taskChip(`${idBase}|def|${idx}`, i.holdLocation || i.role, i.note, '', true));
 
-  // 4. Squad synergy — only if a teammate's pick pairs with this one
+  // 6. Squad synergy — only if a teammate's pick pairs with this one
   const synergyHits = [];
   const synergySource = (STRATEGY_BANK[state.map]?.[state.side]?.[state.site] || {})[yourOp];
   if(synergySource){
@@ -1234,6 +1252,57 @@ function renderInstructions(){
     synergyHits.forEach(line => box.appendChild(el('div', 'row', line)));
     panel.appendChild(box);
   }
+}
+
+// Bubble 2 — purely about the site's own walls: what needs reinforcing,
+// head-holing, or rotating. Content is the same for the whole squad (it's
+// the site's actual layout, not anyone's personal kit); only WHICH slice
+// of it lands on this card changes per player, geographically split and
+// shotgun-gated by distributeSiteTasks — never touched by which operator
+// alternate you personally prefer.
+function renderSiteSetupBubble(){
+  const panel = document.getElementById('siteSetupPanel');
+  panel.innerHTML = '';
+  const you = ROSTER.find(p => p.id === state.viewingAs);
+  const yourOp = state.picks[you.id];
+  if(!yourOp) { panel.style.display = 'none'; return; }
+
+  const setup = ((SITE_SETUPS[state.map] || {})[state.side] || {})[state.site];
+  if(!setup){
+    panel.style.display = 'none';
+    const instrPanel = document.getElementById('instrPanel');
+    if(state.side === 'Attack' && window.SIEGE_GENERAL_PRINCIPLES && window.SIEGE_GENERAL_PRINCIPLES.length){
+      const gp = window.SIEGE_GENERAL_PRINCIPLES[0];
+      field(instrPanel, 'No site plan yet — general principles', gp.categories.flatMap((cat, ci) => cat.tips.map((tip, ti) => ({cat, ci, tip, ti}))),
+        (x) => taskChip(`gp-${x.ci}-${x.ti}`, x.cat.category, x.tip.note, x.tip.timestamp, false));
+    }
+    return;
+  }
+  panel.style.display = '';
+  panel.appendChild(el('div', 'who', 'Site Setup'));
+
+  const idBase = state.map + '|' + state.side + '|' + state.site;
+  const myShare = getMyShare(setup, you);
+
+  // Reinforce/hatch/head-hole/rotate tasks combined into one section so the
+  // visible chip always states its own action ("Reinforce" vs "Head
+  // Holes") instead of splitting into separate sections that can look
+  // contradictory (e.g. a wall filed under "Reinforce" whose detail says
+  // not to reinforce it). Reinforcements lead, each followed by its
+  // connected head hole/rotate (groupSiteSetupItems); anything with no
+  // connection follows as its own standalone line.
+  const siteSetupItems = groupSiteSetupItems([...myShare.reinforce, ...myShare.rotate]);
+  if(!siteSetupItems.length){
+    panel.appendChild(el('div', 'job empty', 'No site setup tasks landed on your card this round.'));
+    return;
+  }
+  field(panel, state.side === 'Defense' ? 'Reinforce / Rotate' : 'Site Setup', siteSetupItems, (i, idx) =>
+    taskChip(`${idBase}|setup|${idx}|${i.location}`, `${i.action}: ${i.location}`, i.note, i.timestamp, false));
+}
+
+function renderInstructions(){
+  renderOperatorBubble();
+  renderSiteSetupBubble();
 }
 
 function renderAliveBtn(){
