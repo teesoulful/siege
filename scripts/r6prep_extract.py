@@ -10,17 +10,25 @@ category + a real in-game photo. Room names must still be assigned by hand
 overlay this script produces.
 
 Usage:
-    python3 scripts/r6prep_extract.py <map-slug>
+    python3 scripts/r6prep_extract.py <r6prep-slug> [local-slug]
     # e.g. python3 scripts/r6prep_extract.py chalet
+    # e.g. python3 scripts/r6prep_extract.py club_house clubhouse
+    #      (r6prep's URL slug differs from ours for a few maps —
+    #      calypso_casino/calypso, club_house/clubhouse,
+    #      kafe_dostoyevsky/kafe-dostoyevsky, nighthaven_labs/nighthaven-labs.
+    #      Pass local-slug to write output under OUR naming convention,
+    #      matching data/maps/<local-slug>.json, while still fetching from
+    #      r6prep's URL. Defaults to the same as r6prep-slug.)
 
 Produces:
-    data/r6prep_raw/<map>/<map>_data.json   — raw extracted r6prep payload
-    data/r6prep_raw/<map>/<site>_annotated.png  — base map with numbered
-                                                    markers, for room-naming
-    assets/site-photos/<map>/sc_*.webp      — every real per-marker photo
+    data/r6prep_raw/<local-slug>/<r6prep-slug>_data.json — raw r6prep payload
+    data/r6prep_raw/<local-slug>/<site>_annotated.png    — base map with
+                                                             numbered markers,
+                                                             for room-naming
+    assets/site-photos/<local-slug>/sc_*.webp — every real per-marker photo
 
 After room_labels.json is filled in by hand, use r6prep_build.py to turn
-this into data/strategies/<map>_defense.json.
+this into data/strategies/<local-slug>_defense.json.
 """
 import json
 import re
@@ -51,13 +59,14 @@ def extract_map_data(html):
 
 
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) not in (2, 3):
         print(__doc__)
         sys.exit(1)
     slug = sys.argv[1]
-    out_dir = ROOT / "data" / "r6prep_raw" / slug
+    local_slug = sys.argv[2] if len(sys.argv) == 3 else slug
+    out_dir = ROOT / "data" / "r6prep_raw" / local_slug
     out_dir.mkdir(parents=True, exist_ok=True)
-    photos_dir = ROOT / "assets" / "site-photos" / slug
+    photos_dir = ROOT / "assets" / "site-photos" / local_slug
     photos_dir.mkdir(parents=True, exist_ok=True)
 
     url = f"https://www.r6prep.com/defender/site-setups/{slug}"
