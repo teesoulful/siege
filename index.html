@@ -546,7 +546,21 @@ function renderSquadPicker(){
 function renderMatchControls(){
   const mapSel = document.getElementById('mapSelect');
   mapSel.innerHTML = '';
-  Object.keys(STRATEGY_BANK).forEach(m => {
+  const availableMaps = Object.keys(STRATEGY_BANK);
+  // state.map can hold a value with no matching <option> — most commonly
+  // a map name synced in from Supabase's shared match_state row before a
+  // data reset removed that map's content. The <select> then falls back to
+  // showing whichever option happens to be first in the DOM, but the
+  // browser never fires a 'change' event for that (nothing the user did
+  // changed the value), so state.map silently stays on the stale name
+  // forever — the dropdown visibly says "Bank" while every render still
+  // uses the old map underneath. Snap state.map itself to match reality
+  // whenever it points at a map with no data.
+  if(availableMaps.length && !availableMaps.includes(state.map)){
+    state.map = availableMaps[0];
+    state.site = (STRATEGY_BANK[state.map] || {}).sites?.[0] || '';
+  }
+  availableMaps.forEach(m => {
     const o = el('option'); o.value = m; o.textContent = m;
     if(m === state.map) o.selected = true;
     mapSel.appendChild(o);
