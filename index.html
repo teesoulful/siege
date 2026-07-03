@@ -1222,12 +1222,6 @@ function renderOperatorBubble(){
         if(loadout.primaries?.length) g.appendChild(el('div', 'setupitem', `Primary: ${loadout.primaries.join(' or ')}`));
         if(loadout.secondaries?.length) g.appendChild(el('div', 'setupitem', `Secondary: ${loadout.secondaries.join(' or ')}`));
       }
-      const needsShotgun = myShare.rotate.length > 0;
-      if(needsShotgun){
-        g.appendChild(el('div', 'setupitem', 'You have head holes/rotates this round — take the shotgun option above.'));
-      } else if(!loadout.hasShotgunOption){
-        g.appendChild(el('div', 'setupitem', 'No shotgun on this loadout — hand off any head hole/rotate cutting to a teammate who has one.'));
-      }
       const acceptBtn = el('button', 'loadout-accept', 'Got it');
       acceptBtn.onclick = (e) => { e.stopPropagation(); state.acceptedLoadouts.add(loadoutKey); renderAll(); };
       g.appendChild(acceptBtn);
