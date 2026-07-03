@@ -1,2 +1,3 @@
 .DS_Store
 supabase/seed.local.sql
+__pycache__/
