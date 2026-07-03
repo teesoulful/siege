@@ -174,7 +174,7 @@ def build():
     if definitive_path.exists():
         for op, d in load_json(definitive_path)["operators"].items():
             loadouts[op] = {**loadouts.get(op, {}), "primary": d["primary"],
-                             "secondary": d["secondary"], "definitive": True}
+                             "secondary": d["secondary"], "gadget": d["utility"], "definitive": True}
     gadgets_path = DATA / "operator_gadgets.json"
     gadgets = load_json(gadgets_path)["gadgets"] if gadgets_path.exists() else {}
     # data/operator_gadget_placements.json (hand-curated, squad-specific)

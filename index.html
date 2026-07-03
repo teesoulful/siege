@@ -1217,6 +1217,7 @@ function renderOperatorBubble(){
       if(loadout.definitive){
         g.appendChild(el('div', 'setupitem', `Primary: ${loadout.primary}`));
         g.appendChild(el('div', 'setupitem', `Secondary: ${loadout.secondary}`));
+        g.appendChild(el('div', 'setupitem', `Gadget: ${loadout.gadget}`));
       } else {
         if(loadout.primaries?.length) g.appendChild(el('div', 'setupitem', `Primary: ${loadout.primaries.join(' or ')}`));
         if(loadout.secondaries?.length) g.appendChild(el('div', 'setupitem', `Secondary: ${loadout.secondaries.join(' or ')}`));
@@ -1244,21 +1245,17 @@ function renderOperatorBubble(){
   if(utilItems.length === 0){
     // No transcript happened to mention this operator's gadget on this
     // site — fall back to what we know generally about their kit (real
-    // gadget, real mechanic, sourced from Ubisoft's own operator page, not
-    // invented) rather than showing an empty Utilities section. Tied to
-    // wherever this player's own Site Setup reinforcements are, so it's
-    // still a concrete instruction, not generic flavor text. Dashed border
-    // in the UI marks it as general knowledge, not a verified site-specific
-    // call — same standard as everything else, just labeled honestly.
+    // gadget, real mechanic, sourced verbatim from
+    // data/operator_gadget_placements.json / operator_gadgets.json, never
+    // invented). The placement text is shown exactly as sourced — no
+    // appended guess at a site-specific wall/room/hatch, since that isn't
+    // confirmed data. Dashed border in the UI marks it as general
+    // knowledge, not a verified site-specific call.
     const gadgetInfo = OPERATOR_GADGETS[yourOp];
     if(gadgetInfo){
-      const myWalls = groupSiteSetupItems([...myShare.reinforce, ...myShare.rotate])
-        .filter(i => i.action === 'Reinforce' || i.action === 'Hatch')
-        .map(i => i.location);
-      const where = myWalls.length ? myWalls.join(', ') : 'your position on this site';
       utilItems = [{
         location: `${gadgetInfo.gadgetName} (General)`,
-        note: `${gadgetInfo.description}${gadgetInfo.usageNote ? ' ' + gadgetInfo.usageNote : ''} No site-specific placement confirmed — apply to ${where}.`,
+        note: `${gadgetInfo.description}${gadgetInfo.usageNote ? ' ' + gadgetInfo.usageNote : ''}`,
         timestamp: '',
       }];
       utilGenerated = true;
