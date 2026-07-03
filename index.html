@@ -83,6 +83,12 @@
   .setupitem .ts{color:var(--text-faint);font-size:12px;margin-left:6px;}
   .setupempty{font-size:14px;color:var(--text-faint);font-style:italic;padding:10px 0;}
 
+  .loadoutbox{border:1px solid var(--amber-dim);background:rgba(232,161,60,.08);border-radius:12px;padding:14px 16px;margin-bottom:14px;}
+  .loadoutbox .setupitem{border-left-color:var(--amber-dim);}
+  .loadout-accept{display:block;margin-top:10px;width:100%;background:var(--amber);color:#1a1300;border:none;border-radius:8px;padding:11px;font-size:15px;font-weight:700;cursor:pointer;min-height:44px;}
+  .loadoutbox.accepted{padding:9px 13px;cursor:pointer;background:transparent;border-style:dashed;border-color:var(--line);}
+  .loadout-collapsed{font-size:13px;color:var(--text-faint);}
+
   .taskrow{display:flex;flex-wrap:wrap;gap:8px;}
   .taskchip{border:1px solid var(--line);background:var(--panel2);color:var(--text);border-radius:9px;padding:9px 13px;font-size:15px;cursor:pointer;line-height:1.35;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;min-height:44px;display:flex;align-items:center;}
   .taskchip:hover{border-color:var(--amber-dim);}
@@ -333,6 +339,13 @@ let state = {
   alive: {tee:true, tamiym:true, stefan:true, eman:true},
   manualPickOpen: false,
   expandedTasks: new Set(),
+  // Keys are `${map}|${side}|${site}|${operator}` — the Loadout box starts
+  // big/expanded (it's an instruction, not a passive fact) and collapses to
+  // a one-line "confirmed" strip once a player taps to accept it, so it
+  // doesn't keep eating screen space every time they reopen the app on the
+  // same pick. Local/session-only by design (not synced) — it's a personal
+  // "I've seen this" gesture, not shared match state.
+  acceptedLoadouts: new Set(),
 };
 
 function el(tag, cls, text){
@@ -1183,25 +1196,41 @@ function renderOperatorBubble(){
   const idBase = state.map + '|' + state.side + '|' + state.site;
   const myShare = setup ? getMyShare(setup, you) : {reinforce: [], rotate: []};
 
-  // 3. Loadout — real primary/secondary weapon options for this operator
-  // (data/operator_loadouts.json, verified against official Ubisoft pages,
-  // not transcript-derived). If this round's Site Setup handed you any
-  // head-hole/rotate work, that only happened because distributeSiteTasks
-  // already confirmed your operator has a shotgun (cutting a hole needs
-  // one) — surface that fact here instead of leaving it to infer, and flag
-  // the opposite case too so a shotgunless pick knows to hand rotate/hole
-  // duty to a teammate rather than find out mid-round.
+  // 3. Loadout — for the ~37 operators the squad's PLAYER_PICKS actually
+  // ever assigns, data/operator_definitive_loadouts.json pins ONE real
+  // primary/secondary/gadget (loadout.definitive) instead of an "X or Y"
+  // choice — an instruction, not options. Starts expanded (it's something
+  // to act on, not passive info) and collapses to a one-line confirmed
+  // strip once tapped, per-pick (acceptedLoadouts key includes map/side/
+  // site/operator) so switching operator or site brings back the full
+  // instruction instead of silently staying collapsed on stale advice.
   const loadout = OPERATOR_LOADOUTS[yourOp];
   if(loadout){
-    const g = el('div', 'setupgroup');
-    g.appendChild(el('div', 'label', 'Loadout'));
-    if(loadout.primaries?.length) g.appendChild(el('div', 'setupitem', `Primary: ${loadout.primaries.join(' or ')}`));
-    if(loadout.secondaries?.length) g.appendChild(el('div', 'setupitem', `Secondary: ${loadout.secondaries.join(' or ')}`));
-    const needsShotgun = myShare.rotate.length > 0;
-    if(needsShotgun){
-      g.appendChild(el('div', 'setupitem', 'You have head holes/rotates this round — take the shotgun option above.'));
-    } else if(!loadout.hasShotgunOption){
-      g.appendChild(el('div', 'setupitem', 'No shotgun on this loadout — hand off any head hole/rotate cutting to a teammate who has one.'));
+    const loadoutKey = `${idBase}|${yourOp}`;
+    const accepted = state.acceptedLoadouts.has(loadoutKey);
+    const g = el('div', 'setupgroup loadoutbox' + (accepted ? ' accepted' : ''));
+    if(accepted){
+      g.appendChild(el('div', 'loadout-collapsed', 'Loadout confirmed — tap to review'));
+      g.onclick = () => { state.acceptedLoadouts.delete(loadoutKey); renderAll(); };
+    } else {
+      g.appendChild(el('div', 'label', 'Loadout'));
+      if(loadout.definitive){
+        g.appendChild(el('div', 'setupitem', `Primary: ${loadout.primary}`));
+        g.appendChild(el('div', 'setupitem', `Secondary: ${loadout.secondary}`));
+        g.appendChild(el('div', 'setupitem', `Gadget: ${loadout.gadget}`));
+      } else {
+        if(loadout.primaries?.length) g.appendChild(el('div', 'setupitem', `Primary: ${loadout.primaries.join(' or ')}`));
+        if(loadout.secondaries?.length) g.appendChild(el('div', 'setupitem', `Secondary: ${loadout.secondaries.join(' or ')}`));
+      }
+      const needsShotgun = myShare.rotate.length > 0;
+      if(needsShotgun){
+        g.appendChild(el('div', 'setupitem', 'You have head holes/rotates this round — take the shotgun option above.'));
+      } else if(!loadout.hasShotgunOption){
+        g.appendChild(el('div', 'setupitem', 'No shotgun on this loadout — hand off any head hole/rotate cutting to a teammate who has one.'));
+      }
+      const acceptBtn = el('button', 'loadout-accept', 'Got it');
+      acceptBtn.onclick = (e) => { e.stopPropagation(); state.acceptedLoadouts.add(loadoutKey); renderAll(); };
+      g.appendChild(acceptBtn);
     }
     panel.appendChild(g);
   }

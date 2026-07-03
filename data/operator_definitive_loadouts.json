@@ -1,0 +1,227 @@
+{
+  "_note": "Loadout lookup keyed by operator name. Fields: side, primary (incl. sight), secondary, utility (secondary gadget). No role/job text by design.",
+  "operators": {
+    "Ace": {
+      "side": "attack",
+      "primary": "AK-12 (1.5x / ACOG)",
+      "secondary": "P9",
+      "utility": "Claymore"
+    },
+    "Maverick": {
+      "side": "attack",
+      "primary": "M4 (ACOG)",
+      "secondary": "1911 TACOPS",
+      "utility": "Frag Grenade"
+    },
+    "Hibana": {
+      "side": "attack",
+      "primary": "Type-89 (1.5x)",
+      "secondary": "P229",
+      "utility": "Stun Grenade"
+    },
+    "Thermite": {
+      "side": "attack",
+      "primary": "556XI (1.5x)",
+      "secondary": "M45 MEUSOC",
+      "utility": "Smoke Grenade"
+    },
+    "Ram": {
+      "side": "attack",
+      "primary": "R4-C (1.5x)",
+      "secondary": "MK1 9mm",
+      "utility": "Frag Grenade"
+    },
+    "Solid Snake": {
+      "side": "attack",
+      "primary": "F2 (1.5x)",
+      "secondary": "TACIT .45 (suppressed)",
+      "utility": "Claymore"
+    },
+    "Deimos": {
+      "side": "attack",
+      "primary": "AK-74M (1.5x)",
+      "secondary": ".44 Vendetta",
+      "utility": "Claymore"
+    },
+    "Grim": {
+      "side": "attack",
+      "primary": "552 Commando (1.5x)",
+      "secondary": "SG-CQB",
+      "utility": "Frag Grenade"
+    },
+    "Osa": {
+      "side": "attack",
+      "primary": "556XI (1.5x)",
+      "secondary": "PMM",
+      "utility": "Smoke Grenade"
+    },
+    "Ying": {
+      "side": "attack",
+      "primary": "T-95 LSW (1.5x)",
+      "secondary": "Q-929",
+      "utility": "Smoke Grenade"
+    },
+    "Nomad": {
+      "side": "attack",
+      "primary": "AK-74M (1.5x)",
+      "secondary": "PRB92",
+      "utility": "Frag Grenade"
+    },
+    "Capitao": {
+      "side": "attack",
+      "primary": "Para-308 (1.5x / ACOG)",
+      "secondary": "PRB92",
+      "utility": "Claymore"
+    },
+    "Gridlock": {
+      "side": "attack",
+      "primary": "F90 (1.5x)",
+      "secondary": "Super Shorty",
+      "utility": "Frag Grenade"
+    },
+    "Fuze": {
+      "side": "attack",
+      "primary": "AK-12",
+      "secondary": "PMM",
+      "utility": "Smoke Grenade"
+    },
+    "Dokkaebi": {
+      "side": "attack",
+      "primary": "XK23 (1.5x)",
+      "secondary": "SMG-12",
+      "utility": "Smoke Grenade"
+    },
+    "Thatcher": {
+      "side": "attack",
+      "primary": "L85A2 (1.5x)",
+      "secondary": "M590A1",
+      "utility": "Breach Charge"
+    },
+    "Lion": {
+      "side": "attack",
+      "primary": "V308 (1.5x)",
+      "secondary": "P9",
+      "utility": "Frag Grenade"
+    },
+    "Twitch": {
+      "side": "attack",
+      "primary": "F2 (1.5x)",
+      "secondary": "SG-CQB",
+      "utility": "Claymore"
+    },
+    "Flores": {
+      "side": "attack",
+      "primary": "SR-25 (1.5x / ACOG)",
+      "secondary": "GSH-18",
+      "utility": "Stun Grenade"
+    },
+    "Mira": {
+      "side": "defense",
+      "primary": "Vector .45 (1x)",
+      "secondary": "ITA12S",
+      "utility": "Nitro Cell"
+    },
+    "Bandit": {
+      "side": "defense",
+      "primary": "MP7 (1x)",
+      "secondary": "P9",
+      "utility": "Nitro Cell"
+    },
+    "Smoke": {
+      "side": "defense",
+      "primary": "FMG-9 (1x)",
+      "secondary": "SMG-11",
+      "utility": "Barbed Wire"
+    },
+    "Fenrir": {
+      "side": "defense",
+      "primary": "MP7 (1x)",
+      "secondary": "Bailiff 410",
+      "utility": "Bulletproof Camera"
+    },
+    "Melusi": {
+      "side": "defense",
+      "primary": "T-5 SMG (1x)",
+      "secondary": "RG15",
+      "utility": "Impact Grenade"
+    },
+    "Kapkan": {
+      "side": "defense",
+      "primary": "9x19VSN (1x)",
+      "secondary": "PMM",
+      "utility": "Impact Grenade"
+    },
+    "Lesion": {
+      "side": "defense",
+      "primary": "T-5 SMG (1x)",
+      "secondary": "Q-929",
+      "utility": "Bulletproof Camera"
+    },
+    "Ela": {
+      "side": "defense",
+      "primary": "Scorpion EVO 3 (1x)",
+      "secondary": "RG15",
+      "utility": "Barbed Wire"
+    },
+    "Thorn": {
+      "side": "defense",
+      "primary": "UZK50Gi (1.5x)",
+      "secondary": "1911 TACOPS",
+      "utility": "Deployable Shield"
+    },
+    "Clash": {
+      "side": "defense",
+      "primary": "CCE Shield",
+      "secondary": "SPSMG9",
+      "utility": "Barbed Wire"
+    },
+    "Kaid": {
+      "side": "defense",
+      "primary": "AUG A3 (1x) / TCSG12 (ACOG)",
+      "secondary": ".44 Mag Semi-Auto (1.5x)",
+      "utility": "Nitro Cell"
+    },
+    "Mute": {
+      "side": "defense",
+      "primary": "MP5K (1x)",
+      "secondary": "P226",
+      "utility": "Nitro Cell"
+    },
+    "Tachanka": {
+      "side": "defense",
+      "primary": "DP27 LMG (1x)",
+      "secondary": "GSH-18",
+      "utility": "Barbed Wire"
+    },
+    "Valkyrie": {
+      "side": "defense",
+      "primary": "MPX (1x)",
+      "secondary": "D-50",
+      "utility": "Nitro Cell"
+    },
+    "Maestro": {
+      "side": "defense",
+      "primary": "ALDA 5.56 (1x)",
+      "secondary": "Keratos .357",
+      "utility": "Barbed Wire"
+    },
+    "Mozzie": {
+      "side": "defense",
+      "primary": "Commando 9 (1x)",
+      "secondary": "Super Shorty",
+      "utility": "Nitro Cell"
+    },
+    "Echo": {
+      "side": "defense",
+      "primary": "MP5SD (1x)",
+      "secondary": "P229",
+      "utility": "Deployable Shield"
+    },
+    "Castle": {
+      "side": "defense",
+      "primary": "UMP45 (1x)",
+      "secondary": "Super Shorty",
+      "utility": "Bulletproof Camera"
+    }
+  }
+}

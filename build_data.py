@@ -164,6 +164,17 @@ def check_no_reinforce_headhole_conflict(strategies):
 def build():
     operators = load_json(DATA / "operators.json")
     loadouts = load_json(DATA / "operator_loadouts.json")["loadouts"]
+    # data/operator_definitive_loadouts.json (hand-curated, squad-specific)
+    # overrides the "X or Y" choice lists above with ONE definitive
+    # primary/secondary/gadget per operator — these are instructions, not
+    # options, for the ~37 operators the squad's PLAYER_PICKS actually ever
+    # assigns. hasShotgunOption is kept from the base entry (unaffected —
+    # it's still the same real loadout, just pinned to one specific weapon).
+    definitive_path = DATA / "operator_definitive_loadouts.json"
+    if definitive_path.exists():
+        for op, d in load_json(definitive_path)["operators"].items():
+            loadouts[op] = {**loadouts.get(op, {}), "primary": d["primary"],
+                             "secondary": d["secondary"], "gadget": d["utility"], "definitive": True}
     gadgets_path = DATA / "operator_gadgets.json"
     gadgets = load_json(gadgets_path)["gadgets"] if gadgets_path.exists() else {}
 
