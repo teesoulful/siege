@@ -256,6 +256,24 @@ def build():
 
     map_floor_images = build_map_floor_images(slug_to_map)
 
+    # SITE_MARKERS[map][site_display] = r6prep's 3D site-setup view (base
+    # image + reinforcement/rotation/head-hole/foot-hole/high-hole/bomb marker
+    # positions) — the app's main map, shown instead of the flat blueprint
+    # wherever it exists. Keyed in the source file by r6prep's site id, which
+    # is exactly the "id" on each strategies site, so resolve id -> display.
+    markers_path = DATA / "site_markers.json"
+    site_markers = {}
+    if markers_path.exists():
+        raw_markers = load_json(markers_path)
+        for map_name, sides in strategies.items():
+            for side_data in sides.values():
+                for site in side_data["sites"]:
+                    m = raw_markers.get(site.get("id"))
+                    if not m:
+                        continue
+                    display = display_names[map_name][site["workingName"]]
+                    site_markers.setdefault(map_name, {})[display] = m
+
     # PLAYER_PICKS[map][side][site_display_name][playerId] = [op,...] — hand
     # curated, per-player, ban-aware preference-ordered operator lists
     # (data/operator_site_profiles.json via scripts/build_operator_picks.py),
@@ -288,6 +306,7 @@ def build():
         f.write("window.SIEGE_OPERATOR_GADGETS = " + json.dumps(gadgets) + ";\n")
         f.write("window.SIEGE_MAPS = " + json.dumps(maps) + ";\n")
         f.write("window.SIEGE_MAP_FLOOR_IMAGES = " + json.dumps(map_floor_images) + ";\n")
+        f.write("window.SIEGE_SITE_MARKERS = " + json.dumps(site_markers) + ";\n")
         f.write("window.SIEGE_STRATEGY_BANK = " + json.dumps(strategy_bank) + ";\n")
         f.write("window.SIEGE_SITE_SETUPS = " + json.dumps(site_setups) + ";\n")
         f.write("window.SIEGE_PLAYER_PICKS = " + json.dumps(player_picks) + ";\n")

@@ -120,6 +120,24 @@
   .mapcard img{width:100%;display:block;}
   .mapcard.placeholder{padding:30px 14px;text-align:center;color:var(--text-faint);font-size:12px;border-style:dashed;}
 
+  /* r6prep 3D site view: base render + positioned setup markers. */
+  .mapcard.siteview{background:#0d0f0e;}
+  .sitewrap{position:relative;line-height:0;}
+  .sitewrap svg.rotarrows{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible;}
+  .marker{position:absolute;transform:translate(-50%,-50%);width:22px;height:22px;border-radius:6px;border:1.5px solid rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:#0d0f0e;line-height:1;box-shadow:0 1px 3px rgba(0,0,0,.5);font-family:var(--font);}
+  .marker.reinf{background:#3d8bf0;}
+  .marker.rot{background:#3fbf6a;border-radius:50%;color:#08130c;}
+  .marker.head{background:#f0a83c;}
+  .marker.foot{background:#ec6ba8;}
+  .marker.high{background:#a86fe0;}
+  .marker.bomb{background:#ecd23c;border-radius:3px;width:24px;height:24px;transform:translate(-50%,-50%) rotate(45deg);color:#0d0f0e;}
+  /* counter-rotate the letter so it stays upright inside the diamond */
+  .marker.bomb .mglyph{display:block;transform:rotate(-45deg);}
+  .maplegend{display:flex;flex-wrap:wrap;gap:10px 14px;padding:10px 12px;background:var(--panel);border-top:1px solid var(--line);}
+  .legitem{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text-dim);}
+  .marker.legdot{position:static;transform:none;width:14px;height:14px;border-width:1px;box-shadow:none;}
+  .marker.bomb.legdot{transform:rotate(45deg);}
+
   .siterow{display:flex;align-items:center;justify-content:space-between;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:16px;}
   .siterow b{font-weight:600;}
 
@@ -342,9 +360,29 @@ const PLAYER_PICKS = window.SIEGE_PLAYER_PICKS || {};
 // right image for whatever site is selected is just reading the first
 // word of state.site, no separate floor lookup needed.
 const MAP_FLOOR_IMAGES = window.SIEGE_MAP_FLOOR_IMAGES || {};
+// r6prep's 3D site-setup view per site (base image + marker positions) —
+// the main map, shown instead of the flat blueprint wherever it exists.
+const SITE_MARKERS = window.SIEGE_SITE_MARKERS || {};
 
+// Marker categories -> colour + glyph, matching r6prep's own legend so the
+// site view reads the same way theirs does.
+const MARKER_STYLE = {
+  reinforcements: {cls: 'reinf', label: 'Reinforce'},
+  rotations:      {cls: 'rot',   label: 'Rotate'},
+  headholes:      {cls: 'head',  label: 'Head hole'},
+  footholes:      {cls: 'foot',  label: 'Foot hole'},
+  highholes:      {cls: 'high',  label: 'High hole'},
+  bombs:          {cls: 'bomb',  label: 'Bomb'},
+};
 function renderMap(){
   const card = document.getElementById('mapCard');
+  const marks = (SITE_MARKERS[state.map] || {})[state.site];
+  if(marks){
+    renderSiteView(card, marks);
+    return;
+  }
+  // Fallback: the flat top-down floor blueprint (used only for the handful of
+  // sites r6prep doesn't cover).
   const mapImages = MAP_FLOOR_IMAGES[state.map] || {};
   const floorToken = (state.site || '').split(' ')[0];
   const src = mapImages[floorToken] || Object.values(mapImages)[0];
@@ -354,6 +392,71 @@ function renderMap(){
   } else {
     card.className = 'mapcard placeholder';
     card.textContent = `Map image not loaded yet for ${state.map}`;
+  }
+}
+
+// r6prep's 3D site view: the base render with reinforcement / rotation /
+// head-hole / etc. markers positioned on top by fractional x/y, plus rotation
+// direction arrows drawn as an SVG overlay. This is the main map now.
+function renderSiteView(card, marks){
+  card.className = 'mapcard siteview';
+  const wrap = el('div', 'sitewrap');
+  const img = document.createElement('img');
+  img.src = marks.image;
+  img.alt = state.map + ' ' + state.site + ' setup';
+  wrap.appendChild(img);
+
+  // Rotation arrows (behind the dots) as one SVG spanning the image.
+  if((marks.rotations || []).length){
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('class', 'rotarrows');
+    svg.setAttribute('viewBox', '0 0 100 100');
+    svg.setAttribute('preserveAspectRatio', 'none');
+    svg.innerHTML = '<defs><marker id="ah" markerWidth="4" markerHeight="4" refX="2.5" refY="2" orient="auto">'
+      + '<path d="M0,0 L4,2 L0,4 Z" fill="#f0a83c"/></marker></defs>';
+    marks.rotations.forEach(r => {
+      const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      line.setAttribute('x1', r.x * 100); line.setAttribute('y1', r.y * 100);
+      line.setAttribute('x2', r.tx * 100); line.setAttribute('y2', r.ty * 100);
+      line.setAttribute('stroke', '#f0a83c'); line.setAttribute('stroke-width', '0.7');
+      line.setAttribute('marker-end', 'url(#ah)');
+      svg.appendChild(line);
+    });
+    wrap.appendChild(svg);
+  }
+
+  const addDot = (x, y, cls, glyph) => {
+    const d = el('div', 'marker ' + cls);
+    if(glyph) d.appendChild(el('span', 'mglyph', glyph));
+    d.style.left = (x * 100) + '%';
+    d.style.top = (y * 100) + '%';
+    wrap.appendChild(d);
+  };
+  (marks.reinforcements || []).forEach(m => addDot(m.x, m.y, 'reinf'));
+  (marks.headholes || []).forEach(m => addDot(m.x, m.y, 'head'));
+  (marks.footholes || []).forEach(m => addDot(m.x, m.y, 'foot'));
+  (marks.highholes || []).forEach(m => addDot(m.x, m.y, 'high'));
+  (marks.rotations || []).forEach(m => addDot(m.x, m.y, 'rot', m.t));
+  (marks.bombs || []).forEach(m => addDot(m.x, m.y, 'bomb', m.label));
+
+  card.innerHTML = '';
+  card.appendChild(wrap);
+
+  // Legend — only the categories actually present on this site.
+  const present = [
+    ['reinforcements', marks.reinforcements], ['rotations', marks.rotations],
+    ['headholes', marks.headholes], ['footholes', marks.footholes],
+    ['highholes', marks.highholes], ['bombs', marks.bombs],
+  ].filter(([, arr]) => (arr || []).length);
+  if(present.length){
+    const leg = el('div', 'maplegend');
+    present.forEach(([kind]) => {
+      const item = el('div', 'legitem');
+      item.appendChild(el('span', 'marker ' + MARKER_STYLE[kind].cls + ' legdot'));
+      item.appendChild(document.createTextNode(MARKER_STYLE[kind].label));
+      leg.appendChild(item);
+    });
+    card.appendChild(leg);
   }
 }
 
