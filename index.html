@@ -140,7 +140,32 @@
 
   .bottombar{display:flex;gap:8px;margin-top:4px;}
   .bottombar button{flex:1;padding:16px;font-size:16px;font-weight:600;}
-  #aliveBtn.toggle-on{background:var(--red);border-color:var(--red);color:#fff;}
+
+  /* Alive button — full width, above the structural action bar. Neutral
+     until you're down, then red (§10). Sits with the squad strip since
+     it's about your own status, not the round's structure. */
+  .alivebtn{display:block;width:100%;padding:15px;font-size:16px;font-weight:600;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:8px;margin-bottom:10px;}
+  .alivebtn.toggle-on{background:var(--red);border-color:var(--red);color:#fff;}
+
+  /* Three structural actions, each a different severity -> a different
+     existing palette colour (§11). Next round = amber (routine primary),
+     Switch side = light/neutral, End game = red (danger, two-tap confirm). */
+  .actionbar{display:flex;gap:8px;margin-top:4px;}
+  .actionbar .act{flex:1;padding:16px 10px;font-size:15px;font-weight:600;border-radius:8px;border:1px solid var(--line);line-height:1.2;}
+  .act-next{background:var(--amber);color:#1a1300;border-color:var(--amber);}
+  .act-next:hover{filter:brightness(1.08);}
+  .act-side{background:#e9e7df;color:#15130d;border-color:#e9e7df;}
+  .act-side:hover{filter:brightness(1.04);}
+  .act-end{background:var(--panel2);color:var(--red);border-color:var(--red);}
+  .act-end.armed{background:var(--red);color:#fff;}
+
+  /* Blank-phase "Pick your site" prompt — deliberately large, the single
+     thing on an otherwise clean slate. */
+  .siteprompt{font-size:20px;font-weight:600;color:var(--text);margin:6px 0 12px;text-align:center;}
+
+  /* Site-stage operator lock — the reward gate for the full reveal. */
+  .lockbtn{display:block;width:100%;margin-top:16px;padding:15px;font-size:16px;font-weight:700;background:var(--amber);color:#1a1300;border:none;border-radius:10px;min-height:48px;}
+  .lockbtn:hover{filter:brightness(1.08);}
 
   details.card{padding:0;overflow:hidden;margin-top:14px;}
   details.card summary{list-style:none;cursor:pointer;padding:14px;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--text-dim);font-weight:600;display:flex;justify-content:space-between;align-items:center;}
@@ -232,9 +257,12 @@
 
     <div class="squadstrip" id="squadStrip"></div>
 
-    <div class="bottombar">
-      <button id="nextRoundBtn" style="background:var(--panel2);color:var(--text);">Next round</button>
-      <button id="aliveBtn"></button>
+    <button id="aliveBtn" class="alivebtn"></button>
+
+    <div class="actionbar" id="actionBar">
+      <button id="nextRoundBtn" class="act act-next">Next round</button>
+      <button id="switchSideBtn" class="act act-side">Switch side</button>
+      <button id="endGameBtn" class="act act-end">End game</button>
     </div>
   </div>
 
@@ -339,6 +367,18 @@ let state = {
   alive: {tee:true, tamiym:true, stefan:true, eman:true},
   manualPickOpen: false,
   expandedTasks: new Set(),
+  // ---- Staged per-round reveal (live screen only) ----
+  // The live screen reveals itself in three stages so each round draws the
+  // eye back instead of showing everything at once. Two pieces drive it:
+  //   • the SHARED part is just "has a site been picked yet" — backed by
+  //     state.site itself ('' = Blank, non-empty = a site is chosen). site
+  //     already syncs through match_state (§12), so no new synced field is
+  //     needed: one person picking the site auto-advances every device.
+  //   • the PER-PLAYER part is `locked` below — local only, never synced.
+  //     Blank -> Site is shared; Site -> Open (full reveal) is each
+  //     player's own reward for locking their operator, so it can't be a
+  //     shared field. livePhase() combines the two into 'blank'|'site'|'open'.
+  locked: false,
   // Keys are `${map}|${side}|${site}|${operator}` — the Loadout box starts
   // big/expanded (it's an instruction, not a passive fact) and collapses to
   // a one-line "confirmed" strip once a player taps to accept it, so it
@@ -355,6 +395,16 @@ function el(tag, cls, text){
   return e;
 }
 function activeRoster(){ return ROSTER.filter(p => state.activeSquad.has(p.id)); }
+// Which of the three staged-reveal states this device is in right now:
+//   'blank' — no site picked yet (shared): show only bans + "Pick your site".
+//   'site'  — a site is picked (shared, auto-advances everyone): show the
+//             operator choice (name + switch chips + Lock), nothing else.
+//   'open'  — this player has locked their operator (local, per-person):
+//             the full live view. Never reached for someone who hasn't locked.
+function livePhase(){
+  if(!state.site) return 'blank';
+  return state.locked ? 'open' : 'site';
+}
 function pickedElsewhere(opId, excludeId){
   return Object.entries(state.picks).some(([pid, op]) => pid !== excludeId && op === opId && state.activeSquad.has(pid));
 }
@@ -432,6 +482,7 @@ async function loadInitialState(){
 }
 
 function applyRemoteMatchState(row, opts){
+  const prevSite = state.site;
   state.map = row.map;
   state.side = row.side;
   state.site = row.site;
@@ -444,6 +495,19 @@ function applyRemoteMatchState(row, opts){
     Attack: new Set((row.ban_history || {}).Attack || []),
   };
   state.picks = row.picks || {tee:'', tamiym:'', stefan:'', eman:''};
+  // Staged-reveal resets, driven off the shared site field:
+  if(!row.site && prevSite){
+    // Someone advanced everyone to Blank (next round / switch side / end
+    // game). Drop this device's lock and come back alive for the fresh
+    // round — this is what auto-blanks a teammate who's looking away.
+    state.locked = false;
+    Object.keys(state.alive).forEach(id => state.alive[id] = true);
+    if(myPlayerId) setMyAlive(true);
+  } else if(row.site && row.site !== prevSite){
+    // A different site was picked — re-advance this device to the operator
+    // stage for the new site instead of holding stale locked detail.
+    state.locked = false;
+  }
   lastSyncedSnapshot = sharedStateSnapshot(); // this came FROM the server — don't echo it straight back
   if(!opts || opts.render !== false) renderAll();
 }
@@ -639,14 +703,27 @@ function renderSiteSection(){
     wrap.appendChild(el('div', 'job empty', 'No verified data for any map yet — check back once the strategy rebuild is underway.'));
     return;
   }
-  if(state.siteExpanded){
-    wrap.appendChild(el('label', 'field', 'Your site')).style.marginBottom = '8px';
+  const phase = livePhase();
+  // Blank phase forces the picker open with a large prompt — it's the one
+  // thing on the clean slate. Otherwise the picker is only open if the
+  // player tapped "Change" (siteExpanded).
+  if(phase === 'blank' || state.siteExpanded){
+    if(phase === 'blank'){
+      wrap.appendChild(el('div', 'siteprompt', 'Pick your site'));
+    } else {
+      wrap.appendChild(el('label', 'field', 'Your site')).style.marginBottom = '8px';
+    }
     const grid = el('div', 'biggrid');
     STRATEGY_BANK[state.map].sites.forEach(s => {
       const btn = el('div', 'bigbtn' + (s === state.site ? ' active' : ''), s);
       btn.onclick = () => {
+        // Picking a site is the shared Blank -> Site advance (site syncs to
+        // every device). A NEW site also means new operator recommendations,
+        // so drop this player's lock and re-draft — everyone lands back on
+        // the operator stage for the freshly chosen site.
         state.site = s;
         state.siteExpanded = false;
+        state.locked = false;
         refreshAllPicks();
         renderAll();
       };
@@ -1192,6 +1269,19 @@ function renderOperatorBubble(){
     panel.appendChild(row);
   }
 
+  // Site stage — only the operator choice is revealed. Show the name + switch
+  // chips (above) and a single Lock button; the full loadout/utilities/defend
+  // detail stays hidden until this player locks. Locking is per-person (local
+  // `state.locked`), so it's the individual gate into the full reveal — a
+  // teammate looking away is auto-advanced to HERE by the shared site pick,
+  // but their full view waits until they themselves confirm.
+  if(livePhase() === 'site'){
+    const lock = el('button', 'lockbtn', `Lock in ${yourOp}`);
+    lock.onclick = () => { state.locked = true; state.manualPickOpen = false; renderAll(); };
+    panel.appendChild(lock);
+    return;
+  }
+
   const setup = ((SITE_SETUPS[state.map] || {})[state.side] || {})[state.site];
   const idBase = state.map + '|' + state.side + '|' + state.site;
   const myShare = setup ? getMyShare(setup, you) : {reinforce: [], rotate: []};
@@ -1357,12 +1447,40 @@ function renderAliveBtn(){
   btn.classList.toggle('toggle-on', !alive);
 }
 
+// Show/hide the live-screen sections for the current staged-reveal phase.
+// The screen order (§ screen order) is fixed in the HTML — instructions
+// above the map above the squad strip — so the "prep vs playing" divide is
+// just the scroll. This only controls which sections exist yet this phase.
+function applyLivePhase(){
+  const phase = livePhase();
+  const show = (id, on) => { const e = document.getElementById(id); if(e) e.style.display = on ? '' : 'none'; };
+  // Blank: bans + "Pick your site" only. Site: + operator choice.
+  // Open: everything.
+  show('pickBlock', phase === 'site');                 // manual-pick fallback, pick stage only
+  show('instrPanel', phase !== 'blank');               // operator card (compact at 'site', full at 'open')
+  show('siteSetupPanel', phase === 'open');            // reinforce/rotate detail — full reveal only
+  show('mapCard', phase === 'open');                   // the in-round reward
+  show('squadStrip', phase === 'open');
+  show('aliveBtn', phase === 'open');                  // your status matters once actually playing
+}
+
+// Shared reset back to the Blank slate. Clears the site (the shared signal
+// that syncs everyone to Blank), this device's lock, and the operator picks.
+// Callers decide round/side/alive; this is only the phase reset.
+function enterBlank(){
+  state.site = '';
+  state.siteExpanded = true;
+  state.locked = false;
+  activeRoster().forEach(p => state.picks[p.id] = '');
+}
+
 function renderAll(){
   renderSquadPicker();
   renderMatchControls();
   if(document.getElementById('screenLive').classList.contains('on')){ updateHeader('screenLive'); }
   document.getElementById('otToggle').classList.toggle('in', state.overtime);
   document.getElementById('roundNum').textContent = state.round;
+  document.getElementById('switchSideBtn').textContent = state.side === 'Defense' ? 'Switch to Attack' : 'Switch to Defense';
   renderBans();
   renderSiteSection();
   renderMap();
@@ -1370,6 +1488,7 @@ function renderAll(){
   renderAliveBtn();
   renderSquadStrip();
   renderInstructions();
+  applyLivePhase();
   maybeSyncState();
 }
 
@@ -1377,8 +1496,15 @@ function renderAll(){
 document.getElementById('toMatchBtn').addEventListener('click', () => showScreen('screenMatch'));
 document.getElementById('backToSetupBtn').addEventListener('click', () => showScreen('screenSetup'));
 document.getElementById('toLiveBtn').addEventListener('click', () => {
+  // Loading in begins the staged sequence at Blank — clear any site carried
+  // over from a previous session so the first thing the squad sees is the
+  // clean "Pick your site" slate, not a stale pre-selected site.
+  state.site = '';
   state.siteExpanded = true;
+  state.locked = false;
+  activeRoster().forEach(p => state.picks[p.id] = '');
   showScreen('screenLive');
+  renderAll();
 });
 document.getElementById('editMatchBtn').addEventListener('click', () => showScreen('screenMatch'));
 document.getElementById('changeSquadBtn').addEventListener('click', () => showScreen('screenSetup'));
@@ -1421,11 +1547,69 @@ document.getElementById('aliveBtn').addEventListener('click', () => {
   renderSquadStrip();
   setMyAlive(newAlive);
 });
+// Next round — shared reset to Blank. Advances the round, drops back to the
+// clean "Pick your site" slate for EVERY device (site='' syncs), clears
+// operator picks, and everyone's back alive. Deliberately does NOT clear
+// bans (they persist through the half) or touch map/side.
 document.getElementById('nextRoundBtn').addEventListener('click', () => {
   state.round += 1;
+  enterBlank();
   Object.keys(state.alive).forEach(id => state.alive[id] = true);
-  refreshAllPicks();
+  if(myPlayerId) setMyAlive(true);
   renderAll();
+});
+
+// Switch side — a new phase, so also resets to Blank. Applies the existing
+// ban logic (§4/§10): normal time clears bans for a fresh half; with the
+// overtime toggle on, restores that side's ban history.
+document.getElementById('switchSideBtn').addEventListener('click', () => {
+  const newSide = state.side === 'Defense' ? 'Attack' : 'Defense';
+  state.banned.forEach(op => state.banHistory[state.side].add(op));
+  state.side = newSide;
+  state.banned = state.overtime ? new Set(state.banHistory[newSide]) : new Set();
+  enterBlank();
+  Object.keys(state.alive).forEach(id => state.alive[id] = true);
+  if(myPlayerId) setMyAlive(true);
+  document.getElementById('sideSelect').value = newSide;
+  renderAll();
+});
+
+// End game — destructive, so it never fires on a single tap. First tap arms
+// (button turns solid red, "Tap again to end"); a second tap within a few
+// seconds actually wipes the match and returns to map/side setup. Arming
+// auto-clears so a stray first tap can't leave it primed indefinitely.
+let endGameArmed = false;
+let endGameTimer = null;
+const endGameBtn = document.getElementById('endGameBtn');
+function disarmEndGame(){
+  endGameArmed = false;
+  clearTimeout(endGameTimer);
+  endGameBtn.classList.remove('armed');
+  endGameBtn.textContent = 'End game';
+}
+endGameBtn.addEventListener('click', () => {
+  if(!endGameArmed){
+    endGameArmed = true;
+    endGameBtn.classList.add('armed');
+    endGameBtn.textContent = 'Tap again to end';
+    endGameTimer = setTimeout(disarmEndGame, 3500);
+    return;
+  }
+  disarmEndGame();
+  // Wipe match progress (round/site/picks/bans/overtime) — keep the map/side
+  // selection the squad returns to on the setup screen to change.
+  state.round = 1;
+  state.overtime = false;
+  state.banned = new Set();
+  state.banHistory = {Defense: new Set(), Attack: new Set()};
+  state.site = '';
+  state.siteExpanded = true;
+  state.locked = false;
+  activeRoster().forEach(p => state.picks[p.id] = '');
+  Object.keys(state.alive).forEach(id => state.alive[id] = true);
+  if(myPlayerId) setMyAlive(true);
+  renderAll();
+  showScreen('screenMatch');
 });
 
 initAuth();
