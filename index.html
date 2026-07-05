@@ -137,6 +137,15 @@
   .switchrow{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
   .switchchip{border:1px solid var(--line);background:var(--panel2);color:var(--text-dim);border-radius:16px;padding:8px 14px;font-size:14px;cursor:pointer;min-height:40px;display:inline-flex;align-items:center;}
   .switchchip.active{border-color:var(--amber);color:var(--amber);background:rgba(232,161,60,.14);}
+  /* Alternates read as smaller, secondary options next to the big hero name. */
+  .switchchip.alt{font-size:13px;padding:6px 12px;min-height:34px;color:var(--text-faint);}
+  .switchchip.alt:hover{color:var(--text);border-color:var(--amber-dim);}
+  .switchchip.alt.next{color:var(--text-dim);border-color:var(--amber-dim);}
+
+  /* "Ideal for this site" — the hero pick is the one meant for this map. */
+  .idealtag{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--amber);background:rgba(232,161,60,.14);border:1px solid var(--amber-dim);border-radius:6px;padding:4px 9px;margin:2px 0 16px;}
+  .alttag{font-size:13px;color:var(--text-dim);margin:2px 0 16px;}
+  .alttag b{color:var(--amber);font-weight:600;}
 
   .bottombar{display:flex;gap:8px;margin-top:4px;}
   .bottombar button{flex:1;padding:16px;font-size:16px;font-weight:600;}
@@ -1244,25 +1253,46 @@ function renderOperatorBubble(){
     return;
   }
 
-  // 1. Operator name
+  // 1. Operator name — the hero. This is the one operator to pick, big.
   panel.appendChild(el('div', 'opline', yourOp));
 
-  // 2. Switch chips — directly under the name, no label above them. This
-  // player's own PLAYER_PICKS list (their whole 5-operator pool for this
-  // site, in preference order) when it's there — that's literally what "the
-  // 2/3 other recommendations if you don't want the main one" means, a
-  // personal alternates list, not a site-wide pool shared with teammates.
-  // Falls back to the site's full named-operator list (old STRATEGY_BANK
-  // behavior) only for a map/site PLAYER_PICKS doesn't cover.
+  // 2. Ideal / alternate hierarchy. This player's PLAYER_PICKS list is in
+  // preference order, so the best still-available pick (visible[0]) is THE
+  // operator meant for this site. Make that felt: a bold "ideal for this
+  // site" tag under the hero name when you're on it, and — if you've
+  // switched off it — a note telling you you're on an alternate and what the
+  // ideal was. The remaining picks render below as smaller "other options",
+  // never as equals to the hero. Falls back to the site's unordered named
+  // list (old STRATEGY_BANK behavior, no meaningful "ideal") only for a
+  // map/site PLAYER_PICKS doesn't cover.
   const directPicks = (((PLAYER_PICKS[state.map] || {})[state.side] || {})[state.site] || {})[you.id];
-  const siteOpPool = directPicks && directPicks.length
+  const hasIdeal = !!(directPicks && directPicks.length);
+  const siteOpPool = hasIdeal
     ? directPicks
     : Object.keys((STRATEGY_BANK[state.map]?.[state.side] || {})[state.site] || {});
   const visible = siteOpPool.filter(op => !state.banned.has(op) && !pickedElsewhere(op, you.id));
-  if(visible.length > 1){
+  const ideal = visible[0];
+
+  if(hasIdeal && ideal){
+    if(yourOp === ideal){
+      panel.appendChild(el('div', 'idealtag', 'Ideal for this site'));
+    } else {
+      const note = el('div', 'alttag');
+      note.appendChild(document.createTextNode('Alternate pick — ideal here is '));
+      note.appendChild(el('b', '', ideal));
+      panel.appendChild(note);
+    }
+  }
+
+  // Smaller "other options" — every still-available pick except the hero.
+  const others = visible.filter(op => op !== yourOp);
+  if(others.length){
+    panel.appendChild(el('div', 'switchlabel', hasIdeal ? 'Other options' : 'Switch operator'));
     const row = el('div', 'switchrow');
-    visible.forEach(op => {
-      const chip = el('div', 'switchchip' + (op === yourOp ? ' active' : ''), op);
+    others.forEach((op, i) => {
+      // First alternate on a PLAYER_PICKS site is the 2nd-best pick — mark it
+      // so it reads as the next-best fallback, not just one of a flat list.
+      const chip = el('div', 'switchchip alt' + (hasIdeal && op === visible[1] ? ' next' : ''), op);
       chip.onclick = () => { state.picks[you.id] = op; state.manualPickOpen = false; renderAll(); };
       row.appendChild(chip);
     });
