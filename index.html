@@ -122,20 +122,23 @@
 
   /* r6prep 3D site view: base render + positioned setup markers. */
   .mapcard.siteview{background:#0d0f0e;}
-  .sitewrap{position:relative;line-height:0;}
+  /* container-type lets the markers size in cqw (% of the MAP's width) so
+     they stay the same proportion of the map on a phone and on a big laptop
+     map — no more oversized dots on a small screen. */
+  .sitewrap{position:relative;line-height:0;container-type:inline-size;}
   .sitewrap svg.rotarrows{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible;}
-  .marker{position:absolute;transform:translate(-50%,-50%);width:22px;height:22px;border-radius:6px;border:1.5px solid rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:#0d0f0e;line-height:1;box-shadow:0 1px 3px rgba(0,0,0,.5);font-family:var(--font);}
+  .marker{position:absolute;transform:translate(-50%,-50%);width:clamp(9px,3cqw,18px);height:clamp(9px,3cqw,18px);border-radius:3px;border:1px solid rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;font-size:clamp(7px,1.9cqw,11px);font-weight:800;color:#0d0f0e;line-height:1;box-shadow:0 1px 2px rgba(0,0,0,.5);font-family:var(--font);}
   .marker.reinf{background:#3d8bf0;}
   .marker.rot{background:#3fbf6a;border-radius:50%;color:#08130c;}
   .marker.head{background:#f0a83c;}
   .marker.foot{background:#ec6ba8;}
   .marker.high{background:#a86fe0;}
-  .marker.bomb{background:#ecd23c;border-radius:3px;width:24px;height:24px;transform:translate(-50%,-50%) rotate(45deg);color:#0d0f0e;}
+  .marker.bomb{background:#ecd23c;border-radius:2px;width:clamp(10px,3.2cqw,19px);height:clamp(10px,3.2cqw,19px);transform:translate(-50%,-50%) rotate(45deg);color:#0d0f0e;}
   /* counter-rotate the letter so it stays upright inside the diamond */
   .marker.bomb .mglyph{display:block;transform:rotate(-45deg);}
-  .maplegend{display:flex;flex-wrap:wrap;gap:10px 14px;padding:10px 12px;background:var(--panel);border-top:1px solid var(--line);}
-  .legitem{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text-dim);}
-  .marker.legdot{position:static;transform:none;width:14px;height:14px;border-width:1px;box-shadow:none;}
+  .maplegend{display:flex;flex-wrap:wrap;gap:6px 12px;padding:8px 11px;background:var(--panel);border-top:1px solid var(--line);}
+  .legitem{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--text-dim);}
+  .marker.legdot{position:static;transform:none;width:11px;height:11px;border-width:1px;box-shadow:none;}
   .marker.bomb.legdot{transform:rotate(45deg);}
 
   .siterow{display:flex;align-items:center;justify-content:space-between;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:16px;}
@@ -205,6 +208,33 @@
 
   .flash.go{animation:flashpulse .9s ease-out;}
   @keyframes flashpulse{0%{opacity:0;} 8%{opacity:.92;} 20%{opacity:.15;} 32%{opacity:.85;} 45%{opacity:0;} 100%{opacity:0;}}
+
+  /* Laptop / desktop: phone layout is untouched (it's fine as-is), but on a
+     wide screen the 520px phone column feels tiny — widen everything and let
+     the map go big / near-full-screen. Kicks in at 1024px so phones and
+     portrait tablets keep the mobile layout. */
+  @media (min-width:1024px){
+    .wrap{max-width:1040px;padding:28px 24px 80px;}
+    h1.centered{font-size:34px;}
+    .biggrid{gap:14px;}
+    .bigbtn{flex-basis:31%;font-size:18px;padding:22px 16px;}
+    .siteprompt{font-size:26px;}
+    .instr{padding:30px 28px;}
+    .instr .opline{font-size:44px;}
+    .idealtag{font-size:13px;}
+    .setupgroup .label{font-size:15px;}
+    .setupitem{font-size:16px;}
+    .taskchip{font-size:17px;}
+    .switchchip{font-size:16px;}
+    .switchchip.alt{font-size:15px;}
+    .loadout-accept,.lockbtn,.alivebtn,.actionbar .act{font-size:18px;padding:18px;}
+    .maplegend{font-size:13px;padding:12px 16px;gap:8px 18px;}
+    .legitem{font-size:13px;}
+    .marker.legdot{width:14px;height:14px;}
+    .stripchip .sname{font-size:16px;}
+    .stripchip .sop{font-size:14px;}
+    .siterow{font-size:19px;padding:15px 18px;}
+  }
 </style>
 
 <div class="flash" id="flashOverlay" style="position:fixed;inset:0;background:var(--red);display:flex;align-items:center;justify-content:center;z-index:999;opacity:0;pointer-events:none;">
